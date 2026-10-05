@@ -1,0 +1,167 @@
+{
+  "id": "u0-02",
+  "unit": "u0",
+  "title": "발음과 악센트",
+  "emoji": "🔤",
+  "date": "2026-09-02",
+  "sources": ["semaine 1-2", "노션 9/1 OT", "노션 9/2", "노션 9/3", "노션 9/10", "Révision générale"],
+  "tips": [
+    {"h": "악센트 5종 + œ (전부 소리 때문에 존재!)", "rows": [["é  aigu", "e에만 · café, été"], ["à è ù  grave", "발음·뜻 구별 · père, où, à"], ["â ê î ô û  circonflexe", "사라진 s의 흔적 · hôtel, île"], ["ë ï  tréma", "두 모음을 따로 · Noël, maïs"], ["ç  cédille", "c [k] → [s] · français, garçon"], ["œ  ligature", "두 글자 합체 · cœur, œuf"]]},
+    {"h": "모음 결합", "rows": [["ai, ei", "[ɛ] 에 · mais, mai, la Seine"], ["oi", "[wa] 우아 · moi, toi"], ["au, eau", "[o] 오 · jaune, l'eau, beau"], ["ou", "[u] 우 · vous, jour"], ["eu (오므려서)", "/ø/ · jeudi, le feu"], ["eu (벌려서)", "/œ/ · la sœur, neuf"]]},
+    {"h": "비모음 (m·n은 소리 내지 않고 코로)", "rows": [["an, am, en, em", "/ɑ̃/ 앙 · la France, ensemble"], ["in, im, ain, aim, ein", "/ɛ̃/ 앵 · le train, le vin, j'ai faim"], ["un, um", "/œ̃/ · un, lundi"], ["on, om", "/ɔ̃/ 옹 · le nom, bon"]], "b": "n·m 뒤에 모음이 오면 비모음이 풀린다: bon [봉] ↔ **bonne [본]**"},
+    {"h": "발음 함정 모음", "b": "nous **faisons** [누 프종] · ils **travaillent** (-ent 묵음)\nun œuf [앵 뇌프] → des **œufs** [데 죄]\n**sept** [쎄뜨] ↔ **septembre** [셉땅브흐]\ncampu**s** [깡퓌스] (s 발음) · rentrer = la rentrée [항트헤]"}
+  ],
+  "fixes": [
+    {"where": "Révision générale p.7", "was": "Nous faisons [누 프송]", "now": "Nous faisons [누 프종]", "why": "모음 사이의 s는 [z]로 난다 → [fəzɔ̃]"},
+    {"where": "노션 9/2", "was": "un oiseau — 연음해야 함 [아누아주]", "now": "un oiseau [앵 누아조]", "why": "eau는 [o] '오' 소리 (주 ✗). un은 비모음 + n이 뒤로 연음"},
+    {"where": "노션 9/2 · Révision générale p.29", "was": "Anaïs — 마지막 s는 거의 안 들리게", "now": "Anaïs [아나이스] — 끝 s까지 발음", "why": "Anaïs는 끝 s를 소리 내는 이름. ï(트레마)는 a와 i를 따로 읽으라는 표시"},
+    {"where": "노션 9/10", "was": "악상 그라브 vs 악상 테귀 발음 차이 (끊어 발음 여부)", "now": "차이는 입 벌림: é는 좁게 [e], è는 넓게 [ɛ]", "why": "모음을 끊어 읽게 하는 건 트레마(ë, ï)의 역할"}
+  ],
+  "note": [
+    {
+      "h": "알파벳", "skill": "spelling", "src": ["semaine 1-2 p.7"],
+      "body": [
+        {"p": "26자 = 모음(voyelles) **6개** A E I O U **Y** + 자음(consonnes) **20개**."}
+      ]
+    },
+    {
+      "h": "악센트 5종 + œ (Les cinq accents)", "skill": "spelling", "src": ["semaine 1-2 p.8", "노션 9/2", "노션 9/10"],
+      "body": [
+        {"memo": "9/2 필기: 'Les Cinq Accents : 발음 때문에 존재' — 장식이 아니라 소리(와 뜻)를 정하는 기호."},
+        {"table": [["기호", "이름 · 역할", "예"], ["é", "accent aigu — e에만 붙음", "café, été"], ["à è ù", "accent grave — 발음·뜻 구별", "père, où, à"], ["â ê î ô û", "accent circonflexe — 사라진 s의 흔적", "hôtel, île"], ["ë ï", "tréma — 연속된 두 모음을 따로", "Noël, maïs"], ["ç", "cédille — c [k] → [s]", "français, garçon"], ["œ", "ligature — 두 글자 합체", "cœur, œuf"]], "head": true},
+        {"p": "**é vs è**: 입 벌림 차이. é는 좁게 [e] '에', è는 넓게 [ɛ] '애'에 가깝게."},
+        {"memo": "9/10 수업: 교수님이 악상 그라브와 악상 테귀의 발음 차이를 짚으심 (필기의 '끊어 발음'은 트레마 이야기 — 정정 참고)."},
+        {"p": "**circonflexe** = 옛 철자의 s가 빠진 자리 → 영어로 뜻이 보인다: hôtel(hostel), île(isle), forêt(forest), l'hôpital(hospital)."},
+        {"p": "**grave**는 뜻도 가른다: ou(또는) ↔ où(어디), a(avoir) ↔ à(~에)."}
+      ]
+    },
+    {
+      "h": "철자 판별 퀴즈 (수업 중 질문)", "skill": "spelling", "src": ["semaine 1-2 p.9", "노션 9/2"],
+      "body": [
+        {"table": [["문제", "정답", "이유"], ["Mbappe / Mbappé", "Mbappé", "끝 e를 [에]로 읽으니 é"], ["le coca / le coça", "le coca", "co는 원래 [코] — ç 불필요"], ["la mére / la mère", "la mère", "mére라는 철자는 없음"], ["l'hopital / l'hôpital", "l'hôpital", "hospital의 s 흔적"], ["mais / maïs", "둘 다 맞음", "mais 그러나 [메] · maïs 옥수수 [마이스]"]], "head": true},
+        {"memo": "9/2 필기: Anaïs — 트레마 덕분에 a와 i를 따로 [아-나-이스]. la mère(엄마)는 è가 빠지면 틀린 철자."}
+      ]
+    },
+    {
+      "h": "모음 결합", "skill": "pron", "src": ["semaine 1-2 p.10", "노션 9/2"],
+      "body": [
+        {"table": [["철자", "소리", "예"], ["ai, ei", "[ɛ] 에", "mais, mai, la Seine"], ["oi", "[wa] 우아", "moi, toi"], ["au, eau", "[o] 오", "jaune, l'eau, beau"], ["ou", "[u] 우", "ou, où, vous, jour"]], "head": true},
+        {"ex": [["beaucoup", "많이 [보꾸] — eau + ou"], ["la tour Eiffel", "에펠탑 [라 뚜흐 에펠] — ou + ei"], ["un oiseau", "새 한 마리 [앵 누아조] — oi + eau"], ["faire", "하다·만들다 [페흐] — ai"], ["naître", "태어나다 [네트흐] — ai + î"]]},
+        {"memo": "9/2 필기: un oiseau는 연음해야 함. faire = do/make (faire du sport 운동하다, faire un gâteau 케이크를 만들다). naître = 태어나다 (Je suis né / Je suis née)."}
+      ]
+    },
+    {
+      "h": "eu · œ: /ø/ vs /œ/", "skill": "pron", "src": ["semaine 1-2 p.9"],
+      "body": [
+        {"table": [["/ø/ 입을 오므려서", "jeudi, le feu"], ["/œ/ 입을 벌려서", "la sœur, neuf"]]},
+        {"p": "요령: eu로 **끝나면**(뒤에 자음 소리 없음) /ø/, 뒤에 **자음 소리**가 이어지면 /œ/."},
+        {"memo": "수업 질문: 'le feu : /œ/ ou /ø/ ? · neuf : /œ/ ou /ø/ ?' → feu = /ø/, neuf = /œ/"}
+      ]
+    },
+    {
+      "h": "비모음 (Les voyelles nasales)", "skill": "pron", "src": ["semaine 1-2 p.11", "노션 9/2"],
+      "body": [
+        {"table": [["철자", "소리", "예"], ["am, an, em, en", "/ɑ̃/ 앙", "la France, ensemble, encore"], ["im, in, aim, ain, ein", "/ɛ̃/ 앵", "important, le train, le vin, un parisien, un coréen"], ["um, un", "/œ̃/", "un, lundi"], ["om, on", "/ɔ̃/ 옹", "le nom, bon"]], "head": true},
+        {"ex": [["un an", "1년 [앵 낭] — 연음"], ["un enfant", "아이 한 명 [앵 낭팡] — 연음"], ["C'est impossible.", "그건 불가능해."], ["Bon concert !", "좋은 공연 되세요!"], ["J'ai faim.", "배고파. — aim = /ɛ̃/"]]},
+        {"memo": "9/2 필기: /ɛ̃/는 '에' 비슷한 소리를 내면서 공기를 코로도 빼는 소리 — vin(와인), pain(빵)."},
+        {"warn": "n·m 뒤에 모음이 오면 비모음이 풀린다: bon [봉] ↔ bonne [본]. 슬라이드 /ɔ̃/ 줄에 bon, bonne이 나란히 나온 건 둘을 소리로 비교해 보라는 것 — bonne 자체는 [본]으로 읽는다."}
+      ]
+    },
+    {
+      "h": "발음 함정 모음", "skill": "pron", "src": ["노션 9/1 OT", "노션 9/3", "노션 9/10", "Révision générale"],
+      "body": [
+        {"list": ["un œuf [앵 뇌프] → des œufs [데 죄] — 복수는 f까지 묵음 (OT)", "le vent [르 방] · Je suis content [꽁땅] · Ils travaillent [일 트하바이] — 동사 어미 -ent만 묵음 (OT)", "nous faisons [누 프종] — ai가 [ə], 모음 사이 s는 [z]", "le campus [깡퓌스] — 끝 s를 발음 (9/3)", "sept [쎄뜨] vs septembre [셉땅브흐] — p 발음 차이 (9/10)", "rentrer = la rentrée [항트헤] — 발음 같음, 관사로 구분 (9/10)"]},
+        {"memo": "OT 필기: '발음 규칙이 많이 어렵다. 발음과 늘 세트로 배우자.' 수업 목표 1번도 bien prononcer."}
+      ]
+    },
+    {
+      "h": "동사에서 나온 명사 · 발음이 같은 짝 (9/10)", "skill": "vocab", "src": ["노션 9/10", "Révision générale p.36"],
+      "body": [
+        {"table": [["동사", "명사"], ["rentrer 돌아가다", "la rentrée 개학·복귀 — 발음이 같다 [항트헤]"], ["sortir 나가다", "la sortie 출구"], ["choisir 선택하다", "le choix 선택 [슈아]"]], "head": true},
+        {"memo": "9/10 수업: 'rentrer vs la rentrée (발음 같음)' → 관사가 붙어 있으면 명사. 동사-명사 짝은 같이 외우면 어휘가 두 배."}
+      ]
+    },
+    {
+      "h": "비모음이 풀리는 짝 · -ent의 세 얼굴", "skill": "pron", "src": ["Révision générale p.31-32", "semaine 1-2 p.11", "노션 9/1 OT"],
+      "body": [
+        {"table": [["비모음 (남성)", "비모음 풀림 (여성)"], ["bon [봉]", "bonne [본]"], ["un [앵]", "une [윈]"], ["brun [브횅]", "brune [브휜]"]], "head": true},
+        {"p": "n·m 뒤에 모음(e)이 붙으면 콧소리가 풀리고 n이 들린다 → 남성형/여성형을 **소리로** 구별하는 단서."},
+        {"table": [["단어", "끝소리"], ["le vent (바람)", "[방] — 명사의 -ent = /ɑ̃/"], ["Je suis content(e). (만족해)", "[꽁땅] — 형용사의 -ent = /ɑ̃/"], ["Ils travaillent.", "[트하바이] — 동사 어미 -ent는 묵음"]], "head": true},
+        {"ex": [["un an", "[앵 낭] 1년 — un의 n 연음"], ["C'est impossible.", "[쎄 땡뽀씨블] 그건 불가능해. — im = /ɛ̃/"], ["Bon concert !", "[봉 꽁쎄흐] 좋은 공연 되세요! — on = /ɔ̃/"], ["un parisien · un coréen", "[빠히지앵] · [꼬헤앵] — -ien/-éen의 en = /ɛ̃/"]]},
+        {"memo": "OT 필기: '발음 규칙이 많이 어렵다. 발음과 늘 세트로 배우자. 명사의 성별 구분도 어려움을 더하는 요소'."}
+      ]
+    },
+    {
+      "h": "슬라이드 예시 단어 모음 (악센트 · 모음 · 비모음)", "skill": "vocab", "src": ["semaine 1-2 p.8-11"],
+      "body": [
+        {"table": [["단어", "뜻", "포인트"], ["le café · l'été (m)", "커피 · 여름", "é aigu"], ["le père", "아버지", "è grave"], ["l'hôtel (m) · l'île (f) · la forêt", "호텔 · 섬 · 숲", "^ = 사라진 s"], ["Noël", "크리스마스", "ë tréma"], ["le garçon", "소년", "ç cédille"], ["le cœur · un œuf", "심장·마음 · 달걀", "œ ligature"], ["la sœur · jeudi", "자매 · 목요일", "/œ/ · /ø/"], ["l'eau (f)", "물", "eau = [o]"], ["le train · le vin · le pain", "기차 · 와인 · 빵", "/ɛ̃/"], ["ensemble · encore", "함께 · 아직/또", "/ɑ̃/"], ["le nom", "이름", "/ɔ̃/"]], "head": true}
+      ]
+    }
+  ],
+  "cards": [
+    {"id": "u0-02-aigu", "t": "choice", "skill": "spelling", "hint": "´가 붙은 단어를 떠올려봐요: café, été… 다른 모음에도 있었나요?", "prompt": "악센트 퀴즈", "q": "accent aigu (´)가 붙을 수 있는 글자는?", "a": "e 하나뿐", "wrong": ["모든 모음", "a와 e", "e와 u"], "say": "café, été", "src": "semaine 1-2", "explain": "é는 e에만! (café, été) à·ù에 붙는 건 accent grave예요."},
+    {"id": "u0-02-mbappe", "t": "choice", "skill": "spelling", "hint": "끝 e를 [에]로 읽으려면 어떤 악센트가 필요할까요?", "prompt": "철자가 맞는 것은?", "q": "Mbappe ou Mbappé ?", "a": "Mbappé", "wrong": ["Mbappe", "Mbappè"], "say": "Mbappé", "pron": "[음바페]", "star": true, "src": "semaine 1-2", "explain": "끝 e를 [에]로 읽어야 하니 é. 악센트가 없으면 e가 묵음이 돼서 '음바프'가 돼요."},
+    {"id": "u0-02-coca", "t": "choice", "skill": "spelling", "hint": "co는 원래 [코] 소리! ç는 언제 쓰는 글자일까요?", "prompt": "철자가 맞는 것은?", "q": "le coca ou le coça ?", "a": "le coca", "wrong": ["le coça", "le côca"], "say": "le coca", "src": "semaine 1-2", "explain": "co는 원래 [코]. ç는 a·o·u 앞에서 [s] 소리를 내고 싶을 때만 써요 (garçon, français)."},
+    {"id": "u0-02-mere", "t": "choice", "skill": "spelling", "hint": "'애'처럼 넓게 읽는 e엔 어느 방향 악센트가 붙을까요?", "prompt": "철자가 맞는 것은?", "q": "la mére ou la mère ?", "a": "la mère", "wrong": ["la mére", "la mere"], "say": "la mère", "star": true, "src": "semaine 1-2", "explain": "엄마는 accent grave: mère [메흐]. mére라는 철자는 없어요."},
+    {"id": "u0-02-err-hopital", "t": "error", "skill": "spelling", "hint": "circonflexe(^)는 사라진 s의 흔적! 영어 hospital을 떠올려봐요", "s": "Je vais à l'hopital.", "wrong": "l'hopital", "right": "l'hôpital", "ko": "나는 병원에 간다.", "src": "semaine 1-2", "explain": "ô는 사라진 s의 흔적 (영어 hospital)."},
+    {"id": "u0-02-err-francais", "t": "error", "skill": "spelling", "hint": "c + a는 [까]! [싸]로 읽으려면 뭐가 필요할까요?", "s": "Tu parles francais ?", "wrong": "francais", "right": "français", "ko": "너 프랑스어 해?", "star": true, "src": "semaine 1-2", "explain": "c + a는 [까]. [싸]로 읽으려면 ç가 필요해요: français, garçon, ça va."},
+    {"id": "u0-02-circonflexe", "t": "choice", "skill": "spelling", "hint": "영어 hostel, isle, forest와 나란히 놓고 비교해봐요!", "prompt": "악센트 퀴즈", "q": "hôtel, île, forêt의 accent circonflexe (^)는 대개 무엇의 흔적?", "a": "사라진 s", "wrong": ["사라진 e", "사라진 h", "긴 모음 표시일 뿐"], "say": "l'hôtel, l'île, la forêt", "src": "노션 9/2", "explain": "hostel → hôtel, isle → île, forest → forêt. 영어 단어를 떠올리면 뜻이 보여요."},
+    {"id": "u0-02-trema", "t": "choice", "skill": "spelling", "hint": "Noël은 [노엘], maïs는 [마이스]. 모음 두 개가 어떻게 읽히나요?", "prompt": "악센트 퀴즈", "q": "Noël, maïs의 tréma (¨) 역할은?", "a": "앞 모음과 떼어서 따로 발음하게 한다", "wrong": ["모음을 길게 늘인다", "모음을 묵음으로 만든다", "c를 [s]로 바꾼다"], "say": "Noël", "src": "semaine 1-2", "explain": "Noël [노엘]: o와 e를 따로. 트레마 = '끊어 읽기' 표시!"},
+    {"id": "u0-02-ligature", "t": "choice", "skill": "spelling", "hint": "œ를 확대해서 봐요 — 어떤 글자들이 숨어 있나요?", "prompt": "악센트 퀴즈", "q": "cœur, œuf, la sœur의 œ는?", "a": "o와 e를 붙여 쓴 한 글자 (ligature)", "wrong": ["악센트가 붙은 o", "e 위의 트레마", "[wa]로 읽는 글자"], "say": "le cœur, un œuf, la sœur", "src": "semaine 1-2", "explain": "œ = o + e 합체(ligature). 소리는 eu처럼 /œ/·/ø/ 계열이에요."},
+    {"id": "u0-02-listen-mais", "t": "listen", "skill": "pron", "hint": "끝 s가 들리나요? 모음이 하나로 뭉치는지 따로 나는지 들어봐요", "say": "maïs", "a": "maïs", "wrong": ["mais"], "ko": "옥수수", "pron": "[마이스]", "star": true, "src": "semaine 1-2", "explain": "mais(그러나)는 [메], maïs(옥수수)는 트레마 덕분에 [마이스]. 둘 다 맞는 단어예요!"},
+    {"id": "u0-02-e-accents", "t": "choice", "skill": "pron", "hint": "café와 mère를 소리 내 봐요. 입 모양이 어떻게 달라요?", "prompt": "발음 차이", "q": "é와 è의 발음 차이는?", "a": "입 벌림 — é는 좁게 [e], è는 넓게 [ɛ]", "wrong": ["è는 앞 모음과 끊어 읽는다", "è는 소리가 나지 않는다", "é는 콧소리가 난다"], "say": "le café, la mère", "star": true, "src": "노션 9/10", "explain": "é는 '에'를 좁게, è는 '애'처럼 크게. 끊어 읽기는 트레마(ë, ï)의 일이에요."},
+    {"id": "u0-02-ou-ou", "t": "choice", "skill": "spelling", "hint": "소리는 똑같은 두 단어! 악센트가 뜻을 갈라요", "prompt": "'어디'를 뜻하는 것은?", "q": "Tu habites ___ ?", "a": "où", "wrong": ["ou", "oû"], "say": "Tu habites où ?", "src": "semaine 1-2", "explain": "ou(또는)와 où(어디)는 소리가 같아요. accent grave가 뜻을 갈라요."},
+    {"id": "u0-02-voyelles", "t": "choice", "skill": "spelling", "hint": "a e i o u 말고도 모음 취급하는 글자가 있을까요? y는? w는?", "prompt": "알파벳", "q": "프랑스어 알파벳 26자 중 모음(voyelle)은 몇 개?", "a": "6개 (a e i o u y)", "wrong": ["5개 (a e i o u)", "7개 (a e i o u y w)", "4개 (a e i o)"], "say": "", "src": "semaine 1-2", "explain": "y까지 모음 6개, 자음 20개예요."},
+    {"id": "u0-02-oi", "t": "choice", "skill": "pron", "hint": "moi, toi를 소리 내 봐요. 영어 'oy'와는 달라요!", "prompt": "소리 고르기", "q": "moi, toi, un oiseau — oi의 소리는?", "a": "[wa] 우아", "wrong": ["[oi] 오이", "[o] 오", "[ɛ] 에"], "say": "moi, toi, un oiseau", "src": "semaine 1-2", "explain": "oi = [wa]. moi [무아], fois [푸아]."},
+    {"id": "u0-02-eau", "t": "choice", "skill": "pron", "hint": "l'eau(물), beau를 떠올려봐요. 모음 여러 개가 한 소리!", "prompt": "소리 고르기", "q": "jaune, l'eau, beau — au/eau의 소리는?", "a": "[o] 오", "wrong": ["[au] 아우", "[ø] 외", "[u] 우"], "say": "jaune, l'eau, beau", "src": "semaine 1-2", "explain": "au·eau = [o]. jaune [존], l'eau [로], beau [보]."},
+    {"id": "u0-02-ai", "t": "choice", "skill": "pron", "hint": "mais(그러나), faire를 읽어봐요. 영어식 '아이'는 함정!", "prompt": "소리 고르기", "q": "mais, mai, la Seine — ai/ei의 소리는?", "a": "[ɛ] 에", "wrong": ["[ai] 아이", "[a] 아", "[wa] 우아"], "say": "mais, mai, la Seine", "src": "semaine 1-2", "explain": "ai·ei = [ɛ]. 영어처럼 '아이'로 읽으면 안 돼요. faire [페흐]도 같은 소리."},
+    {"id": "u0-02-oiseau", "t": "word", "skill": "pron", "fr": "un oiseau", "ko": "새 (한 마리)", "g": "m", "pron": "[앵 누아조]", "note": "un의 n이 연음 · oi [wa] + eau [o]", "src": "노션 9/2", "explain": "모음 앞 un은 n을 넘겨 연음해요. eau는 [오]!"},
+    {"id": "u0-02-beaucoup", "t": "word", "skill": "pron", "fr": "beaucoup", "ko": "많이", "pron": "[보꾸]", "note": "eau [o] + ou [u]", "src": "semaine 1-2"},
+    {"id": "u0-02-eiffel", "t": "word", "skill": "pron", "fr": "la tour Eiffel", "ko": "에펠탑", "g": "f", "pron": "[라 뚜흐 에펠]", "note": "ou [u] + ei [ɛ]", "src": "semaine 1-2"},
+    {"id": "u0-02-naitre", "t": "word", "skill": "pron", "fr": "naître", "ko": "태어나다", "pron": "[네트흐]", "note": "ai [ɛ] + î (circonflexe) · Je suis né / Elle est née", "src": "노션 9/2"},
+    {"id": "u0-02-feu", "t": "choice", "skill": "pron", "hint": "eu 뒤에 자음 소리가 있나요? 없으면 입을 어떻게 할까요?", "prompt": "eu 소리 구별", "q": "le feu의 eu는?", "a": "/ø/ — 입을 오므려서 (jeudi처럼)", "wrong": ["/œ/ — 입을 벌려서 (la sœur처럼)", "/u/ — 우", "/o/ — 오"], "say": "le feu", "pron": "[르 푀]", "star": true, "src": "semaine 1-2", "explain": "eu로 끝나 뒤에 자음 소리가 없으면 오므린 /ø/."},
+    {"id": "u0-02-neuf", "t": "choice", "skill": "pron", "hint": "eu 뒤에 f 소리가 이어져요! 입을 오므릴까요, 벌릴까요?", "prompt": "eu 소리 구별", "q": "neuf의 eu는?", "a": "/œ/ — 입을 벌려서 (la sœur처럼)", "wrong": ["/ø/ — 입을 오므려서 (jeudi처럼)", "/u/ — 우", "/ɛ̃/ — 콧소리"], "say": "neuf", "pron": "[뇌프]", "star": true, "src": "semaine 1-2", "explain": "뒤에 f 소리가 이어지니 입이 열린 /œ/. la sœur도 r이 들려서 /œ/."},
+    {"id": "u0-02-listen-feu", "t": "listen", "skill": "pron", "hint": "eu [ø] vs ou [u] — 입술 모양 차이를 들어봐요", "say": "le feu", "a": "le feu", "wrong": ["le fou"], "ko": "불", "pron": "[르 푀]", "src": "semaine 1-2", "explain": "eu /ø/는 입술을 둥글게 '외', ou는 '우'."},
+    {"id": "u0-02-nasal-in", "t": "choice", "skill": "pron", "hint": "in·ain·aim 철자의 공통 콧소리는? le vin을 떠올려봐요", "prompt": "비모음", "q": "le train, le vin, J'ai faim — 공통 비모음은?", "a": "/ɛ̃/ 앵", "wrong": ["/ɑ̃/ 앙", "/ɔ̃/ 옹", "/œ̃/ 엉"], "say": "le train, le vin, j'ai faim", "src": "semaine 1-2", "explain": "in·ain·aim·ein = /ɛ̃/. '에'를 내면서 코로 공기를 빼는 소리."},
+    {"id": "u0-02-nasal-an", "t": "choice", "skill": "pron", "hint": "an·en 철자의 공통 콧소리! en을 '엔'으로 읽으면 함정", "prompt": "비모음", "q": "la France, ensemble, encore — 공통 비모음은?", "a": "/ɑ̃/ 앙", "wrong": ["/ɛ̃/ 앵", "/ɔ̃/ 옹", "/œ̃/ 엉"], "say": "la France, ensemble, encore", "src": "semaine 1-2", "explain": "an·am·en·em = /ɑ̃/. en도 '엔'이 아니라 '앙'!"},
+    {"id": "u0-02-nasal-un", "t": "choice", "skill": "pron", "hint": "u + n 철자의 비모음! '운'이 아니라 콧소리예요", "prompt": "비모음", "q": "un, lundi의 비모음 철자 un/um의 소리는?", "a": "/œ̃/", "wrong": ["/ɑ̃/", "/ɔ̃/", "/u/ (우)"], "say": "un, lundi", "src": "semaine 1-2", "explain": "un·um = /œ̃/. '운'이 아니라 콧소리로 (요즘은 /ɛ̃/ '앵'과 거의 같게 발음하는 사람도 많아요)."},
+    {"id": "u0-02-enfant", "t": "choice", "skill": "pron", "hint": "모음 앞 un은 연음될까요? 끝 t는 소리 날까요?", "prompt": "발음은?", "q": "un enfant", "a": "[앵 낭팡] — un의 n이 연음", "wrong": ["[앵 앙팡] — 연음 없음", "[윈 엔팡]", "[앵 낭판트]"], "say": "un enfant", "src": "semaine 1-2", "explain": "모음 앞 un은 n을 넘겨 연음. en·an은 둘 다 /ɑ̃/, 끝 t는 묵음. un an [앵 낭]도 같은 원리."},
+    {"id": "u0-02-listen-vent", "t": "listen", "skill": "pron", "hint": "비모음 [ɑ̃](앙)과 [ɛ̃](앵)를 구분해봐요", "say": "le vent", "a": "le vent", "wrong": ["le vin"], "ko": "바람", "pron": "[르 방]", "src": "노션 9/1 OT", "explain": "en/an = /ɑ̃/ 앙, in = /ɛ̃/ 앵."},
+    {"id": "u0-02-listen-bonne", "t": "listen", "skill": "pron", "hint": "콧소리로 끝나는지, n이 또렷이 들리는지 귀 기울여봐요", "say": "bonne", "a": "bonne", "wrong": ["bon"], "ko": "좋은 (여성형)", "pron": "[본]", "src": "semaine 1-2", "explain": "n 뒤에 e가 붙으면 비모음이 풀려 [본]. bon은 콧소리 [봉]."},
+    {"id": "u0-02-faisons", "t": "choice", "skill": "pron", "hint": "faisons의 ai는 예외 발음! 모음 사이 s는 [s]일까 [z]일까?", "prompt": "발음은?", "q": "nous faisons", "a": "[누 프종]", "wrong": ["[누 페종]", "[누 프송]", "[누 페송]"], "say": "nous faisons", "pron": "[누 프종]", "star": true, "src": "Révision générale", "explain": "faisons의 ai는 예외로 [ə](으), 모음 사이 s는 [z] → [프종]!"},
+    {"id": "u0-02-travaillent", "t": "choice", "skill": "pron", "hint": "동사 어미 -ent는 소리가 날까요?", "prompt": "발음은?", "q": "Ils travaillent.", "a": "[일 트하바이] — -ent 묵음", "wrong": ["[일 트하바이앙]", "[일 트하바이엉뜨]", "[일 트하바일렁]"], "say": "Ils travaillent.", "star": true, "src": "노션 9/1 OT", "explain": "동사 어미 -ent는 항상 묵음! 명사 le vent [방], 형용사 content [꽁땅]의 -ent만 콧소리."},
+    {"id": "u0-02-oeuf", "t": "word", "skill": "pron", "fr": "un œuf", "ko": "달걀 하나", "g": "m", "pron": "[앵 뇌프]", "note": "복수 des œufs [데 죄] — f 묵음!", "src": "노션 9/1 OT"},
+    {"id": "u0-02-oeufs", "t": "choice", "skill": "pron", "hint": "단수 un œuf와 달리 복수에선 f가…? 연음도 확인!", "prompt": "발음은?", "q": "des œufs", "a": "[데 죄]", "wrong": ["[데 죄프]", "[데 뇌프]", "[데 조프]"], "say": "des œufs", "star": true, "src": "노션 9/1 OT", "explain": "단수 un œuf는 f를 읽지만, 복수 des œufs는 f가 묵음 + s 연음 [데 죄]. OT에서 짚은 예외!"},
+    {"id": "u0-02-sept", "t": "choice", "skill": "pron", "hint": "숫자 7의 발음부터 떠올려봐요. 9월도 똑같을까요?", "prompt": "p 발음", "q": "sept (7)와 septembre (9월)의 p는?", "a": "sept는 묵음, septembre는 발음", "wrong": ["둘 다 발음", "둘 다 묵음", "sept만 발음"], "say": "sept, septembre", "pron": "[쎄뜨] / [셉땅브흐]", "star": true, "src": "노션 9/10", "explain": "sept [쎄뜨] vs septembre [셉땅브흐]. 필기에 '발음 주의' 표시한 짝!"},
+    {"id": "u0-02-campus", "t": "choice", "skill": "pron", "hint": "am은 비모음, u는 [y]! 끝 s는 예외인지 생각해봐요", "prompt": "발음은?", "q": "Le campus est grand.", "a": "[깡퓌스] — 끝 s 발음", "wrong": ["[깡퓌] — 끝 s 묵음", "[캠퍼스]", "[깡뿌스]"], "say": "Le campus est grand.", "star": true, "src": "노션 9/3", "explain": "프랑스어 끝 s는 보통 묵음이지만 campus는 예외로 s를 읽어요."},
+    {"id": "u0-02-rentree", "t": "choice", "skill": "pron", "hint": "-er의 r은 묵음! 그럼 -er과 -ée는 소리가 다를까요?", "prompt": "발음 비교", "q": "rentrer (돌아가다)와 la rentrée (개학)의 발음은?", "a": "똑같다 [항트헤]", "wrong": ["rentrée만 끝 e를 한 번 더 읽는다", "rentrer는 끝 r을 [흐]로 읽는다", "완전히 다르다"], "say": "rentrer, la rentrée", "src": "노션 9/10", "explain": "-er의 r은 묵음이라 둘 다 [항트헤]. 관사(la)가 있는지로 구분!"},
+    {"id": "u0-02-anais", "t": "choice", "skill": "pron", "hint": "ï의 트레마는 '끊어 읽기' 표시! 이름 끝 s도 확인", "prompt": "발음은?", "q": "Anaïs", "a": "[아나이스]", "wrong": ["[아네]", "[아나이]", "[아네스]"], "say": "Anaïs", "src": "노션 9/2", "explain": "ï 덕분에 a와 i를 따로 [아-나-이스]. 이름 끝 s도 소리 내요."},
+    {"id": "u0-02-faire", "t": "word", "skill": "pron", "fr": "faire", "ko": "하다, 만들다", "pron": "[페흐]", "note": "ai = [ɛ] · faire du sport 운동하다 · faire un gâteau 케이크를 만들다", "src": "노션 9/2"},
+    {"id": "u0-02-ou-sound", "t": "choice", "skill": "pron", "hint": "영어처럼 '아우'가 아니에요! vous를 떠올려봐요", "prompt": "소리 고르기", "q": "vous, jour, où — ou의 소리는?", "a": "[u] 우", "wrong": ["[o] 오", "[wa] 우아", "[y] 위"], "say": "vous, jour, où", "src": "semaine 1-2", "explain": "ou · où = [u] '우'. vous [부], jour [주흐]."},
+    {"id": "u0-02-nasal-on", "t": "choice", "skill": "pron", "hint": "o + n/m 철자의 콧소리! n을 따로 읽지 않아요", "prompt": "비모음", "q": "le nom, bon, Bon concert ! — om/on의 소리는?", "a": "/ɔ̃/ 옹", "wrong": ["/ɑ̃/ 앙", "/ɛ̃/ 앵", "/on/ 온"], "say": "le nom, bon, Bon concert !", "src": "semaine 1-2", "explain": "om · on = /ɔ̃/ '옹': le nom [르 농], bon [봉], concert [꽁쎄흐]."},
+    {"id": "u0-02-impossible", "t": "choice", "skill": "pron", "hint": "important과 같은 철자 묶음! i + m은 어느 콧소리?", "prompt": "비모음", "q": "C'est impossible. — im의 소리는?", "a": "/ɛ̃/ 앵", "wrong": ["/im/ 임", "/ɑ̃/ 앙", "/ɔ̃/ 옹"], "say": "C'est impossible.", "src": "semaine 1-2", "explain": "im · in = /ɛ̃/ '앵': impossible [앵뽀씨블], important [앵뽀흐땅]."},
+    {"id": "u0-02-coreen", "t": "choice", "skill": "pron", "hint": "en이지만 앞에 i·é가 붙어 있어요! 슬라이드 어느 줄이었나요?", "prompt": "비모음", "q": "un parisien, un coréen — 끝 en의 소리는?", "a": "/ɛ̃/ 앵", "wrong": ["/ɑ̃/ 앙", "/ɔ̃/ 옹", "/en/ 엔"], "say": "un parisien, un coréen", "src": "semaine 1-2", "explain": "-ien · -éen의 en은 /ɛ̃/: parisien [빠히지앵], coréen [꼬헤앵]. 슬라이드에서도 /ɛ̃/ 줄!"},
+    {"id": "u0-02-un-an", "t": "choice", "skill": "pron", "hint": "모음 앞 un은 n을 다음 단어로 넘겨요!", "prompt": "발음은?", "q": "un an (1년)", "a": "[앵 낭]", "wrong": ["[앵 앙]", "[운 안]", "[앵 난트]"], "say": "un an", "src": "semaine 1-2", "explain": "un + 모음 → n 연음 [앵 낭]. an은 /ɑ̃/ '앙'."},
+    {"id": "u0-02-content", "t": "choice", "skill": "pron", "hint": "묵음이 되는 건 동사 어미 -ent뿐! content은 동사일까요?", "prompt": "발음은?", "q": "Je suis content. — 끝 -ent는?", "a": "콧소리 /ɑ̃/로 발음 [꽁땅]", "wrong": ["묵음 [꽁뜨]", "[엉뜨]로 발음", "[엔]으로 발음"], "say": "Je suis content.", "src": "노션 9/1 OT", "explain": "형용사 content, 명사 le vent의 -ent는 /ɑ̃/. 묵음은 동사 어미(Ils travaillent)뿐!"},
+    {"id": "u0-02-listen-brune", "t": "listen", "skill": "pron", "hint": "n 뒤에 e가 붙으면 콧소리가 풀려요 — n이 들리나요?", "say": "brune", "a": "brune", "wrong": ["brun"], "ko": "갈색의 (여성형)", "pron": "[브휜]", "src": "Révision générale", "explain": "brun [브횅] (비모음) ↔ brune [브휜] (n 발음). un/une, bon/bonne도 같은 원리."},
+    {"id": "u0-02-soeur", "t": "word", "skill": "pron", "fr": "la sœur", "ko": "자매 (언니·누나·여동생)", "g": "f", "pron": "[라 쐬흐]", "note": "œu + 자음 소리 → 입 벌린 /œ/", "src": "semaine 1-2"},
+    {"id": "u0-02-coeur", "t": "word", "skill": "spelling", "fr": "le cœur", "ko": "심장, 마음", "g": "m", "pron": "[르 꾀흐]", "note": "œ = o + e 합체 (ligature)", "src": "semaine 1-2"},
+    {"id": "u0-02-cafe", "t": "word", "skill": "spelling", "fr": "le café", "ko": "커피, 카페", "g": "m", "note": "é (accent aigu) — e에만 붙는다", "src": "semaine 1-2"},
+    {"id": "u0-02-ete", "t": "word", "skill": "gender", "fr": "l'été", "ko": "여름", "g": "m", "note": "é가 두 번 · 남성 명사", "src": "semaine 1-2"},
+    {"id": "u0-02-pere", "t": "word", "skill": "spelling", "fr": "le père", "ko": "아버지", "g": "m", "pron": "[르 뻬흐]", "note": "è (accent grave) — la mère와 짝", "src": "semaine 1-2"},
+    {"id": "u0-02-hotel", "t": "word", "skill": "gender", "fr": "l'hôtel", "ko": "호텔", "g": "m", "note": "ô = hostel의 s 흔적 · un bel hôtel", "src": "semaine 1-2"},
+    {"id": "u0-02-ile", "t": "word", "skill": "gender", "fr": "l'île", "ko": "섬", "g": "f", "note": "î = isle의 s 흔적", "src": "semaine 1-2"},
+    {"id": "u0-02-foret", "t": "word", "skill": "spelling", "fr": "la forêt", "ko": "숲", "g": "f", "note": "ê = forest의 s 흔적", "src": "Révision générale"},
+    {"id": "u0-02-noel", "t": "word", "skill": "spelling", "fr": "Noël", "ko": "크리스마스", "pron": "[노엘]", "note": "ë (tréma) — o와 e를 따로 읽기", "src": "semaine 1-2"},
+    {"id": "u0-02-garcon", "t": "word", "skill": "spelling", "fr": "le garçon", "ko": "소년", "g": "m", "pron": "[르 갸흐쏭]", "note": "ç (cédille) — c를 [s]로", "src": "semaine 1-2"},
+    {"id": "u0-02-train", "t": "word", "skill": "pron", "fr": "le train", "ko": "기차", "g": "m", "pron": "[르 트항]", "note": "ain = /ɛ̃/", "src": "semaine 1-2"},
+    {"id": "u0-02-vin", "t": "word", "skill": "pron", "fr": "le vin", "ko": "와인", "g": "m", "pron": "[르 뱅]", "note": "in = /ɛ̃/", "src": "semaine 1-2"},
+    {"id": "u0-02-pain", "t": "word", "skill": "pron", "fr": "le pain", "ko": "빵", "g": "m", "pron": "[르 뺑]", "note": "ain = /ɛ̃/ (9/2 필기 예)", "src": "노션 9/2"},
+    {"id": "u0-02-nom", "t": "word", "skill": "pron", "fr": "le nom", "ko": "이름", "g": "m", "pron": "[르 농]", "note": "om = /ɔ̃/ · Quel est ton nom ?", "src": "semaine 1-2"},
+    {"id": "u0-02-ensemble", "t": "word", "skill": "pron", "fr": "ensemble", "ko": "함께", "pron": "[앙쌍블]", "note": "en · em = /ɑ̃/", "src": "semaine 1-2"},
+    {"id": "u0-02-encore", "t": "word", "skill": "pron", "fr": "encore", "ko": "아직, 또", "pron": "[앙꼬흐]", "note": "en = /ɑ̃/", "src": "semaine 1-2"},
+    {"id": "u0-02-concert", "t": "word", "skill": "pron", "fr": "Bon concert !", "ko": "좋은 공연 되세요!", "pron": "[봉 꽁쎄흐]", "note": "on = /ɔ̃/ 두 번", "src": "semaine 1-2"},
+    {"id": "u0-02-faim", "t": "word", "skill": "pron", "fr": "J'ai faim.", "ko": "배고파.", "pron": "[줴 팽]", "note": "aim = /ɛ̃/", "src": "semaine 1-2"},
+    {"id": "u0-02-leau", "t": "word", "skill": "gender", "fr": "l'eau", "ko": "물", "g": "f", "pron": "[로]", "note": "eau = [o] · 여성 명사", "src": "semaine 1-2"}
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "id": "u1-16",
+  "unit": "u1",
+  "title": "대화문 변형 — Olivia와 Jean",
+  "emoji": "🚲",
+  "date": "2026-09-29",
+  "sources": ["노션 9/29", "semaine 5-1 p.3"],
+  "tips": [
+    {
+      "h": "한 줄 요약",
+      "b": "Olivia가 7월에 자전거 타다 넘어짐 🚲 → **오른쪽 어깨 골절** → 한 달 동안 팔을 못 씀 → 지금은 훨씬 나아짐"
+    },
+    {
+      "h": "🔴 같은 Olivia, 다른 일치",
+      "b": "je suis tombé**e** — 이동동사 → 주어에 일치 O\nje me suis cassé l'épaule — COD가 뒤 → 일치 **X**"
+    },
+    {
+      "h": "원본과 같은 틀",
+      "rows": [
+        ["사고", "j'ai eu un accident"],
+        ["부상", "je me suis cassé + 신체부위"],
+        ["결과", "je n'ai pas pu + 동사원형"],
+        ["회복", "je vais beaucoup mieux"]
+      ]
+    },
+    {
+      "h": "소리 함정",
+      "b": "en fait [앙 **페뜨**] — 여기선 t 발음!\nj'ai eu [제 **위**] — eu = [y]"
+    }
+  ],
+  "fixes": [
+    { "where": "노션 9/29 (수업 필기)", "was": "droit(e), gauch(e)", "now": "droit / droite, gauche / gauche", "why": "gauche는 남성·여성 형태가 같다. gauch라는 형태는 없음" }
+  ],
+  "note": [
+    {
+      "h": "대화문 전문 — 〈Dans la rue〉 변형",
+      "skill": "vocab",
+      "src": ["노션 9/29", "semaine 5-1 p.3"],
+      "body": [
+        { "p": "지난주 대화문의 뼈대를 그대로 두고 **친구 사이(tu) 대화**로 바꾼 버전. 다친 사람이 Jean이 아니라 **Olivia 본인**입니다. (슬라이드 없이 수업 중 진행 — 수업 필기 기준)" },
+        { "ex": [
+          ["Olivia : Salut, Jean ! Tu vas bien ?", "안녕, 장! 잘 지내?"],
+          ["Jean : Oui, très bien, merci. Et toi ?", "응, 아주 잘 지내, 고마워. 너는?"],
+          ["Olivia : Ça va. Mais, en fait, j'ai eu un accident pendant les vacances.", "잘 지내. 근데 사실은, 방학 동안 사고를 당했어."],
+          ["Jean : Qu'est-ce qui s'est passé ?", "무슨 일이 있었어?"],
+          ["Olivia : En juillet, j'ai souvent fait du vélo. Tu sais, pour la santé !", "7월에 자전거를 자주 탔거든. 있잖아, 건강을 위해서!"],
+          ["Mais un jour, je suis tombée de vélo.", "그런데 어느 날, 자전거에서 떨어졌어."],
+          ["Jean : Oh là là ! Alors ?", "어머나! 그래서?"],
+          ["Olivia : Je me suis cassé l'épaule droite.", "오른쪽 어깨가 부러졌어."],
+          ["Donc je n'ai pas pu utiliser mon bras pendant un mois.", "그래서 한 달 동안 팔을 쓸 수 없었어."],
+          ["Jean : Mais non ! C'est dommage. Tu vas mieux maintenant ?", "저런! 안됐다. 지금은 좀 나아졌어?"],
+          ["Olivia : Oui, je vais beaucoup mieux, merci.", "응, 훨씬 나아졌어, 고마워."]
+        ] }
+      ]
+    },
+    {
+      "h": "원본 대화문과 비교",
+      "skill": "vocab",
+      "src": ["노션 9/29", "semaine 4-1 p.20"],
+      "body": [
+        { "table": [
+          ["", "원본 (vous)", "변형 (tu)"],
+          ["인사", "Bonjour, Madame Lambert ! Vous allez bien ?", "Salut, Jean ! Tu vas bien ?"],
+          ["되묻기", "Et vous-même ?", "Et toi ?"],
+          ["사고", "Jean a eu un accident de voiture.", "j'ai eu un accident pendant les vacances."],
+          ["부상", "Il s'est cassé une jambe.", "Je me suis cassé l'épaule droite."],
+          ["결과", "nous sommes restés à Paris.", "je n'ai pas pu utiliser mon bras pendant un mois."],
+          ["반응", "C'est dommage ! Il va mieux maintenant ?", "Mais non ! C'est dommage. Tu vas mieux maintenant ?"]
+        ], "head": true },
+        { "p": "틀이 똑같습니다: **사고 → se casser + 신체부위 → 결과 → aller mieux.** 인칭이 바뀌면 재귀대명사도 바뀝니다 — il **s'**est cassé → je **me** suis cassé." }
+      ]
+    },
+    {
+      "h": "🔴 tombée(일치 O) vs cassé(일치 X)",
+      "skill": "agreement",
+      "src": ["노션 9/29"],
+      "body": [
+        { "p": "같은 Olivia가 두 문장을 연달아 말하는데 결과가 다릅니다." },
+        { "table": [
+          ["문장", "왜"],
+          ["je suis tombée de vélo", "tomber = 이동동사(être) → **주어에 일치**. Olivia 여성 → -e"],
+          ["je me suis cassé l'épaule", "부러진 건 l'épaule(**COD, 뒤**) → se는 '자기에게'(COI) → **일치 없음**"]
+        ], "head": true },
+        { "warn": "Olivia가 여자라고 Je me suis cassée l'épaule ✗. 지난주 Il s'est cassé une jambe, Elle s'est lavé les mains와 같은 구조입니다." }
+      ]
+    },
+    {
+      "h": "복합과거 속 부사·부정 — souvent, n'ai pas pu",
+      "skill": "pc-neg-q",
+      "src": ["노션 9/29"],
+      "body": [
+        { "list": [
+          "**j'ai souvent fait** — souvent, bien, beaucoup, déjà 같은 짧은 부사는 **조동사와 과거분사 사이**가 자연스러운 자리 (지난주 vous vous êtes **bien** amusés)",
+          "**je n'ai pas pu utiliser** — ne…pas가 조동사 ai를 감싸고, pouvoir의 과거분사 **pu** 뒤에 동사원형",
+          "**j'ai eu un accident** — avoir의 과거분사 **eu** [y]"
+        ] },
+        { "ex": [
+          ["En juillet, j'ai souvent fait du vélo.", "7월에 자전거를 자주 탔어."],
+          ["Je n'ai pas pu utiliser mon bras.", "팔을 쓸 수 없었어."]
+        ] }
+      ]
+    },
+    {
+      "h": "Qu'est-ce qui s'est passé ?",
+      "skill": "interrog",
+      "src": ["노션 9/29"],
+      "body": [
+        { "p": "**qu'est-ce qui** = 무엇이 (주어) ↔ **qu'est-ce que** = 무엇을 (목적어). '무엇이 일어났나'라서 qui." },
+        { "p": "se passer(일어나다, happen)는 대명동사 → 복합과거 조동사 **être** → s'**est** passé." }
+      ]
+    },
+    {
+      "h": "관사·전치사 — faire du, tomber de, pendant",
+      "skill": "vocab",
+      "src": ["노션 9/29"],
+      "body": [
+        { "list": [
+          "**faire de + 스포츠** → 정관사와 축약: faire **du** vélo (de + le), faire **de la** natation, faire **du** ski",
+          "**tomber de vélo** — '자전거에서 떨어지다'는 관사 없이 de",
+          "**pendant** + 시기·기간 = ~ 동안: pendant les vacances, pendant un mois",
+          "l'épaule **droite** — 형용사는 뒤에서 여성 일치. gauche는 남녀 형태가 같다"
+        ] }
+      ]
+    },
+    {
+      "h": "발음",
+      "skill": "pron",
+      "src": ["노션 9/29"],
+      "body": [
+        { "list": [
+          "en fait [앙 **페뜨**] — 🔴 여기선 t 발음 (동사 il fait [일 페]는 묵음)",
+          "Qu'est-ce qui s'est passé [께스끼 쎄 빠쎄]",
+          "j'ai eu [제 **위**] — eu는 [y] 한 소리. [에우] ✗",
+          "souvent [쑤방] · du vélo [뒤 벨로]",
+          "l'épaule droite [레뽈르 드화뜨] — droite는 t 발음, droit [드화]는 묵음",
+          "le bras [르 브하] — s 묵음 · utiliser [위띨리제]",
+          "pendant‿un mois [빵당 떵 무아] — t 연음",
+          "Oh là là [올랄라] · Mais non [메 농]"
+        ] }
+      ]
+    }
+  ],
+  "cards": [
+    { "id": "u1-16-c-qui-passe", "t": "choice", "skill": "interrog", "prompt": "빈칸에 알맞은 것은?", "q": "___ s'est passé ?", "ko": "무슨 일이 있었어?", "a": "Qu'est-ce qui", "wrong": ["Qu'est-ce que", "Qui est-ce que", "Quoi"], "hint": "빈칸은 '무엇이'(주어) 자리예요.", "explain": "주어 자리 사물 = qu'est-ce qui. 목적어라면 qu'est-ce que.", "src": "노션 9/29", "star": true },
+    { "id": "u1-16-c-tombee", "t": "choice", "skill": "agreement", "prompt": "Olivia의 말 — 빈칸은?", "q": "Mais un jour, je suis ___ de vélo.", "ko": "그런데 어느 날, 자전거에서 떨어졌어.", "a": "tombée", "wrong": ["tombé", "tombés", "tombait"], "hint": "이동동사예요. 말하는 사람은 여자!", "explain": "tomber는 être 동사 → 주어 Olivia(여성)에 일치.", "src": "노션 9/29", "star": true },
+    { "id": "u1-16-c-casse", "t": "choice", "skill": "agreement", "prompt": "Olivia의 말 — 빈칸은?", "q": "Je me suis ___ l'épaule droite.", "ko": "오른쪽 어깨가 부러졌어.", "a": "cassé", "wrong": ["cassée", "cassés", "casser"], "hint": "부러진 게 무엇인지, 그게 어디 있는지 보세요.", "explain": "COD l'épaule가 뒤 → se는 COI → 일치 없음. 말하는 사람이 여자여도!", "src": "노션 9/29", "star": true },
+    { "id": "u1-16-err-cassee", "t": "error", "skill": "agreement", "s": "Olivia : Je me suis cassée l'épaule droite.", "wrong": "cassée", "right": "cassé", "ko": "오른쪽 어깨가 부러졌어.", "hint": "신체부위가 뒤에 COD로 있을 때 일치할까요?", "explain": "Il s'est cassé une jambe와 같은 구조. 주어 성별과 무관하게 cassé.", "src": "노션 9/29", "star": true },
+    { "id": "u1-16-b-souvent", "t": "build", "skill": "pc-neg-q", "prompt": "문장을 만드세요", "ko": "7월에 나는 자전거를 자주 탔어.", "a": "En juillet, j'ai souvent fait du vélo.", "extra": ["de", "le"], "hint": "짧은 부사는 조동사와 과거분사 사이에 둬요.", "explain": "j'ai souvent fait — 부사가 조동사 뒤. faire de + le vélo = du vélo.", "src": "노션 9/29" },
+    { "id": "u1-16-c-du-velo", "t": "choice", "skill": "vocab", "prompt": "빈칸에 알맞은 것은?", "q": "J'ai souvent fait ___ vélo.", "ko": "나는 자전거를 자주 탔어.", "a": "du", "wrong": ["de", "de le", "le"], "hint": "faire de + le vélo — 두 단어가 합쳐져요.", "explain": "de + le = du. 여성 스포츠면 de la (faire de la natation).", "src": "노션 9/29" },
+    { "id": "u1-16-c-de-velo", "t": "choice", "skill": "vocab", "prompt": "빈칸에 알맞은 것은?", "q": "Un jour, je suis tombée ___ vélo.", "ko": "어느 날, 자전거에서 떨어졌어.", "a": "de", "wrong": ["en", "à", "sur"], "hint": "'~에서' 떨어지다 — 출발점을 나타내는 전치사예요.", "explain": "tomber de vélo = 자전거에서 떨어지다.", "src": "노션 9/29" },
+    { "id": "u1-16-b-pas-pu", "t": "build", "skill": "pc-neg-q", "prompt": "부정문으로 바꾸세요", "from": "J'ai pu utiliser mon bras.", "a": "Je n'ai pas pu utiliser mon bras.", "extra": ["ne", "pouvoir"], "ko": "나는 팔을 쓸 수 없었어.", "hint": "ne…pas는 조동사를 감싸요. 모음 앞 ne는?", "explain": "Je n'ai pas pu + 동사원형.", "src": "노션 9/29" },
+    { "id": "u1-16-c-pu", "t": "choice", "skill": "pp", "prompt": "빈칸에 알맞은 것은?", "q": "Je n'ai pas ___ utiliser mon bras pendant un mois.", "ko": "한 달 동안 팔을 쓸 수 없었어.", "a": "pu", "wrong": ["pouvu", "peux", "pouvé"], "hint": "pouvoir의 과거분사 — 아주 짧은 불규칙형이에요.", "explain": "pouvoir → pu. 뒤에 동사원형 utiliser.", "src": "노션 9/29" },
+    { "id": "u1-16-c-eu", "t": "choice", "skill": "pp", "prompt": "빈칸에 알맞은 것은?", "q": "En fait, j'ai ___ un accident pendant les vacances.", "ko": "사실은, 방학 동안 사고를 당했어.", "a": "eu", "wrong": ["été", "avu", "eut"], "hint": "avoir의 과거분사예요.", "explain": "avoir → eu [y]. 발음은 '위'.", "src": "노션 9/29" },
+    { "id": "u1-16-c-pendant", "t": "choice", "skill": "vocab", "prompt": "빈칸에 알맞은 것은?", "q": "Je n'ai pas pu utiliser mon bras ___ un mois.", "ko": "한 달 동안 팔을 쓸 수 없었어.", "a": "pendant", "wrong": ["depuis", "dans", "il y a"], "hint": "이미 끝난 '한 달 동안'이에요.", "explain": "pendant + 기간 = ~ 동안. pendant les vacances도 같은 전치사.", "src": "노션 9/29" },
+    { "id": "u1-16-c-droite", "t": "choice", "skill": "adj", "prompt": "빈칸에 알맞은 것은?", "q": "Je me suis cassé l'épaule ___.", "ko": "오른쪽 어깨가 부러졌어.", "a": "droite", "wrong": ["droit", "droits", "droites"], "hint": "épaule는 여성 단수 명사예요.", "explain": "여성 단수 → droite (t 발음). 남성이면 le bras droit.", "src": "노션 9/29" },
+    { "id": "u1-16-err-gauch", "t": "error", "skill": "spelling", "s": "Je me suis cassé le bras gauch.", "wrong": "gauch", "right": "gauche", "ko": "왼쪽 팔이 부러졌어.", "hint": "이 형용사는 남성·여성 형태가 하나뿐이에요.", "explain": "gauche는 남녀 모두 gauche. 필기의 gauch(e) 정정.", "src": "노션 9/29", "star": true },
+    { "id": "u1-16-c-et-toi", "t": "choice", "skill": "pron-tonic", "prompt": "친구 Jean이 되물을 말은?", "q": "Oui, très bien, merci. Et ___ ?", "ko": "응, 아주 잘 지내, 고마워. 너는?", "a": "toi", "wrong": ["vous-même", "tu", "te"], "hint": "친구 사이(tu)의 강세형이에요.", "explain": "tu의 강세형 toi. 원본의 존칭 버전은 Et vous-même ?", "src": "노션 9/29" },
+    { "id": "u1-16-c-mais-non", "t": "choice", "skill": "greet", "prompt": "여기서 Mais non !의 뜻은?", "q": "— Je n'ai pas pu utiliser mon bras pendant un mois.\n— Mais non ! C'est dommage.", "a": "저런! (놀람·안타까움)", "wrong": ["아니야, 틀렸어", "그러면 안 되지", "천만에"], "say": "", "hint": "뒤에 C'est dommage가 이어져요. 부정일까요, 반응일까요?", "explain": "상대 말을 부정하는 게 아니라 '저런, 설마!'라는 놀람의 반응.", "src": "노션 9/29" },
+    { "id": "u1-16-c-en-fait-pron", "t": "choice", "skill": "pron", "prompt": "en fait의 발음은?", "q": "'사실은'이라는 뜻의 en fait를 어떻게 읽나요?", "a": "[앙 페뜨] — t를 발음", "wrong": ["[앙 페] — t 묵음", "[앙 파이뜨]", "[엉 파잇]"], "say": "en fait", "hint": "동사 il fait와는 끝소리가 달라요.", "explain": "en fait에서는 t를 발음. 동사 fait [페]는 t 묵음.", "src": "노션 9/29", "star": true },
+    { "id": "u1-16-c-eu-pron", "t": "choice", "skill": "pron", "prompt": "j'ai eu의 eu 발음은?", "q": "avoir의 과거분사 eu는 어떻게 읽나요?", "a": "[y] — '위' 한 소리", "wrong": ["[ø] — '외'", "[eu] — '에우'", "[œ] — '어'"], "say": "j'ai eu", "hint": "보통의 eu 소리와 달라요. tu의 모음과 같아요.", "explain": "과거분사 eu는 예외적으로 [y]. j'ai eu [제 위].", "src": "노션 9/29" },
+    { "id": "u1-16-w-en-fait", "t": "word", "skill": "vocab", "fr": "en fait", "ko": "사실은", "pron": "[앙 페뜨]", "src": "노션 9/29" },
+    { "id": "u1-16-w-se-passer", "t": "word", "skill": "vocab", "fr": "se passer", "ko": "일어나다, 벌어지다", "src": "노션 9/29" },
+    { "id": "u1-16-w-souvent", "t": "word", "skill": "vocab", "fr": "souvent", "ko": "자주", "pron": "[쑤방]", "src": "노션 9/29" },
+    { "id": "u1-16-w-faire-velo", "t": "word", "skill": "vocab", "fr": "faire du vélo", "ko": "자전거를 타다", "src": "노션 9/29" },
+    { "id": "u1-16-w-sante", "t": "word", "skill": "vocab", "fr": "la santé", "ko": "건강", "g": "f", "src": "노션 9/29" },
+    { "id": "u1-16-w-un-jour", "t": "word", "skill": "vocab", "fr": "un jour", "ko": "어느 날", "src": "노션 9/29" },
+    { "id": "u1-16-w-oh-la-la", "t": "word", "skill": "vocab", "fr": "Oh là là !", "ko": "어머나! 이런!", "src": "노션 9/29" },
+    { "id": "u1-16-w-epaule", "t": "word", "skill": "vocab", "fr": "l'épaule", "ko": "어깨", "g": "f", "pron": "[레뽈르]", "src": "노션 9/29" },
+    { "id": "u1-16-w-bras", "t": "word", "skill": "vocab", "fr": "le bras", "ko": "팔", "g": "m", "pron": "[르 브하]", "note": "s 묵음", "src": "노션 9/29" },
+    { "id": "u1-16-w-droit", "t": "word", "skill": "vocab", "fr": "droit / droite", "ko": "오른쪽의", "say": "droit, droite", "src": "노션 9/29" },
+    { "id": "u1-16-w-gauche", "t": "word", "skill": "vocab", "fr": "gauche", "ko": "왼쪽의", "note": "남녀 형태 동일", "src": "노션 9/29" },
+    { "id": "u1-16-w-utiliser", "t": "word", "skill": "vocab", "fr": "utiliser", "ko": "사용하다, 쓰다", "src": "노션 9/29" },
+    { "id": "u1-16-w-donc", "t": "word", "skill": "vocab", "fr": "donc", "ko": "그래서, 따라서", "src": "노션 9/29" }
+  ]
+}

@@ -1,0 +1,617 @@
+{
+  "id": "u1-13",
+  "unit": "u1",
+  "title": "장소 전치사 à · en · au(x)",
+  "emoji": "🗺️",
+  "date": "2026-09-23",
+  "sources": [
+    "semaine 4-2"
+  ],
+  "tips": [
+    {
+      "h": "한 줄 규칙",
+      "rows": [
+        [
+          "도시",
+          "à Paris · à Séoul · à Genève"
+        ],
+        [
+          "여성 국가",
+          "en France · en Allemagne"
+        ],
+        [
+          "남성 국가",
+          "au Japon · au Canada"
+        ],
+        [
+          "복수 국가",
+          "aux États-Unis · aux Pays-Bas"
+        ],
+        [
+          "지방·지역",
+          "en Provence · en Normandie"
+        ]
+      ]
+    },
+    {
+      "h": "국가의 성 판별",
+      "b": "**-e로 끝나면 여성** → en (la France, l'Allemagne, la Chine, la Corée)\n그 외는 남성 → au (le Japon, le Canada, le Portugal)"
+    },
+    {
+      "h": "au · aux의 정체",
+      "b": "au = **à + le** · aux = **à + les**\n남성·복수 국가는 정관사를 쓰니까 축약이 일어나는 것.\n여성 국가는 정관사가 사라지고 en만 남는 게 예외!"
+    },
+    {
+      "h": "🔴 대화문 예외",
+      "b": "Nous sommes allés **sur** la Côte d'Azur.\n지역인데 en이 아니라 sur — la côte(해안)가 들어 있어 '해안 위에'로 굳은 관용 표현."
+    }
+  ],
+  "note": [
+    {
+      "h": "장소 전치사 à / en / au / aux",
+      "skill": "prep-lieu",
+      "src": [
+        "semaine 4-2 p.15",
+        "semaine 4-2 p.16"
+      ],
+      "body": [
+        {
+          "p": "'~에 가다 / ~에 있다 / ~에 산다'를 말할 때 붙이는 전치사입니다. 프랑스어는 영어의 to와 in을 구별하지 않아서, **가는 것도 있는 것도 같은 전치사**를 씁니다."
+        },
+        {
+          "table": [
+            [
+              "전치사",
+              "앞에 오는 것",
+              "예문"
+            ],
+            [
+              "à",
+              "도시",
+              "Je veux aller à Paris. · Tu habites à Séoul."
+            ],
+            [
+              "en",
+              "여성 국가",
+              "Je vais partir en France. · Il est resté un an en Allemagne."
+            ],
+            [
+              "au",
+              "남성 국가",
+              "J'aime voyager au Japon. · Elles travaillent au Canada."
+            ],
+            [
+              "aux",
+              "복수 국가",
+              "Je veux étudier aux États-Unis. · … rester aux Philippines."
+            ],
+            [
+              "en",
+              "지방·지역",
+              "Mon amie habite en Provence. · Le Mont-Saint-Michel est en Normandie."
+            ]
+          ],
+          "head": true
+        },
+        {
+          "ex": [
+            [
+              "Je veux aller à Paris.",
+              "나는 파리에 가고 싶다."
+            ],
+            [
+              "Tu habites à Séoul.",
+              "너는 서울에 산다."
+            ],
+            [
+              "Je vais partir en France.",
+              "나는 프랑스로 떠날 것이다."
+            ],
+            [
+              "Il est resté un an en Allemagne.",
+              "그는 독일에서 1년간 머물렀다."
+            ],
+            [
+              "J'aime voyager au Japon.",
+              "나는 일본 여행을 좋아한다."
+            ],
+            [
+              "Elles travaillent au Canada.",
+              "그녀들은 캐나다에서 일한다."
+            ],
+            [
+              "Je veux étudier aux États-Unis.",
+              "나는 미국에서 공부하고 싶다."
+            ],
+            [
+              "La semaine prochaine, nous allons rester aux Philippines.",
+              "다음 주에 우리는 필리핀에 머물 것이다."
+            ],
+            [
+              "Mon amie habite en Provence.",
+              "내 친구는 프로방스에 산다."
+            ],
+            [
+              "Le Mont-Saint-Michel est en Normandie.",
+              "몽생미셸은 노르망디에 있다."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "h": "국가의 성을 어떻게 아나 · au와 aux의 정체",
+      "skill": "prep-lieu",
+      "src": [
+        "semaine 4-2 p.15",
+        "semaine 4-2 p.16"
+      ],
+      "body": [
+        {
+          "list": [
+            "여성 국가(대부분 **-e**로 끝남): la France, l'Allemagne, la Chine, la Corée, la Belgique → **en**",
+            "남성 국가: le Japon, le Canada, le Portugal, le Maroc, le Brésil → **au**",
+            "복수 국가: les États-Unis, les Philippines, les Pays-Bas → **aux**"
+          ]
+        },
+        {
+          "p": "**au = à + le**, **aux = à + les**의 축약입니다. 남성·복수 국가명은 정관사를 달고 다니니까 à와 부딪쳐 줄어드는 것이고요. 반대로 여성 국가는 정관사가 통째로 사라지고 en만 남는 **예외적** 처리를 받습니다."
+        },
+        {
+          "warn": "도시 이름을 나라 이름으로 착각하지 마세요. Genève는 스위스의 **도시** → à Genève. 나라로 말하려면 en Suisse."
+        },
+        {
+          "warn": "les Pays-Bas는 pays(나라)가 들어 있어 단수처럼 보이지만 les가 붙는 **복수** 국가명 → aux Pays-Bas."
+        },
+        {
+          "memo": "보충: le Mexique, le Cambodge처럼 -e로 끝나는데 남성인 예외도 있습니다 (→ au Mexique). 수업에서는 다루지 않았지만 알아두면 좋아요."
+        }
+      ]
+    },
+    {
+      "h": "대화문의 예외 — sur la Côte d'Azur",
+      "skill": "prep-lieu",
+      "src": [
+        "semaine 4-2 p.10",
+        "노션 9/22"
+      ],
+      "body": [
+        {
+          "p": "지난 시간 텍스트의 **Nous sommes allés sur la Côte d'Azur**를 위 규칙과 비교해 보세요. 지역인데 en이 아니라 **sur**입니다."
+        },
+        {
+          "p": "이름 안에 **la côte(해안)**라는 보통명사가 살아 있어서 '해안 **위에**'라는 감각이 남은 관용 표현이기 때문입니다. sur la Côte, sur la Riviera처럼 씁니다. 반면 en Provence, en Normandie는 규칙대로."
+        },
+        {
+          "ex": [
+            [
+              "Nous sommes allés sur la Côte d'Azur.",
+              "우리는 코트다쥐르에 다녀왔어요."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "h": "코트다쥐르 지도 — 슬라이드에 나온 도시들",
+      "skill": "vocab",
+      "src": [
+        "semaine 4-2 p.5",
+        "semaine 4-2 p.6",
+        "semaine 4-2 p.7"
+      ],
+      "body": [
+        {
+          "p": "서쪽에서 동쪽 순서로: **Nice**(니스) → **Villefranche-sur-Mer**(빌프랑슈쉬르메르) → **Èze**(에즈) → **Monaco / Monte-Carlo**(모나코·몬테카를로) → **Menton**(망통). 프랑스 남동부 지중해 해안이고, 이탈리아 국경 바로 앞까지 이어집니다."
+        },
+        {
+          "p": "대화문에서 랑베르 부부가 묵은 곳은 **près de Nice**(니스 근처), 산책한 곳은 **le vieux quartier de Nice**(니스 구시가지), 마지막 날 간 곳은 **le musée Picasso**입니다."
+        },
+        {
+          "memo": "피카소 미술관은 실제로는 니스 옆 앙티브(Antibes)에 있습니다."
+        }
+      ]
+    },
+    {
+      "h": "발음 — 전치사와 지명",
+      "skill": "pron",
+      "src": [
+        "semaine 4-2"
+      ],
+      "body": [
+        {
+          "list": [
+            "en‿Allemagne [**앙 날**르마뉴] — en 뒤 모음이면 **n이 넘어가는 연음**",
+            "aux‿États-Unis [**오 제따 쥐니**] — 연음 **두 번**",
+            "les Pays-Bas [레 뻬이 바] — **s 둘 다 묵음**. [빠이스 바스] ✗",
+            "Genève [주네브] — 첫 G는 [ʒ]",
+            "au Japon [오 자퐁] · au Canada [오 까나다]",
+            "aux Philippines [오 필리핀] — ph = [f]",
+            "en Bretagne [앙 브흐따뉴] — gn = [ɲ]",
+            "le Mont-Saint-Michel [르 몽 쌍 미셸] — 비모음 두 번",
+            "la Côte d'Azur [라 꼬뜨 다쥐흐]"
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "u1-13-c-a-paris",
+      "t": "choice",
+      "skill": "prep-lieu",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Je veux aller ___ Paris.",
+      "ko": "나는 파리에 가고 싶다.",
+      "a": "à",
+      "wrong": [
+        "en",
+        "au",
+        "aux"
+      ],
+      "hint": "Paris는 나라일까요, 도시일까요?",
+      "explain": "도시 앞에는 언제나 à.",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-13-c-a-seoul",
+      "t": "choice",
+      "skill": "prep-lieu",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Tu habites ___ Séoul.",
+      "ko": "너는 서울에 산다.",
+      "a": "à",
+      "wrong": [
+        "en",
+        "au",
+        "aux"
+      ],
+      "hint": "'살다'여도 '가다'와 전치사가 같아요. 도시니까요.",
+      "explain": "프랑스어는 to와 in을 구별하지 않습니다. 도시면 무조건 à.",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-13-c-en-france",
+      "t": "choice",
+      "skill": "prep-lieu",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Je vais partir ___ France.",
+      "ko": "나는 프랑스로 떠날 것이다.",
+      "a": "en",
+      "wrong": [
+        "à",
+        "au",
+        "aux"
+      ],
+      "hint": "la France — 끝 글자가 e죠? 그럼 성은?",
+      "explain": "여성 국가 → en. 정관사는 사라집니다.",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-13-c-en-allemagne",
+      "t": "choice",
+      "skill": "prep-lieu",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Il est resté un an ___ Allemagne.",
+      "ko": "그는 독일에서 1년간 머물렀다.",
+      "a": "en",
+      "wrong": [
+        "à",
+        "au",
+        "dans"
+      ],
+      "hint": "l'Allemagne — 원래 관사가 la였어요.",
+      "explain": "여성 국가 → en. 연음해서 [앙 날르마뉴]로 읽습니다.",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-13-c-au-japon",
+      "t": "choice",
+      "skill": "prep-lieu",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "J'aime voyager ___ Japon.",
+      "ko": "나는 일본 여행을 좋아한다.",
+      "a": "au",
+      "wrong": [
+        "en",
+        "à",
+        "aux"
+      ],
+      "hint": "le Japon — e로 끝나지 않죠.",
+      "explain": "남성 국가 → au (= à + le).",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-13-c-au-canada",
+      "t": "choice",
+      "skill": "prep-lieu",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Elles travaillent ___ Canada.",
+      "ko": "그녀들은 캐나다에서 일한다.",
+      "a": "au",
+      "wrong": [
+        "en",
+        "à",
+        "aux"
+      ],
+      "hint": "le Canada — a로 끝나지만 e는 아니에요.",
+      "explain": "남성 국가 → au. -a로 끝나는 국가는 대개 남성입니다.",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-13-c-aux-etats",
+      "t": "choice",
+      "skill": "prep-lieu",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Je veux étudier ___ États-Unis.",
+      "ko": "나는 미국에서 공부하고 싶다.",
+      "a": "aux",
+      "wrong": [
+        "en",
+        "au",
+        "à"
+      ],
+      "hint": "les États-Unis — 관사가 les예요.",
+      "explain": "복수 국가 → aux (= à + les). 연음 두 번 [오 제따 쥐니].",
+      "src": "semaine 4-2",
+      "star": true
+    },
+    {
+      "id": "u1-13-c-aux-philippines",
+      "t": "choice",
+      "skill": "prep-lieu",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Nous allons rester ___ Philippines.",
+      "ko": "우리는 필리핀에 머물 것이다.",
+      "a": "aux",
+      "wrong": [
+        "en",
+        "au",
+        "à"
+      ],
+      "hint": "les Philippines — 섬이 여럿이라 복수예요.",
+      "explain": "복수 국가 → aux.",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-13-c-en-provence",
+      "t": "choice",
+      "skill": "prep-lieu",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Mon amie habite ___ Provence.",
+      "ko": "내 친구는 프로방스에 산다.",
+      "a": "en",
+      "wrong": [
+        "à",
+        "au",
+        "sur"
+      ],
+      "hint": "프로방스는 나라가 아니라 프랑스의 한 지방이에요.",
+      "explain": "지방·지역 → en.",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-13-c-ex1-geneve",
+      "t": "choice",
+      "skill": "prep-lieu",
+      "prompt": "연습문제 1",
+      "q": "Ils vont ___ Genève.",
+      "ko": "그들은 제네바에 간다.",
+      "a": "à",
+      "wrong": [
+        "en",
+        "au",
+        "aux"
+      ],
+      "hint": "제네바는 스위스의 무엇인가요?",
+      "explain": "Genève는 나라가 아니라 스위스의 **도시** → à. 나라로 말하면 en Suisse.",
+      "src": "semaine 4-2",
+      "star": true
+    },
+    {
+      "id": "u1-13-c-ex2-portugal",
+      "t": "choice",
+      "skill": "prep-lieu",
+      "prompt": "연습문제 2",
+      "q": "Nous allons ___ Portugal.",
+      "ko": "우리는 포르투갈에 간다.",
+      "a": "au",
+      "wrong": [
+        "en",
+        "à",
+        "aux"
+      ],
+      "hint": "le Portugal — 끝이 -al이에요.",
+      "explain": "남성 국가 → au.",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-13-c-ex3-paysbas",
+      "t": "choice",
+      "skill": "prep-lieu",
+      "prompt": "연습문제 3",
+      "q": "Elle reste ___ Pays-Bas.",
+      "ko": "그녀는 네덜란드에 머문다.",
+      "a": "aux",
+      "wrong": [
+        "en",
+        "au",
+        "à"
+      ],
+      "hint": "les Pays-Bas — 관사를 떠올려 보세요.",
+      "explain": "pays 때문에 단수처럼 보이지만 les가 붙는 복수 국가명 → aux.",
+      "src": "semaine 4-2",
+      "star": true
+    },
+    {
+      "id": "u1-13-c-ex4-normandie",
+      "t": "choice",
+      "skill": "prep-lieu",
+      "prompt": "연습문제 4",
+      "q": "J'habite ___ Normandie.",
+      "ko": "나는 노르망디에 산다.",
+      "a": "en",
+      "wrong": [
+        "à",
+        "au",
+        "aux"
+      ],
+      "hint": "노르망디는 프랑스의 지방이에요.",
+      "explain": "지방 → en.",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-13-c-ex5-bretagne",
+      "t": "choice",
+      "skill": "prep-lieu",
+      "prompt": "연습문제 5",
+      "q": "Il va ___ Bretagne.",
+      "ko": "그는 브르타뉴에 간다.",
+      "a": "en",
+      "wrong": [
+        "à",
+        "au",
+        "aux"
+      ],
+      "hint": "역시 프랑스의 지방 이름입니다.",
+      "explain": "지방 → en. 발음 [앙 브흐따뉴], gn은 [ɲ].",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-13-err-en-geneve",
+      "t": "error",
+      "skill": "prep-lieu",
+      "s": "Ils vont en Genève.",
+      "wrong": "en Genève",
+      "right": "à Genève",
+      "ko": "그들은 제네바에 간다.",
+      "hint": "이름만 보고 나라라고 단정했을 때 나오는 실수예요.",
+      "explain": "제네바는 도시 → à Genève. 나라는 en Suisse.",
+      "src": "semaine 4-2",
+      "star": true
+    },
+    {
+      "id": "u1-13-err-au-france",
+      "t": "error",
+      "skill": "prep-lieu",
+      "s": "Je vais partir au France.",
+      "wrong": "au",
+      "right": "en",
+      "ko": "나는 프랑스로 떠날 것이다.",
+      "hint": "la France의 성을 확인해 보세요.",
+      "explain": "여성 국가는 au가 아니라 en.",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-13-c-au-origin",
+      "t": "choice",
+      "skill": "prep-lieu",
+      "prompt": "au Japon의 au는 무엇이 줄어든 것?",
+      "q": "au = ?",
+      "a": "à + le",
+      "wrong": [
+        "à + la",
+        "à + les",
+        "de + le"
+      ],
+      "say": "",
+      "hint": "남성 국가명이 달고 다니는 정관사를 떠올려 보세요.",
+      "explain": "au = à + le, aux = à + les. 그래서 남성·복수 국가만 축약이 일어납니다.",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-13-c-sur-cote",
+      "t": "choice",
+      "skill": "prep-lieu",
+      "prompt": "빈칸에 알맞은 것은? (대화문)",
+      "q": "Nous sommes allés ___ la Côte d'Azur.",
+      "ko": "우리는 코트다쥐르에 다녀왔어요.",
+      "a": "sur",
+      "wrong": [
+        "en",
+        "à",
+        "aux"
+      ],
+      "hint": "이름 안에 '해안'이라는 보통명사가 들어 있어요.",
+      "explain": "la côte(해안) 때문에 '해안 위에'로 굳은 관용 표현. 규칙 밖의 예외입니다.",
+      "src": "semaine 4-2",
+      "star": true
+    },
+    {
+      "id": "u1-13-b-mont-saint-michel",
+      "t": "build",
+      "skill": "prep-lieu",
+      "prompt": "문장을 만드세요",
+      "ko": "몽생미셸은 노르망디에 있다.",
+      "a": "Le Mont-Saint-Michel est en Normandie.",
+      "extra": [
+        "à",
+        "dans"
+      ],
+      "hint": "노르망디는 지방이에요. 지방 앞 전치사는?",
+      "explain": "지방 → en. Mont-Saint-Michel은 하이픈으로 묶인 한 덩어리.",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-13-l-aux-etats",
+      "t": "listen",
+      "skill": "pron",
+      "say": "aux États-Unis",
+      "a": "aux États-Unis",
+      "wrong": [
+        "au Canada",
+        "en Tunisie"
+      ],
+      "ko": "미국에",
+      "pron": "[오 제따 쥐니]",
+      "hint": "연음이 두 번 일어나는 쪽을 고르세요.",
+      "explain": "aux‿États [오 제따] + États‿Unis [에따 쥐니] — z 소리가 두 번.",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-13-c-paysbas-pron",
+      "t": "choice",
+      "skill": "pron",
+      "prompt": "les Pays-Bas의 발음은?",
+      "q": "네덜란드를 프랑스어로 어떻게 읽나요?",
+      "a": "[레 뻬이 바]",
+      "wrong": [
+        "[레 빠이스 바스]",
+        "[레 뻬이 바스]",
+        "[레 뻬이즈 바]"
+      ],
+      "say": "les Pays-Bas",
+      "hint": "프랑스어의 끝 s는 대부분 어떻게 되죠?",
+      "explain": "Pays의 s도, Bas의 s도 묵음.",
+      "src": "semaine 4-2",
+      "star": true
+    },
+    {
+      "id": "u1-13-w-nice",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "Nice",
+      "ko": "니스 (코트다쥐르의 중심 도시)",
+      "pron": "[니스]",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-13-w-menton",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "Menton",
+      "ko": "망통 (이탈리아 국경 마을)",
+      "pron": "[망똥]",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-13-w-monaco",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "Monaco",
+      "ko": "모나코",
+      "pron": "[모나꼬]",
+      "src": "semaine 4-2"
+    }
+  ]
+}

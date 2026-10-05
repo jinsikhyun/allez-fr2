@@ -1,0 +1,178 @@
+{
+  "id": "u0-01",
+  "unit": "u0",
+  "title": "인사·작별·격식",
+  "emoji": "👋",
+  "date": "2026-09-02",
+  "sources": ["semaine 1-2", "semaine 1-3", "semaine 2-1", "semaine 2-2", "노션 9/1 OT", "노션 9/2", "노션 9/3", "노션 9/8", "노션 9/10"],
+  "tips": [
+    {"h": "만날 때 · 헤어질 때", "rows": [["만날 때", "Bonjour ! · Bonsoir ! · Salut ! · Coucou !"], ["헤어질 때", "Au revoir ! · Salut ! · Ciao ! · À bientôt !"], ["다시 볼 때", "À tout à l'heure ! (오늘 이따) · À plus tard ! · À demain ! · À la semaine prochaine !"]]},
+    {"h": "덕담과 되받기", "b": "Bonne journée ! · Bonne soirée ! · Bon après-midi ! · Bonne fin d'après-midi ! · Bonne nuit !\n→ 되받기: **Vous aussi / Toi aussi** · **À vous aussi / À toi aussi** · **Également** · **De même** · **Pareil** (캐주얼)\n⚠️ Moi aussi ✗ (그건 '나도'라는 뜻)"},
+    {"h": "registre (말투의 격식 단계)", "rows": [["soutenu", "아주 격식 (발표, 공식 문서)"], ["courant", "보통 일상 (Bonjour, Au revoir, Bonne journée)"], ["familier", "친한 사이 (Salut, Coucou, Ciao, Pareil)"], ["vulgaire", "비속·거친 말"]]},
+    {"h": "Ça va ? · 안부 묻기", "b": "Ça va ? → Bien. / Très bien. / Pas mal. / Tranquille. / Oui, ça va. / Ça va, merci. → **Et toi ? / Et vous ?**\n친구: **Comment vas-tu ?** · 격식: **Comment allez-vous ?**\n**Salut !**는 친구 사이에만 — 교수님께는 Bonjour, madame !"},
+    {"h": "교실 생존 표현", "b": "**Plus doucement, s'il vous plaît.** 좀 더 천천히요.\n**Je ne comprends pas (la question).** 이해가 안 돼요.\n**Euh…** / **Je réfléchis.** 음… / 생각 좀 해볼게요."}
+  ],
+  "fixes": [
+    {"where": "노션 9/3", "was": "registre: soutenu / courant / families / vulgaire", "now": "soutenu / courant / familier / vulgaire", "why": "'친한 사이' 단계의 이름은 familier (families는 오타)"},
+    {"where": "노션 9/10", "was": "Doux / docue", "now": "doux / douce → doucement", "why": "doux의 여성형은 douce. 부사 doucement은 여성형 douce + -ment으로 만든다"},
+    {"where": "노션 9/1 OT", "was": "Je suis en premiere annee. (deuxieme / troisieme / quatrieme) · Ca fait quatre mois que j'etudie le francais.", "now": "Je suis en première année. (deuxième / troisième / quatrième) · Ça fait quatre mois que j'étudie le français.", "why": "악센트·세디유가 빠져 있음 — 앱 채점은 악센트를 엄격하게 본다"}
+  ],
+  "note": [
+    {
+      "h": "Saluer — 만날 때 · 헤어질 때", "skill": "greet", "src": ["semaine 1-2 p.4", "semaine 1-3 p.4", "semaine 2-1 p.4", "노션 9/3", "노션 9/8"],
+      "body": [
+        {"p": "매 수업 첫 파트가 인사. **Saluer (I) → (IV)**로 같은 표를 계속 넓혀 갔다."},
+        {"table": [["만날 때", "헤어질 때"], ["Bonjour !", "Au revoir !"], ["Bonsoir !", "À bientôt !"], ["Salut !", "Salut !"], ["Coucou !", "Ciao !"], ["Wesh !", "À plus tard !"], ["", "À tout à l'heure !"], ["", "À demain ! · À la semaine prochaine !"]], "head": true},
+        {"ex": [["À plus tard !", "나중에 보자"], ["À tout à l'heure !", "좀 이따 보자 (같은 날 안에 다시 만날 때)"], ["À bientôt !", "곧 보자"], ["À demain !", "내일 보자"], ["À la semaine prochaine !", "다음 주에 보자"]]},
+        {"p": "**Salut !**는 만날 때도 헤어질 때도 쓴다. **Coucou !**는 친구·가족에게 다정한 '안녕~'(만날 때), **Ciao !**는 헤어질 때 가볍게."},
+        {"warn": "À tout à l'heure — tout는 형태 불변 (toute ✗). tout의 t가 넘어가 [아 뚜 따 뢰흐]."},
+        {"memo": "교수님은 수업 마지막 슬라이드에 À demain ! 또는 À la semaine prochaine !를 띄우셨다 — 다음 수업이 언제냐에 따라 골라 쓴 것."}
+      ]
+    },
+    {
+      "h": "호칭과 Ça va ?", "skill": "greet", "src": ["semaine 1-2 p.4-5", "노션 9/8"],
+      "body": [
+        {"p": "호칭: **Monsieur / Madame / (Mademoiselle)** — Mademoiselle은 요즘 잘 쓰지 않아 괄호로 표시."},
+        {"ex": [["Bonjour, madame !", "안녕하세요 (여성에게)"], ["Bonsoir, monsieur !", "안녕하세요 (저녁, 남성에게)"]]},
+        {"table": [["Ça va ?", "잘 지내?"], ["Bien. / Très bien.", "좋아 / 아주 좋아"], ["Pas mal.", "나쁘지 않아"], ["Tranquille.", "무난해 [트항킬]"], ["Oui, ça va. / Ça va, merci.", "응, 잘 지내 / 잘 지내, 고마워"], ["Et toi ? / Et vous ?", "너는? / 당신은?"]]},
+        {"p": "안부 묻기 — 친구: **Comment vas-tu ?** · 격식: **Comment allez-vous ?**"},
+        {"warn": "'너는?'은 **Et toi ?** (Et tu ? ✗)"},
+        {"memo": "Ça va는 ç 덕분에 [싸바]. Tranquille은 ill을 [il]로 읽는 예외 [트항킬]."}
+      ]
+    },
+    {
+      "h": "덕담 (Bon / Bonne + 시간) & 되받기", "skill": "greet", "src": ["semaine 1-3 p.4", "semaine 2-1 p.4", "semaine 2-2 p.4"],
+      "body": [
+        {"table": [["덕담", "뜻"], ["Bonne journée !", "좋은 하루 보내세요"], ["Bonne soirée !", "좋은 저녁 보내세요"], ["Bon après-midi !", "좋은 오후 보내세요"], ["Bonne fin d'après-midi !", "남은 오후 잘 보내세요"], ["Bonne nuit !", "잘 자요"]], "head": true},
+        {"p": "journée · soirée · nuit는 여성 → **Bonne**, après-midi → **Bon après-midi**."},
+        {"p": "Saluer (IV) — 덕담을 들으면 이렇게 돌려준다 (뜻은 모두 '당신도요!'):"},
+        {"list": ["Vous aussi ! / Toi aussi !", "À vous aussi ! / À toi aussi !", "Également !", "De même !", "Pareil ! (familier — 친구끼리)"]},
+        {"warn": "Moi aussi ✗ — '나도'라는 뜻이라 덕담 되받기로는 어색하다."}
+      ]
+    },
+    {
+      "h": "registre — 말투의 격식 단계", "skill": "greet", "src": ["노션 9/2", "노션 9/3"],
+      "body": [
+        {"p": "누구에게 어떤 인사를 쓰는지는 **registre**(격식 단계)가 정한다."},
+        {"table": [["registre", "어떤 자리", "인사 예"], ["soutenu", "아주 격식 (발표, 공식 문서)", "Bonjour, madame."], ["courant", "보통 일상", "Bonjour · Au revoir · Bonne journée"], ["familier", "친한 사이", "Salut · Coucou · Ciao · Pareil"], ["vulgaire", "비속·거친 말", "—"]], "head": true},
+        {"memo": "9/2 필기: 'Salut! : 친구 사이에만.' → 교수님께는 Bonjour, madame !"},
+        {"memo": "9/3 필기: Wesh ! = '야!/안녕!' 같은 아주 캐주얼한 슬랭 (젊은 층 말투). 슬라이드(semaine 1-3 p.4)엔 만날 때 인사로 나오고, 필기엔 vulgaire 칸에 적었다 — 사전 기준으론 familier(속어)에 가깝지만 어느 쪽이든 친구끼리만. 알아듣기만 하고 쓰지는 말기."}
+      ]
+    },
+    {
+      "h": "교실 표현 · 수업 문답", "skill": "greet", "src": ["노션 9/10", "Révision générale"],
+      "body": [
+        {"ex": [["Plus doucement, s'il vous plaît.", "좀 더 천천히 말해 주세요."], ["Je ne comprends pas (la question).", "(질문을) 이해 못 했어요."], ["Euh…", "음… (생각할 때 시간 벌기)"], ["Je réfléchis.", "생각 좀 해볼게요."]]},
+        {"p": "doux(부드러운) → 여성형 **douce** → 부사 **doucement**(부드럽게·천천히)."},
+        {"ex": [["Qu'est-ce que vous allez prendre comme déjeuner ?", "점심으로 뭘 드실 거예요?"], ["Je vais aller au restaurant.", "식당에 갈 거예요."], ["J'aime les comédies musicales.", "저는 뮤지컬을 좋아해요."]]},
+        {"memo": "comme = '~로서' (comme déjeuner = 점심으로). normal(형용사) → normalement(부사, 보통은)."},
+        {"ex": [["K-pop ? — J'aime les comédies musicales.", "(K-pop 좋아해요?) — 저는 뮤지컬을 좋아해요."], ["À quelle heure vous allez prendre le déjeuner ?", "몇 시에 점심 드실 거예요?"], ["— Je ne prends pas le déjeuner. Normalement…", "— 점심은 안 먹어요. 보통은…"]]},
+        {"list": ["취향은 aimer + 정관사: J'aime **les** comédies musicales. (des ✗)", "normal(e) → **normalement**(보통은) · doux → douce → **doucement**(천천히): 여성형 + -ment = 부사", "comprendre는 prendre 계열: je comprends · nous comprenons", "réfléchir는 2군: je réfléchis"]}
+      ]
+    },
+    {
+      "h": "자기소개 (OT 9/1)", "skill": "greet", "src": ["노션 9/1 OT"],
+      "body": [
+        {"ex": [["Bonjour. Je m'appelle Jinsik Hyun.", "안녕하세요. 제 이름은 현진식입니다."], ["Je suis en deuxième année.", "저는 2학년입니다."], ["Je suis en littérature anglaise.", "저는 영어영문학 전공입니다."], ["J'ai étudié le français pendant quatre mois, mais ça fait longtemps.", "프랑스어를 4개월 공부했지만, 한 지 오래됐어요."], ["J'apprends le français parce que c'est nécessaire pour obtenir mon diplôme.", "졸업(학위)에 필요해서 프랑스어를 배워요."]]},
+        {"list": ["학년: en première / deuxième / troisième / quatrième année", "다른 이유: parce que c'est intéressant · parce que je veux aller en France"]},
+        {"warn": "필기엔 악센트가 빠져 있었다 → première année, deuxième, français, Ça fait… (악센트 하나로 오답 처리될 수 있음)"},
+        {"p": "OT 슬라이드의 **Se présenter 틀** — 괄호만 바꿔 끼우면 된다:"},
+        {"ex": [["Je m'appelle (nom).", "제 이름은 ~입니다."], ["Je suis en première année.", "저는 1학년입니다."], ["Je suis en (전공).", "저는 ~ 전공입니다."], ["Ça fait quatre mois que j'étudie le français.", "프랑스어를 공부한 지 4개월 됐어요."], ["J'apprends le français parce que c'est intéressant.", "재미있어서 프랑스어를 배워요."], ["J'apprends le français parce que je veux aller en France.", "프랑스에 가고 싶어서 프랑스어를 배워요."]]},
+        {"memo": "필기 속 한글 발음: 쥬 마뻴 진식 현 · 쥬 스위 엉 두지엠 아네 · 쥬 스위 엉 리떼하뛰흐 앙글레즈 — en은 비모음 [앙], année는 [아네]."}
+      ]
+    },
+    {
+      "h": "OT (9/1): 수업 목표 · 평가 · 첫 수업 어휘", "skill": "vocab", "src": ["노션 9/1 OT", "Révision générale p.37"],
+      "body": [
+        {"table": [["Objectifs", "뜻"], ["1. bien prononcer", "정확하게 발음하기"], ["2. conjuguer correctement", "동사를 올바르게 활용하기"], ["3. écouter, parler, lire, écrire", "듣기 · 말하기 · 읽기 · 쓰기"]], "head": true},
+        {"table": [["Évaluation", "내용"], ["2 examens : partiel et final", "시험 2회 — 중간(partiel) · 기말(final)"], ["3 travaux écrits et/ou oraux", "과제 3회 — 필기 및/또는 구술"], ["l'assiduité", "출석 — 비중 큼 (2번까지는 결석 ok)"]], "head": true},
+        {"p": "**la subtilité** = 섬세함 · 미묘한 변화를 알아보는 우아함 (OT 필기)."},
+        {"memo": "OT: '중급에는 문법 비중 많음 — 대부분 동사 변형 (동사 변형 위주로 복습하자)' + 동사 변형 학습보조 링크. → 동사 변화는 현재형 레슨(u0-06~09)에서."}
+      ]
+    },
+    {
+      "h": "헤어질 때의 거리감 — À + 시점", "skill": "greet", "src": ["Révision générale p.16", "semaine 2-1 p.4", "노션 9/8"],
+      "body": [
+        {"p": "À로 시작하는 작별 인사는 다시 만날 **시점**을 정한다. 가까운 순서로:"},
+        {"list": ["À tout à l'heure ! — 오늘 안에, 이따", "À plus tard ! — 나중에 (막연하게)", "À bientôt ! — 곧", "À demain ! — 내일", "À la semaine prochaine ! — 다음 주에"]},
+        {"memo": "semaine 1-2·2-1 마지막 슬라이드는 À demain !, semaine 1-3은 À la semaine prochaine ! — 다음 수업까지의 거리에 맞춘 것."}
+      ]
+    },
+    {
+      "h": "Un pas de plus vers le français — 좋아하는 표현 쓰기", "skill": "vocab", "src": ["노션 9/10", "Révision générale p.41-42"],
+      "body": [
+        {"p": "Quiz 1 보너스 자유 서술: **Choisissez un mot ou une expression en français que vous aimez et expliquez pourquoi.** (좋아하는 프랑스어 단어·표현을 하나 골라 이유를 설명하세요.)"},
+        {"p": "틀: **J'aime l'expression « … » parce qu'elle est …** — expression은 여성 명사라 **elle**로 받는다 (parce que + elle → parce qu'elle)."},
+        {"ex": [["J'aime l'expression « À tout à l'heure ! » parce qu'elle est très simple mais utile.", "저는 'À tout à l'heure !'라는 표현을 좋아해요. 아주 간단하지만 유용하거든요."], ["C'est la première expression que j'ai apprise.", "제가 처음 배운 표현이에요."], ["Je peux l'utiliser avec mes amis et mes professeurs.", "친구에게도 교수님께도 쓸 수 있어요."], ["J'aime l'expression « Ça va ? » parce qu'elle est très simple mais utile dans toutes les situations.", "'Ça va ?'는 아주 간단하지만 어떤 상황에서도 유용해서 좋아요. (9/10 필기 예시 답안)"]]},
+        {"warn": "première · apprise가 여성형인 이유 = expression이 여성이라서. (apprise는 appris + e: 앞에 온 목적어에 일치 — Leçon 9 복합과거에서 자세히)"},
+        {"memo": "Révision 마지막 인사: **Bon courage pour l'examen !** (시험 힘내!)"}
+      ]
+    }
+  ],
+  "cards": [
+    {"id": "u0-01-bonjour", "t": "word", "skill": "greet", "fr": "Bonjour !", "ko": "안녕하세요 (낮 인사)", "src": "semaine 1-2"},
+    {"id": "u0-01-bonsoir", "t": "word", "skill": "greet", "fr": "Bonsoir !", "ko": "안녕하세요 (저녁 인사)", "src": "semaine 1-2"},
+    {"id": "u0-01-salut", "t": "word", "skill": "greet", "fr": "Salut !", "ko": "안녕! (친구끼리, 만날 때·헤어질 때)", "note": "친구 사이에만 — 교수님께는 X", "star": true, "src": "노션 9/2", "explain": "Salut는 만날 때도 헤어질 때도 OK. 단, familier라서 친구에게만!"},
+    {"id": "u0-01-coucou", "t": "word", "skill": "greet", "fr": "Coucou !", "ko": "안녕~ (가족·친구에게 다정하게)", "src": "semaine 1-3"},
+    {"id": "u0-01-aurevoir", "t": "word", "skill": "greet", "fr": "Au revoir !", "ko": "안녕히 가세요/계세요", "src": "semaine 1-2"},
+    {"id": "u0-01-abientot", "t": "word", "skill": "greet", "fr": "À bientôt !", "ko": "곧 봐요!", "src": "semaine 1-2"},
+    {"id": "u0-01-aplustard", "t": "word", "skill": "greet", "fr": "À plus tard !", "ko": "나중에 봐! (시점은 막연하게)", "src": "노션 9/8"},
+    {"id": "u0-01-atout", "t": "word", "skill": "greet", "fr": "À tout à l'heure !", "ko": "이따 봐! (같은 날 다시 만날 때)", "pron": "[아 뚜 따 뢰흐]", "star": true, "src": "노션 9/8", "explain": "오늘 안에 다시 볼 때 쓰는 인사. tout의 t가 à로 넘어가 [뚜 따]로 이어져요."},
+    {"id": "u0-01-ademain", "t": "word", "skill": "greet", "fr": "À demain !", "ko": "내일 봐요!", "src": "semaine 1-2"},
+    {"id": "u0-01-asemaine", "t": "word", "skill": "greet", "fr": "À la semaine prochaine !", "ko": "다음 주에 봐요!", "src": "semaine 1-3"},
+    {"id": "u0-01-journee", "t": "word", "skill": "greet", "fr": "Bonne journée !", "ko": "좋은 하루 보내세요!", "src": "semaine 1-3"},
+    {"id": "u0-01-soiree", "t": "word", "skill": "greet", "fr": "Bonne soirée !", "ko": "좋은 저녁 보내세요!", "src": "semaine 1-3"},
+    {"id": "u0-01-apresmidi", "t": "word", "skill": "greet", "fr": "Bon après-midi !", "ko": "좋은 오후 보내세요!", "src": "semaine 1-3"},
+    {"id": "u0-01-finaprem", "t": "word", "skill": "greet", "fr": "Bonne fin d'après-midi !", "ko": "남은 오후 잘 보내세요!", "src": "semaine 2-1"},
+    {"id": "u0-01-nuit", "t": "word", "skill": "greet", "fr": "Bonne nuit !", "ko": "잘 자요!", "src": "semaine 1-3"},
+    {"id": "u0-01-dememe", "t": "word", "skill": "greet", "fr": "De même !", "ko": "(덕담에) 마찬가지로요!", "note": "= Également ! · Vous aussi !", "src": "semaine 2-2"},
+    {"id": "u0-01-pasmal", "t": "word", "skill": "greet", "fr": "Pas mal.", "ko": "나쁘지 않아.", "src": "semaine 1-2"},
+    {"id": "u0-01-tranquille", "t": "word", "skill": "greet", "fr": "Tranquille.", "ko": "무난해~ (평온해)", "pron": "[트항킬]", "note": "여기선 ill을 [il]로 읽는 예외", "src": "semaine 1-2"},
+    {"id": "u0-01-doucement", "t": "word", "skill": "greet", "fr": "Plus doucement, s'il vous plaît.", "ko": "좀 더 천천히 말해 주세요.", "note": "doux(부드러운) → douce → doucement(부드럽게·천천히)", "star": true, "src": "노션 9/10", "explain": "말이 너무 빠를 때 쓰는 정중한 요청. 수업 중에 바로 써먹기!"},
+    {"id": "u0-01-comprends", "t": "word", "skill": "greet", "fr": "Je ne comprends pas la question.", "ko": "질문을 이해 못 했어요.", "src": "노션 9/10"},
+    {"id": "u0-01-reflechis", "t": "word", "skill": "greet", "fr": "Je réfléchis.", "ko": "생각 좀 해볼게요.", "note": "Euh… (음…)보다 한 단계 정중하게 시간 벌기", "src": "Révision générale"},
+    {"id": "u0-01-reply-journee", "t": "choice", "skill": "greet", "hint": "덕담엔 덕담으로! '당신도요~'라고 돌려주는 말은?", "prompt": "상대가 이렇게 말하면?", "q": "Bonne journée !", "a": "Également !", "wrong": ["Bonjour !", "Bonne nuit !", "De rien !"], "say": "Bonne journée ! Également !", "star": true, "src": "semaine 2-2", "explain": "덕담은 Également / De même / Vous aussi / Pareil로 돌려줘요. 전부 '당신도요!'"},
+    {"id": "u0-01-reply-soiree", "t": "choice", "skill": "greet", "hint": "덕담은 상대에게 돌려주는 말! '나'일까요, '너'일까요?", "prompt": "친구가 이렇게 말하면?", "q": "Bonne soirée !", "a": "Toi aussi !", "wrong": ["Moi aussi !", "Bonsoir !", "De rien !"], "say": "Bonne soirée ! Toi aussi !", "src": "semaine 2-2", "explain": "'너도!' = Toi aussi (존댓말이면 Vous aussi). Moi aussi는 '나도'라서 어색해요."},
+    {"id": "u0-01-pareil", "t": "choice", "skill": "greet", "hint": "친구 사이 전용(familier) 말투를 찾아봐요. 누구에게나 쓰는 건 빼고!", "prompt": "가장 캐주얼하게 돌려주는 말은?", "q": "Bonne journée !", "a": "Pareil !", "wrong": ["Également !", "À vous aussi !", "Au revoir !"], "say": "Pareil !", "src": "semaine 2-2", "explain": "Pareil(똑같이!)는 familier — 친구 사이 전용. Également, À vous aussi는 누구에게나 OK."},
+    {"id": "u0-01-salut-prof", "t": "choice", "skill": "greet", "hint": "교수님은 윗사람! 친구 사이에서만 쓰는 인사는?", "prompt": "교수님께 인사할 때", "q": "쓰면 안 되는 인사는?", "a": "Salut !", "wrong": ["Bonjour, madame !", "Au revoir !", "Bonne journée !"], "say": "", "star": true, "src": "노션 9/2", "explain": "필기: 'Salut! : 친구 사이에만.' 교수님께는 Bonjour, madame !"},
+    {"id": "u0-01-mademoiselle", "t": "choice", "skill": "greet", "hint": "요즘은 결혼 여부로 여성 호칭을 나누지 않아요", "prompt": "호칭", "q": "요즘 잘 쓰지 않아 슬라이드에 괄호로 표시된 호칭은?", "a": "Mademoiselle", "wrong": ["Madame", "Monsieur"], "say": "Monsieur, Madame, Mademoiselle", "src": "semaine 1-2", "explain": "Monsieur / Madame / (Mademoiselle). 여성에게는 보통 Madame이면 충분해요."},
+    {"id": "u0-01-coucou-bye", "t": "choice", "skill": "greet", "hint": "만날 때만 쓰는 '안녕~'이 하나 섞여 있어요!", "prompt": "헤어질 때", "q": "헤어질 때 쓰지 않는 인사는?", "a": "Coucou !", "wrong": ["Salut !", "Ciao !", "À bientôt !"], "say": "", "src": "semaine 1-3", "explain": "Coucou는 만났을 때 '안녕~'. Salut는 만날 때·헤어질 때 둘 다, Ciao는 헤어질 때."},
+    {"id": "u0-01-familier", "t": "choice", "skill": "greet", "hint": "registre 4단계를 떠올려봐요: 격식 → 일상 → 친한 사이 → 비속", "prompt": "registre 고르기", "q": "친한 친구끼리 편하게 쓰는 말투(registre)는?", "a": "familier", "wrong": ["soutenu", "courant", "vulgaire"], "say": "", "star": true, "src": "노션 9/3", "explain": "soutenu(아주 격식) → courant(일상) → familier(친한 사이) → vulgaire(비속)."},
+    {"id": "u0-01-soutenu", "t": "choice", "skill": "greet", "hint": "가장 높은 격식 단계! 보통 일상 말투와 헷갈리지 마요", "prompt": "registre 고르기", "q": "발표·공식 문서처럼 아주 격식 있는 말투(registre)는?", "a": "soutenu", "wrong": ["courant", "familier", "vulgaire"], "say": "", "src": "노션 9/3", "explain": "soutenu = 가장 격식 (필기 예: Bonjour, madame. — 호칭까지 붙인 정중한 말). 그냥 Bonjour, Bonne journée는 courant."},
+    {"id": "u0-01-wesh", "t": "choice", "skill": "greet", "hint": "젊은 층이 쓰는 말이에요. 교수님께 써도 될까요?", "prompt": "Wesh ! 에 대한 설명으로 맞는 것은?", "q": "Wesh !", "a": "'야!' 같은 아주 캐주얼한 슬랭 (알아듣기만 하기)", "wrong": ["교수님께 써도 되는 정중한 인사", "헤어질 때 쓰는 인사", "'잘 자'라는 뜻의 인사"], "say": "", "src": "노션 9/3", "explain": "Wesh는 젊은 층 슬랭이라 거칠게 들릴 수 있어요. 들으면 이해만 하고 직접 쓰진 말기!"},
+    {"id": "u0-01-cava", "t": "choice", "skill": "greet", "hint": "친구에게 '너는?' 되물을 땐 et 뒤에 강세형 대명사!", "prompt": "친구가 이렇게 물으면?", "q": "Ça va ?", "a": "Ça va, merci. Et toi ?", "wrong": ["Ça va, merci. Et tu ?", "Oui, je vais. Et toi ?", "De rien. Et toi ?"], "say": "Ça va ? Ça va, merci. Et toi ?", "star": true, "src": "semaine 1-2", "explain": "'너는?'은 Et toi ? (Et tu ✗). 존댓말이면 Et vous ?"},
+    {"id": "u0-01-vastu", "t": "choice", "skill": "greet", "hint": "tu에 맞는 aller 변화형 + 도치(동사-주어)를 확인!", "prompt": "친구에게 '어떻게 지내?'", "q": "친구에게 안부를 물을 때", "a": "Comment vas-tu ?", "wrong": ["Comment allez-tu ?", "Comment va-tu ?", "Comment vas-vous ?"], "say": "Comment vas-tu ?", "src": "노션 9/8", "explain": "tu → vas-tu, vous → allez-vous. 인칭과 동사를 짝 맞추기!"},
+    {"id": "u0-01-allezvous", "t": "type", "skill": "greet", "hint": "vous에 맞는 aller 형태를 쓰고 주어와 도치해봐요 (하이픈!)", "prompt": "격식 있게 '어떻게 지내세요?'를 쓰세요", "q": "어떻게 지내세요? (vous, 도치)", "a": "Comment allez-vous ?", "src": "semaine 2-1", "explain": "vous + aller → allez, 도치해서 allez-vous. 친구에겐 Comment vas-tu ?"},
+    {"id": "u0-01-comme", "t": "choice", "skill": "greet", "hint": "comme + 명사는 '~로(서)'! prendre는 '먹다'도 돼요", "prompt": "뜻은?", "q": "Qu'est-ce que vous allez prendre comme déjeuner ?", "a": "점심으로 뭘 드실 거예요?", "wrong": ["점심은 언제 드실 거예요?", "점심을 어디서 드셨어요?", "점심처럼 뭘 가져가실 거예요?"], "say": "Qu'est-ce que vous allez prendre comme déjeuner ?", "src": "노션 9/10", "explain": "comme = '~로서' → comme déjeuner '점심으로'. 대답 예: Je vais aller au restaurant."},
+    {"id": "u0-01-annee", "t": "build", "skill": "greet", "hint": "학년은 être en + 서수 + année! 악센트 있는 블록을 골라요", "prompt": "자기소개 문장을 만드세요", "ko": "저는 2학년입니다.", "a": "Je suis en deuxième année.", "extra": ["deuxieme", "à"], "src": "노션 9/1 OT", "explain": "학년은 être en + 서수 + année. deuxième의 è를 잊지 말기!"},
+    {"id": "u0-01-parce-que", "t": "choice", "skill": "greet", "hint": "이유를 설명하는 자리예요. '왜?'라고 묻는 말은 아니죠?", "prompt": "빈칸에 알맞은 것은?", "q": "J'apprends le français ___ c'est nécessaire pour obtenir mon diplôme.", "ko": "졸업에 필요해서 프랑스어를 배워요.", "a": "parce que", "wrong": ["pourquoi", "pour que", "comme ça"], "src": "노션 9/1 OT", "explain": "이유를 댈 땐 parce que(왜냐하면). Pourquoi는 '왜?'라고 물을 때."},
+    {"id": "u0-01-err-bonne", "t": "error", "skill": "gender", "hint": "journée의 성을 확인해봐요! 형용사도 맞춰야 해요", "s": "Bon journée !", "wrong": "Bon", "right": "Bonne", "ko": "좋은 하루 보내세요!", "star": true, "src": "semaine 1-3", "explain": "journée는 여성 → Bonne. (après-midi는 Bon après-midi !)"},
+    {"id": "u0-01-err-toute", "t": "error", "skill": "spelling", "hint": "굳어진 표현의 철자를 의심해봐요 — 연음 발음에 속지 말기!", "s": "À toute à l'heure !", "wrong": "toute", "right": "tout", "ko": "이따 봐!", "src": "노션 9/8", "explain": "tout à l'heure는 굳어진 표현 — 철자는 tout. 발음은 [뚜 따 뢰흐]."},
+    {"id": "u0-01-listen-soiree", "t": "listen", "skill": "greet", "hint": "-ée로 끝나는 두 인사! 첫소리가 [ʒ]인지 [s]인지 들어봐요", "say": "Bonne soirée !", "a": "Bonne soirée !", "wrong": ["Bonne journée !", "Bonne nuit !"], "ko": "좋은 저녁 보내세요!", "pron": "[본 수아헤]", "src": "semaine 1-3", "explain": "soirée [수아헤] = 저녁, journée [주흐네] = 낮 동안."},
+    {"id": "u0-01-monsieur", "t": "word", "skill": "greet", "fr": "Monsieur", "ko": "~씨, 선생님 (남성 호칭)", "note": "Bonsoir, monsieur !", "src": "semaine 1-2"},
+    {"id": "u0-01-madame", "t": "word", "skill": "greet", "fr": "Madame", "ko": "~씨, 여사님 (여성 호칭)", "note": "Bonjour, madame !", "src": "semaine 1-2"},
+    {"id": "u0-01-tresbien", "t": "word", "skill": "greet", "fr": "Très bien.", "ko": "아주 좋아.", "note": "Ça va ? — Bien. / Très bien.", "src": "semaine 1-2"},
+    {"id": "u0-01-ciao", "t": "word", "skill": "greet", "fr": "Ciao !", "ko": "잘 가! (헤어질 때 가볍게)", "pron": "[챠오]", "note": "이탈리아어에서 온 인사 · familier", "src": "semaine 1-3"},
+    {"id": "u0-01-etvous", "t": "choice", "skill": "greet", "hint": "교수님은 존댓말 상대! et 뒤 강세형 대명사는?", "prompt": "교수님이 Ça va ?라고 물으셨을 때", "q": "Ça va, merci. ___", "a": "Et vous ?", "wrong": ["Et toi ?", "Et tu ?", "Et moi ?"], "say": "Ça va, merci. Et vous ?", "src": "semaine 1-2", "explain": "윗사람·여러 명에게는 Et vous ?, 친구에게는 Et toi ?"},
+    {"id": "u0-01-a-order", "t": "choice", "skill": "greet", "hint": "'À + 시점' 인사 중 가장 가까운 시점은?", "prompt": "헤어질 때", "q": "오늘 안에(몇 시간 뒤) 다시 만날 친구에게 하는 인사는?", "a": "À tout à l'heure !", "wrong": ["À la semaine prochaine !", "À demain !", "Bonne nuit !"], "star": true, "src": "Révision générale", "explain": "가까운 순서: À tout à l'heure(오늘 이따) → À plus tard → À bientôt → À demain → À la semaine prochaine."},
+    {"id": "u0-01-subtilite", "t": "word", "skill": "vocab", "fr": "la subtilité", "ko": "섬세함, 미묘함", "g": "f", "note": "OT 필기: 미묘한 변화를 알아보는 우아함", "src": "노션 9/1 OT"},
+    {"id": "u0-01-partiel", "t": "word", "skill": "vocab", "fr": "le partiel", "ko": "중간고사", "g": "m", "note": "2 examens : partiel et final (중간 · 기말)", "src": "노션 9/1 OT"},
+    {"id": "u0-01-objectifs", "t": "choice", "skill": "vocab", "hint": "영어 listen · speak · read · write 순서와 같아요", "prompt": "OT · Objectifs 3번", "q": "écouter, parler, lire, écrire", "a": "듣기, 말하기, 읽기, 쓰기", "wrong": ["보기, 말하기, 읽기, 쓰기", "듣기, 노래하기, 읽기, 쓰기", "듣기, 말하기, 웃기, 쓰기"], "say": "écouter, parler, lire, écrire", "src": "노션 9/1 OT", "explain": "수업 목표: ① bien prononcer ② conjuguer correctement ③ écouter, parler, lire, écrire."},
+    {"id": "u0-01-prononcer", "t": "choice", "skill": "vocab", "hint": "prononcer ≈ pronounce, conjuguer ≈ conjugate!", "prompt": "OT · Objectifs 1·2", "q": "bien prononcer · conjuguer correctement", "a": "정확하게 발음하기 · 동사를 올바르게 활용하기", "wrong": ["잘 듣기 · 동사를 정확히 외우기", "잘 발표하기 · 문장을 올바르게 쓰기", "잘 읽기 · 단어를 정확히 쓰기"], "say": "bien prononcer, conjuguer correctement", "src": "노션 9/1 OT", "explain": "그래서 이 수업은 발음(u0-02)과 동사 변화(u0-06~09)가 핵심!"},
+    {"id": "u0-01-appelle", "t": "build", "skill": "greet", "hint": "s'appeler: 재귀대명사가 모음 앞에서 줄어들어요", "prompt": "자기소개 문장을 만드세요", "ko": "제 이름은 진식입니다.", "a": "Je m'appelle Jinsik.", "extra": ["suis", "me"], "src": "노션 9/1 OT", "explain": "s'appeler(이름이 ~이다): je m'appelle. me가 모음 앞에서 m'로 줄어요."},
+    {"id": "u0-01-litterature", "t": "choice", "skill": "greet", "hint": "학년을 말할 때(… deuxième année)와 같은 전치사!", "prompt": "빈칸에 알맞은 것은?", "q": "Je suis ___ littérature anglaise.", "ko": "저는 영어영문학 전공이에요.", "a": "en", "wrong": ["à", "dans", "de"], "src": "노션 9/1 OT", "explain": "전공·학년 모두 être en + 명사: Je suis en littérature anglaise / en deuxième année."},
+    {"id": "u0-01-ca-fait", "t": "build", "skill": "greet", "hint": "'기간 + que + 현재형' 틀! 악센트 있는 동사 블록 확인", "prompt": "문장을 만드세요", "ko": "프랑스어를 공부한 지 4개월 됐어요.", "a": "Ça fait quatre mois que j'étudie le français.", "extra": ["depuis", "j'etudie"], "src": "노션 9/1 OT", "explain": "Ça fait + 기간 + que + 현재형 = ~한 지 (기간)이 됐다. étudie의 é, Ça의 ç 주의!"},
+    {"id": "u0-01-en-france", "t": "choice", "skill": "greet", "hint": "France는 여성 나라 이름! 여성 나라 앞 전치사는?", "prompt": "빈칸에 알맞은 것은?", "q": "J'apprends le français parce que je veux aller ___ France.", "ko": "프랑스에 가고 싶어서 프랑스어를 배워요.", "a": "en", "wrong": ["à", "au", "dans"], "src": "노션 9/1 OT", "explain": "여성 나라 이름 앞은 en: aller en France. OT 필기의 이유 버전 3개 중 하나!"},
+    {"id": "u0-01-interessant", "t": "choice", "skill": "greet", "hint": "c'est 뒤 형용사! 악센트 위치까지 확인", "prompt": "'재미있어서'를 고르세요", "q": "J'apprends le français parce que c'est ___.", "ko": "재미있어서 프랑스어를 배워요.", "a": "intéressant", "wrong": ["interessant", "intéréssant", "intéressante"], "star": true, "src": "노션 9/1 OT", "explain": "intéressant: é는 첫 e 하나뿐. c'est 뒤 형용사는 남성 단수형 그대로."},
+    {"id": "u0-01-comedies", "t": "choice", "skill": "greet", "hint": "좋아하는 대상(취향) 앞 관사는 '그것 전체'를 가리켜요", "prompt": "빈칸에 알맞은 것은?", "q": "J'aime ___ comédies musicales.", "ko": "저는 뮤지컬을 좋아해요.", "a": "les", "wrong": ["des", "de", "une"], "src": "노션 9/10", "explain": "aimer 뒤 취향은 정관사: J'aime les comédies musicales. (des ✗)"},
+    {"id": "u0-01-normalement", "t": "word", "skill": "greet", "fr": "normalement", "ko": "보통은, 평소에는", "note": "normal(e) + -ment → 부사 (doux → doucement과 같은 원리)", "src": "노션 9/10"},
+    {"id": "u0-01-restaurant", "t": "build", "skill": "greet", "hint": "aller + 동사원형(가까운 미래)! à + le는 합쳐져요", "prompt": "대답을 만드세요", "ko": "식당에 갈 거예요.", "a": "Je vais aller au restaurant.", "extra": ["à", "vas"], "src": "노션 9/10", "explain": "근접미래 aller + 원형: je vais aller. à + le restaurant → au restaurant."},
+    {"id": "u0-01-prendre-dej", "t": "choice", "skill": "greet", "hint": "À quelle heure = '몇 시에', aller + 원형 = 곧 할 일", "prompt": "뜻은?", "q": "À quelle heure vous allez prendre le déjeuner ?", "a": "몇 시에 점심을 드실 거예요?", "wrong": ["점심으로 뭘 드실 거예요?", "몇 시에 점심을 드셨어요?", "어디서 점심을 드실 거예요?"], "say": "À quelle heure vous allez prendre le déjeuner ?", "src": "노션 9/10", "explain": "prendre le déjeuner = 점심을 먹다. 수업 답: Je ne prends pas le déjeuner. Normalement…"},
+    {"id": "u0-01-euh", "t": "word", "skill": "greet", "fr": "Euh…", "ko": "음… (말 막힐 때 시간 벌기)", "say": "Euh", "src": "Révision générale"},
+    {"id": "u0-01-pas-de-plus", "t": "choice", "skill": "vocab", "hint": "choisir = 고르다, aimer = 좋아하다, pourquoi = 왜", "prompt": "Quiz 1 보너스 문제의 뜻은?", "q": "Choisissez un mot ou une expression en français que vous aimez et expliquez pourquoi.", "a": "좋아하는 프랑스어 단어나 표현을 하나 골라 이유를 설명하세요.", "wrong": ["프랑스어 단어를 하나 골라 뜻을 쓰세요.", "좋아하는 프랑스 노래를 하나 골라 소개하세요.", "싫어하는 표현을 하나 골라 고쳐 쓰세요."], "say": "Choisissez un mot ou une expression en français que vous aimez et expliquez pourquoi.", "src": "노션 9/10", "explain": "[Un pas de plus vers le français] 자유 서술. 틀: J'aime l'expression « … » parce qu'elle est …"},
+    {"id": "u0-01-expr-elle", "t": "choice", "skill": "gender", "hint": "expression은 여성 명사! 3인칭 단수 대명사로 받으면?", "prompt": "빈칸에 알맞은 것은?", "q": "J'aime l'expression « À tout à l'heure ! » parce qu'___ est très simple mais utile.", "ko": "'À tout à l'heure !'라는 표현이 좋아요. 아주 간단하지만 유용하거든요.", "a": "elle", "wrong": ["il", "on", "ils"], "star": true, "src": "Révision générale", "explain": "l'expression(여성) → elle로 받아요. parce que + elle → parce qu'elle (엘리지옹)."},
+    {"id": "u0-01-premiere-expr", "t": "build", "skill": "gender", "hint": "expression은 여성 → 서수도 여성형! 악센트 확인", "prompt": "문장을 만드세요", "ko": "그건 제가 처음 배운 표현이에요.", "a": "C'est la première expression que j'ai apprise.", "extra": ["premier", "le"], "src": "Révision générale", "explain": "expression이 여성이라 la première. apprise(appris + e)도 앞의 expression에 맞춘 형태예요."},
+    {"id": "u0-01-utile", "t": "word", "skill": "vocab", "fr": "utile", "ko": "유용한, 쓸모 있는", "note": "très simple mais utile = 아주 간단하지만 유용한", "src": "Révision générale"},
+    {"id": "u0-01-courage", "t": "word", "skill": "greet", "fr": "Bon courage !", "ko": "힘내! (시험·일을 앞둔 사람에게)", "note": "Bon courage pour l'examen ! = 시험 힘내!", "src": "Révision générale"}
+  ]
+}

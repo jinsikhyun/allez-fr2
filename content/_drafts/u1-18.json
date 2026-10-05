@@ -1,0 +1,631 @@
+{
+  "id": "u1-18",
+  "unit": "u1",
+  "title": "위치 표현 — 동네 지도",
+  "emoji": "🗺️",
+  "date": "2026-09-30",
+  "sources": [
+    "semaine 5-2"
+  ],
+  "tips": [
+    {
+      "h": "위치 표현 다섯",
+      "rows": [
+        [
+          "derrière",
+          "~ 뒤에"
+        ],
+        [
+          "devant",
+          "~ 앞에"
+        ],
+        [
+          "en face de",
+          "~ 맞은편에"
+        ],
+        [
+          "à côté de",
+          "~ 옆에"
+        ],
+        [
+          "entre … et …",
+          "~와 ~ 사이에"
+        ]
+      ]
+    },
+    {
+      "h": "🔴 de가 붙나 안 붙나",
+      "b": "de 없음: derrière · devant · entre\nde 있음: en face **de** · à côté **de**\ndevant de l'école ✗"
+    },
+    {
+      "h": "🔴 de + le = du",
+      "b": "à côté **du** café (de le ✗)\nde + les = des · de la / de l'는 그대로"
+    },
+    {
+      "h": "l'로 시작하는 건물",
+      "b": "l'église (f) · l'école (f) · l'hôpital (m)\n관사로는 성을 알 수 없으니 따로 외우기"
+    }
+  ],
+  "note": [
+    {
+      "h": "동네 건물 어휘",
+      "skill": "localisation",
+      "src": [
+        "semaine 5-2 p.16"
+      ],
+      "body": [
+        {
+          "table": [
+            [
+              "남성",
+              "여성"
+            ],
+            [
+              "le cinéma 영화관",
+              "la mairie 시청"
+            ],
+            [
+              "le café 카페",
+              "l'église 교회·성당"
+            ],
+            [
+              "l'hôpital 병원",
+              "la poste 우체국"
+            ],
+            [
+              "",
+              "l'école 학교"
+            ],
+            [
+              "",
+              "la bibliothèque 도서관"
+            ],
+            [
+              "",
+              "la boulangerie 빵집"
+            ],
+            [
+              "",
+              "la pharmacie 약국"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "warn": "l'église·l'école는 여성, l'hôpital은 남성 (h 묵음이라 le → l'). 관사만 보고는 성을 알 수 없어요."
+        }
+      ]
+    },
+    {
+      "h": "위치 표현 다섯 개",
+      "skill": "localisation",
+      "src": [
+        "semaine 5-2 p.17"
+      ],
+      "body": [
+        {
+          "table": [
+            [
+              "표현",
+              "뜻"
+            ],
+            [
+              "derrière",
+              "~ 뒤에"
+            ],
+            [
+              "devant",
+              "~ 앞에"
+            ],
+            [
+              "en face de",
+              "~ 맞은편에"
+            ],
+            [
+              "à côté de",
+              "~ 옆에"
+            ],
+            [
+              "entre … et …",
+              "~와 ~ 사이에"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "ex": [
+            [
+              "L'église est derrière la mairie.",
+              "교회는 시청 뒤에 있다."
+            ],
+            [
+              "La poste est devant l'école.",
+              "우체국은 학교 앞에 있다."
+            ],
+            [
+              "La bibliothèque est en face de l'église.",
+              "도서관은 교회 맞은편에 있다."
+            ],
+            [
+              "Le cinéma est à côté de la poste.",
+              "영화관은 우체국 옆에 있다."
+            ],
+            [
+              "La pharmacie est entre le café et l'hôpital.",
+              "약국은 카페와 병원 사이에 있다."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "h": "🔴 de의 유무와 축약",
+      "skill": "localisation",
+      "src": [
+        "semaine 5-2 p.17",
+        "semaine 5-2 p.19"
+      ],
+      "body": [
+        {
+          "list": [
+            "de **없음**: derrière · devant · entre — devant de l'école ✗",
+            "de **있음**: en face **de** · à côté **de**",
+            "de + **le** → **du**: à côté du café (à côté de le café ✗)",
+            "de + **les** → **des**",
+            "de + **la** / de + **l'** → 그대로: à côté de la poste, en face de l'église"
+          ]
+        }
+      ]
+    },
+    {
+      "h": "연습문제 (p.18–19 지도)",
+      "skill": "localisation",
+      "src": [
+        "semaine 5-2 p.18",
+        "semaine 5-2 p.19"
+      ],
+      "body": [
+        {
+          "p": "지도: 위쪽에 École(왼쪽)·Bibliothèque(오른쪽), 가운데 Église → 그 아래 Mairie, Mairie 왼쪽 Cinéma·오른쪽 Poste, 아래쪽 Boulangerie·Café(왼쪽)와 Pharmacie·Hôpital(오른쪽), Mairie 앞 광장에 자동차 한 대."
+        },
+        {
+          "ex": [
+            [
+              "L'église est derrière la mairie.",
+              "교회는 시청 뒤에 있다."
+            ],
+            [
+              "La pharmacie est à côté de l'hôpital.",
+              "약국은 병원 옆에 있다."
+            ],
+            [
+              "La mairie est entre le cinéma et la poste.",
+              "시청은 영화관과 우체국 사이에 있다."
+            ],
+            [
+              "Une voiture est devant la mairie.",
+              "자동차 한 대가 시청 앞에 있다."
+            ],
+            [
+              "La boulangerie est à côté du café.",
+              "빵집은 카페 옆에 있다."
+            ],
+            [
+              "La bibliothèque est en face de l'école.",
+              "도서관은 학교 맞은편에 있다."
+            ]
+          ]
+        },
+        {
+          "warn": "5번: 빈칸 뒤가 le café라서 à côté de + le → **à côté du** café."
+        }
+      ]
+    },
+    {
+      "h": "발음",
+      "skill": "pron",
+      "src": [
+        "semaine 5-2"
+      ],
+      "body": [
+        {
+          "list": [
+            "derrière [데히에흐] — dernière(마지막)와 헷갈리지 말 것",
+            "devant [드방] · entre [앙트흐]",
+            "en face de [앙 파스 드] · à côté de [아 꼬떼 드] · à côté du [아 꼬떼 뒤]",
+            "la mairie [라 메히] · l'église [레글리즈] (s = [z])",
+            "l'hôpital [로삐딸] — h 묵음, 끝 l 발음",
+            "la bibliothèque [라 비블리오떼끄] — th = [t]",
+            "la boulangerie [라 불랑쥬히] · la pharmacie [라 파흐마씨] — ph = [f]"
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "u1-18-w-mairie",
+      "t": "word",
+      "skill": "localisation",
+      "fr": "la mairie",
+      "ko": "시청",
+      "g": "f",
+      "pron": "[라 메히]",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u1-18-w-eglise",
+      "t": "word",
+      "skill": "localisation",
+      "fr": "l'église",
+      "ko": "교회, 성당",
+      "g": "f",
+      "pron": "[레글리즈]",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u1-18-w-poste",
+      "t": "word",
+      "skill": "localisation",
+      "fr": "la poste",
+      "ko": "우체국",
+      "g": "f",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u1-18-w-cinema",
+      "t": "word",
+      "skill": "localisation",
+      "fr": "le cinéma",
+      "ko": "영화관",
+      "g": "m",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u1-18-w-ecole",
+      "t": "word",
+      "skill": "localisation",
+      "fr": "l'école",
+      "ko": "학교",
+      "g": "f",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u1-18-w-bibliotheque",
+      "t": "word",
+      "skill": "localisation",
+      "fr": "la bibliothèque",
+      "ko": "도서관",
+      "g": "f",
+      "pron": "[라 비블리오떼끄]",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u1-18-w-boulangerie",
+      "t": "word",
+      "skill": "localisation",
+      "fr": "la boulangerie",
+      "ko": "빵집",
+      "g": "f",
+      "pron": "[라 불랑쥬히]",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u1-18-w-cafe",
+      "t": "word",
+      "skill": "localisation",
+      "fr": "le café",
+      "ko": "카페",
+      "g": "m",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u1-18-w-pharmacie",
+      "t": "word",
+      "skill": "localisation",
+      "fr": "la pharmacie",
+      "ko": "약국",
+      "g": "f",
+      "pron": "[라 파흐마씨]",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u1-18-w-hopital",
+      "t": "word",
+      "skill": "localisation",
+      "fr": "l'hôpital",
+      "ko": "병원",
+      "g": "m",
+      "pron": "[로삐딸]",
+      "note": "h 묵음",
+      "src": "semaine 5-2",
+      "star": true
+    },
+    {
+      "id": "u1-18-w-derriere",
+      "t": "word",
+      "skill": "localisation",
+      "fr": "derrière",
+      "ko": "~ 뒤에",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u1-18-w-devant",
+      "t": "word",
+      "skill": "localisation",
+      "fr": "devant",
+      "ko": "~ 앞에",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u1-18-w-en-face",
+      "t": "word",
+      "skill": "localisation",
+      "fr": "en face de",
+      "ko": "~ 맞은편에",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u1-18-w-a-cote",
+      "t": "word",
+      "skill": "localisation",
+      "fr": "à côté de",
+      "ko": "~ 옆에",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u1-18-w-entre",
+      "t": "word",
+      "skill": "localisation",
+      "fr": "entre … et …",
+      "ko": "~와 ~ 사이에",
+      "say": "entre, et",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u1-18-c-derriere",
+      "t": "choice",
+      "skill": "localisation",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "L'église est ___ la mairie.",
+      "ko": "교회는 시청 뒤에 있다.",
+      "a": "derrière",
+      "wrong": [
+        "devant",
+        "à côté de",
+        "entre"
+      ],
+      "hint": "'뒤'를 뜻하는 표현이에요.",
+      "explain": "derrière = ~ 뒤에. de 없이 바로 명사.",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u1-18-c-devant",
+      "t": "choice",
+      "skill": "localisation",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "La poste est ___ l'école.",
+      "ko": "우체국은 학교 앞에 있다.",
+      "a": "devant",
+      "wrong": [
+        "devant de",
+        "derrière",
+        "en face"
+      ],
+      "hint": "'앞'이고, de가 필요 없는 표현이에요.",
+      "explain": "devant + 명사. devant de ✗",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u1-18-c-en-face",
+      "t": "choice",
+      "skill": "localisation",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "La bibliothèque est ___ l'église.",
+      "ko": "도서관은 교회 맞은편에 있다.",
+      "a": "en face de",
+      "wrong": [
+        "en face",
+        "à côté",
+        "devant de"
+      ],
+      "hint": "'맞은편'이고, 명사 앞에 전치사가 하나 더 필요해요.",
+      "explain": "en face de + 명사.",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u1-18-c-a-cote",
+      "t": "choice",
+      "skill": "localisation",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Le cinéma est ___ la poste.",
+      "ko": "영화관은 우체국 옆에 있다.",
+      "a": "à côté de",
+      "wrong": [
+        "à côté",
+        "derrière de",
+        "entre"
+      ],
+      "hint": "'옆'이고, 명사 앞에 전치사가 하나 더 필요해요.",
+      "explain": "à côté de + la poste (여성 → 축약 없음).",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u1-18-c-entre-et",
+      "t": "choice",
+      "skill": "localisation",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "La pharmacie est entre le café ___ l'hôpital.",
+      "ko": "약국은 카페와 병원 사이에 있다.",
+      "a": "et",
+      "wrong": [
+        "de",
+        "à",
+        "ou"
+      ],
+      "hint": "entre A ___ B — 두 대상을 잇는 말이에요.",
+      "explain": "entre … et … = ~와 ~ 사이에.",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u1-18-c-ex2",
+      "t": "choice",
+      "skill": "localisation",
+      "prompt": "연습문제 2 (지도)",
+      "q": "La pharmacie est ___ l'hôpital.",
+      "ko": "약국은 병원 옆에 있다.",
+      "a": "à côté de",
+      "wrong": [
+        "à côté du",
+        "entre",
+        "devant de"
+      ],
+      "hint": "l'hôpital은 l'로 시작해요. 축약이 일어날까요?",
+      "explain": "de + l' 은 그대로 → à côté de l'hôpital.",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u1-18-b-ex3",
+      "t": "build",
+      "skill": "localisation",
+      "prompt": "연습문제 3 — 문장을 만드세요",
+      "ko": "시청은 영화관과 우체국 사이에 있다.",
+      "a": "La mairie est entre le cinéma et la poste.",
+      "extra": [
+        "de",
+        "à"
+      ],
+      "hint": "사이를 나타내는 표현은 두 부분으로 되어 있어요.",
+      "explain": "entre le cinéma et la poste.",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u1-18-c-ex4",
+      "t": "choice",
+      "skill": "localisation",
+      "prompt": "연습문제 4 (지도)",
+      "q": "Une voiture est ___ la mairie.",
+      "ko": "자동차 한 대가 시청 앞에 있다.",
+      "a": "devant",
+      "wrong": [
+        "devant de",
+        "derrière de",
+        "en face"
+      ],
+      "hint": "'앞' — de가 붙지 않는 표현이에요.",
+      "explain": "devant la mairie.",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u1-18-c-ex5",
+      "t": "choice",
+      "skill": "localisation",
+      "prompt": "연습문제 5 (지도)",
+      "q": "La boulangerie est ___ café.",
+      "ko": "빵집은 카페 옆에 있다.",
+      "a": "à côté du",
+      "wrong": [
+        "à côté de le",
+        "à côté le",
+        "à côté de"
+      ],
+      "hint": "café는 남성(le)이에요. de와 le가 만나면?",
+      "explain": "de + le = du → à côté du café.",
+      "src": "semaine 5-2",
+      "star": true
+    },
+    {
+      "id": "u1-18-c-ex6",
+      "t": "choice",
+      "skill": "localisation",
+      "prompt": "연습문제 6 (지도)",
+      "q": "La bibliothèque est ___ l'école.",
+      "ko": "도서관은 학교 맞은편에 있다.",
+      "a": "en face de",
+      "wrong": [
+        "en face du",
+        "à côté",
+        "derrière de"
+      ],
+      "hint": "'맞은편', 그리고 l' 앞이에요.",
+      "explain": "en face de l'école. l' 앞에서는 축약 없음.",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u1-18-err-devant-de",
+      "t": "error",
+      "skill": "localisation",
+      "s": "La poste est devant de l'école.",
+      "wrong": "devant de",
+      "right": "devant",
+      "ko": "우체국은 학교 앞에 있다.",
+      "hint": "de가 붙는 위치 표현은 '맞은편'과 '옆' 둘뿐이에요.",
+      "explain": "derrière·devant·entre는 de 없이.",
+      "src": "semaine 5-2",
+      "star": true
+    },
+    {
+      "id": "u1-18-err-de-le",
+      "t": "error",
+      "skill": "localisation",
+      "s": "La boulangerie est à côté de le café.",
+      "wrong": "de le",
+      "right": "du",
+      "ko": "빵집은 카페 옆에 있다.",
+      "hint": "de 뒤에 남성 정관사가 오면 합쳐져요.",
+      "explain": "de + le = du.",
+      "src": "semaine 5-2",
+      "star": true
+    },
+    {
+      "id": "u1-18-c-de-rule",
+      "t": "choice",
+      "skill": "localisation",
+      "prompt": "de 없이 쓰는 위치 표현끼리 묶인 것은?",
+      "q": "명사 앞에 바로 오는 것들",
+      "a": "derrière · devant · entre",
+      "wrong": [
+        "en face · à côté",
+        "à côté · derrière",
+        "devant · en face"
+      ],
+      "say": "",
+      "hint": "'맞은편'과 '옆'에는 de가 붙어요.",
+      "explain": "en face de · à côté de만 de가 붙습니다.",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u1-18-c-hopital-pron",
+      "t": "choice",
+      "skill": "pron",
+      "prompt": "l'hôpital의 발음은?",
+      "q": "병원을 어떻게 읽나요?",
+      "a": "[로삐딸]",
+      "wrong": [
+        "[르 호삐딸]",
+        "[로삐따]",
+        "[라 오삐딸]"
+      ],
+      "say": "l'hôpital",
+      "hint": "h는 소리가 없고, 끝 l은…?",
+      "explain": "h 묵음 → l' 엘리지옹, 끝 l은 발음.",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u1-18-l-derriere",
+      "t": "listen",
+      "skill": "pron",
+      "say": "derrière",
+      "a": "derrière",
+      "wrong": [
+        "dernière",
+        "devant"
+      ],
+      "ko": "~ 뒤에",
+      "pron": "[데히에흐]",
+      "hint": "가운데 소리가 [히]인지 [니]인지 들어보세요.",
+      "explain": "derrière(뒤에) vs dernière(마지막) — r과 n 한 글자 차이.",
+      "src": "semaine 5-2"
+    }
+  ]
+}

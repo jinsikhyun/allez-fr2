@@ -1,0 +1,113 @@
+{
+  "id": "u0-04",
+  "unit": "u0",
+  "title": "부정문과 의문문",
+  "emoji": "❓",
+  "date": "2026-09-03",
+  "sources": ["semaine 1-2", "semaine 1-3", "semaine 2-1", "노션 9/2", "노션 9/3", "노션 9/8", "노션 9/10", "Révision générale"],
+  "tips": [
+    {"h": "부정문 = ne + 동사 + pas", "b": "모음·무음 h 앞: ne → **n'** (Tu **n'as pas** de beaux yeux.)\n근접미래는 aller만 감싼다: Elle **ne va pas** avoir 21 ans.\n목적 대명사도 안쪽: Je **ne le** sais pas.\n구어에선 ne를 자주 생략: Je (ne) sais pas."},
+    {"h": "부정문에서 un / une / des → de", "b": "Il a **un** chien. → Il n'a pas **de** chien.\n모음 앞은 **d'**: Il n'a pas **d'**enfants.\n(정관사 le/la/les와 être 뒤는 그대로: Ce n'est pas un chien.)"},
+    {"h": "ne … jamais · Moi aussi / Moi non plus", "b": "pas 자리에 **jamais**: Je ne vais **jamais** au cinéma.\n긍정문에 '나도' → **Moi aussi.** · 부정문에 '나도' → **Moi non plus.**"},
+    {"h": "의문문 3가지 (뒤로 갈수록 격식)", "rows": [["억양 (구어)", "Tu es français ?"], ["est-ce que (만능)", "Est-ce que tu es français ?"], ["도치 (문어·격식)", "Es-tu français ?"]], "b": "est-ce que + 모음 → est-ce **qu'**: Est-ce qu'elle… · Est-ce qu'Alex…"},
+    {"h": "도치의 함정 2개", "b": "① 모음으로 끝나는 동사 + il/elle/on → **-t-**: A-t-il…? · Va-t-elle…?\n② 명사 주어는 앞에 두고 대명사로 되받기: Le campus **est-il** grand ? (Est le campus grand ✗)"}
+  ],
+  "fixes": [
+    {"where": "노션 9/3", "was": "Elle ne va pas avoir 21 ans. : 그녀는 곧 21살이 된다.", "now": "Elle ne va pas avoir 21 ans. : 그녀는 21살이 되지 않을 것이다.", "why": "ne…pas가 들어간 부정문. '곧 21살이 된다'는 긍정문 Elle va avoir 21 ans.의 뜻"},
+    {"where": "노션 9/3", "was": "Il va a la fac → Il va a la fac.", "now": "Il va à la fac. → Va-t-il à la fac ?", "why": "전치사 à에는 악센트 필수 (a는 avoir의 il a). 도치하면 va와 il 사이에 -t-"}
+  ],
+  "note": [
+    {
+      "h": "부정문 ne + 동사 + pas (leçon 3)", "skill": "neg", "src": ["semaine 1-2 p.20", "semaine 1-3 p.8", "노션 9/2", "노션 9/3"],
+      "body": [
+        {"p": "ne와 pas가 동사를 **샌드위치**처럼 감싼다."},
+        {"table": [["긍정", "부정"], ["Je suis grand.", "Je ne suis pas grand."], ["Tu as de beaux yeux.", "Tu n'as pas de beaux yeux."], ["Il va à la fac.", "Il ne va pas à la fac."], ["Elle va avoir 21 ans.", "Elle ne va pas avoir 21 ans."], ["Les arbres sont petits.", "Les arbres ne sont pas petits."]], "head": true},
+        {"list": ["모음·무음 h 앞에서 ne → **n'**: je n'ai pas, tu n'es pas, il n'habite pas", "목적 대명사도 ne와 동사 사이: Je **ne le** sais pas. (나는 그걸 몰라)", "근접미래(aller + 원형)는 **aller만** 감싼다: Elle ne va pas avoir 21 ans. = 그녀는 21살이 되지 않을 것이다", "구어에선 ne를 자주 생략: Je (ne) sais pas. → 듣기에선 pas가 부정 신호"]},
+        {"memo": "9/2 필기: aller + 동사원형 = 근접미래 — '자동적으로 나오게끔 공부'."}
+      ]
+    },
+    {
+      "h": "부정문의 de (un / une / des → de)", "skill": "neg", "src": ["semaine 1-2 p.20", "노션 9/10"],
+      "body": [
+        {"p": "부정문에서 부정관사 **un / une / des → de** (모음 앞 **d'**)."},
+        {"ex": [["Il a un chien. → Il n'a pas de chien.", "그는 개가 없다."], ["Il a des enfants. → Il n'a pas d'enfants.", "그는 아이가 없다."]]},
+        {"warn": "정관사 le / la / les는 그대로: Je ne prends pas **le** déjeuner. (9/10 수업 문답 — '점심 안 먹어요. 보통은(normalement)…')"},
+        {"p": "Tu as **de** beaux yeux.의 de는 원래부터 de(형용사 앞 복수)라서 부정문에서도 그대로."}
+      ]
+    },
+    {
+      "h": "ne … jamais · Moi aussi / Moi non plus", "skill": "neg", "src": ["semaine 2-1 p.15-16", "Révision générale"],
+      "body": [
+        {"ex": [["Je ne vais jamais au cinéma.", "나는 영화관에 절대 안 간다."], ["Je n'ai jamais cours de français.", "나는 프랑스어 수업이 전혀 없다."]]},
+        {"warn": "pas 자리에 jamais가 들어간다 — ne … pas jamais ✗"},
+        {"table": [["긍정문에 '나도'", "Moi aussi."], ["부정문에 '나도 (아니야)'", "Moi non plus."]]},
+        {"memo": "9/9 필기: 영어 me too / me neither처럼 앞 문장이 부정이면 반드시 non plus. 예: Il n'est pas là non plus. (그도 거기 없어)"}
+      ]
+    },
+    {
+      "h": "의문문 만드는 3가지 (leçon 2)", "skill": "question", "src": ["semaine 1-2 p.21-22", "semaine 1-3 p.9-10"],
+      "body": [
+        {"table": [["방식", "예", "느낌"], ["억양만 올리기", "Tu es français ?", "구어"], ["est-ce que", "Est-ce que tu es français ?", "만능"], ["도치", "Es-tu français ?", "문어·격식"]], "head": true},
+        {"ex": [["Elle est française ? · Est-ce qu'elle est française ? · Est-elle française ?", "그녀는 프랑스인이야?"], ["Le campus est grand ? · Est-ce que le campus est grand ? · Le campus est-il grand ?", "캠퍼스가 커?"], ["Alex a dix-neuf ans ? · Est-ce qu'Alex a dix-neuf ans ? · Alex a-t-il dix-neuf ans ?", "알렉스는 19살이야?"]]},
+        {"warn": "est-ce que + 모음 → **est-ce qu'**: Est-ce qu'elle…, Est-ce qu'Alex…"}
+      ]
+    },
+    {
+      "h": "도치의 규칙 + 연습 문장", "skill": "question", "src": ["semaine 1-2 p.22-23", "semaine 1-3 p.10-11", "노션 9/3", "노션 9/8"],
+      "body": [
+        {"list": ["**-t- 삽입**: 동사가 모음으로 끝나고 주어가 il/elle/on → a-t-il, va-t-elle, parle-t-il", "동사가 t·d로 끝나면 그대로: est-il, part-il, sont-ils", "**명사 주어**는 앞에 두고 대명사로 되받기: Le campus est-il grand ? (Est le campus grand ✗)"]},
+        {"table": [["평서문", "도치 의문문"], ["Je suis grand.", "Suis-je grand ? (딱딱함 → 보통 Est-ce que je suis grand ?)"], ["Tu as de beaux yeux.", "As-tu de beaux yeux ?"], ["Il va à la fac.", "Va-t-il à la fac ?"], ["Elle va avoir 21 ans.", "Va-t-elle avoir 21 ans ?"], ["Les arbres sont petits.", "Les arbres sont-ils petits ?"]], "head": true},
+        {"memo": "9/3 필기: campus의 끝 s는 발음 [깡퓌스]. Alex a-t-il dix-neuf ans ? [아띨 디즈뇌 방] — neuf ans은 f가 [v]로 연음."},
+        {"ex": [["Quel âge a-t-il ? = Il a quel âge ? = Quel âge est-ce qu'il a ?", "그는 몇 살이야? (9/8 필기 — 세 방식 모두 같은 뜻)"]]}
+      ]
+    },
+    {
+      "h": "aller + 동사원형 = 근접미래 (9/2)", "skill": "pres-irr", "src": ["노션 9/2", "노션 9/3", "semaine 1-2 p.13, 20", "노션 9/10"],
+      "body": [
+        {"p": "**aller + 동사원형** = 곧 ~할 것이다 (근접미래 · 필기엔 '간접미래형'). 9/2 필기: '자동적으로 나오게끔 공부'."},
+        {"table": [["aller", ""], ["je vais", "nous allons"], ["tu vas", "vous allez"], ["il / elle va", "ils / elles vont"]]},
+        {"ex": [["Elle va avoir 21 ans.", "그녀는 곧 21살이 된다."], ["Elle ne va pas avoir 21 ans.", "그녀는 21살이 되지 않을 것이다."], ["Va-t-elle avoir 21 ans ?", "그녀는 곧 21살이 돼?"], ["Je vais aller au restaurant.", "식당에 갈 거예요."], ["À quelle heure vas-tu déjeuner ?", "몇 시에 점심 먹을 거야?"]]},
+        {"warn": "부정·도치 모두 **aller만** 건드린다. 동사원형은 그대로 뒤에 (Elle ne va pas avoir… / Va-t-elle avoir…)."}
+      ]
+    }
+  ],
+  "cards": [
+    {"id": "u0-04-neg-grand", "t": "build", "skill": "neg", "hint": "suis는 자음으로 시작! ne…pas로 동사만 감싸봐요", "prompt": "부정문으로 바꾸세요", "from": "Je suis grand.", "a": "Je ne suis pas grand.", "extra": ["n'", "non"], "ko": "나는 키가 크지 않다.", "src": "semaine 1-2", "explain": "ne + 동사 + pas로 동사를 샌드위치!"},
+    {"id": "u0-04-neg-yeux", "t": "build", "skill": "neg", "hint": "as는 모음으로 시작해요! de beaux yeux의 de는 그대로일까요?", "prompt": "부정문으로 바꾸세요", "from": "Tu as de beaux yeux.", "a": "Tu n'as pas de beaux yeux.", "extra": ["ne", "des"], "ko": "너는 예쁜 눈을 갖고 있지 않다.", "star": true, "src": "semaine 1-2", "explain": "as가 모음으로 시작 → ne가 n'로. de beaux yeux의 de는 그대로."},
+    {"id": "u0-04-neg-fac", "t": "build", "skill": "neg", "hint": "동사 va만 ne…pas로 감싸면 돼요. à la fac은 그대로!", "prompt": "부정문으로 바꾸세요", "from": "Il va à la fac.", "a": "Il ne va pas à la fac.", "extra": ["n'", "au"], "ko": "그는 학교(대학)에 가지 않는다.", "src": "semaine 1-2", "explain": "va를 ne…pas로 감싸면 끝. à la fac은 그대로."},
+    {"id": "u0-04-neg-21", "t": "build", "skill": "neg", "hint": "근접미래는 aller만 감싸요! avoir는 어디에 둘까요?", "prompt": "부정문으로 바꾸세요", "from": "Elle va avoir 21 ans.", "a": "Elle ne va pas avoir 21 ans.", "extra": ["n'", "a"], "ko": "그녀는 21살이 되지 않을 것이다.", "star": true, "src": "semaine 1-2", "explain": "근접미래(aller + 원형)는 aller만 ne…pas로 감싸요. avoir는 밖에!"},
+    {"id": "u0-04-meaning-21", "t": "choice", "skill": "neg", "hint": "ne…pas가 보이나요? aller + 동사원형은 '곧 ~할 것'", "prompt": "뜻은?", "q": "Elle ne va pas avoir 21 ans.", "a": "그녀는 21살이 되지 않을 것이다.", "wrong": ["그녀는 곧 21살이 된다.", "그녀는 21살이 아니다.", "그녀는 21살에 가지 않는다."], "say": "Elle ne va pas avoir 21 ans.", "star": true, "src": "노션 9/3", "explain": "ne…pas가 있으니 부정! '곧 21살이 된다'는 긍정문 Elle va avoir 21 ans.의 뜻이에요."},
+    {"id": "u0-04-neg-arbres", "t": "choice", "skill": "neg", "hint": "pas는 동사 바로 뒤! sont은 자음으로 시작해요", "prompt": "부정문으로 알맞은 것은?", "q": "Les arbres sont petits.", "a": "Les arbres ne sont pas petits.", "wrong": ["Les arbres ne sont petits pas.", "Les arbres sont ne pas petits.", "Les arbres n'sont pas petits."], "say": "Les arbres ne sont pas petits.", "src": "semaine 1-2", "explain": "pas는 동사 바로 뒤. sont은 자음으로 시작하니 ne 그대로."},
+    {"id": "u0-04-neg-chien", "t": "build", "skill": "neg", "hint": "부정문에서 un·une·des는 어떻게 바뀔까요? a는 모음!", "prompt": "부정문으로 바꾸세요", "from": "Il a un chien.", "a": "Il n'a pas de chien.", "extra": ["un", "ne"], "ko": "그는 개가 없다.", "star": true, "src": "Révision générale", "explain": "부정문에서 un/une/des → de. a는 모음이라 n'."},
+    {"id": "u0-04-err-enfants", "t": "error", "skill": "neg", "hint": "부정문 속 부정관사를 의심해봐요 — 뒤는 모음!", "s": "Il n'a pas des enfants.", "wrong": "des enfants", "right": "d'enfants", "ko": "그는 아이가 없다.", "star": true, "src": "Révision générale", "explain": "부정문에서 des → de, 게다가 모음 앞이라 d'."},
+    {"id": "u0-04-dejeuner", "t": "build", "skill": "neg", "hint": "부정문에서 바뀌는 건 부정관사뿐! 정관사 le는?", "prompt": "부정문으로 바꾸세요", "from": "Je prends le déjeuner.", "a": "Je ne prends pas le déjeuner.", "extra": ["n'", "non"], "ko": "저는 점심을 안 먹어요.", "star": true, "src": "노션 9/10", "explain": "de로 바뀌는 건 un/une/des뿐! 정관사 le는 부정문에서도 그대로예요."},
+    {"id": "u0-04-err-ne-ai", "t": "error", "skill": "elision", "hint": "모음 앞에 온 ne를 확인해봐요 — 엘리지옹!", "s": "Je ne ai pas de voiture.", "wrong": "ne ai", "right": "n'ai", "ko": "나는 차가 없다.", "star": true, "src": "노션 9/3", "explain": "모음 앞 ne → n'. 엘리지옹은 선택이 아니라 필수!"},
+    {"id": "u0-04-n-habite", "t": "choice", "skill": "elision", "hint": "habite는 무음 h로 시작! 모음 앞 ne는 어떻게 될까요?", "prompt": "빈칸에 알맞은 것은?", "q": "Il ___ habite pas à Paris.", "ko": "그는 파리에 살지 않는다.", "a": "n'", "wrong": ["ne", "n", "non"], "say": "Il n'habite pas à Paris.", "star": true, "src": "노션 9/3", "explain": "무음 h도 모음 취급 → n'habite."},
+    {"id": "u0-04-ne-le", "t": "choice", "skill": "neg", "hint": "목적 대명사 le는 동사 바로 앞! ne…pas는 그 덩어리를 감싸요", "prompt": "빈칸에 알맞은 것은?", "q": "Je ___ sais pas.", "ko": "나는 그걸 몰라.", "a": "ne le", "wrong": ["le ne", "ne pas le", "n'le"], "say": "Je ne le sais pas.", "src": "노션 9/3", "explain": "목적 대명사 le는 ne와 동사 사이에 쏙. ne…pas가 '동사 덩어리'를 감싸요."},
+    {"id": "u0-04-ne-omit", "t": "choice", "skill": "neg", "hint": "구어에선 부정문의 앞쪽 짝을 자주 빼먹어요!", "prompt": "구어에서 이렇게 말할 때 빠진 단어는?", "q": "Je sais pas.", "a": "ne", "wrong": ["pas", "je", "sais"], "say": "Je ne sais pas.", "src": "노션 9/3", "explain": "말할 땐 ne를 자주 생략해요. 그래서 듣기에선 pas가 부정의 신호!"},
+    {"id": "u0-04-jamais", "t": "build", "skill": "neg", "hint": "'절대 ~않다'는 pas 자리에 다른 단어가! souvent은 빼요", "prompt": "'절대 ~하지 않는다'로 바꾸세요", "from": "Je vais souvent au cinéma.", "a": "Je ne vais jamais au cinéma.", "extra": ["pas", "souvent"], "ko": "나는 영화관에 절대 안 가.", "star": true, "src": "semaine 2-1", "explain": "ne … jamais: pas 자리에 jamais가 들어가요. pas와 같이 쓰지 않기!"},
+    {"id": "u0-04-moi-aussi", "t": "choice", "skill": "neg", "hint": "앞 문장이 긍정이에요! 영어 me too에 해당하는 말은?", "prompt": "'나도!'라고 맞장구치면?", "q": "J'aime les comédies musicales. — ___", "a": "Moi aussi.", "wrong": ["Moi non plus.", "Moi aussi pas.", "Moi plus."], "say": "J'aime les comédies musicales. Moi aussi.", "star": true, "src": "Révision générale", "explain": "긍정문에 '나도' = Moi aussi (영어 me too)."},
+    {"id": "u0-04-moi-non-plus", "t": "choice", "skill": "neg", "hint": "앞 문장이 부정이에요! 영어 me neither에 해당하는 말은?", "prompt": "'나도 (아니야)'라고 맞장구치면?", "q": "Je ne comprends pas la question. — ___", "a": "Moi non plus.", "wrong": ["Moi aussi.", "Moi non aussi.", "Moi ne plus."], "say": "Je ne comprends pas la question. Moi non plus.", "star": true, "src": "Révision générale", "explain": "앞 문장이 부정이면 '나도' = Moi non plus (영어 me neither)."},
+    {"id": "u0-04-inv-es-tu", "t": "type", "skill": "question", "hint": "주어와 동사를 뒤집고 하이픈으로 연결! 물음표도 잊지 말기", "prompt": "도치 의문문으로 바꾸세요", "q": "Tu es français.", "a": "Es-tu français ?", "src": "semaine 1-2", "explain": "주어와 동사를 뒤집고 하이픈(-)으로 연결."},
+    {"id": "u0-04-inv-est-elle", "t": "type", "skill": "question", "hint": "est는 이미 t로 끝나요. 도치할 때 -t-가 또 필요할까요?", "prompt": "도치 의문문으로 바꾸세요", "q": "Elle est française.", "a": "Est-elle française ?", "src": "semaine 1-2", "explain": "est는 t로 끝나서 -t-를 또 넣을 필요 없어요."},
+    {"id": "u0-04-estce-je", "t": "build", "skill": "question", "hint": "est-ce que를 문장 앞에 붙이고 어순은 그대로! je는 자음이에요", "prompt": "est-ce que 의문문으로 바꾸세요", "from": "Je suis grand.", "a": "Est-ce que je suis grand ?", "extra": ["qu'", "suis-je"], "ko": "나 키 커?", "src": "semaine 1-2", "explain": "je는 도치(Suis-je grand ?)가 딱딱하게 들려서 보통 est-ce que를 써요. je는 자음이라 que 그대로."},
+    {"id": "u0-04-inv-as-tu", "t": "type", "skill": "question", "hint": "tu as → 주어·동사를 뒤집고 하이픈! 나머지는 그대로", "prompt": "도치 의문문으로 바꾸세요", "q": "Tu as de beaux yeux.", "a": "As-tu de beaux yeux ?", "src": "semaine 1-2", "explain": "as + tu → As-tu. 나머지(de beaux yeux)는 그대로."},
+    {"id": "u0-04-estce-elle", "t": "build", "skill": "question", "hint": "que 뒤에 모음 elle이 와요! 엘리지옹을 잊지 말기", "prompt": "est-ce que 의문문으로 바꾸세요", "from": "Elle est française.", "a": "Est-ce qu'elle est française ?", "extra": ["que", "elle"], "ko": "그녀는 프랑스인이야?", "star": true, "src": "semaine 1-2", "explain": "que + elle → qu'elle (엘리지옹)."},
+    {"id": "u0-04-err-que-alex", "t": "error", "skill": "elision", "hint": "que 뒤에 오는 이름의 첫 글자를 봐요 — 모음!", "s": "Est-ce que Alex a dix-neuf ans ?", "wrong": "que Alex", "right": "qu'Alex", "ko": "알렉스는 19살이야?", "star": true, "src": "semaine 1-2", "explain": "모음(A) 앞 que → qu'. 사람 이름 앞에서도 똑같아요."},
+    {"id": "u0-04-inv-campus", "t": "build", "skill": "question", "hint": "명사 주어는 그대로 두고 동사 뒤 대명사로 되받기! campus의 성은?", "prompt": "도치 의문문으로 바꾸세요", "from": "Le campus est grand.", "a": "Le campus est-il grand ?", "extra": ["Est", "est-elle"], "ko": "캠퍼스가 커?", "pron": "[르 깡퓌스 에띨 그항]", "star": true, "src": "semaine 1-3", "explain": "명사 주어는 앞에 그대로 두고, 동사 뒤에 대명사 il로 되받아 도치. campus는 남성 → il."},
+    {"id": "u0-04-inv-alex", "t": "build", "skill": "question", "hint": "Alex는 대명사 il로 되받기! a + il은 모음 충돌이에요", "prompt": "도치 의문문으로 바꾸세요", "from": "Alex a dix-neuf ans.", "a": "Alex a-t-il dix-neuf ans ?", "extra": ["a-il", "est-il"], "ko": "알렉스는 19살이야?", "pron": "[알렉스 아띨 디즈뇌 방]", "star": true, "src": "semaine 1-3", "explain": "a + il은 모음 충돌 → -t- 삽입: a-t-il. neuf ans는 f가 [v]로 연음돼요."},
+    {"id": "u0-04-inv-va-t-il", "t": "type", "skill": "question", "hint": "va도 모음으로 끝나요! il과 부딪치면 뭘 넣을까요?", "prompt": "도치 의문문으로 바꾸세요", "q": "Il va à la fac.", "a": "Va-t-il à la fac ?", "star": true, "src": "노션 9/3", "explain": "va도 모음으로 끝나니 -t-! 전치사 à의 악센트도 잊지 말기."},
+    {"id": "u0-04-inv-va-t-elle", "t": "build", "skill": "question", "hint": "근접미래는 aller를 도치! 모음끼리 부딪치면?", "prompt": "도치 의문문으로 바꾸세요", "from": "Elle va avoir 21 ans.", "a": "Va-t-elle avoir 21 ans ?", "extra": ["Va-elle", "avoir-t-elle"], "ko": "그녀는 곧 21살이 돼?", "star": true, "src": "semaine 1-2", "explain": "근접미래는 aller를 도치: Va-t-elle + 동사원형. va가 모음으로 끝나니 -t-!"},
+    {"id": "u0-04-inv-arbres", "t": "type", "skill": "question", "hint": "명사 주어는 그대로! les arbres를 받는 대명사는 뭘까요?", "prompt": "도치 의문문으로 바꾸세요", "q": "Les arbres sont petits.", "a": "Les arbres sont-ils petits ?", "src": "노션 9/3", "explain": "명사 주어(남성 복수) → 대명사 ils로 되받기."},
+    {"id": "u0-04-err-va-elle", "t": "error", "skill": "question", "hint": "va와 elle 사이 모음 충돌! 도치 부분을 의심해봐요", "s": "Où va-elle ?", "wrong": "va-elle", "right": "va-t-elle", "ko": "그녀는 어디 가?", "star": true, "src": "semaine 2-1", "explain": "동사가 모음으로 끝나고 il/elle/on이 오면 사이에 -t-."},
+    {"id": "u0-04-t-rule", "t": "choice", "skill": "question", "hint": "-t-는 모음끼리 부딪치는 걸 막는 장치! 동사 끝과 주어 첫소리를 봐요", "prompt": "도치 규칙", "q": "도치 의문문에 -t-를 넣는 경우는?", "a": "동사가 모음으로 끝나고 주어가 il/elle/on일 때", "wrong": ["주어가 je/tu일 때", "동사가 자음으로 끝날 때", "주어가 명사일 때"], "say": "A-t-il dix-neuf ans ?", "src": "Révision générale", "explain": "발음을 매끄럽게 이어주는 장치예요: a-t-il, va-t-elle, parle-t-on."},
+    {"id": "u0-04-formal", "t": "choice", "skill": "question", "hint": "억양 → est-ce que → 도치, 격식은 어느 쪽이 높을까요?", "prompt": "가장 격식 있는 것은?", "q": "'너 프랑스인이야?'", "a": "Es-tu français ?", "wrong": ["Tu es français ?", "Est-ce que tu es français ?"], "say": "Es-tu français ?", "src": "semaine 1-2", "explain": "억양(구어) → est-ce que(만능) → 도치(문어·격식) 순으로 격식이 올라가요."},
+    {"id": "u0-04-quel-age", "t": "build", "skill": "question", "hint": "의문사 quel âge를 앞으로! 그 뒤 a + il은 모음 충돌", "prompt": "도치 의문문으로 바꾸세요", "from": "Il a quel âge ?", "a": "Quel âge a-t-il ?", "extra": ["a-il", "est-il"], "ko": "그는 몇 살이야?", "src": "노션 9/8", "explain": "Il a quel âge ? = Quel âge est-ce qu'il a ? = Quel âge a-t-il ? 세 가지 모두 같은 뜻."},
+    {"id": "u0-04-futur-proche", "t": "choice", "skill": "pres-irr", "hint": "aller + 동사원형 = 곧 할 일! ne…pas가 있나요?", "prompt": "뜻은?", "q": "Elle va avoir 21 ans.", "a": "그녀는 곧 21살이 된다.", "wrong": ["그녀는 21살이다.", "그녀는 21살이 되지 않을 것이다.", "그녀는 21살에 간다."], "say": "Elle va avoir 21 ans.", "star": true, "src": "노션 9/2", "explain": "aller + 동사원형 = 근접미래 '곧 ~할 것이다'. 부정문(ne va pas)이면 '되지 않을 것이다'."},
+    {"id": "u0-04-intonation", "t": "choice", "skill": "question", "hint": "어순은 평서문 그대로, 끝만 올려요", "prompt": "구어에서 가장 흔한 방식", "q": "억양만 올려서 만든 의문문은?", "a": "Tu es français ?", "wrong": ["Es-tu français ?", "Est-ce que tu es français ?"], "say": "Tu es français ?", "src": "semaine 1-2", "explain": "억양 의문문 = 평서문 + ↗. 말할 때 제일 많이 써요."},
+    {"id": "u0-04-estce-campus", "t": "build", "skill": "question", "hint": "문장 앞에 붙이기만! 뒤 단어는 자음으로 시작", "prompt": "est-ce que 의문문으로 바꾸세요", "from": "Le campus est grand.", "a": "Est-ce que le campus est grand ?", "extra": ["qu'", "est-il"], "ko": "캠퍼스가 커?", "src": "semaine 1-2", "explain": "est-ce que + 평서문 어순 그대로. le는 자음이라 que 그대로."},
+    {"id": "u0-04-suis-je", "t": "choice", "skill": "question", "hint": "주어 je와 동사를 뒤집고 하이픈! (딱딱해서 잘 안 씀)", "prompt": "도치 의문문으로 바꾸면?", "q": "Je suis grand.", "a": "Suis-je grand ?", "wrong": ["Est-je grand ?", "Suis-tu grand ?", "Je suis-je grand ?"], "say": "Suis-je grand ?", "src": "semaine 1-2", "explain": "Suis-je grand ?는 문법상 맞지만 딱딱해서, 보통 Est-ce que je suis grand ?를 써요."},
+    {"id": "u0-04-non-plus", "t": "choice", "skill": "neg", "hint": "부정문에서 '~도'는 aussi를 쓰지 않아요!", "prompt": "빈칸에 알맞은 것은?", "q": "Il n'est pas là ___.", "ko": "그도 거기 없어.", "a": "non plus", "wrong": ["aussi", "non aussi", "pas plus"], "say": "Il n'est pas là non plus.", "src": "Révision générale", "explain": "부정문의 '~도' = non plus (영어 either/neither). 긍정문이면 aussi."},
+    {"id": "u0-04-jamais-cours", "t": "build", "skill": "neg", "hint": "ai는 모음 시작! pas 자리에 '전혀'가 들어가요", "prompt": "문장을 만드세요", "ko": "나는 프랑스어 수업이 전혀 없다.", "a": "Je n'ai jamais cours de français.", "extra": ["pas", "ne"], "src": "semaine 2-1", "explain": "ne … jamais: ne는 모음 앞 n', pas 대신 jamais. avoir cours = 수업이 있다."}
+  ]
+}

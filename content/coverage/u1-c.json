@@ -1,0 +1,298 @@
+{
+ "semaine 4-2": {
+  "p.1": [
+   "skip: 표지 (Semaine 4 · Leçon 9 · 9/23)"
+  ],
+  "p.2": [
+   "skip: 목차 (감탄문 / 텍스트-대화문 / 가족 어휘)"
+  ],
+  "p.3": [
+   "skip: PARTIE 1 간지 (Révision : l'exclamation)"
+  ],
+  "p.4": [
+   "u1-12-c-quel-paysage",
+   "u1-12-c-quelle-region",
+   "u1-12-c-quels-paysages",
+   "u1-12-t-quelles",
+   "u1-12-c-comme",
+   "u1-12-err-quel-cest",
+   "u1-12-err-comme-paysage",
+   "u1-12-b-quest-ce-que",
+   "u1-12-b-quelle-belle",
+   "u1-12-c-quel-pron",
+   "u1-12-w-paysage",
+   "u1-12-w-region",
+   "u1-12-w-mon-dieu",
+   "u1-12-l-paysage",
+   "note:u1-12#0",
+   "note:u1-12#1",
+   "note:u1-12#5",
+   "tip:u1-12#0"
+  ],
+  "p.5": [
+   "u1-13-w-nice",
+   "note:u1-13#3"
+  ],
+  "p.6": [
+   "u1-13-w-nice",
+   "u1-13-w-menton",
+   "u1-13-w-monaco",
+   "note:u1-13#3"
+  ],
+  "p.7": [
+   "u1-13-w-menton",
+   "u1-13-w-monaco",
+   "note:u1-13#3"
+  ],
+  "p.8": [
+   "u1-12-c-quel-paysage",
+   "u1-12-c-comme",
+   "u1-12-b-quest-ce-que",
+   "note:u1-12#0",
+   "note:u1-12#1",
+   "tip:u1-12#0"
+  ],
+  "p.9": [
+   "skip: PARTIE 2 간지 (Le texte-dialogue)"
+  ],
+  "p.10": [
+   "u1-11-vous-meme",
+   "u1-12-c-vous-meme",
+   "u1-13-c-sur-cote",
+   "u1-11-c-alles",
+   "note:u1-12#4",
+   "note:u1-13#2"
+  ],
+  "p.11": [
+   "u1-12-c-moi-je",
+   "u1-12-c-moi-aussi",
+   "u1-12-c-eux-aussi",
+   "u1-12-t-tonic-ils",
+   "u1-12-t-tonic-il",
+   "u1-12-c-chez-lui",
+   "u1-12-c-tonic-vs-coi",
+   "u1-12-err-je-aussi",
+   "u1-12-l-eux-aussi",
+   "note:u1-12#2",
+   "note:u1-12#3",
+   "tip:u1-12#1",
+   "tip:u1-12#3"
+  ],
+  "p.12": [
+   "u1-12-c-moi-meme",
+   "u1-12-c-eux-memes",
+   "u1-12-c-vous-meme",
+   "u1-12-err-vous-memes",
+   "u1-12-b-coupe-cheveux",
+   "u1-12-c-memes-s-pron",
+   "note:u1-12#4",
+   "tip:u1-12#2"
+  ],
+  "p.13": [
+   "u1-11-descendre-hotel",
+   "u1-11-c-descendus-sens",
+   "u1-11-b-promenes",
+   "u1-11-c-baignes",
+   "u1-11-c-visite",
+   "u1-11-vieux-quartier",
+   "u1-11-lendemain",
+   "note:u1-11#0"
+  ],
+  "p.14": [
+   "u1-11-c-casse",
+   "u1-11-e-cassee",
+   "u1-11-b-restes",
+   "u1-11-accident",
+   "u1-11-helas",
+   "u1-11-dommage",
+   "u1-11-c-va-mieux",
+   "note:u1-11#0"
+  ],
+  "p.15": [
+   "u1-13-c-a-paris",
+   "u1-13-c-a-seoul",
+   "u1-13-c-en-france",
+   "u1-13-c-en-allemagne",
+   "u1-13-c-au-japon",
+   "u1-13-c-au-canada",
+   "u1-13-c-au-origin",
+   "u1-13-err-au-france",
+   "note:u1-13#0",
+   "note:u1-13#1",
+   "tip:u1-13#0",
+   "tip:u1-13#1",
+   "tip:u1-13#2"
+  ],
+  "p.16": [
+   "u1-13-c-aux-etats",
+   "u1-13-c-aux-philippines",
+   "u1-13-c-en-provence",
+   "u1-13-b-mont-saint-michel",
+   "u1-13-l-aux-etats",
+   "note:u1-13#0",
+   "note:u1-13#1",
+   "note:u1-13#4"
+  ],
+  "p.17": [
+   "u1-13-c-ex1-geneve",
+   "u1-13-c-ex2-portugal",
+   "u1-13-c-ex3-paysbas",
+   "u1-13-c-ex4-normandie",
+   "u1-13-c-ex5-bretagne",
+   "u1-13-err-en-geneve",
+   "u1-13-c-paysbas-pron",
+   "note:u1-13#1",
+   "note:u1-13#4"
+  ],
+  "p.18": [
+   "skip: PARTIE 3 간지 (Le vocabulaire : la famille)"
+  ],
+  "p.19": [
+   "u1-14-w-grand-pere",
+   "u1-14-w-grand-mere",
+   "u1-14-w-pere",
+   "u1-14-w-mere",
+   "u1-14-w-oncle",
+   "u1-14-w-tante",
+   "u1-14-w-frere",
+   "u1-14-w-soeur",
+   "u1-14-w-fils",
+   "u1-14-w-fille",
+   "u1-14-w-cousin",
+   "u1-14-w-cousine",
+   "u1-14-w-neveu",
+   "u1-14-w-niece",
+   "u1-14-w-petit-fils",
+   "u1-14-w-petite-fille",
+   "u1-14-w-petits-enfants",
+   "u1-14-w-grands-parents",
+   "u1-14-w-parents",
+   "u1-14-w-enfants",
+   "u1-14-c-petit-fils",
+   "u1-14-c-niece",
+   "u1-14-c-grands-parents",
+   "u1-14-err-petit-enfants",
+   "u1-14-c-petits-enfants-sens",
+   "u1-14-b-soeur",
+   "u1-14-err-mon-tante",
+   "u1-14-c-fils-pron",
+   "u1-14-l-cousin",
+   "u1-14-c-oncle-liaison",
+   "note:u1-14#0",
+   "note:u1-14#1",
+   "note:u1-14#2",
+   "note:u1-14#3",
+   "note:u1-14#4",
+   "tip:u1-14#0",
+   "tip:u1-14#1",
+   "tip:u1-14#2",
+   "tip:u1-14#3"
+  ],
+  "p.20": [
+   "u0-01-asemaine",
+   "skip: 마무리 슬라이드 (Questions / À la semaine prochaine !)"
+  ]
+ },
+ "노션 9/23": {
+  "§ Quiz 2 학습지 (수업 시작)": [
+   "note:u1-10#8"
+  ],
+  "§ Ils se préparent vs. Ils préparent의 차이": [
+   "u1-10-c-se-preparent",
+   "u1-10-c-preparent-cod",
+   "note:u1-10#8"
+  ],
+  "§ Paul et Marie se sont téléphoné = ont téléphoné l'un à l'autre": [
+   "u1-10-c-reciproque",
+   "u1-10-w-lun-a-lautre",
+   "u1-10-c-se-telephone",
+   "note:u1-10#8"
+  ],
+  "§ 문법용어 qqch / qqn — écrire qqch à qqn": [
+   "note:u1-10#8",
+   "note:u1-10#5"
+  ],
+  "§ 슬라이드 캡처 (감탄문) · Que랑 Comme은 문어체": [
+   "u1-12-c-que-registre",
+   "u1-12-c-comme",
+   "note:u1-12#0"
+  ],
+  "§ Je veux / J'ai envie d'aller à Nice / Ça(Cela) me donne envie": [
+   "u1-12-w-avoir-envie",
+   "u1-12-c-envie-de",
+   "u1-12-c-donne-envie",
+   "u1-12-c-cela-ca",
+   "note:u1-12#6"
+  ],
+  "§ 슬라이드 캡처 · Et vous-même ?": [
+   "u1-12-c-vous-meme",
+   "u1-12-err-vous-memes",
+   "note:u1-12#4"
+  ],
+  "§ 영어의 -self와 다름이 없다 (강세형 + même)": [
+   "u1-12-c-moi-meme",
+   "u1-12-c-eux-memes",
+   "note:u1-12#4"
+  ],
+  "§ bronzé(e) : 태닝이 된": [
+   "u1-11-bronze",
+   "u1-11-c-bronzee"
+  ],
+  "§ Mais oui = 강조의 Mais": [
+   "u1-11-mais-oui",
+   "note:u1-11#4"
+  ],
+  "§ 텍스트 문장 — descendre dans un hôtel · se promener · se baigner": [
+   "u1-11-descendre-hotel",
+   "u1-11-se-promener",
+   "u1-11-se-baigner",
+   "u1-11-c-first-day",
+   "u1-11-c-baignes",
+   "note:u1-11#5"
+  ],
+  "§ dernier의 위치 — l'été dernier · le dernier jour · la semaine dernière · le dernier cours": [
+   "u1-11-w-semaine-derniere",
+   "u1-11-w-dernier-cours",
+   "u1-11-c-dernier-position",
+   "u1-11-c-dernier-sens",
+   "u1-11-premier-jour",
+   "u1-11-dernier-jour",
+   "note:u1-11#5"
+  ],
+  "§ Et le dernier jour, nous avons visité le musée Picasso": [
+   "u1-11-c-last-day",
+   "u1-11-musee"
+  ],
+  "§ Nous sommes bien contents de notre séjour sur la Côte d'Azur": [
+   "u1-11-content-de",
+   "u1-11-c-contents",
+   "u1-11-sejour",
+   "u1-13-c-sur-cote"
+  ],
+  "§ Partir en vacances / vous n'êtes pas partis en vacances ?": [
+   "u1-11-partir-vacances",
+   "u1-11-c-partis"
+  ],
+  "§ Hélas, non ! Jean a eu un accident. Il s'est cassé une jambe (casser / se casser)": [
+   "u1-11-helas",
+   "u1-11-accident",
+   "u1-11-c-eu",
+   "u1-11-c-casse",
+   "u1-11-w-casser",
+   "u1-11-se-casser",
+   "note:u1-11#5"
+  ],
+  "§ Alors, nous sommes restés à Paris": [
+   "u1-11-b-restes"
+  ],
+  "§ C'est dommage ! Il va mieux maintenant ? (Se sentir)": [
+   "u1-11-dommage",
+   "u1-11-c-va-mieux",
+   "u1-11-c-se-sentir",
+   "note:u1-11#5"
+  ],
+  "§ 하위 「Semaine 4-2 정리」 페이지": [
+   "skip: Claude가 만든 정리 페이지 — 학생 필기가 아니라 대조 대상 제외"
+  ]
+ }
+}

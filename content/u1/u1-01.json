@@ -1,0 +1,294 @@
+{
+  "id": "u1-01",
+  "unit": "u1",
+  "title": "고마워요 & 천만에요",
+  "emoji": "🙏",
+  "date": "2026-09-15",
+  "sources": ["semaine 3-1", "semaine 3-2", "노션 9/15"],
+  "tips": [
+    {
+      "h": "고마움 표현",
+      "rows": [
+        ["Merci ! / Merci beaucoup !", "고마워요 / 정말 고마워요"],
+        ["Je vous remercie. / Je te remercie.", "감사합니다 (vous / tu)"],
+        ["Merci pour l'information.", "정보 고마워요"],
+        ["Merci de votre attention.", "경청 감사합니다 (발표 끝)"]
+      ]
+    },
+    {
+      "h": "대답 = 천만에요",
+      "rows": [
+        ["De rien. / Ce n'est rien.", "천만에요 / 별거 아니에요"],
+        ["Il n'y a pas de quoi.", "고마워할 거 없어요"],
+        ["Je vous en prie. / Je t'en prie.", "별말씀을요 (vous / tu)"],
+        ["Avec plaisir !", "기꺼이요! (밝고 친근)"]
+      ]
+    },
+    {
+      "h": "tu냐 vous냐",
+      "b": "손님·처음 보는 사람·교수님 → **vous**: Je vous remercie, Je vous en prie\n친구 → **tu**: Je te remercie, Je **t'en** prie (te + en → t'en)"
+    },
+    {
+      "h": "발음",
+      "b": "beaucoup [보꾸] p 묵음 · vous‿en [부 장] 연음 · rien [히앵] 비모음 · quoi [꾸아]"
+    }
+  ],
+  "fixes": [
+    {
+      "where": "노션 9/15 · 9/16 발음",
+      "was": "Ce n'est rien [쓰 네 히앙]",
+      "now": "Ce n'est rien [쓰 네 히앵]",
+      "why": "rien의 ien은 /jɛ̃/ → '앵'에 가까움. '앙'은 en·an의 /ɑ̃/ 소리"
+    }
+  ],
+  "note": [
+    {
+      "h": "감사하기 — Remercier", "skill": "greet", "src": ["semaine 3-1 p.10","semaine 3-2 p.4","노션 9/15"],
+      "body": [
+        {"p":"고마움을 말하는 표현들. **받은 쪽**이 먼저 말하고, 상대는 \"천만에요\"로 받아요."},
+        {"table":[["표현","뜻","언제"],["Merci !","고마워요","가장 기본"],["Merci beaucoup !","정말 고마워요","고마움이 클 때"],["Je vous remercie. / Je te remercie.","감사합니다 / 고마워","Merci보다 격식 (vous / tu)"],["Merci pour l'information.","정보 고마워요","안내·정보를 받았을 때"],["Merci de votre attention.","경청해 주셔서 감사합니다","발표·강연 마무리"]],"head":true},
+        {"p":"**Je vous remercie** = remercier(감사하다, 1군 -er) + 목적어 vous가 동사 **앞**. 친구에겐 Je **te** remercie."},
+        {"ex":[["Merci beaucoup !","정말 고마워요!"],["Je vous remercie, madame.","감사합니다, 선생님."],["Merci de votre attention.","경청해 주셔서 감사합니다."]]},
+        {"memo":"필기(9/15): Merci **pour** + 구체적인 것(l'information), Merci **de** + 격식(votre attention). 절대 규칙이 아니라 경향이에요 — 발표 끝 인사 Merci de votre attention은 관용 표현으로 통째로 외우기!"}
+      ]
+    },
+    {
+      "h": "대답하기 — 천만에요", "skill": "greet", "src": ["semaine 3-1 p.10","semaine 3-2 p.4","노션 9/15"],
+      "body": [
+        {"table":[["대답","직역 · 느낌"],["De rien.","\"아무것도 아닌걸요\" — 가장 흔하고 무난"],["Ce n'est rien.","\"그건 아무것도 아니에요\" — De rien을 풀어 쓴 느낌"],["Il n'y a pas de quoi.","\"고마워할 만한 게 없어요\" — 조금 더 길고 공손"],["Je vous en prie. / Je t'en prie.","\"별말씀을요\" — 가장 정중 (vous / tu)"],["Avec plaisir !","\"기꺼이요!\" — 밝고 친근"]],"head":true},
+        {"p":"격식 순서(필기): Je vous en prie > Il n'y a pas de quoi > De rien ≈ Ce n'est rien > Avec plaisir !"},
+        {"memo":"필기: 친구끼리는 앞을 떼고 **Pas de quoi !** 라고도 해요. Il n'y a pas de quoi는 il y a의 부정형."},
+        {"memo":"Je vous en prie는 \"천만에요\" 말고 \"먼저 하세요(권유)\"로도 써요."}
+      ]
+    },
+    {
+      "h": "tu냐 vous냐", "skill": "greet", "src": ["semaine 3-1 p.10","노션 9/15"],
+      "body": [
+        {"table":[["","vous (존댓말·복수)","tu (친한 사이)"],["감사","Je vous remercie.","Je te remercie."],["대답","Je vous en prie.","Je t'en prie."]],"head":true},
+        {"p":"손님·처음 보는 사람·교수님 → **vous** / 친구·가족 → **tu**."},
+        {"warn":"te + en → **t'en** (엘리지옹). Je te en prie ✗"}
+      ]
+    },
+    {
+      "h": "그림 장면 4컷 (9/16 복습)", "skill": "greet", "src": ["semaine 3-2 p.5-8"],
+      "body": [
+        {"table":[["장면","고마워하는 쪽","대답하는 쪽"],["🍷 비스트로: 웨이터가 요리를 가져옴","Merci beaucoup ! (손님)","Je vous en prie. (웨이터)"],["☕ 카페 문: 남자가 문을 잡아 줌","Merci ! (여자)","De rien ! (남자)"],["🛎️ 안내 데스크: 길 안내를 받음","Merci pour l'information ! (방문객)","Avec plaisir ! (직원)"],["🎤 발표 끝: 화면에 FIN","Merci de votre attention. (발표자)","—"]],"head":true},
+        {"memo":"슬라이드엔 말풍선만 비어 있어요 — 위 대사는 표현 목록에서 상황에 맞게 고른 예시 답. 대답은 De rien / Il n'y a pas de quoi / Je vous en prie 중 무엇이든 OK, 다만 손님·방문객에겐 vous형!"}
+      ]
+    },
+    {
+      "h": "발음", "skill": "pron", "src": ["노션 9/15","노션 9/16"],
+      "body": [
+        {"table":[["표현","발음","포인트"],["Merci beaucoup","[메흐씨 보꾸]","beaucoup 끝 p 묵음"],["Je vous en prie","[쥬 부 장 프히]","vous‿en 연음"],["Je t'en prie","[쥬 땅 프히]","t'en 한 음절"],["Ce n'est rien","[쓰 네 히앵]","ien = 비모음 /jɛ̃/"],["Il n'y a pas de quoi","[일 니 아 빠 드 꾸아]","quoi의 oi = /wa/"]],"head":true},
+        {"warn":"필기엔 rien이 [히앙]으로 적혀 있지만 /ɛ̃/는 \"앵\"에 가까워요. \"앙\"은 en·an의 /ɑ̃/ 소리."}
+      ]
+    },
+    {
+      "h": "Merci pour / Merci de — 필기 보충",
+      "skill": "greet",
+      "src": [
+        "노션 9/15",
+        "semaine 3-1 p.10"
+      ],
+      "body": [
+        {
+          "table": [
+            [
+              "형태",
+              "쓰임",
+              "예"
+            ],
+            [
+              "Merci pour + 명사",
+              "구체적으로 받은 것",
+              "Merci pour l'information. · Merci pour le cadeau."
+            ],
+            [
+              "Merci de + 명사",
+              "추상적·격식",
+              "Merci de votre attention."
+            ],
+            [
+              "Merci de + 동사원형",
+              "~해 줘서 고마워요",
+              "Merci d'être venu."
+            ]
+          ],
+          "head": true
+        },
+        {
+          "ex": [
+            [
+              "Merci pour le cadeau !",
+              "선물 고마워!"
+            ],
+            [
+              "Merci d'être venu.",
+              "와 줘서 고마워요."
+            ]
+          ]
+        },
+        {
+          "warn": "de + 모음 → **d'** (엘리지옹): Merci d'être venu. 그리고 pour/de는 **경향**일 뿐 — 슬라이드의 두 문장은 통째로 외우기!"
+        },
+        {
+          "p": "대답 고르기 요령: 정중하게 → **Je vous en prie** / 무난하게 → **De rien** / 친구끼리 짧게 → **Pas de quoi !** / 밝게 → **Avec plaisir !**"
+        },
+        {
+          "memo": "Je vous en prie는 문 앞에서 \"먼저 들어가세요\", 물건을 건네며 \"어서 쓰세요\" 같은 **권유**로도 쓰여요 (필기 9/15)."
+        }
+      ]
+    }
+  ],
+  "cards": [
+    { "id": "u1-01-merci", "t": "word", "skill": "greet", "fr": "Merci !", "ko": "고마워요! (기본)", "src": "semaine 3-1" },
+    { "id": "u1-01-merci-beaucoup", "t": "word", "skill": "greet", "fr": "Merci beaucoup !", "ko": "정말 고마워요!", "pron": "[메흐씨 보꾸]", "note": "beaucoup의 p는 묵음", "src": "semaine 3-1" },
+    { "id": "u1-01-remercier", "t": "word", "skill": "greet", "fr": "remercier", "ko": "감사하다 (동사)", "note": "1군 -er 동사: je remercie", "src": "semaine 3-1" },
+    { "id": "u1-01-je-vous-remercie", "t": "word", "skill": "greet", "fr": "Je vous remercie.", "ko": "당신께 감사드립니다 (vous)", "note": "vous가 동사 앞. Merci보다 격식", "src": "semaine 3-1" },
+    { "id": "u1-01-je-te-remercie", "t": "word", "skill": "greet", "fr": "Je te remercie.", "ko": "너에게 고마워 (tu)", "src": "semaine 3-1" },
+    { "id": "u1-01-merci-info", "t": "word", "skill": "greet", "fr": "Merci pour l'information.", "ko": "정보 고마워요", "src": "semaine 3-1" },
+    { "id": "u1-01-merci-attention", "t": "word", "skill": "greet", "fr": "Merci de votre attention.", "ko": "경청해 주셔서 감사합니다", "note": "발표·강연 마무리 인사", "star": true, "src": "semaine 3-1" },
+    { "id": "u1-01-de-rien", "t": "word", "skill": "greet", "fr": "De rien.", "ko": "천만에요 (가장 무난)", "src": "semaine 3-1" },
+    { "id": "u1-01-ce-nest-rien", "t": "word", "skill": "greet", "fr": "Ce n'est rien.", "ko": "그건 아무것도 아니에요", "pron": "[쓰 네 히앵]", "src": "semaine 3-1" },
+    { "id": "u1-01-pas-de-quoi", "t": "word", "skill": "greet", "fr": "Il n'y a pas de quoi.", "ko": "고마워할 만한 게 없어요", "pron": "[일 니 아 빠 드 꾸아]", "note": "친구끼리는 줄여서 Pas de quoi !", "src": "semaine 3-1" },
+    { "id": "u1-01-je-vous-en-prie", "t": "word", "skill": "greet", "fr": "Je vous en prie.", "ko": "별말씀을요 (vous·정중)", "pron": "[쥬 부 장 프히]", "note": "vous‿en 연음. '먼저 하세요'라는 권유로도 씀", "star": true, "src": "semaine 3-1" },
+    { "id": "u1-01-je-ten-prie", "t": "word", "skill": "greet", "fr": "Je t'en prie.", "ko": "별말을 다 (tu·친한 사이)", "pron": "[쥬 땅 프히]", "src": "semaine 3-1" },
+    { "id": "u1-01-avec-plaisir", "t": "word", "skill": "greet", "fr": "Avec plaisir !", "ko": "기꺼이요! (좋아서 한걸요)", "src": "semaine 3-1" },
+
+    {
+      "id": "u1-01-scene-bistro-client", "t": "choice", "skill": "greet", "hint": "음식을 받은 쪽이에요! 고마움을 말할까요, 대답할까요?",
+      "prompt": "🍷 비스트로 — 웨이터가 주문한 스테이크를 내려놓았어요. 손님이 할 말은?",
+      "q": "(웨이터가 접시를 내려놓는다 🍽️)",
+      "a": "Merci beaucoup !", "wrong": ["De rien !", "Je vous en prie.", "Merci de votre attention."],
+      "say": "Merci beaucoup !",
+      "explain": "받은 쪽은 Merci (beaucoup) ! De rien·Je vous en prie는 고맙다는 말에 대한 '대답'이에요.",
+      "src": "semaine 3-2"
+    },
+    {
+      "id": "u1-01-scene-bistro-serveur", "t": "choice", "skill": "greet", "hint": "손님이 고맙대요! 손님에겐 tu일까요, vous일까요?",
+      "prompt": "🍷 비스트로 — 손님이 이렇게 말했어요. 웨이터의 정중한 대답은?",
+      "q": "Merci beaucoup !",
+      "a": "Je vous en prie.", "wrong": ["Je t'en prie.", "Merci pour l'information.", "Merci de votre attention."],
+      "say": "Je vous en prie.",
+      "explain": "손님에게는 vous → Je vous en prie. Je t'en prie는 tu로 말하는 친한 사이에서만!",
+      "src": "semaine 3-2"
+    },
+    {
+      "id": "u1-01-scene-porte-femme", "t": "choice", "skill": "greet", "hint": "호의를 받은 쪽이에요! '천만에요' 류의 대답은 빼봐요",
+      "prompt": "☕ 카페 문 앞 — 남자가 문을 잡아 줬어요. 여자가 할 말은?",
+      "q": "(문을 잡아 준다 🚪)",
+      "a": "Merci !", "wrong": ["Avec plaisir !", "Il n'y a pas de quoi.", "Merci de votre attention."],
+      "say": "Merci !",
+      "explain": "호의를 받았으니 간단히 Merci ! Il n'y a pas de quoi·Avec plaisir는 대답하는 쪽 말이에요.",
+      "src": "semaine 3-2"
+    },
+    {
+      "id": "u1-01-scene-porte-homme", "t": "choice", "skill": "greet", "hint": "고맙다는 말을 들었으니 이제 대답할 차례! 감사 표현은 빼요",
+      "prompt": "☕ 카페 문 앞 — 여자가 고맙다고 했어요. 남자의 대답은?",
+      "q": "Merci !",
+      "a": "De rien !", "wrong": ["Merci beaucoup !", "Je vous remercie.", "Merci pour l'information."],
+      "say": "De rien !",
+      "explain": "고맙다는 말엔 '천만에요' → De rien ! (Je vous en prie, Il n'y a pas de quoi도 OK)",
+      "src": "semaine 3-2"
+    },
+    {
+      "id": "u1-01-scene-info-visiteuse", "t": "choice", "skill": "greet", "hint": "받은 건 길 안내 = 정보예요! 발표 끝 인사와 헷갈리지 말기",
+      "prompt": "🛎️ 안내 데스크 — 직원에게 길 안내를 받았어요. 방문객이 할 말은?",
+      "q": "(안내를 받고 손을 흔들며 👋)",
+      "a": "Merci pour l'information !", "wrong": ["Merci de votre attention !", "Je t'en prie !", "Ce n'est rien !"],
+      "say": "Merci pour l'information !",
+      "explain": "정보를 받았으니 Merci pour l'information. Merci de votre attention은 발표를 마칠 때!",
+      "src": "semaine 3-2"
+    },
+    {
+      "id": "u1-01-scene-info-agent", "t": "choice", "skill": "greet", "hint": "대답하는 쪽이에요. 처음 보는 방문객에게 tu형은 어떨까요?",
+      "prompt": "🛎️ 안내 데스크 — 방문객이 고맙다고 했어요. 직원의 대답으로 알맞은 것은?",
+      "q": "Merci pour l'information !",
+      "a": "Avec plaisir !", "wrong": ["Je t'en prie !", "Merci beaucoup !", "Merci de votre attention."],
+      "say": "Avec plaisir !",
+      "explain": "기꺼이 도운 거라 Avec plaisir ! 처음 보는 방문객에게 tu형(Je t'en prie)은 어색해요.",
+      "src": "semaine 3-2"
+    },
+    {
+      "id": "u1-01-scene-conference", "t": "choice", "skill": "greet", "hint": "발표를 마칠 때 쓰는 관용 인사! 청중이 해준 건 뭘까요?",
+      "prompt": "🎤 발표 끝 — 화면에 FIN이 떴어요. 발표자가 청중에게 할 말은?",
+      "q": "(발표를 마치며 🙇)",
+      "a": "Merci de votre attention.", "wrong": ["Merci pour l'information.", "De rien.", "Je t'en prie."],
+      "say": "Merci de votre attention.",
+      "explain": "발표·강연 마무리 인사는 관용적으로 Merci de votre attention.",
+      "star": true, "src": "semaine 3-2"
+    },
+    {
+      "id": "u1-01-tu-ten-prie", "t": "choice", "skill": "greet", "hint": "친구 사이는 tu! te가 모음 en 앞에 오면 어떻게 될까요?",
+      "prompt": "tu로 말하는 친구가 고맙다고 했어요. tu형 '천만에'는?",
+      "q": "Merci !",
+      "a": "Je t'en prie.", "wrong": ["Je vous en prie.", "Je te remercie.", "Merci de votre attention."],
+      "say": "Je t'en prie.",
+      "explain": "tu 사이 → Je t'en prie / vous 사이 → Je vous en prie. te는 en 앞에서 t'!",
+      "star": true, "src": "노션 9/15"
+    },
+    {
+      "id": "u1-01-vous-remercie", "t": "choice", "skill": "greet", "hint": "교수님께는 격식체! 목적어 대명사는 동사 앞에 와요",
+      "prompt": "교수님께 격식 있게 '감사합니다' — 빈칸은?",
+      "q": "Je ___ remercie, madame.",
+      "a": "vous", "wrong": ["te", "t'", "en"],
+      "explain": "교수님께는 vous. 목적어 vous가 동사 remercie 앞에 와요.",
+      "src": "semaine 3-1"
+    },
+    {
+      "id": "u1-01-blank-quoi", "t": "choice", "skill": "greet", "hint": "통째로 외운 관용 표현! pas 뒤에 오는 짧은 전치사는?",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Il n'y a pas ___ quoi.",
+      "a": "de", "wrong": ["du", "des", "pour"],
+      "explain": "관용 표현 그대로 pas de quoi. 친구끼리는 앞을 떼고 Pas de quoi !",
+      "src": "semaine 3-1"
+    },
+
+    {
+      "id": "u1-01-err-pris", "t": "error", "skill": "spelling", "hint": "pris는 어떤 동사의 모양일까요? '부탁하다' 동사의 je형은?",
+      "s": "Je vous en pris.", "wrong": "pris", "right": "prie",
+      "ko": "별말씀을요.",
+      "explain": "prier의 현재형 je prie. pris는 prendre의 과거분사예요!",
+      "star": true
+    },
+    {
+      "id": "u1-01-err-elision", "t": "error", "skill": "elision", "hint": "모음 en 앞에서 te가 그대로일까요? 엘리지옹!",
+      "s": "Je te en prie.", "wrong": "te en", "right": "t'en",
+      "ko": "별말을 다.",
+      "explain": "모음 en 앞에서 te → t'. 엘리지옹!",
+      "star": true
+    },
+    {
+      "id": "u1-01-err-remercie", "t": "error", "skill": "spelling", "hint": "1군 -er 동사의 je 어미를 떠올려봐요! 묵음 글자도 써야 해요",
+      "s": "Je vous remerci.", "wrong": "remerci", "right": "remercie",
+      "ko": "감사드립니다.",
+      "explain": "remercier는 1군 동사 → je remercie. 끝 e는 소리가 안 나도 써야 해요."
+    },
+
+    {
+      "id": "u1-01-listen-ten-prie", "t": "listen", "skill": "pron", "hint": "[부] 소리가 들렸나요? 한 음절로 뭉쳐 들리는지 들어봐요",
+      "say": "Je t'en prie.", "a": "Je t'en prie.", "wrong": ["Je vous en prie.", "Je te remercie."],
+      "ko": "별말을 다 (tu)", "pron": "[쥬 땅 프히]",
+      "explain": "t'en은 [땅] 한 음절, vous en은 [부 장]."
+    },
+    {
+      "id": "u1-01-listen-rien", "t": "listen", "skill": "pron", "hint": "첫 소리에 집중! 부정 ne의 [네]가 들리나요?",
+      "say": "Ce n'est rien.", "a": "Ce n'est rien.", "wrong": ["De rien.", "C'est bien."],
+      "ko": "그건 아무것도 아니에요", "pron": "[쓰 네 히앵]",
+      "explain": "[쓰 네]로 시작하면 Ce n'est rien, [드]로 시작하면 De rien."
+    },
+
+    {
+      "id": "u1-01-type-beaucoup", "t": "type", "skill": "greet", "hint": "'많이'를 뜻하는 부사! 끝 p는 소리가 안 나도 써요",
+      "prompt": "빈칸을 채우세요 — '정말 고마워요!'",
+      "q": "Merci ___ !",
+      "a": "beaucoup",
+      "explain": "beaucoup — 끝 p는 묵음 [보꾸]."
+    },
+    {"id":"u1-01-c-de-attention","t":"choice","skill":"greet","prompt":"🎤 발표를 마치며 — 빈칸에 알맞은 것은?","q":"Merci ___ votre attention.","a":"de","wrong":["à","avec","par"],"hint":"발표 끝 관용 표현! 격식 있는 쪽 전치사예요","explain":"Merci de votre attention — 발표·강연 끝 관용 표현. 구체적인 것엔 주로 pour (Merci pour l'information).","star":true,"src":"semaine 3-1 p.10"},
+    {"id":"u1-01-c-pour-info","t":"choice","skill":"greet","prompt":"🛎️ 안내를 받고 — 빈칸에 알맞은 것은?","q":"Merci ___ l'information.","a":"pour","wrong":["à","avec","en"],"hint":"구체적으로 받은 것(정보)에 고마울 때 쓰는 전치사!","explain":"Merci pour + 구체적인 것 (l'information, le cadeau). 필기 9/15의 pour ↔ de 구분.","src":"semaine 3-1 p.10"},
+    {"id":"u1-01-c-politest","t":"choice","skill":"greet","prompt":"손님이 고맙다고 했어요. 가장 정중한 대답은? (필기의 격식 순서)","q":"Merci !","a":"Je vous en prie.","wrong":["Avec plaisir !","De rien.","Pas de quoi !"],"say":"Je vous en prie.","hint":"격식 순서 맨 위 — vous가 들어간 표현!","explain":"격식 순서: Je vous en prie > Il n'y a pas de quoi > De rien ≈ Ce n'est rien > Avec plaisir ! (필기 9/15)","src":"노션 9/15"},
+    {"id":"u1-01-c-apres-vous","t":"choice","skill":"greet","prompt":"문 앞에서 교수님께 \"먼저 들어가세요\"라고 정중하게 권할 때는?","q":"(문을 잡고 손짓하며 🚪)","a":"Je vous en prie.","wrong":["Je t'en prie.","Merci beaucoup !","Ce n'est rien."],"say":"Je vous en prie.","hint":"'천만에요'로 배운 표현이 권유로도 쓰여요 — 교수님께는 존댓말!","explain":"Je vous en prie는 \"천만에요\" 말고 \"먼저 하세요 / 어서 하세요\"라는 권유로도 써요. 교수님께는 vous형.","src":"노션 9/15"},
+    {"id":"u1-01-pas-de-quoi-ami","t":"word","skill":"greet","fr":"Pas de quoi !","ko":"별거 아냐! (친구끼리 줄임말)","note":"Il n'y a pas de quoi에서 앞을 뗀 것","src":"노션 9/15"}
+  ]
+}

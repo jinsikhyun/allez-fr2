@@ -1,0 +1,1624 @@
+{
+  "id": "u1-10",
+  "unit": "u1",
+  "title": "목적보어 대명사 (COD·COI)",
+  "emoji": "🎯",
+  "date": "2026-09-22",
+  "sources": [
+    "semaine 4-1"
+  ],
+  "tips": [
+    {
+      "h": "COD vs COI 대명사",
+      "rows": [
+        [
+          "COD (누구를·무엇을)",
+          "COI (누구에게)"
+        ],
+        [
+          "me · te · nous · vous",
+          "me · te · nous · vous"
+        ],
+        [
+          "le · la · l'",
+          "lui (남녀 공용)"
+        ],
+        [
+          "les",
+          "leur (-s 없음!)"
+        ]
+      ]
+    },
+    {
+      "h": "두 개가 겹치면 순서",
+      "b": "**me/te/nous/vous → le/la/les → lui/leur**\nJe **te le** donne. · Je vais **les leur** offrir."
+    },
+    {
+      "h": "위치",
+      "b": "대명사는 **동사 바로 앞**. 동사원형이 있으면 **원형 앞**: Tu peux **me le** prêter ?\n복합과거면 **조동사 앞**: Elle **l'**a achetée."
+    },
+    {
+      "h": "🔴 appeler vs téléphoner",
+      "b": "둘 다 '전화하다'지만\nappeler **qqn** → COD → Elle **l'**a appel**ée**.\ntéléphoner **à** qqn → COI → Elle **lui** a téléphon**é**."
+    },
+    {
+      "h": "🥐 슬라이드 도입 예문",
+      "b": "J'**ai mangé** un croissant et maintenant il **est absent**.\nJ'ai mangé un kiwi et maintenant il **est parti**.\n→ ai mangé · est parti = 복합과거 / est absent = être + 형용사(현재형, 복합과거 X)"
+    }
+  ],
+  "note": [
+    {
+      "h": "복습 — 복합과거의 원리 (croissant · kiwi)",
+      "skill": "aux",
+      "src": [
+        "semaine 4-1 p.4–6"
+      ],
+      "body": [
+        {
+          "p": "**avoir / être 현재형 + 과거분사.** 슬라이드는 각운(croissant–absent, kiwi–parti)을 맞춘 두 줄로 시작한다."
+        },
+        {
+          "ex": [
+            [
+              "J'ai mangé un croissant et maintenant il est absent.",
+              "크루아상을 먹었고, 이제 그건 없다."
+            ],
+            [
+              "J'ai mangé un kiwi et maintenant il est parti.",
+              "키위를 먹었고, 이제 그건 떠나고 없다."
+            ]
+          ]
+        },
+        {
+          "list": [
+            "J'ai **mangé** = avoir + 과거분사 → 복합과거",
+            "il est **parti** = être + 과거분사 → 복합과거 (partir는 être 동사)",
+            "il est **absent** = être + 형용사 → 그냥 현재형 (absent은 과거분사가 아님)"
+          ]
+        },
+        {
+          "p": "대명동사는 항상 **être** (p.5): je me suis lavé(e) · tu t'es lavé(e) · il s'est lavé · elle s'est lavée · nous nous sommes lavé(e)s · vous vous êtes lavé(e)(s) · ils se sont lavés · elles se sont lavées"
+        },
+        {
+          "table": [
+            [
+              "현재",
+              "복합과거"
+            ],
+            [
+              "Elle se lave.",
+              "Elle s'est lavée."
+            ],
+            [
+              "Elle se lave les mains.",
+              "Elle s'est lavé les mains."
+            ]
+          ],
+          "head": true
+        },
+        {
+          "p": "두 번째는 씻은 대상(les mains)이 뒤에 따로 있어서 일치하지 않는다 → 아래 「복합과거 + 대명사」 섹션."
+        }
+      ]
+    },
+    {
+      "h": "목적보어 인칭대명사 — 왜, 어디에",
+      "skill": "pron-obj",
+      "src": [
+        "semaine 4-1 p.8"
+      ],
+      "body": [
+        {
+          "p": "명사를 대신해서 **반복을 피한다**. 위치는 대개 **동사 바로 앞**, 형태는 COD냐 COI냐에 따라 달라진다."
+        },
+        {
+          "ex": [
+            [
+              "C'est mon amie Jeanne. Je l'aime bien.",
+              "내 친구 잔이야. 나 걔 좋아해."
+            ]
+          ]
+        },
+        {
+          "warn": "J'aime bien Jeanne. (X) — 문법 오류가 아니라, 바로 앞에 나온 Jeanne을 또 써서 어색하다는 표시. 대명사 la + aime → l'aime (엘리지옹)"
+        }
+      ]
+    },
+    {
+      "h": "COD 대명사 — Qui ? Quoi ?",
+      "skill": "pron-obj",
+      "src": [
+        "semaine 4-1 p.9–10"
+      ],
+      "body": [
+        {
+          "table": [
+            [
+              "",
+              "단수",
+              "복수"
+            ],
+            [
+              "1인칭",
+              "me",
+              "nous"
+            ],
+            [
+              "2인칭",
+              "te",
+              "vous"
+            ],
+            [
+              "3인칭 남",
+              "le",
+              "les"
+            ],
+            [
+              "3인칭 여",
+              "la",
+              "les"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "ex": [
+            [
+              "Jeanne regarde qui ? Moi. → Elle me regarde.",
+              "잔은 나를 본다."
+            ],
+            [
+              "Jeanne regarde qui ? Lui. → Elle le regarde.",
+              "잔은 그를 본다."
+            ],
+            [
+              "Jeanne regarde qui ? Elles. → Elle les regarde.",
+              "잔은 그녀들을 본다."
+            ],
+            [
+              "Je lis le livre. → Je le lis.",
+              "나는 그것을 읽는다."
+            ],
+            [
+              "Il mange la pomme. → Il la mange.",
+              "그는 그것을 먹는다."
+            ],
+            [
+              "Vous cherchez votre fils. → Vous le cherchez.",
+              "당신은 그를 찾는다."
+            ],
+            [
+              "Elles attendent les enfants. → Elles les attendent.",
+              "그녀들은 그들을 기다린다."
+            ]
+          ]
+        },
+        {
+          "warn": "모음 앞에서 me·te·le·la → m'·t'·l'·l' (Je l'aime, Il m'attend)"
+        }
+      ]
+    },
+    {
+      "h": "COI 대명사 — À qui ? À quoi ?",
+      "skill": "pron-obj",
+      "src": [
+        "semaine 4-1 p.11–12"
+      ],
+      "body": [
+        {
+          "table": [
+            [
+              "",
+              "단수",
+              "복수"
+            ],
+            [
+              "1인칭",
+              "me",
+              "nous"
+            ],
+            [
+              "2인칭",
+              "te",
+              "vous"
+            ],
+            [
+              "3인칭 (남녀 공용)",
+              "lui",
+              "leur"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "ex": [
+            [
+              "Jeanne parle à qui ? À moi. → Elle me parle.",
+              "잔은 나에게 말한다."
+            ],
+            [
+              "Jeanne parle à qui ? À lui. → Elle lui parle.",
+              "잔은 그에게 말한다."
+            ],
+            [
+              "Jeanne parle à qui ? À elles. → Elle leur parle.",
+              "잔은 그녀들에게 말한다."
+            ],
+            [
+              "J'écris à Paul. → Je lui écris.",
+              "나는 그에게 (편지를) 쓴다."
+            ],
+            [
+              "Sylvie donne un cadeau à toi. → Sylvie te donne un cadeau.",
+              "실비는 너에게 선물을 준다."
+            ],
+            [
+              "Il demande une question à l'infirmière. → Il lui demande une question.",
+              "그는 그녀(간호사)에게 질문한다."
+            ],
+            [
+              "L'infirmière répond à lui. → Elle lui répond.",
+              "간호사는 그에게 대답한다."
+            ]
+          ]
+        },
+        {
+          "list": [
+            "me·te·nous·vous는 COD·COI 모양이 **같다** — 다른 건 3인칭뿐",
+            "**lui**는 남녀 공용: l'infirmière(여자)도 lui",
+            "대명사 **leur**는 -s가 절대 안 붙음 (소유형용사 leurs livres와 다름)"
+          ]
+        },
+        {
+          "memo": "demander une question은 슬라이드 예문 그대로. 표준 프랑스어에선 '질문하다'를 보통 **poser** une question이라고 한다 (Il lui pose une question). lui의 자리는 똑같다."
+        }
+      ]
+    },
+    {
+      "h": "대명사 두 개의 순서",
+      "skill": "pron-obj",
+      "src": [
+        "semaine 4-1 p.13"
+      ],
+      "body": [
+        {
+          "table": [
+            [
+              "①",
+              "②",
+              "③"
+            ],
+            [
+              "me · te · nous · vous",
+              "le · la · les",
+              "lui · leur"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "ex": [
+            [
+              "Tu me donnes ce livre ? — Oui, je te le donne.",
+              "나한테 그 책 줄래? — 응, 너한테 그거 줄게."
+            ],
+            [
+              "J'ai besoin de ton portable. Tu peux me le prêter ?",
+              "네 휴대폰이 필요해. 나한테 그거 빌려줄 수 있어?"
+            ],
+            [
+              "Vous allez offrir ces cadeaux à vos enfants ? — Oui, je vais les leur offrir.",
+              "이 선물들 아이들에게 줄 건가요? — 네, 그들에게 그것들을 줄 거예요."
+            ],
+            [
+              "Tu veux présenter ton amie à lui ? — Oui, je veux la lui présenter.",
+              "네 친구를 그에게 소개하고 싶어? — 응, 그녀를 그에게 소개하고 싶어."
+            ]
+          ]
+        },
+        {
+          "warn": "동사원형이 있으면(peux prêter, vais offrir, veux présenter) 대명사는 **원형 바로 앞**: Je les leur vais offrir (X)"
+        }
+      ]
+    },
+    {
+      "h": "복합과거 + 대명사 → 과거분사 일치",
+      "skill": "agreement",
+      "src": [
+        "semaine 4-1 p.14–16"
+      ],
+      "body": [
+        {
+          "table": [
+            [
+              "COD 동사",
+              "COI 동사"
+            ],
+            [
+              "Jeanne achète cette jupe.",
+              "Jeanne téléphone à sa mère."
+            ],
+            [
+              "Elle l'achète.",
+              "Elle lui téléphone."
+            ],
+            [
+              "Elle l'a achetée hier.",
+              "Elle lui a téléphoné."
+            ]
+          ],
+          "head": true
+        },
+        {
+          "p": "**COD 대명사(l'·les·me·te…)가 앞 → 일치**, **COI 대명사(lui, leur)는 앞에 와도 일치 X**. 대명사는 **조동사 앞**."
+        },
+        {
+          "p": "슬라이드 Q — **Jeanne appelle sa mère.** → Elle **l'**appelle. → Elle **l'**a appel**ée**."
+        },
+        {
+          "warn": "appeler와 téléphoner는 둘 다 '전화하다'지만 appeler **qqn**(COD) / téléphoner **à** qqn(COI). 뜻이 아니라 동사의 구조가 대명사와 일치를 정한다."
+        },
+        {
+          "p": "**대명동사도 같은 질문** (p.15): se가 COD인가 COI인가?\nJeanne lave Marie = Elle **la** lave. → Jeanne **se** lave: 누구를 씻기나? 자기 자신 → se = COD → Elle s'est lav**ée**.\nElle se lave **les mains**: 손을 누구에게? 자기에게 → se = COI (COD는 뒤의 les mains) → Elle s'est lav**é** les mains."
+        },
+        {
+          "p": "p.16: téléphoner **à** qui? → se = COI → 일치 X. écrire **qqch à** qqn → 쓴 것(des lettres)은 뒤, se는 '누구에게' → 일치 X."
+        },
+        {
+          "ex": [
+            [
+              "Ils se sont téléphoné.",
+              "그들은 서로 전화했다. (téléphonés X)"
+            ],
+            [
+              "Elles se sont écrit des lettres.",
+              "그녀들은 서로 편지를 썼다. (écrites X)"
+            ]
+          ]
+        },
+        {
+          "memo": "슬라이드에 (X)로 표시된 오답: Ils se sont téléphonés / Elles se sont écrites des lettres. 연습은 「과거분사 성수일치」 레슨에도 있음."
+        }
+      ]
+    },
+    {
+      "h": "연습 10문항 정답",
+      "skill": "aux",
+      "src": [
+        "semaine 4-1 p.17–18"
+      ],
+      "body": [
+        {
+          "p": "슬라이드에는 정답이 없다. 아래는 표준 정답."
+        },
+        {
+          "table": [
+            [
+              "#",
+              "정답"
+            ],
+            [
+              "1",
+              "Ils sont montés dans le train."
+            ],
+            [
+              "2",
+              "François et moi, nous sommes allés dans les Alpes."
+            ],
+            [
+              "3",
+              "Elles ne sont pas restées un an en Normandie."
+            ],
+            [
+              "4",
+              "Sylvie, tu es rentrée à quelle heure ?"
+            ],
+            [
+              "5",
+              "Jeanne d'Arc est née en 1412 et est morte en 1431."
+            ],
+            [
+              "6",
+              "Ils se sont téléphoné."
+            ],
+            [
+              "7",
+              "Elles se sont rencontrées dans le métro."
+            ],
+            [
+              "8",
+              "Valérie, tu ne t'es pas levée tôt ?"
+            ],
+            [
+              "9",
+              "Elle s'est lavé les cheveux."
+            ],
+            [
+              "10",
+              "Nous nous sommes mariés l'été dernier. (여성 둘이면 mariées)"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "warn": "2번: François(남)가 있으니 '나'가 여자여도 allés · 4·8번: 부르는 이름(Sylvie, Valérie)이 성별 단서 → -e"
+        }
+      ]
+    },
+    {
+      "h": "수업 필기 (9/22) · 연습 보충",
+      "skill": "pron-obj",
+      "src": [
+        "semaine 4-1 p.4–18",
+        "노션 9/22"
+      ],
+      "body": [
+        {
+          "list": [
+            "필기: se laver = 씻다 → être 동사니까 성수 일치 (Elle s'est lavée) / 뒤에 les mains가 있으면 일치 X (Elle s'est lavé les mains)",
+            "필기 '→ 4형식과 같은 느낌' (COD·COI 슬라이드 뒤): donner qqch à qqn처럼 **누구에게(COI) + 무엇을(COD)** 두 목적어를 갖는 문장 = 영어 4형식 give me a book. 둘 다 대명사면 p.13 순서표",
+            "Je l'aime bien: 대명사는 **동사 바로 앞** (p.8)"
+          ]
+        },
+        {
+          "p": "p.9 · p.11 문답: 대답의 강세형(Moi, Lui, Elles / À moi, À lui, À elles)을 동사 앞 대명사(me, le, les / me, lui, leur)로 바꾸는 연습. **COD는 Qui ? Quoi ?**, **COI는 À qui ? À quoi ?**에 답한다."
+        },
+        {
+          "ex": [
+            [
+              "Jeanne regarde qui ? Lui. → Elle le regarde.",
+              "잔은 그를 본다. (COD → le)"
+            ],
+            [
+              "Jeanne parle à qui ? À lui. → Elle lui parle.",
+              "잔은 그에게 말한다. (COI → lui)"
+            ],
+            [
+              "Jeanne achète cette jupe. → Elle l'achète.",
+              "잔은 그것을 산다."
+            ]
+          ]
+        },
+        {
+          "table": [
+            [
+              "단어",
+              "뜻"
+            ],
+            [
+              "absent(e)",
+              "없는, 자리에 없는"
+            ],
+            [
+              "maintenant",
+              "지금, 이제"
+            ],
+            [
+              "le portable",
+              "휴대폰"
+            ],
+            [
+              "avoir besoin de",
+              "~이 필요하다"
+            ],
+            [
+              "prêter",
+              "빌려주다"
+            ],
+            [
+              "offrir",
+              "선물하다, 주다"
+            ],
+            [
+              "le cadeau",
+              "선물"
+            ],
+            [
+              "présenter",
+              "소개하다"
+            ],
+            [
+              "l'infirmière",
+              "간호사 (여)"
+            ],
+            [
+              "appeler qqn",
+              "~를 부르다, ~에게 전화하다"
+            ],
+            [
+              "se rencontrer",
+              "(서로) 만나다"
+            ],
+            [
+              "se marier",
+              "결혼하다"
+            ],
+            [
+              "les cheveux",
+              "머리카락"
+            ],
+            [
+              "l'été dernier",
+              "작년 여름"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "memo": "연습 1번 monter dans le train = 기차에 타다 (monter는 이동 동사 → être). 5번 mourir → morte [모흐뜨]: 일치가 소리로 들리는 경우."
+        }
+      ]
+    },
+    {
+      "h": "수업 필기 (9/23) — 재귀와 상호, 그리고 사전 표기",
+      "skill": "pronominal",
+      "src": [
+        "노션 9/23"
+      ],
+      "body": [
+        {
+          "p": "Quiz 2 학습지를 풀면서 교수님이 대명동사를 다시 짚었습니다. **재귀대명사가 있느냐 없느냐로 뜻이 완전히 달라집니다.**"
+        },
+        {
+          "ex": [
+            [
+              "Ils préparent le dîner.",
+              "그들은 저녁을 준비한다. (준비 대상 = le dîner)"
+            ],
+            [
+              "Ils se préparent.",
+              "그들은 (스스로) 준비를 한다. (준비 대상 = 자기 자신)"
+            ]
+          ]
+        },
+        {
+          "p": "**상호적 se** — 주어가 복수면 se가 '서로에게'가 됩니다. 풀어 쓰면 **l'un à l'autre**."
+        },
+        {
+          "ex": [
+            [
+              "Paul et Marie se sont téléphoné.",
+              "폴과 마리는 서로 전화했다."
+            ],
+            [
+              "= Paul et Marie ont téléphoné l'un à l'autre.",
+              "= 서로에게 전화했다."
+            ]
+          ]
+        },
+        {
+          "warn": "téléphoner à qqn이라 se는 COI → 과거분사 일치 없음. se sont téléphonés ✗"
+        },
+        {
+          "table": [
+            [
+              "사전 표기",
+              "뜻",
+              "목적어"
+            ],
+            [
+              "qqn = quelqu'un",
+              "누군가",
+              "사람"
+            ],
+            [
+              "qqch = quelque chose",
+              "무언가",
+              "사물"
+            ],
+            [
+              "écrire qqch à qqn",
+              "누군가에게 무언가를 쓰다",
+              "COD + COI"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "memo": "9/23 수업은 Quiz 2 학습지 풀이로 시작 — 거기서 나온 문장들로 COD·COI를 복습했습니다."
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "u1-10-kiwi",
+      "t": "choice",
+      "skill": "aux",
+      "hint": "partir가 어떤 무리의 동사였는지 떠올려봐요",
+      "prompt": "J'ai mangé un kiwi et maintenant il est parti. — 조동사가 être인 이유는?",
+      "q": "il est parti",
+      "say": "",
+      "a": "partir는 이동동사라서",
+      "wrong": [
+        "kiwi가 남성이라서",
+        "maintenant 때문에",
+        "주어가 il이라서"
+      ],
+      "explain": "partir는 être를 쓰는 15개 중 하나. 참고로 il est absent은 être + 형용사(현재형)라 복합과거가 아니에요.",
+      "src": "semaine 4-1 p.4"
+    },
+    {
+      "id": "u1-10-cod-livre",
+      "t": "choice",
+      "skill": "pron-obj",
+      "hint": "livre는 남성 단수, 전치사 없이 '무엇을?'",
+      "prompt": "le livre를 대명사로 바꾸면?",
+      "q": "Je lis le livre. → Je ___ lis.",
+      "ko": "나는 그것을 읽는다.",
+      "a": "le",
+      "wrong": [
+        "la",
+        "lui",
+        "les"
+      ],
+      "explain": "le livre = COD 남성 단수 → le.",
+      "src": "semaine 4-1 p.10"
+    },
+    {
+      "id": "u1-10-cod-pomme",
+      "t": "choice",
+      "skill": "pron-obj",
+      "hint": "pomme는 여성 단수, 먹는 '대상'이에요",
+      "prompt": "la pomme를 대명사로 바꾸면?",
+      "q": "Il mange la pomme. → Il ___ mange.",
+      "ko": "그는 그것을 먹는다.",
+      "a": "la",
+      "wrong": [
+        "le",
+        "lui",
+        "l'"
+      ],
+      "explain": "la pomme = COD 여성 단수 → la. mange는 자음으로 시작하니 축약 없음.",
+      "src": "semaine 4-1 p.10"
+    },
+    {
+      "id": "u1-10-cod-fils",
+      "t": "choice",
+      "skill": "pron-obj",
+      "hint": "chercher는 전치사 없이 '누구를?' 찾는 동사",
+      "prompt": "votre fils를 대명사로 바꾸면?",
+      "q": "Vous cherchez votre fils. → Vous ___ cherchez.",
+      "ko": "당신은 그를 찾는다.",
+      "a": "le",
+      "wrong": [
+        "lui",
+        "la",
+        "les"
+      ],
+      "explain": "chercher qqn → COD. 아들 한 명(남성 단수) → le.",
+      "src": "semaine 4-1 p.10"
+    },
+    {
+      "id": "u1-10-cod-enfants",
+      "t": "choice",
+      "skill": "pron-obj",
+      "hint": "attendre는 à 없이 '누구를?' 기다려요. 몇 명?",
+      "prompt": "les enfants를 대명사로 바꾸면?",
+      "q": "Elles attendent les enfants. → Elles ___ attendent.",
+      "ko": "그녀들은 그들을 기다린다.",
+      "a": "les",
+      "wrong": [
+        "leur",
+        "le",
+        "lui"
+      ],
+      "explain": "attendre qqn → COD 복수 → les. [레 자땅드] 연음!",
+      "pron": "[엘 레 자땅드]",
+      "src": "semaine 4-1 p.10"
+    },
+    {
+      "id": "u1-10-cod-moi",
+      "t": "choice",
+      "skill": "pron-obj",
+      "hint": "강세형(Moi)은 대답용! 동사 앞에 붙는 형태는?",
+      "prompt": "Jeanne regarde qui ? Moi. →",
+      "q": "Elle ___ regarde.",
+      "ko": "잔은 나를 본다.",
+      "a": "me",
+      "wrong": [
+        "moi",
+        "m'",
+        "le"
+      ],
+      "explain": "동사 앞 1인칭 목적보어는 me. regarde는 자음 r로 시작하니 m'로 줄이지 않아요.",
+      "src": "semaine 4-1 p.9"
+    },
+    {
+      "id": "u1-10-coi-paul",
+      "t": "choice",
+      "skill": "pron-obj",
+      "hint": "à + 사람 한 명 → '누구에게?' 3인칭 형태는?",
+      "prompt": "à Paul을 대명사로 바꾸면?",
+      "q": "J'écris à Paul. → Je ___ écris.",
+      "ko": "나는 그에게 (편지를) 쓴다.",
+      "a": "lui",
+      "wrong": [
+        "le",
+        "l'",
+        "leur"
+      ],
+      "explain": "écrire à qqn → COI 3인칭 단수 → lui.",
+      "star": true,
+      "src": "semaine 4-1 p.12"
+    },
+    {
+      "id": "u1-10-coi-toi",
+      "t": "choice",
+      "skill": "pron-obj",
+      "hint": "à toi = '너에게'. 동사 앞에 오면 모양이 바뀌어요",
+      "prompt": "à toi를 대명사로 바꾸면?",
+      "q": "Sylvie donne un cadeau à toi. → Sylvie ___ donne un cadeau.",
+      "ko": "실비는 너에게 선물을 준다.",
+      "a": "te",
+      "wrong": [
+        "toi",
+        "lui",
+        "t'"
+      ],
+      "explain": "2인칭은 COD·COI 모두 te. donne는 자음이니 축약 없음.",
+      "src": "semaine 4-1 p.12"
+    },
+    {
+      "id": "u1-10-coi-infirmiere",
+      "t": "choice",
+      "skill": "pron-obj",
+      "hint": "간호사는 여자지만 à가 붙었어요! COI 3인칭은 남녀 구분이 있을까요?",
+      "prompt": "à l'infirmière를 대명사로 바꾸면?",
+      "q": "Il demande une question à l'infirmière. → Il ___ demande une question.",
+      "ko": "그는 그녀(간호사)에게 질문한다.",
+      "a": "lui",
+      "wrong": [
+        "la",
+        "l'",
+        "leur"
+      ],
+      "explain": "COI 3인칭 단수 lui는 남녀 공용. 여자라고 la로 쓰면 COD가 돼요.",
+      "star": true,
+      "src": "semaine 4-1 p.12"
+    },
+    {
+      "id": "u1-10-coi-repond",
+      "t": "choice",
+      "skill": "pron-obj",
+      "hint": "répondre à qqn — '누구에게' 대답하죠",
+      "prompt": "à lui를 대명사로 바꾸면?",
+      "q": "L'infirmière répond à lui. → Elle ___ répond.",
+      "ko": "간호사는 그에게 대답한다.",
+      "a": "lui",
+      "wrong": [
+        "le",
+        "leur",
+        "l'"
+      ],
+      "explain": "répondre à qqn → COI → lui.",
+      "src": "semaine 4-1 p.12"
+    },
+    {
+      "id": "u1-10-coi-elles",
+      "t": "choice",
+      "skill": "pron-obj",
+      "hint": "à + 여러 명 → COI 복수. 대명사에 -s가 붙을까요?",
+      "prompt": "Jeanne parle à qui ? À elles. →",
+      "q": "Elle ___ parle.",
+      "ko": "잔은 그녀들에게 말한다.",
+      "a": "leur",
+      "wrong": [
+        "les",
+        "leurs",
+        "lui"
+      ],
+      "explain": "COI 3인칭 복수 = leur (남녀 공용, -s 없음). les는 COD예요.",
+      "star": true,
+      "src": "semaine 4-1 p.11"
+    },
+    {
+      "id": "u1-10-which-differ",
+      "t": "choice",
+      "skill": "pron-obj",
+      "hint": "표를 떠올려봐요: me·te·nous·vous는 두 칸이 어땠나요?",
+      "prompt": "COD 대명사와 COI 대명사의 모양이 다른 인칭은?",
+      "q": "COD: me, te, le/la, nous, vous, les → COI는?",
+      "say": "",
+      "a": "3인칭만",
+      "wrong": [
+        "1인칭만",
+        "2인칭만",
+        "모든 인칭"
+      ],
+      "explain": "1·2인칭은 COD=COI. 다른 건 3인칭뿐: le/la/les ↔ lui/leur."
+    },
+    {
+      "id": "u1-10-jeanne-aime",
+      "t": "choice",
+      "skill": "pron-obj",
+      "hint": "대명사는 동사 앞! 모음 aime 앞에서는 줄어들어요",
+      "prompt": "대명사를 써서 이어 말하면?",
+      "q": "C'est mon amie Jeanne. ___",
+      "a": "Je l'aime bien.",
+      "wrong": [
+        "J'aime bien la.",
+        "Je la aime bien.",
+        "Je lui aime bien."
+      ],
+      "explain": "aimer qqn → COD la, 모음 앞 엘리지옹 → l'aime.",
+      "star": true,
+      "src": "semaine 4-1 p.8"
+    },
+    {
+      "id": "u1-10-e-leurs",
+      "t": "error",
+      "skill": "pron-obj",
+      "hint": "소유형용사(그들의 ~들)와 헷갈린 것 아닌가요?",
+      "s": "Tes parents ? Je leurs téléphone souvent.",
+      "wrong": "leurs",
+      "right": "leur",
+      "ko": "너희 부모님? 나 그분들께 자주 전화해.",
+      "explain": "대명사 leur는 복수 뜻이어도 -s가 붙지 않아요. leurs는 '그들의 ~들'.",
+      "star": true
+    },
+    {
+      "id": "u1-10-e-la-lui",
+      "t": "error",
+      "skill": "pron-obj",
+      "hint": "téléphoner 뒤엔 원래 à가 붙죠. '누구에게?' 형태인가요?",
+      "s": "Ta mère ? Je la téléphone ce soir.",
+      "wrong": "la téléphone",
+      "right": "lui téléphone",
+      "ko": "너희 어머니? 오늘 저녁에 그분께 전화할게.",
+      "explain": "téléphoner à qqn → COI → lui. 상대가 여자여도 lui!",
+      "src": "semaine 4-1 p.14"
+    },
+    {
+      "id": "u1-10-b-te-le",
+      "t": "build",
+      "skill": "pron-obj",
+      "hint": "1·2인칭이 먼저, 3인칭 COD가 그다음",
+      "prompt": "대명사 두 개로 대답하세요",
+      "from": "Tu me donnes ce livre ?",
+      "a": "Oui, je te le donne.",
+      "extra": [
+        "lui",
+        "me"
+      ],
+      "ko": "응, 너한테 그거 줄게.",
+      "explain": "나에게 → (대답에선) te, ce livre → le. 순서 te → le.",
+      "star": true,
+      "src": "semaine 4-1 p.13"
+    },
+    {
+      "id": "u1-10-b-les-leur",
+      "t": "build",
+      "skill": "pron-obj",
+      "hint": "대명사 자리는 vais 앞? offrir 앞? 순서표도 떠올려요",
+      "prompt": "대명사 두 개로 대답하세요",
+      "from": "Vous allez offrir ces cadeaux à vos enfants ?",
+      "a": "Oui, je vais les leur offrir.",
+      "extra": [
+        "lui",
+        "leurs"
+      ],
+      "ko": "네, 그들에게 그것들을 줄 거예요.",
+      "explain": "ces cadeaux → les, à vos enfants → leur. 순서 les → leur, 위치는 원형 offrir 앞.",
+      "star": true,
+      "src": "semaine 4-1 p.13"
+    },
+    {
+      "id": "u1-10-b-la-lui",
+      "t": "build",
+      "skill": "pron-obj",
+      "hint": "ton amie는 '누구를?', à lui는 '누구에게?' — 어느 동사 앞?",
+      "prompt": "대명사 두 개로 대답하세요",
+      "from": "Tu veux présenter ton amie à lui ?",
+      "a": "Oui, je veux la lui présenter.",
+      "extra": [
+        "le",
+        "leur"
+      ],
+      "ko": "응, 그녀를 그에게 소개하고 싶어.",
+      "explain": "ton amie → la, à lui → lui. 순서 la → lui, 원형 présenter 앞.",
+      "src": "semaine 4-1 p.13"
+    },
+    {
+      "id": "u1-10-c-me-le",
+      "t": "choice",
+      "skill": "pron-obj",
+      "hint": "à moi, ton portable → 각각 어떤 대명사? 순서표도!",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "J'ai besoin de ton portable. Tu peux ___ prêter ?",
+      "ko": "네 휴대폰이 필요해. 나한테 그거 빌려줄 수 있어?",
+      "a": "me le",
+      "wrong": [
+        "le me",
+        "me lui",
+        "moi le"
+      ],
+      "explain": "à moi → me, ton portable → le. 순서 me → le.",
+      "src": "semaine 4-1 p.13"
+    },
+    {
+      "id": "u1-10-c-position",
+      "t": "choice",
+      "skill": "pron-obj",
+      "hint": "동사원형이 있으면 대명사는 어느 동사 앞? 순서도 확인",
+      "prompt": "대명사 위치가 맞는 문장은?",
+      "q": "(ces cadeaux / à mes enfants)",
+      "say": "",
+      "a": "Je vais les leur offrir.",
+      "wrong": [
+        "Je les leur vais offrir.",
+        "Je vais leur les offrir.",
+        "Je vais offrir les leur."
+      ],
+      "explain": "원형 offrir 바로 앞 + 순서 les → leur.",
+      "star": true,
+      "src": "semaine 4-1 p.13"
+    },
+    {
+      "id": "u1-10-c-lui-telephone",
+      "t": "choice",
+      "skill": "pron-obj",
+      "hint": "téléphoner 뒤에 à가 있었죠! '누구에게?'",
+      "prompt": "sa mère를 대명사로 바꾸면?",
+      "q": "Jeanne téléphone à sa mère. → Elle ___ téléphone.",
+      "ko": "잔은 그녀에게 전화한다.",
+      "a": "lui",
+      "wrong": [
+        "l'",
+        "la",
+        "leur"
+      ],
+      "explain": "téléphoner à qqn → COI → lui.",
+      "star": true,
+      "src": "semaine 4-1 p.14"
+    },
+    {
+      "id": "u1-10-c-telephone-pc",
+      "t": "choice",
+      "skill": "agreement",
+      "hint": "lui는 COI! COI 대명사가 앞에 오면 일치할까요?",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Jeanne téléphone à sa mère. → Elle lui a ___.",
+      "ko": "잔은 그녀에게 전화했다.",
+      "a": "téléphoné",
+      "wrong": [
+        "téléphonée",
+        "téléphonés",
+        "téléphoner"
+      ],
+      "explain": "일치는 앞에 온 COD만. lui는 COI → 기본형 그대로.",
+      "star": true,
+      "src": "semaine 4-1 p.14"
+    },
+    {
+      "id": "u1-10-c-appelle",
+      "t": "choice",
+      "skill": "pron-obj",
+      "hint": "appeler는 à 없이 '누구를?' 부르는 동사예요",
+      "prompt": "슬라이드 Q — sa mère를 대명사로 바꾸면?",
+      "q": "Jeanne appelle sa mère. → Elle ___.",
+      "ko": "잔은 그녀에게 전화한다.",
+      "a": "l'appelle",
+      "wrong": [
+        "lui appelle",
+        "la appelle",
+        "leur appelle"
+      ],
+      "explain": "appeler qqn → COD la, 모음 앞 → l'appelle. téléphoner(COI)와 반대!",
+      "star": true,
+      "src": "semaine 4-1 p.14"
+    },
+    {
+      "id": "u1-10-c-appelee",
+      "t": "choice",
+      "skill": "agreement",
+      "hint": "l' = sa mère가 조동사 앞에 있어요. 성은?",
+      "prompt": "슬라이드 Q — 복합과거로",
+      "q": "Jeanne appelle sa mère. → Elle l'a ___.",
+      "ko": "잔은 그녀에게 전화했다.",
+      "a": "appelée",
+      "wrong": [
+        "appelé",
+        "appelés",
+        "appellée"
+      ],
+      "explain": "l' = la(sa mère)가 COD로 앞 → 여성 단수 일치. 과거분사는 l 하나!",
+      "star": true,
+      "src": "semaine 4-1 p.14"
+    },
+    {
+      "id": "u1-10-c-appeler-vs",
+      "t": "choice",
+      "skill": "pron-obj",
+      "hint": "사전식 표기를 떠올려봐요: ___ qqn",
+      "prompt": "appeler와 téléphoner는 둘 다 '전화하다'인데 대명사가 l' / lui로 다른 이유는?",
+      "q": "Elle l'appelle. / Elle lui téléphone.",
+      "say": "",
+      "a": "appeler qqn(COD) · téléphoner à qqn(COI)",
+      "wrong": [
+        "appeler가 더 격식이라서",
+        "téléphoner는 대명동사라서",
+        "상대가 남자냐 여자냐에 따라"
+      ],
+      "explain": "뜻이 같아도 동사가 요구하는 구조가 달라요. à가 있으면 COI.",
+      "star": true,
+      "src": "semaine 4-1 p.14"
+    },
+    {
+      "id": "u1-10-c-allees-alpes",
+      "t": "choice",
+      "skill": "agreement",
+      "hint": "François가 함께 있어요! 남자가 한 명이라도 섞이면?",
+      "prompt": "빈칸에 알맞은 것은? (aller)",
+      "q": "François et moi, nous sommes ___ dans les Alpes.",
+      "ko": "프랑수아와 나는 알프스에 갔다.",
+      "a": "allés",
+      "wrong": [
+        "allées",
+        "allé",
+        "allée"
+      ],
+      "explain": "남성이 한 명이라도 있으면 남성 복수 → allés. '나'가 여자여도 마찬가지.",
+      "src": "semaine 4-1 p.17"
+    },
+    {
+      "id": "u1-10-c-restees",
+      "t": "choice",
+      "skill": "pc-neg-q",
+      "hint": "rester는 être 무리. ne…pas는 조동사만 감싸요",
+      "prompt": "빈칸에 알맞은 것은? (ne pas rester)",
+      "q": "Elles ___ un an en Normandie.",
+      "ko": "그녀들은 노르망디에 1년 머물지 않았다.",
+      "a": "ne sont pas restées",
+      "wrong": [
+        "ne sont restées pas",
+        "n'ont pas resté",
+        "ne sont pas resté"
+      ],
+      "explain": "ne + être + pas + 과거분사, 주어 elles에 맞춰 -es.",
+      "src": "semaine 4-1 p.17"
+    },
+    {
+      "id": "u1-10-c-rentree",
+      "t": "choice",
+      "skill": "agreement",
+      "hint": "문장 앞 이름이 단서! 조동사도 확인",
+      "prompt": "빈칸에 알맞은 것은? (rentrer)",
+      "q": "Sylvie, tu ___ à quelle heure ?",
+      "ko": "실비, 몇 시에 들어왔어?",
+      "a": "es rentrée",
+      "wrong": [
+        "es rentré",
+        "as rentré",
+        "est rentrée"
+      ],
+      "explain": "rentrer → être. tu = Sylvie(여) → rentrée. tu의 être는 es.",
+      "src": "semaine 4-1 p.17"
+    },
+    {
+      "id": "u1-10-c-nee",
+      "t": "choice",
+      "skill": "aux",
+      "hint": "태어나다는 '삶의 이동'. 주어는 잔 다르크(여)",
+      "prompt": "빈칸에 알맞은 것은? (naître)",
+      "q": "Jeanne d'Arc ___ en 1412 et est morte en 1431.",
+      "ko": "잔 다르크는 1412년에 태어나 1431년에 죽었다.",
+      "a": "est née",
+      "wrong": [
+        "a né",
+        "est né",
+        "a naît"
+      ],
+      "explain": "naître → être + né, 여성 → née. mourir도 être + morte.",
+      "src": "semaine 4-1 p.17"
+    },
+    {
+      "id": "u1-10-c-levee",
+      "t": "choice",
+      "skill": "pc-neg-q",
+      "hint": "ne…pas가 감싸는 덩어리는? 부르는 이름도 단서!",
+      "prompt": "빈칸에 알맞은 것은? (ne pas se lever)",
+      "q": "Valérie, tu ___ tôt ?",
+      "ko": "발레리, 일찍 안 일어났어?",
+      "a": "ne t'es pas levée",
+      "wrong": [
+        "ne t'es pas levé",
+        "t'es ne pas levée",
+        "ne pas t'es levée"
+      ],
+      "explain": "ne + t'es + pas + levée. Valérie(여) → -e.",
+      "star": true,
+      "src": "semaine 4-1 p.18"
+    },
+    {
+      "id": "u1-10-absent",
+      "t": "choice",
+      "skill": "aux",
+      "hint": "être 뒤에 온 게 과거분사일까요, 형용사일까요?",
+      "prompt": "셋 중 복합과거가 아닌 것은?",
+      "q": "J'ai mangé · il est parti · il est absent",
+      "say": "",
+      "a": "il est absent",
+      "wrong": [
+        "J'ai mangé",
+        "il est parti"
+      ],
+      "explain": "absent은 형용사 → être + 형용사 = 현재형 '없다'. ai mangé · est parti는 복합과거.",
+      "src": "semaine 4-1 p.4"
+    },
+    {
+      "id": "u1-10-w-absent",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "absent",
+      "ko": "없는, 자리에 없는",
+      "note": "여성 absente",
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-10-w-maintenant",
+      "t": "word",
+      "skill": "time",
+      "fr": "maintenant",
+      "ko": "지금, 이제",
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-10-why",
+      "t": "choice",
+      "skill": "pron-obj",
+      "hint": "C'est mon amie Jeanne. J'aime bien Jeanne. — 뭐가 어색했죠?",
+      "prompt": "목적보어 인칭대명사를 쓰는 이유는?",
+      "q": "Les pronoms personnels compléments remplacent un nom…",
+      "say": "",
+      "a": "같은 명사의 반복을 피하려고",
+      "wrong": [
+        "문장을 부정문으로 만들려고",
+        "주어를 강조하려고",
+        "과거 시제를 만들려고"
+      ],
+      "explain": "슬라이드: 명사를 대신해 반복을 피한다 (pour éviter les répétitions).",
+      "src": "semaine 4-1 p.8"
+    },
+    {
+      "id": "u1-10-where",
+      "t": "choice",
+      "skill": "pron-obj",
+      "hint": "Je l'aime bien — l'가 어디에 있나요?",
+      "prompt": "목적보어 인칭대명사의 기본 위치는?",
+      "q": "Ils se placent généralement…",
+      "say": "",
+      "a": "동사 바로 앞",
+      "wrong": [
+        "동사 바로 뒤",
+        "문장 맨 끝",
+        "주어 앞"
+      ],
+      "explain": "대명사는 대개 동사 앞 (복합과거면 조동사 앞, 원형이 있으면 원형 앞).",
+      "src": "semaine 4-1 p.8"
+    },
+    {
+      "id": "u1-10-cod-question",
+      "t": "choice",
+      "skill": "pron-obj",
+      "hint": "COD는 전치사 없이 동사에 바로 붙어요",
+      "prompt": "COD 대명사가 답하는 질문은?",
+      "q": "Jeanne regarde ___ ?",
+      "say": "",
+      "a": "Qui ? / Quoi ?",
+      "wrong": [
+        "À qui ? / À quoi ?",
+        "Où ?",
+        "Quand ?"
+      ],
+      "explain": "COD = 누구를? 무엇을? (전치사 X). COI는 À qui ? À quoi ?",
+      "src": "semaine 4-1 p.9"
+    },
+    {
+      "id": "u1-10-cod-lui",
+      "t": "choice",
+      "skill": "pron-obj",
+      "hint": "강세형 Lui에 속지 마세요! regarder는 à 없이 '누구를?'",
+      "prompt": "Jeanne regarde qui ? Lui. →",
+      "q": "Elle ___ regarde.",
+      "ko": "잔은 그를 본다.",
+      "a": "le",
+      "wrong": [
+        "lui",
+        "la",
+        "les"
+      ],
+      "explain": "regarder qqn → COD 남성 단수 → le. lui는 COI(à + 사람)예요.",
+      "star": true,
+      "src": "semaine 4-1 p.9"
+    },
+    {
+      "id": "u1-10-cod-elles",
+      "t": "choice",
+      "skill": "pron-obj",
+      "hint": "regarder는 à 없이 '누구를?' 여러 명이면?",
+      "prompt": "Jeanne regarde qui ? Elles. →",
+      "q": "Elle ___ regarde.",
+      "ko": "잔은 그녀들을 본다.",
+      "a": "les",
+      "wrong": [
+        "leur",
+        "la",
+        "elles"
+      ],
+      "explain": "COD 3인칭 복수 → les (남녀 공용).",
+      "src": "semaine 4-1 p.9"
+    },
+    {
+      "id": "u1-10-coi-question",
+      "t": "choice",
+      "skill": "pron-obj",
+      "hint": "COI는 '간접' — 동사와 목적어 사이에 전치사가 끼어요",
+      "prompt": "COI 대명사가 답하는 질문은?",
+      "q": "Jeanne parle ___ ?",
+      "say": "",
+      "a": "À qui ? / À quoi ?",
+      "wrong": [
+        "Qui ? / Quoi ?",
+        "Où ?",
+        "Comment ?"
+      ],
+      "explain": "COI = 누구에게? 무엇에? (à + 명사).",
+      "src": "semaine 4-1 p.11"
+    },
+    {
+      "id": "u1-10-coi-moi",
+      "t": "choice",
+      "skill": "pron-obj",
+      "hint": "à moi = '나에게'. 1인칭은 COD·COI 모양이 같아요",
+      "prompt": "Jeanne parle à qui ? À moi. →",
+      "q": "Elle ___ parle.",
+      "ko": "잔은 나에게 말한다.",
+      "a": "me",
+      "wrong": [
+        "moi",
+        "lui",
+        "m'"
+      ],
+      "explain": "동사 앞 1인칭 = me (COD·COI 공통). parle는 자음이라 축약 X.",
+      "src": "semaine 4-1 p.11"
+    },
+    {
+      "id": "u1-10-coi-lui",
+      "t": "choice",
+      "skill": "pron-obj",
+      "hint": "parler à qqn → COI! 3인칭 단수 형태는?",
+      "prompt": "Jeanne parle à qui ? À lui. →",
+      "q": "Elle ___ parle.",
+      "ko": "잔은 그에게 말한다.",
+      "a": "lui",
+      "wrong": [
+        "le",
+        "l'",
+        "leur"
+      ],
+      "explain": "COI 3인칭 단수 = lui (남녀 공용).",
+      "src": "semaine 4-1 p.11"
+    },
+    {
+      "id": "u1-10-order-rule",
+      "t": "choice",
+      "skill": "pron-obj",
+      "hint": "Je te le donne · Je vais les leur offrir — 예문에서 순서를 읽어봐요",
+      "prompt": "목적보어 대명사 두 개가 겹칠 때 순서는?",
+      "q": "① → ② → ③",
+      "say": "",
+      "a": "me·te·nous·vous → le·la·les → lui·leur",
+      "wrong": [
+        "le·la·les → me·te·nous·vous → lui·leur",
+        "lui·leur → le·la·les → me·te·nous·vous",
+        "le·la·les → lui·leur → me·te·nous·vous"
+      ],
+      "explain": "1·2인칭 → 3인칭 COD → 3인칭 COI. p.13 표 그대로.",
+      "star": true,
+      "src": "semaine 4-1 p.13"
+    },
+    {
+      "id": "u1-10-c-lachete",
+      "t": "choice",
+      "skill": "pron-obj",
+      "hint": "acheter qqch → COD! 모음 앞이면 줄어들어요",
+      "prompt": "cette jupe를 대명사로 바꾸면?",
+      "q": "Jeanne achète cette jupe. → Elle ___.",
+      "ko": "잔은 그것을 산다.",
+      "a": "l'achète",
+      "wrong": [
+        "la achète",
+        "lui achète",
+        "achète la"
+      ],
+      "explain": "cette jupe = COD 여성 단수 la → 모음 앞 l'. 대명사는 동사 앞.",
+      "src": "semaine 4-1 p.14"
+    },
+    {
+      "id": "u1-10-e-ecrites",
+      "t": "error",
+      "skill": "agreement",
+      "hint": "쓴 것(des lettres)은 뒤에! se는 '누구에게'일까요?",
+      "s": "Elles se sont écrites des lettres.",
+      "wrong": "écrites",
+      "right": "écrit",
+      "ko": "그녀들은 서로 편지를 썼다.",
+      "explain": "슬라이드 (X) 표시 문장. COD des lettres가 뒤, se는 COI → 일치 X: écrit.",
+      "star": true,
+      "src": "semaine 4-1 p.16"
+    },
+    {
+      "id": "u1-10-c-montes",
+      "t": "choice",
+      "skill": "aux",
+      "hint": "monter(타다·올라가다)는 이동 동사! 주어 ils에 일치",
+      "prompt": "빈칸에 알맞은 것은? (monter)",
+      "q": "Ils ___ dans le train.",
+      "ko": "그들은 기차에 탔다.",
+      "a": "sont montés",
+      "wrong": [
+        "ont monté",
+        "sont monté",
+        "sont montées"
+      ],
+      "explain": "monter → être, 주어 ils(남성 복수) → montés. 연습 1번.",
+      "src": "semaine 4-1 p.17"
+    },
+    {
+      "id": "u1-10-c-morte",
+      "t": "choice",
+      "skill": "agreement",
+      "hint": "mourir도 être 무리! 불규칙 과거분사 + 여성 일치",
+      "prompt": "빈칸에 알맞은 것은? (mourir)",
+      "q": "Jeanne d'Arc est née en 1412 et ___ en 1431.",
+      "ko": "잔 다르크는 1412년에 태어나 1431년에 죽었다.",
+      "a": "est morte",
+      "wrong": [
+        "a mort",
+        "est mort",
+        "est mourue"
+      ],
+      "pron": "[에 모흐뜨]",
+      "explain": "mourir → être + mort, 여성 → morte [모흐뜨]. 일치가 소리로 들리는 예!",
+      "src": "semaine 4-1 p.17"
+    },
+    {
+      "id": "u1-10-c-se-telephone",
+      "t": "choice",
+      "skill": "agreement",
+      "hint": "téléphoner à qqn — se는 COD일까요, COI일까요?",
+      "prompt": "빈칸에 알맞은 것은? (se téléphoner)",
+      "q": "Ils ___.",
+      "ko": "그들은 서로 전화했다.",
+      "a": "se sont téléphoné",
+      "wrong": [
+        "se sont téléphonés",
+        "ont se téléphoné",
+        "se ont téléphoné"
+      ],
+      "explain": "à 동사 → se = COI → 일치 X. 대명동사라 조동사 être(sont), se 축약 X. 연습 6번.",
+      "src": "semaine 4-1 p.18"
+    },
+    {
+      "id": "u1-10-c-rencontrees",
+      "t": "choice",
+      "skill": "agreement",
+      "hint": "rencontrer qqn — 서로를 만난 것! se는 COD일까요?",
+      "prompt": "빈칸에 알맞은 것은? (se rencontrer)",
+      "q": "Elles ___ dans le métro.",
+      "ko": "그녀들은 지하철에서 (서로) 만났다.",
+      "a": "se sont rencontrées",
+      "wrong": [
+        "se sont rencontré",
+        "ont rencontrées",
+        "se sont rencontrés"
+      ],
+      "explain": "rencontrer qqn → se = COD(서로를) → 주어 elles와 일치 → rencontrées. 연습 7번.",
+      "src": "semaine 4-1 p.18"
+    },
+    {
+      "id": "u1-10-c-cheveux",
+      "t": "choice",
+      "skill": "agreement",
+      "hint": "씻은 건 뒤의 les cheveux! 그럼 se의 역할은?",
+      "prompt": "빈칸에 알맞은 것은? (se laver)",
+      "q": "Elle ___ les cheveux.",
+      "ko": "그녀는 머리를 감았다.",
+      "a": "s'est lavé",
+      "wrong": [
+        "s'est lavée",
+        "a lavé",
+        "se est lavé"
+      ],
+      "explain": "COD les cheveux가 뒤 → se는 COI → 일치 X. Elle s'est lavé les mains과 같은 구조. 연습 9번.",
+      "star": true,
+      "src": "semaine 4-1 p.18"
+    },
+    {
+      "id": "u1-10-c-maries",
+      "t": "choice",
+      "skill": "agreement",
+      "hint": "se marier도 대명동사! 남녀 부부인 nous의 일치는?",
+      "prompt": "빈칸에 알맞은 것은? (se marier, nous = 부부)",
+      "q": "Nous ___ l'été dernier.",
+      "ko": "우리는 작년 여름에 결혼했다.",
+      "a": "nous sommes mariés",
+      "wrong": [
+        "nous avons mariés",
+        "nous sommes marié",
+        "sommes nous mariés"
+      ],
+      "explain": "대명동사 → être, 남녀 섞인 nous → 남성 복수 mariés. 연습 10번.",
+      "src": "semaine 4-1 p.18"
+    },
+    {
+      "id": "u1-10-w-se-marier",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "se marier",
+      "ko": "결혼하다",
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-10-w-se-rencontrer",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "se rencontrer",
+      "ko": "(서로) 만나다",
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-10-w-cheveux",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "les cheveux",
+      "ko": "머리카락",
+      "g": "pl",
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-10-w-ete-dernier",
+      "t": "word",
+      "skill": "time",
+      "fr": "l'été dernier",
+      "ko": "작년 여름",
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-10-w-portable",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "le portable",
+      "ko": "휴대폰",
+      "g": "m",
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-10-w-besoin",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "avoir besoin de",
+      "ko": "~이 필요하다",
+      "note": "J'ai besoin de ton portable.",
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-10-w-preter",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "prêter",
+      "ko": "빌려주다",
+      "note": "prêter qqch à qqn",
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-10-w-offrir",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "offrir",
+      "ko": "선물하다, 주다",
+      "note": "offrir qqch à qqn",
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-10-w-cadeau",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "le cadeau",
+      "ko": "선물",
+      "g": "m",
+      "note": "복수 les cadeaux",
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-10-w-presenter",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "présenter",
+      "ko": "소개하다",
+      "note": "présenter qqn à qqn",
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-10-w-infirmiere",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "l'infirmière",
+      "ko": "간호사 (여)",
+      "g": "f",
+      "note": "남성 l'infirmier",
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-10-w-appeler",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "appeler",
+      "ko": "부르다, 전화하다",
+      "note": "appeler qqn (COD) — j'appelle, nous appelons",
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-10-c-se-preparent",
+      "t": "choice",
+      "skill": "pronominal",
+      "hint": "se = 자기 자신. 목적어가 따로 없으면 그 행동은 누구에게?",
+      "prompt": "이 문장의 뜻은?",
+      "q": "Ils se préparent.",
+      "say": "Ils se préparent.",
+      "a": "그들은 (스스로) 나갈 채비를 한다",
+      "wrong": [
+        "그들은 저녁을 만든다",
+        "그들은 서로를 소개한다",
+        "그들은 이미 다 되어 있다"
+      ],
+      "explain": "재귀대명사 se가 있으면 행동이 자기 자신에게 돌아옵니다. 목적어를 따로 받는 préparer와 구별!",
+      "src": "노션 9/23"
+    },
+    {
+      "id": "u1-10-c-preparent-cod",
+      "t": "choice",
+      "skill": "pronominal",
+      "hint": "목적어 le dîner가 이미 따로 있어요 — 재귀대명사가 필요할까요?",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Ils ___ le dîner.",
+      "ko": "그들은 저녁을 준비한다.",
+      "a": "préparent",
+      "wrong": [
+        "se préparent à",
+        "sont préparés",
+        "préparons"
+      ],
+      "explain": "목적어(le dîner)가 따로 있으니 재귀대명사는 쓰지 않습니다.",
+      "src": "노션 9/23"
+    },
+    {
+      "id": "u1-10-w-lun-a-lautre",
+      "t": "word",
+      "skill": "pronominal",
+      "fr": "l'un à l'autre",
+      "ko": "서로에게",
+      "note": "Ils se sont téléphoné = ils ont téléphoné l'un à l'autre",
+      "src": "노션 9/23"
+    },
+    {
+      "id": "u1-10-c-reciproque",
+      "t": "choice",
+      "skill": "pronominal",
+      "hint": "téléphoner는 항상 à를 데리고 다니는 동사예요.",
+      "prompt": "같은 뜻으로 풀어 쓴 문장은?",
+      "q": "Paul et Marie se sont téléphoné.",
+      "say": "",
+      "a": "Paul et Marie ont téléphoné l'un à l'autre.",
+      "wrong": [
+        "Paul et Marie ont téléphoné l'un l'autre.",
+        "Paul et Marie se sont téléphonés.",
+        "Paul et Marie ont se téléphoné."
+      ],
+      "explain": "상호적 se = 서로에게(COI). à가 필요하니 l'un à l'autre, 일치도 없어서 téléphoné 그대로.",
+      "star": true,
+      "src": "노션 9/23"
+    }
+  ]
+}

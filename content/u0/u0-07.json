@@ -1,0 +1,126 @@
+{
+  "id": "u0-07",
+  "unit": "u0",
+  "title": "현재형: 불규칙 동사 I",
+  "emoji": "🌀",
+  "date": "2026-09-09",
+  "sources": ["semaine 1-2", "semaine 2-2", "semaine 2-3", "노션 9/9", "노션 9/10", "노션 9/16", "Quiz 1", "Révision générale"],
+  "tips": [
+    {"h": "기본 3동사 (leçon 2·3)", "rows": [["avoir", "ai · as · a · avons · avez · ont"], ["être", "suis · es · est · sommes · êtes · sont"], ["aller", "vais · vas · va · allons · allez · vont"]]},
+    {"h": "faire · voir · savoir", "rows": [["faire", "fais · fais · fait · faisons · faites · font"], ["voir", "vois · vois · voit · voyons · voyez · voient"], ["savoir", "sais · sais · sait · savons · savez · savent"]]},
+    {"h": "pouvoir · vouloir · devoir — 3단 변신", "rows": [["pouvoir", "peux · peux · peut / pouvons · pouvez / peuvent"], ["vouloir", "veux · veux · veut / voulons · voulez / veulent"], ["devoir", "dois · dois · doit / devons · devez / doivent"]], "b": "단수 → nous·vous → ils, 세 번 모양이 바뀐다.\npouvoir + 동사원형 / vouloir + 명사·동사원형 / devoir = ~해야 한다"},
+    {"h": "vous -ez 예외 3인방", "b": "vous **êtes** · vous **faites** · vous **dites**\n나머지는 전부 vous ~ez! (vous faisez ✗, vous êtez ✗)"},
+    {"h": "발음 함정", "b": "nous faisons [누 **프**종] — ai가 약한 [ə], s는 [z]\nils ont [일 **종**] ↔ ils sont [일 **쏭**]\nnous avons [누 자봉] · vous avez [부 자베] — 연음 필수"}
+  ],
+  "fixes": [
+    {"where": "노션 9/9 · Révision générale", "was": "Nous faisons [누푸송] / [누 프송]", "now": "Nous faisons [누 프종]", "why": "ai는 약한 [ə], 모음 사이의 s는 [z] → [fəzɔ̃]"}
+  ],
+  "note": [
+    {
+      "h": "기본 3동사: avoir · être · aller",
+      "skill": "pres-irr",
+      "src": ["semaine 1-2 p.13", "semaine 1-3", "Révision générale"],
+      "body": [
+        {"table": [["", "avoir 가지다", "être ~이다", "aller 가다"], ["je", "j'ai", "suis", "vais"], ["tu", "as", "es", "vas"], ["il/elle", "a", "est", "va"], ["nous", "avons", "sommes", "allons"], ["vous", "avez", "êtes", "allez"], ["ils/elles", "ont", "sont", "vont"]], "head": true},
+        {"p": "나이·신체 묘사는 **avoir**. **aller + 동사원형** = 가까운 미래."},
+        {"ex": [["Alex a dix-neuf ans.", "알렉스는 19살이다."], ["Astérix a les yeux bleus.", "아스테릭스는 눈이 파랗다."], ["Je suis grand.", "나는 키가 크다."], ["Elle va avoir 21 ans.", "그녀는 곧 21살이 된다."]]},
+        {"warn": "ils ont [일 **종**] (연음 z) ↔ ils sont [일 **쏭**] — 소리가 비슷해서 듣기 단골 함정."},
+        {"warn": "aller는 -er로 끝나도 **1군이 아니다**: Ils allent ✗ → **Ils vont** (Quiz 1 III-2). 어간이 v- / all- / v-로 갈라진다."},
+        {"memo": "9/2 필기: aller + 동사원형은 \"자동적으로 나오게끔 공부\""}
+      ]
+    },
+    {
+      "h": "faire · voir · savoir",
+      "skill": "pres-irr",
+      "src": ["semaine 2-2 p.15", "semaine 2-3 p.12", "노션 9/9", "노션 9/10"],
+      "body": [
+        {"table": [["", "faire 하다·만들다", "voir 보다", "savoir 알다"], ["je", "fais", "vois", "sais"], ["tu", "fais", "vois", "sais"], ["il/elle", "fait", "voit", "sait"], ["nous", "faisons", "voyons", "savons"], ["vous", "faites", "voyez", "savez"], ["ils/elles", "font", "voient", "savent"]], "head": true},
+        {"memo": "필기: \"Nous faisons 발음 주의\" · Nous voyons [누 부아용] · Nous savons [누 사봉]"},
+        {"warn": "nous faisons은 [누 **프종**] — ai가 약한 [ə], 모음 사이 s는 [z]. (필기·정리본의 [누푸송]/[누 프송]은 정정)"},
+        {"warn": "vous **faites** — -ez가 아니다 (vous faisez ✗). ils **font**."},
+        {"memo": "필기: Tu sais = 영어 you know 같은 말버릇(feeling word). savoir는 지식으로 '알다'"},
+        {"ex": [["Quel temps fait-il aujourd'hui ?", "오늘 날씨 어때?"], ["Il fait gris.", "날이 흐려."], ["Il y a du vent.", "바람이 불어."]]},
+        {"memo": "9/10 수업 전 복습 질문: 날씨는 faire의 3인칭 단수 il fait로 말한다"}
+      ]
+    },
+    {
+      "h": "pouvoir · vouloir · devoir — 3단 변신",
+      "skill": "pres-irr",
+      "src": ["semaine 2-2 p.18", "semaine 2-3 p.15", "노션 9/10"],
+      "body": [
+        {"table": [["", "pouvoir ~할 수 있다", "vouloir 원하다", "devoir ~해야 한다"], ["je", "peux", "veux", "dois"], ["tu", "peux", "veux", "dois"], ["il/elle", "peut", "veut", "doit"], ["nous", "pouvons", "voulons", "devons"], ["vous", "pouvez", "voulez", "devez"], ["ils/elles", "peuvent", "veulent", "doivent"]], "head": true},
+        {"p": "단수 3개(peux · peux · peut) → nous·vous(pouv-) → ils(peuv-) — **세 번** 모양이 바뀐다. je·tu는 -x/-s, il은 -t."},
+        {"list": ["pouvoir ~할 수 있다 → 뒤에 보통 동사원형", "vouloir 원하다 (want) → 뒤에 명사 또는 동사원형", "devoir ~해야 한다 (must) → 뒤에 동사원형 · 명사가 오면 \"빚지다\" (Je te dois dix euros.)"]},
+        {"ex": [["Je peux entrer ?", "들어가도 돼요?"], ["Je veux un café.", "커피 한 잔 원해요."], ["Tu dois travailler.", "너는 공부해야 해."]]},
+        {"memo": "슬라이드 'Au secours !'(살려줘!) — 동사 표 사이에 끼워 넣은 동사 변화 복습 영상"}
+      ]
+    },
+    {
+      "h": "vous -ez 예외 3인방",
+      "skill": "pres-irr",
+      "src": ["semaine 1-2 p.13", "semaine 2-2 p.15, 17", "Révision générale"],
+      "body": [
+        {"p": "vous 형태는 거의 다 -ez지만 딱 셋만 예외: **vous êtes · vous faites · vous dites**"},
+        {"warn": "vous êtez ✗ · vous faisez ✗ · vous disez ✗"}
+      ]
+    },
+    {
+      "h": "발음 한눈에",
+      "skill": "pron",
+      "src": ["노션 9/9", "Révision générale"],
+      "body": [
+        {"list": ["nous avons [누 자봉] · vous avez [부 자베] · ils ont [일 종] — 연음 필수", "ils sont [일 쏭]", "nous faisons [누 프종]", "vous faites [부 페뜨] · ils font [일 퐁]", "nous voyons [누 부아용] · ils voient [일 부아]", "il peut [일 뾔] ↔ ils peuvent [일 뾔브]", "ils veulent [일 뵐] · ils doivent [일 두아브]"]}
+      ]
+    },
+    {
+      "h": "savoir ↔ connaître",
+      "skill": "pres-irr",
+      "src": ["Révision générale p.7", "노션 9/9"],
+      "body": [
+        {"p": "**savoir** = 지식·사실을 알다 (Tu sais… = 있잖아), **connaître** = 사람·장소를 (겪어서) 알다."},
+        {"table": [["", "connaître (사람·장소를) 알다"], ["je", "connais"], ["tu", "connais"], ["il/elle", "connaît"], ["nous", "connaissons"], ["vous", "connaissez"], ["ils/elles", "connaissent"]], "head": true},
+        {"ex": [["Tu sais où il habite ?", "너 그가 어디 사는지 알아?"], ["Je connais Marie.", "나는 마리를 안다."]]},
+        {"memo": "슬라이드엔 표가 없고, Révision générale p.7이 savoir와 구분하라고 짚은 동사. 9/16 복합과거 연습에 Elle connaît → Elle a connu로 다시 나온다."}
+      ]
+    },
+    {
+      "h": "Au secours ! — 동사 표 사이의 쉬어가기",
+      "skill": "vocab",
+      "src": ["semaine 2-2 p.14", "semaine 2-3 p.16", "노션 9/16", "Révision générale p.9"],
+      "body": [
+        {"p": "**Au secours !** = 살려 주세요! / 도와줘! — 동사 표 사이에 끼워 둔 슬라이드 제목 (2-2: 2군 표 뒤, 2-3: pouvoir·vouloir·devoir 표 뒤)."},
+        {"memo": "슬라이드: 로트레크의 그림과 물랭 루주(La Goulue) 포스터 + 영상 링크 — 동사 변화에 지친 학생용 쉬어가기. 문법 내용은 없다. 9/16 필기: \"Au secours! : 도와줘!\""}
+      ]
+    }
+  ],
+  "cards": [
+    {"id": "u0-07-avoir", "t": "verb", "inf": "avoir", "ko": "가지다 (have)", "group": 3, "forms": {"je": "ai", "tu": "as", "il": "a", "nous": "avons", "vous": "avez", "ils": "ont"}, "traps": [{"p": "ils", "wrong": "sont", "why": "sont은 être! avoir는 ils ont [일 종]"}, {"p": "tu", "wrong": "a", "why": "tu는 s: tu as"}], "note": "j'ai (엘리지옹). 나이도 avoir: Alex a dix-neuf ans.", "pron": "[누 자봉 · 일 종]", "star": true, "src": "semaine 1-2", "skill": "pres-irr"},
+    {"id": "u0-07-etre", "t": "verb", "inf": "être", "ko": "~이다, (~에) 있다 (be)", "group": 3, "forms": {"je": "suis", "tu": "es", "il": "est", "nous": "sommes", "vous": "êtes", "ils": "sont"}, "traps": [{"p": "vous", "wrong": "êtez", "why": "-ez 예외 3인방: êtes · faites · dites"}, {"p": "ils", "wrong": "ont", "why": "ont은 avoir! être는 ils sont [일 쏭]"}, {"p": "nous", "wrong": "sommons", "why": "nous sommes — -ons가 아님"}], "star": true, "src": "semaine 1-2", "skill": "pres-irr"},
+    {"id": "u0-07-etez", "t": "error", "s": "Vous êtez étudiant ?", "wrong": "êtez", "right": "êtes", "ko": "학생이세요?", "explain": "vous êtes는 -ez 규칙을 안 따르는 예외! (vous faites, vous dites와 세트)", "star": true, "skill": "pres-irr", "hint": "vous 형태가 -ez로 안 끝나는 예외 3인방을 떠올려봐요!"},
+    {"id": "u0-07-listen-ont", "t": "listen", "say": "Ils ont", "a": "Ils ont", "wrong": ["Ils sont"], "ko": "그들은 가지고 있다", "pron": "[일 종]", "explain": "ils ont은 연음으로 [z] 소리 [일 종], ils sont은 [s] 소리 [일 쏭]. 뜻이 완전히 달라요!", "star": true, "skill": "pron", "hint": "연음 [z]일까, 자음 [s]일까? avoir vs être!"},
+    {"id": "u0-07-aller", "t": "verb", "inf": "aller", "ko": "가다", "group": 3, "forms": {"je": "vais", "tu": "vas", "il": "va", "nous": "allons", "vous": "allez", "ils": "vont"}, "traps": [{"p": "ils", "wrong": "allent", "why": "aller는 -er로 끝나도 1군이 아님 → ils vont"}, {"p": "je", "wrong": "va", "why": "je vais, il va"}, {"p": "nous", "wrong": "vons", "why": "nous·vous만 all-: allons, allez"}], "note": "-er인데 1군 아님! 어간 v- / all- / v-", "star": true, "src": "semaine 1-2", "skill": "pres-irr"},
+    {"id": "u0-07-vont", "t": "choice", "prompt": "빈칸에 알맞은 것은?", "q": "Ils ___ au cinéma. (aller)", "ko": "그들은 영화관에 간다.", "a": "vont", "wrong": ["allent", "vas", "allons"], "say": "Ils vont au cinéma.", "explain": "aller는 완전 불규칙: je vais, tu vas, il va, nous allons, vous allez, ils vont.", "star": true, "src": "Quiz 1 · III-2", "skill": "pres-irr", "hint": "aller는 완전 불규칙! ils 형태는 -er 어미를 안 따라요"},
+    {"id": "u0-07-va-avoir", "t": "choice", "prompt": "빈칸에 알맞은 것은?", "q": "Elle ___ avoir 21 ans.", "ko": "그녀는 곧 21살이 된다.", "a": "va", "wrong": ["vais", "a", "est"], "explain": "aller + 동사원형 = 가까운 미래. 주어 elle → va.", "src": "semaine 1-2", "skill": "pres-irr", "hint": "aller + 동사원형 = 가까운 미래! 주어 elle에 맞는 aller 형태는?"},
+    {"id": "u0-07-faire", "t": "verb", "inf": "faire", "ko": "하다, 만들다", "group": 3, "forms": {"je": "fais", "tu": "fais", "il": "fait", "nous": "faisons", "vous": "faites", "ils": "font"}, "traps": [{"p": "vous", "wrong": "faisez", "why": "-ez 예외 3인방: vous faites"}, {"p": "ils", "wrong": "faisent", "why": "ils font — 완전 불규칙"}, {"p": "il", "wrong": "fais", "why": "il/elle은 -t: il fait"}], "note": "nous faisons [누 프종] 발음 주의!", "pron": "[누 프종]", "star": true, "src": "semaine 2-2", "skill": "pres-irr"},
+    {"id": "u0-07-faites", "t": "choice", "prompt": "빈칸에 알맞은 것은?", "q": "Qu'est-ce que vous ___ ? (faire)", "ko": "뭐 하세요?", "a": "faites", "wrong": ["faisez", "faitez", "font"], "say": "Qu'est-ce que vous faites ?", "explain": "vous faites — -ez가 아닌 예외형. vous êtes, vous dites와 세트로!", "star": true, "skill": "pres-irr", "hint": "faire의 vous 형태는 -ez 규칙을 따를까요? 예외 3인방!"},
+    {"id": "u0-07-faisons-pron", "t": "choice", "prompt": "Nous faisons의 발음은?", "q": "Nous faisons", "a": "[누 프종]", "wrong": ["[누 페종]", "[누 프송]", "[누 페송]"], "say": "Nous faisons.", "explain": "철자는 ai지만 약한 [ə] '으', 모음 사이 s는 [z] → [누 프종].", "star": true, "src": "노션 9/9", "skill": "pron", "hint": "철자 ai에 속지 마요! 모음 사이 s는 [z]일까 [s]일까?"},
+    {"id": "u0-07-listen-font", "t": "listen", "say": "Ils font", "a": "Ils font", "wrong": ["Il fait"], "ko": "그들은 한다", "pron": "[일 퐁]", "explain": "ils font은 비모음 [퐁], il fait은 [페].", "skill": "pron", "hint": "비모음 [ɔ̃](옹)이 들리는지, [ɛ](에)로 끝나는지!"},
+    {"id": "u0-07-temps", "t": "choice", "skill": "pres-irr", "hint": "날씨는 faire로! 주어가 il이니 3인칭 단수 형태는?", "prompt": "빈칸에 알맞은 것은?", "q": "Quel temps ___-il aujourd'hui ?", "ko": "오늘 날씨 어때?", "a": "fait", "wrong": ["fais", "font", "faites"], "say": "Quel temps fait-il aujourd'hui ?", "explain": "날씨는 faire의 il 형태로 말해요: Quel temps fait-il ? — Il fait gris.", "src": "노션 9/10"},
+    {"id": "u0-07-fait-gris", "t": "choice", "skill": "pres-irr", "hint": "날씨 표현은 avoir가 아니라 faire! il에 맞는 형태는?", "prompt": "빈칸에 알맞은 것은?", "q": "Il ___ gris.", "ko": "날이 흐려.", "a": "fait", "wrong": ["a", "fais", "font"], "say": "Il fait gris.", "explain": "날씨 = il fait + 형용사. 바람은 Il y a du vent.", "src": "노션 9/10"},
+    {"id": "u0-07-voir", "t": "verb", "inf": "voir", "ko": "보다", "group": 3, "forms": {"je": "vois", "tu": "vois", "il": "voit", "nous": "voyons", "vous": "voyez", "ils": "voient"}, "traps": [{"p": "ils", "wrong": "voyent", "why": "y는 nous·vous에서만: ils voient"}, {"p": "nous", "wrong": "voions", "why": "nous voyons — y [j] 소리"}], "pron": "[누 부아용]", "src": "semaine 2-2", "skill": "pres-irr"},
+    {"id": "u0-07-savoir", "t": "verb", "inf": "savoir", "ko": "알다", "group": 3, "forms": {"je": "sais", "tu": "sais", "il": "sait", "nous": "savons", "vous": "savez", "ils": "savent"}, "traps": [{"p": "ils", "wrong": "saivent", "why": "복수는 sav-: ils savent"}, {"p": "il", "wrong": "sais", "why": "il/elle은 -t: il sait"}], "note": "Tu sais… = 있잖아 (말버릇)", "src": "semaine 2-2", "skill": "pres-irr"},
+    {"id": "u0-07-pouvoir", "t": "verb", "inf": "pouvoir", "ko": "~할 수 있다", "group": 3, "forms": {"je": "peux", "tu": "peux", "il": "peut", "nous": "pouvons", "vous": "pouvez", "ils": "peuvent"}, "traps": [{"p": "ils", "wrong": "pouvent", "why": "ils는 peuv-: peuvent"}, {"p": "je", "wrong": "peut", "why": "je·tu는 -x: je peux"}], "note": "뒤에 동사원형: Je peux entrer ?", "star": true, "src": "semaine 2-2", "skill": "pres-irr"},
+    {"id": "u0-07-peux", "t": "choice", "prompt": "빈칸에 알맞은 것은?", "q": "Je ___ entrer ? (pouvoir)", "ko": "들어가도 돼요?", "a": "peux", "wrong": ["peut", "pouvons", "peuvent"], "say": "Je peux entrer ?", "explain": "pouvoir: je peux, tu peux, il peut. 뒤에는 동사원형이 와요.", "skill": "pres-irr", "hint": "pouvoir의 je 형태! je와 il의 끝 글자는 달라요"},
+    {"id": "u0-07-listen-peuvent", "t": "listen", "say": "Ils peuvent", "a": "Ils peuvent", "wrong": ["Il peut"], "ko": "그들은 할 수 있다", "pron": "[일 뾔브]", "explain": "복수 peuvent은 끝에 [v] 소리가 들리고, 단수 peut은 [뾔]로 끝나요.", "skill": "pron", "hint": "단수·복수 구분: 끝에 자음 소리가 들리는지 귀 기울여봐요"},
+    {"id": "u0-07-vouloir", "t": "verb", "inf": "vouloir", "ko": "원하다", "group": 3, "forms": {"je": "veux", "tu": "veux", "il": "veut", "nous": "voulons", "vous": "voulez", "ils": "veulent"}, "traps": [{"p": "ils", "wrong": "voulent", "why": "ils는 veul-: veulent"}, {"p": "tu", "wrong": "veut", "why": "je·tu는 -x: tu veux"}], "note": "뒤에 명사 또는 동사원형: Je veux un café.", "src": "semaine 2-2", "skill": "pres-irr"},
+    {"id": "u0-07-veux", "t": "choice", "prompt": "빈칸에 알맞은 것은?", "q": "Je ___ un café. (vouloir)", "ko": "커피 한 잔 원해요.", "a": "veux", "wrong": ["veut", "voulons", "veulent"], "say": "Je veux un café.", "explain": "vouloir: je veux, tu veux, il veut — je·tu는 -x, il은 -t.", "skill": "pres-irr", "hint": "vouloir의 je 형태! je·tu와 il의 끝 글자가 달라요"},
+    {"id": "u0-07-devoir", "t": "verb", "inf": "devoir", "ko": "~해야 한다", "group": 3, "forms": {"je": "dois", "tu": "dois", "il": "doit", "nous": "devons", "vous": "devez", "ils": "doivent"}, "traps": [{"p": "ils", "wrong": "devent", "why": "ils는 doiv-: doivent"}, {"p": "nous", "wrong": "doivons", "why": "nous·vous는 dev-: devons"}], "note": "Tu dois travailler. = 너는 공부해야 해", "src": "semaine 2-2", "skill": "pres-irr"},
+    {"id": "u0-07-dois", "t": "choice", "prompt": "빈칸에 알맞은 것은?", "q": "Tu ___ travailler. (devoir)", "ko": "너는 공부해야 해.", "a": "dois", "wrong": ["doit", "devez", "doives"], "say": "Tu dois travailler.", "explain": "devoir: je dois, tu dois, il doit / nous devons / ils doivent.", "skill": "pres-irr", "hint": "devoir의 tu 형태! tu와 il의 끝 글자가 달라요"},
+    {"id": "u0-07-ez-trio", "t": "choice", "prompt": "vous 형태가 -ez로 끝나지 않는 3인방, 마지막 하나는?", "q": "vous êtes · vous faites · vous ___", "a": "dites", "wrong": ["disez", "allez", "avez"], "say": "vous êtes, vous faites, vous dites", "explain": "예외는 êtes · faites · dites 셋뿐! allez, avez처럼 나머지는 전부 -ez.", "skill": "pres-irr", "hint": "êtes·faites와 같은 예외! dire의 vous 형태는?"},
+    {"id": "u0-07-connaitre", "t": "verb", "inf": "connaître", "ko": "(사람·장소를) 알다", "group": 3, "forms": {"je": "connais", "tu": "connais", "il": "connaît", "nous": "connaissons", "vous": "connaissez", "ils": "connaissent"}, "traps": [{"p": "il", "wrong": "connais", "why": "il/elle은 -t: il connaît (î 유지)"}, {"p": "nous", "wrong": "connaîsons", "why": "복수는 -ss-: connaissons"}], "note": "savoir = 지식·사실 / connaître = 사람·장소", "src": "Révision générale p.7", "skill": "pres-irr"},
+    {"id": "u0-07-savoir-connaitre", "t": "choice", "skill": "pres-irr", "hint": "사람을 아는 건 지식일까요? 주어는 tu!", "prompt": "빈칸에 알맞은 것은?", "q": "Tu ___ Marie ?", "ko": "너 마리 알아?", "a": "connais", "wrong": ["sais", "sait", "connaît"], "say": "Tu connais Marie ?", "explain": "사람·장소를 알 땐 connaître (tu connais), 지식·사실은 savoir (tu sais).", "src": "Révision générale p.7"},
+    {"id": "u0-07-au-secours", "t": "word", "skill": "vocab", "fr": "Au secours !", "ko": "살려 주세요! 도와줘!", "note": "동사 표 사이 슬라이드 제목 (semaine 2-2 p.14 · 2-3 p.16)", "src": "semaine 2-2"},
+    {"id": "u0-07-listen-voyons", "t": "listen", "skill": "pron", "hint": "[j](이) 소리가 섞여 들리는지 귀 기울여봐요", "say": "Nous voyons.", "a": "Nous voyons.", "wrong": ["Nous voulons."], "ko": "우리는 본다", "pron": "[누 부아용]", "explain": "voir의 nous형은 i → y: voyons [부아용]. vouloir의 voulons [불롱]과 구별!", "src": "노션 9/9"},
+    {"id": "u0-07-avoir-age", "t": "choice", "skill": "pres-irr", "hint": "나이는 '가지다' 동사로 말해요! 주어는 3인칭 단수", "prompt": "빈칸에 알맞은 것은?", "q": "Alex ___ dix-neuf ans.", "ko": "알렉스는 19살이다.", "a": "a", "wrong": ["est", "as", "va"], "say": "Alex a dix-neuf ans.", "explain": "나이·신체 묘사는 avoir: Alex a dix-neuf ans. 한국어 '~이다'에 끌려 est ✗!", "star": true, "src": "Révision générale p.6"}
+  ]
+}

@@ -1,0 +1,897 @@
+{
+  "id": "u1-09",
+  "unit": "u1",
+  "title": "복합과거 총정리",
+  "emoji": "🏁",
+  "date": "2026-09-17",
+  "sources": ["semaine 3-2", "semaine 3-3", "노션 9/16", "노션 9/17"],
+  "tips": [
+    {
+      "h": "조동사 고르기 3단계",
+      "b": "① 대명동사(se …)? → **être**\n② 이동·상태변화 15개(aller, venir, naître, mourir…)? → **être**\n③ 나머지 전부 → **avoir**"
+    },
+    {
+      "h": "être면 일치 체크",
+      "b": "Elles sont arrivé**es** · Elle est né**e** · Ils sont descendu**s** · Ils sont tombé**s**\n(드릴 4 · 12 · 17 · 22번 = 감점 포인트)"
+    },
+    {
+      "h": "드릴 속 불규칙 과거분사",
+      "rows": [
+        ["devoir → dû", "voir → vu"],
+        ["connaître → connu", "pouvoir → pu"],
+        ["prendre → pris", "faire → fait"],
+        ["dire → dit", "mourir → mort"]
+      ]
+    },
+    {
+      "h": "on = 3인칭 단수",
+      "b": "On vient → **On est venu** · On devient → **On est devenu** (On sont venus ✗)"
+    },
+    {
+      "h": "🎵 Notre-Dame de Paris",
+      "b": "〈Le Temps des cathédrales〉 가사 속 복합과거\n**est venu**(venir) · **est entré**(entrer) → 이동동사라 être\n**a voulu**(vouloir) → avoir"
+    }
+  ],
+  "fixes": [
+    {
+      "where": "노션 9/16 수업 필기 (드릴 18번)",
+      "was": "Elles on fait",
+      "now": "Elles ont fait",
+      "why": "on은 대명사. avoir의 3인칭 복수는 ont"
+    }
+  ],
+  "note": [
+    {
+      "h": "조동사 고르기 — 3단계",
+      "skill": "aux",
+      "src": [
+        "semaine 3-3 p.8–9",
+        "노션 9/16",
+        "노션 9/17"
+      ],
+      "body": [
+        {
+          "list": [
+            "① 대명동사(se …)? → **être** + 일치",
+            "② 이동·상태변화 15개(aller, venir, naître, mourir…)? → **être** + 주어 일치",
+            "③ 나머지 전부 → **avoir**"
+          ]
+        },
+        {
+          "table": [
+            [
+              "avoir",
+              "être"
+            ],
+            [
+              "Je mange → J'ai mangé",
+              "Je vais → Je suis allé"
+            ],
+            [
+              "Tu finis → Tu as fini",
+              "Tu entres → Tu es entré"
+            ],
+            [
+              "Il prend → Il a pris",
+              "Il passe → Il est passé"
+            ],
+            [
+              "Elle met → Elle a mis",
+              "Elle part → Elle est partie"
+            ],
+            [
+              "Nous faisons → Nous avons fait",
+              "Nous venons → Nous sommes venus"
+            ],
+            [
+              "Vous lisez → Vous avez lu",
+              "Vous montez → Vous êtes montés"
+            ],
+            [
+              "Ils ouvrent → Ils ont ouvert",
+              "Ils descendent → Ils sont descendus"
+            ],
+            [
+              "Elles voient → Elles ont vu",
+              "Elles tombent → Elles sont tombées"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "memo": "슬라이드 3-3 p.8–9 복습 예문. 슬라이드 표기는 venu(e)s · monté(e)(s) — 여기선 남성 복수로 적음. 주어가 여성이면 -e / -es, 존칭 vous 한 명이면 monté / montée"
+        }
+      ]
+    },
+    {
+      "h": "드릴 25문항 정답",
+      "skill": "aux",
+      "src": [
+        "semaine 3-2 p.32–36",
+        "노션 9/16"
+      ],
+      "body": [
+        {
+          "p": "슬라이드에는 정답이 없다. 아래는 표준 정답. 성별이 정해지지 않은 주어(je, nous, vous)는 가능한 형태를 모두 적었다. on(24·25번)은 기본형 venu · devenu로 적었다 (on = 우리 뜻이면 venus · devenus로 일치시켜도 허용)."
+        },
+        {
+          "table": [
+            [
+              "#",
+              "현재",
+              "복합과거"
+            ],
+            [
+              "1",
+              "Il achète",
+              "Il a acheté"
+            ],
+            [
+              "2",
+              "Tu dois",
+              "Tu as dû"
+            ],
+            [
+              "3",
+              "Vous montez",
+              "Vous êtes monté · montée · montés · montées"
+            ],
+            [
+              "4",
+              "Elles arrivent",
+              "Elles sont arrivées"
+            ],
+            [
+              "5",
+              "Nous réussissons",
+              "Nous avons réussi"
+            ],
+            [
+              "6",
+              "Ils préfèrent",
+              "Ils ont préféré"
+            ],
+            [
+              "7",
+              "Tu regardes",
+              "Tu as regardé"
+            ],
+            [
+              "8",
+              "J'entre",
+              "Je suis entré / entrée"
+            ],
+            [
+              "9",
+              "Ils voient",
+              "Ils ont vu"
+            ],
+            [
+              "10",
+              "Nous sortons",
+              "Nous sommes sortis / sorties"
+            ],
+            [
+              "11",
+              "Elle connaît",
+              "Elle a connu"
+            ],
+            [
+              "12",
+              "Elle naît",
+              "Elle est née"
+            ],
+            [
+              "13",
+              "Il meurt",
+              "Il est mort"
+            ],
+            [
+              "14",
+              "Nous restons",
+              "Nous sommes restés / restées"
+            ],
+            [
+              "15",
+              "Vous partez",
+              "Vous êtes parti · partie · partis · parties"
+            ],
+            [
+              "16",
+              "Tu réfléchis",
+              "Tu as réfléchi"
+            ],
+            [
+              "17",
+              "Ils descendent",
+              "Ils sont descendus"
+            ],
+            [
+              "18",
+              "Elles font",
+              "Elles ont fait"
+            ],
+            [
+              "19",
+              "Vous pouvez",
+              "Vous avez pu"
+            ],
+            [
+              "20",
+              "Nous prenons",
+              "Nous avons pris"
+            ],
+            [
+              "21",
+              "Elles disent",
+              "Elles ont dit"
+            ],
+            [
+              "22",
+              "Ils tombent",
+              "Ils sont tombés"
+            ],
+            [
+              "23",
+              "Nous visitons",
+              "Nous avons visité"
+            ],
+            [
+              "24",
+              "On vient",
+              "On est venu"
+            ],
+            [
+              "25",
+              "On devient",
+              "On est devenu"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "warn": "4 · 12 · 17 · 22번은 일치가 눈에 보이는 문항 — -e, -s를 빼면 감점"
+        },
+        {
+          "memo": "필기 18번 \"Elles on fait\"는 오타 → Elles ont fait. 1번 발음 메모: Il a acheté [일라 아슈떼]"
+        }
+      ]
+    },
+    {
+      "h": "드릴 속 함정",
+      "skill": "pp",
+      "src": [
+        "semaine 3-2 p.32–36",
+        "노션 9/16"
+      ],
+      "body": [
+        {
+          "list": [
+            "dû (devoir): û 악상 필수 — du(약간의)와 구별",
+            "préféré: é가 세 개 (préfèrent의 è에 끌리지 말 것)",
+            "connaître → a connu (avoir) vs naître → est né (être)",
+            "불규칙: mourir → mort, faire → fait, dire → dit, voir → vu, pouvoir → pu, prendre → pris",
+            "visiter는 이동동사 무리가 아님 → avons visité",
+            "10 · 15번 sortir · partir는 être 무리"
+          ]
+        }
+      ]
+    },
+    {
+      "h": "on = 3인칭 단수",
+      "skill": "on",
+      "src": [
+        "semaine 3-2 p.36",
+        "노션 9/16"
+      ],
+      "body": [
+        {
+          "ex": [
+            [
+              "On vient → On est venu.",
+              "우리는 왔다."
+            ],
+            [
+              "On devient → On est devenu.",
+              "우리는 ~이 되었다."
+            ]
+          ]
+        },
+        {
+          "warn": "On sont venus ✗ — on은 \"우리\" 뜻이어도 3인칭 단수 → est"
+        },
+        {
+          "p": "뉘앙스: on = 우리일 때 과거분사를 복수로 맞춘 **On est venus**도 표준으로 인정. 조동사는 어느 쪽이든 **est**."
+        }
+      ]
+    },
+    {
+      "h": "🎵 Notre-Dame de Paris 〈Le Temps des cathédrales〉",
+      "skill": "aux",
+      "src": [
+        "semaine 3-3 p.10",
+        "노션 9/17"
+      ],
+      "body": [
+        {
+          "p": "슬라이드 «Qu'est-ce que cela veut dire ?»에 뮤지컬 《노트르담 드 파리》 가사 네 줄이 나왔다. 가사 자체는 싣지 않고 **문법 포인트**만 정리."
+        },
+        {
+          "table": [
+            [
+              "가사 속 형태",
+              "원형",
+              "조동사"
+            ],
+            [
+              "est venu",
+              "venir",
+              "être (이동)"
+            ],
+            [
+              "est entré",
+              "entrer",
+              "être (이동)"
+            ],
+            [
+              "a voulu",
+              "vouloir",
+              "avoir"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "list": [
+            "1행은 비인칭 il로 시작하고 진짜 주어는 동사 뒤에 오는 어순 — 그래도 venir라서 조동사는 être",
+            "a voulu 뒤에 동사원형 두 개(monter, écrire)가 이어진다 — vouloir의 복합과거는 \"~하려 했다\"에 가깝다"
+          ]
+        },
+        {
+          "memo": "Qu'est-ce que cela veut dire ? = 이게 무슨 뜻이에요? (구어: Ça veut dire quoi ?) — 교실에서 바로 쓸 수 있는 표현"
+        }
+      ]
+    },
+    {
+      "h": "복습 예문 카드 · verbes de déplacement",
+      "skill": "aux",
+      "src": [
+        "semaine 3-3 p.8–9",
+        "노션 9/16",
+        "노션 9/17"
+      ],
+      "body": [
+        {
+          "p": "슬라이드 3-3 p.9 제목: **être + participe passé des verbes de déplacement**. 수업 필기: '자리를 바꾸거나 움직임과 관련한 뜻일 때 → 주어와 항상 성수 일치'."
+        },
+        {
+          "list": [
+            "avoir 쪽 불규칙: prendre → pris · mettre → mis · faire → fait · lire → lu · ouvrir → ouvert · voir → vu",
+            "être 쪽: aller → allé · entrer → entré · passer → passé · partir → parti · venir → venu · monter → monté · descendre → descendu · tomber → tombé",
+            "Je mange → **J'ai** mangé: 모음 ai 앞에서 je → j'"
+          ]
+        },
+        {
+          "memo": "9/16 드릴 필기 발음 메모: Il a acheté [일라 아슈떼] · Elles sont arrivées — sont‿arrivées 연음은 **필수 아님**(필기 '연음 필수 X'). 해도 되고 안 해도 된다."
+        }
+      ]
+    },
+    {
+      "h": "🎵 가사 어휘 · 교실 표현",
+      "skill": "vocab",
+      "src": [
+        "semaine 3-3 p.10",
+        "노션 9/17"
+      ],
+      "body": [
+        {
+          "p": "가사 전문은 싣지 않는다. 수업에서 해석하며 나온 **단어**와 **문법 포인트**만."
+        },
+        {
+          "table": [
+            [
+              "단어",
+              "뜻"
+            ],
+            [
+              "la cathédrale",
+              "대성당"
+            ],
+            [
+              "le monde",
+              "세계, 세상"
+            ],
+            [
+              "le millénaire",
+              "천 년 (새 천년)"
+            ],
+            [
+              "l'homme",
+              "인간, 사람"
+            ],
+            [
+              "l'étoile (f)",
+              "별"
+            ],
+            [
+              "l'histoire (f)",
+              "역사, 이야기"
+            ],
+            [
+              "le verre",
+              "유리"
+            ],
+            [
+              "la pierre",
+              "돌"
+            ],
+            [
+              "la comédie musicale",
+              "뮤지컬"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "list": [
+            "1행의 il = 뜻 없는 **가주어**(il y a의 il과 같은 종류). 진짜 주어가 동사 뒤로 간 시적 도치",
+            "a voulu + 동사원형 두 개 → '~하려 했다'",
+            "Qu'est-ce que cela veut dire ? = 이게 무슨 뜻이에요? · Ça veut dire quoi ? (구어) · Que veut dire « foutu » ? (단어를 짚어서)",
+            "vouloir dire = ~을 의미하다 (직역: 말하고자 하다)"
+          ]
+        },
+        {
+          "memo": "9/17 필기: 수업에서 J'aime les comédies musicales라고 답한 것과 이어지는 자료 (《노트르담 드 파리》는 뮤지컬)."
+        }
+      ]
+    }
+  ],
+  "cards": [
+    { "id": "u1-09-d01", "t": "type", "skill": "pp", "hint": "-er 동사 과거분사는 원형 철자대로! 현재형 è에 속지 말기", "prompt": "복합과거로 바꾸세요", "q": "Il achète", "a": "Il a acheté",
+      "explain": "acheter → acheté (è 없이 원형 철자로). avoir 동사.", "src": "semaine 3-2 #1" },
+    { "id": "u1-09-d02", "t": "type", "skill": "pp", "hint": "devoir의 과거분사! 부분관사와 구별하는 표시를 잊지 말기", "prompt": "복합과거로 바꾸세요", "q": "Tu dois", "a": "Tu as dû",
+      "explain": "devoir → dû. û의 악상을 꼭! (du '약간의'와 구별)", "star": true, "src": "semaine 3-2 #2" },
+    { "id": "u1-09-d03", "t": "build", "skill": "aux", "hint": "monter는 이동 동사! vous = 남자 둘이면 일치는?", "prompt": "복합과거로 바꾸세요 (vous = Paul과 Marc)",
+      "from": "Vous montez.", "a": "Vous êtes montés.", "extra": ["avez", "monté"],
+      "ko": "너희는 올라갔다.",
+      "explain": "monter는 être 동사. vous = 남자 둘 → 남성 복수 montés.", "src": "semaine 3-2 #3" },
+    { "id": "u1-09-d04", "t": "build", "skill": "agreement", "hint": "arriver는 이동 동사! 주어 elles의 성·수에 맞춰요", "prompt": "복합과거로 바꾸세요",
+      "from": "Elles arrivent.", "a": "Elles sont arrivées.", "extra": ["ont", "arrivé"],
+      "ko": "그녀들은 도착했다.",
+      "explain": "arriver → être + 여성 복수 -ées.", "star": true, "src": "semaine 3-2 #4" },
+    { "id": "u1-09-d05", "t": "type", "skill": "pp", "hint": "réussir는 2군 -ir! 과거분사에 -iss-가 남을까요?", "prompt": "복합과거로 바꾸세요", "q": "Nous réussissons", "a": "Nous avons réussi",
+      "explain": "-ir 2군 → -i: réussi.", "src": "semaine 3-2 #5" },
+    { "id": "u1-09-d06", "t": "type", "skill": "spelling", "hint": "préférer의 과거분사는 원형 악센트 그대로! è에 속지 말기", "prompt": "복합과거로 바꾸세요", "q": "Ils préfèrent", "a": "Ils ont préféré",
+      "explain": "préférer → préféré: é가 세 개! préfèrent의 è에 끌리지 말 것.", "star": true, "src": "semaine 3-2 #6" },
+    { "id": "u1-09-d07", "t": "type", "skill": "pp", "hint": "regarder는 -er 동사, 조동사는 avoir! tu형은?", "prompt": "복합과거로 바꾸세요", "q": "Tu regardes", "a": "Tu as regardé",
+      "explain": "-er → -é, avoir 동사.", "src": "semaine 3-2 #7" },
+    { "id": "u1-09-d08", "t": "choice", "skill": "agreement", "hint": "entrer는 이동 동사! 말하는 Sophie의 성은?", "prompt": "복합과거로 바꾸세요 (말하는 사람 = Sophie)",
+      "q": "J'entre. → Je ___.", "say": "Je suis entrée.",
+      "a": "suis entrée", "wrong": ["ai entré", "suis entré", "suis entrées"],
+      "explain": "entrer는 être 동사, je = 여성 단수 → entrée. suis 앞이라 j'도 Je로.", "src": "semaine 3-2 #8" },
+    { "id": "u1-09-d09", "t": "type", "skill": "pp", "hint": "voir의 과거분사는 불규칙! 조동사는 ils의 avoir형", "prompt": "복합과거로 바꾸세요", "q": "Ils voient", "a": "Ils ont vu",
+      "explain": "voir → vu (불규칙).", "src": "semaine 3-2 #9" },
+    { "id": "u1-09-d10", "t": "choice", "skill": "agreement", "hint": "sortir는 이동 동사! Léa와 Chloé = 어떤 성·수?", "prompt": "복합과거로 바꾸세요 (nous = Léa와 Chloé)",
+      "q": "Nous sortons. → Nous ___.", "say": "Nous sommes sorties.",
+      "a": "sommes sorties", "wrong": ["avons sorti", "sommes sortis", "sommes sortie"],
+      "explain": "sortir는 être 동사. 여자 둘 → 여성 복수 sorties.", "src": "semaine 3-2 #10" },
+    { "id": "u1-09-d11", "t": "type", "skill": "aux", "hint": "connaître는 naître와 달라요! 조동사부터 정해봐요", "prompt": "복합과거로 바꾸세요", "q": "Elle connaît", "a": "Elle a connu",
+      "explain": "connaître → connu, avoir! naître(→ est née)와 헷갈리지 말 것.", "star": true, "src": "semaine 3-2 #11" },
+    { "id": "u1-09-d12", "t": "build", "skill": "agreement", "hint": "naître는 être 동사! 주어 elle에 일치시켜봐요", "prompt": "복합과거로 바꾸세요",
+      "from": "Elle naît.", "a": "Elle est née.", "extra": ["a", "né"],
+      "ko": "그녀는 태어났다.",
+      "explain": "naître → né, être 동사 + 여성 단수 → née.", "star": true, "src": "semaine 3-2 #12" },
+    { "id": "u1-09-d13", "t": "type", "skill": "pp", "hint": "mourir는 상태 변화 동사! 과거분사는 불규칙이에요", "prompt": "복합과거로 바꾸세요", "q": "Il meurt", "a": "Il est mort",
+      "explain": "mourir → mort (불규칙), 조동사 être.", "star": true, "src": "semaine 3-2 #13" },
+    { "id": "u1-09-d14", "t": "choice", "skill": "agreement", "hint": "rester는 être 동사! 남녀가 섞이면 성·수는?", "prompt": "복합과거로 바꾸세요 (nous = Paul과 Léa)",
+      "q": "Nous restons. → Nous ___.", "say": "Nous sommes restés.",
+      "a": "sommes restés", "wrong": ["sommes restées", "avons resté", "sommes resté"],
+      "explain": "rester는 être 동사. 남녀가 섞이면 남성 복수 → restés.", "src": "semaine 3-2 #14" },
+    { "id": "u1-09-d15", "t": "choice", "skill": "agreement", "hint": "partir는 이동 동사! 존칭 vous라도 실제로는 부인 한 명", "prompt": "복합과거로 바꾸세요 (vous = Dupont 부인 한 명, 존칭)",
+      "q": "Vous partez. → Vous ___.", "say": "Vous êtes partie.",
+      "a": "êtes partie", "wrong": ["êtes partis", "avez parti", "êtes parties"],
+      "explain": "partir는 être 동사. 존칭 vous = 여성 한 명 → partie.", "src": "semaine 3-2 #15" },
+    { "id": "u1-09-d16", "t": "type", "skill": "pp", "hint": "réfléchir는 2군 -ir! 과거분사 어미는?", "prompt": "복합과거로 바꾸세요", "q": "Tu réfléchis", "a": "Tu as réfléchi",
+      "explain": "-ir 2군 → -i: réfléchi.", "src": "semaine 3-2 #16" },
+    { "id": "u1-09-d17", "t": "build", "skill": "agreement", "hint": "descendre는 이동 동사! -re 과거분사 + ils에 일치", "prompt": "복합과거로 바꾸세요",
+      "from": "Ils descendent.", "a": "Ils sont descendus.", "extra": ["ont", "descendu"],
+      "ko": "그들은 내려갔다.",
+      "explain": "descendre → descendu, être + 남성 복수 -s.", "src": "semaine 3-2 #17" },
+    { "id": "u1-09-d18", "t": "type", "skill": "spelling", "hint": "faire의 과거분사는? 조동사 철자, 주어 on과 헷갈리지 말기", "prompt": "복합과거로 바꾸세요", "q": "Elles font", "a": "Elles ont fait",
+      "explain": "faire → fait. 조동사 ont을 on으로 쓰지 말 것!", "star": true, "src": "semaine 3-2 #18" },
+    { "id": "u1-09-d19", "t": "type", "skill": "pp", "hint": "pouvoir의 과거분사는 아주 짧아요! vous의 avoir형도 챙겨요", "prompt": "복합과거로 바꾸세요", "q": "Vous pouvez", "a": "Vous avez pu",
+      "explain": "pouvoir → pu (불규칙).", "src": "semaine 3-2 #19" },
+    { "id": "u1-09-d20", "t": "type", "skill": "pp", "hint": "prendre의 과거분사는 불규칙! -u로 끝나지 않아요", "prompt": "복합과거로 바꾸세요", "q": "Nous prenons", "a": "Nous avons pris",
+      "explain": "prendre → pris (불규칙).", "src": "semaine 3-2 #20" },
+    { "id": "u1-09-d21", "t": "type", "skill": "pp", "hint": "dire의 과거분사는? 끝 자음은 묵음이어도 써야 해요", "prompt": "복합과거로 바꾸세요", "q": "Elles disent", "a": "Elles ont dit",
+      "explain": "dire(말하다) → dit.", "src": "semaine 3-2 #21" },
+    { "id": "u1-09-d22", "t": "build", "skill": "agreement", "hint": "tomber는 être 동사! 주어 ils에 맞춰 성·수 일치", "prompt": "복합과거로 바꾸세요",
+      "from": "Ils tombent.", "a": "Ils sont tombés.", "extra": ["ont", "tombé"],
+      "ko": "그들은 넘어졌다.",
+      "explain": "tomber는 être 동사 + 남성 복수 -s.", "src": "semaine 3-2 #22" },
+    { "id": "u1-09-d23", "t": "type", "skill": "aux", "hint": "visiter는 이동 동사 무리일까요? 조동사부터!", "prompt": "복합과거로 바꾸세요", "q": "Nous visitons", "a": "Nous avons visité",
+      "explain": "visiter는 이동동사 무리가 아님 → avoir.", "src": "semaine 3-2 #23" },
+    { "id": "u1-09-d24", "t": "choice", "skill": "on", "hint": "on은 3인칭 단수! venir는 이동 동사예요", "prompt": "복합과거로 바꾸세요",
+      "q": "On vient. → On ___.", "say": "On est venu.",
+      "a": "est venu", "wrong": ["sont venus", "a venu", "est venir"],
+      "explain": "on = 3인칭 단수 → est. venir는 être 동사. (on = 우리 뜻이면 est venus도 허용)", "star": true, "src": "semaine 3-2 #24" },
+    { "id": "u1-09-d25", "t": "type", "skill": "on", "hint": "devenir는 상태 변화 동사! on은 몇 인칭일까요?", "prompt": "복합과거로 바꾸세요", "q": "On devient", "a": "On est devenu", "alts": ["On est devenus", "On est devenues"],
+      "explain": "devenir는 être 동사, on은 3인칭 단수 → est devenu. (on = 우리 뜻이면 devenus도 허용)", "star": true, "src": "semaine 3-2 #25" },
+
+    { "id": "u1-09-song-venir", "t": "choice", "skill": "aux", "hint": "venir는 이동 동사일까요? 조동사부터 정해봐요", "prompt": "🎵 〈Le Temps des cathédrales〉 가사 1행",
+      "q": "venir (주어: 남성 단수) → 복합과거?", "say": "",
+      "a": "est venu", "wrong": ["a venu", "est venue", "vient"],
+      "explain": "venir는 이동동사 → être. 주어가 남성 단수 → venu.", "src": "semaine 3-3" },
+    { "id": "u1-09-song-entrer", "t": "choice", "skill": "aux", "hint": "entrer는 이동 동사일까요? 주어는 남성 단수!", "prompt": "🎵 〈Le Temps des cathédrales〉 가사 2행",
+      "q": "entrer (주어: 남성 단수) → 복합과거?", "say": "",
+      "a": "est entré", "wrong": ["a entré", "est entrée", "entre"],
+      "explain": "entrer는 이동동사 → être. 주어가 남성 단수 → entré.", "src": "semaine 3-3" },
+    { "id": "u1-09-song-vouloir", "t": "choice", "skill": "aux", "hint": "vouloir는 이동 동사일까요? 과거분사는 불규칙!", "prompt": "🎵 〈Le Temps des cathédrales〉 가사 3행",
+      "q": "vouloir (주어: 3인칭 단수) → 복합과거?", "say": "",
+      "a": "a voulu", "wrong": ["est voulu", "a voulé", "veut"],
+      "explain": "vouloir는 이동동사가 아님 → avoir. 과거분사는 불규칙 voulu.", "src": "semaine 3-3" },
+    { "id": "u1-09-song-odd", "t": "choice", "skill": "aux", "hint": "셋 중 이동 동사가 아닌 건? 조동사를 비교해봐요", "prompt": "🎵 가사 속 복합과거 셋 중 조동사가 다른 하나는?",
+      "q": "est venu · est entré · a voulu", "say": "",
+      "a": "a voulu", "wrong": ["est venu", "est entré"],
+      "explain": "venir · entrer는 이동동사라 être, vouloir만 avoir.", "src": "semaine 3-3" },
+
+    { "id": "u1-09-b-levees", "t": "build", "skill": "pronominal", "hint": "대명동사 → être! 주어 elles의 성·수에 일치", "prompt": "문장을 만드세요",
+      "ko": "그녀들은 늦게 일어났다.",
+      "a": "Elles se sont levées tard.", "extra": ["ont", "levés"],
+      "explain": "대명동사 → être, 주어 elles에 맞춰 levées." },
+    {
+      "id": "u1-09-r-mange",
+      "t": "type",
+      "skill": "elision",
+      "hint": "avoir의 je형이 모음으로 시작해요. je는 어떻게 될까요?",
+      "prompt": "복합과거로 바꾸세요",
+      "q": "Je mange",
+      "a": "J'ai mangé",
+      "explain": "je + ai → j'ai (엘리지옹). -er → -é.",
+      "src": "semaine 3-3 p.8"
+    },
+    {
+      "id": "u1-09-r-fini",
+      "t": "type",
+      "skill": "pp",
+      "hint": "2군 -ir 동사! 과거분사 어미는?",
+      "prompt": "복합과거로 바꾸세요",
+      "q": "Tu finis",
+      "a": "Tu as fini",
+      "explain": "finir → fini, avoir 동사.",
+      "src": "semaine 3-3 p.8"
+    },
+    {
+      "id": "u1-09-r-pris",
+      "t": "type",
+      "skill": "pp",
+      "hint": "prendre의 과거분사는 불규칙! 끝 자음은 묵음이지만 써야 해요",
+      "prompt": "복합과거로 바꾸세요",
+      "q": "Il prend",
+      "a": "Il a pris",
+      "explain": "prendre → pris (불규칙).",
+      "src": "semaine 3-3 p.8"
+    },
+    {
+      "id": "u1-09-r-mis",
+      "t": "type",
+      "skill": "pp",
+      "hint": "mettre의 과거분사는 prendre와 끝이 같은 꼴!",
+      "prompt": "복합과거로 바꾸세요",
+      "q": "Elle met",
+      "a": "Elle a mis",
+      "explain": "mettre → mis (불규칙). avoir라 주어 elle과 일치 X.",
+      "src": "semaine 3-3 p.8"
+    },
+    {
+      "id": "u1-09-r-fait",
+      "t": "type",
+      "skill": "pp",
+      "hint": "faire의 과거분사는 il형 현재와 똑같이 생겼어요",
+      "prompt": "복합과거로 바꾸세요",
+      "q": "Nous faisons",
+      "a": "Nous avons fait",
+      "explain": "faire → fait (불규칙).",
+      "src": "semaine 3-3 p.8"
+    },
+    {
+      "id": "u1-09-r-lu",
+      "t": "type",
+      "skill": "pp",
+      "hint": "lire의 과거분사는 -u로 끝나는 짧은 형태!",
+      "prompt": "복합과거로 바꾸세요",
+      "q": "Vous lisez",
+      "a": "Vous avez lu",
+      "explain": "lire → lu (불규칙).",
+      "src": "semaine 3-3 p.8"
+    },
+    {
+      "id": "u1-09-r-ouvert",
+      "t": "type",
+      "skill": "pp",
+      "hint": "ouvrir는 -ir지만 2군이 아니에요! 과거분사는 불규칙",
+      "prompt": "복합과거로 바꾸세요",
+      "q": "Ils ouvrent",
+      "a": "Ils ont ouvert",
+      "explain": "ouvrir → ouvert (불규칙). ouvri ✗",
+      "src": "semaine 3-3 p.8"
+    },
+    {
+      "id": "u1-09-r-vu",
+      "t": "type",
+      "skill": "pp",
+      "hint": "voir의 과거분사는 두 글자! elles의 avoir형도 챙겨요",
+      "prompt": "복합과거로 바꾸세요",
+      "q": "Elles voient",
+      "a": "Elles ont vu",
+      "explain": "voir → vu. avoir라 elles여도 일치 X.",
+      "src": "semaine 3-3 p.8"
+    },
+    {
+      "id": "u1-09-r-alle",
+      "t": "choice",
+      "skill": "aux",
+      "hint": "aller는 이동 동사! 말하는 Marc의 성은?",
+      "prompt": "복합과거로 바꾸세요 (말하는 사람 = Marc)",
+      "q": "Je vais. → Je ___.",
+      "say": "Je suis allé.",
+      "a": "suis allé",
+      "wrong": [
+        "ai allé",
+        "suis allée",
+        "vais allé"
+      ],
+      "explain": "aller → être + allé. Marc(남) → 기본형 allé.",
+      "src": "semaine 3-3 p.9"
+    },
+    {
+      "id": "u1-09-r-entre",
+      "t": "type",
+      "skill": "aux",
+      "hint": "entrer는 이동 동사! tu의 être형은?",
+      "prompt": "복합과거로 바꾸세요 (tu = Paul)",
+      "q": "Tu entres",
+      "a": "Tu es entré",
+      "explain": "entrer → être. Paul(남) → entré.",
+      "src": "semaine 3-3 p.9"
+    },
+    {
+      "id": "u1-09-r-passe",
+      "t": "type",
+      "skill": "aux",
+      "hint": "passer(지나가다)는 이동 동사 무리! 조동사부터",
+      "prompt": "복합과거로 바꾸세요",
+      "q": "Il passe",
+      "a": "Il est passé",
+      "explain": "'지나가다'의 passer는 être 동사.",
+      "src": "semaine 3-3 p.9"
+    },
+    {
+      "id": "u1-09-r-partie",
+      "t": "build",
+      "skill": "agreement",
+      "hint": "partir는 이동 동사! 주어 elle에 성·수를 맞춰요",
+      "prompt": "복합과거로 바꾸세요",
+      "from": "Elle part.",
+      "a": "Elle est partie.",
+      "extra": [
+        "a",
+        "parti"
+      ],
+      "ko": "그녀는 떠났다.",
+      "explain": "partir → être + 여성 단수 -e → partie.",
+      "src": "semaine 3-3 p.9"
+    },
+    {
+      "id": "u1-09-r-venus",
+      "t": "choice",
+      "skill": "agreement",
+      "hint": "venir는 이동 동사! 남자 둘이면 성·수는?",
+      "prompt": "복합과거로 바꾸세요 (nous = Paul과 Marc)",
+      "q": "Nous venons. → Nous ___.",
+      "say": "Nous sommes venus.",
+      "a": "sommes venus",
+      "wrong": [
+        "avons venu",
+        "sommes venu",
+        "sommes venues"
+      ],
+      "explain": "venir → être. 남성 복수 → venus. 슬라이드 표기 venu(e)s.",
+      "src": "semaine 3-3 p.9"
+    },
+    {
+      "id": "u1-09-r-tombees",
+      "t": "choice",
+      "skill": "agreement",
+      "hint": "tomber는 être 동사! 주어 elles의 성·수는?",
+      "prompt": "복합과거로 바꾸세요",
+      "q": "Elles tombent. → Elles ___.",
+      "say": "Elles sont tombées.",
+      "a": "sont tombées",
+      "wrong": [
+        "ont tombé",
+        "sont tombés",
+        "sont tombée"
+      ],
+      "explain": "tomber → être + 여성 복수 -ées.",
+      "src": "semaine 3-3 p.9"
+    },
+    {
+      "id": "u1-09-deplacement",
+      "t": "choice",
+      "skill": "aux",
+      "hint": "déplacer = 자리를 옮기다. aller, venir, partir…를 떠올려봐요",
+      "prompt": "슬라이드 제목의 verbes de déplacement란?",
+      "q": "être + participe passé des verbes de déplacement",
+      "say": "",
+      "a": "이동(자리 바꿈)을 나타내는 동사",
+      "wrong": [
+        "목적어를 받는 동사",
+        "재귀대명사가 붙는 동사",
+        "과거분사가 불규칙한 동사"
+      ],
+      "explain": "자리를 옮기는·움직이는 동사 → 조동사 être + 주어와 성·수 일치.",
+      "src": "semaine 3-3 p.9"
+    },
+    {
+      "id": "u1-09-song-il",
+      "t": "choice",
+      "skill": "aux",
+      "hint": "il y a의 il처럼, 가리키는 사람이 있을까요?",
+      "prompt": "🎵 가사 1행: il + est venu + 진짜 주어. 이 il의 정체는?",
+      "q": "il + est venu + (진짜 주어)",
+      "say": "",
+      "a": "뜻 없는 가주어 (비인칭 il)",
+      "wrong": [
+        "앞에 나온 남자를 가리키는 '그'",
+        "on과 같은 '우리'",
+        "동사 뒤 명사를 받는 목적어"
+      ],
+      "explain": "비인칭 il로 시작하고 진짜 주어를 뒤로 보낸 시적 도치. 그래도 venir라 조동사는 être.",
+      "src": "semaine 3-3 p.10"
+    },
+    {
+      "id": "u1-09-song-voulu",
+      "t": "choice",
+      "skill": "aux",
+      "hint": "vouloir = 원하다. 과거에 원해서 실제로 무엇을 했을까요?",
+      "prompt": "🎵 가사 3행: a voulu + 동사원형. 뉘앙스는?",
+      "q": "a voulu + monter / écrire",
+      "say": "",
+      "a": "~하려 했다 (시도)",
+      "wrong": [
+        "~하고 싶다 (지금의 소망)",
+        "~해야 했다 (의무)",
+        "~할 수 있었다 (능력)"
+      ],
+      "explain": "vouloir의 복합과거는 '원했다'보다 '~하려 했다'에 가깝게 읽혀요.",
+      "src": "노션 9/17"
+    },
+    {
+      "id": "u1-09-cathedrale",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "la cathédrale",
+      "ko": "대성당",
+      "g": "f",
+      "src": "semaine 3-3"
+    },
+    {
+      "id": "u1-09-monde",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "le monde",
+      "ko": "세계, 세상",
+      "g": "m",
+      "src": "semaine 3-3"
+    },
+    {
+      "id": "u1-09-millenaire",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "le millénaire",
+      "ko": "천 년 (새 천년)",
+      "g": "m",
+      "src": "semaine 3-3"
+    },
+    {
+      "id": "u1-09-homme",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "l'homme",
+      "ko": "인간, 사람",
+      "g": "m",
+      "note": "h는 무음 → l'homme",
+      "src": "semaine 3-3"
+    },
+    {
+      "id": "u1-09-etoile",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "l'étoile",
+      "ko": "별",
+      "g": "f",
+      "src": "semaine 3-3"
+    },
+    {
+      "id": "u1-09-histoire",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "l'histoire",
+      "ko": "역사, 이야기",
+      "g": "f",
+      "src": "semaine 3-3"
+    },
+    {
+      "id": "u1-09-verre",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "le verre",
+      "ko": "유리",
+      "g": "m",
+      "note": "'유리잔'이라는 뜻도",
+      "src": "semaine 3-3"
+    },
+    {
+      "id": "u1-09-pierre",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "la pierre",
+      "ko": "돌",
+      "g": "f",
+      "src": "semaine 3-3"
+    },
+    {
+      "id": "u1-09-comedie-musicale",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "la comédie musicale",
+      "ko": "뮤지컬",
+      "g": "f",
+      "src": "노션 9/17"
+    },
+    {
+      "id": "u1-09-cela-veut-dire",
+      "t": "word",
+      "skill": "greet",
+      "fr": "Qu'est-ce que cela veut dire ?",
+      "ko": "이게 무슨 뜻이에요?",
+      "note": "슬라이드 3-3 p.10 제목",
+      "src": "semaine 3-3"
+    },
+    {
+      "id": "u1-09-ca-veut-dire",
+      "t": "word",
+      "skill": "greet",
+      "fr": "Ça veut dire quoi ?",
+      "ko": "그게 무슨 뜻이야? (구어)",
+      "src": "노션 9/17"
+    },
+    {
+      "id": "u1-09-vouloir-dire",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "vouloir dire",
+      "ko": "~을 의미하다",
+      "note": "직역: 말하고자 하다",
+      "src": "노션 9/17"
+    },
+    {
+      "id": "u1-09-c-que-veut-dire",
+      "t": "choice",
+      "skill": "interrog",
+      "hint": "의문사 que + 동사 도치! 동사는 vouloir dire",
+      "prompt": "'foutu'가 무슨 뜻인지 물어보세요",
+      "q": "___ « foutu » ?",
+      "say": "Que veut dire « foutu » ?",
+      "a": "Que veut dire",
+      "wrong": [
+        "Quel veut dire",
+        "Qui veut dire",
+        "Que dire"
+      ],
+      "explain": "Que veut dire + 단어 ? = ~가 무슨 뜻이에요? (Qu'est-ce que cela veut dire ?의 단어 버전)",
+      "src": "노션 9/17"
+    }
+  ]
+}

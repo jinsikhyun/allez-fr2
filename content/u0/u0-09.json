@@ -1,0 +1,215 @@
+{
+  "id": "u0-09",
+  "unit": "u0",
+  "title": "Quiz 1 리벤지",
+  "emoji": "🎯",
+  "date": "2026-09-16",
+  "sources": ["Quiz 1 (9/10)", "semaine 2-2", "semaine 2-3", "semaine 3-2", "노션 9/10", "노션 9/16", "Révision générale"],
+  "tips": [
+    {"h": "Quiz 1 오답 3종 (9/16)", "b": "① 엘리지옹 누락: Je arrête ✗ → **J'arrête**\n② 철자: téléchargons · veins · metts · préféer ✗\n③ 주어·동사 불일치: Il descends · Elles devient · On partons ✗"},
+    {"h": "N'oubliez pas l'élision !", "b": "모음·무음 h 앞의 je → **j'**\nJ'arrête · J'attends · J'écris · J'habite\n자음 앞은 그대로: **Je lis**"},
+    {"h": "on = 3인칭 단수", "b": "뜻은 '우리'여도 동사는 il과 같은 모양\n**On part** (partons ✗) · **On achète** · **On va**"},
+    {"h": "원형 찾기 요령", "rows": [["-ons · -ez · -ent 떼고 -er", "nous passons → passer"], ["-iss- 보이면 2군 -ir", "ils réussissent → réussir"], ["불규칙은 통암기", "elles veulent → vouloir"]]}
+  ],
+  "fixes": [
+    {"where": "노션 9/10 Quiz II 정답표 · Révision générale 표", "was": "Je | arrête · attends · écris · lis", "now": "J'arrête · J'attends · J'écris · Je lis", "why": "모음 앞 je는 j'로 축약 — 교수님이 9/16에 바로 이걸 지적"},
+    {"where": "노션 9/16", "was": "préféer / prédér", "now": "préféer / préfér", "why": "슬라이드(semaine 3-2 p.11) 사진 확인: 두 번째 오답은 끝의 -er이 빠진 préfér"}
+  ],
+  "note": [
+    {
+      "h": "Quiz 1 (9/10) 구성과 9/16 오답 리뷰",
+      "skill": "inf",
+      "src": ["Quiz 1", "노션 9/10", "semaine 3-2 p.9–15", "노션 9/16"],
+      "body": [
+        {"list": ["I. Donnez l'infinitif + 한국어 뜻 (16문항)", "II. 표 채우기: arrêter · attendre · écrire · lire (8인칭)", "III. Conjuguez au présent (12문항)", "Un pas de plus: 좋아하는 프랑스어 단어·표현과 그 이유 쓰기"]},
+        {"p": "9/16에 교수님이 학생 답안지를 사진으로 보여주며 틀린 곳에 초록 펜 밑줄. 오답은 딱 세 종류: **① 엘리지옹 누락 ② 철자 ③ 주어·동사 불일치**."},
+        {"memo": "교수님이 고른 오답 = 시험에 또 나올 지점. 문법을 몰라서가 아니라 손이 빨라서 나는 실수 → 쓰고 나서 **주어부터 다시 읽기**"}
+      ]
+    },
+    {
+      "h": "I. 동사원형 + 뜻 (16문항)",
+      "skill": "inf",
+      "src": ["Quiz 1 I", "노션 9/10"],
+      "body": [
+        {"table": [["활용형", "원형", "뜻"], ["Ils préfèrent", "préférer", "선호하다"], ["Vous montez", "monter", "올라가다"], ["Elles grossissent", "grossir", "살이 찌다"], ["Tu regardes", "regarder", "바라보다"], ["Nous réussissons", "réussir", "성공하다"], ["J'entre", "entrer", "들어가다"], ["Ils voient", "voir", "보다"], ["Elles savent", "savoir", "알고 있다"], ["Nous voulons", "vouloir", "원하다"], ["Tu dois", "devoir", "해야 하다"], ["Je réfléchis", "réfléchir", "깊이 생각하다"], ["Vous choisissez", "choisir", "선택하다"], ["Elle sort", "sortir", "나가다"], ["Nous visitons", "visiter", "방문하다"], ["On achète", "acheter", "사다·구매하다"], ["Vous dites", "dire", "말하다"]], "head": true},
+        {"warn": "1번: préféer ✗ · préfér ✗ → **préférer** (é 두 개 + -er). 15번 On achète → **acheter** (원형엔 악상 없음)"}
+      ]
+    },
+    {
+      "h": "Dites l'infinitif — 35문항 드릴",
+      "skill": "inf",
+      "src": ["semaine 2-2 p.10–11, 19–23", "semaine 2-3 p.8–9, 17–21", "노션 9/10"],
+      "body": [
+        {"p": "9/9·9/10 두 번 나온 드릴. 세트 1 = 1군 10개, 세트 2 = 2군·불규칙 25개."},
+        {"table": [["세트 1", "원형", "뜻"], ["Nous passons", "passer", "지나가다"], ["Vous restez", "rester", "남아 있다"], ["Ils montent", "monter", "올라가다"], ["Elle télécharge", "télécharger", "다운로드하다"], ["Tu entres", "entrer", "들어가다"], ["Elles regardent", "regarder", "바라보다"], ["Nous visitons", "visiter", "방문하다"], ["J'utilise", "utiliser", "사용하다"], ["Vous apportez", "apporter", "가져오다"], ["Tu manques", "manquer", "부족하다"]], "head": true},
+        {"table": [["세트 2", "원형", "그룹"], ["Je rougis", "rougir", "2군"], ["Elle réfléchit", "réfléchir", "2군"], ["Ils réussissent", "réussir", "2군"], ["Vous réagissez", "réagir", "2군"], ["Il grossit", "grossir", "2군"], ["Elles veulent", "vouloir", "불규칙"], ["Nous dormons", "dormir", "불규칙"], ["Je peux", "pouvoir", "불규칙"], ["Vous mettez", "mettre", "불규칙"], ["Tu prends", "prendre", "불규칙"], ["Nous disons", "dire", "불규칙"], ["Elle sort", "sortir", "불규칙"], ["Ils voient", "voir", "불규칙"], ["Vous faites", "faire", "불규칙"], ["Il sait", "savoir", "불규칙"], ["Elles doivent", "devoir", "불규칙"], ["Nous prenons", "prendre", "불규칙"], ["Je dis", "dire", "불규칙"], ["Vous partez", "partir", "불규칙"], ["Tu viens", "venir", "불규칙"], ["Je deviens", "devenir", "불규칙"], ["Vous tombez", "tomber", "1군 ⚠️"], ["Ils laissent", "laisser", "1군 ⚠️"], ["Nous quittons", "quitter", "1군 ⚠️"], ["Elle descend", "descendre", "-re 규칙"]], "head": true},
+        {"warn": "22–24번(tombez · laissent · quittons)은 불규칙 사이에 숨은 **1군 함정**, 25번 descend는 **-re 규칙형**."},
+        {"list": ["-ons · -ez · -ent · -e(s)를 떼고 -er → 1군", "-iss-(finissons · réussissent)가 보이면 2군 -ir. 단수 -is/-it만으론 모른다: je dis → dire, il lit → lire, il écrit → écrire", "나머지는 통째로: veulent → vouloir, doivent → devoir, font → faire, vont → aller"]}
+      ]
+    },
+    {
+      "h": "II. N'oubliez pas l'élision !",
+      "skill": "elision",
+      "src": ["Quiz 1 II", "semaine 3-2 p.10", "노션 9/16"],
+      "body": [
+        {"memo": "교수님 9/16: \"N'oubliez pas l'élision !\" — 표의 Je 칸에 축약 없이 쓴 답안을 지적"},
+        {"table": [["❌", "✅"], ["Je arrête", "J'arrête"], ["Je attends", "J'attends"], ["Je écris", "J'écris"], ["—", "Je lis (그대로)"]], "head": true},
+        {"p": "모음(a·e·é·i·o·u·y)이나 무음 h 앞의 je → **j'**. 표 안에서 셋은 축약, lire만 그대로인 걸 구별하는지 보는 문제였다."},
+        {"ex": [["J'arrête.", "나는 멈춘다."], ["J'attends le bus.", "나는 버스를 기다린다."], ["J'écris une lettre.", "나는 편지를 쓴다."], ["Je lis un livre.", "나는 책을 읽는다."]]}
+      ]
+    },
+    {
+      "h": "II. 정답 표: arrêter · attendre · écrire · lire",
+      "skill": "pres-irr",
+      "src": ["Quiz 1 II", "노션 9/10"],
+      "body": [
+        {"table": [["", "arrêter 멈추다", "attendre 기다리다", "écrire 쓰다", "lire 읽다"], ["je", "j'arrête", "j'attends", "j'écris", "je lis"], ["tu", "arrêtes", "attends", "écris", "lis"], ["il/elle", "arrête", "attend", "écrit", "lit"], ["nous", "arrêtons", "attendons", "écrivons", "lisons"], ["vous", "arrêtez", "attendez", "écrivez", "lisez"], ["ils/elles", "arrêtent", "attendent", "écrivent", "lisent"]], "head": true},
+        {"p": "네 가지 패턴 비교: **1군**(-e) / **-re 규칙형**(il에 어미 없음) / 복수에 **v**가 생기는 écrire / 복수에 **s**가 생기는 lire."}
+      ]
+    },
+    {
+      "h": "Attention à l'orthographe !",
+      "skill": "spelling",
+      "src": ["semaine 3-2 p.11–13, 15", "노션 9/16"],
+      "body": [
+        {"memo": "교수님: \"Attention à l'orthographe !\" (철자 조심하세요)"},
+        {"table": [["문항", "❌", "✅", "왜"], ["I-1 Ils préfèrent", "préféer / préfér", "préférer", "é 두 개 + -er로 끝"], ["III-10 Nous (télécharger)", "téléchargons", "téléchargeons", "-ger → nous -geons"], ["III-5 Tu (venir)", "veins", "viens", "v-i-e-n-s 순서"], ["III-9 Tu (mettre)", "metts", "mets", "단수는 t 하나"]], "head": true}
+      ]
+    },
+    {
+      "h": "Faites attention ! · Attention à ne pas confondre !",
+      "skill": "pres-irr",
+      "src": ["semaine 3-2 p.13–15", "노션 9/16"],
+      "body": [
+        {"memo": "교수님: \"Faites attention !\" · \"Attention à ne pas confondre !\" — 주어와 동사를 안 맞춘 답이 가장 많이 지적됨"},
+        {"table": [["문항", "❌", "✅", "무엇을 혼동?"], ["III-6 Il (descendre)", "Il descends", "Il descend", "tu descends와 혼동"], ["III-6 Il (descendre)", "Ils descendent", "Il descend", "주어를 복수로 잘못 읽음"], ["III-7 Elles (devenir)", "Elles devient", "Elles deviennent", "복수인데 단수형"], ["III-12 On (partir)", "On partons", "On part", "on = 3인칭 단수"]], "head": true}
+      ]
+    },
+    {
+      "h": "III. 활용 정답 (12문항)",
+      "skill": "pres-irr",
+      "src": ["Quiz 1 III", "노션 9/10"],
+      "body": [
+        {"table": [["문제", "정답"], ["Vous (donner)", "Vous donnez"], ["Ils (aller)", "Ils vont"], ["Nous (prendre)", "Nous prenons"], ["Elle (faire)", "Elle fait"], ["Tu (venir)", "Tu viens"], ["Il (descendre)", "Il descend"], ["Elles (devenir)", "Elles deviennent"], ["Vous (savoir)", "Vous savez"], ["Tu (mettre)", "Tu mets"], ["Nous (télécharger)", "Nous téléchargeons"], ["Ils (pouvoir)", "Ils peuvent"], ["On (partir)", "On part"]], "head": true},
+        {"warn": "2번 aller는 -er인데 1군이 아니다: Ils allent ✗ → Ils vont"}
+      ]
+    },
+    {
+      "h": "on = 3인칭 단수",
+      "skill": "on",
+      "src": ["Quiz 1 III-12", "노션 9/10", "노션 9/16"],
+      "body": [
+        {"p": "on은 뜻이 '우리'·'사람들'이어도 문법상 **3인칭 단수** → il/elle과 똑같은 동사 형태."},
+        {"ex": [["On part.", "우리는 떠난다."], ["On achète du pain.", "우리는 빵을 산다."], ["On est le 10 septembre.", "오늘은 9월 10일이다."]]},
+        {"warn": "On partons ✗ → **On part** (Quiz 1). 9/16 복합과거에서도 On a vu ce film · On est venu로 계속 나온다."}
+      ]
+    },
+    {
+      "h": "Un pas de plus vers le français",
+      "src": ["Quiz 1", "노션 9/10"],
+      "body": [
+        {"p": "Choisissez un mot ou une expression en français que vous aimez et expliquez pourquoi. — 좋아하는 단어·표현 하나와 이유 쓰기 (자유 서술)."},
+        {"p": "틀: **J'aime l'expression « … » parce que …** (나는 「…」라는 표현을 좋아한다, 왜냐하면 …)"}
+      ]
+    },
+    {
+      "h": "9/16 교수님 표현 · 시험 지시문",
+      "skill": "vocab",
+      "src": ["semaine 3-2 p.10–15", "Quiz 1", "노션 9/16"],
+      "body": [
+        {"table": [["슬라이드 문구 (9/16)", "뜻"], ["N'oubliez pas l'élision !", "엘리지옹을 잊지 마세요!"], ["Attention à l'orthographe !", "철자에 주의하세요!"], ["Faites attention !", "주의하세요!"], ["Attention à ne pas confondre !", "혼동하지 않도록 주의하세요!"]], "head": true},
+        {"p": "**Faites** = faire의 vous형 (-ez 예외 3인방!), **N'oubliez** = ne가 모음 앞에서 n'."},
+        {"table": [["시험 지시문 (Quiz 1)", "뜻"], ["Donnez l'infinitif des verbes suivants et leur signification en coréen.", "다음 동사의 원형과 한국어 뜻을 쓰세요."], ["Complétez le tableau en conjuguant les verbes au présent de l'indicatif.", "동사를 직설법 현재로 활용해 표를 완성하세요."], ["Conjuguez les verbes au présent de l'indicatif.", "동사를 직설법 현재로 활용하세요."], ["Dites l'infinitif des verbes.", "동사원형을 말하세요. (수업 드릴)"]], "head": true},
+        {"memo": "9/16 필기: l'assiduité = 출석을 열심히 하는 것 (성실한 출석). OT 평가 방식에서도 출석(assiduité) 비중이 크다고 했다."},
+        {"p": "Un pas de plus 틀: **J'aime l'expression « … » parce que …** — que는 모음 앞에서 **qu'**: parce qu'elle est utile."}
+      ]
+    }
+  ],
+  "cards": [
+    {"id": "u0-09-q01-preferent", "t": "choice", "skill": "inf", "hint": "è는 활용형에만! 원형의 악센트는 어떻게 될까요?", "prompt": "Quiz 1 · 동사원형은?", "q": "Ils préfèrent", "ko": "그들은 선호한다", "a": "préférer", "wrong": ["préféer", "préfèrer", "préférir"], "say": "Ils préfèrent : préférer", "explain": "préférer(선호하다). 원형엔 è가 없고 é가 두 개! (préféer ✗)", "src": "Quiz 1 (9/10) · I", "star": true},
+    {"id": "u0-09-q02-montez", "t": "choice", "skill": "inf", "hint": "-ez를 떼고 1군 어미를 붙여봐요. '보여주다'와 헷갈리지 말기!", "prompt": "Quiz 1 · 동사원형은?", "q": "Vous montez", "ko": "당신은 올라간다", "a": "monter", "wrong": ["montrer", "montir", "monteer"], "say": "Vous montez : monter", "explain": "monter(올라가다) — 1군. montrer(보여주다)와 헷갈리지 않기!", "src": "Quiz 1 (9/10) · I"},
+    {"id": "u0-09-q03-grossissent", "t": "choice", "skill": "inf", "hint": "-iss-가 보이면 2군! gros(뚱뚱한)에서 온 동사예요", "prompt": "Quiz 1 · 동사원형은?", "q": "Elles grossissent", "ko": "그녀들은 살이 찐다", "a": "grossir", "wrong": ["grossissir", "grosser", "grossisser"], "say": "Elles grossissent : grossir", "explain": "-iss-가 보이면 2군 -ir! grossir(살찌다) = gros + ir.", "src": "Quiz 1 (9/10) · I"},
+    {"id": "u0-09-q04-regardes", "t": "choice", "skill": "inf", "hint": "-es를 떼고 1군 어미를! garder(지키다)와는 다른 동사", "prompt": "Quiz 1 · 동사원형은?", "q": "Tu regardes", "ko": "너는 바라본다", "a": "regarder", "wrong": ["regardir", "regardre", "garder"], "say": "Tu regardes : regarder", "explain": "regarder(바라보다) — -es를 떼고 -er.", "src": "Quiz 1 (9/10) · I"},
+    {"id": "u0-09-q05-reussissons", "t": "choice", "skill": "inf", "hint": "-issons가 보이면 2군 동사예요!", "prompt": "Quiz 1 · 동사원형은?", "q": "Nous réussissons", "ko": "우리는 성공한다", "a": "réussir", "wrong": ["réussisser", "réussissoir", "réusser"], "say": "Nous réussissons : réussir", "explain": "-issons → 2군. réussir(성공하다, 시험에 붙다).", "src": "Quiz 1 (9/10) · I"},
+    {"id": "u0-09-q06-entre", "t": "choice", "skill": "inf", "hint": "J'은 je가 줄어든 것! 떼고 1군 어미를 붙여봐요", "prompt": "Quiz 1 · 동사원형은?", "q": "J'entre", "ko": "나는 들어간다", "a": "entrer", "wrong": ["rentrer", "entrir", "jentrer"], "say": "J'entre : entrer", "explain": "J'entre = je + entre (엘리지옹). entrer(들어가다). rentrer는 je rentre.", "src": "Quiz 1 (9/10) · I"},
+    {"id": "u0-09-q07-voient", "t": "choice", "skill": "inf", "hint": "'보다'는 불규칙 동사! nous voyons의 y는 원형엔 없어요", "prompt": "Quiz 1 · 동사원형은?", "q": "Ils voient", "ko": "그들은 본다", "a": "voir", "wrong": ["voyer", "voier", "vouloir"], "say": "Ils voient : voir", "explain": "voir(보다): je vois, nous voyons, ils voient.", "src": "Quiz 1 (9/10) · I"},
+    {"id": "u0-09-q08-savent", "t": "choice", "skill": "inf", "hint": "'알다'는 불규칙 동사! je sais · nous savons를 떠올려봐요", "prompt": "Quiz 1 · 동사원형은?", "q": "Elles savent", "ko": "그녀들은 안다", "a": "savoir", "wrong": ["saver", "savir", "savre"], "say": "Elles savent : savoir", "explain": "savoir(알다): je sais, nous savons, ils savent.", "src": "Quiz 1 (9/10) · I"},
+    {"id": "u0-09-q09-voulons", "t": "choice", "skill": "inf", "hint": "'원하다'는 불규칙! 원형 어미는 1군 -er일까요?", "prompt": "Quiz 1 · 동사원형은?", "q": "Nous voulons", "ko": "우리는 원한다", "a": "vouloir", "wrong": ["vouler", "voulir", "voloir"], "say": "Nous voulons : vouloir", "explain": "vouloir(원하다): je veux, nous voulons, ils veulent.", "src": "Quiz 1 (9/10) · I"},
+    {"id": "u0-09-q10-dois", "t": "choice", "skill": "inf", "hint": "'~해야 한다' 동사! nous 형태를 떠올리면 원형 모양이 보여요", "prompt": "Quiz 1 · 동사원형은?", "q": "Tu dois", "ko": "너는 ~해야 한다", "a": "devoir", "wrong": ["doir", "doiver", "dire"], "say": "Tu dois : devoir", "explain": "devoir(~해야 한다): je dois, nous devons. dire는 tu dis!", "src": "Quiz 1 (9/10) · I"},
+    {"id": "u0-09-q11-reflechis", "t": "choice", "skill": "inf", "hint": "-is는 2군 단수 어미! 악센트 개수도 확인", "prompt": "Quiz 1 · 동사원형은?", "q": "Je réfléchis", "ko": "나는 깊이 생각한다", "a": "réfléchir", "wrong": ["refléchir", "réfléchier", "réflécher"], "say": "Je réfléchis : réfléchir", "explain": "réfléchir — é가 두 개! Je réfléchis. = 생각해 볼게요.", "src": "Quiz 1 (9/10) · I"},
+    {"id": "u0-09-q12-choisissez", "t": "choice", "skill": "inf", "hint": "-issez가 보이면 2군! 명사 le choix와 친척이에요", "prompt": "Quiz 1 · 동사원형은?", "q": "Vous choisissez", "ko": "당신은 선택한다", "a": "choisir", "wrong": ["choisisser", "choisissir", "choiser"], "say": "Vous choisissez : choisir", "explain": "-issez → 2군. choisir(고르다), 명사형 le choix.", "src": "Quiz 1 (9/10) · I"},
+    {"id": "u0-09-q13-sort", "t": "choice", "skill": "inf", "hint": "'나가다' 동사! 단수에선 어간 끝 자음이 빠진 형태예요", "prompt": "Quiz 1 · 동사원형은?", "q": "Elle sort", "ko": "그녀는 나간다", "a": "sortir", "wrong": ["sorter", "sortre", "sordir"], "say": "Elle sort : sortir", "explain": "sortir(나가다): je sors, il sort, nous sortons. la sortie = 출구.", "src": "Quiz 1 (9/10) · I"},
+    {"id": "u0-09-q14-visitons", "t": "choice", "skill": "inf", "hint": "-ons를 떼고 1군 어미를 붙여봐요!", "prompt": "Quiz 1 · 동사원형은?", "q": "Nous visitons", "ko": "우리는 방문한다", "a": "visiter", "wrong": ["visitir", "vister", "visitre"], "say": "Nous visitons : visiter", "explain": "visiter((장소를) 방문하다) — -ons 떼고 -er.", "src": "Quiz 1 (9/10) · I"},
+    {"id": "u0-09-q15-achete", "t": "choice", "skill": "inf", "hint": "è는 활용형에서만 생겨요! 원형엔 악센트가 있을까요?", "prompt": "Quiz 1 · 동사원형은?", "q": "On achète", "ko": "우리는 산다", "a": "acheter", "wrong": ["achèter", "acheder", "achetir"], "say": "On achète : acheter", "explain": "원형 acheter엔 악상이 없어요! è는 je·tu·il(on)·ils 형태에서만.", "src": "Quiz 1 (9/10) · I", "star": true},
+    {"id": "u0-09-q16-dites", "t": "choice", "skill": "inf", "hint": "vous 형태 -ez 예외 3인방 중 하나! 1군으로 착각하지 말기", "prompt": "Quiz 1 · 동사원형은?", "q": "Vous dites", "ko": "당신은 말한다", "a": "dire", "wrong": ["diter", "dir", "disir"], "say": "Vous dites : dire", "explain": "vous dites는 -ez 예외 3인방(êtes·faites·dites). 원형은 dire.", "src": "Quiz 1 (9/10) · I", "star": true},
+    {"id": "u0-09-je-arrete", "t": "error", "skill": "elision", "hint": "arrête는 모음으로 시작! je 부분을 의심해봐요", "s": "Je arrête, tu arrêtes, il arrête.", "wrong": "Je arrête", "right": "J'arrête", "ko": "나는 멈춘다, 너는 멈춘다, 그는 멈춘다.", "explain": "N'oubliez pas l'élision ! 모음 앞의 je → j'.", "star": true, "src": "semaine 3-2 · 노션 9/16"},
+    {"id": "u0-09-je-attends", "t": "error", "skill": "elision", "hint": "attends의 첫 글자는 모음! 엘리지옹이 필요할까요?", "s": "Je attends le bus.", "wrong": "Je attends", "right": "J'attends", "ko": "나는 버스를 기다린다.", "explain": "모음 a 앞 → J'attends. Quiz 1 표 채우기에서 교수님이 지적!", "star": true, "src": "semaine 3-2 · 노션 9/16"},
+    {"id": "u0-09-je-ecris", "t": "error", "skill": "elision", "hint": "악상 붙은 é도 모음이에요! je 부분을 의심해봐요", "s": "Je écris une lettre.", "wrong": "Je écris", "right": "J'écris", "ko": "나는 편지를 쓴다.", "explain": "모음 é 앞 → J'écris. 악상 붙은 é도 모음이에요.", "star": true, "src": "semaine 3-2 · 노션 9/16"},
+    {"id": "u0-09-je-lis", "t": "choice", "skill": "elision", "hint": "j'로 줄이는 건 모음·무음 h 앞에서만! 동사 첫 글자를 봐요", "prompt": "바르게 쓴 것은?", "q": "Quiz 1 · II 표의 je 칸 (arrêter · attendre · écrire · lire)", "a": "Je lis", "wrong": ["Je arrête", "Je attends", "Je écris"], "say": "Je lis.", "explain": "l은 자음이라 je 그대로. 나머지 셋은 J'arrête · J'attends · J'écris!", "star": true, "src": "Quiz 1 · II"},
+    {"id": "u0-09-habite", "t": "choice", "skill": "elision", "hint": "무음 h는 소리가 안 나서 모음처럼 취급해요!", "prompt": "j'로 축약해야 하는 것은?", "q": "je + ___", "a": "habite", "wrong": ["travaille", "lis", "préfère"], "say": "J'habite.", "explain": "h는 소리가 안 나서 모음 취급 → j'habite. 자음 앞은 je 그대로.", "star": true, "src": "semaine 2-2"},
+    {"id": "u0-09-preferer-ee", "t": "error", "skill": "spelling", "hint": "원형 어미 -er이 제대로 있나요? é 개수도 세봐요", "s": "Ils préfèrent → infinitif : préféer", "wrong": "préféer", "right": "préférer", "ko": "그들은 선호한다 → 원형", "explain": "원형은 préférer: é 두 개 + -er. 활용형의 è에 끌리지 말 것!", "star": true, "src": "semaine 3-2 · 노션 9/16"},
+    {"id": "u0-09-preferer-r", "t": "error", "skill": "spelling", "hint": "원형 어미가 끝까지 붙어 있나요? 1군 원형은 -er!", "s": "Ils préfèrent → infinitif : préfér", "wrong": "préfér", "right": "préférer", "ko": "그들은 선호한다 → 원형", "explain": "끝의 -er까지 써야 원형! préfér ✗ → préférer.", "star": true, "src": "semaine 3-2 · 노션 9/16"},
+    {"id": "u0-09-telechargons", "t": "error", "skill": "stem-change", "hint": "-ger 동사의 nous 형태! g를 [ʒ]로 지키려면?", "s": "Nous téléchargons des films.", "wrong": "téléchargons", "right": "téléchargeons", "ko": "우리는 영화를 다운로드한다.", "explain": "-ger 동사는 nous에서 e 추가: téléchargeons. manger → mangeons와 같은 규칙.", "star": true, "src": "semaine 3-2 · 노션 9/16"},
+    {"id": "u0-09-veins", "t": "error", "skill": "spelling", "hint": "동사 변화를 의심해봐요 — venir의 tu 형태, 모음 순서!", "s": "Tu veins avec nous ?", "wrong": "veins", "right": "viens", "ko": "너 우리랑 같이 갈래?", "explain": "venir: je viens, tu viens, il vient — i가 e보다 먼저!", "star": true, "src": "semaine 3-2 · 노션 9/16"},
+    {"id": "u0-09-metts", "t": "error", "skill": "spelling", "hint": "mettre의 단수 형태엔 t가 몇 개일까요?", "s": "Tu metts le livre ici.", "wrong": "metts", "right": "mets", "ko": "너는 책을 여기 놓는다.", "explain": "mettre의 단수는 t 하나: je mets, tu mets, il met. tt는 복수에서만!", "star": true, "src": "semaine 3-2 · 노션 9/16"},
+    {"id": "u0-09-il-descends", "t": "error", "skill": "pres-irr", "hint": "-re 규칙형의 il 형태엔 어미가 붙을까요?", "s": "Il descends du bus.", "wrong": "descends", "right": "descend", "ko": "그는 버스에서 내린다.", "explain": "-re 규칙형은 il에 어미가 없어요: il descend. descends는 je·tu 형태!", "star": true, "src": "semaine 3-2 · 노션 9/16"},
+    {"id": "u0-09-ils-descendent", "t": "error", "skill": "pres-irr", "hint": "문제의 주어가 단수인지 복수인지 끝까지 확인해봐요!", "s": "Il (descendre) → Ils descendent", "wrong": "Ils descendent", "right": "Il descend", "ko": "그는 내려간다.", "explain": "주어가 Il인데 Ils로 바꿔 씀! 문제의 주어를 끝까지 확인하기.", "star": true, "src": "semaine 3-2 · 노션 9/16"},
+    {"id": "u0-09-devient", "t": "error", "skill": "pres-irr", "hint": "주어 elles는 복수! 동사도 복수 형태인가요?", "s": "Elles devient grandes.", "wrong": "devient", "right": "deviennent", "ko": "그녀들은 키가 커진다.", "explain": "주어가 복수 elles → deviennent (n 두 개). devient은 il/elle 단수!", "star": true, "src": "semaine 3-2 · 노션 9/16"},
+    {"id": "u0-09-on-partons", "t": "error", "skill": "on", "hint": "on은 뜻이 '우리'여도 문법은 3인칭 단수!", "s": "On partons demain.", "wrong": "partons", "right": "part", "ko": "우리 내일 떠나.", "explain": "on은 뜻이 '우리'여도 3인칭 단수 → On part.", "star": true, "src": "semaine 3-2 · 노션 9/16"},
+    {"id": "u0-09-on-va", "t": "choice", "skill": "on", "hint": "on은 3인칭 단수! aller의 il 형태를 떠올려봐요", "prompt": "빈칸에 알맞은 것은?", "q": "On ___ au cinéma ce soir ? (aller)", "ko": "우리 오늘 저녁에 영화관 갈까?", "a": "va", "wrong": ["allons", "vont", "vas"], "say": "On va au cinéma ce soir ?", "explain": "on = 3인칭 단수 → il va와 같은 on va.", "star": true},
+    {"id": "u0-09-on-achete", "t": "choice", "skill": "on", "hint": "on은 il과 같은 형태! 이때 acheter의 e는 어떻게 변할까요?", "prompt": "빈칸에 알맞은 것은?", "q": "On ___ du pain. (acheter)", "ko": "우리는 빵을 산다.", "a": "achète", "wrong": ["achetons", "achete", "achètent"], "say": "On achète du pain.", "explain": "on은 il과 같은 형태: on achète (è!). achetons는 nous일 때만.", "star": true, "src": "Quiz 1 · I-15"},
+    {"id": "u0-09-on-il", "t": "choice", "skill": "on", "hint": "on은 뜻이 '우리'여도 문법상 몇 인칭 단수일까요?", "prompt": "on과 같은 동사 형태를 쓰는 주어는?", "q": "On part. = ___ part.", "a": "il", "wrong": ["nous", "ils", "vous"], "say": "", "explain": "on은 문법상 3인칭 단수 — il/elle과 똑같이 활용해요.", "star": true},
+    {"id": "u0-09-d01-passons", "t": "choice", "skill": "inf", "hint": "-ons를 떼고 1군 어미! s가 몇 개였는지도 확인", "prompt": "Dites l'infinitif · 동사원형은?", "q": "Nous passons", "ko": "우리는 지나간다", "a": "passer", "wrong": ["passir", "passre", "paser"], "say": "Nous passons : passer", "explain": "passer(지나가다, 시간을 보내다) — 1군.", "src": "semaine 2-2 · 세트 1"},
+    {"id": "u0-09-d02-restez", "t": "choice", "skill": "inf", "hint": "-ez를 떼면 1군 어미가 보여요. 영어 rest와 닮았지만 뜻은 '남다'!", "prompt": "Dites l'infinitif · 동사원형은?", "q": "Vous restez", "ko": "당신은 남아 있다", "a": "rester", "wrong": ["restir", "restre", "rêster"], "say": "Vous restez : rester", "explain": "rester = 남아 있다. 영어 rest(쉬다)와 닮은 faux ami!", "src": "semaine 2-2 · 세트 1"},
+    {"id": "u0-09-d03-montent", "t": "choice", "skill": "inf", "hint": "-ent를 떼고 1군 어미를! '올라가다' 뜻을 떠올려봐요", "prompt": "Dites l'infinitif · 동사원형은?", "q": "Ils montent", "ko": "그들은 올라간다", "a": "monter", "wrong": ["montir", "mentir", "montrer"], "say": "Ils montent : monter", "explain": "-ent는 무음, 떼고 -er → monter(올라가다).", "src": "semaine 2-2 · 세트 1"},
+    {"id": "u0-09-d04-telecharge", "t": "choice", "skill": "inf", "hint": "1군 동사! nous 형태에서 생기는 e는 원형엔 없어요", "prompt": "Dites l'infinitif · 동사원형은?", "q": "Elle télécharge", "ko": "그녀는 다운로드한다", "a": "télécharger", "wrong": ["téléchargir", "télécharguer", "téléchargeer"], "say": "Elle télécharge : télécharger", "explain": "télécharger(다운로드하다). nous téléchargeons의 e는 원형엔 없어요.", "src": "semaine 2-2 · 세트 1"},
+    {"id": "u0-09-d05-entres", "t": "choice", "skill": "inf", "hint": "-es를 떼고 1군 어미를! re-가 붙은 동사와 헷갈리지 마요", "prompt": "Dites l'infinitif · 동사원형은?", "q": "Tu entres", "ko": "너는 들어간다", "a": "entrer", "wrong": ["entrir", "rentrer", "antrer"], "say": "Tu entres : entrer", "explain": "entrer(들어가다) — -es 떼고 -er.", "src": "semaine 2-2 · 세트 1"},
+    {"id": "u0-09-d06-regardent", "t": "choice", "skill": "inf", "hint": "-ent를 떼고 1군 어미! garder(지키다)와는 다른 동사예요", "prompt": "Dites l'infinitif · 동사원형은?", "q": "Elles regardent", "ko": "그녀들은 바라본다", "a": "regarder", "wrong": ["regardir", "regardre", "garder"], "say": "Elles regardent : regarder", "explain": "regarder(바라보다) — 1군.", "src": "semaine 2-2 · 세트 1"},
+    {"id": "u0-09-d08-utilise", "t": "choice", "skill": "inf", "hint": "J'은 je의 엘리지옹! 영어 utilize와 철자가 달라요 (s/z)", "prompt": "Dites l'infinitif · 동사원형은?", "q": "J'utilise", "ko": "나는 사용한다", "a": "utiliser", "wrong": ["utilizer", "utilisir", "utilisre"], "say": "J'utilise : utiliser", "explain": "utiliser(사용하다) — 영어처럼 z로 쓰면 ✗. j'utilise는 엘리지옹.", "src": "semaine 2-2 · 세트 1"},
+    {"id": "u0-09-d09-apportez", "t": "choice", "skill": "inf", "hint": "-ez를 떼고 1군 어미! '가져오다'는 p가 몇 개일까요?", "prompt": "Dites l'infinitif · 동사원형은?", "q": "Vous apportez", "ko": "당신은 가져온다", "a": "apporter", "wrong": ["porter", "apportir", "aporter"], "say": "Vous apportez : apporter", "explain": "apporter(가져오다) ← a + porter(들다·입다). p 두 개!", "src": "semaine 2-2 · 세트 1"},
+    {"id": "u0-09-d10-manques", "t": "choice", "skill": "inf", "hint": "-es를 떼고 1군 어미! qu 철자는 그대로 살려요", "prompt": "Dites l'infinitif · 동사원형은?", "q": "Tu manques", "ko": "너는 부족하다", "a": "manquer", "wrong": ["manquir", "manker", "manqer"], "say": "Tu manques : manquer", "explain": "manquer(부족하다) → Tu me manques. = 네가 보고 싶어.", "src": "semaine 2-2 · 세트 1"},
+    {"id": "u0-09-e01-rougis", "t": "choice", "skill": "inf", "hint": "rouge(빨간)에서 온 2군 동사! -is는 2군 단수 어미", "prompt": "Dites l'infinitif · 동사원형은?", "q": "Je rougis", "ko": "나는 얼굴이 빨개진다", "a": "rougir", "wrong": ["rouger", "rougisser", "rougre"], "say": "Je rougis : rougir", "explain": "rouge(빨간) + ir = rougir(빨개지다) — 2군.", "src": "semaine 2-2 · 세트 2"},
+    {"id": "u0-09-e02-reflechit", "t": "choice", "skill": "inf", "hint": "-it는 2군 단수 어미! 악센트 개수도 세봐요", "prompt": "Dites l'infinitif · 동사원형은?", "q": "Elle réfléchit", "ko": "그녀는 깊이 생각한다", "a": "réfléchir", "wrong": ["réfléchier", "refléchir", "réfléchire"], "say": "Elle réfléchit : réfléchir", "explain": "-it는 2군 단수 어미. réfléchir, é 두 개!", "src": "semaine 2-2 · 세트 2"},
+    {"id": "u0-09-e03-reussissent", "t": "choice", "skill": "inf", "hint": "-issent가 보이면 2군 동사예요!", "prompt": "Dites l'infinitif · 동사원형은?", "q": "Ils réussissent", "ko": "그들은 성공한다", "a": "réussir", "wrong": ["réussisser", "réussissir", "réusser"], "say": "Ils réussissent : réussir", "explain": "-issent → 2군 -ir. réussir(성공하다).", "src": "semaine 2-2 · 세트 2"},
+    {"id": "u0-09-e04-reagissez", "t": "choice", "skill": "inf", "hint": "-issez가 보이면 2군! -iss-를 떼고 원형 어미를", "prompt": "Dites l'infinitif · 동사원형은?", "q": "Vous réagissez", "ko": "당신은 반응한다", "a": "réagir", "wrong": ["réagisser", "réager", "réagissir"], "say": "Vous réagissez : réagir", "explain": "-issez → 2군. réagir(반응하다).", "src": "semaine 2-2 · 세트 2"},
+    {"id": "u0-09-e05-grossit", "t": "choice", "skill": "inf", "hint": "-it는 2군 단수 어미! gros(뚱뚱한)에서 온 동사", "prompt": "Dites l'infinitif · 동사원형은?", "q": "Il grossit", "ko": "그는 살이 찐다", "a": "grossir", "wrong": ["grosser", "grossire", "grossiter"], "say": "Il grossit : grossir", "explain": "2군 단수 -it. grossir(살찌다).", "src": "semaine 2-2 · 세트 2"},
+    {"id": "u0-09-e06-veulent", "t": "choice", "skill": "inf", "hint": "'원하다'는 불규칙! ils 형태의 모음은 원형과 달라요", "prompt": "Dites l'infinitif · 동사원형은?", "q": "Elles veulent", "ko": "그녀들은 원한다", "a": "vouloir", "wrong": ["veuloir", "vouler", "valoir"], "say": "Elles veulent : vouloir", "explain": "veulent → vouloir(원하다). ils 형태는 통암기!", "src": "semaine 2-2 · 세트 2"},
+    {"id": "u0-09-e07-dormons", "t": "choice", "skill": "inf", "hint": "'자다'는 partir·sortir와 같은 그룹 동사예요!", "prompt": "Dites l'infinitif · 동사원형은?", "q": "Nous dormons", "ko": "우리는 잔다", "a": "dormir", "wrong": ["dormer", "dormre", "dormoir"], "say": "Nous dormons : dormir", "explain": "dormir(자다): je dors, nous dormons.", "src": "semaine 2-2 · 세트 2"},
+    {"id": "u0-09-e08-peux", "t": "choice", "skill": "inf", "hint": "'할 수 있다'는 불규칙! je veux와 헷갈리지 마요", "prompt": "Dites l'infinitif · 동사원형은?", "q": "Je peux", "ko": "나는 할 수 있다", "a": "pouvoir", "wrong": ["peuvoir", "peuver", "vouloir"], "say": "Je peux : pouvoir", "explain": "peux → pouvoir(할 수 있다). vouloir는 je veux!", "src": "semaine 2-2 · 세트 2"},
+    {"id": "u0-09-e09-mettez", "t": "choice", "skill": "inf", "hint": "'놓다·입다' 불규칙 동사! -ez를 떼고 3군 어미를 생각해봐요", "prompt": "Dites l'infinitif · 동사원형은?", "q": "Vous mettez", "ko": "당신은 놓는다", "a": "mettre", "wrong": ["metter", "mettir", "mentir"], "say": "Vous mettez : mettre", "explain": "mettre(놓다, 입다): 복수에선 tt, 단수는 mets.", "src": "semaine 2-2 · 세트 2"},
+    {"id": "u0-09-e10-prends", "t": "choice", "skill": "inf", "hint": "'잡다·타다' 불규칙! 영어 take에 해당하는 동사예요", "prompt": "Dites l'infinitif · 동사원형은?", "q": "Tu prends", "ko": "너는 잡는다", "a": "prendre", "wrong": ["prender", "prenir", "prenre"], "say": "Tu prends : prendre", "explain": "prendre(잡다·타다·먹다) — 영어 take.", "src": "semaine 2-2 · 세트 2"},
+    {"id": "u0-09-e11-disons", "t": "choice", "skill": "inf", "hint": "'말하다' 불규칙 동사! vous 형태는 -ez 예외였죠", "prompt": "Dites l'infinitif · 동사원형은?", "q": "Nous disons", "ko": "우리는 말한다", "a": "dire", "wrong": ["diser", "disir", "disoner"], "say": "Nous disons : dire", "explain": "nous disons, 하지만 vous dites! 원형은 dire.", "src": "semaine 2-2 · 세트 2"},
+    {"id": "u0-09-e14-faites", "t": "choice", "skill": "inf", "hint": "-ez 예외 3인방! '하다·만들다' 동사의 원형은?", "prompt": "Dites l'infinitif · 동사원형은?", "q": "Vous faites", "ko": "당신은 한다", "a": "faire", "wrong": ["faiter", "fair", "faisir"], "say": "Vous faites : faire", "explain": "vous faites (-ez 예외). 원형 faire(하다, 만들다).", "src": "semaine 2-2 · 세트 2"},
+    {"id": "u0-09-e15-sait", "t": "choice", "skill": "inf", "hint": "끝 t는 무음! '알다'라는 불규칙 동사예요", "prompt": "Dites l'infinitif · 동사원형은?", "q": "Il sait", "ko": "그는 안다", "a": "savoir", "wrong": ["saver", "sair", "savre"], "say": "Il sait : savoir", "explain": "sait → savoir(알다). 끝 t 무음 [쎄].", "src": "semaine 2-2 · 세트 2"},
+    {"id": "u0-09-e16-doivent", "t": "choice", "skill": "inf", "hint": "ils 형태는 oi지만 원형은 달라요! nous 형태를 떠올려봐요", "prompt": "Dites l'infinitif · 동사원형은?", "q": "Elles doivent", "ko": "그녀들은 ~해야 한다", "a": "devoir", "wrong": ["doiver", "doivre", "doir"], "say": "Elles doivent : devoir", "explain": "doivent → devoir. nous devons에서 원형 모양이 보여요.", "src": "semaine 2-2 · 세트 2"},
+    {"id": "u0-09-e17-prenons", "t": "choice", "skill": "inf", "hint": "'잡다·타다' 불규칙 동사! 1군 -er이 아니에요", "prompt": "Dites l'infinitif · 동사원형은?", "q": "Nous prenons", "ko": "우리는 잡는다", "a": "prendre", "wrong": ["prener", "prenir", "prenoir"], "say": "Nous prenons : prendre", "explain": "nous prenons엔 d가 없지만 원형은 prendre.", "src": "semaine 2-2 · 세트 2"},
+    {"id": "u0-09-e18-dis", "t": "choice", "skill": "inf", "hint": "'말하다' 불규칙 동사! -s를 떼고 3군 어미를 생각해봐요", "prompt": "Dites l'infinitif · 동사원형은?", "q": "Je dis", "ko": "나는 말한다", "a": "dire", "wrong": ["diser", "dir", "disre"], "say": "Je dis : dire", "explain": "je dis → dire(말하다).", "src": "semaine 2-2 · 세트 2"},
+    {"id": "u0-09-e19-partez", "t": "choice", "skill": "inf", "hint": "'떠나다'는 1군이 아니에요! sortir·dormir와 같은 그룹", "prompt": "Dites l'infinitif · 동사원형은?", "q": "Vous partez", "ko": "당신은 떠난다", "a": "partir", "wrong": ["parter", "partre", "parer"], "say": "Vous partez : partir", "explain": "partir(떠나다) — -er 아니고 -ir!", "src": "semaine 2-2 · 세트 2"},
+    {"id": "u0-09-e20-viens", "t": "choice", "skill": "inf", "hint": "'오다' 불규칙! 활용형의 i는 원형엔 없어요", "prompt": "Dites l'infinitif · 동사원형은?", "q": "Tu viens", "ko": "너는 온다", "a": "venir", "wrong": ["viendre", "viener", "vienir"], "say": "Tu viens : venir", "explain": "viens → venir(오다). 원형엔 i가 없어요.", "src": "semaine 2-2 · 세트 2"},
+    {"id": "u0-09-e21-deviens", "t": "choice", "skill": "inf", "hint": "'~이 되다'는 '오다' 동사에 접두사가 붙은 것!", "prompt": "Dites l'infinitif · 동사원형은?", "q": "Je deviens", "ko": "나는 ~이 된다", "a": "devenir", "wrong": ["deviendre", "devienir", "devoir"], "say": "Je deviens : devenir", "explain": "de + venir = devenir(~이 되다), venir와 똑같이 변해요.", "src": "semaine 2-2 · 세트 2"},
+    {"id": "u0-09-e22-tombez", "t": "choice", "skill": "inf", "hint": "불규칙처럼 보여도 1군! -ez를 떼고 1군 어미를", "prompt": "Dites l'infinitif · 동사원형은?", "q": "Vous tombez", "ko": "당신은 넘어진다", "a": "tomber", "wrong": ["tombir", "tombre", "tomer"], "say": "Vous tombez : tomber", "explain": "tomber(떨어지다) — 불규칙 사이에 숨은 1군 함정!", "src": "semaine 2-2 · 세트 2"},
+    {"id": "u0-09-e23-laissent", "t": "choice", "skill": "inf", "hint": "-ent를 떼고 1군 어미! s 개수를 확인해요", "prompt": "Dites l'infinitif · 동사원형은?", "q": "Ils laissent", "ko": "그들은 놓아둔다", "a": "laisser", "wrong": ["laissir", "lasser", "laiser"], "say": "Ils laissent : laisser", "explain": "laisser(놓아두다, 내버려두다) — 1군, s 두 개.", "src": "semaine 2-2 · 세트 2"},
+    {"id": "u0-09-e24-quittons", "t": "choice", "skill": "inf", "hint": "-ons를 떼고 1군 어미! t 개수를 확인해요", "prompt": "Dites l'infinitif · 동사원형은?", "q": "Nous quittons", "ko": "우리는 떠난다", "a": "quitter", "wrong": ["quittir", "quiter", "quittonner"], "say": "Nous quittons : quitter", "explain": "quitter((장소·사람을) 떠나다) — 1군, t 두 개.", "src": "semaine 2-2 · 세트 2"},
+    {"id": "u0-09-e25-descend", "t": "choice", "skill": "inf", "hint": "il/elle에 어미가 없는 형태! attendre와 같은 패턴이에요", "prompt": "Dites l'infinitif · 동사원형은?", "q": "Elle descend", "ko": "그녀는 내려간다", "a": "descendre", "wrong": ["descender", "descendir", "décendre"], "say": "Elle descend : descendre", "explain": "il/elle에 어미가 없는 -re 규칙형 → descendre.", "src": "semaine 2-2 · 세트 2"},
+    {"id": "u0-09-q3-01-donnez", "t": "type", "skill": "pres-er", "hint": "규칙 1군! vous의 어미는?", "prompt": "Quiz 1 · III 현재형으로 활용하세요", "q": "Vous (donner)", "a": "Vous donnez", "alts": ["donnez"], "explain": "1군 규칙: vous → -ez. Vous donnez (당신은 준다).", "src": "Quiz 1 (9/10) · III-1"},
+    {"id": "u0-09-q3-02-vont", "t": "type", "skill": "pres-irr", "hint": "-er로 끝나도 1군이 아닌 동사! 통째로 외운 ils형은?", "prompt": "Quiz 1 · III 현재형으로 활용하세요", "q": "Ils (aller)", "a": "Ils vont", "alts": ["vont"], "explain": "aller는 완전 불규칙: ils vont (Ils allent ✗).", "star": true, "src": "Quiz 1 (9/10) · III-2"},
+    {"id": "u0-09-q3-03-prenons", "t": "type", "skill": "pres-irr", "hint": "nous·vous에선 어간의 d가 빠져요", "prompt": "Quiz 1 · III 현재형으로 활용하세요", "q": "Nous (prendre)", "a": "Nous prenons", "alts": ["prenons"], "explain": "prendre: nous prenons (n 하나), ils prennent (n 둘).", "src": "Quiz 1 (9/10) · III-3"},
+    {"id": "u0-09-q3-04-fait", "t": "type", "skill": "pres-irr", "hint": "3인칭 단수 어미는 -s일까 -t일까?", "prompt": "Quiz 1 · III 현재형으로 활용하세요", "q": "Elle (faire)", "a": "Elle fait", "alts": ["fait"], "explain": "faire: je fais, tu fais, il/elle fait.", "src": "Quiz 1 (9/10) · III-4"},
+    {"id": "u0-09-q3-05-viens", "t": "type", "skill": "spelling", "hint": "철자 순서 주의! Quiz 1에서 틀린 사람이 나온 문항", "prompt": "Quiz 1 · III 현재형으로 활용하세요", "q": "Tu (venir)", "a": "Tu viens", "alts": ["viens"], "explain": "v-i-e-n-s 순서! Tu veins ✗ → Tu viens.", "star": true, "src": "Quiz 1 (9/10) · III-5"},
+    {"id": "u0-09-q3-06-descend", "t": "type", "skill": "pres-irr", "hint": "주어는 단수 il! -re 규칙형의 3인칭 단수 어미는?", "prompt": "Quiz 1 · III 현재형으로 활용하세요", "q": "Il (descendre)", "a": "Il descend", "alts": ["descend"], "explain": "il에는 어미가 없다: Il descend (Il descends ✗ · Ils descendent ✗).", "star": true, "src": "Quiz 1 (9/10) · III-6"},
+    {"id": "u0-09-q3-07-deviennent", "t": "type", "skill": "pres-irr", "hint": "주어가 복수! venir 계열 ils형은 n이 몇 개?", "prompt": "Quiz 1 · III 현재형으로 활용하세요", "q": "Elles (devenir)", "a": "Elles deviennent", "alts": ["deviennent"], "explain": "복수 주어 → deviennent (nn). Elles devient ✗.", "star": true, "src": "Quiz 1 (9/10) · III-7"},
+    {"id": "u0-09-q3-08-savez", "t": "type", "skill": "pres-irr", "hint": "vous -ez 예외 3인방에 savoir는 없어요", "prompt": "Quiz 1 · III 현재형으로 활용하세요", "q": "Vous (savoir)", "a": "Vous savez", "alts": ["savez"], "explain": "savoir: nous savons, vous savez — 규칙대로 -ez.", "src": "Quiz 1 (9/10) · III-8"},
+    {"id": "u0-09-q3-09-mets", "t": "type", "skill": "spelling", "hint": "단수에서 t는 몇 개일까요?", "prompt": "Quiz 1 · III 현재형으로 활용하세요", "q": "Tu (mettre)", "a": "Tu mets", "alts": ["mets"], "explain": "단수는 t 하나: tu mets (metts ✗). 복수만 tt: nous mettons.", "star": true, "src": "Quiz 1 (9/10) · III-9"},
+    {"id": "u0-09-q3-10-telechargeons", "t": "type", "skill": "stem-change", "hint": "-ger 동사! o 앞에서 [ʒ] 소리를 지키려면?", "prompt": "Quiz 1 · III 현재형으로 활용하세요", "q": "Nous (télécharger)", "a": "Nous téléchargeons", "alts": ["téléchargeons"], "explain": "-ger → nous -geons: téléchargeons (téléchargons ✗).", "star": true, "src": "Quiz 1 (9/10) · III-10"},
+    {"id": "u0-09-q3-11-peuvent", "t": "type", "skill": "pres-irr", "hint": "3단 변신: 단수 → nous·vous → ils", "prompt": "Quiz 1 · III 현재형으로 활용하세요", "q": "Ils (pouvoir)", "a": "Ils peuvent", "alts": ["peuvent"], "explain": "pouvoir: je peux, nous pouvons, ils peuvent.", "src": "Quiz 1 (9/10) · III-11"},
+    {"id": "u0-09-q3-12-part", "t": "type", "skill": "on", "hint": "on은 문법상 몇 인칭? 뜻에 속지 마요", "prompt": "Quiz 1 · III 현재형으로 활용하세요", "q": "On (partir)", "a": "On part", "alts": ["part"], "explain": "on = 3인칭 단수 → On part (On partons ✗).", "star": true, "src": "Quiz 1 (9/10) · III-12"},
+    {"id": "u0-09-phrase-elision", "t": "word", "skill": "vocab", "fr": "N'oubliez pas l'élision !", "ko": "엘리지옹을 잊지 마세요!", "src": "semaine 3-2 p.10"},
+    {"id": "u0-09-phrase-orthographe", "t": "word", "skill": "vocab", "fr": "Attention à l'orthographe !", "ko": "철자에 주의하세요!", "src": "semaine 3-2 p.11–12"},
+    {"id": "u0-09-phrase-faites", "t": "word", "skill": "vocab", "fr": "Faites attention !", "ko": "주의하세요!", "note": "Faites = faire의 vous형", "src": "semaine 3-2 p.13"},
+    {"id": "u0-09-phrase-confondre", "t": "word", "skill": "vocab", "fr": "Attention à ne pas confondre !", "ko": "혼동하지 않도록 주의하세요!", "src": "semaine 3-2 p.14–15"},
+    {"id": "u0-09-assiduite", "t": "word", "skill": "vocab", "fr": "l'assiduité", "ko": "성실한 출석, 꾸준함", "g": "f", "note": "평가에서 출석(assiduité) 비중이 크다", "src": "노션 9/16"},
+    {"id": "u0-09-consigne-conjuguez", "t": "choice", "skill": "vocab", "hint": "conjuguer = 동사를 인칭에 맞게 변화시키다", "prompt": "시험 지시문의 뜻은?", "q": "Conjuguez les verbes au présent de l'indicatif.", "a": "동사를 직설법 현재로 활용하세요.", "wrong": ["동사원형을 쓰세요.", "표를 완성하세요.", "뜻을 한국어로 쓰세요."], "say": "Conjuguez les verbes au présent de l'indicatif.", "explain": "Quiz 1 III번 지시문. conjuguer(활용하다) + au présent(현재형으로).", "src": "Quiz 1 (9/10) · III"},
+    {"id": "u0-09-consigne-infinitif", "t": "choice", "skill": "vocab", "hint": "l'infinitif = 동사원형, signification = 뜻", "prompt": "시험 지시문의 뜻은?", "q": "Donnez l'infinitif des verbes suivants et leur signification en coréen.", "a": "다음 동사들의 원형과 한국어 뜻을 쓰세요.", "wrong": ["다음 동사들을 현재형으로 활용하세요.", "표를 완성하세요.", "좋아하는 표현을 고르세요."], "say": "Donnez l'infinitif des verbes suivants et leur signification en coréen.", "explain": "Quiz 1 I번 지시문. 원형만 쓰고 뜻을 빼먹으면 감점!", "src": "Quiz 1 (9/10) · I"},
+    {"id": "u0-09-pasdeplus", "t": "build", "skill": "elision", "hint": "이유를 붙이는 말 '왜냐하면' — 모음 앞 축약 주의!", "prompt": "Un pas de plus — 문장을 만드세요", "a": "J'aime cette expression parce qu'elle est utile.", "extra": ["que", "pourquoi"], "ko": "나는 이 표현을 좋아해요, 유용하니까요.", "explain": "이유는 parce que로! elle 앞에서 que → qu'. Quiz 1 자유 서술의 뼈대 문장.", "src": "Quiz 1 · Un pas de plus"}
+  ]
+}

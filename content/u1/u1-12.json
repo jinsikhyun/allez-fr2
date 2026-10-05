@@ -1,0 +1,868 @@
+{
+  "id": "u1-12",
+  "unit": "u1",
+  "title": "감탄문 · 강세형 대명사",
+  "emoji": "😮",
+  "date": "2026-09-23",
+  "sources": [
+    "semaine 4-2"
+  ],
+  "tips": [
+    {
+      "h": "감탄문 — 뒤에 뭐가 오나로 갈린다",
+      "rows": [
+        [
+          "Qu'est-ce que / Que / Comme",
+          "+ 문장 (주어+동사)"
+        ],
+        [
+          "Quel(le)(s)",
+          "+ 명사구 (동사 없음)"
+        ]
+      ]
+    },
+    {
+      "h": "강세형 대명사 네 개만 새로",
+      "b": "je→**moi** · tu→**toi** · il→**lui** · ils→**eux**\nelle · nous · vous · elles 는 주어형과 **모양이 같다**"
+    },
+    {
+      "h": "-même의 s",
+      "b": "가리키는 사람이 **여럿일 때만** s.\n존칭 vous 한 명 → **vous-même** (s 없음)\n소리는 단수·복수 **똑같다** — s는 묵음"
+    },
+    {
+      "h": "🔴 자리로 구분",
+      "b": "Elle **lui** parle. → 동사 앞 = COI 대명사\nElle parle **à lui**. → 전치사 뒤 = 강세형"
+    }
+  ],
+  "note": [
+    {
+      "h": "감탄문 다섯 가지 옷",
+      "skill": "exclam",
+      "src": [
+        "semaine 4-2 p.4",
+        "semaine 4-2 p.8"
+      ],
+      "body": [
+        {
+          "p": "평서문 **C'est beau, la Côte d'Azur.**(코트다쥐르는 아름답다)를 감탄문으로 바꾸는 방법입니다. 뜻은 다 같고 **말투의 세기와 격식**만 다릅니다."
+        },
+        {
+          "table": [
+            [
+              "형태",
+              "예문",
+              "뒤에 오는 것"
+            ],
+            [
+              "느낌표만",
+              "C'est (très) beau, la Côte d'Azur !",
+              "그냥 문장"
+            ],
+            [
+              "Qu'est-ce que",
+              "Qu'est-ce que c'est beau, la Côte d'Azur !",
+              "절 (주어+동사)"
+            ],
+            [
+              "Que",
+              "Que c'est beau, la Côte d'Azur !",
+              "절 (주어+동사)"
+            ],
+            [
+              "Comme",
+              "Comme c'est beau, la Côte d'Azur !",
+              "절 (주어+동사)"
+            ],
+            [
+              "Quel(le)",
+              "Quel beau paysage ! / Quelle belle région !",
+              "명사구"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "warn": "Que · Qu'est-ce que · Comme 뒤에는 **문장**, Quel 뒤에는 **명사**. Comme beau paysage ! ✗ / Quel c'est beau ! ✗"
+        },
+        {
+          "p": "격식으로 보면 **Que**가 가장 문어체, **Qu'est-ce que**가 가장 구어체, **Comme**가 그 중간이자 제일 흔합니다."
+        },
+        {
+          "memo": "슬라이드 첫 줄의 Oh, mon Dieu ! 는 문법 구조 없이 그냥 던지는 감탄사(interjection)."
+        }
+      ]
+    },
+    {
+      "h": "Quel(le)(s) — 감탄형용사는 성·수를 맞춘다",
+      "skill": "exclam",
+      "src": [
+        "semaine 4-2 p.4"
+      ],
+      "body": [
+        {
+          "table": [
+            [
+              "",
+              "남성",
+              "여성"
+            ],
+            [
+              "단수",
+              "quel — Quel beau paysage !",
+              "quelle — Quelle belle région !"
+            ],
+            [
+              "복수",
+              "quels — Quels beaux paysages !",
+              "quelles — Quelles belles régions !"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "p": "Quel은 **형용사**라서 뒤 명사의 성·수를 그대로 따라갑니다. 같이 붙은 형용사도 함께 변하는 걸 보세요 — paysage(남성) → **beau**, région(여성) → **belle**."
+        },
+        {
+          "warn": "네 형태의 발음은 **전부 [kɛl]로 똑같습니다.** 받아쓰기에서는 뒤 명사를 보고 철자를 정해야 해요."
+        },
+        {
+          "ex": [
+            [
+              "Quel beau paysage !",
+              "정말 아름다운 풍경이다!"
+            ],
+            [
+              "Quelle belle région !",
+              "정말 아름다운 지역이다!"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "h": "강세형 대명사 (le pronom tonique / disjoint)",
+      "skill": "pron-tonic",
+      "src": [
+        "semaine 4-2 p.11"
+      ],
+      "body": [
+        {
+          "table": [
+            [
+              "주어형",
+              "강세형",
+              "주어형",
+              "강세형"
+            ],
+            [
+              "je",
+              "moi",
+              "nous",
+              "nous"
+            ],
+            [
+              "tu",
+              "toi",
+              "vous",
+              "vous"
+            ],
+            [
+              "il",
+              "lui",
+              "ils",
+              "eux"
+            ],
+            [
+              "elle",
+              "elle",
+              "elles",
+              "elles"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "p": "**새로 외울 건 네 개뿐** — moi · toi · lui · eux. 나머지(elle, nous, vous, elles)는 주어형과 모양이 같습니다."
+        },
+        {
+          "p": "왜 따로 있느냐 하면, 프랑스어의 je·tu·il은 동사에 붙어 사는 **무강세** 단어라서 혼자 설 수도, 강조할 수도 없기 때문입니다. 그래서 '나도'를 Je aussi ✗ 라고 못 하고 **Moi aussi** ✓ 라고 합니다."
+        },
+        {
+          "ex": [
+            [
+              "Moi, je m'appelle Olivia.",
+              "나로 말하자면, 내 이름은 올리비아야."
+            ],
+            [
+              "J'ai soif. — Moi aussi.",
+              "나 목말라. — 나도."
+            ],
+            [
+              "Elle est coréenne. Eux aussi, ils sont coréens.",
+              "그녀는 한국인이야. 그들도 한국인이야."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "h": "강세형이 쓰이는 네 자리",
+      "skill": "pron-tonic",
+      "src": [
+        "semaine 4-2 p.11",
+        "semaine 4-2 p.12"
+      ],
+      "body": [
+        {
+          "list": [
+            "① 주어 강조 — 문장 앞에 덧붙임: **Moi**, je m'appelle Olivia.",
+            "② 동사 없이 단독으로: — **Moi aussi.** / **Eux aussi.**",
+            "③ 전치사 뒤 (à, de, avec, chez, pour…): Jeanne parle **à moi**. · Il habite **chez lui**.",
+            "④ -même과 결합: Je cuisine **moi-même**."
+          ]
+        },
+        {
+          "warn": "지난 시간 COD·COI 대명사와 형태가 겹치는 게 있습니다. **동사 앞이면 목적보어, 전치사 뒤·문장 밖이면 강세형**으로 구분하세요. Elle **lui** parle(동사 앞·무강세) ↔ Elle parle **à lui**(전치사 뒤·강세)."
+        }
+      ]
+    },
+    {
+      "h": "강세형 + « même » — 직접 · 스스로",
+      "skill": "pron-tonic",
+      "src": [
+        "semaine 4-2 p.12"
+      ],
+      "body": [
+        {
+          "table": [
+            [
+              "단수",
+              "복수"
+            ],
+            [
+              "moi-même",
+              "nous-mêmes"
+            ],
+            [
+              "toi-même",
+              "vous-même(s)"
+            ],
+            [
+              "lui-même",
+              "eux-mêmes"
+            ],
+            [
+              "elle-même",
+              "elles-mêmes"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "warn": "même에 -s가 붙는 조건은 **가리키는 사람이 여럿일 때**. 그래서 vous-même(s)만 괄호예요 — 존칭으로 **한 사람**이면 vous-même, **여러 사람**이면 vous-mêmes."
+        },
+        {
+          "p": "대화문 첫머리의 **Et vous-même ?**에 -s가 없는 이유가 바로 이것입니다. 상대가 Mme Lambert 한 명이니까요."
+        },
+        {
+          "ex": [
+            [
+              "Je cuisine moi-même.",
+              "나는 직접 요리한다."
+            ],
+            [
+              "Je coupe moi-même les cheveux de mon mari.",
+              "나는 남편 머리를 직접 자른다."
+            ],
+            [
+              "Ils se coupent eux-mêmes les cheveux.",
+              "그들은 자기 머리를 스스로 자른다."
+            ]
+          ]
+        },
+        {
+          "memo": "세 번째 문장은 대명동사 + 강세형-même의 합작. se couper les cheveux에 eux-mêmes를 더해 '미용실이 아니라 본인 손으로'를 강조한 것. les cheveux가 뒤에 COD로 있으니 복합과거로 바꾸면 Ils se sont coupé les cheveux — 일치 없음."
+        }
+      ]
+    },
+    {
+      "h": "발음 — 감탄문과 강세형",
+      "skill": "pron",
+      "src": [
+        "semaine 4-2"
+      ],
+      "body": [
+        {
+          "list": [
+            "quel · quelle · quels · quelles — **네 개 모두 [kɛl]**, 소리로는 구별 불가",
+            "paysage [뻬이자주] — ay가 [ɛ-j]로 갈라짐. '파이사지' ✗",
+            "région [헤지옹] — g는 [ʒ], 끝 -ion은 비모음",
+            "Qu'est-ce que c'est beau [께스 끄 쎄 보] — 빠르게 말하면 [께스끄쎄보]",
+            "moi [무아] · toi [뚜아] — oi는 항상 [wa]",
+            "lui [뤼] **한 음절** — '루이' ✗ (그건 Louis)",
+            "eux [외] — **x 묵음**. 하지만 Eux‿aussi [외 조씨]에서는 **x가 [z]로 되살아난다**",
+            "-mêmes의 s는 **묵음** — nous-mêmes [누 멤], eux-mêmes [외 멤]"
+          ]
+        },
+        {
+          "warn": "Moi aussi는 연음이 **없습니다**(i는 자음이 아니니까). Eux aussi는 연음이 **있습니다**. 같은 '~도'인데 소리가 달라요."
+        }
+      ]
+    },
+    {
+      "h": "수업 필기 (9/23) — « 니스에 가고 싶다 » 세 가지",
+      "skill": "vocab",
+      "src": [
+        "노션 9/23",
+        "semaine 4-2 p.4"
+      ],
+      "body": [
+        {
+          "p": "감탄문 **Comme c'est beau !** 다음에 교수님이 덧붙인 표현 세트입니다. 셋 다 '가고 싶다'지만 **마음의 방향**이 다릅니다."
+        },
+        {
+          "ex": [
+            [
+              "Je veux aller à Nice.",
+              "니스에 가고 싶다. (의지 — 가장 직접적)"
+            ],
+            [
+              "J'ai envie d'aller à Nice.",
+              "니스에 가고 싶다. (마음이 당긴다)"
+            ],
+            [
+              "Ça me donne envie d'aller à Nice.",
+              "그걸 보면 니스에 가고 싶어진다."
+            ]
+          ]
+        },
+        {
+          "p": "**avoir envie de + 동사원형**(또는 de + 명사). 뒤에 모음이 오면 de → **d'**."
+        },
+        {
+          "warn": "구어의 **Ça**는 글로 쓸 때 **Cela**. Ça me donne envie… → Cela me donne envie…"
+        },
+        {
+          "memo": "필기: « Que랑 Comme은 문어체, 점잖게 할 때 자주 씀 » — 구어에서는 Qu'est-ce que가 압도적으로 흔합니다."
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "u1-12-c-quel-paysage",
+      "t": "choice",
+      "skill": "exclam",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "___ beau paysage !",
+      "ko": "정말 아름다운 풍경이다!",
+      "a": "Quel",
+      "wrong": [
+        "Quelle",
+        "Comme",
+        "Que"
+      ],
+      "hint": "뒤에 명사가 왔어요. 그 명사의 성은?",
+      "explain": "명사구 앞이니 감탄형용사. paysage는 남성 단수 → Quel.",
+      "src": "semaine 4-2",
+      "star": true
+    },
+    {
+      "id": "u1-12-c-quelle-region",
+      "t": "choice",
+      "skill": "exclam",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "___ belle région !",
+      "ko": "정말 아름다운 지역이다!",
+      "a": "Quelle",
+      "wrong": [
+        "Quel",
+        "Quels",
+        "Comme"
+      ],
+      "hint": "région은 여성 명사예요. 형용사 belle이 힌트!",
+      "explain": "région은 여성 단수 → 감탄형용사도 여성 단수.",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-12-c-quels-paysages",
+      "t": "choice",
+      "skill": "exclam",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "___ beaux paysages !",
+      "ko": "정말 아름다운 풍경들이다!",
+      "a": "Quels",
+      "wrong": [
+        "Quel",
+        "Quelles",
+        "Quelle"
+      ],
+      "hint": "명사가 복수예요. 성은 형용사 beaux를 보면 알 수 있죠.",
+      "explain": "남성 복수 → -s. 발음은 단수와 똑같이 [kɛl].",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-12-t-quelles",
+      "t": "type",
+      "skill": "exclam",
+      "prompt": "빈칸을 채우세요 (감탄형용사)",
+      "q": "___ belles régions !",
+      "a": "Quelles",
+      "hint": "명사가 여성이고 복수예요.",
+      "explain": "여성 복수 → -les. 네 형태 다 [kɛl]로 읽습니다.",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-12-c-comme",
+      "t": "choice",
+      "skill": "exclam",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "___ c'est beau, la Côte d'Azur !",
+      "ko": "코트다쥐르는 정말 아름답다!",
+      "a": "Comme",
+      "wrong": [
+        "Quel",
+        "Quelle",
+        "Quelles"
+      ],
+      "hint": "뒤에 주어+동사가 통째로 왔어요. 감탄형용사는 쓸 수 없죠.",
+      "explain": "절 앞에는 Comme / Que / Qu'est-ce que. Quel은 명사 앞에만.",
+      "src": "semaine 4-2",
+      "star": true
+    },
+    {
+      "id": "u1-12-err-quel-cest",
+      "t": "error",
+      "skill": "exclam",
+      "s": "Quel c'est beau !",
+      "wrong": "Quel",
+      "right": "Comme",
+      "ko": "정말 아름답다!",
+      "hint": "뒤에 명사가 있나요, 문장이 있나요?",
+      "explain": "Quel 뒤에는 명사가 와야 합니다. 절 앞에는 Comme(또는 Que).",
+      "src": "semaine 4-2",
+      "star": true
+    },
+    {
+      "id": "u1-12-err-comme-paysage",
+      "t": "error",
+      "skill": "exclam",
+      "s": "Comme beau paysage !",
+      "wrong": "Comme",
+      "right": "Quel",
+      "ko": "정말 아름다운 풍경이다!",
+      "hint": "뒤가 명사구(동사 없음)예요.",
+      "explain": "명사구 앞에는 감탄형용사 Quel(le)(s).",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-12-b-quest-ce-que",
+      "t": "build",
+      "skill": "exclam",
+      "prompt": "구어체 감탄문으로 바꾸세요",
+      "from": "C'est beau, la Côte d'Azur.",
+      "a": "Qu'est-ce que c'est beau, la Côte d'Azur !",
+      "extra": [
+        "Quel"
+      ],
+      "ko": "코트다쥐르는 정말 아름답다!",
+      "hint": "Qu'est-ce que 를 문장 앞에 통째로 붙이면 돼요.",
+      "explain": "Qu'est-ce que + 절. 구어체에서 가장 흔한 강조 감탄문.",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-12-b-quelle-belle",
+      "t": "build",
+      "skill": "exclam",
+      "prompt": "명사로 감탄하는 문장을 만드세요",
+      "ko": "정말 아름다운 지역이야!",
+      "a": "Quelle belle région !",
+      "extra": [
+        "Quel",
+        "beau"
+      ],
+      "hint": "région의 성에 감탄형용사와 형용사를 둘 다 맞춰요.",
+      "explain": "여성 단수라 quelle + belle. 남성이면 quel + beau.",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-12-c-quel-pron",
+      "t": "choice",
+      "skill": "pron",
+      "prompt": "quel · quelle · quels · quelles 의 발음은?",
+      "q": "네 형태의 소리를 비교하면?",
+      "a": "네 개 모두 [kɛl]로 똑같다",
+      "wrong": [
+        "quelle만 끝에 [ə]가 붙는다",
+        "quels는 [kɛls]",
+        "quelles는 [kɛlz]"
+      ],
+      "say": "",
+      "hint": "프랑스어에서 끝 e와 끝 s는 보통 어떻게 되나요?",
+      "explain": "끝 -e도 -s도 묵음. 그래서 받아쓰기에서는 뒤 명사를 봐야 철자를 정할 수 있어요.",
+      "src": "semaine 4-2",
+      "star": true
+    },
+    {
+      "id": "u1-12-w-paysage",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "le paysage",
+      "ko": "풍경",
+      "g": "m",
+      "pron": "[르 뻬이자주]",
+      "note": "ay = [ɛ-j], '파이사지' ✗",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-12-w-region",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "la région",
+      "ko": "지역",
+      "g": "f",
+      "pron": "[라 헤지옹]",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-12-w-mon-dieu",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "Oh, mon Dieu !",
+      "ko": "오 세상에!",
+      "pron": "[오 몽 디으]",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-12-l-paysage",
+      "t": "listen",
+      "skill": "pron",
+      "say": "un beau paysage",
+      "a": "un beau paysage",
+      "wrong": [
+        "un beau village",
+        "un bon voyage"
+      ],
+      "ko": "아름다운 풍경",
+      "pron": "[앙 보 뻬이자주]",
+      "hint": "가운데 소리가 [자]인지 [바]인지 들어보세요.",
+      "explain": "paysage [뻬이자주] — ay를 [ɛ-j]로 굴리는 게 핵심.",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-12-c-moi-je",
+      "t": "choice",
+      "skill": "pron-tonic",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "___, je m'appelle Olivia.",
+      "ko": "나로 말하자면, 내 이름은 올리비아야.",
+      "a": "Moi",
+      "wrong": [
+        "Je",
+        "Me",
+        "Mon"
+      ],
+      "hint": "뒤에 이미 주어 je가 있어요. 앞자리는 강조용 자리!",
+      "explain": "주어를 강조해 앞에 덧붙일 때는 강세형. je의 강세형은 moi.",
+      "src": "semaine 4-2",
+      "star": true
+    },
+    {
+      "id": "u1-12-c-moi-aussi",
+      "t": "choice",
+      "skill": "pron-tonic",
+      "prompt": "친구가 이렇게 말하면?",
+      "q": "J'ai soif. — ___",
+      "ko": "나 목말라. — 나도.",
+      "a": "Moi aussi.",
+      "wrong": [
+        "Je aussi.",
+        "Me aussi.",
+        "J'aussi."
+      ],
+      "hint": "동사 없이 혼자 서는 자리예요. je는 혼자 못 서죠.",
+      "explain": "동사 없이 단독으로 쓸 때는 강세형. Je aussi ✗",
+      "src": "semaine 4-2",
+      "star": true
+    },
+    {
+      "id": "u1-12-c-eux-aussi",
+      "t": "choice",
+      "skill": "pron-tonic",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Elle est coréenne. ___ aussi, ils sont coréens.",
+      "ko": "그녀는 한국인이야. 그들도 한국인이야.",
+      "a": "Eux",
+      "wrong": [
+        "Ils",
+        "Elles",
+        "Leur"
+      ],
+      "hint": "뒤에 주어 ils가 따로 있어요. 그럼 앞자리는?",
+      "explain": "ils의 강세형. 발음 [외], 다음 모음과 연음하면 [외 조씨].",
+      "src": "semaine 4-2",
+      "star": true
+    },
+    {
+      "id": "u1-12-t-tonic-ils",
+      "t": "type",
+      "skill": "pron-tonic",
+      "prompt": "강세형으로 바꾸세요",
+      "q": "ils → ___",
+      "a": "eux",
+      "hint": "주어형과 모양이 완전히 다른 네 개 중 하나예요.",
+      "explain": "ils → eux. 새로 외울 네 개(moi·toi·lui·eux) 중 마지막.",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-12-t-tonic-il",
+      "t": "type",
+      "skill": "pron-tonic",
+      "prompt": "강세형으로 바꾸세요",
+      "q": "il → ___",
+      "a": "lui",
+      "hint": "COI 대명사와 모양이 같아요. 한 음절로 발음하죠.",
+      "explain": "il → lui. COI 대명사 lui와 형태가 겹치니 자리로 구분!",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-12-c-chez-lui",
+      "t": "choice",
+      "skill": "pron-tonic",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Il habite chez ___.",
+      "ko": "그는 자기 집에 산다.",
+      "a": "lui",
+      "wrong": [
+        "il",
+        "le",
+        "se"
+      ],
+      "hint": "전치사 chez 뒤예요. 전치사 뒤에는 어떤 형태?",
+      "explain": "전치사 뒤는 강세형 자리. chez il ✗",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-12-c-tonic-vs-coi",
+      "t": "choice",
+      "skill": "pron-tonic",
+      "prompt": "강세형 대명사가 쓰인 문장은?",
+      "q": "네 문장 중 lui·leur가 강세형으로 쓰인 것을 고르세요.",
+      "a": "Elle parle à lui.",
+      "wrong": [
+        "Elle lui parle.",
+        "Elle leur parle.",
+        "Elle le regarde."
+      ],
+      "say": "",
+      "hint": "전치사가 살아 있는 문장을 찾아보세요.",
+      "explain": "전치사 à가 남아 있으면 그 뒤는 강세형. 동사 앞에 붙으면 목적보어 대명사.",
+      "src": "semaine 4-2",
+      "star": true
+    },
+    {
+      "id": "u1-12-err-je-aussi",
+      "t": "error",
+      "skill": "pron-tonic",
+      "s": "Je aussi, j'ai soif.",
+      "wrong": "Je aussi",
+      "right": "Moi aussi",
+      "ko": "나도 목말라.",
+      "hint": "동사 없이 혼자 선 대명사예요.",
+      "explain": "je는 동사에 붙어야만 사는 무강세 대명사. 혼자 설 땐 강세형.",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-12-l-eux-aussi",
+      "t": "listen",
+      "skill": "pron-tonic",
+      "say": "eux aussi",
+      "a": "eux aussi",
+      "wrong": [
+        "elles aussi",
+        "et aussi"
+      ],
+      "ko": "그들도",
+      "pron": "[외 조씨]",
+      "hint": "첫 소리가 [외]인지 [엘]인지 들어보세요.",
+      "explain": "eux는 x가 묵음이지만 모음 앞에서는 [z]로 연음됩니다.",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-12-c-moi-meme",
+      "t": "choice",
+      "skill": "pron-tonic",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Je cuisine ___.",
+      "ko": "나는 직접 요리한다.",
+      "a": "moi-même",
+      "wrong": [
+        "moi-mêmes",
+        "me-même",
+        "moi même"
+      ],
+      "hint": "한 사람이고, 하이픈이 필요해요.",
+      "explain": "강세형 + 하이픈 + même. 한 사람이니 s 없음.",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-12-c-eux-memes",
+      "t": "choice",
+      "skill": "pron-tonic",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Ils se coupent ___ les cheveux.",
+      "ko": "그들은 자기 머리를 스스로 자른다.",
+      "a": "eux-mêmes",
+      "wrong": [
+        "eux-même",
+        "ils-mêmes",
+        "lui-mêmes"
+      ],
+      "hint": "가리키는 사람이 여럿이면 même는 어떻게 되죠?",
+      "explain": "복수라 même에도 -s. 소리는 단수와 같습니다(s 묵음).",
+      "src": "semaine 4-2",
+      "star": true
+    },
+    {
+      "id": "u1-12-c-vous-meme",
+      "t": "choice",
+      "skill": "pron-tonic",
+      "prompt": "랑베르 부인 한 사람에게 되묻는 말은?",
+      "q": "Très bien, merci. Et ___ ?",
+      "ko": "아주 잘 지내요, 고마워요. 부인은요?",
+      "a": "vous-même",
+      "wrong": [
+        "vous-mêmes",
+        "toi-même",
+        "vous-me"
+      ],
+      "hint": "존칭이지만 사람은 한 명이에요.",
+      "explain": "vous가 존칭 단수면 vous-même, 여러 명이면 vous-mêmes. 대화문에 나온 그 문장!",
+      "src": "semaine 4-2",
+      "star": true
+    },
+    {
+      "id": "u1-12-err-vous-memes",
+      "t": "error",
+      "skill": "pron-tonic",
+      "s": "Et vous-mêmes, Madame Lambert ?",
+      "wrong": "vous-mêmes",
+      "right": "vous-même",
+      "ko": "부인은요, 랑베르 부인?",
+      "hint": "이름을 보면 상대가 몇 명인지 알 수 있어요.",
+      "explain": "Madame Lambert 한 사람 → s를 빼야 합니다.",
+      "src": "semaine 4-2",
+      "star": true
+    },
+    {
+      "id": "u1-12-b-coupe-cheveux",
+      "t": "build",
+      "skill": "pron-tonic",
+      "prompt": "문장을 만드세요",
+      "ko": "나는 남편 머리를 직접 자른다.",
+      "a": "Je coupe moi-même les cheveux de mon mari.",
+      "extra": [
+        "moi",
+        "même"
+      ],
+      "hint": "'직접'은 동사 바로 뒤에 놓습니다. 하이픈 붙은 한 덩어리예요.",
+      "explain": "moi-même는 하나의 블록. 동사 뒤, 목적어 앞이 자연스러운 자리.",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-12-c-memes-s-pron",
+      "t": "choice",
+      "skill": "pron",
+      "prompt": "nous-mêmes의 끝 s는?",
+      "q": "-mêmes의 s를 어떻게 읽나요?",
+      "a": "발음하지 않는다",
+      "wrong": [
+        "[s]로 발음한다",
+        "[z]로 발음한다",
+        "앞 모음을 길게 만든다"
+      ],
+      "say": "",
+      "hint": "프랑스어의 끝 s는 대부분 어떻게 되나요?",
+      "explain": "묵음. 그래서 moi-même와 nous-mêmes는 s 유무를 소리로 구별할 수 없습니다.",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-12-w-avoir-envie",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "avoir envie de",
+      "ko": "~하고 싶다, ~가 당기다",
+      "note": "de + 동사원형 · 모음 앞 d' — J'ai envie d'aller à Nice.",
+      "src": "노션 9/23"
+    },
+    {
+      "id": "u1-12-c-envie-de",
+      "t": "choice",
+      "skill": "elision",
+      "hint": "뒤에 모음으로 시작하는 aller가 붙어요 — 엘리지옹!",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "J'ai envie ___ aller à Nice.",
+      "ko": "니스에 가고 싶어요.",
+      "a": "d'",
+      "wrong": [
+        "de",
+        "à",
+        "pour"
+      ],
+      "explain": "avoir envie de + 원형. 모음 앞에서는 d'aller로 축약합니다.",
+      "src": "노션 9/23"
+    },
+    {
+      "id": "u1-12-c-donne-envie",
+      "t": "choice",
+      "skill": "vocab",
+      "hint": "donner(주다) + envie(욕구) — 무엇이 내게 그걸 주는 걸까요?",
+      "prompt": "이 문장의 뜻은?",
+      "q": "Ça me donne envie d'aller à Nice.",
+      "say": "Ça me donne envie d'aller à Nice.",
+      "a": "그걸 보면 니스에 가고 싶어져요",
+      "wrong": [
+        "니스에 가라고 했어요",
+        "니스에 가고 싶지 않아요",
+        "니스에 가 본 적 있어요"
+      ],
+      "explain": "donner envie à qqn de + 원형 = ~하고 싶게 만들다. 사진·풍경을 보고 하는 말.",
+      "src": "노션 9/23"
+    },
+    {
+      "id": "u1-12-c-cela-ca",
+      "t": "choice",
+      "skill": "vocab",
+      "hint": "구어의 Ça를 글에서 쓰는 형태예요.",
+      "prompt": "Ça를 문어체로 바꾸면?",
+      "q": "___ me donne envie d'aller à Nice.",
+      "say": "",
+      "a": "Cela",
+      "wrong": [
+        "Ceci",
+        "Ce",
+        "Ceux"
+      ],
+      "explain": "Ça(구어) ↔ Cela(문어). Ceci는 '이것'으로 가리키는 대상이 다릅니다.",
+      "src": "노션 9/23"
+    },
+    {
+      "id": "u1-12-c-que-registre",
+      "t": "choice",
+      "skill": "exclam",
+      "hint": "셋 중 가장 짧고 문학적인 형태예요.",
+      "prompt": "가장 문어체(점잖은) 감탄문은?",
+      "q": "같은 뜻의 감탄문 중 글에서 주로 쓰는 것은?",
+      "say": "",
+      "a": "Que c'est beau !",
+      "wrong": [
+        "Qu'est-ce que c'est beau !",
+        "Comme c'est beau !",
+        "C'est beau !"
+      ],
+      "explain": "필기: Que·Comme은 점잖은 말투, 그중 Que가 가장 문어적. 구어에서는 Qu'est-ce que.",
+      "star": true,
+      "src": "노션 9/23"
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "id": "u0-06",
+  "unit": "u0",
+  "title": "현재형: 1군·2군 동사",
+  "emoji": "✏️",
+  "date": "2026-09-09",
+  "sources": ["semaine 2-2", "semaine 2-3", "노션 9/9", "노션 9/10", "Quiz 1", "Révision générale"],
+  "tips": [
+    {"h": "1군 (-er) 어미", "rows": [["je", "-e", "parle"], ["tu", "-es", "parles"], ["il/elle/on", "-e", "parle"], ["nous", "-ons", "parlons"], ["vous", "-ez", "parlez"], ["ils/elles", "-ent", "parlent"]]},
+    {"h": "2군 (-ir) 어미", "rows": [["je", "-is", "finis"], ["tu", "-is", "finis"], ["il/elle/on", "-it", "finit"], ["nous", "-issons", "finissons"], ["vous", "-issez", "finissez"], ["ils/elles", "-issent", "finissent"]], "b": "복수에서만 **-iss-** 등장.\n2군 상당수는 형용사 + ir: grand → **grandir**, gros → **grossir**, rouge → **rougir**"},
+    {"h": "철자 함정 ① nous만 바뀜", "b": "-ger → nous **mangeons**, nous **téléchargeons** (e 추가)\n-cer → nous **commençons** (ç)\n→ g·c의 [ʒ]·[s] 소리를 지키려고"},
+    {"h": "철자 함정 ② nous·vous만 원형 모양", "rows": [["appeler", "j'appelle · ils appellent", "nous appelons · vous appelez"], ["acheter", "j'achète · ils achètent", "nous achetons · vous achetez"], ["préférer", "je préfère · ils préfèrent", "nous préférons · vous préférez"]]},
+    {"h": "발음", "b": "-e · -es · -ent는 무음 → je parle = tu parles = ils parlent [파흘]\n원형 -er의 r도 무음: parler [파흘레]\ntravailler의 ill = [j]: [트하바이예]"}
+  ],
+  "fixes": [
+    {"where": "노션 9/9", "was": "Tu habites (뚜, 아빗)", "now": "Tu habites [뛰 아빗]", "why": "tu의 u는 [y] — 입술을 둥글게 모은 '위' 소리"}
+  ],
+  "note": [
+    {
+      "h": "동사 공부법 — 주어와 세트로, 기계적으로",
+      "skill": "pres-er",
+      "src": ["노션 9/1 OT", "노션 9/9", "semaine 2-2", "semaine 2-3"],
+      "body": [
+        {"memo": "OT: \"중급에는 문법 비중 많음 — 대부분 동사 변형\""},
+        {"memo": "9/9 교수님: \"동사 자체를 기계적으로 주어랑 세트화해서 외우기\" — je parle, tu parles…를 주어째로 입에 붙이기"},
+        {"p": "9/9(semaine 2-2)와 9/10(semaine 2-3)에 **똑같은 동사 슬라이드**를 이틀 연속 다뤘다 → 시험의 중심."},
+        {"table": [["그룹", "원형", "특징"], ["1군", "-er", "규칙 (aller만 예외 = 불규칙)"], ["2군", "-ir (nous -issons)", "규칙, 복수에 -iss-"], ["3군", "그 밖", "불규칙 + -re 규칙형 (attendre, descendre)"]], "head": true}
+      ]
+    },
+    {
+      "h": "1군 -er: parler · travailler · habiter",
+      "skill": "pres-er",
+      "src": ["semaine 2-2 p.6", "semaine 2-3 p.4", "노션 9/9"],
+      "body": [
+        {"p": "원형에서 **-er을 떼고** 어미를 붙인다: **-e · -es · -e · -ons · -ez · -ent**"},
+        {"table": [["", "parler 말하다", "travailler 일하다", "habiter 살다"], ["je", "parle", "travaille", "j'habite"], ["tu", "parles", "travailles", "habites"], ["il/elle", "parle", "travaille", "habite"], ["nous", "parlons", "travaillons", "habitons"], ["vous", "parlez", "travaillez", "habitez"], ["ils/elles", "parlent", "travaillent", "habitent"]], "head": true},
+        {"warn": "-e · -es · -ent는 소리가 안 나서 je parle = tu parles = il parle = ils parlent [파흘]. 받아쓰기에선 **주어**로 판단!"},
+        {"memo": "필기: \"-ent 발음 주의, ill 발음 주의, Tu habites\" — travailler의 ill은 [j] [트하바이예], Tu habites [뛰 아빗]"},
+        {"p": "h는 소리가 없어 모음 취급 → **j'habite** (엘리지옹). aimer도 **j'aime**."},
+        {"ex": [["J'aime les comédies musicales.", "나는 뮤지컬을 좋아해."]]}
+      ]
+    },
+    {
+      "h": "-ger · -cer: nous에서만 철자가 바뀐다",
+      "skill": "stem-change",
+      "src": ["semaine 2-2 p.7", "semaine 2-3 p.5", "노션 9/9", "Quiz 1"],
+      "body": [
+        {"table": [["", "manger 먹다", "commencer 시작하다", "rentrer 돌아가다"], ["je", "mange", "commence", "rentre"], ["tu", "manges", "commences", "rentres"], ["il/elle", "mange", "commence", "rentre"], ["nous", "mangeons", "commençons", "rentrons"], ["vous", "mangez", "commencez", "rentrez"], ["ils/elles", "mangent", "commencent", "rentrent"]], "head": true},
+        {"p": "g·c는 a·o·u 앞에서 [g]·[k]로 굳는다. -ons 앞에서 [ʒ]·[s] 소리를 지키려고 **mangeons**, **commençons**. 다른 인칭은 그대로!"},
+        {"ex": [["Nous mangeons comme ça.", "우리는 그냥 이렇게 먹어."], ["Nous téléchargeons des films.", "우리는 영화를 다운로드한다."]]},
+        {"warn": "Quiz 1: Nous téléchargons ✗ → **Nous téléchargeons** (manger와 같은 -ger 규칙)"},
+        {"memo": "필기: \"Nous mangeons (발음 주의)\" [누 망종] · comme ça = 그냥, 그렇게 (like that)"},
+        {"memo": "9/10 수업: rentrer와 la rentrée(개학)는 발음이 같다"}
+      ]
+    },
+    {
+      "h": "appeler · acheter · préférer: nous·vous만 원형 모양",
+      "skill": "stem-change",
+      "src": ["semaine 2-2 p.8", "semaine 2-3 p.6", "노션 9/9", "노션 9/10"],
+      "body": [
+        {"table": [["", "appeler 부르다·전화하다", "acheter 사다", "préférer 선호하다"], ["je", "j'appelle", "j'achète", "préfère"], ["tu", "appelles", "achètes", "préfères"], ["il/elle", "appelle", "achète", "préfère"], ["nous", "appelons", "achetons", "préférons"], ["vous", "appelez", "achetez", "préférez"], ["ils/elles", "appellent", "achètent", "préfèrent"]], "head": true},
+        {"p": "어미가 **소리 안 나는** je·tu·il·ils에서는 어간 모음이 세져서 **ll** 또는 **è**. 어미가 소리 나는 **nous·vous**만 원형 철자 그대로."},
+        {"list": ["appeler: ll ↔ nous appelons · vous appelez", "acheter: è ↔ nous achetons · vous achetez (악상 없음)", "préférer: è ↔ nous préférons · vous préférez (é로 돌아감)"]},
+        {"memo": "필기: \"Vous appelez ★★★\" · \"préférer 발음 주의\" · 9/10: 악상 그라브(è, 입을 크게 '애')와 악상 테귀(é, 좁게 '에')의 발음 차이"},
+        {"warn": "필기 \"악상 그라브 Nous랑 Vous에서 없어짐\" — 맞는 말! 다만 그 자리에 뭐가 남는지는 다르다: acheter는 악상이 아예 없고(achetons), préférer는 원형의 **é**로 돌아간다(préférons)."}
+      ]
+    },
+    {
+      "h": "연습: rencontrer · tomber · répéter",
+      "skill": "pres-er",
+      "src": ["semaine 2-2 p.9", "semaine 2-3 p.7", "노션 9/9"],
+      "body": [
+        {"p": "9/9엔 빈칸 표로 직접 채워 보고, 9/10에 답이 공개됐다."},
+        {"table": [["", "rencontrer 만나다", "tomber 떨어지다", "répéter 반복하다"], ["je", "rencontre", "tombe", "répète"], ["tu", "rencontres", "tombes", "répètes"], ["il/elle", "rencontre", "tombe", "répète"], ["nous", "rencontrons", "tombons", "répétons"], ["vous", "rencontrez", "tombez", "répétez"], ["ils/elles", "rencontrent", "tombent", "répètent"]], "head": true},
+        {"warn": "rencontrer·tomber는 완전 규칙이지만 **répéter는 préférer와 같은 é → è** 패턴: je répète / nous répétons."}
+      ]
+    },
+    {
+      "h": "Dites l'infinitif ① — 1군 어휘 10개",
+      "skill": "pres-er",
+      "src": ["semaine 2-2 p.10–11", "semaine 2-3 p.8–9", "노션 9/9"],
+      "body": [
+        {"table": [["변화형", "원형", "뜻"], ["Nous passons", "passer", "지나가다, (시간을) 보내다"], ["Vous restez", "rester", "남아 있다"], ["Ils montent", "monter", "올라가다"], ["Elle télécharge", "télécharger", "다운로드하다"], ["Tu entres", "entrer", "들어가다"], ["Elles regardent", "regarder", "바라보다"], ["Nous visitons", "visiter", "(장소를) 방문하다"], ["J'utilise", "utiliser", "사용하다"], ["Vous apportez", "apporter", "가져오다"], ["Tu manques", "manquer", "부족하다, 없다"]], "head": true},
+        {"memo": "필기: rester = un faux ami (영어와 가짜 친구) — rest(쉬다)가 아니라 '남아 있다'"},
+        {"memo": "필기: apporter ← porter (들다 / 입고 있다) · 모든 1군 동사처럼 원형 끝 -r(에흐)는 발음 안 함"},
+        {"ex": [["Tu me manques.", "네가 보고 싶어. (네가 나에게 없다)"]]},
+        {"warn": "manquer는 주어가 영어와 반대: Tu me manques = I miss you. 통째로 외우기!"}
+      ]
+    },
+    {
+      "h": "그 밖의 1군: tomber · laisser · quitter · arrêter · donner",
+      "skill": "pres-er",
+      "src": ["semaine 2-2 p.23", "Quiz 1", "노션 9/10"],
+      "body": [
+        {"p": "25문항 드릴의 22–24번(Vous tombez · Ils laissent · Nous quittons)은 불규칙 사이에 섞인 **1군 함정**. 뒤쪽에 있다고 다 불규칙이 아니다."},
+        {"table": [["", "arrêter 멈추다", "donner 주다"], ["je", "j'arrête", "donne"], ["tu", "arrêtes", "donnes"], ["il/elle", "arrête", "donne"], ["nous", "arrêtons", "donnons"], ["vous", "arrêtez", "donnez"], ["ils/elles", "arrêtent", "donnent"]], "head": true},
+        {"warn": "Quiz 1 II: Je arrête ✗ → **J'arrête**. arrêter는 ê가 모든 인칭에서 그대로 (arrètons ✗)."},
+        {"list": ["laisser 놓아두다·내버려두다 — ai = [ɛ]", "quitter (장소·사람을) 떠나다", "tomber — om = 비모음 [ɔ̃]", "donner 주다 — Quiz 1 III-1 Vous donnez"]}
+      ]
+    },
+    {
+      "h": "2군 -ir: finir · choisir · grandir · réfléchir · réussir · grossir",
+      "skill": "pres-ir",
+      "src": ["semaine 2-2 p.12–13", "semaine 2-3 p.10–11", "노션 9/9", "노션 9/10"],
+      "body": [
+        {"p": "-ir을 떼고 **-is · -is · -it · -issons · -issez · -issent**. 복수에서만 **-iss-**가 끼어든다."},
+        {"table": [["", "finir 끝내다", "choisir 고르다", "grandir 자라다"], ["je", "finis", "choisis", "grandis"], ["tu", "finis", "choisis", "grandis"], ["il/elle", "finit", "choisit", "grandit"], ["nous", "finissons", "choisissons", "grandissons"], ["vous", "finissez", "choisissez", "grandissez"], ["ils/elles", "finissent", "choisissent", "grandissent"]], "head": true},
+        {"table": [["", "réfléchir 깊이 생각하다", "réussir 성공하다", "grossir 살찌다"], ["je", "réfléchis", "réussis", "grossis"], ["tu", "réfléchis", "réussis", "grossis"], ["il/elle", "réfléchit", "réussit", "grossit"], ["nous", "réfléchissons", "réussissons", "grossissons"], ["vous", "réfléchissez", "réussissez", "grossissez"], ["ils/elles", "réfléchissent", "réussissent", "grossissent"]], "head": true},
+        {"p": "2군 상당수는 **형용사 + ir** = '~해지다': grand → grandir, gros → grossir, rouge → **rougir**(빨개지다). 드릴엔 **réagir**(반응하다)도 나왔다."},
+        {"memo": "필기: Je réfléchis = \"생각해 볼게요\" · choisir의 명사형 le choix · réfléchir = 깊이 생각하다, 반사하다, 반영하다 · réussir = 성공하다, 시험에 붙다"},
+        {"warn": "단수 -it의 t는 무음 [피니], 복수 -iss-는 [s]로 또렷하게 [피니쏭]. ils finissent의 -ent도 무음 [피니쓰]."}
+      ]
+    },
+    {
+      "h": "발음 한눈에",
+      "skill": "pron",
+      "src": ["노션 9/9", "노션 9/10", "Révision générale"],
+      "body": [
+        {"list": ["-e · -es · -ent 어미는 무음: ils parlent [일 파흘]", "원형 -er의 r도 무음: parler [파흘레]", "ill = [j]: travailler [트하바이예]", "Tu habites [뛰 아빗] — h 무음, tu의 u는 '위'", "nous mangeons [망종] · nous commençons [코망쏭]", "é(좁은 '에') vs è(넓은 '애'): préférons vs préfère", "rentrer = la rentrée (같은 소리)", "2군: il finit [피니] ↔ ils finissent [피니쓰]"]}
+      ]
+    },
+    {
+      "h": "보충: porter · voyager · -ent 소리 · é/è · 동사↔명사 짝",
+      "skill": "pres-er",
+      "src": ["Révision générale p.2–5", "노션 9/9", "노션 9/10"],
+      "body": [
+        {"p": "apporter(가져오다) = a + **porter**(들다 · 입고 있다). porter도 완전 규칙 1군: je porte, nous portons, ils portent."},
+        {"p": "-ger 규칙은 manger · télécharger만이 아니다: **voyager**(여행하다) → nous **voyageons** (Révision générale p.2). 다른 인칭은 그대로 je voyage, vous voyagez."},
+        {"table": [["동사", "명사", "뜻"], ["choisir 선택하다", "le choix", "선택"], ["sortir 나가다", "la sortie", "출구"], ["rentrer 돌아가다", "la rentrée", "개학·복귀 (발음 같음!)"]], "head": true},
+        {"warn": "동사 어미 -ent는 무음 (ils travaillent [일 트하바이]), 하지만 명사·형용사의 -ent는 콧소리 [ɑ̃]: le vent [르 방], content [꽁땅]. OT 필기에서 비교해 두라고 한 짝."},
+        {"p": "**é**(accent aigu)는 입을 좁혀 '에', **è**(accent grave)는 입을 벌려 '애': nous préférons [프헤페홍] ↔ je préfère [프헤패흐]."},
+        {"memo": "9/10 필기: \"악상 그라브 vs 악상떼기 발음 차이 (끊어 발음 여부)\" · 9/9 필기: \"Nous mangeons (발음 주의) · bonne · comme ça (like that, 그냥)\""},
+        {"p": "2군 **형용사 + ir = '~해지다'**: rouge(빨간) → rougir(빨개지다), grand → grandir, gros → grossir."}
+      ]
+    }
+  ],
+  "cards": [
+    {"id": "u0-06-parler", "t": "verb", "inf": "parler", "ko": "말하다", "group": 1, "forms": {"je": "parle", "tu": "parles", "il": "parle", "nous": "parlons", "vous": "parlez", "ils": "parlent"}, "traps": [{"p": "vous", "wrong": "parlé", "why": "vous는 -ez! parlé는 과거분사"}, {"p": "ils", "wrong": "parlont", "why": "3인칭 복수는 -ent (발음 안 함)"}], "note": "1군 기본형. -ent는 무음 → ils parlent [일 파흘]", "src": "semaine 2-2", "skill": "pres-er"},
+    {"id": "u0-06-travailler", "t": "verb", "inf": "travailler", "ko": "일하다, 공부하다", "group": 1, "forms": {"je": "travaille", "tu": "travailles", "il": "travaille", "nous": "travaillons", "vous": "travaillez", "ils": "travaillent"}, "traps": [{"p": "je", "wrong": "travail", "why": "travail은 명사(일). 동사는 je travaille"}], "note": "ill = [j] 소리", "pron": "[트하바이예] · je travaille [트하바이]", "src": "semaine 2-2", "skill": "pres-er"},
+    {"id": "u0-06-habiter", "t": "verb", "inf": "habiter", "ko": "살다, 거주하다", "group": 1, "forms": {"je": "habite", "tu": "habites", "il": "habite", "nous": "habitons", "vous": "habitez", "ils": "habitent"}, "traps": [{"p": "tu", "wrong": "habite", "why": "tu는 -es: tu habites"}], "note": "h는 무음 → j'habite (엘리지옹!)", "pron": "[뛰 아빗]", "star": true, "src": "semaine 2-2", "skill": "pres-er"},
+    {"id": "u0-06-aimer", "t": "verb", "inf": "aimer", "ko": "좋아하다, 사랑하다", "group": 1, "forms": {"je": "aime", "tu": "aimes", "il": "aime", "nous": "aimons", "vous": "aimez", "ils": "aiment"}, "traps": [{"p": "ils", "wrong": "aimont", "why": "3인칭 복수는 -ent"}], "note": "모음 앞 je → j'aime. J'aime les comédies musicales.", "src": "노션 9/10", "skill": "pres-er"},
+    {"id": "u0-06-manger", "t": "verb", "inf": "manger", "ko": "먹다", "group": 1, "forms": {"je": "mange", "tu": "manges", "il": "mange", "nous": "mangeons", "vous": "mangez", "ils": "mangent"}, "traps": [{"p": "nous", "wrong": "mangons", "why": "g 뒤에 e를 남겨야 [ʒ] 소리 유지"}, {"p": "vous", "wrong": "mangeez", "why": "e 추가는 nous만! vous mangez"}], "note": "nous mangeons — e 유지!", "pron": "[누 망종]", "star": true, "src": "semaine 2-2", "skill": "stem-change"},
+    {"id": "u0-06-mangeons", "t": "choice", "prompt": "빈칸에 알맞은 것은?", "q": "Nous ___ comme ça. (manger)", "ko": "우리는 그냥 이렇게 먹어.", "a": "mangeons", "wrong": ["mangons", "mangez", "mangeont"], "say": "Nous mangeons comme ça.", "explain": "-ger 동사는 nous에서 g 뒤에 e를 넣어야 [ʒ] 소리가 유지돼요. mangons은 [망공]이 돼버림!", "pron": "[누 망종]", "star": true, "src": "노션 9/9", "skill": "stem-change", "hint": "-ger 동사의 nous 형태! g를 [ʒ]로 지키려면?"},
+    {"id": "u0-06-commencer", "t": "verb", "inf": "commencer", "ko": "시작하다", "group": 1, "forms": {"je": "commence", "tu": "commences", "il": "commence", "nous": "commençons", "vous": "commencez", "ils": "commencent"}, "traps": [{"p": "nous", "wrong": "commencons", "why": "o 앞에서 [s] 소리를 지키려면 ç"}, {"p": "ils", "wrong": "commençent", "why": "ç는 nous만! e 앞의 c는 원래 [s]"}], "note": "nous commençons — 세디유!", "star": true, "src": "semaine 2-2", "skill": "stem-change"},
+    {"id": "u0-06-commencons", "t": "choice", "prompt": "빈칸에 알맞은 것은?", "q": "Nous ___ à neuf heures. (commencer)", "ko": "우리는 9시에 시작한다.", "a": "commençons", "wrong": ["commencons", "commenceons", "commençez"], "say": "Nous commençons à neuf heures.", "explain": "-cer 동사는 nous에서 c → ç. o 앞에서 [s] 소리를 지키는 세디유예요.", "pron": "[누 코망쏭]", "star": true, "skill": "stem-change", "hint": "-cer 동사의 nous 형태! o 앞에서 c를 [s]로 지키려면?"},
+    {"id": "u0-06-rentrer", "t": "verb", "inf": "rentrer", "ko": "(집에) 돌아가다", "group": 1, "forms": {"je": "rentre", "tu": "rentres", "il": "rentre", "nous": "rentrons", "vous": "rentrez", "ils": "rentrent"}, "traps": [{"p": "je", "wrong": "rentré", "why": "rentré는 과거분사. 현재형 je rentre"}], "note": "rentrer와 la rentrée(개학)는 발음이 같다", "src": "semaine 2-2", "skill": "pres-er"},
+    {"id": "u0-06-appeler", "t": "verb", "inf": "appeler", "ko": "부르다, 전화하다", "group": 1, "forms": {"je": "appelle", "tu": "appelles", "il": "appelle", "nous": "appelons", "vous": "appelez", "ils": "appellent"}, "traps": [{"p": "je", "wrong": "appele", "why": "어미가 무음이면 l을 겹친다: j'appelle"}, {"p": "nous", "wrong": "appellons", "why": "nous·vous는 l 하나: appelons"}, {"p": "vous", "wrong": "appellez", "why": "nous·vous는 l 하나: appelez"}, {"p": "ils", "wrong": "appelent", "why": "ils는 ll: appellent"}], "note": "ll은 je·tu·il·ils, nous·vous만 l 하나", "star": true, "src": "semaine 2-2", "skill": "stem-change"},
+    {"id": "u0-06-appelez", "t": "error", "s": "Vous appellez Marie ce soir ?", "wrong": "appellez", "right": "appelez", "ko": "오늘 저녁에 마리한테 전화해요?", "explain": "appeler는 nous·vous만 l 하나: nous appelons, vous appelez. ll은 je·tu·il·ils!", "star": true, "src": "노션 9/9 (Vous appelez ★★★)", "skill": "stem-change", "hint": "appeler의 l 개수를 의심해봐요 — 주어가 vous!"},
+    {"id": "u0-06-acheter", "t": "verb", "inf": "acheter", "ko": "사다, 구매하다", "group": 1, "forms": {"je": "achète", "tu": "achètes", "il": "achète", "nous": "achetons", "vous": "achetez", "ils": "achètent"}, "traps": [{"p": "je", "wrong": "achete", "why": "어미가 무음이면 è: j'achète"}, {"p": "nous", "wrong": "achètons", "why": "nous·vous는 악상 없음: achetons"}, {"p": "ils", "wrong": "achetent", "why": "ils도 è: achètent"}], "note": "è는 je·tu·il·ils, nous·vous는 악상 없음", "star": true, "src": "semaine 2-2", "skill": "stem-change"},
+    {"id": "u0-06-achetons", "t": "error", "s": "Nous achètons du pain.", "wrong": "achètons", "right": "achetons", "ko": "우리는 빵을 산다.", "explain": "acheter는 nous·vous에서 악상이 사라져요: nous achetons, vous achetez.", "star": true, "skill": "stem-change", "hint": "acheter의 악센트를 의심해봐요 — 주어가 nous!"},
+    {"id": "u0-06-preferer", "t": "verb", "inf": "préférer", "ko": "선호하다, 더 좋아하다", "group": 1, "forms": {"je": "préfère", "tu": "préfères", "il": "préfère", "nous": "préférons", "vous": "préférez", "ils": "préfèrent"}, "traps": [{"p": "je", "wrong": "préfére", "why": "두 번째 é → è: je préfère"}, {"p": "nous", "wrong": "préfèrons", "why": "nous·vous는 é 그대로: préférons"}, {"p": "ils", "wrong": "préférent", "why": "ils도 è: préfèrent"}], "note": "원형은 préférer — è 없이 é 두 개 + -er (préfèrer ✗ · Quiz 1 오답 préféer ✗)", "star": true, "src": "semaine 2-2", "skill": "stem-change"},
+    {"id": "u0-06-preferons", "t": "choice", "prompt": "빈칸에 알맞은 것은?", "q": "Nous ___ le thé. (préférer)", "ko": "우리는 차를 더 좋아한다.", "a": "préférons", "wrong": ["préfèrons", "préferons", "préfèrent"], "say": "Nous préférons le thé.", "explain": "préférer는 nous·vous만 é 그대로(préférons). è는 je·tu·il·ils에서만!", "star": true, "skill": "stem-change", "hint": "préférer의 è는 어떤 인칭에서만? nous는 원형 모양 그대로일까요?"},
+    {"id": "u0-06-rencontrer", "t": "verb", "inf": "rencontrer", "ko": "만나다", "group": 1, "forms": {"je": "rencontre", "tu": "rencontres", "il": "rencontre", "nous": "rencontrons", "vous": "rencontrez", "ils": "rencontrent"}, "src": "semaine 2-3", "skill": "pres-er"},
+    {"id": "u0-06-tomber", "t": "verb", "inf": "tomber", "ko": "떨어지다, 넘어지다", "group": 1, "forms": {"je": "tombe", "tu": "tombes", "il": "tombe", "nous": "tombons", "vous": "tombez", "ils": "tombent"}, "traps": [{"p": "vous", "wrong": "tombé", "why": "vous는 -ez. tombé는 과거분사"}], "note": "om = 비모음 [ɔ̃]", "src": "semaine 2-3", "skill": "pres-er"},
+    {"id": "u0-06-repeter", "t": "verb", "inf": "répéter", "ko": "반복하다", "group": 1, "forms": {"je": "répète", "tu": "répètes", "il": "répète", "nous": "répétons", "vous": "répétez", "ils": "répètent"}, "traps": [{"p": "il", "wrong": "répéte", "why": "두 번째 é → è: il répète"}, {"p": "nous", "wrong": "répètons", "why": "nous·vous는 é 그대로: répétons"}], "note": "préférer와 같은 패턴 (é → è)", "src": "semaine 2-3", "skill": "stem-change"},
+    {"id": "u0-06-passer", "t": "verb", "inf": "passer", "ko": "지나가다, (시간을) 보내다", "group": 1, "forms": {"je": "passe", "tu": "passes", "il": "passe", "nous": "passons", "vous": "passez", "ils": "passent"}, "src": "semaine 2-2", "skill": "pres-er"},
+    {"id": "u0-06-rester", "t": "verb", "inf": "rester", "ko": "남아 있다, 머무르다", "group": 1, "forms": {"je": "reste", "tu": "restes", "il": "reste", "nous": "restons", "vous": "restez", "ils": "restent"}, "note": "faux ami! 영어 rest(쉬다)가 아니라 '남아 있다'", "src": "노션 9/9", "skill": "pres-er"},
+    {"id": "u0-06-monter", "t": "verb", "inf": "monter", "ko": "올라가다", "group": 1, "forms": {"je": "monte", "tu": "montes", "il": "monte", "nous": "montons", "vous": "montez", "ils": "montent"}, "src": "semaine 2-2", "skill": "pres-er"},
+    {"id": "u0-06-telecharger", "t": "verb", "inf": "télécharger", "ko": "다운로드하다", "group": 1, "forms": {"je": "télécharge", "tu": "télécharges", "il": "télécharge", "nous": "téléchargeons", "vous": "téléchargez", "ils": "téléchargent"}, "traps": [{"p": "nous", "wrong": "téléchargons", "why": "-ger → nous -geons (Quiz 1 오답!)"}], "note": "manger와 같은 -ger 규칙: nous téléchargeons", "star": true, "src": "Quiz 1", "skill": "stem-change"},
+    {"id": "u0-06-entrer", "t": "verb", "inf": "entrer", "ko": "들어가다", "group": 1, "forms": {"je": "entre", "tu": "entres", "il": "entre", "nous": "entrons", "vous": "entrez", "ils": "entrent"}, "note": "모음 앞 → j'entre", "src": "semaine 2-2", "skill": "pres-er"},
+    {"id": "u0-06-regarder", "t": "verb", "inf": "regarder", "ko": "바라보다", "group": 1, "forms": {"je": "regarde", "tu": "regardes", "il": "regarde", "nous": "regardons", "vous": "regardez", "ils": "regardent"}, "src": "semaine 2-2", "skill": "pres-er"},
+    {"id": "u0-06-visiter", "t": "verb", "inf": "visiter", "ko": "(장소를) 방문하다", "group": 1, "forms": {"je": "visite", "tu": "visites", "il": "visite", "nous": "visitons", "vous": "visitez", "ils": "visitent"}, "src": "semaine 2-2", "skill": "pres-er"},
+    {"id": "u0-06-utiliser", "t": "verb", "inf": "utiliser", "ko": "사용하다", "group": 1, "forms": {"je": "utilise", "tu": "utilises", "il": "utilise", "nous": "utilisons", "vous": "utilisez", "ils": "utilisent"}, "note": "모음 앞 → j'utilise. 영어처럼 z로 쓰지 않기", "src": "semaine 2-2", "skill": "pres-er"},
+    {"id": "u0-06-apporter", "t": "verb", "inf": "apporter", "ko": "가져오다", "group": 1, "forms": {"je": "apporte", "tu": "apportes", "il": "apporte", "nous": "apportons", "vous": "apportez", "ils": "apportent"}, "traps": [{"p": "je", "wrong": "aporte", "why": "p 두 개: j'apporte"}], "note": "a + porter(들다·입고 있다). 모음 앞 → j'apporte", "src": "노션 9/9", "skill": "pres-er"},
+    {"id": "u0-06-manquer", "t": "verb", "inf": "manquer", "ko": "부족하다, 그립다", "group": 1, "forms": {"je": "manque", "tu": "manques", "il": "manque", "nous": "manquons", "vous": "manquez", "ils": "manquent"}, "note": "Tu me manques. = 네가 보고 싶어", "star": true, "src": "노션 9/9", "skill": "pres-er"},
+    {"id": "u0-06-manques", "t": "choice", "prompt": "뜻은?", "q": "Tu me manques.", "a": "네가 보고 싶어.", "wrong": ["너는 나를 그리워해.", "나는 너를 놓쳤어.", "너는 나를 잊었어."], "say": "Tu me manques.", "explain": "manquer = ~가 (누구에게) 없다 → '네가 나에게 없다' = 보고 싶어. 영어 I miss you와 주어가 반대!", "star": true, "src": "노션 9/9", "skill": "vocab", "hint": "manquer = '~가 (누구에게) 없다'. 주어가 누구인지 봐요!"},
+    {"id": "u0-06-laisser", "t": "verb", "inf": "laisser", "ko": "놓아두다, 내버려두다", "group": 1, "forms": {"je": "laisse", "tu": "laisses", "il": "laisse", "nous": "laissons", "vous": "laissez", "ils": "laissent"}, "traps": [{"p": "je", "wrong": "laise", "why": "s 두 개: je laisse"}], "note": "ai = [ɛ] '에'", "src": "semaine 2-2", "skill": "pres-er"},
+    {"id": "u0-06-quitter", "t": "verb", "inf": "quitter", "ko": "(장소·사람을) 떠나다", "group": 1, "forms": {"je": "quitte", "tu": "quittes", "il": "quitte", "nous": "quittons", "vous": "quittez", "ils": "quittent"}, "traps": [{"p": "nous", "wrong": "quitons", "why": "t 두 개: nous quittons"}], "src": "semaine 2-2", "skill": "pres-er"},
+    {"id": "u0-06-arreter", "t": "verb", "inf": "arrêter", "ko": "멈추다, 그만두다", "group": 1, "forms": {"je": "arrête", "tu": "arrêtes", "il": "arrête", "nous": "arrêtons", "vous": "arrêtez", "ils": "arrêtent"}, "traps": [{"p": "nous", "wrong": "arrètons", "why": "arrêter는 모든 인칭에서 ê 그대로"}, {"p": "je", "wrong": "arrete", "why": "ê(악상 시르콩플렉스)를 빼먹지 말 것"}], "note": "Quiz 1: Je arrête ✗ → J'arrête (엘리지옹!)", "star": true, "src": "Quiz 1", "skill": "pres-er"},
+    {"id": "u0-06-donner", "t": "verb", "inf": "donner", "ko": "주다", "group": 1, "forms": {"je": "donne", "tu": "donnes", "il": "donne", "nous": "donnons", "vous": "donnez", "ils": "donnent"}, "traps": [{"p": "vous", "wrong": "donné", "why": "vous는 -ez. donné는 과거분사"}], "src": "Quiz 1", "skill": "pres-er"},
+    {"id": "u0-06-ent-muet", "t": "choice", "prompt": "Ils parlent의 -ent는 어떻게 발음할까?", "q": "Ils parlent", "a": "발음하지 않는다", "wrong": ["[앙]으로 발음", "[엉뜨]로 발음", "t만 발음"], "say": "Ils parlent.", "explain": "동사 어미 -ent는 항상 무음! 그래서 il parle와 ils parlent는 소리가 같아요 [파흘].", "pron": "[일 파흘]", "src": "노션 9/9", "skill": "pron", "hint": "동사 어미 -ent! il parle와 ils parlent는 소리가 같을까요?"},
+    {"id": "u0-06-finir", "t": "verb", "inf": "finir", "ko": "끝내다, 마치다", "group": 2, "forms": {"je": "finis", "tu": "finis", "il": "finit", "nous": "finissons", "vous": "finissez", "ils": "finissent"}, "traps": [{"p": "il", "wrong": "finis", "why": "il/elle은 -it: il finit"}, {"p": "nous", "wrong": "finons", "why": "복수엔 -iss-: finissons"}, {"p": "ils", "wrong": "finent", "why": "복수엔 -iss-: finissent"}], "note": "2군 기본형: -is -is -it -issons -issez -issent", "star": true, "src": "semaine 2-2", "skill": "pres-ir"},
+    {"id": "u0-06-finissons", "t": "error", "s": "Nous finons le travail à midi.", "wrong": "finons", "right": "finissons", "ko": "우리는 정오에 일을 끝낸다.", "explain": "2군은 복수에서 -iss-가 들어가요: nous finissons, vous finissez, ils finissent.", "skill": "pres-ir", "hint": "finir는 2군 동사! 복수 인칭에선 뭔가 끼어들어요"},
+    {"id": "u0-06-listen-finissent", "t": "listen", "say": "Ils finissent.", "a": "Ils finissent.", "wrong": ["Il finit."], "ko": "그들은 끝낸다.", "pron": "[일 피니쓰]", "explain": "복수는 -iss-의 [s] 소리가 들리고, 단수 il finit는 [피니]로 끝나요.", "skill": "pres-ir", "hint": "단수 vs 복수: 2군 복수는 -iss- 소리가 끼어요. 끝을 잘 들어봐요"},
+    {"id": "u0-06-choisir", "t": "verb", "inf": "choisir", "ko": "고르다, 선택하다", "group": 2, "forms": {"je": "choisis", "tu": "choisis", "il": "choisit", "nous": "choisissons", "vous": "choisissez", "ils": "choisissent"}, "traps": [{"p": "il", "wrong": "choisis", "why": "il/elle은 -it: il choisit"}, {"p": "ils", "wrong": "choisient", "why": "복수엔 -iss-: choisissent"}], "note": "명사형 le choix (선택)", "src": "semaine 2-2", "skill": "pres-ir"},
+    {"id": "u0-06-grandir", "t": "verb", "inf": "grandir", "ko": "자라다, 커지다", "group": 2, "forms": {"je": "grandis", "tu": "grandis", "il": "grandit", "nous": "grandissons", "vous": "grandissez", "ils": "grandissent"}, "traps": [{"p": "nous", "wrong": "grandons", "why": "복수엔 -iss-: grandissons"}], "note": "grand(큰) + ir", "src": "semaine 2-2", "skill": "pres-ir"},
+    {"id": "u0-06-reflechir", "t": "verb", "inf": "réfléchir", "ko": "깊이 생각하다", "group": 2, "forms": {"je": "réfléchis", "tu": "réfléchis", "il": "réfléchit", "nous": "réfléchissons", "vous": "réfléchissez", "ils": "réfléchissent"}, "traps": [{"p": "il", "wrong": "réfléchis", "why": "il/elle은 -it: il réfléchit"}, {"p": "ils", "wrong": "réfléchient", "why": "복수엔 -iss-: réfléchissent"}], "note": "Je réfléchis. = 생각해 볼게요", "src": "노션 9/9", "skill": "pres-ir"},
+    {"id": "u0-06-reussir", "t": "verb", "inf": "réussir", "ko": "성공하다, (시험에) 붙다", "group": 2, "forms": {"je": "réussis", "tu": "réussis", "il": "réussit", "nous": "réussissons", "vous": "réussissez", "ils": "réussissent"}, "traps": [{"p": "nous", "wrong": "réussons", "why": "복수엔 -iss-: réussissons"}, {"p": "il", "wrong": "réussis", "why": "il/elle은 -it: il réussit"}], "src": "semaine 2-2", "skill": "pres-ir"},
+    {"id": "u0-06-grossir", "t": "verb", "inf": "grossir", "ko": "살찌다", "group": 2, "forms": {"je": "grossis", "tu": "grossis", "il": "grossit", "nous": "grossissons", "vous": "grossissez", "ils": "grossissent"}, "traps": [{"p": "ils", "wrong": "grossent", "why": "복수엔 -iss-: grossissent"}], "note": "gros(뚱뚱한) + ir", "src": "semaine 2-2", "skill": "pres-ir"},
+    {"id": "u0-06-listen-grossit", "t": "listen", "say": "Elle grossit.", "a": "Elle grossit.", "wrong": ["Elle grandit.", "Elles grossissent."], "ko": "그녀는 살이 찐다.", "pron": "[엘 그호씨]", "explain": "grossir(살찌다)와 grandir(자라다)를 구분! 복수면 -issent [그호씨쓰]가 들려요.", "skill": "pres-ir", "hint": "grossir(살찌다) vs grandir(자라다), 단수·복수 끝소리도 구분!"},
+    {"id": "u0-06-rougir", "t": "verb", "inf": "rougir", "ko": "(얼굴이) 빨개지다", "group": 2, "forms": {"je": "rougis", "tu": "rougis", "il": "rougit", "nous": "rougissons", "vous": "rougissez", "ils": "rougissent"}, "traps": [{"p": "il", "wrong": "rougis", "why": "il/elle은 -it: il rougit"}], "note": "rouge(빨간) + ir", "src": "노션 9/9", "skill": "pres-ir"},
+    {"id": "u0-06-reagir", "t": "verb", "inf": "réagir", "ko": "반응하다", "group": 2, "forms": {"je": "réagis", "tu": "réagis", "il": "réagit", "nous": "réagissons", "vous": "réagissez", "ils": "réagissent"}, "traps": [{"p": "vous", "wrong": "réagez", "why": "복수엔 -iss-: réagissez"}], "src": "semaine 2-2", "skill": "pres-ir"},
+    {"id": "u0-06-porter", "t": "verb", "inf": "porter", "ko": "들다, 입고 있다", "group": 1, "forms": {"je": "porte", "tu": "portes", "il": "porte", "nous": "portons", "vous": "portez", "ils": "portent"}, "traps": [{"p": "ils", "wrong": "portont", "why": "3인칭 복수는 -ent (발음 안 함)"}, {"p": "vous", "wrong": "porté", "why": "vous는 -ez. porté는 과거분사"}], "note": "a + porter = apporter(가져오다)", "src": "노션 9/9", "skill": "pres-er"},
+    {"id": "u0-06-voyager", "t": "verb", "inf": "voyager", "ko": "여행하다", "group": 1, "forms": {"je": "voyage", "tu": "voyages", "il": "voyage", "nous": "voyageons", "vous": "voyagez", "ils": "voyagent"}, "traps": [{"p": "nous", "wrong": "voyagons", "why": "g 뒤에 e를 남겨야 [ʒ] 소리 유지: voyageons"}, {"p": "vous", "wrong": "voyageez", "why": "e 추가는 nous만! vous voyagez"}], "note": "manger · télécharger와 같은 -ger 규칙", "src": "Révision générale p.2", "skill": "stem-change"},
+    {"id": "u0-06-comme-ca", "t": "word", "skill": "vocab", "fr": "comme ça", "ko": "그렇게, 그냥 (like that)", "note": "Nous mangeons comme ça. — 9/9 수업 중 표현", "src": "노션 9/9"},
+    {"id": "u0-06-choix", "t": "word", "skill": "vocab", "fr": "le choix", "ko": "선택", "g": "m", "note": "choisir(선택하다)의 명사형", "src": "노션 9/9"},
+    {"id": "u0-06-rentree", "t": "choice", "skill": "pron", "hint": "동사 원형 끝 -er과 명사 끝 -ée, 소리가 같을까요?", "prompt": "rentrer와 발음이 똑같은 명사는?", "q": "rentrer (돌아가다) = ___ (개학·복귀)", "a": "la rentrée", "wrong": ["la rentre", "la rente", "le rendez-vous"], "say": "rentrer, la rentrée", "explain": "rentrer [항트헤] = la rentrée [라 항트헤]. 소리가 같으니 관사로 구분!", "src": "노션 9/10"},
+    {"id": "u0-06-e-grave-aigu", "t": "choice", "skill": "pron", "hint": "préfère와 préférons를 소리 내 봐요. 입 모양이 같나요?", "prompt": "악센트와 발음", "q": "é (accent aigu)와 è (accent grave)의 소리 차이는?", "a": "é는 좁게 '에', è는 입을 벌려 '애'", "wrong": ["둘은 소리가 완전히 같다", "é는 '애', è는 좁게 '에'", "è는 소리가 나지 않는다"], "say": "je préfère, nous préférons", "explain": "é [e]는 입을 좁혀 '에', è [ɛ]는 입을 더 벌려 '애'. préférer 한 단어에 둘 다 있어요!", "src": "노션 9/10"},
+    {"id": "u0-06-ent-vent", "t": "choice", "skill": "pron", "hint": "동사 어미 -ent는 늘 묵음! 동사가 아닌 단어를 찾아봐요", "prompt": "발음", "q": "끝의 -ent를 콧소리 [ɑ̃]으로 읽는 것은?", "a": "le vent", "wrong": ["ils travaillent", "elles mangent", "ils parlent"], "say": "le vent, ils travaillent", "explain": "동사 어미 -ent는 무음. 명사 le vent [르 방], 형용사 content [꽁땅]의 -ent만 [ɑ̃]!", "star": true, "src": "Révision générale p.4"},
+    {"id": "u0-06-rester-faux-ami", "t": "choice", "skill": "vocab", "hint": "faux ami(가짜 친구)! 영어 rest와 뜻이 달라요", "prompt": "뜻은?", "q": "Je reste à la maison.", "a": "나는 집에 남아 있다.", "wrong": ["나는 집에서 쉰다.", "나는 집으로 돌아간다.", "나는 집을 떠난다."], "say": "Je reste à la maison.", "explain": "rester = 남아 있다·머무르다. 영어 rest(쉬다)와 닮았지만 뜻이 다른 faux ami!", "star": true, "src": "노션 9/9"},
+    {"id": "u0-06-adj-ir", "t": "choice", "skill": "pres-ir", "hint": "2군 상당수는 형용사 + ir = '~해지다'", "prompt": "2군 동사의 정체", "q": "rouge (빨간) + ir → rougir의 뜻은?", "a": "(얼굴이) 빨개지다", "wrong": ["빨갛게 칠하다", "빨간색", "빨간 것을 고르다"], "say": "rouge, rougir", "explain": "형용사 + ir = '~해지다': rouge → rougir, grand → grandir(자라다), gros → grossir(살찌다).", "src": "노션 9/9"}
+  ]
+}

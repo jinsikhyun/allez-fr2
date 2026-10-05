@@ -1,0 +1,185 @@
+{
+  "id": "u1-15",
+  "unit": "u1",
+  "title": "현재분사 (le participe présent)",
+  "emoji": "🏃",
+  "date": "2026-09-29",
+  "sources": ["semaine 5-1"],
+  "tips": [
+    {
+      "h": "만드는 법 한 줄",
+      "b": "**nous 현재형** → -ons 떼기 → **+ -ant**\nnous parlons → parl- → **parlant**\nnous mangeons → mange- → **mangeant** (e 유지!)"
+    },
+    {
+      "h": "예외 딱 셋",
+      "rows": [
+        ["avoir", "ayant"],
+        ["être", "étant"],
+        ["savoir", "sachant"]
+      ]
+    },
+    {
+      "h": "🔴 성수일치 없음",
+      "b": "une secrétaire **parlant** (parlante ✗)\nles enfants **jouant** (jouants ✗)\n과거분사와 달리 **항상 -ant 그대로**"
+    },
+    {
+      "h": "두 가지 쓰임",
+      "b": "① 명사 뒤 = **qui + 동사**: le train arrivant = le train qui arrive\n② 문장 앞 = 이유·상황: **Étant** malade, il… = 아파서"
+    }
+  ],
+  "note": [
+    {
+      "h": "현재분사란",
+      "skill": "part-pres",
+      "src": ["semaine 5-1 p.11"],
+      "body": [
+        { "p": "슬라이드 정의 세 줄:" },
+        { "ex": [
+          ["Le participe présent est une forme impersonnelle du verbe.", "현재분사는 동사의 비인칭 형태다. (주어 인칭에 따라 안 바뀐다)"],
+          ["Il finit toujours par « -ant ».", "항상 -ant로 끝난다."],
+          ["Il a une valeur verbale. Il peut exprimer une action ou un état.", "동사의 성격을 가진다. 동작이나 상태를 나타낼 수 있다."]
+        ] },
+        { "p": "영어의 **-ing 분사**(a secretary *speaking* three languages)와 거의 같은 역할이라고 생각하면 됩니다." }
+      ]
+    },
+    {
+      "h": "만드는 법 — nous 현재형에서 출발",
+      "skill": "part-pres",
+      "src": ["semaine 5-1 p.11", "semaine 5-1 p.12"],
+      "body": [
+        { "table": [
+          ["원형", "nous 현재형", "현재분사"],
+          ["parler", "nous parlons", "parlant"],
+          ["rester", "nous restons", "restant"],
+          ["travailler", "nous travaillons", "travaillant"],
+          ["manger", "nous mangeons", "mangeant"]
+        ], "head": true },
+        { "warn": "mangeant의 **e를 빼먹지 말 것**. nous mangeons에 e가 들어간 이유(g를 [ʒ]로 읽게 하려고)가 현재분사에도 그대로. mangant ✗ → [망강]으로 읽혀버림." },
+        { "p": "nous에서 출발하는 이유: 불규칙 동사도 nous 형태만 알면 자동으로 풀리기 때문. 연습문제의 prendre → nous **prenons** → **prenant** (prendant ✗)." }
+      ]
+    },
+    {
+      "h": "예외 세 개 — avoir · être · savoir",
+      "skill": "part-pres",
+      "src": ["semaine 5-1 p.13"],
+      "body": [
+        { "table": [
+          ["원형", "nous 현재형", "규칙대로라면?", "실제"],
+          ["avoir", "nous avons", "avant ✗", "ayant"],
+          ["être", "nous sommes", "(-ons가 없음)", "étant"],
+          ["savoir", "nous savons", "savant ✗", "sachant"]
+        ], "head": true },
+        { "memo": "외우는 요령: 규칙대로 만든 가짜 형태가 **이미 다른 단어**라서 비켜간 것. avant = '~전에', savant = '학자·박식한'. être는 nous sommes가 -ons로 안 끝나니 규칙 적용 자체가 불가." }
+      ]
+    },
+    {
+      "h": "쓰임 — 슬라이드 예문 다섯 개",
+      "skill": "part-pres",
+      "src": ["semaine 5-1 p.14"],
+      "body": [
+        { "table": [
+          ["원문", "풀어 쓰면"],
+          ["une secrétaire parlant plusieurs langues", "une secrétaire qui parle…"],
+          ["Le train arrivant de Paris", "Le train qui arrive de Paris"],
+          ["de café acceptant les animaux", "de café qui accepte…"],
+          ["Les clients n'ayant pas de réservation", "Les clients qui n'ont pas…"],
+          ["Étant malade, il…", "Comme il était malade, il…"]
+        ], "head": true },
+        { "ex": [
+          ["Nous cherchons une secrétaire parlant plusieurs langues.", "우리는 여러 언어를 구사하는 비서를 찾고 있다."],
+          ["Le train arrivant de Paris est en retard.", "파리에서 오는 기차가 연착이다."],
+          ["Elle n'a pas trouvé de café acceptant les animaux.", "그녀는 동물 동반이 되는 카페를 찾지 못했다."],
+          ["Les clients n'ayant pas de réservation peuvent attendre ici.", "예약이 없는 손님들은 여기서 기다리시면 됩니다."],
+          ["Étant malade, il n'est pas allé au travail.", "아파서 그는 출근하지 않았다."]
+        ] },
+        { "list": [
+          "① **명사 꾸미기** (예문 1–4): 명사 바로 뒤에서 '~하는 [명사]' = qui + 동사를 줄인 것",
+          "② **문장 앞 이유·상황** (예문 5): 쉼표로 끊고 주절이 이어짐. 현재분사의 의미상 주어 = 주절의 주어"
+        ] },
+        { "p": "부정형은 ne…pas가 현재분사를 감쌉니다: **n'**ayant **pas** — ayant이 모음으로 시작하니 n'. 부정문이라 une réservation → **de** réservation." }
+      ]
+    },
+    {
+      "h": "🔴 성수일치를 하지 않는다",
+      "skill": "part-pres",
+      "src": ["semaine 5-1 p.14", "semaine 5-1 p.15"],
+      "body": [
+        { "list": [
+          "une secrétaire (여성) → **parlant** (parlante ✗)",
+          "un café (남성) → **acceptant**",
+          "les clients (복수) → **ayant** (ayants ✗)",
+          "les enfants (복수) → **jouant** (jouants ✗)"
+        ] },
+        { "p": "정의의 'forme **impersonnelle**', 'valeur **verbale**'가 이 뜻입니다. 형용사가 아니라 **동사**라서 꾸미는 명사에 맞춰 변하지 않아요." },
+        { "warn": "지난 3주 동안의 **과거분사**는 être 동사일 때, 앞에 COD가 올 때 일치했습니다(Elle est partie, Je l'ai achetée). **현재분사는 그런 규칙이 전혀 없습니다.** -ant 뒤에 e/s를 붙일지 고민되면 답은 항상 '붙이지 않는다'." }
+      ]
+    },
+    {
+      "h": "연습문제 (p.76)",
+      "skill": "part-pres",
+      "src": ["semaine 5-1 p.15"],
+      "body": [
+        { "ex": [
+          ["Je regarde les enfants jouant dans le jardin.", "나는 정원에서 노는 아이들을 바라본다."],
+          ["J'ai vu Paul sortant de l'école.", "나는 학교에서 나오는 폴을 봤다."],
+          ["Prenant son manteau, il est parti rapidement.", "외투를 집어 들고 그는 서둘러 떠났다."]
+        ] },
+        { "list": [
+          "1번: nous jouons → jouant. enfants가 복수여도 -s 없음",
+          "2번: nous sortons → sortant. voir + 목적어 + 현재분사 = '~가 …하는 것을 보다'",
+          "3번: nous **prenons** → prenant. 원형만 보고 prendant ✗"
+        ] }
+      ]
+    },
+    {
+      "h": "발음 — -ant",
+      "skill": "pron",
+      "src": ["semaine 5-1"],
+      "body": [
+        { "list": [
+          "-ant은 비모음 [ɑ̃], **끝 t 묵음** — parlant [빠흘랑], restant [헤스땅]",
+          "travaillant [트하바이양] — ill = [j]",
+          "mangeant [망장] — **ea가 [a] 한 소리**. e는 g를 [ʒ]로 만드는 표시일 뿐. [망제앙] ✗",
+          "ayant [에이양] — y가 [ɛj]로 갈라짐. [아양] ✗",
+          "n'ayant [네이양] · étant [에땅] · sachant [사샹]",
+          "arrivant [아히방] · acceptant [악셉땅] (cc = [ks]) · jouant [주앙] · sortant [쏘흐땅] · prenant [프흐낭]",
+          "les‿animaux [레 자니모] · les‿enfants [레 장팡] — 연음 필수",
+          "en retard [앙 흐따흐] — 끝 d 묵음"
+        ] }
+      ]
+    }
+  ],
+  "cards": [
+    { "id": "u1-15-c-parlant", "t": "choice", "skill": "part-pres", "prompt": "parler의 현재분사는?", "q": "parler → ___", "a": "parlant", "wrong": ["parlent", "parlé", "parlante"], "say": "parlant", "hint": "nous 현재형에서 -ons를 떼고 무엇을 붙이죠?", "explain": "nous parlons → parl- → parlant.", "src": "semaine 5-1" },
+    { "id": "u1-15-t-restant", "t": "type", "skill": "part-pres", "prompt": "현재분사로 바꾸세요", "q": "rester → ___", "a": "restant", "hint": "nous 형태부터 떠올려 보세요: nous rest…", "explain": "nous restons → rest- + -ant.", "src": "semaine 5-1" },
+    { "id": "u1-15-t-travaillant", "t": "type", "skill": "part-pres", "prompt": "현재분사로 바꾸세요", "q": "travailler → ___", "a": "travaillant", "hint": "ill을 그대로 두고 어미만 바꿔요.", "explain": "nous travaillons → travaill- + -ant.", "src": "semaine 5-1" },
+    { "id": "u1-15-c-mangeant", "t": "choice", "skill": "part-pres", "prompt": "manger의 현재분사는?", "q": "manger → ___", "a": "mangeant", "wrong": ["mangant", "mangeont", "mangéant"], "say": "mangeant", "hint": "nous 현재형의 철자를 정확히 떠올려 보세요. g 뒤에 뭐가 있었죠?", "explain": "nous mangeons의 e가 그대로 남습니다. 없으면 [망강]으로 읽혀요.", "src": "semaine 5-1", "star": true },
+    { "id": "u1-15-err-mangant", "t": "error", "skill": "part-pres", "s": "J'ai vu Paul mangant une pomme.", "wrong": "mangant", "right": "mangeant", "ko": "나는 사과를 먹는 폴을 봤다.", "hint": "g 뒤에 a가 오면 소리가 어떻게 되나요?", "explain": "g + a는 [ga]. [ʒ] 소리를 지키려면 e가 필요합니다.", "src": "semaine 5-1" },
+    { "id": "u1-15-c-ayant", "t": "choice", "skill": "part-pres", "prompt": "avoir의 현재분사는?", "q": "avoir → ___", "a": "ayant", "wrong": ["avant", "avoyant", "ayent"], "say": "ayant", "hint": "규칙대로 만든 형태는 이미 '~전에'라는 다른 단어예요.", "explain": "예외 셋 중 하나. avant은 전치사라 쓸 수 없어요.", "src": "semaine 5-1", "star": true },
+    { "id": "u1-15-c-etant", "t": "choice", "skill": "part-pres", "prompt": "être의 현재분사는?", "q": "être → ___", "a": "étant", "wrong": ["soyant", "sommant", "été"], "say": "étant", "hint": "nous sommes는 -ons로 끝나지 않아서 규칙을 못 써요.", "explain": "예외. été는 과거분사이니 헷갈리지 말 것.", "src": "semaine 5-1", "star": true },
+    { "id": "u1-15-c-sachant", "t": "choice", "skill": "part-pres", "prompt": "savoir의 현재분사는?", "q": "savoir → ___", "a": "sachant", "wrong": ["savant", "saivant", "sachent"], "say": "sachant", "hint": "규칙대로 만든 형태는 '학자'라는 뜻의 다른 단어예요.", "explain": "예외. savant은 명사·형용사(학자, 박식한)입니다.", "src": "semaine 5-1", "star": true },
+    { "id": "u1-15-c-start-nous", "t": "choice", "skill": "part-pres", "prompt": "현재분사를 만들 때 출발점은?", "q": "어디서 -ant을 붙이나요?", "a": "nous 현재형에서 -ons를 뗀 어간", "wrong": ["동사원형에서 -er·-ir를 뗀 어간", "과거분사에서 -é를 뗀 어간", "je 현재형 그대로"], "say": "", "hint": "슬라이드의 화살표 첫 칸에 적혀 있던 인칭은?", "explain": "nous parlons → (nous) parlons → parlant. 불규칙 동사도 nous만 알면 풀립니다.", "src": "semaine 5-1" },
+    { "id": "u1-15-c-agree-rule", "t": "choice", "skill": "part-pres", "prompt": "현재분사의 성수일치는?", "q": "une secrétaire ___ plusieurs langues", "a": "하지 않는다 — 항상 -ant 그대로", "wrong": ["앞 명사의 성·수에 맞춘다", "être와 쓰일 때만 맞춘다", "복수일 때만 -s를 붙인다"], "say": "", "hint": "정의에 '비인칭 형태, 동사적 성격'이라고 했죠.", "explain": "형용사가 아니라 동사라서 변하지 않습니다. 과거분사 일치와 정반대!", "src": "semaine 5-1", "star": true },
+    { "id": "u1-15-c-ex-parlant", "t": "choice", "skill": "part-pres", "prompt": "빈칸에 알맞은 것은?", "q": "Nous cherchons une secrétaire ___ plusieurs langues.", "ko": "우리는 여러 언어를 구사하는 비서를 찾고 있다.", "a": "parlant", "wrong": ["parlante", "parlants", "parle"], "hint": "secrétaire가 여성이라고 형태를 바꿔야 할까요?", "explain": "현재분사는 성수 불변. secrétaire가 여성이어도 -ant 그대로.", "src": "semaine 5-1", "star": true },
+    { "id": "u1-15-c-ex-arrivant", "t": "choice", "skill": "part-pres", "prompt": "빈칸에 알맞은 것은?", "q": "Le train ___ de Paris est en retard.", "ko": "파리에서 오는 기차가 연착이다.", "a": "arrivant", "wrong": ["arrivé", "arrive", "arrivants"], "hint": "'오고 있는' 기차 — 진행 중인 동작을 꾸미는 형태예요.", "explain": "= le train qui arrive de Paris.", "src": "semaine 5-1" },
+    { "id": "u1-15-c-ex-acceptant", "t": "choice", "skill": "part-pres", "prompt": "빈칸에 알맞은 것은?", "q": "Elle n'a pas trouvé de café ___ les animaux.", "ko": "그녀는 동물 동반이 되는 카페를 찾지 못했다.", "a": "acceptant", "wrong": ["acceptante", "acceptants", "accepté"], "hint": "café를 뒤에서 꾸며요. -ant 뒤에 뭘 붙여야 할까요?", "explain": "= un café qui accepte les animaux. 아무것도 붙이지 않습니다.", "src": "semaine 5-1" },
+    { "id": "u1-15-c-ex-nayant", "t": "choice", "skill": "part-pres", "prompt": "빈칸에 알맞은 것은?", "q": "Les clients ___ pas de réservation peuvent attendre ici.", "ko": "예약이 없는 손님들은 여기서 기다리시면 됩니다.", "a": "n'ayant", "wrong": ["ne ayant", "n'ayants", "n'avant"], "hint": "avoir의 예외 형태 + 모음 앞 부정어 처리, 두 가지를 확인!", "explain": "ne → n' (엘리지옹) + 예외 형태. clients가 복수여도 -s 없음.", "src": "semaine 5-1", "star": true },
+    { "id": "u1-15-c-ex-etant", "t": "choice", "skill": "part-pres", "prompt": "빈칸에 알맞은 것은?", "q": "___ malade, il n'est pas allé au travail.", "ko": "아파서 그는 출근하지 않았다.", "a": "Étant", "wrong": ["Été", "Soyant", "Ayant"], "hint": "'아픈 상태여서' — être의 예외 형태예요.", "explain": "문장 앞 현재분사 = 이유. Comme il était malade와 같은 뜻.", "src": "semaine 5-1" },
+    { "id": "u1-15-c-sens-qui", "t": "choice", "skill": "part-pres", "prompt": "같은 뜻은?", "q": "une secrétaire parlant plusieurs langues", "a": "une secrétaire qui parle plusieurs langues", "wrong": ["une secrétaire qui a parlé plusieurs langues", "une secrétaire pour parler plusieurs langues", "une secrétaire parlée par plusieurs langues"], "say": "", "hint": "명사 뒤 현재분사는 어떤 관계대명사 절을 줄인 것일까요?", "explain": "명사 뒤 현재분사 = qui + 현재형 동사.", "src": "semaine 5-1" },
+    { "id": "u1-15-c-sens-etant", "t": "choice", "skill": "part-pres", "prompt": "« Étant malade »의 뜻은?", "q": "Étant malade, il n'est pas allé au travail.", "a": "아파서", "wrong": ["아팠지만", "아프기 전에", "아프게 되면"], "say": "", "hint": "뒤 문장(출근 안 함)과 어떤 관계인가요?", "explain": "문장 앞 현재분사는 이유·상황. = Comme il était malade.", "src": "semaine 5-1" },
+    { "id": "u1-15-c-ex1-jouant", "t": "choice", "skill": "part-pres", "prompt": "연습문제 1 (p.76)", "q": "Je regarde les enfants ___ dans le jardin.", "ko": "나는 정원에서 노는 아이들을 바라본다.", "a": "jouant", "wrong": ["jouants", "jouent", "joués"], "hint": "enfants가 복수라고 -s를 붙일까요?", "explain": "nous jouons → jouant. 복수여도 불변.", "src": "semaine 5-1", "star": true },
+    { "id": "u1-15-c-ex2-sortant", "t": "choice", "skill": "part-pres", "prompt": "연습문제 2 (p.76)", "q": "J'ai vu Paul ___ de l'école.", "ko": "나는 학교에서 나오는 폴을 봤다.", "a": "sortant", "wrong": ["sorti", "sortent", "sortissant"], "hint": "sortir는 2군이 아니에요. nous 형태를 떠올려 보세요.", "explain": "nous sortons → sortant. voir + 목적어 + 현재분사 = '~가 …하는 걸 보다'.", "src": "semaine 5-1" },
+    { "id": "u1-15-c-ex3-prenant", "t": "choice", "skill": "part-pres", "prompt": "연습문제 3 (p.76)", "q": "___ son manteau, il est parti rapidement.", "ko": "외투를 집어 들고 그는 서둘러 떠났다.", "a": "Prenant", "wrong": ["Prendant", "Pris", "Prenants"], "hint": "원형 말고 nous 현재형에서 출발! d가 남아 있나요?", "explain": "nous prenons → pren- → prenant. 원형만 보면 d를 넣기 쉬워요.", "src": "semaine 5-1", "star": true },
+    { "id": "u1-15-err-jouants", "t": "error", "skill": "part-pres", "s": "Je regarde les enfants jouants dans le jardin.", "wrong": "jouants", "right": "jouant", "ko": "나는 정원에서 노는 아이들을 바라본다.", "hint": "현재분사도 형용사처럼 복수를 표시할까요?", "explain": "현재분사는 성수 불변.", "src": "semaine 5-1", "star": true },
+    { "id": "u1-15-err-prendant", "t": "error", "skill": "part-pres", "s": "Prendant son manteau, il est parti rapidement.", "wrong": "Prendant", "right": "Prenant", "ko": "외투를 집어 들고 그는 서둘러 떠났다.", "hint": "nous 현재형에 d가 있었나요?", "explain": "nous prenons → prenant.", "src": "semaine 5-1" },
+    { "id": "u1-15-err-parlante", "t": "error", "skill": "part-pres", "s": "Nous cherchons une secrétaire parlante plusieurs langues.", "wrong": "parlante", "right": "parlant", "ko": "우리는 여러 언어를 구사하는 비서를 찾고 있다.", "hint": "꾸미는 명사가 여성이라고 형태가 바뀌나요?", "explain": "현재분사는 성수 불변 — 과거분사 일치와 헷갈리지 말 것.", "src": "semaine 5-1" },
+    { "id": "u1-15-b-nayant", "t": "build", "skill": "part-pres", "prompt": "문장을 만드세요", "ko": "예약이 없는 손님들은 여기서 기다리시면 됩니다.", "a": "Les clients n'ayant pas de réservation peuvent attendre ici.", "extra": ["ayants", "une"], "hint": "부정문이라 관사가 바뀌고, 현재분사는 복수 표시가 없어요.", "explain": "ne…pas가 현재분사를 감싸고, 부정문에서 une → de.", "src": "semaine 5-1" },
+    { "id": "u1-15-b-train", "t": "build", "skill": "part-pres", "prompt": "문장을 만드세요", "ko": "파리에서 오는 기차가 연착이다.", "a": "Le train arrivant de Paris est en retard.", "extra": ["arrivé"], "hint": "'오는'은 진행 중인 동작. 명사 바로 뒤에 붙여요.", "explain": "명사 + 현재분사 = qui + 동사. être en retard = 늦다.", "src": "semaine 5-1" },
+    { "id": "u1-15-l-mangeant", "t": "listen", "skill": "pron", "say": "mangeant", "a": "mangeant", "wrong": ["mangent", "mangeons"], "ko": "먹는 (현재분사)", "pron": "[망장]", "hint": "끝소리가 콧소리 [앙]인지 들어보세요.", "explain": "mangeant [망장] · mangent [망주] · mangeons [망종].", "src": "semaine 5-1" },
+    { "id": "u1-15-c-ayant-pron", "t": "choice", "skill": "pron", "prompt": "ayant의 발음은?", "q": "avoir의 현재분사를 어떻게 읽나요?", "a": "[에이양]", "wrong": ["[아양]", "[아이앙뜨]", "[에양뜨]"], "say": "ayant", "hint": "y가 앞뒤 모음에 나뉘어 붙고, 끝 t는…?", "explain": "y = [ɛj]로 갈라지고 끝 t는 묵음.", "src": "semaine 5-1" },
+    { "id": "u1-15-w-en-retard", "t": "word", "skill": "vocab", "fr": "être en retard", "ko": "늦다, 연착하다", "pron": "[에트흐 앙 흐따흐]", "src": "semaine 5-1" },
+    { "id": "u1-15-w-reservation", "t": "word", "skill": "vocab", "fr": "la réservation", "ko": "예약", "g": "f", "src": "semaine 5-1" },
+    { "id": "u1-15-w-manteau", "t": "word", "skill": "vocab", "fr": "le manteau", "ko": "외투, 코트", "g": "m", "pron": "[르 망또]", "src": "semaine 5-1" },
+    { "id": "u1-15-w-rapidement", "t": "word", "skill": "vocab", "fr": "rapidement", "ko": "빨리, 서둘러", "src": "semaine 5-1" }
+  ]
+}

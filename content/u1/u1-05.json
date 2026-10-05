@@ -1,0 +1,518 @@
+{
+  "id": "u1-05",
+  "unit": "u1",
+  "title": "être를 쓰는 동사",
+  "emoji": "🚶",
+  "date": "2026-09-16",
+  "sources": ["semaine 3-2", "semaine 3-3", "노션 9/16", "노션 9/17"],
+  "tips": [
+    {
+      "h": "être 동사 15개 (짝으로 외우기)",
+      "rows": [
+        ["aller ↔ venir", "allé · venu"],
+        ["entrer ↔ sortir", "entré · sorti"],
+        ["arriver ↔ partir", "arrivé · parti"],
+        ["monter ↔ descendre", "monté · descendu"],
+        ["naître ↔ mourir", "né · mort"],
+        ["tomber · passer", "tombé · passé"],
+        ["devenir · rester · rentrer", "devenu · resté · rentré"]
+      ]
+    },
+    {
+      "h": "être면 주어에 성·수 일치",
+      "b": "Il est allé / Elle est allé**e**\nIls sont allé**s** / Elles sont allé**es**\navoir는 주어와 일치 X → Elle **a mangé** (mangée ✗)"
+    },
+    {
+      "h": "귀로 들리는 건 mort → morte",
+      "b": "allé / allée / allés / allées 전부 [알레] → **쓰기에서만** 구별\nIl est mort [모흐] · Elle est mor**te** [모흐뜨]"
+    },
+    {
+      "h": "on = 3인칭 단수",
+      "b": "On vient → **On est venu** (On sont venus ✗)"
+    }
+  ],
+  "note": [
+    {
+      "h": "복합과거 ② — être + 과거분사",
+      "skill": "aux",
+      "src": [
+        "semaine 3-2 p.26",
+        "semaine 3-2 p.27",
+        "노션 9/16"
+      ],
+      "body": [
+        {
+          "p": "이동·상태 변화를 나타내는 동사(**les verbes de déplacement**)는 조동사로 avoir 대신 **être**를 쓴다.\n형태: **être 현재형 + 과거분사**"
+        },
+        {
+          "table": [
+            [
+              "주어",
+              "être",
+              "aller"
+            ],
+            [
+              "je",
+              "suis",
+              "allé / allée"
+            ],
+            [
+              "tu",
+              "es",
+              "allé / allée"
+            ],
+            [
+              "il / elle",
+              "est",
+              "allé / allée"
+            ],
+            [
+              "nous",
+              "sommes",
+              "allés / allées"
+            ],
+            [
+              "vous",
+              "êtes",
+              "allé · allée · allés · allées"
+            ],
+            [
+              "ils / elles",
+              "sont",
+              "allés / allées"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "list": [
+            "-er → -é: aller → allé, entrer → entré, passer → passé",
+            "-ir → -i: partir → parti, sortir → sorti",
+            "과거분사 만드는 규칙은 avoir 때와 똑같다"
+          ]
+        },
+        {
+          "ex": [
+            [
+              "Je vais → Je suis allé.",
+              "나(남)는 갔다."
+            ],
+            [
+              "J'entre → Je suis entrée.",
+              "나(여)는 들어갔다."
+            ],
+            [
+              "Tu passes → Tu es passé.",
+              "너(남)는 지나갔다."
+            ],
+            [
+              "Je pars → Je suis partie.",
+              "나(여)는 떠났다."
+            ],
+            [
+              "Tu sors → Tu es sorti.",
+              "너(남)는 나갔다."
+            ]
+          ]
+        },
+        {
+          "memo": "슬라이드 p.31 제목 «Au secours !» = 도와줘! (영상 링크 슬라이드)"
+        }
+      ]
+    },
+    {
+      "h": "être를 쓰는 동사 15개",
+      "skill": "aux",
+      "src": [
+        "semaine 3-2 p.28–30",
+        "노션 9/16"
+      ],
+      "body": [
+        {
+          "table": [
+            [
+              "원형",
+              "과거분사",
+              "뜻"
+            ],
+            [
+              "aller",
+              "allé",
+              "가다"
+            ],
+            [
+              "venir",
+              "venu",
+              "오다"
+            ],
+            [
+              "entrer",
+              "entré",
+              "들어가다"
+            ],
+            [
+              "sortir",
+              "sorti",
+              "나가다"
+            ],
+            [
+              "arriver",
+              "arrivé",
+              "도착하다"
+            ],
+            [
+              "partir",
+              "parti",
+              "떠나다"
+            ],
+            [
+              "monter",
+              "monté",
+              "올라가다"
+            ],
+            [
+              "descendre",
+              "descendu",
+              "내려가다"
+            ],
+            [
+              "naître",
+              "né",
+              "태어나다"
+            ],
+            [
+              "mourir",
+              "mort",
+              "죽다"
+            ],
+            [
+              "tomber",
+              "tombé",
+              "넘어지다 · 떨어지다"
+            ],
+            [
+              "passer",
+              "passé",
+              "지나가다 · 들르다"
+            ],
+            [
+              "devenir",
+              "devenu",
+              "~이 되다"
+            ],
+            [
+              "rester",
+              "resté",
+              "머무르다 · 남다"
+            ],
+            [
+              "rentrer",
+              "rentré",
+              "돌아가다 · 귀가하다"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "p": "반대 짝으로 외우면 편하다: aller ↔ venir · entrer ↔ sortir · arriver ↔ partir · monter ↔ descendre · naître ↔ mourir"
+        },
+        {
+          "memo": "naître / mourir는 이동은 아니지만 \"삶에 들어옴·나감\"이라 같은 무리로 묶인다. 과거분사 **né, mort**는 불규칙이니 따로 외우기. (노션 9/16)"
+        },
+        {
+          "warn": "모양이 비슷해도 무리 밖이면 avoir: connaître → **Elle a connu** (naître → Elle est née와 혼동 주의), visiter → **Nous avons visité**"
+        }
+      ]
+    },
+    {
+      "h": "성·수 일치 — 주어에 맞춘다",
+      "skill": "agreement",
+      "src": [
+        "semaine 3-2 p.28–30",
+        "semaine 3-3 p.9",
+        "노션 9/16",
+        "노션 9/17"
+      ],
+      "body": [
+        {
+          "p": "être를 쓰면 과거분사가 형용사처럼 **주어의 성·수**에 맞춰 변한다. 여성 **+e**, 복수 **+s**."
+        },
+        {
+          "table": [
+            [
+              "",
+              "단수",
+              "복수"
+            ],
+            [
+              "남성",
+              "Il est allé",
+              "Ils sont allés"
+            ],
+            [
+              "여성",
+              "Elle est allée",
+              "Elles sont allées"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "ex": [
+            [
+              "Elle est partie.",
+              "그녀는 떠났다."
+            ],
+            [
+              "Nous sommes venus.",
+              "우리(남)는 왔다."
+            ],
+            [
+              "Ils sont descendus.",
+              "그들은 내려갔다."
+            ],
+            [
+              "Elles sont tombées.",
+              "그녀들은 넘어졌다."
+            ]
+          ]
+        },
+        {
+          "list": [
+            "남녀가 섞이면 남성 복수: Paul et Léa sont partis.",
+            "존칭 vous가 한 사람이면 단수: Madame, vous êtes venue ?",
+            "슬라이드의 monté(e)(s) 표기 = 주어에 따라 monté · montée · montés · montées"
+          ]
+        },
+        {
+          "warn": "avoir는 주어와 일치하지 않는다: Elle a mangé (mangée ✗). 단, COD가 앞에 오는 경우는 따로 → 「과거분사 성수일치」 레슨"
+        },
+        {
+          "memo": "노션 9/17: \"주어와 항상 성수일치를 해주자.\""
+        }
+      ]
+    },
+    {
+      "h": "on = 3인칭 단수",
+      "skill": "on",
+      "src": [
+        "semaine 3-2 p.36",
+        "노션 9/16"
+      ],
+      "body": [
+        {
+          "p": "on은 뜻이 \"우리\"여도 문법은 **3인칭 단수** → être는 **est**."
+        },
+        {
+          "ex": [
+            [
+              "On vient → On est venu.",
+              "우리는 왔다."
+            ],
+            [
+              "On devient → On est devenu.",
+              "우리는 ~이 되었다."
+            ]
+          ]
+        },
+        {
+          "warn": "On sont venus ✗ — Quiz 1의 On part, 부정·의문 연습의 On a vu에 이어 또 나온 함정"
+        },
+        {
+          "p": "뉘앙스: on이 '우리'를 뜻하면 과거분사를 복수로 맞춘 **On est venus**도 표준으로 인정돼요. 어느 쪽이든 조동사는 무조건 **est**."
+        }
+      ]
+    },
+    {
+      "h": "발음 — 일치는 거의 안 들린다",
+      "skill": "pron",
+      "src": [
+        "노션 9/16"
+      ],
+      "body": [
+        {
+          "list": [
+            "allé / allée / allés / allées → 전부 [알레]. 쓰기에서만 구별",
+            "né / née → 둘 다 [네]",
+            "예외: Il est mort [모흐] / Elle est morte [모흐뜨] — 여성형에서 t가 살아남",
+            "Je suis allé [쥬 쒸 잘레] · Nous sommes allés [누 쏨 잘레] — 연음",
+            "Ils sont arrivés [일 쏭 따히베] — sont의 t가 넘어감 (필수 연음은 아님)"
+          ]
+        }
+      ]
+    },
+    {
+      "h": "슬라이드 예문 — 남자일 때 · 여자일 때 (p.26–27)",
+      "skill": "agreement",
+      "src": [
+        "semaine 3-2 p.26–27",
+        "노션 9/16"
+      ],
+      "body": [
+        {
+          "table": [
+            [
+              "현재",
+              "남자 주어",
+              "여자 주어"
+            ],
+            [
+              "Je vais",
+              "Je suis allé",
+              "Je suis allée"
+            ],
+            [
+              "J'entre",
+              "Je suis entré",
+              "Je suis entrée"
+            ],
+            [
+              "Tu passes",
+              "Tu es passé",
+              "Tu es passée"
+            ],
+            [
+              "Je pars",
+              "Je suis parti",
+              "Je suis partie"
+            ],
+            [
+              "Tu sors",
+              "Tu es sorti",
+              "Tu es sortie"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "p": "슬라이드는 같은 문장을 두 줄로 보여 줘요 — 아랫줄이 여성형(-e에 밑줄). je · tu는 **말하는 사람 / 듣는 사람의 성별**에 맞춰요."
+        },
+        {
+          "warn": "J'entre의 j'는 현재형에서만! 복합과거는 조동사가 suis(자음)라 **Je** suis entré."
+        },
+        {
+          "memo": "필기(9/16) 뜻: monter 올라가다 · descendre 내려가다 · naître 태어나다 · mourir 죽다 · tomber 넘어지다 · passer 지나가다 · devenir 되다 · rester 남아 있다 · rentrer 다시 들어가다(→ 돌아가다·귀가하다)"
+        },
+        {
+          "memo": "필기: \"언제나 성수 일치!!\""
+        }
+      ]
+    },
+    {
+      "h": "Au secours ! (p.31 영상 슬라이드)",
+      "skill": "vocab",
+      "src": [
+        "semaine 3-2 p.31",
+        "노션 9/16"
+      ],
+      "body": [
+        {
+          "p": "9/16 마지막 슬라이드: 제목 **Au secours !** (도와줘요! 살려줘요!) + 그림 두 점(〈Moulin Rouge · La Goulue〉 포스터 등) + 유튜브 영상 링크."
+        },
+        {
+          "memo": "필기: Au secours ! = 도와줘! — 표현 하나만 챙겨 두기."
+        }
+      ]
+    }
+  ],
+  "cards": [
+    { "id": "u1-05-aller", "t": "pp", "skill": "aux", "inf": "aller", "ko": "가다", "pp": "allé", "aux": "être",
+      "ex": { "fr": "Il est allé à Paris.", "ko": "그는 파리에 갔다." }, "src": "semaine 3-2" },
+    { "id": "u1-05-venir", "t": "pp", "skill": "pp", "inf": "venir", "ko": "오다", "pp": "venu", "aux": "être",
+      "ex": { "fr": "Paul est venu avec nous.", "ko": "폴은 우리와 함께 왔다." }, "star": true, "src": "semaine 3-2" },
+    { "id": "u1-05-entrer", "t": "pp", "skill": "aux", "inf": "entrer", "ko": "들어가다", "pp": "entré", "aux": "être",
+      "ex": { "fr": "Il est entré dans la classe.", "ko": "그는 교실에 들어갔다." }, "src": "semaine 3-2" },
+    { "id": "u1-05-sortir", "t": "pp", "skill": "aux", "inf": "sortir", "ko": "나가다", "pp": "sorti", "aux": "être",
+      "ex": { "fr": "Hier soir, il est sorti avec ses amis.", "ko": "어젯밤 그는 친구들과 외출했다." }, "src": "semaine 3-2" },
+    { "id": "u1-05-arriver", "t": "pp", "skill": "aux", "inf": "arriver", "ko": "도착하다", "pp": "arrivé", "aux": "être",
+      "ex": { "fr": "Le train est arrivé à midi.", "ko": "기차는 정오에 도착했다." }, "src": "semaine 3-2" },
+    { "id": "u1-05-partir", "t": "pp", "skill": "aux", "inf": "partir", "ko": "떠나다", "pp": "parti", "aux": "être",
+      "ex": { "fr": "Mon frère est parti ce matin.", "ko": "형은 오늘 아침에 떠났다." }, "src": "semaine 3-2" },
+    { "id": "u1-05-monter", "t": "pp", "skill": "aux", "inf": "monter", "ko": "올라가다 · (탈것에) 타다", "pp": "monté", "aux": "être",
+      "ex": { "fr": "Il est monté dans le bus.", "ko": "그는 버스에 올라탔다." }, "src": "semaine 3-2" },
+    { "id": "u1-05-descendre", "t": "pp", "skill": "pp", "inf": "descendre", "ko": "내려가다 · 내리다", "pp": "descendu", "aux": "être",
+      "ex": { "fr": "Il est descendu du train.", "ko": "그는 기차에서 내렸다." }, "star": true, "src": "semaine 3-2" },
+    { "id": "u1-05-naitre", "t": "pp", "skill": "pp", "inf": "naître", "ko": "태어나다", "pp": "né", "aux": "être",
+      "ex": { "fr": "Mon père est né à Busan.", "ko": "아버지는 부산에서 태어나셨다." }, "star": true, "src": "semaine 3-2" },
+    { "id": "u1-05-mourir", "t": "pp", "skill": "pp", "inf": "mourir", "ko": "죽다", "pp": "mort", "aux": "être",
+      "ex": { "fr": "Napoléon est mort en 1821.", "ko": "나폴레옹은 1821년에 죽었다." }, "star": true, "src": "semaine 3-2" },
+    { "id": "u1-05-tomber", "t": "pp", "skill": "aux", "inf": "tomber", "ko": "넘어지다 · 떨어지다", "pp": "tombé", "aux": "être",
+      "ex": { "fr": "Le petit garçon est tombé dans la rue.", "ko": "꼬마가 길에서 넘어졌다." }, "src": "semaine 3-2" },
+    { "id": "u1-05-passer", "t": "pp", "skill": "aux", "inf": "passer", "ko": "지나가다 · 들르다", "pp": "passé", "aux": "être",
+      "ex": { "fr": "Il est passé chez moi hier.", "ko": "그는 어제 우리 집에 들렀다." }, "src": "semaine 3-2" },
+    { "id": "u1-05-devenir", "t": "pp", "skill": "pp", "inf": "devenir", "ko": "~이 되다", "pp": "devenu", "aux": "être",
+      "ex": { "fr": "Il est devenu médecin.", "ko": "그는 의사가 되었다." }, "src": "semaine 3-2" },
+    { "id": "u1-05-rester", "t": "pp", "skill": "aux", "inf": "rester", "ko": "머무르다 · 남다", "pp": "resté", "aux": "être",
+      "ex": { "fr": "Il est resté à la maison.", "ko": "그는 집에 머물렀다." }, "src": "semaine 3-2" },
+    { "id": "u1-05-rentrer", "t": "pp", "skill": "aux", "inf": "rentrer", "ko": "돌아가다 · 귀가하다", "pp": "rentré", "aux": "être",
+      "ex": { "fr": "Il est rentré à minuit.", "ko": "그는 자정에 집에 돌아왔다." }, "src": "semaine 3-2" },
+
+    { "id": "u1-05-arrivees", "t": "choice", "skill": "aux", "hint": "arriver는 이동 동사! 조동사는 뭘까요? 주어는 elles", "prompt": "빈칸에 알맞은 것은?",
+      "q": "Elles ___ arrivées hier soir.", "ko": "그녀들은 어제 저녁에 도착했다.",
+      "a": "sont", "wrong": ["ont", "est", "sommes"],
+      "explain": "arriver는 être 동사 → elles에 맞춰 sont. 과거분사도 여성 복수 -ées.", "star": true, "src": "semaine 3-2 #4" },
+    { "id": "u1-05-nee", "t": "choice", "skill": "agreement", "hint": "naître는 être 동사! 주어 ma sœur의 성은?", "prompt": "빈칸에 알맞은 것은?",
+      "q": "Ma petite sœur est ___ en 2008.", "ko": "내 여동생은 2008년에 태어났다.",
+      "a": "née", "wrong": ["né", "nées", "naît"],
+      "explain": "naître → né. 주어가 여성 단수라 -e를 붙여 née.", "star": true },
+    { "id": "u1-05-morte", "t": "choice", "skill": "agreement", "hint": "mourir의 과거분사는 불규칙! 주어 grand-mère의 성은?", "prompt": "빈칸에 알맞은 것은?",
+      "q": "Ma grand-mère est ___ l'année dernière.", "ko": "할머니는 작년에 돌아가셨다.",
+      "a": "morte", "wrong": ["mort", "mourue", "morts"], "pron": "[모흐뜨]",
+      "explain": "mourir → mort (불규칙). 여성 주어라 morte — 이건 t 소리까지 살아나요.", "star": true },
+    { "id": "u1-05-descendue", "t": "choice", "skill": "agreement", "hint": "être 동사면 주어에 일치! -re 동사 과거분사 + Marie의 성·수", "prompt": "빈칸에 알맞은 것은?",
+      "q": "Marie est ___ du bus.", "ko": "마리는 버스에서 내렸다.",
+      "a": "descendue", "wrong": ["descendu", "descendus", "descendée"],
+      "explain": "descendre → descendu, 여성 단수 주어 → descendue." },
+    { "id": "u1-05-parties", "t": "choice", "skill": "agreement", "hint": "Sophie et Julie = 몇 명, 무슨 성? être 동사는 주어에 일치!", "prompt": "빈칸에 알맞은 것은?",
+      "q": "Sophie et Julie sont ___ ce matin.", "ko": "소피와 쥘리는 오늘 아침에 떠났다.",
+      "a": "parties", "wrong": ["parti", "partis", "partie"],
+      "explain": "여자 두 명 = 여성 복수 → parti + es." },
+    { "id": "u1-05-venue", "t": "choice", "skill": "agreement", "hint": "존칭 vous라도 실제로는 부인 한 명! 성·수는?", "prompt": "빈칸에 알맞은 것은?",
+      "q": "Madame, vous êtes ___ à quelle heure ?", "ko": "부인, 몇 시에 오셨어요?",
+      "a": "venue", "wrong": ["venu", "venus", "venues"],
+      "explain": "존칭 vous가 여성 한 명 → 여성 단수 venue. 슬라이드의 (e)(s) 표기가 바로 이 경우예요." },
+    { "id": "u1-05-avoir-visite", "t": "choice", "skill": "aux", "hint": "visiter는 이동 동사 목록에 있을까요? nous형도 확인!", "prompt": "avoir? être?",
+      "q": "Nous ___ visité le musée.", "ko": "우리는 박물관을 구경했다.",
+      "a": "avons", "wrong": ["sommes", "sont", "avez"],
+      "explain": "visiter는 이동동사 15개에 없음 → avoir. être는 정해진 무리만!", "src": "semaine 3-2 #23" },
+    { "id": "u1-05-which-etre", "t": "choice", "skill": "aux", "hint": "이동·상태 변화 동사를 찾아봐요! 모양이 닮은 두 동사 주의", "prompt": "복합과거에 être를 쓰는 동사는?",
+      "q": "넷 중 하나만 être 동사!", "say": "",
+      "a": "naître", "wrong": ["connaître", "finir", "prendre"],
+      "explain": "naître(태어나다)는 être 무리. 모양이 비슷한 connaître(알다)는 avoir → a connu." },
+    { "id": "u1-05-mange", "t": "choice", "skill": "agreement", "hint": "조동사가 avoir예요! avoir면 주어와 일치할까요?", "prompt": "빈칸에 알맞은 것은?",
+      "q": "Elle a ___ au restaurant.", "ko": "그녀는 식당에서 먹었다.",
+      "a": "mangé", "wrong": ["mangée", "mangés", "manger"],
+      "explain": "조동사가 avoir면 주어가 여성이어도 주어와 일치 X → mangé.", "star": true },
+
+    { "id": "u1-05-err-allee", "t": "error", "skill": "agreement", "hint": "aller는 être 동사! 주어 elle에 일치했나요?",
+      "s": "Elle est allé au marché.", "wrong": "allé", "right": "allée",
+      "ko": "그녀는 시장에 갔다.", "explain": "être 동사 → 주어 elle에 맞춰 allée.", "star": true },
+    { "id": "u1-05-err-ont-arrives", "t": "error", "skill": "aux", "hint": "arriver는 이동 동사! 조동사부터 확인해봐요",
+      "s": "Ils ont arrivés à midi.", "wrong": "ont", "right": "sont",
+      "ko": "그들은 정오에 도착했다.", "explain": "arriver는 이동동사 → 조동사 être: Ils sont arrivés." },
+    { "id": "u1-05-err-mouru", "t": "error", "skill": "pp", "hint": "mourir의 과거분사는 완전 불규칙! -u가 맞을까요?",
+      "s": "Victor Hugo est mouru en 1885.", "wrong": "mouru", "right": "mort",
+      "ko": "빅토르 위고는 1885년에 죽었다.", "explain": "mourir의 과거분사는 mort (완전 불규칙).", "star": true },
+
+    { "id": "u1-05-b-arrivee", "t": "build", "skill": "agreement", "hint": "arriver는 이동 동사! 조동사 정하고 주어 elle에 일치", "prompt": "문장을 만드세요",
+      "ko": "그녀는 어제 파리에 도착했다.",
+      "a": "Elle est arrivée à Paris hier.", "alts": ["Elle est arrivée hier à Paris."], "extra": ["a", "arrivé"],
+      "explain": "arriver → être + 여성 단수 일치 arrivée." },
+    { "id": "u1-05-b-partis", "t": "build", "skill": "aux", "hint": "partir는 이동 동사! 조동사와 ils의 성·수 일치를 챙겨요", "prompt": "복합과거로 바꾸세요",
+      "from": "Ils partent à huit heures.",
+      "a": "Ils sont partis à huit heures.", "extra": ["ont", "parti"],
+      "ko": "그들은 8시에 떠났다.",
+      "explain": "partir는 être 동사 → sont, 남성 복수 -s." },
+    { "id": "u1-05-b-nee", "t": "build", "skill": "agreement", "hint": "naître는 être 동사! 주어 grand-mère에 일치해봐요", "prompt": "문장을 만드세요",
+      "ko": "우리 할머니는 1950년에 태어나셨다.",
+      "a": "Ma grand-mère est née en 1950.", "extra": ["a", "né"],
+      "explain": "naître → être + 여성 단수 née." },
+    {"id":"u1-05-t-vais","t":"type","skill":"agreement","prompt":"복합과거로 바꾸세요 — 말하는 사람은 여자","q":"Je vais.","a":"Je suis allée","hint":"이동 동사의 조동사는? 주어(여자)에 성 일치까지!","explain":"aller → être + allé. 여자면 -e: Je suis allée (슬라이드 p.26).","star":true,"src":"semaine 3-2 p.26"},
+    {"id":"u1-05-c-entre","t":"choice","skill":"aux","prompt":"복합과거로 — 말하는 사람은 남자","q":"J'entre. → Je ___.","a":"suis entré","wrong":["ai entré","suis entrée","suis entrer"],"say":"Je suis entré.","hint":"entrer는 이동 동사! 남자 주어면 과거분사에 뭘 붙일까?","explain":"entrer → 조동사 être. 남자 단수라 entré 그대로: Je suis entré (슬라이드 p.26).","src":"semaine 3-2 p.26"},
+    {"id":"u1-05-c-passes","t":"choice","skill":"agreement","prompt":"복합과거로 — tu는 여자 친구","q":"Tu passes. → Tu ___.","a":"es passée","wrong":["est passée","es passé","es passés"],"say":"Tu es passée.","hint":"passer도 이동 동사 무리! tu의 être 형태와 성별을 확인","explain":"passer → être. tu가 여자면 -e: Tu es passée (슬라이드 p.26). est는 il/elle 형태.","src":"semaine 3-2 p.26"},
+    {"id":"u1-05-t-pars","t":"type","skill":"agreement","prompt":"복합과거로 바꾸세요 — 말하는 사람은 여자","q":"Je pars.","a":"Je suis partie","hint":"-ir 이동 동사 → 과거분사는 -i, 여자면?","explain":"partir → parti, 조동사 être. 여자 주어 → Je suis partie (슬라이드 p.27).","src":"semaine 3-2 p.27"},
+    {"id":"u1-05-c-sors","t":"choice","skill":"aux","prompt":"복합과거로 — tu는 남자 친구","q":"Tu sors. → Tu ___.","a":"es sorti","wrong":["as sorti","es sortie","es sortis"],"say":"Tu es sorti.","hint":"9/15엔 과거분사만 물었던 그 동사 — 조동사는 이동 동사 쪽!","explain":"sortir → être + sorti. 남자 단수라 -e 없음: Tu es sorti (슬라이드 p.27).","src":"semaine 3-2 p.27"},
+    {"id":"u1-05-w-secours","t":"word","skill":"vocab","fr":"Au secours !","ko":"도와줘요! 살려줘요!","note":"9/16 슬라이드 p.31 영상 제목","src":"semaine 3-2 p.31"},
+    {"id":"u1-05-w-deplacement","t":"word","skill":"vocab","fr":"les verbes de déplacement","ko":"이동 동사 (복합과거 조동사 être)","note":"슬라이드 p.26–30 제목","src":"semaine 3-2 p.26"}
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "id": "u2-03",
+  "unit": "u2",
+  "title": "9/30 필기 보충",
+  "emoji": "📝",
+  "date": "2026-09-30",
+  "sources": [
+    "노션 9/30"
+  ],
+  "tips": [
+    {
+      "h": "-al → -aux",
+      "b": "animal → **animaux**, travail → **travaux**"
+    },
+    {
+      "h": "devoir · savoir",
+      "rows": [
+        [
+          "je/tu",
+          "dois / sais"
+        ],
+        [
+          "il",
+          "doit / sait"
+        ],
+        [
+          "nous",
+          "devons / savons"
+        ],
+        [
+          "vous",
+          "devez / savez"
+        ],
+        [
+          "ils",
+          "doivent / savent"
+        ]
+      ]
+    }
+  ],
+  "fixes": [
+    {
+      "where": "노션 9/30",
+      "was": "Nous faisons [푸송] → faisant [푸정]",
+      "now": "faisons [프종] → faisant [프장]",
+      "why": "faire의 ai는 [으]로 읽어요 ([푸]가 아님), 끝 -ons/-ant는 비모음"
+    }
+  ],
+  "note": [
+    {
+      "h": "9/30 필기 보충 — 복수·동사·발음",
+      "skill": "agreement",
+      "src": [
+        "노션 9/30"
+      ],
+      "body": [
+        {
+          "p": "**-al → -aux**: l'animal → **les animaux**. 복수에서 aux로 끝나는 말은 원형이 -al이었다고 보면 돼요. (-ail도 travail → travaux처럼 -aux)"
+        },
+        {
+          "ex": [
+            [
+              "le travail",
+              "일 · 공부 · 직장"
+            ],
+            [
+              "travailler",
+              "일하다 · 공부하다"
+            ],
+            [
+              "un voisin / une voisine / des voisins",
+              "이웃"
+            ]
+          ]
+        },
+        {
+          "table": [
+            [
+              "원형",
+              "nous 현재형",
+              "현재분사"
+            ],
+            [
+              "faire",
+              "nous faisons [프종]",
+              "faisant [프장]"
+            ],
+            [
+              "prendre",
+              "nous prenons",
+              "prenant [프흐낭]"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "table": [
+            [
+              "",
+              "devoir",
+              "savoir"
+            ],
+            [
+              "je",
+              "dois",
+              "sais"
+            ],
+            [
+              "tu",
+              "dois",
+              "sais"
+            ],
+            [
+              "il/elle",
+              "doit",
+              "sait"
+            ],
+            [
+              "nous",
+              "devons",
+              "savons"
+            ],
+            [
+              "vous",
+              "devez",
+              "savez"
+            ],
+            [
+              "ils/elles",
+              "doivent",
+              "savent"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "p": "arriver → ils/elles **arrivent**."
+        },
+        {
+          "memo": "trop은 자주 쓰여요 — 동사 뒤(Il parle trop)와 형용사 앞(trop fort) 모두. 평소보다 '더 세게'라는 뉘앙스로도 쓰임."
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "u2-03-c-animaux",
+      "t": "choice",
+      "skill": "agreement",
+      "prompt": "l'animal의 복수는?",
+      "q": "l'animal → ___",
+      "a": "les animaux",
+      "wrong": [
+        "les animals",
+        "les animales",
+        "les animaus"
+      ],
+      "hint": "-al로 끝나는 명사의 복수 어미를 떠올려 보세요.",
+      "explain": "-al → -aux. animal → animaux.",
+      "star": true,
+      "src": "노션 9/30"
+    },
+    {
+      "id": "u2-03-t-animaux",
+      "t": "type",
+      "skill": "agreement",
+      "prompt": "복수형으로 쓰세요",
+      "q": "un animal → des ___",
+      "a": "animaux",
+      "hint": "-al이 다른 어미로 바뀌어요.",
+      "explain": "-al → -aux.",
+      "src": "노션 9/30"
+    },
+    {
+      "id": "u2-03-w-travail",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "le travail",
+      "ko": "일, 공부, 직장",
+      "g": "m",
+      "note": "복수: les travaux (-ail → -aux)",
+      "src": "노션 9/30"
+    },
+    {
+      "id": "u2-03-w-travailler",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "travailler",
+      "ko": "일하다, 공부하다",
+      "src": "노션 9/30"
+    },
+    {
+      "id": "u2-03-w-voisin",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "un voisin / une voisine",
+      "ko": "이웃",
+      "say": "un voisin, une voisine",
+      "src": "노션 9/30"
+    },
+    {
+      "id": "u2-03-c-faisant-pron",
+      "t": "choice",
+      "skill": "pron",
+      "prompt": "faisant의 발음은?",
+      "q": "nous faisons → faisant",
+      "a": "[프장]",
+      "wrong": [
+        "[페장]",
+        "[푸장]",
+        "[프종]"
+      ],
+      "say": "faisant",
+      "hint": "ai는 여기서 약한 [으]로 읽혀요.",
+      "explain": "faisant [fəzɑ̃] — ai는 [으], s는 [z]. (nous faisons은 [프종])",
+      "src": "노션 9/30"
+    },
+    {
+      "id": "u2-03-c-prenant-pron",
+      "t": "choice",
+      "skill": "pron",
+      "prompt": "prenant의 발음은?",
+      "q": "nous prenons → prenant",
+      "a": "[프흐낭]",
+      "wrong": [
+        "[프흐농]",
+        "[프렌트]",
+        "[프흐넹]"
+      ],
+      "say": "prenant",
+      "hint": "끝 -ant의 모음은 비모음이에요.",
+      "explain": "prenant [prənɑ̃] — 끝은 비모음 [앙].",
+      "src": "노션 9/30"
+    },
+    {
+      "id": "u2-03-c-devoir",
+      "t": "choice",
+      "skill": "pres-irr",
+      "prompt": "devoir의 nous 변화형은?",
+      "q": "Nous ___ (devoir)",
+      "a": "devons",
+      "wrong": [
+        "doivons",
+        "devont",
+        "devez"
+      ],
+      "hint": "nous 어간은 원형과 같아요.",
+      "explain": "je dois · tu dois · il doit · nous devons · vous devez · ils doivent.",
+      "src": "노션 9/30"
+    },
+    {
+      "id": "u2-03-c-doivent",
+      "t": "choice",
+      "skill": "pres-irr",
+      "prompt": "ils의 devoir 변화형은?",
+      "q": "Ils ___ partir.",
+      "a": "doivent",
+      "wrong": [
+        "devent",
+        "devons",
+        "doit"
+      ],
+      "hint": "je/tu/il 어간이 ils에도 돌아와요.",
+      "explain": "ils doivent (elles doivent).",
+      "src": "노션 9/30"
+    },
+    {
+      "id": "u2-03-c-savoir",
+      "t": "choice",
+      "skill": "pres-irr",
+      "prompt": "savoir의 vous 변화형은?",
+      "q": "Vous ___ (savoir)",
+      "a": "savez",
+      "wrong": [
+        "savons",
+        "sais",
+        "savent"
+      ],
+      "hint": "vous 어미는 -ez예요.",
+      "explain": "je sais · tu sais · il sait · nous savons · vous savez · ils savent.",
+      "src": "노션 9/30"
+    },
+    {
+      "id": "u2-03-c-arrivent",
+      "t": "choice",
+      "skill": "pres-er",
+      "prompt": "arriver의 ils 변화형은?",
+      "q": "Ils ___ (arriver)",
+      "a": "arrivent",
+      "wrong": [
+        "arrivons",
+        "arrive",
+        "arrivont"
+      ],
+      "hint": "-er 동사의 3인칭 복수 어미.",
+      "explain": "ils/elles arrivent — -ent는 발음하지 않아요.",
+      "src": "노션 9/30"
+    },
+    {
+      "id": "u2-03-c-trop",
+      "t": "choice",
+      "skill": "vocab",
+      "prompt": "trop의 품사는?",
+      "q": "Il parle trop. / Il est trop fatigué.",
+      "a": "동사를 꾸미기도, 형용사를 꾸미기도 하는 부사",
+      "wrong": [
+        "명사",
+        "동사 원형",
+        "전치사"
+      ],
+      "hint": "두 예문에서 trop이 꾸미는 말이 달라요.",
+      "explain": "trop = 너무 (부사). 동사 뒤에서도 형용사·부사 앞에서도 쓰여요.",
+      "src": "노션 9/30"
+    }
+  ]
+}

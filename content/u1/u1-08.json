@@ -1,0 +1,727 @@
+{
+  "id": "u1-08",
+  "unit": "u1",
+  "title": "과거분사 성수일치",
+  "emoji": "⚖️",
+  "date": "2026-09-17",
+  "sources": ["semaine 3-3", "노션 9/16", "노션 9/17"],
+  "tips": [
+    {
+      "h": "⭐ 언제나 성수 일치!!",
+      "b": "과거분사는 일치 대상을 찾아 옷을 맞춰 입는다.\nêtre → **주어**와 일치\navoir → 주어와는 X, **앞에 온 COD**와만 일치"
+    },
+    {
+      "h": "한눈에 정리",
+      "rows": [
+        ["être (이동동사)", "주어와 일치", "Elles sont arrivées"],
+        ["대명동사, se = COD", "주어와 일치", "Elle s'est lavée"],
+        ["대명동사, se = COI", "일치 X", "Elle s'est lavé les mains"],
+        ["avoir, COD가 뒤", "일치 X", "Elle a acheté la robe"],
+        ["avoir, COD가 앞", "COD와 일치", "Elle l'a achetée"]
+      ]
+    },
+    {
+      "h": "COD vs COI 판별",
+      "b": "COD: 전치사 없이 '무엇을? 누구를?' → Elle lave **Marie**\nCOI: **à** + 사람, '누구에게?' → Elle téléphone **à Marie**\n사전의 **à qqn** = COI → téléphoner à qqn, parler à qqn, écrire qqch à qqn"
+    },
+    {
+      "h": "소리로 들리는 일치",
+      "b": "-é / -i / -u 분사는 일치해도 소리 같음 (acheté = achetée)\n자음 끝 분사는 여성형에서 소리가 남: pris → pri**se**, mis → mi**se**, fait → fai**te**, ouvert → ouver**te**, mort → mor**te**"
+    }
+  ],
+  "fixes": [
+    {
+      "where": "노션 9/17 수업 필기",
+      "was": "Julie a acheté ce livre. Elle l'a achetée hier.",
+      "now": "Julie a acheté ce livre. Elle l'a acheté hier.",
+      "why": "ce livre는 남성 단수 → l'(= le)가 앞에 와도 acheté 그대로"
+    },
+    {
+      "where": "노션 9/17 수업 필기 (학습지 2쪽 12번)",
+      "was": "Marie et Sophie ont regarde ces photos. Elles les ont regarde ensemble.",
+      "now": "Marie et Sophie ont regardé ces photos. Elles les ont regardées ensemble.",
+      "why": "regardé 악상 누락 + 앞의 les(= ces photos, 여성 복수)와 일치"
+    }
+  ],
+  "note": [
+    {
+      "h": "COD와 COI",
+      "skill": "agreement",
+      "src": [
+        "semaine 3-3 p.18–20",
+        "노션 9/17"
+      ],
+      "body": [
+        {
+          "table": [
+            [
+              "",
+              "질문",
+              "예"
+            ],
+            [
+              "COD (직접목적어)",
+              "무엇을? 누구를? — 전치사 X",
+              "Elle lave Marie."
+            ],
+            [
+              "COI (간접목적어)",
+              "누구에게? — à + 사람",
+              "Elle téléphone à Marie."
+            ]
+          ],
+          "head": true
+        },
+        {
+          "p": "사전 약어로 동사의 목적어 구조를 알 수 있다: **qqn** = quelqu'un (누군가), **qqch** = quelque chose (무언가)."
+        },
+        {
+          "list": [
+            "acheter qqch → COD만",
+            "téléphoner à qqn → COI",
+            "écrire qqch à qqn → COD + COI",
+            "parler à qqn → COI"
+          ]
+        },
+        {
+          "memo": "à가 붙어 있으면 그 목적어는 COI → 일치하지 않는다 (노션 9/17)"
+        }
+      ]
+    },
+    {
+      "h": "핵심 규칙 — 무엇과 일치하나",
+      "skill": "agreement",
+      "src": [
+        "semaine 3-3 p.9",
+        "semaine 3-3 p.18–20",
+        "노션 9/17"
+      ],
+      "body": [
+        {
+          "table": [
+            [
+              "조동사 · 상황",
+              "일치",
+              "예"
+            ],
+            [
+              "être (이동동사)",
+              "주어와",
+              "Elles sont arrivées"
+            ],
+            [
+              "대명동사, se = COD",
+              "주어와",
+              "Elle s'est lavée"
+            ],
+            [
+              "대명동사, se = COI",
+              "X",
+              "Elle s'est lavé les mains"
+            ],
+            [
+              "avoir, COD가 뒤",
+              "X",
+              "Elle a acheté la robe"
+            ],
+            [
+              "avoir, COD가 앞",
+              "COD와",
+              "Elle l'a achetée"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "memo": "교수님: **\"언제나 성수 일치!!\"** — 쓰고 나서 일치 대상이 여성이면 -e, 복수면 -s가 붙었는지 꼭 확인"
+        },
+        {
+          "p": "노션 9/17 정리(\"être에선 주어가 곧 일치 대상\") 보충: 이동동사(aller, venir…)는 목적어가 없으니 그냥 **주어**와 일치한다고 외우면 끝. \"se가 COD냐 COI냐\"를 따지는 건 대명동사에서만."
+        }
+      ]
+    },
+    {
+      "h": "대명동사: se가 COD냐 COI냐",
+      "skill": "agreement",
+      "src": [
+        "semaine 3-3 p.18",
+        "노션 9/17"
+      ],
+      "body": [
+        {
+          "ex": [
+            [
+              "Elle s'est lavée.",
+              "그녀는 (몸을) 씻었다 — 씻긴 대상 = 자기 자신 = COD → 일치"
+            ],
+            [
+              "Elle s'est lavé les mains.",
+              "그녀는 손을 씻었다 — COD는 les mains, se는 \"자기에게\" = COI → 일치 X"
+            ]
+          ]
+        },
+        {
+          "p": "판별법: 동사에 **\"누구를?\"**을 물어본다.\nElle se lave → 누구를? 자기 자신을 → se = COD\nElle se lave les mains → 뭘? 손을(COD). 누구의 손? 자기에게 → se = COI"
+        },
+        {
+          "warn": "문장에 **COD가 따로 있으면**(les mains) se는 자동으로 COI → 일치가 사라진다."
+        }
+      ]
+    },
+    {
+      "h": "원래 à를 요구하는 동사",
+      "skill": "agreement",
+      "src": [
+        "semaine 3-3 p.19",
+        "노션 9/17"
+      ],
+      "body": [
+        {
+          "table": [
+            [
+              "현재",
+              "복합과거",
+              "se"
+            ],
+            [
+              "Ils se téléphonent.",
+              "Ils se sont téléphoné.",
+              "COI (téléphoner à qqn)"
+            ],
+            [
+              "Ils s'écrivent des lettres.",
+              "Ils se sont écrit des lettres.",
+              "COI (écrire qqch à qqn)"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "ex": [
+            [
+              "Ils se sont parlé.",
+              "그들은 서로 이야기했다. (parler à qqn)"
+            ]
+          ]
+        },
+        {
+          "warn": "Ils se sont téléphonés ✗ → téléphoné. 전화는 \"~에게\" 하는 것이라 se는 무조건 COI."
+        }
+      ]
+    },
+    {
+      "h": "avoir도 일치한다 — COD가 앞에 올 때",
+      "skill": "agreement",
+      "src": [
+        "semaine 3-3 p.20",
+        "노션 9/16",
+        "노션 9/17"
+      ],
+      "body": [
+        {
+          "p": "9/16의 \"avoir는 일치 안 함\"은 COD가 **뒤에** 있었기 때문. 목적어가 대명사(le / la / l' / les)로 바뀌어 동사 **앞**으로 가면 그 COD와 일치한다."
+        },
+        {
+          "table": [
+            [
+              "COD가 뒤 → 일치 X",
+              "COD가 앞 → 일치"
+            ],
+            [
+              "Elle a acheté cette jupe hier.",
+              "Elle l'a achetée hier."
+            ],
+            [
+              "Ils ont regardé ces films ensemble.",
+              "Ils les ont regardés ensemble."
+            ],
+            [
+              "Julie a acheté ce livre.",
+              "Elle l'a acheté hier."
+            ],
+            [
+              "Marie et Sophie ont regardé ces photos.",
+              "Elles les ont regardées ensemble."
+            ]
+          ],
+          "head": true
+        },
+        {
+          "list": [
+            "l' = la = cette jupe (여성 단수) → achetée",
+            "les = ces films (남성 복수) → regardés",
+            "l' = le = ce livre (남성 단수) → acheté 그대로",
+            "les = ces photos (여성 복수) → regardées"
+          ]
+        },
+        {
+          "warn": "avoir는 주어를 보지 않는다: Elle a acheté la robe (achetée ✗)"
+        },
+        {
+          "memo": "수업 필기: 학습지 2쪽 12번 \"Elles les ont regardé\"를 regardées로 고친 문제. \"Elle l'a achetée (ce livre)\"는 필기 오류 → acheté"
+        }
+      ]
+    },
+    {
+      "h": "발음 — 들리는 일치",
+      "skill": "pron",
+      "src": [
+        "노션 9/17"
+      ],
+      "body": [
+        {
+          "p": "-é / -i / -u로 끝나는 분사는 일치해도 소리가 같다: lavé = lavée = lavés [라베]. 그래서 이 단원은 사실상 **쓰기 시험용**."
+        },
+        {
+          "table": [
+            [
+              "남성",
+              "여성",
+              "예"
+            ],
+            [
+              "pris [프히]",
+              "prise [프히즈]",
+              "Je l'ai prise."
+            ],
+            [
+              "mis [미]",
+              "mise [미즈]",
+              "Je l'ai mise."
+            ],
+            [
+              "fait [페]",
+              "faite [페뜨]",
+              "Je l'ai faite."
+            ],
+            [
+              "ouvert [우베흐]",
+              "ouverte [우베흐뜨]",
+              "Je l'ai ouverte."
+            ],
+            [
+              "mort [모흐]",
+              "morte [모흐뜨]",
+              "Elle est morte."
+            ]
+          ],
+          "head": true
+        },
+        {
+          "p": "듣기에서 Je l'ai pris [프히] / Je l'ai prise [프히즈]가 구분되면 목적어의 성별까지 잡을 수 있다."
+        }
+      ]
+    },
+    {
+      "h": "PARTIE 3 어휘 · 사전 약어",
+      "skill": "agreement",
+      "src": [
+        "semaine 3-3 p.18–20",
+        "노션 9/17"
+      ],
+      "body": [
+        {
+          "table": [
+            [
+              "단어",
+              "뜻"
+            ],
+            [
+              "la jupe",
+              "치마"
+            ],
+            [
+              "hier",
+              "어제"
+            ],
+            [
+              "ensemble",
+              "함께"
+            ],
+            [
+              "la lettre",
+              "편지"
+            ],
+            [
+              "la main (les mains)",
+              "손"
+            ],
+            [
+              "elle-même",
+              "그녀 자신"
+            ],
+            [
+              "qqn = quelqu'un",
+              "누군가 (사전 약어)"
+            ],
+            [
+              "qqch = quelque chose",
+              "무언가 (사전 약어)"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "p": "슬라이드 3-3 p.18의 문답 그대로: **Elle se lave. → Elle lave qui ? Elle-même.** (전치사 X → COD) / **Elle lave les mains à qui ? → À elle-même.** (à → COI)"
+        },
+        {
+          "p": "슬라이드 3-3 p.19: téléphoner à qqn → **Ils téléphonent à qui ?** / écrire qqch à qqn → **Ils écrivent quoi ?**(des lettres = COD) **Ils écrivent à qui ?**(se = COI)"
+        },
+        {
+          "memo": "현재형 대명사 연습 (p.20): Elle achète cette jupe. → Elle l'achète. — 대명사는 동사 앞, 모음 앞 la → l'"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    { "id": "u1-08-rule-avoir", "t": "choice", "skill": "agreement", "hint": "두 문장의 차이는 l'(= la robe)의 위치예요! 뭐가 달라졌나요?", "prompt": "avoir + 과거분사가 성·수 일치하는 경우는?",
+      "q": "Elle a acheté la robe. / Elle l'a achetée.", "say": "",
+      "a": "COD가 과거분사 앞에 있을 때", "wrong": ["주어가 여성일 때", "주어가 복수일 때", "항상"],
+      "explain": "avoir는 주어를 무시하고, 앞에 온 COD(le/la/l'/les)만 봐요.", "star": true, "src": "semaine 3-3" },
+    { "id": "u1-08-c-lavee", "t": "choice", "skill": "agreement", "hint": "씻긴 대상은 누구? se가 COD라면 누구의 성·수를 따를까요?", "prompt": "빈칸에 알맞은 것은?",
+      "q": "Elle s'est ___ ce matin.", "ko": "그녀는 오늘 아침에 씻었다.",
+      "a": "lavée", "wrong": ["lavé", "lavés", "lavées"],
+      "explain": "씻긴 대상 = 자기 자신 → se가 COD → 주어와 같은 여성 단수 lavée.", "star": true, "src": "semaine 3-3" },
+    { "id": "u1-08-c-lave-mains", "t": "choice", "skill": "agreement", "hint": "씻은 건 les mains! 그럼 se는 COD일까요, COI일까요?", "prompt": "빈칸에 알맞은 것은?",
+      "q": "Elle s'est ___ les mains.", "ko": "그녀는 손을 씻었다.",
+      "a": "lavé", "wrong": ["lavée", "lavés", "lavées"],
+      "explain": "씻은 건 les mains(COD, 뒤). se는 '자기에게'(COI) → 일치 X.", "star": true, "src": "semaine 3-3" },
+    { "id": "u1-08-c-telephone", "t": "choice", "skill": "agreement", "hint": "téléphoner à qqn! 그럼 se는 COD일까요, COI일까요?", "prompt": "빈칸에 알맞은 것은?",
+      "q": "Ils se sont ___ hier soir.", "ko": "그들은 어젯밤 서로 전화했다.",
+      "a": "téléphoné", "wrong": ["téléphonés", "téléphonées", "téléphoner"],
+      "explain": "téléphoner à qqn → se는 COI → 일치 X.", "star": true, "src": "semaine 3-3" },
+    { "id": "u1-08-c-ecrit", "t": "choice", "skill": "agreement", "hint": "쓴 건 des lettres! 서로에게 쓴 거라면 se의 역할은?", "prompt": "빈칸에 알맞은 것은?",
+      "q": "Ils se sont ___ des lettres.", "ko": "그들은 서로 편지를 썼다.",
+      "a": "écrit", "wrong": ["écrits", "écrites", "écrite"],
+      "explain": "écrire qqch à qqn: COD는 뒤의 des lettres, se는 COI → 일치 X.", "src": "semaine 3-3" },
+    { "id": "u1-08-c-parle", "t": "choice", "skill": "agreement", "hint": "parler à qqn — à가 붙으면 se는 COD일까요, COI일까요?", "prompt": "빈칸에 알맞은 것은? (parler à qqn)",
+      "q": "Ils se sont ___ au café.", "ko": "그들은 카페에서 서로 이야기를 나눴다.",
+      "a": "parlé", "wrong": ["parlés", "parlées", "parler"],
+      "explain": "parler à qqn → se는 COI → 일치 X: Ils se sont parlé." },
+    { "id": "u1-08-c-achetee-jupe", "t": "choice", "skill": "agreement", "hint": "l'가 가리키는 건 cette jupe! 앞에 온 COD의 성·수는?", "prompt": "cette jupe를 대명사로 바꾸면?",
+      "q": "Elle a acheté cette jupe hier. → Elle l'a ___ hier.", "say": "Elle l'a achetée hier.",
+      "a": "achetée", "wrong": ["acheté", "achetés", "achetées"],
+      "explain": "l' = la = cette jupe(여성 단수)가 앞으로 → achetée.", "star": true, "src": "semaine 3-3" },
+    { "id": "u1-08-c-achete-livre", "t": "choice", "skill": "agreement", "hint": "l'가 가리키는 건 ce livre! 앞에 온 COD의 성·수는?", "prompt": "ce livre를 대명사로 바꾸면?",
+      "q": "Julie a acheté ce livre. → Elle l'a ___ hier.", "say": "Elle l'a acheté hier.",
+      "a": "acheté", "wrong": ["achetée", "achetés", "achetées"],
+      "explain": "l' = le = ce livre(남성 단수) → 기본형 acheté 그대로. 필기의 achetée는 오류!", "star": true, "src": "노션 9/17" },
+    { "id": "u1-08-c-achete-robe", "t": "choice", "skill": "agreement", "hint": "la robe가 과거분사 앞일까요, 뒤일까요? avoir는 주어 무시!", "prompt": "빈칸에 알맞은 것은?",
+      "q": "Elle a ___ la robe.", "ko": "그녀는 원피스를 샀다.",
+      "a": "acheté", "wrong": ["achetée", "achetés", "acheter"],
+      "explain": "COD la robe가 과거분사 뒤 → 일치 X. 주어 elle도 상관없음.", "star": true },
+    { "id": "u1-08-c-regardes", "t": "choice", "skill": "agreement", "hint": "les = ces films가 조동사 앞에! 남성? 여성? 몇 개?", "prompt": "ces films를 대명사로 바꾸면?",
+      "q": "Ils ont regardé ces films. → Ils les ont ___ ensemble.", "say": "Ils les ont regardés ensemble.",
+      "a": "regardés", "wrong": ["regardé", "regardées", "regardée"],
+      "explain": "les = ces films(남성 복수)가 앞 → regardés.", "src": "semaine 3-3" },
+    { "id": "u1-08-c-regardees", "t": "choice", "skill": "agreement", "hint": "les가 가리키는 건 ces photos! photo의 성과 수는?", "prompt": "ces photos를 대명사로 바꾸면?",
+      "q": "Marie et Sophie ont regardé ces photos. → Elles les ont ___ ensemble.", "say": "Elles les ont regardées ensemble.",
+      "a": "regardées", "wrong": ["regardé", "regardés", "regardée"],
+      "explain": "les = ces photos(여성 복수)가 앞 → regardées.", "star": true, "src": "노션 9/17 (학습지 12번)" },
+    { "id": "u1-08-c-rencontre", "t": "choice", "skill": "agreement", "hint": "COD ses amies는 과거분사 앞일까요, 뒤일까요?", "prompt": "빈칸에 알맞은 것은?",
+      "q": "Elle a ___ ses amies au café.", "ko": "그녀는 카페에서 친구들(여)을 만났다.",
+      "a": "rencontré", "wrong": ["rencontrées", "rencontrée", "rencontrés"],
+      "explain": "COD ses amies가 뒤에 있으면 여성 복수라도 일치 X." },
+    { "id": "u1-08-c-rencontrees", "t": "choice", "skill": "agreement", "hint": "les = ses amies가 조동사 앞에 있어요! 성·수는?", "prompt": "빈칸에 알맞은 것은?",
+      "q": "Ses amies ? Elle les a ___ au café.", "ko": "친구들? 그녀는 걔네를 카페에서 만났어.",
+      "a": "rencontrées", "wrong": ["rencontré", "rencontrés", "rencontrée"],
+      "explain": "les = ses amies(여성 복수)가 앞 → rencontrées." },
+    { "id": "u1-08-c-prise", "t": "choice", "skill": "agreement", "hint": "l'가 가리키는 건 la photo! 앞에 온 COD의 성은?", "prompt": "빈칸에 알맞은 것은?",
+      "q": "Tu as pris la photo ? — Oui, je l'ai ___.", "say": "Oui, je l'ai prise.", "ko": "사진 찍었어? — 응, 찍었어.",
+      "a": "prise", "wrong": ["pris", "prises", "prendue"], "pron": "[쥬 레 프히즈]",
+      "explain": "l' = la photo(여성) → prise. 자음 끝 분사라 일치가 소리로 들려요 [프히즈].", "src": "노션 9/17" },
+    { "id": "u1-08-c-allees", "t": "choice", "skill": "agreement", "hint": "aller는 이동 동사 → être! 주어 elles에 맞추면?", "prompt": "빈칸에 알맞은 것은?",
+      "q": "Elles sont ___ à Paris.", "ko": "그녀들은 파리에 갔다.",
+      "a": "allées", "wrong": ["allé", "allés", "allée"],
+      "explain": "이동동사 + être → 주어와 일치: elles → allées." },
+    { "id": "u1-08-c-coi-marie", "t": "choice", "skill": "agreement", "hint": "전치사 à가 붙어 있어요! '누구를?'일까요, '누구에게?'일까요?", "prompt": "à Marie는 COD? COI?",
+      "q": "Elle téléphone à Marie.", "say": "",
+      "a": "COI (간접목적어)", "wrong": ["COD (직접목적어)", "주어"],
+      "explain": "à + 사람, '누구에게?' → COI.", "src": "노션 9/17" },
+    { "id": "u1-08-c-cod-marie", "t": "choice", "skill": "agreement", "hint": "Marie 앞에 전치사가 있나요? '누구를?'에 답하나요?", "prompt": "Marie는 COD? COI?",
+      "q": "Elle lave Marie.", "say": "",
+      "a": "COD (직접목적어)", "wrong": ["COI (간접목적어)", "주어"],
+      "explain": "전치사 없이 '누구를?'에 답함 → COD. = Elle la lave.", "src": "semaine 3-3" },
+    { "id": "u1-08-c-se-coi", "t": "choice", "skill": "agreement", "hint": "씻은 대상은 les mains! 그럼 se는 '누구의' 손을 말할까요?", "prompt": "여기서 se는?",
+      "q": "Elle s'est lavé les mains.", "say": "",
+      "a": "COI (자기에게)", "wrong": ["COD (자기를)", "주어"],
+      "explain": "씻은 건 손(COD). '누구의 손? → 자기에게' → se = COI.", "star": true, "src": "semaine 3-3" },
+
+    { "id": "u1-08-e-mangee", "t": "error", "skill": "agreement", "hint": "조동사가 avoir! COD une pomme는 앞일까요, 뒤일까요?",
+      "s": "Elle a mangée une pomme.", "wrong": "mangée", "right": "mangé",
+      "ko": "그녀는 사과를 먹었다.", "explain": "COD une pomme가 뒤 → 일치 X. avoir는 주어와도 일치 안 해요.", "star": true },
+    { "id": "u1-08-e-telephones", "t": "error", "skill": "agreement", "hint": "téléphoner à qqn → 이때 se의 역할은? 일치할까요?",
+      "s": "Ils se sont téléphonés hier.", "wrong": "téléphonés", "right": "téléphoné",
+      "ko": "그들은 어제 서로 전화했다.", "explain": "téléphoner à qqn → se = COI → 일치 X.", "src": "노션 9/17" },
+    { "id": "u1-08-e-lavee-mains", "t": "error", "skill": "agreement", "hint": "뒤에 COD les mains가 있어요! 그럼 se는 COD일까요?",
+      "s": "Elle s'est lavée les mains.", "wrong": "lavée", "right": "lavé",
+      "ko": "그녀는 손을 씻었다.", "explain": "뒤에 COD(les mains)가 있으면 se는 COI → lavé.", "star": true },
+    { "id": "u1-08-e-regardees", "t": "error", "skill": "agreement", "hint": "조동사 앞의 les = ces photos! 성·수 일치했나요?",
+      "s": "Elles les ont regardé ensemble.", "wrong": "regardé", "right": "regardées",
+      "ko": "그녀들은 그것들(사진)을 함께 봤다.", "explain": "앞의 les(= ces photos, 여성 복수)와 일치 → regardées.", "star": true, "src": "노션 9/17 (학습지 12번)" },
+    { "id": "u1-08-e-livre", "t": "error", "skill": "agreement", "hint": "l'가 가리키는 건 ce livre! 남성일까요, 여성일까요?",
+      "s": "Julie a acheté ce livre. Elle l'a achetée hier.", "wrong": "achetée", "right": "acheté",
+      "ko": "쥘리는 이 책을 샀다. 어제 그걸 샀다.", "explain": "l' = le(ce livre, 남성 단수) → acheté 그대로.", "star": true, "src": "노션 9/17" },
+
+    { "id": "u1-08-b-robe", "t": "build", "skill": "agreement", "hint": "COD 대명사는 조동사 앞! 앞에 온 la robe의 성·수는?", "prompt": "la robe를 대명사로 바꾸세요",
+      "from": "Elle a acheté la robe.",
+      "a": "Elle l'a achetée.", "extra": ["acheté", "la"],
+      "ko": "그녀는 그것(원피스)을 샀다.",
+      "explain": "la + a → l'a, 앞에 온 COD(여성 단수)와 일치 → achetée." },
+    { "id": "u1-08-b-films", "t": "build", "skill": "agreement", "hint": "COD 대명사는 조동사 앞으로! ces films의 성·수는?", "prompt": "ces films를 대명사로 바꾸세요",
+      "from": "Ils ont regardé ces films.",
+      "a": "Ils les ont regardés.", "extra": ["regardé", "leur"],
+      "ko": "그들은 그것들(영화)을 봤다.",
+      "explain": "les는 조동사 앞, 남성 복수 COD → regardés." },
+    { "id": "u1-08-b-mains", "t": "build", "skill": "agreement", "hint": "씻은 건 뒤에 오는 les mains! se가 COI면 일치할까요?", "prompt": "문장을 만드세요",
+      "ko": "그녀는 손을 씻었다.",
+      "a": "Elle s'est lavé les mains.", "extra": ["lavée", "a"],
+      "explain": "COD les mains가 뒤 → se는 COI → lavé." },
+    { "id": "u1-08-b-telephone", "t": "build", "skill": "agreement", "hint": "대명동사 → être! téléphoner à qqn의 se는 COD일까요?", "prompt": "문장을 만드세요",
+      "ko": "그들은 서로 전화했다.",
+      "a": "Ils se sont téléphoné.", "extra": ["téléphonés", "ont"],
+      "explain": "téléphoner à qqn → se는 COI → 일치 없는 téléphoné." },
+    {
+      "id": "u1-08-jupe",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "la jupe",
+      "ko": "치마",
+      "g": "f",
+      "src": "semaine 3-3"
+    },
+    {
+      "id": "u1-08-hier",
+      "t": "word",
+      "skill": "time",
+      "fr": "hier",
+      "ko": "어제",
+      "pron": "[이에흐]",
+      "src": "semaine 3-3"
+    },
+    {
+      "id": "u1-08-ensemble",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "ensemble",
+      "ko": "함께",
+      "pron": "[앙쌍블]",
+      "src": "semaine 3-3"
+    },
+    {
+      "id": "u1-08-lettre",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "la lettre",
+      "ko": "편지",
+      "g": "f",
+      "src": "semaine 3-3"
+    },
+    {
+      "id": "u1-08-main",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "la main",
+      "ko": "손",
+      "g": "f",
+      "note": "복수 les mains",
+      "src": "semaine 3-3"
+    },
+    {
+      "id": "u1-08-elle-meme",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "elle-même",
+      "ko": "그녀 자신",
+      "note": "à elle-même = 그녀 자신에게",
+      "src": "semaine 3-3"
+    },
+    {
+      "id": "u1-08-quelquun",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "quelqu'un",
+      "ko": "누군가",
+      "note": "사전 약어 qqn",
+      "src": "노션 9/17"
+    },
+    {
+      "id": "u1-08-quelque-chose",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "quelque chose",
+      "ko": "무언가",
+      "note": "사전 약어 qqch",
+      "src": "노션 9/17"
+    },
+    {
+      "id": "u1-08-c-la-lave",
+      "t": "choice",
+      "skill": "pron-obj",
+      "hint": "Marie는 전치사 없이 '누구를?'에 답해요. 여자 한 명!",
+      "prompt": "Marie를 대명사로 바꾸면?",
+      "q": "Elle lave Marie. → Elle ___ lave.",
+      "ko": "그녀는 그녀(마리)를 씻긴다.",
+      "a": "la",
+      "wrong": [
+        "lui",
+        "le",
+        "se"
+      ],
+      "explain": "Marie = COD 여성 단수 → la. se는 '자기 자신'일 때만.",
+      "src": "semaine 3-3 p.18"
+    },
+    {
+      "id": "u1-08-c-qui-meme",
+      "t": "choice",
+      "skill": "agreement",
+      "hint": "씻기는 대상이 바로 주어 자신. 전치사가 필요할까요?",
+      "prompt": "Elle se lave. → Elle lave qui ?",
+      "q": "Elle se lave. → Elle lave qui ? ___",
+      "say": "",
+      "a": "Elle-même.",
+      "wrong": [
+        "À elle-même.",
+        "Les mains.",
+        "Marie."
+      ],
+      "explain": "누구를? → 자기 자신을(전치사 X) → se = COD → Elle s'est lavée.",
+      "src": "semaine 3-3 p.18"
+    },
+    {
+      "id": "u1-08-c-a-qui-meme",
+      "t": "choice",
+      "skill": "agreement",
+      "hint": "손을 '누구에게' 씻겨주나요? 이번엔 전치사가 필요해요",
+      "prompt": "Elle se lave les mains. → Elle lave les mains à qui ?",
+      "q": "Elle lave les mains à qui ? ___",
+      "say": "",
+      "a": "À elle-même.",
+      "wrong": [
+        "Elle-même.",
+        "Les mains.",
+        "À Marie."
+      ],
+      "explain": "누구에게? → 자기에게(à) → se = COI → Elle s'est lavé les mains (일치 X).",
+      "src": "semaine 3-3 p.18"
+    },
+    {
+      "id": "u1-08-c-qqn",
+      "t": "choice",
+      "skill": "agreement",
+      "hint": "전화는 '누구에게' 하죠? 사람일까요, 물건일까요?",
+      "prompt": "사전 약어 qqn은 무엇의 줄임말?",
+      "q": "téléphoner à qqn",
+      "say": "",
+      "a": "quelqu'un (누군가)",
+      "wrong": [
+        "quelque chose (무언가)",
+        "quelquefois (가끔)",
+        "qu'est-ce que (무엇을)"
+      ],
+      "explain": "qqn = quelqu'un, qqch = quelque chose. à qqn이 보이면 그 목적어는 COI!",
+      "src": "노션 9/17"
+    },
+    {
+      "id": "u1-08-c-ecrire-structure",
+      "t": "choice",
+      "skill": "agreement",
+      "hint": "전치사 à가 붙은 쪽이 간접, 안 붙은 쪽이 직접!",
+      "prompt": "écrire qqch à qqn — 목적어 두 개의 정체는?",
+      "q": "Ils écrivent quoi ? Ils écrivent à qui ?",
+      "say": "",
+      "a": "qqch = COD, à qqn = COI",
+      "wrong": [
+        "qqch = COI, à qqn = COD",
+        "둘 다 COD",
+        "둘 다 COI"
+      ],
+      "explain": "쓴 것(des lettres) = COD, 받는 사람(à qqn) = COI. 그래서 Ils se sont écrit des lettres에서 se는 COI.",
+      "src": "semaine 3-3 p.19"
+    },
+    {
+      "id": "u1-08-b-ecrit",
+      "t": "build",
+      "skill": "agreement",
+      "hint": "쓴 것(des lettres)은 뒤에! se의 역할부터 따져봐요",
+      "prompt": "복합과거로 바꾸세요",
+      "from": "Ils s'écrivent des lettres.",
+      "a": "Ils se sont écrit des lettres.",
+      "extra": [
+        "écrits",
+        "ont"
+      ],
+      "ko": "그들은 서로 편지를 썼다.",
+      "explain": "COD des lettres가 뒤, se는 '서로에게'(COI) → écrit 그대로.",
+      "src": "semaine 3-3 p.19"
+    },
+    {
+      "id": "u1-08-l-prise",
+      "t": "listen",
+      "skill": "pron",
+      "hint": "맨 끝에 [즈] 소리가 들리나요?",
+      "say": "Je l'ai prise.",
+      "a": "Je l'ai prise.",
+      "wrong": [
+        "Je l'ai pris."
+      ],
+      "pron": "[쥬 레 프히즈]",
+      "explain": "prise [프히즈] = 여성 COD(la)와 일치한 형태. 자음 끝 분사는 일치가 들려요.",
+      "src": "노션 9/17"
+    },
+    {
+      "id": "u1-08-c-mise",
+      "t": "choice",
+      "skill": "agreement",
+      "hint": "l' = la robe (여성)! mettre의 과거분사에 일치하면?",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "La robe rouge ? Je l'ai ___ hier.",
+      "ko": "빨간 원피스? 어제 그거 입었어.",
+      "a": "mise",
+      "wrong": [
+        "mis",
+        "mises",
+        "mettue"
+      ],
+      "pron": "[미즈]",
+      "explain": "l' = la robe(여성 단수)가 앞 → mis + e = mise [미즈]. 소리로도 들리는 일치!",
+      "src": "노션 9/17"
+    },
+    {
+      "id": "u1-08-c-faite",
+      "t": "choice",
+      "skill": "agreement",
+      "hint": "l' = la cuisine (여성)! faire의 과거분사에 -e를 붙이면?",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "La cuisine ? Je l'ai ___ ce matin.",
+      "ko": "요리? 오늘 아침에 내가 했어.",
+      "a": "faite",
+      "wrong": [
+        "fait",
+        "faites",
+        "faisée"
+      ],
+      "pron": "[페뜨]",
+      "explain": "la cuisine(여성)가 COD로 앞 → faite [페뜨]. 남성이면 fait [페].",
+      "src": "노션 9/17"
+    },
+    {
+      "id": "u1-08-c-ouverte",
+      "t": "choice",
+      "skill": "agreement",
+      "hint": "l' = la fenêtre (여성)! ouvrir의 과거분사에 일치하면?",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "La fenêtre ? Je l'ai ___.",
+      "ko": "창문? 내가 열었어.",
+      "a": "ouverte",
+      "wrong": [
+        "ouvert",
+        "ouvri",
+        "ouvertes"
+      ],
+      "pron": "[우베흐뜨]",
+      "explain": "la fenêtre(여성 단수)가 앞 → ouverte. t가 살아나서 [우베흐뜨].",
+      "src": "노션 9/17"
+    }
+  ]
+}

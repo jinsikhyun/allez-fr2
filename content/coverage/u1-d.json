@@ -1,0 +1,208 @@
+{
+ "semaine 5-1": {
+  "p.1": [
+   "skip: 표지 (Semaine 5 · Leçon 9–10 · 9/29)"
+  ],
+  "p.2": [
+   "skip: 목차 (대화문 복습 / 가족 어휘 / 대화문 — 실제 PARTIE 3은 현재분사)"
+  ],
+  "p.3": [
+   "note:u1-16#0",
+   "note:u1-16#1",
+   "u1-16-c-casse",
+   "skip: PARTIE 1 간지 — 내용은 수업 필기(노션 9/29)로 u1-16에 반영"
+  ],
+  "p.4": [
+   "skip: PARTIE 2 간지 (Le vocabulaire : la famille)"
+  ],
+  "p.5": [
+   "u1-14-c-ma-grand-mere",
+   "u1-14-w-grand-pere",
+   "u1-14-w-grand-mere",
+   "u1-14-w-pere",
+   "u1-14-w-mere",
+   "u1-14-w-frere",
+   "u1-14-w-soeur",
+   "note:u1-14#5"
+  ],
+  "p.6": [
+   "u1-14-b-soeur",
+   "u1-14-w-parents",
+   "u1-14-w-fils",
+   "u1-14-w-fille",
+   "u1-14-w-enfants",
+   "note:u1-14#1"
+  ],
+  "p.7": [
+   "u1-14-c-grands-parents",
+   "u1-14-c-petit-fils",
+   "u1-14-err-petit-enfants",
+   "u1-14-w-petite-fille",
+   "u1-14-w-petits-enfants",
+   "note:u1-14#1",
+   "note:u1-14#2"
+  ],
+  "p.8": [
+   "u1-14-c-niece",
+   "u1-14-w-neveu",
+   "u1-14-w-niece",
+   "note:u1-14#1"
+  ],
+  "p.9": [
+   "u1-14-c-ex1-grand-pere",
+   "u1-14-c-ex2-fils",
+   "u1-14-c-ex3-fille",
+   "u1-14-c-ex4-oncle",
+   "u1-14-c-ex5-niece",
+   "note:u1-14#5"
+  ],
+  "p.10": [
+   "skip: PARTIE 3 간지 (Le participe présent)"
+  ],
+  "p.11": [
+   "u1-15-c-parlant",
+   "u1-15-c-start-nous",
+   "u1-15-c-agree-rule",
+   "note:u1-15#0",
+   "note:u1-15#1",
+   "tip:u1-15#0"
+  ],
+  "p.12": [
+   "u1-15-t-restant",
+   "u1-15-t-travaillant",
+   "u1-15-c-mangeant",
+   "u1-15-err-mangant",
+   "u1-15-l-mangeant",
+   "note:u1-15#1",
+   "note:u1-15#6"
+  ],
+  "p.13": [
+   "u1-15-c-ayant",
+   "u1-15-c-etant",
+   "u1-15-c-sachant",
+   "u1-15-c-ayant-pron",
+   "note:u1-15#2",
+   "tip:u1-15#1"
+  ],
+  "p.14": [
+   "u1-15-c-ex-parlant",
+   "u1-15-c-ex-arrivant",
+   "u1-15-c-ex-acceptant",
+   "u1-15-c-ex-nayant",
+   "u1-15-c-ex-etant",
+   "u1-15-c-sens-qui",
+   "u1-15-c-sens-etant",
+   "u1-15-err-parlante",
+   "u1-15-b-nayant",
+   "u1-15-b-train",
+   "u1-15-w-en-retard",
+   "u1-15-w-reservation",
+   "note:u1-15#3",
+   "note:u1-15#4",
+   "tip:u1-15#2",
+   "tip:u1-15#3"
+  ],
+  "p.15": [
+   "u1-15-c-ex1-jouant",
+   "u1-15-c-ex2-sortant",
+   "u1-15-c-ex3-prenant",
+   "u1-15-err-jouants",
+   "u1-15-err-prendant",
+   "u1-15-w-manteau",
+   "u1-15-w-rapidement",
+   "note:u1-15#5"
+  ],
+  "p.16": [
+   "u0-01-ademain",
+   "skip: 마무리 슬라이드 (Questions / À demain !)"
+  ]
+ },
+ "노션 9/29": {
+  "대화문 변형 〈Dans la rue〉 Olivia–Jean (수업 필기, PARTIE 1)": [
+   "note:u1-16#0",
+   "note:u1-16#1",
+   "tip:u1-16#0",
+   "tip:u1-16#2"
+  ],
+  "en fait → in fact": [
+   "u1-16-w-en-fait",
+   "u1-16-c-en-fait-pron"
+  ],
+  "Qu'est-ce qui s'est passé ? / se passer": [
+   "u1-16-c-qui-passe",
+   "u1-16-w-se-passer",
+   "note:u1-16#4"
+  ],
+  "faire de (sport) — faire du vélo": [
+   "u1-16-c-du-velo",
+   "u1-16-w-faire-velo",
+   "u1-16-b-souvent",
+   "note:u1-16#5"
+  ],
+  "je suis tombée de vélo": [
+   "u1-16-c-tombee",
+   "u1-16-c-de-velo",
+   "note:u1-16#2"
+  ],
+  "Je me suis cassé l'épaule droite / droit(e), gauch(e)": [
+   "u1-16-c-casse",
+   "u1-16-err-cassee",
+   "u1-16-c-droite",
+   "u1-16-err-gauch",
+   "u1-16-w-epaule",
+   "u1-16-w-droit",
+   "u1-16-w-gauche",
+   "note:u1-16#2",
+   "tip:u1-16#1"
+  ],
+  "je n'ai pas pu utiliser mon bras pendant un mois": [
+   "u1-16-b-pas-pu",
+   "u1-16-c-pu",
+   "u1-16-c-pendant",
+   "u1-16-w-bras",
+   "u1-16-w-utiliser",
+   "note:u1-16#3"
+  ],
+  "Mais non ! C'est dommage. / beaucoup mieux": [
+   "u1-16-c-mais-non",
+   "note:u1-16#1"
+  ],
+  "Arbre généalogique (계보적인 나무) — 족보를 나무 모양으로": [
+   "u1-14-w-arbre",
+   "note:u1-14#6"
+  ],
+  "Paul est le fils de Bernard et de Françoise / fils -s 발음": [
+   "u1-14-w-fils",
+   "u1-14-c-fils-pron",
+   "note:u1-14#4",
+   "u1-14-c-ex2-fils"
+  ],
+  "grand 복수 -s · petit 여성 -e · 하이픈(한 단어) 성수일치": [
+   "u1-14-c-grands-parents",
+   "u1-14-err-petit-enfants",
+   "u1-14-c-petite-fille-agree",
+   "u1-14-err-grande-mere",
+   "note:u1-14#6",
+   "note:u1-14#2"
+  ],
+  "가족 연습문제 1–5 정답 (grand-père / fils / fille / l'oncle / nièce)": [
+   "u1-14-c-ex1-grand-pere",
+   "u1-14-c-ex2-fils",
+   "u1-14-c-ex3-fille",
+   "u1-14-c-ex4-oncle",
+   "u1-14-c-ex5-niece",
+   "note:u1-14#5"
+  ],
+  "현재분사 불규칙형 — 그냥 외우기 (ayant · étant · sachant)": [
+   "u1-15-c-ayant",
+   "u1-15-c-etant",
+   "u1-15-c-sachant",
+   "note:u1-15#2"
+  ],
+  "부정이면 de로 바뀜 (n'ayant pas de réservation)": [
+   "u1-15-c-ex-nayant",
+   "u1-15-b-nayant",
+   "note:u1-15#3"
+  ]
+ }
+}

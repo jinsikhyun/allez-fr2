@@ -1,0 +1,428 @@
+{
+  "id": "u1-04",
+  "unit": "u1",
+  "title": "복합과거 부정·의문",
+  "emoji": "🚫",
+  "date": "2026-09-16",
+  "sources": ["semaine 3-2", "노션 9/16"],
+  "tips": [
+    {
+      "h": "부정: 조동사를 감싼다",
+      "b": "주어 + **ne + avoir + pas** + 과거분사\nJ'ai pris le bus. → Je **n'**ai **pas** pris le bus.\nJe n'ai pris pas ✗"
+    },
+    {
+      "h": "부정문에서 un / une / des → de",
+      "b": "J'ai eu **des** nouvelles. → Je n'ai pas eu **de** nouvelles.\n의문문에선 그대로: As-tu eu **des** nouvelles ?"
+    },
+    {
+      "h": "의문문 3가지",
+      "rows": [
+        ["억양 (구어)", "Tu as pris le bus ?"],
+        ["est-ce que", "Est-ce que tu as pris le bus ?"],
+        ["도치 (격식)", "As-tu pris le bus ?"]
+      ]
+    },
+    {
+      "h": "도치 = 조동사 ↔ 주어",
+      "b": "과거분사는 제자리에 남아요.\n**a + il / elle / on → -t-** 삽입: A-t-elle fini ? A-t-on vu ?\nAs-tu · Avez-vous · Ont-ils는 -t- 없음"
+    },
+    {
+      "h": "듣기 요령",
+      "b": "J'ai [제] vs Je n'ai [쥬 네] — 한 음절 차이로 뜻이 반대!\nOn a vu [옹 나 뷔] / On n'a pas vu [옹 나 빠 뷔]: 연음 n과 n'이 같은 소리 → **pas**로만 구별 (쓸 땐 n' 필수)"
+    }
+  ],
+  "fixes": [
+    {
+      "where": "노션 9/16 필기",
+      "was": "Je n'ai pas eu des nouvelles de François.",
+      "now": "Je n'ai pas eu de nouvelles de François.",
+      "why": "부정문에서 부정관사 des → de"
+    },
+    {
+      "where": "노션 9/16 필기",
+      "was": "Avez-vous pris le métro. / As-tu pris le bus",
+      "now": "Avez-vous pris le métro ? / As-tu pris le bus ?",
+      "why": "도치 의문문도 끝에 물음표"
+    }
+  ],
+  "note": [
+    {
+      "h": "복합과거 부정 — 조동사를 감싼다", "skill": "pc-neg-q", "src": ["semaine 3-2 p.21","노션 9/16"],
+      "body": [
+        {"p":"**주어 + ne + avoir + pas + 과거분사**. 현재형에서 동사를 ne…pas로 감쌌던 것과 같은데, 여기선 \"동사\" 자리가 **조동사 avoir**. 과거분사는 pas 밖으로."},
+        {"table":[["긍정","부정"],["J'ai pris le bus.","Je n'ai pas pris le bus."],["Vous avez travaillé pendant deux heures.","Vous n'avez pas travaillé pendant deux heures."],["Elle a fini son travail.","Elle n'a pas fini son travail."]],"head":true},
+        {"p":"avoir는 모음으로 시작 → ne는 항상 **n'**: n'ai · n'as · n'a · n'avons · n'avez · n'ont"},
+        {"warn":"Je n'ai pris pas ✗ — pas는 과거분사 **앞**!"}
+      ]
+    },
+    {
+      "h": "부정문에서 un / une / des → de", "skill": "neg", "src": ["semaine 3-2 p.23","노션 9/16"],
+      "body": [
+        {"p":"부정문에서는 목적어 앞 부정관사·부분관사(un, une, des, du)가 **de**로 바뀌어요. 정관사(le, la, les)는 그대로."},
+        {"ex":[["J'ai eu des nouvelles de François.","나는 프랑수아의 소식을 들었다."],["Je n'ai pas eu de nouvelles de François.","나는 프랑수아의 소식을 듣지 못했다."],["Nous n'avons pas pris le métro.","우리는 지하철을 타지 않았다. (le는 그대로)"]]},
+        {"warn":"필기 정정: Je n'ai pas eu **des** nouvelles ✗ → **de** nouvelles. ne…pas만 기계적으로 끼우면 나오는 실수!"}
+      ]
+    },
+    {
+      "h": "연습: 부정문으로 바꾸기", "skill": "pc-neg-q", "src": ["semaine 3-2 p.23","노션 9/16"],
+      "body": [
+        {"table":[["#","부정문","해석"],["1","Elle n'a pas rencontré son ami à la gare.","그녀는 역에서 친구를 만나지 않았다."],["2","Je n'ai pas eu de nouvelles de François.","나는 프랑수아의 소식을 듣지 못했다."],["3","Nous n'avons pas pris le métro.","우리는 지하철을 타지 않았다."],["4","Ils n'ont pas quitté Paris.","그들은 파리를 떠나지 않았다."],["5","On n'a pas vu ce film.","우리는 그 영화를 보지 않았다."]],"head":true},
+        {"warn":"5번: On **n'**a pas — 소리로는 On a [옹 나]의 연음과 똑같아서 쓸 때 n'을 빠뜨리기 쉬워요."},
+        {"memo":"슬라이드엔 정답이 없어요 — 위는 규칙대로 만든 정답. (ce film = 이/그 영화)"}
+      ]
+    },
+    {
+      "h": "복합과거 의문 — 도치도 조동사만", "skill": "pc-neg-q", "src": ["semaine 3-2 p.22","노션 9/16"],
+      "body": [
+        {"p":"주어와 자리를 바꾸는 건 **조동사**. 과거분사는 제자리에 남아요."},
+        {"table":[["평서문","도치 의문문"],["Tu as pris le bus.","As-tu pris le bus ?"],["Vous avez travaillé pendant deux heures.","Avez-vous travaillé pendant deux heures ?"],["Elle a fini son travail.","A-t-elle fini son travail ?"]],"head":true},
+        {"warn":"a + il / elle / on → **-t-** 삽입 (A-t-elle, A-t-on). 모음끼리 부딪히는 걸 막는 것 — Alex a-t-il과 같은 규칙. As-tu · Avez-vous · Ont-ils는 -t- 없음."},
+        {"warn":"필기 정정: 도치 의문문도 끝에 **?** (Avez-vous pris le métro ?)"}
+      ]
+    },
+    {
+      "h": "의문문 3가지 방식 (Leçon 2 복습)", "skill": "question", "src": ["semaine 1-2 p.21-22","semaine 3-2 p.22"],
+      "body": [
+        {"p":"Leçon 2에서 배운 세 방식이 복합과거에도 그대로. 뒤로 갈수록 격식."},
+        {"table":[["방식","예"],["억양 (구어)","Tu as pris le bus ?"],["est-ce que (만능)","Est-ce que tu as pris le bus ?"],["도치 (격식)","As-tu pris le bus ?"]],"head":true},
+        {"warn":"est-ce que 뒤는 평서문 어순 그대로 (Est-ce que as-tu ✗). 모음 앞에선 qu': Est-ce qu'elle a fini son travail ?"},
+        {"memo":"9/16 슬라이드와 연습은 도치형만 다뤘어요."}
+      ]
+    },
+    {
+      "h": "연습: 의문문으로 바꾸기", "skill": "pc-neg-q", "src": ["semaine 3-2 p.24","노션 9/16"],
+      "body": [
+        {"table":[["#","도치 의문문","해석"],["1","A-t-elle rencontré son ami à la gare ?","그녀는 역에서 친구를 만났나요?"],["2","As-tu eu des nouvelles de François ?","프랑수아 소식 들었어?"],["3","Avez-vous pris le métro ?","지하철 타셨어요?"],["4","Ont-ils quitté Paris ?","그들은 파리를 떠났나요?"],["5","A-t-on vu ce film ?","우리 그 영화 봤나?"]],"head":true},
+        {"p":"-t-가 필요한 건 1번·5번뿐 (a + elle / on)."},
+        {"memo":"2번은 부정문이 아니라서 des 그대로!"}
+      ]
+    },
+    {
+      "h": "발음 — 부정·의문", "skill": "pron", "src": ["노션 9/16"],
+      "body": [
+        {"table":[["표현","발음","포인트"],["J'ai pris","[제 프히]","긍정"],["Je n'ai pas pris","[쥬 네 빠 프히]","[제]/[네] 한 음절 차이 → 뜻이 정반대"],["On a vu / On n'a pas vu","[옹 나 뷔] / [옹 나 빠 뷔]","On a도 연음으로 [옹 나] → n'은 소리로 구별 불가, pas로 판단"],["A-t-elle · A-t-on","[아 뗄] · [아 똥]","삽입된 t가 뒤 모음에 붙음"],["As-tu · Avez-vous · Ont-ils","[아 뛰] · [아베 부] · [옹 띨]","ont-ils는 t 연음"]],"head":true},
+        {"memo":"듣기에선 pas를 잡고, 쓰기에선 n'을 빠뜨리지 않는 게 요령."}
+      ]
+    },
+    {
+      "h": "슬라이드 어휘 · 지시문",
+      "skill": "vocab",
+      "src": [
+        "semaine 3-2 p.21–24",
+        "노션 9/16"
+      ],
+      "body": [
+        {
+          "table": [
+            [
+              "프랑스어",
+              "뜻"
+            ],
+            [
+              "Le passé composé : la négation",
+              "복합과거: 부정"
+            ],
+            [
+              "Le passé composé : l'interrogation",
+              "복합과거: 의문"
+            ],
+            [
+              "Mettez ces phrases à la négation.",
+              "이 문장들을 부정문으로 바꾸세요."
+            ],
+            [
+              "Mettez ces phrases à l'interrogation.",
+              "이 문장들을 의문문으로 바꾸세요."
+            ],
+            [
+              "pendant deux heures",
+              "두 시간 동안"
+            ],
+            [
+              "son travail",
+              "그(녀)의 일"
+            ],
+            [
+              "ce film",
+              "이 영화 · 그 영화 (ce = this)"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "memo": "9/16 수업 흐름: 감사 표현 복습 → Quiz 1 오답 리뷰 → 복합과거(avoir) 복습 → 부정·의문 → 연습 2개 → 조동사 être."
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "u1-04-n-bus", "t": "build", "skill": "pc-neg-q", "hint": "ne…pas는 조동사만 감싸요! 모음 앞의 je·ne는?",
+      "prompt": "부정문으로 바꾸세요",
+      "from": "J'ai pris le bus.",
+      "a": "Je n'ai pas pris le bus.",
+      "extra": ["ne", "J'ai"],
+      "ko": "나는 버스를 타지 않았다.",
+      "explain": "ne…pas는 조동사 ai만 감싸요. je + n' → Je n'ai.",
+      "star": true, "src": "semaine 3-2"
+    },
+    {
+      "id": "u1-04-n-travaille", "t": "build", "skill": "pc-neg-q", "hint": "ne…pas가 감싸는 건 조동사 avez! 과거분사는 pas 뒤로",
+      "prompt": "부정문으로 바꾸세요",
+      "from": "Vous avez travaillé pendant deux heures.",
+      "a": "Vous n'avez pas travaillé pendant deux heures.",
+      "extra": ["avez", "ne"],
+      "ko": "당신은 두 시간 동안 일하지 않았다.",
+      "explain": "avez 앞에 n', 뒤에 pas. 과거분사 travaillé는 pas 뒤로.",
+      "src": "semaine 3-2"
+    },
+    {
+      "id": "u1-04-n-fini", "t": "build", "skill": "pc-neg-q", "hint": "조동사가 모음으로 시작해요. ne는 어떻게 줄어들까요?",
+      "prompt": "부정문으로 바꾸세요",
+      "from": "Elle a fini son travail.",
+      "a": "Elle n'a pas fini son travail.",
+      "extra": ["ne", "a"],
+      "ko": "그녀는 일을 끝내지 않았다.",
+      "explain": "모음 a 앞이라 ne → n'. Elle n'a pas fini.",
+      "src": "semaine 3-2"
+    },
+    {
+      "id": "u1-04-n-rencontre", "t": "build", "skill": "pc-neg-q", "hint": "rencontrer는 avoir 동사! ne…pas로 조동사만 감싸봐요",
+      "prompt": "부정문으로 바꾸세요",
+      "from": "Elle a rencontré son ami à la gare.",
+      "a": "Elle n'a pas rencontré son ami à la gare.",
+      "extra": ["ne", "est"],
+      "ko": "그녀는 역에서 친구를 만나지 않았다.",
+      "explain": "n'a pas + rencontré. 나머지는 그대로.",
+      "src": "semaine 3-2"
+    },
+    {
+      "id": "u1-04-n-nouvelles", "t": "build", "skill": "neg", "hint": "ne…pas가 감싸는 건 조동사! 부정문에서 des는?",
+      "prompt": "부정문으로 바꾸세요",
+      "from": "J'ai eu des nouvelles de François.",
+      "a": "Je n'ai pas eu de nouvelles de François.",
+      "extra": ["des", "J'ai"],
+      "ko": "나는 프랑수아의 소식을 듣지 못했다.",
+      "explain": "ne…pas로 ai를 감싸고, 부정문이니 des → de!",
+      "star": true, "src": "semaine 3-2"
+    },
+    {
+      "id": "u1-04-n-metro", "t": "build", "skill": "pc-neg-q", "hint": "nous 뒤 조동사를 ne…pas로 감싸요. 정관사 le는 바뀔까요?",
+      "prompt": "부정문으로 바꾸세요",
+      "from": "Nous avons pris le métro.",
+      "a": "Nous n'avons pas pris le métro.",
+      "extra": ["avons", "ne"],
+      "ko": "우리는 지하철을 타지 않았다.",
+      "explain": "nous n'avons pas + pris. le métro(정관사)는 그대로.",
+      "src": "semaine 3-2"
+    },
+    {
+      "id": "u1-04-n-quitte", "t": "build", "skill": "pc-neg-q", "hint": "quitter는 avoir 동사! ils의 조동사를 ne…pas로 감싸봐요",
+      "prompt": "부정문으로 바꾸세요",
+      "from": "Ils ont quitté Paris.",
+      "a": "Ils n'ont pas quitté Paris.",
+      "extra": ["ont", "sont"],
+      "ko": "그들은 파리를 떠나지 않았다.",
+      "explain": "ils n'ont pas + quitté.",
+      "src": "semaine 3-2"
+    },
+    {
+      "id": "u1-04-n-film", "t": "build", "skill": "pc-neg-q", "hint": "on 뒤에 n'이 소리 없이 숨어요! 쓸 때는 꼭 챙기기",
+      "prompt": "부정문으로 바꾸세요",
+      "from": "On a vu ce film.",
+      "a": "On n'a pas vu ce film.",
+      "extra": ["a", "avons"],
+      "ko": "우리는 그 영화를 보지 않았다.",
+      "explain": "On n'a [옹 나]는 On a의 연음과 소리가 같아서 n'을 빠뜨리기 쉬워요. 쓸 땐 반드시 On n'a pas!",
+      "star": true, "src": "semaine 3-2"
+    },
+
+    {
+      "id": "u1-04-q-travaille", "t": "build", "skill": "pc-neg-q", "hint": "조동사와 주어만 자리 바꾸고 하이픈! 과거분사는 제자리",
+      "prompt": "도치 의문문으로 바꾸세요",
+      "from": "Vous avez travaillé pendant deux heures.",
+      "a": "Avez-vous travaillé pendant deux heures ?",
+      "extra": ["Vous", "avez"],
+      "ko": "당신은 두 시간 동안 일했나요?",
+      "explain": "조동사 avez와 주어 vous만 자리를 바꿔요. travaillé는 제자리.",
+      "src": "semaine 3-2"
+    },
+    {
+      "id": "u1-04-q-rencontre", "t": "build", "skill": "pc-neg-q", "hint": "조동사와 주어를 뒤집어요. 모음끼리 부딪치면?",
+      "prompt": "도치 의문문으로 바꾸세요",
+      "from": "Elle a rencontré son ami à la gare.",
+      "a": "A-t-elle rencontré son ami à la gare ?",
+      "extra": ["A-elle", "Elle"],
+      "ko": "그녀는 역에서 친구를 만났나요?",
+      "explain": "a + elle은 모음끼리 부딪혀서 -t- 삽입 → A-t-elle.",
+      "star": true, "src": "semaine 3-2"
+    },
+    {
+      "id": "u1-04-q-nouvelles", "t": "build", "skill": "pc-neg-q", "hint": "조동사와 주어만 뒤집어요. 의문문에서도 des가 바뀔까요?",
+      "prompt": "도치 의문문으로 바꾸세요",
+      "from": "Tu as eu des nouvelles de François.",
+      "a": "As-tu eu des nouvelles de François ?",
+      "extra": ["Es-tu", "tu"],
+      "ko": "프랑수아 소식 들었어?",
+      "explain": "의문문은 부정문이 아니라서 des 그대로! 도치는 조동사만: As-tu.",
+      "src": "semaine 3-2"
+    },
+    {
+      "id": "u1-04-q-metro", "t": "build", "skill": "pc-neg-q", "hint": "뒤집는 건 조동사! 과거분사 pris는 어디에 둘까요?",
+      "prompt": "도치 의문문으로 바꾸세요",
+      "from": "Vous avez pris le métro.",
+      "a": "Avez-vous pris le métro ?",
+      "extra": ["Pris-vous", "Vous"],
+      "ko": "지하철 타셨어요?",
+      "explain": "뒤집는 건 조동사 avez. 과거분사 pris를 앞으로 빼면 ✗.",
+      "src": "semaine 3-2"
+    },
+    {
+      "id": "u1-04-q-quitte", "t": "build", "skill": "pc-neg-q", "hint": "조동사가 이미 t로 끝나요. 그래도 -t-가 필요할까요?",
+      "prompt": "도치 의문문으로 바꾸세요",
+      "from": "Ils ont quitté Paris.",
+      "a": "Ont-ils quitté Paris ?",
+      "extra": ["Ont-t-ils", "Sont-ils"],
+      "ko": "그들은 파리를 떠났나요?",
+      "explain": "ont이 이미 t로 끝나서 -t- 불필요. [옹 띨] 연음.",
+      "src": "semaine 3-2"
+    },
+    {
+      "id": "u1-04-q-film", "t": "build", "skill": "pc-neg-q", "hint": "on은 il과 같은 3인칭! 모음끼리 부딪치면 뭘 끼울까요?",
+      "prompt": "도치 의문문으로 바꾸세요",
+      "from": "On a vu ce film.",
+      "a": "A-t-on vu ce film ?",
+      "extra": ["A-on", "On"],
+      "ko": "우리 그 영화 봤나?",
+      "explain": "a + on → -t- 삽입: A-t-on [아 똥].",
+      "star": true, "src": "semaine 3-2"
+    },
+
+    {
+      "id": "u1-04-c-ordre-neg", "t": "choice", "skill": "pc-neg-q", "hint": "ne…pas는 조동사만 감싸요! 과거분사 pris의 위치는?",
+      "prompt": "올바른 부정문은?",
+      "q": "나는 버스를 타지 않았다.",
+      "a": "Je n'ai pas pris le bus.", "wrong": ["Je n'ai pris pas le bus.", "Je ne pas ai pris le bus.", "Je ai pas pris le bus."],
+      "say": "Je n'ai pas pris le bus.",
+      "explain": "ne…pas는 조동사 ai만 감싸고, 과거분사 pris는 pas 뒤로.",
+      "star": true, "src": "노션 9/16"
+    },
+    {
+      "id": "u1-04-c-de", "t": "choice", "skill": "neg", "hint": "부정문이에요! 부정문에서 un·une·des는 뭐로 바뀔까요?",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Je n'ai pas eu ___ nouvelles de François.",
+      "a": "de", "wrong": ["des", "du", "une"],
+      "ko": "나는 프랑수아의 소식을 듣지 못했다.",
+      "explain": "부정문에서 un / une / des → de. des nouvelles → de nouvelles.",
+      "star": true, "src": "semaine 3-2"
+    },
+    {
+      "id": "u1-04-c-atelle", "t": "choice", "skill": "pc-neg-q", "hint": "a와 elle을 뒤집어 붙이면 모음 충돌! 어떻게 막을까요?",
+      "prompt": "Elle a fini son travail. → 도치 의문문의 빈칸은?",
+      "q": "___ fini son travail ?",
+      "a": "A-t-elle", "wrong": ["A-elle", "Est-elle", "Elle-a"],
+      "ko": "그녀는 일을 끝냈나요?",
+      "explain": "a와 elle, 모음끼리 부딪혀서 -t- 삽입. Alex a-t-il과 같은 규칙!",
+      "star": true, "src": "semaine 3-2"
+    },
+    {
+      "id": "u1-04-c-t-needed", "t": "choice", "skill": "question", "hint": "-t-는 모음 조동사 + 모음 주어가 부딪칠 때만! 하나씩 뒤집어봐요",
+      "prompt": "도치 의문문으로 바꿀 때 -t-가 필요한 문장은?",
+      "q": "다음 중 하나만 -t-가 들어가요.",
+      "a": "On a vu ce film.", "wrong": ["Tu as vu ce film.", "Vous avez vu ce film.", "Ils ont vu ce film."],
+      "say": "A-t-on vu ce film ?",
+      "explain": "모음 a로 끝나는 조동사 + il/elle/on일 때만 -t- → A-t-on. As-tu, Avez-vous, Ont-ils는 그대로.",
+      "src": "노션 9/16"
+    },
+    {
+      "id": "u1-04-c-estceque", "t": "choice", "skill": "question", "hint": "est-ce que 뒤는 평서문 어순일까요, 도치일까요?",
+      "prompt": "올바른 의문문은?",
+      "q": "너 버스 탔어?",
+      "a": "Est-ce que tu as pris le bus ?", "wrong": ["Est-ce que as-tu pris le bus ?", "As pris-tu le bus ?", "Est-ce tu as pris le bus ?"],
+      "say": "Est-ce que tu as pris le bus ?",
+      "explain": "est-ce que 뒤는 평서문 어순 그대로. 도치할 땐 조동사만: As-tu pris…?"
+    },
+    {
+      "id": "u1-04-c-estcequelle", "t": "choice", "skill": "elision", "hint": "뒤에 오는 elle은 모음으로 시작! que는 어떻게 줄어들까요?",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Est-ce ___ elle a fini son travail ?",
+      "a": "qu'", "wrong": ["que", "qui", "-t-"],
+      "say": "Est-ce qu'elle a fini son travail ?",
+      "explain": "모음 elle 앞에서 que → qu' (엘리지옹). 뒤는 평서문 어순 그대로.",
+      "star": true
+    },
+    {
+      "id": "u1-04-c-intonation", "t": "choice", "skill": "question", "hint": "평서문 '그녀는 일을 끝냈다'를 먼저 떠올려봐요!",
+      "prompt": "말끝만 올리는 억양 의문문(구어)으로 알맞은 것은?",
+      "q": "그녀는 일을 끝냈어?",
+      "a": "Elle a fini son travail ?", "wrong": ["Elle fini a son travail ?", "A-elle fini son travail ?", "Elle a son travail fini ?"],
+      "say": "Elle a fini son travail ?",
+      "explain": "억양 의문문은 평서문 그대로 + 말끝만 올리기 ↗."
+    },
+
+    {
+      "id": "u1-04-e-prispas", "t": "error", "skill": "pc-neg-q", "hint": "pas는 조동사 바로 뒤일까요, 과거분사 뒤일까요?",
+      "s": "Je n'ai pris pas le bus.", "wrong": "pris pas", "right": "pas pris",
+      "ko": "나는 버스를 타지 않았다.",
+      "explain": "pas는 조동사 바로 뒤, 과거분사 앞!",
+      "star": true
+    },
+    {
+      "id": "u1-04-e-des", "t": "error", "skill": "neg", "hint": "부정문 속 부정관사를 확인해봐요! 필기에도 있던 실수",
+      "s": "Je n'ai pas eu des nouvelles de François.", "wrong": "des", "right": "de",
+      "ko": "나는 프랑수아의 소식을 듣지 못했다.",
+      "explain": "필기에도 있던 실수! 부정문에서 des → de.",
+      "star": true, "src": "노션 9/16"
+    },
+    {
+      "id": "u1-04-e-on", "t": "error", "skill": "neg", "hint": "부정의 두 조각 ne…pas가 다 있나요? 소리에 속지 말기",
+      "s": "On a pas vu ce film.", "wrong": "On a pas", "right": "On n'a pas",
+      "ko": "우리는 그 영화를 보지 않았다.",
+      "explain": "말할 땐 n'이 묻히지만 쓸 땐 ne(n')를 꼭 넣어야 해요.",
+      "star": true
+    },
+    {
+      "id": "u1-04-e-aelle", "t": "error", "skill": "question", "hint": "모음 a와 elle이 부딪혀요! 사이에 뭘 넣을까요?",
+      "s": "A-elle fini son travail ?", "wrong": "A-elle", "right": "A-t-elle",
+      "ko": "그녀는 일을 끝냈나요?",
+      "explain": "a + elle → 모음 충돌을 막는 -t-."
+    },
+
+    {
+      "id": "u1-04-l-nai", "t": "listen", "skill": "pron", "hint": "[제]로 시작하나요, [쥬 네]로 시작하나요? pas가 들리나요?",
+      "say": "Je n'ai pas pris le bus.", "a": "Je n'ai pas pris le bus.", "wrong": ["J'ai pris le bus."],
+      "ko": "나는 버스를 타지 않았다", "pron": "[쥬 네 빠 프히 르 뷔스]",
+      "explain": "[제]면 긍정, [쥬 네 … 빠]면 부정. pas를 잡으세요!"
+    },
+    {
+      "id": "u1-04-l-atelle", "t": "listen", "skill": "pron", "hint": "주어가 앞인지, 조동사가 앞인지 첫 소리를 들어봐요!",
+      "say": "A-t-elle fini son travail ?", "a": "A-t-elle fini son travail ?", "wrong": ["Elle a fini son travail."],
+      "ko": "그녀는 일을 끝냈나요?", "pron": "[아 뗄 피니 쏭 트하바이]",
+      "explain": "-t-가 뒤 모음에 붙어 [아 뗄]. 평서문은 [엘 라]."
+    },
+
+    {
+      "id": "u1-04-t-mange", "t": "type", "skill": "pc-neg-q", "hint": "ne…pas로 조동사만 감싸요! j'도 원래 모양으로 돌아가요",
+      "prompt": "부정문으로 바꾸세요",
+      "q": "J'ai mangé.",
+      "a": "Je n'ai pas mangé",
+      "explain": "j'ai → je n'ai pas. 과거분사는 맨 뒤.",
+      "star": true
+    },
+    {
+      "id": "u1-04-t-ontils", "t": "type", "skill": "pc-neg-q", "hint": "조동사와 주어를 뒤집고 하이픈! 이미 t로 끝나면 -t-는?",
+      "prompt": "도치 의문문으로 바꾸세요",
+      "q": "Ils ont fini.",
+      "a": "Ont-ils fini ?",
+      "alts": ["Ont-ils fini"],
+      "explain": "조동사 ont ↔ ils, 하이픈으로 연결. -t- 불필요."
+    },
+    {"id":"u1-04-q-bus","t":"build","skill":"pc-neg-q","prompt":"도치 의문문으로 바꾸세요","from":"Tu as pris le bus.","a":"As-tu pris le bus ?","extra":["Tu","Es-tu"],"ko":"너 버스 탔어?","hint":"주어 tu와 조동사의 자리를 바꾸고 하이픈으로!","explain":"조동사 as ↔ tu → As-tu. 과거분사 pris는 제자리 (슬라이드 p.22 첫 예문).","star":true,"src":"semaine 3-2 p.22"},
+    {"id":"u1-04-w-negation","t":"word","skill":"vocab","fr":"Mettez ces phrases à la négation.","ko":"이 문장들을 부정문으로 바꾸세요.","src":"semaine 3-2 p.23"},
+    {"id":"u1-04-w-interrogation","t":"word","skill":"vocab","fr":"Mettez ces phrases à l'interrogation.","ko":"이 문장들을 의문문으로 바꾸세요.","src":"semaine 3-2 p.24"},
+    {"id":"u1-04-w-pendant","t":"word","skill":"vocab","fr":"pendant deux heures","ko":"두 시간 동안","src":"semaine 3-2 p.21"},
+    {"id":"u1-04-c-ce-film","t":"choice","skill":"vocab","prompt":"On a vu ce film. — ce의 역할은?","q":"On a vu ce film.","a":"이/그 (명사 앞 지시형용사)","wrong":["그것은 (주어 대명사)","~의 (소유)","어떤 (부정관사)"],"say":"On a vu ce film.","hint":"명사 film 바로 앞에 붙어 \"어느 영화\"인지 가리켜요","explain":"ce film = 이 영화 / 그 영화 (필기: ce = this). 남성 명사 앞 지시형용사.","src":"노션 9/16"},
+    {"id":"u1-04-l-on-na-pas","t":"listen","skill":"pron","say":"On n'a pas vu ce film.","a":"On n'a pas vu ce film.","wrong":["On a vu ce film."],"ko":"우리는 그 영화를 보지 않았다","pron":"[옹 나 빠 뷔 쓰 필름]","hint":"n'은 거의 안 들려요 — 부정을 나르는 단어를 잡아요","explain":"On n'a pas [옹 나 빠] vs On a [옹 나] — 앞부분 소리는 같고 pas로만 구별. 쓸 땐 n' 필수!","star":true,"src":"노션 9/16"},
+    {"id":"u1-04-l-ontils","t":"listen","skill":"pron","say":"Ont-ils quitté Paris ?","a":"Ont-ils quitté Paris ?","wrong":["Ils ont quitté Paris."],"ko":"그들은 파리를 떠났나요?","pron":"[옹 띨 끼떼 빠히]","hint":"문장 첫소리가 조동사면 도치 의문문!","explain":"Ont-ils [옹 띨] — ont의 t가 연음으로 넘어가요. 평서문 Ils ont은 [일 종].","src":"노션 9/16"}
+  ]
+}

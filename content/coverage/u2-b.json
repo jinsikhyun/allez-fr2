@@ -1,0 +1,156 @@
+{
+ "semaine 5-3": {
+  "p.1": [
+   "skip: 표지 (Semaine 5 · Leçon 10 · 10/1)"
+  ],
+  "p.2": [
+   "skip: 목차"
+  ],
+  "p.3": [
+   "skip: PARTIE 1 간지"
+  ],
+  "p.4": [
+   "u2-04-c-invariable",
+   "u2-04-c-enfants",
+   "note:u2-04#0"
+  ],
+  "p.5": [
+   "u2-04-c-allant",
+   "u2-04-c-rentrant",
+   "u2-04-c-devant-pp",
+   "note:u2-04#0"
+  ],
+  "p.6": [
+   "u2-04-c-ayant",
+   "u2-04-t-etant",
+   "u2-04-c-sachant",
+   "note:u2-04#0"
+  ],
+  "p.7": [
+   "u2-04-c-enfants",
+   "u2-04-c-etudiants",
+   "note:u2-04#1"
+  ],
+  "p.8": [
+   "u2-04-c-sophie",
+   "u2-04-c-virgule",
+   "note:u2-04#1"
+  ],
+  "p.9": [
+   "u2-04-c-paul",
+   "note:u2-04#1"
+  ],
+  "p.10": [
+   "u2-04-c-bus",
+   "u2-04-b-bus",
+   "note:u2-04#1"
+  ],
+  "p.11": [
+   "u2-04-c-voyageurs",
+   "u2-04-c-etant-malade",
+   "note:u2-04#1"
+  ],
+  "p.12": [
+   "u2-04-c-trois-sens",
+   "u2-04-w-simultaneite",
+   "u2-04-w-moyen",
+   "u2-04-w-cause",
+   "note:u2-04#2"
+  ],
+  "p.13": [
+   "u2-04-c-dormant",
+   "u2-04-c-cuisine",
+   "u2-04-b-merge",
+   "u2-04-w-dormir",
+   "u2-04-w-cuisiner",
+   "note:u2-04#2"
+  ],
+  "p.14": [
+   "u2-04-c-films",
+   "u2-04-c-cafe",
+   "note:u2-04#2"
+  ],
+  "p.15": [
+   "u2-04-c-tombe",
+   "u2-04-c-tard",
+   "u2-04-w-tomber",
+   "note:u2-04#2"
+  ],
+  "p.16": [
+   "u2-04-c-conduire",
+   "u2-04-err-conduisant-gen",
+   "note:u2-04#3"
+  ],
+  "p.17": [
+   "u2-04-c-voyant",
+   "u2-04-c-en-sens",
+   "note:u2-04#2"
+  ],
+  "p.18": [
+   "skip: PARTIE 2 간지"
+  ],
+  "p.19": [
+   "u2-02-w-mairie",
+   "u2-02-w-eglise",
+   "u2-02-w-hopital",
+   "note:u2-04#4"
+  ],
+  "p.20": [
+   "u2-02-c-derriere",
+   "u2-02-c-entre-et",
+   "note:u2-04#4"
+  ],
+  "p.21": [
+   "u2-02-c-ex2",
+   "u2-02-b-ex3",
+   "note:u2-04#4"
+  ],
+  "p.22": [
+   "u2-02-c-ex4",
+   "u2-02-c-ex5",
+   "u2-02-c-ex6",
+   "note:u2-04#4"
+  ],
+  "p.23": [
+   "skip: 마무리 슬라이드 (Questions / À la semaine prochaine !)"
+  ]
+ },
+ "노션 10/1": {
+  "현재분사 격식·쉼표 고급 표현": [
+   "u2-04-c-formel",
+   "u2-04-c-virgule",
+   "note:u2-04#0",
+   "note:u2-04#1"
+  ],
+  "venant / Étant·의미 확정": [
+   "u2-04-c-voyageurs",
+   "u2-04-c-etant-malade",
+   "note:u2-04#1"
+  ],
+  "제롱디프 3분류": [
+   "u2-04-c-trois-sens",
+   "note:u2-04#2"
+  ],
+  "en의 동시성·긴밀한 영향": [
+   "u2-04-c-en-sens",
+   "note:u2-04#2"
+  ],
+  "3번 conduire 변화": [
+   "u2-04-c-conduire",
+   "u2-04-err-conduisant-gen",
+   "note:u2-04#3"
+  ],
+  "건물·약국 발음·위치 표현": [
+   "u2-02-w-pharmacie",
+   "u2-02-c-derriere",
+   "note:u2-04#4"
+  ],
+  "de+le=du, de+les=des": [
+   "u2-02-err-de-le",
+   "note:u2-04#4"
+  ],
+  "이미지(필기 사진)": [
+   "skip: 사진은 세션에서 열 수 없음 — 글 필기만 반영"
+  ]
+ }
+}

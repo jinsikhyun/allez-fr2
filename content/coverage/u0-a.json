@@ -1,0 +1,1378 @@
+{
+  "semaine 1-2": {
+    "p.1": [
+      "skip: 표지"
+    ],
+    "p.2": [
+      "skip: 목차 (Sommaire)"
+    ],
+    "p.3": [
+      "skip: 섹션 구분 (Partie 1 · Saluer)"
+    ],
+    "p.4": [
+      "u0-01-bonjour",
+      "u0-01-bonsoir",
+      "u0-01-salut",
+      "u0-01-aurevoir",
+      "u0-01-abientot",
+      "u0-01-monsieur",
+      "u0-01-madame",
+      "u0-01-mademoiselle",
+      "note:u0-01#0",
+      "note:u0-01#1"
+    ],
+    "p.5": [
+      "u0-01-cava",
+      "u0-01-etvous",
+      "u0-01-tresbien",
+      "u0-01-pasmal",
+      "u0-01-tranquille",
+      "note:u0-01#1",
+      "tip:u0-01#3"
+    ],
+    "p.6": [
+      "skip: 섹션 구분 (Partie 2 · Alphabet et prononciation)"
+    ],
+    "p.7": [
+      "u0-02-voyelles",
+      "note:u0-02#0"
+    ],
+    "p.8": [
+      "u0-02-aigu",
+      "u0-02-e-accents",
+      "u0-02-ou-ou",
+      "u0-02-circonflexe",
+      "u0-02-trema",
+      "u0-02-err-francais",
+      "u0-02-ligature",
+      "u0-02-cafe",
+      "u0-02-ete",
+      "u0-02-pere",
+      "u0-02-hotel",
+      "u0-02-ile",
+      "u0-02-noel",
+      "u0-02-garcon",
+      "u0-02-coeur",
+      "u0-02-oeuf",
+      "note:u0-02#1",
+      "note:u0-02#9",
+      "tip:u0-02#0"
+    ],
+    "p.9": [
+      "u0-02-soeur",
+      "u0-05-jeudi",
+      "u0-02-feu",
+      "u0-02-neuf",
+      "u0-02-listen-feu",
+      "u0-02-mbappe",
+      "u0-02-coca",
+      "u0-02-mere",
+      "u0-02-err-hopital",
+      "u0-02-listen-mais",
+      "note:u0-02#2",
+      "note:u0-02#4"
+    ],
+    "p.10": [
+      "u0-02-beaucoup",
+      "u0-02-eiffel",
+      "u0-02-oiseau",
+      "u0-02-faire",
+      "u0-02-naitre",
+      "u0-02-ai",
+      "u0-02-oi",
+      "u0-02-eau",
+      "u0-02-leau",
+      "u0-02-ou-sound",
+      "note:u0-02#3",
+      "tip:u0-02#1"
+    ],
+    "p.11": [
+      "u0-02-un-an",
+      "u0-02-enfant",
+      "u0-02-impossible",
+      "u0-02-concert",
+      "u0-02-faim",
+      "u0-02-nasal-an",
+      "u0-02-ensemble",
+      "u0-02-encore",
+      "u0-02-nasal-in",
+      "u0-02-train",
+      "u0-02-vin",
+      "u0-02-coreen",
+      "u0-02-nasal-un",
+      "u0-05-lundi",
+      "u0-02-nasal-on",
+      "u0-02-nom",
+      "u0-02-listen-bonne",
+      "note:u0-02#5",
+      "note:u0-02#8",
+      "tip:u0-02#2"
+    ],
+    "p.12": [
+      "skip: 섹션 구분 (Partie 1 · Grammaire et vocabulaire)"
+    ],
+    "p.13": [
+      "u0-07-avoir",
+      "u0-07-etre",
+      "u0-07-aller",
+      "note:u0-07#0",
+      "u0-04-futur-proche",
+      "note:u0-04#5"
+    ],
+    "p.14": [
+      "u0-03-tete",
+      "u0-03-cheveux",
+      "u0-03-oeil",
+      "u0-03-oreille",
+      "u0-03-nez",
+      "u0-03-bouche",
+      "u0-03-main",
+      "u0-03-bras",
+      "u0-03-poitrine",
+      "u0-03-ventre",
+      "u0-03-jambe",
+      "u0-03-pied",
+      "u0-03-build-asterix",
+      "u0-03-courts",
+      "u0-03-court",
+      "u0-03-blonds",
+      "u0-03-blond",
+      "u0-03-yeux-bruns",
+      "u0-03-err-longues",
+      "u0-03-long",
+      "u0-03-roux",
+      "u0-03-roux-w",
+      "u0-03-les-yeux",
+      "note:u0-03#0",
+      "note:u0-03#1",
+      "tip:u0-03#0"
+    ],
+    "p.15": [
+      "u0-03-rouge",
+      "u0-03-orange",
+      "u0-03-jaune",
+      "u0-03-noir",
+      "u0-03-blanc",
+      "u0-03-blanche",
+      "u0-03-bleu",
+      "u0-03-vert-w",
+      "u0-03-vert",
+      "u0-03-gris",
+      "u0-03-violet",
+      "u0-03-violette",
+      "u0-03-brun",
+      "u0-03-marron-w",
+      "u0-03-marron",
+      "note:u0-03#2",
+      "tip:u0-03#2"
+    ],
+    "p.16": [
+      "u0-03-grand-nez",
+      "u0-03-grande-bouche",
+      "u0-03-petites-mains",
+      "u0-03-build-ventre",
+      "u0-03-build-bouche",
+      "u0-03-grandes-oreilles",
+      "note:u0-03#1",
+      "tip:u0-03#1",
+      "note:u0-03#0"
+    ],
+    "p.17": [
+      "u0-03-grand-w",
+      "u0-03-petit-w",
+      "u0-03-gros-w",
+      "u0-03-grosse",
+      "u0-03-mince",
+      "u0-03-mince-f",
+      "u0-03-joli",
+      "u0-03-laid",
+      "u0-03-bon-w",
+      "u0-03-bonne",
+      "u0-03-mauvais-w",
+      "u0-03-beau-w",
+      "u0-03-beau",
+      "u0-03-bel",
+      "u0-03-belle",
+      "u0-03-homme",
+      "u0-03-nouveau-w",
+      "u0-03-nouvel",
+      "u0-03-nouvelle",
+      "u0-03-appartement",
+      "note:u0-03#3",
+      "note:u0-03#4",
+      "tip:u0-03#3"
+    ],
+    "p.18": [
+      "u0-03-mauvais-pl",
+      "u0-03-laides",
+      "u0-03-grosse",
+      "u0-03-beaux-hommes",
+      "u0-03-build-apparts",
+      "note:u0-03#3",
+      "note:u0-03#4"
+    ],
+    "p.19": [
+      "u0-03-build-profs",
+      "u0-03-jolies-robes",
+      "u0-03-grands-arbres",
+      "u0-03-beaux-hotels",
+      "u0-03-build-amis",
+      "u0-03-professeur",
+      "u0-03-robe",
+      "u0-03-arbre",
+      "u0-03-ami",
+      "note:u0-03#5",
+      "note:u0-03#7",
+      "tip:u0-03#4"
+    ],
+    "p.20": [
+      "u0-04-neg-grand",
+      "u0-04-neg-yeux",
+      "u0-04-neg-fac",
+      "u0-04-neg-21",
+      "u0-04-meaning-21",
+      "u0-04-neg-arbres",
+      "note:u0-04#0",
+      "tip:u0-04#0"
+    ],
+    "p.21": [
+      "u0-04-inv-es-tu",
+      "u0-04-intonation",
+      "u0-04-formal",
+      "u0-04-inv-est-elle",
+      "u0-04-estce-elle",
+      "note:u0-04#3",
+      "tip:u0-04#3"
+    ],
+    "p.22": [
+      "u0-04-inv-campus",
+      "u0-04-estce-campus",
+      "u0-02-campus",
+      "u0-04-inv-alex",
+      "u0-04-err-que-alex",
+      "u0-04-t-rule",
+      "u0-05-dix-neuf-ans",
+      "note:u0-04#3",
+      "note:u0-04#4",
+      "tip:u0-04#4"
+    ],
+    "p.23": [
+      "u0-04-estce-je",
+      "u0-04-suis-je",
+      "u0-04-inv-as-tu",
+      "u0-04-inv-va-t-il",
+      "u0-04-inv-va-t-elle",
+      "u0-04-inv-arbres",
+      "note:u0-04#4"
+    ],
+    "p.24": [
+      "skip: 마무리 (Questions)",
+      "u0-01-ademain",
+      "note:u0-01#7"
+    ]
+  },
+  "semaine 1-3": {
+    "p.1": [
+      "skip: 표지"
+    ],
+    "p.2": [
+      "skip: 목차 (Sommaire)"
+    ],
+    "p.3": [
+      "skip: 섹션 구분 (Partie 1 · Saluer II)"
+    ],
+    "p.4": [
+      "u0-01-journee",
+      "u0-01-soiree",
+      "u0-01-apresmidi",
+      "u0-01-nuit",
+      "u0-01-err-bonne",
+      "u0-01-listen-soiree",
+      "u0-01-bonjour",
+      "u0-01-bonsoir",
+      "u0-01-salut",
+      "u0-01-coucou",
+      "u0-01-wesh",
+      "u0-01-aurevoir",
+      "u0-01-abientot",
+      "u0-01-ciao",
+      "u0-01-coucou-bye",
+      "note:u0-01#0",
+      "note:u0-01#2",
+      "tip:u0-01#0",
+      "tip:u0-01#1"
+    ],
+    "p.5": [
+      "skip: 섹션 구분 (Les parties du corps et les adjectifs)"
+    ],
+    "p.6": [
+      "u0-03-grand-nez",
+      "u0-03-grande-bouche",
+      "u0-03-petites-mains",
+      "u0-03-build-ventre",
+      "u0-03-build-bouche",
+      "u0-03-grandes-oreilles",
+      "note:u0-03#1",
+      "tip:u0-03#1",
+      "u0-03-tete",
+      "u0-03-cheveux",
+      "u0-03-oeil",
+      "u0-03-oreille",
+      "u0-03-nez",
+      "u0-03-bouche",
+      "u0-03-main",
+      "u0-03-bras",
+      "u0-03-poitrine",
+      "u0-03-ventre",
+      "u0-03-jambe",
+      "u0-03-pied",
+      "note:u0-03#0"
+    ],
+    "p.7": [
+      "skip: 섹션 구분 (La négation et l'interrogation)"
+    ],
+    "p.8": [
+      "u0-04-neg-grand",
+      "u0-04-neg-yeux",
+      "u0-04-neg-fac",
+      "u0-04-neg-21",
+      "u0-04-meaning-21",
+      "u0-04-neg-arbres",
+      "note:u0-04#0",
+      "tip:u0-04#0"
+    ],
+    "p.9": [
+      "u0-04-inv-es-tu",
+      "u0-04-intonation",
+      "u0-04-formal",
+      "u0-04-inv-est-elle",
+      "u0-04-estce-elle",
+      "note:u0-04#3",
+      "tip:u0-04#3"
+    ],
+    "p.10": [
+      "u0-04-inv-campus",
+      "u0-04-estce-campus",
+      "u0-02-campus",
+      "u0-04-inv-alex",
+      "u0-04-err-que-alex",
+      "u0-04-t-rule",
+      "u0-05-dix-neuf-ans",
+      "note:u0-04#3",
+      "note:u0-04#4",
+      "tip:u0-04#4"
+    ],
+    "p.11": [
+      "u0-04-estce-je",
+      "u0-04-suis-je",
+      "u0-04-inv-as-tu",
+      "u0-04-inv-va-t-il",
+      "u0-04-inv-va-t-elle",
+      "u0-04-inv-arbres",
+      "note:u0-04#4"
+    ],
+    "p.12": [
+      "u0-05-quoi",
+      "u0-05-que",
+      "u0-05-qui-obj",
+      "u0-05-qui-est-ce-que",
+      "note:u0-05#0"
+    ],
+    "p.13": [
+      "u0-05-qui-sujet",
+      "u0-05-qui-est-ce-qui",
+      "u0-05-qu-est-ce-qui",
+      "note:u0-05#0"
+    ],
+    "p.14": [
+      "u0-05-que",
+      "u0-05-quoi",
+      "u0-05-qui-obj",
+      "u0-05-qui-est-ce-que",
+      "u0-05-qui-sujet",
+      "u0-05-qui-est-ce-qui",
+      "u0-05-qu-est-ce-qui",
+      "tip:u0-05#0",
+      "note:u0-05#0"
+    ],
+    "p.15": [
+      "skip: 마무리 (Questions)",
+      "u0-01-asemaine",
+      "note:u0-01#7"
+    ]
+  },
+  "semaine 2-1": {
+    "p.1": [
+      "skip: 표지"
+    ],
+    "p.2": [
+      "skip: 목차 (Sommaire)"
+    ],
+    "p.3": [
+      "skip: 섹션 구분 (Partie 1 · Saluer III)"
+    ],
+    "p.4": [
+      "u0-01-journee",
+      "u0-01-soiree",
+      "u0-01-nuit",
+      "u0-01-apresmidi",
+      "u0-01-finaprem",
+      "u0-01-bonjour",
+      "u0-01-bonsoir",
+      "u0-01-salut",
+      "u0-01-aurevoir",
+      "u0-01-abientot",
+      "u0-01-aplustard",
+      "u0-01-atout",
+      "u0-01-err-toute",
+      "u0-01-a-order",
+      "note:u0-01#0",
+      "note:u0-01#2",
+      "note:u0-01#7"
+    ],
+    "p.5": [
+      "skip: 섹션 구분 (L'interrogation)"
+    ],
+    "p.6": [
+      "u0-05-quoi",
+      "u0-05-que",
+      "u0-05-qui-obj",
+      "u0-05-qui-est-ce-que",
+      "note:u0-05#0"
+    ],
+    "p.7": [
+      "u0-05-qui-sujet",
+      "u0-05-qui-est-ce-qui",
+      "u0-05-qu-est-ce-qui",
+      "note:u0-05#0"
+    ],
+    "p.8": [
+      "u0-05-que",
+      "u0-05-quoi",
+      "u0-05-qui-obj",
+      "u0-05-qui-est-ce-que",
+      "u0-05-qui-sujet",
+      "u0-05-qui-est-ce-qui",
+      "u0-05-qu-est-ce-qui",
+      "tip:u0-05#0",
+      "note:u0-05#0"
+    ],
+    "p.9": [
+      "u0-05-quel-age",
+      "u0-05-quelle-heure",
+      "u0-05-quel-jour",
+      "u0-05-quel-nom",
+      "u0-05-nationalite",
+      "u0-05-quels",
+      "u0-05-quelle-couleur",
+      "tip:u0-05#1",
+      "note:u0-05#2"
+    ],
+    "p.10": [
+      "u0-05-build-manges",
+      "u0-05-ex1-que",
+      "u0-05-quelle-couleur",
+      "u0-05-qui-est-la",
+      "u0-05-err-ne-va-pas",
+      "u0-05-ex5-rescene",
+      "u0-05-il-y-a",
+      "u0-05-ex7-il-a",
+      "note:u0-05#1"
+    ],
+    "p.11": [
+      "u0-01-allezvous",
+      "u0-05-comment",
+      "u0-05-ou",
+      "u0-04-err-va-elle",
+      "u0-05-pourquoi",
+      "u0-05-parle-t-il",
+      "note:u0-05#3"
+    ],
+    "p.12": [
+      "u0-05-combien",
+      "u0-05-quand",
+      "u0-05-part-il",
+      "u0-05-depuis-quand",
+      "u0-05-depuis-cafe",
+      "note:u0-05#3"
+    ],
+    "p.13": [
+      "u0-05-a-quelle-heure",
+      "u0-05-dejeuner-heure",
+      "u0-05-frequence-foot",
+      "u0-05-cinema-answer",
+      "u0-05-trois-fois",
+      "note:u0-05#3"
+    ],
+    "p.14": [
+      "skip: 섹션 구분 (La fréquence)"
+    ],
+    "p.15": [
+      "u0-05-cinema-answer",
+      "u0-05-souvent",
+      "u0-05-souvent-build",
+      "u0-05-quelquefois",
+      "u0-05-parfois",
+      "u0-05-de-temps",
+      "u0-05-temps-build",
+      "u0-04-jamais",
+      "note:u0-05#4",
+      "note:u0-04#2"
+    ],
+    "p.16": [
+      "u0-05-trois-fois",
+      "u0-04-jamais-cours",
+      "u0-05-tous-les-jours",
+      "u0-05-une-fois",
+      "u0-05-huit-fois",
+      "u0-05-mercredis",
+      "u0-05-mercredi",
+      "note:u0-05#4",
+      "tip:u0-05#2"
+    ],
+    "p.17": [
+      "skip: 마무리 (Questions)",
+      "u0-01-ademain"
+    ]
+  },
+  "Revision_Generale_교프어I_최종복습": {
+    "p.1": [
+      "note:u0-06#0",
+      "u0-06-parler",
+      "u0-06-finir",
+      "u0-07-aller"
+    ],
+    "p.16": [
+      "u0-01-bonjour",
+      "u0-01-bonsoir",
+      "u0-01-salut",
+      "u0-01-coucou",
+      "u0-01-wesh",
+      "u0-01-aurevoir",
+      "u0-01-abientot",
+      "u0-01-ciao",
+      "u0-01-aplustard",
+      "u0-01-atout",
+      "u0-01-ademain",
+      "u0-01-asemaine",
+      "u0-01-journee",
+      "u0-01-soiree",
+      "u0-01-apresmidi",
+      "u0-01-finaprem",
+      "u0-01-nuit",
+      "u0-01-a-order",
+      "u0-01-monsieur",
+      "u0-01-madame",
+      "u0-01-mademoiselle",
+      "u0-01-cava",
+      "u0-01-tresbien",
+      "u0-01-pasmal",
+      "u0-01-tranquille",
+      "u0-01-etvous",
+      "note:u0-01#0",
+      "note:u0-01#1",
+      "note:u0-01#7"
+    ],
+    "p.17": [
+      "u0-01-tranquille",
+      "u0-01-reply-journee",
+      "u0-01-reply-soiree",
+      "u0-01-dememe",
+      "u0-01-pareil",
+      "u0-01-familier",
+      "u0-01-soutenu",
+      "u0-01-salut-prof",
+      "u0-01-wesh",
+      "u0-01-coucou",
+      "u0-01-aplustard",
+      "u0-01-atout",
+      "u0-01-vastu",
+      "u0-01-allezvous",
+      "note:u0-01#2",
+      "note:u0-01#3",
+      "tip:u0-01#2"
+    ],
+    "p.18": [
+      "u0-01-appelle",
+      "u0-01-annee",
+      "u0-01-litterature",
+      "u0-01-parce-que",
+      "u0-01-interessant",
+      "u0-01-en-france",
+      "note:u0-01#5"
+    ],
+    "p.19": [
+      "u0-04-inv-es-tu",
+      "u0-04-intonation",
+      "u0-04-formal",
+      "u0-04-estce-elle",
+      "u0-04-inv-est-elle",
+      "u0-04-inv-campus",
+      "u0-04-estce-campus",
+      "u0-04-inv-alex",
+      "u0-04-err-que-alex",
+      "u0-04-t-rule",
+      "u0-04-err-va-elle",
+      "note:u0-04#3",
+      "note:u0-04#4",
+      "tip:u0-04#4"
+    ],
+    "p.20": [
+      "u0-02-campus",
+      "u0-04-inv-arbres",
+      "u0-05-que",
+      "u0-05-quoi",
+      "u0-05-qui-obj",
+      "u0-05-qui-est-ce-que",
+      "u0-05-qui-sujet",
+      "u0-05-qui-est-ce-qui",
+      "u0-05-qu-est-ce-qui",
+      "tip:u0-05#0",
+      "note:u0-05#0"
+    ],
+    "p.21": [
+      "u0-05-qui-obj",
+      "u0-05-quel-age",
+      "u0-05-quel-nom",
+      "u0-05-quelle-heure",
+      "u0-05-nationalite",
+      "u0-05-quel-jour",
+      "u0-05-quels",
+      "u0-05-ti-pron",
+      "u0-01-allezvous",
+      "u0-05-comment",
+      "u0-05-ou",
+      "note:u0-05#2",
+      "note:u0-05#3"
+    ],
+    "p.22": [
+      "u0-04-err-va-elle",
+      "u0-05-pourquoi",
+      "u0-05-parle-t-il",
+      "u0-05-combien",
+      "u0-05-quand",
+      "u0-05-part-il",
+      "u0-05-depuis-quand",
+      "u0-05-depuis-cafe",
+      "u0-05-a-quelle-heure",
+      "u0-05-dejeuner-heure",
+      "u0-05-frequence-foot",
+      "u0-05-cinema-answer",
+      "u0-05-trois-fois",
+      "note:u0-05#3",
+      "note:u0-05#1"
+    ],
+    "p.23": [
+      "u0-05-build-manges",
+      "u0-05-ex1-que",
+      "u0-05-quelle-couleur",
+      "u0-05-qui-est-la",
+      "u0-05-err-ne-va-pas",
+      "u0-05-ex5-rescene",
+      "u0-05-il-y-a",
+      "u0-05-ex7-il-a",
+      "u0-04-quel-age",
+      "note:u0-05#1"
+    ],
+    "p.24": [
+      "u0-04-neg-grand",
+      "u0-04-neg-yeux",
+      "u0-04-neg-fac",
+      "u0-04-neg-21",
+      "u0-04-neg-arbres",
+      "u0-04-err-ne-ai",
+      "u0-04-n-habite",
+      "u0-04-ne-le",
+      "u0-04-ne-omit",
+      "u0-04-moi-aussi",
+      "u0-04-moi-non-plus",
+      "u0-04-non-plus",
+      "note:u0-04#0",
+      "note:u0-04#2"
+    ],
+    "p.25": [
+      "u0-03-tete",
+      "u0-03-cheveux",
+      "u0-03-oeil",
+      "u0-03-oreille",
+      "u0-03-nez",
+      "u0-03-bouche",
+      "u0-03-main",
+      "u0-03-bras",
+      "u0-03-poitrine",
+      "u0-03-ventre",
+      "u0-03-jambe",
+      "u0-03-pied",
+      "u0-03-cheveu",
+      "u0-03-les-yeux",
+      "note:u0-03#0",
+      "note:u0-03#1"
+    ],
+    "p.26": [
+      "u0-03-build-asterix",
+      "u0-03-yeux-bruns",
+      "u0-03-courts",
+      "u0-03-err-longues",
+      "u0-03-blonds",
+      "u0-03-roux",
+      "u0-03-grand-nez",
+      "u0-03-build-ventre",
+      "u0-03-grande-bouche",
+      "u0-03-build-bouche",
+      "u0-03-petites-mains",
+      "u0-03-grandes-oreilles",
+      "u0-03-err-oeils",
+      "u0-03-rouge",
+      "u0-03-orange",
+      "u0-03-jaune",
+      "u0-03-noir",
+      "u0-03-blanc",
+      "u0-03-blanche",
+      "u0-03-bleu",
+      "u0-03-vert-w",
+      "u0-03-vert",
+      "u0-03-gris",
+      "u0-03-violet",
+      "u0-03-violette",
+      "u0-03-brun",
+      "u0-03-marron-w",
+      "u0-03-marron",
+      "note:u0-03#1",
+      "note:u0-03#2"
+    ],
+    "p.27": [
+      "u0-03-grand-w",
+      "u0-03-petit-w",
+      "u0-03-gros-w",
+      "u0-03-grosse",
+      "u0-03-mince",
+      "u0-03-mince-f",
+      "u0-03-joli",
+      "u0-03-laid",
+      "u0-03-bon-w",
+      "u0-03-bonne",
+      "u0-03-mauvais-w",
+      "u0-03-beau-w",
+      "u0-03-nouveau-w",
+      "u0-03-mauvais-pl",
+      "u0-03-beau",
+      "u0-03-bel",
+      "u0-03-nouvel",
+      "u0-03-belle",
+      "u0-03-nouvelle",
+      "u0-03-beaux-hommes",
+      "u0-03-build-apparts",
+      "u0-03-build-profs",
+      "u0-03-jolies-robes",
+      "note:u0-03#3",
+      "note:u0-03#4",
+      "note:u0-03#5"
+    ],
+    "p.28": [
+      "u0-03-grands-arbres",
+      "u0-03-beaux-hotels",
+      "u0-03-build-amis",
+      "u0-03-petites-mains",
+      "u0-04-neg-yeux",
+      "note:u0-03#5"
+    ],
+    "p.29": [
+      "u0-02-aigu",
+      "u0-02-circonflexe",
+      "u0-02-trema",
+      "u0-02-err-francais",
+      "u0-02-ligature",
+      "u0-02-hotel",
+      "u0-02-ile",
+      "u0-02-foret",
+      "u0-02-anais",
+      "u0-02-mere",
+      "note:u0-02#1"
+    ],
+    "p.30": [
+      "u0-02-mbappe",
+      "u0-02-coca",
+      "u0-02-mere",
+      "u0-02-err-hopital",
+      "u0-02-listen-mais",
+      "u0-02-ai",
+      "u0-02-oi",
+      "u0-02-eau",
+      "u0-02-ou-sound",
+      "u0-02-beaucoup",
+      "u0-02-eiffel",
+      "u0-02-oiseau",
+      "u0-02-faire",
+      "u0-02-naitre",
+      "note:u0-02#2",
+      "note:u0-02#3"
+    ],
+    "p.31": [
+      "u0-02-oiseau",
+      "u0-02-faire",
+      "u0-02-naitre",
+      "u0-02-soeur",
+      "u0-05-jeudi",
+      "u0-02-feu",
+      "u0-02-neuf",
+      "u0-02-nasal-an",
+      "u0-02-nasal-in",
+      "u0-02-coreen",
+      "u0-02-nasal-un",
+      "u0-02-nasal-on",
+      "u0-02-un-an",
+      "note:u0-02#4",
+      "note:u0-02#5"
+    ],
+    "p.32": [
+      "u0-02-enfant",
+      "u0-02-impossible",
+      "u0-02-concert",
+      "u0-02-faim",
+      "u0-02-pain",
+      "u0-02-vin",
+      "u0-02-listen-bonne",
+      "u0-02-listen-brune",
+      "u0-02-oeuf",
+      "u0-02-oeufs",
+      "u0-02-listen-vent",
+      "u0-02-content",
+      "u0-02-travaillent",
+      "u0-03-fiere-q",
+      "u0-03-fier-q",
+      "note:u0-02#6",
+      "note:u0-02#8",
+      "note:u0-03#6"
+    ],
+    "p.33": [
+      "u0-05-cinema-answer",
+      "u0-05-souvent",
+      "u0-05-quelquefois",
+      "u0-05-parfois",
+      "u0-05-de-temps",
+      "u0-04-jamais",
+      "u0-04-jamais-cours",
+      "u0-05-tous-les-jours",
+      "u0-05-une-fois",
+      "u0-05-huit-fois",
+      "u0-05-mercredis",
+      "u0-05-trois-fois",
+      "u0-05-par-semaine",
+      "u0-05-tous-pron",
+      "note:u0-05#4",
+      "note:u0-05#7"
+    ],
+    "p.34": [
+      "u0-05-la-date",
+      "u0-05-le-combien",
+      "u0-05-date-q",
+      "u0-05-quel-jour",
+      "u0-05-en-mois",
+      "u0-05-premier",
+      "u0-05-heure",
+      "u0-05-seize-heures",
+      "u0-05-seize",
+      "u0-05-anniversaire",
+      "u0-05-meteo",
+      "u0-07-temps",
+      "note:u0-05#5",
+      "note:u0-05#6",
+      "tip:u0-05#4"
+    ],
+    "p.35": [
+      "u0-05-janvier",
+      "u0-05-fevrier",
+      "u0-05-mars",
+      "u0-05-avril",
+      "u0-05-mai",
+      "u0-05-juin",
+      "u0-05-juillet",
+      "u0-05-aout",
+      "u0-05-septembre",
+      "u0-05-octobre",
+      "u0-05-novembre",
+      "u0-05-decembre",
+      "u0-02-sept",
+      "u0-05-embre",
+      "u0-05-vingt-et-un",
+      "u0-05-quarante-six",
+      "u0-05-seize",
+      "u0-05-dix-neuf-ans",
+      "note:u0-05#5",
+      "note:u0-05#7",
+      "tip:u0-05#3"
+    ],
+    "p.36": [
+      "u0-01-doucement",
+      "u0-01-comprends",
+      "u0-08-comprends",
+      "u0-01-euh",
+      "u0-01-reflechis",
+      "u0-05-trois-fois",
+      "u0-04-dejeuner",
+      "u0-01-normalement",
+      "u0-01-prendre-dej",
+      "u0-01-comme",
+      "u0-01-restaurant",
+      "u0-01-comedies",
+      "u0-02-rentree",
+      "u0-06-rentree",
+      "u0-08-sortie",
+      "u0-06-choix",
+      "note:u0-01#4",
+      "note:u0-02#7",
+      "tip:u0-01#4"
+    ],
+    "p.37": [
+      "u0-01-partiel",
+      "u0-09-assiduite",
+      "u0-01-objectifs",
+      "u0-01-prononcer",
+      "note:u0-01#6"
+    ],
+    "p.42": [
+      "u0-01-pas-de-plus",
+      "u0-01-expr-elle",
+      "u0-01-premiere-expr",
+      "u0-01-utile",
+      "u0-01-courage",
+      "note:u0-01#8",
+      "note:u0-09#9"
+    ]
+  },
+  "노션 9/1 OT": {
+    "§ 목차 · Se présenter (틀: Je m'appelle / Je suis en … année / Je suis en discipline / Ça fait … que / parce que …)": [
+      "u0-01-bonjour",
+      "u0-01-appelle",
+      "u0-01-annee",
+      "u0-01-litterature",
+      "u0-01-ca-fait",
+      "u0-01-interessant",
+      "u0-01-parce-que",
+      "u0-01-en-france",
+      "note:u0-01#5"
+    ],
+    "§ 프랑스어 스크립트": [
+      "u0-01-appelle",
+      "u0-01-annee",
+      "u0-01-litterature",
+      "u0-01-parce-que",
+      "note:u0-01#5"
+    ],
+    "§ 한국어 번역": [
+      "note:u0-01#5"
+    ],
+    "§ 한국어 발음 (참고용)": [
+      "note:u0-01#5"
+    ],
+    "§ un œuf / des œufs · le vent · Je suis content(e) · Ils travaillent (발음)": [
+      "u0-02-oeuf",
+      "u0-02-oeufs",
+      "u0-02-listen-vent",
+      "u0-02-content",
+      "u0-02-travaillent",
+      "note:u0-02#6",
+      "note:u0-02#8"
+    ],
+    "§ 영어와의 비교 (la propriétaire du chien qui se sent fière / fier)": [
+      "u0-03-fiere-q",
+      "u0-03-fier-q",
+      "u0-03-fier",
+      "u0-03-proprietaire",
+      "u0-03-chien",
+      "note:u0-03#6"
+    ],
+    "§ 중급에는 문법 비중 많음 — 동사 변형 (+ 학습보조 링크)": [
+      "note:u0-06#0",
+      "note:u0-01#6"
+    ],
+    "§ La subtilité": [
+      "u0-01-subtilite",
+      "note:u0-01#6"
+    ],
+    "§ Objectifs": [
+      "u0-01-objectifs",
+      "u0-01-prononcer",
+      "note:u0-01#6"
+    ],
+    "§ Evaluation": [
+      "u0-01-partiel",
+      "u0-09-assiduite",
+      "note:u0-01#6"
+    ]
+  },
+  "노션 9/2": {
+    "§ Salut! : 친구 사이에만": [
+      "u0-01-salut",
+      "u0-01-salut-prof",
+      "note:u0-01#3"
+    ],
+    "§ Les Cinq Accents : 발음 때문에 존재": [
+      "u0-02-aigu",
+      "u0-02-circonflexe",
+      "u0-02-trema",
+      "u0-02-ligature",
+      "note:u0-02#1"
+    ],
+    "§ Anais (트레마)": [
+      "u0-02-anais",
+      "note:u0-02#2"
+    ],
+    "§ la mère": [
+      "u0-02-mere",
+      "note:u0-02#2"
+    ],
+    "§ un oiseau (연음)": [
+      "u0-02-oiseau",
+      "note:u0-02#3"
+    ],
+    "§ faire": [
+      "u0-02-faire",
+      "note:u0-02#3"
+    ],
+    "§ naître": [
+      "u0-02-naitre",
+      "note:u0-02#3"
+    ],
+    "§ « IM, IN, AIM, AIN, EIN » /ɛ̃/": [
+      "u0-02-nasal-in",
+      "u0-02-vin",
+      "u0-02-pain",
+      "note:u0-02#5"
+    ],
+    "§ 동사표 이미지 · aller + 동사원형 = 간접미래형": [
+      "u0-04-futur-proche",
+      "u0-07-va-avoir",
+      "u0-07-avoir",
+      "u0-07-etre",
+      "u0-07-aller",
+      "note:u0-04#5"
+    ],
+    "§ 몸 부위 — 1) 단어 (그림 라벨)": [
+      "u0-03-tete",
+      "u0-03-cheveux",
+      "u0-03-oeil",
+      "u0-03-oreille",
+      "u0-03-nez",
+      "u0-03-bouche",
+      "u0-03-main",
+      "u0-03-bras",
+      "u0-03-poitrine",
+      "u0-03-ventre",
+      "u0-03-jambe",
+      "u0-03-pied",
+      "note:u0-03#0",
+      "tip:u0-03#0"
+    ],
+    "§ 몸 부위 — 2) 문장 구조 avoir + 신체부위 (yeux 스펠링 유의 · un cheveu)": [
+      "u0-03-build-asterix",
+      "u0-03-err-oeils",
+      "u0-03-courts",
+      "u0-03-cheveu",
+      "u0-03-blonds",
+      "u0-03-yeux-bruns",
+      "u0-03-err-longues",
+      "u0-03-roux",
+      "note:u0-03#1"
+    ],
+    "§ Astérix a un grand nez … (핵심 규칙: avoir · un/une · de + 복수)": [
+      "u0-03-grand-nez",
+      "u0-03-grande-bouche",
+      "u0-03-petites-mains",
+      "u0-03-build-ventre",
+      "u0-03-build-bouche",
+      "u0-03-grandes-oreilles",
+      "note:u0-03#1",
+      "tip:u0-03#1"
+    ],
+    "§ 1) 명사 앞에 오는 대표 형용사들": [
+      "u0-03-grand-w",
+      "u0-03-petit-w",
+      "u0-03-gros-w",
+      "u0-03-grosse",
+      "u0-03-mince",
+      "u0-03-mince-f",
+      "u0-03-joli",
+      "u0-03-laid",
+      "u0-03-bon-w",
+      "u0-03-bonne",
+      "u0-03-mauvais-w",
+      "note:u0-03#3"
+    ],
+    "§ 2) beau / bel / belle": [
+      "u0-03-beau",
+      "u0-03-bel",
+      "u0-03-belle",
+      "u0-03-beau-w",
+      "note:u0-03#4"
+    ],
+    "§ 3) nouveau / nouvel / nouvelle": [
+      "u0-03-nouvel",
+      "u0-03-nouvelle",
+      "u0-03-nouveau-w",
+      "note:u0-03#4"
+    ],
+    "§ 형용사 복수 — 1) 기본 규칙 (-s · gros · mince · mauvais)": [
+      "u0-03-mauvais-pl",
+      "u0-03-laides",
+      "u0-03-grosse",
+      "u0-03-mince-f",
+      "note:u0-03#3"
+    ],
+    "§ 형용사 복수 — 2) beau · nouveau → beaux · nouveaux (Tu as de beaux yeux)": [
+      "u0-03-beaux-hommes",
+      "u0-03-build-apparts",
+      "u0-04-neg-yeux",
+      "note:u0-03#4"
+    ],
+    "§ 형용사 복수 — 3) de + 복수가 나오는 이유": [
+      "u0-03-petites-mains",
+      "note:u0-03#5"
+    ],
+    "§ 복수 명사구 (des → de · bel/nouvel이 들어가면)": [
+      "u0-03-build-profs",
+      "u0-03-jolies-robes",
+      "u0-03-grands-arbres",
+      "u0-03-beaux-hotels",
+      "u0-03-build-amis",
+      "note:u0-03#5",
+      "tip:u0-03#4"
+    ]
+  },
+  "노션 9/3": {
+    "§ <인사말> Coucou! · Ciao! · Wesh!": [
+      "u0-01-coucou",
+      "u0-01-ciao",
+      "u0-01-wesh",
+      "u0-01-coucou-bye",
+      "note:u0-01#0",
+      "note:u0-01#3"
+    ],
+    "§ registre (soutenu · courant · familier · vulgaire)": [
+      "u0-01-familier",
+      "u0-01-soutenu",
+      "u0-01-pareil",
+      "tip:u0-01#2",
+      "note:u0-01#3"
+    ],
+    "§ 3) 부정문 만들기: ne + 동사 + pas (핵심 포인트 3개)": [
+      "u0-04-neg-grand",
+      "u0-04-neg-yeux",
+      "u0-04-neg-fac",
+      "u0-04-err-ne-ai",
+      "u0-04-n-habite",
+      "u0-04-ne-le",
+      "u0-04-ne-omit",
+      "note:u0-04#0"
+    ],
+    "§ Elle va avoir 21 ans (근접 미래) · Les arbres ne sont pas petits": [
+      "u0-04-neg-21",
+      "u0-04-meaning-21",
+      "u0-04-futur-proche",
+      "u0-04-neg-arbres",
+      "note:u0-04#0",
+      "note:u0-04#5"
+    ],
+    "§ 의문문 슬라이드 이미지 · campus의 s 발음 됨": [
+      "u0-02-campus",
+      "u0-04-inv-campus",
+      "note:u0-04#4"
+    ],
+    "§ Il va à la fac · Les arbres sont-ils petits? (도치 연습)": [
+      "u0-04-inv-va-t-il",
+      "u0-04-inv-arbres",
+      "note:u0-04#4"
+    ],
+    "§ Tu regardes quoi? · Que regardes-tu? · Qu'est-ce que tu regardes?": [
+      "u0-05-quoi",
+      "u0-05-que",
+      "note:u0-05#0"
+    ],
+    "§ Tu regardes qui? · Qui regardes-tu? (Qui는 앞에 와도 안바뀜) · Qui est-ce que tu regardes?": [
+      "u0-05-qui-obj",
+      "u0-05-qui-est-ce-que",
+      "note:u0-05#0"
+    ],
+    "§ 의문대명사 표 이미지": [
+      "u0-05-qui-sujet",
+      "u0-05-qui-est-ce-qui",
+      "u0-05-qu-est-ce-qui",
+      "tip:u0-05#0"
+    ]
+  },
+  "노션 9/8": {
+    "§ <인사> À plus tard · À tout à l'heure · Bonne journée/soirée/nuit · Bon après-midi · Bonne fin d'après-midi": [
+      "u0-01-aplustard",
+      "u0-01-atout",
+      "u0-01-journee",
+      "u0-01-soiree",
+      "u0-01-nuit",
+      "u0-01-apresmidi",
+      "u0-01-finaprem",
+      "note:u0-01#0",
+      "note:u0-01#2"
+    ],
+    "§ Quelle est votre nationalité (발음 주의) · question 발음 비교": [
+      "u0-05-nationalite",
+      "u0-05-ti-pron",
+      "note:u0-05#2"
+    ],
+    "§ 1. Tu manges quoi ? = Qu'est-ce que tu manges ? = Que manges-tu ?": [
+      "u0-05-build-manges",
+      "u0-05-ex1-que",
+      "note:u0-05#1"
+    ],
+    "§ 2. Quelle couleur est-ce qu'elle choisit ? (couleur 여성단수)": [
+      "u0-05-quelle-couleur"
+    ],
+    "§ 3. Qui est là ? = Qui est-ce qui est là ?": [
+      "u0-05-qui-est-la"
+    ],
+    "§ 4. Qu'est-ce qui ne va pas ?": [
+      "u0-05-err-ne-va-pas"
+    ],
+    "§ 5. Qui préfères-tu dans Rescene ?": [
+      "u0-05-ex5-rescene"
+    ],
+    "§ 6. Qu'est-ce qu'il y a ? (il y a가 세트)": [
+      "u0-05-il-y-a"
+    ],
+    "§ Quel âge a-t-il ? = Il a quel âge ? = Quel âge est-ce qu'il a ?": [
+      "u0-04-quel-age",
+      "u0-05-quel-age",
+      "note:u0-04#4"
+    ],
+    "§ 7. Qu'est-ce qu'il a ?": [
+      "u0-05-ex7-il-a",
+      "note:u0-05#1"
+    ],
+    "§ 의문부사 슬라이드 이미지": [
+      "u0-05-comment",
+      "u0-05-ou",
+      "u0-05-pourquoi",
+      "u0-05-combien",
+      "u0-05-quand",
+      "u0-05-depuis-quand",
+      "u0-05-a-quelle-heure",
+      "note:u0-05#3"
+    ],
+    "§ 친구면 Comment vas-tu ?": [
+      "u0-01-vastu",
+      "u0-01-allezvous"
+    ],
+    "§ J'ai cours de français tous les jours · une fois par semaine · huit/cinq/six/dix fois par mois · tous les mercredis": [
+      "u0-05-tous-les-jours",
+      "u0-05-une-fois",
+      "u0-05-huit-fois",
+      "u0-05-mercredis",
+      "note:u0-05#4",
+      "tip:u0-05#2"
+    ]
+  },
+  "노션 9/9": {
+    "§ 수업 전 복습: Quelle est la date aujourd'hui ? · On est quel jour ? · On est le combien ? · Nous sommes en quel mois ? · On est en septembre": [
+      "u0-05-la-date",
+      "u0-05-date-q"
+    ],
+    "§ quarante six (46) 발음": [
+      "u0-05-quarante-six",
+      "note:u0-05#7"
+    ]
+  },
+  "노션 9/10": {
+    "§ <수업 전 복습> Quel temps fait-il aujourd'hui ? → Il y a du vent. Il fait gris.": [
+      "u0-05-meteo",
+      "u0-07-temps",
+      "u0-07-fait-gris",
+      "note:u0-05#6"
+    ],
+    "§ Quelle heure est-il ? → Il est douze heures neuf.": [
+      "u0-05-heure",
+      "u0-05-quelle-heure",
+      "note:u0-05#6"
+    ],
+    "§ On est quel jour ? → On est jeudi.": [
+      "u0-05-quel-jour",
+      "u0-05-jeudi",
+      "u0-05-date-q"
+    ],
+    "§ On est le combien ? / Nous sommes le combien ? / Quelle est la date ? (토글: 1월~12월 · 발음 꿀팁)": [
+      "u0-05-le-combien",
+      "u0-05-la-date",
+      "u0-05-janvier",
+      "u0-05-fevrier",
+      "u0-05-mars",
+      "u0-05-avril",
+      "u0-05-mai",
+      "u0-05-juin",
+      "u0-05-juillet",
+      "u0-05-aout",
+      "u0-05-septembre",
+      "u0-05-octobre",
+      "u0-05-novembre",
+      "u0-05-decembre",
+      "u0-05-embre",
+      "note:u0-05#5",
+      "tip:u0-05#3"
+    ],
+    "§ Nous sommes combien ?": [
+      "u0-05-seize",
+      "note:u0-05#6"
+    ],
+    "§ Votre anniversaire, c'est quand ? → C'est le vingt et un septembre.": [
+      "u0-05-anniversaire",
+      "u0-05-vingt-et-un",
+      "note:u0-05#5"
+    ],
+    "§ cf) Plus doucement, s'il vous plaît. Doux / douce (토글)": [
+      "u0-01-doucement",
+      "note:u0-01#4"
+    ],
+    "§ Je ne comprends pas (la question)": [
+      "u0-01-comprends",
+      "u0-08-comprends",
+      "note:u0-01#4"
+    ],
+    "§ À quelle fréquence vous avez cours de français ? → Trois fois par semaine (la semaine / par semaine)": [
+      "u0-05-trois-fois",
+      "u0-05-par-semaine",
+      "note:u0-05#4"
+    ],
+    "§ K-pop? J'aime les comédies musicales.": [
+      "u0-01-comedies",
+      "u0-04-moi-aussi",
+      "note:u0-01#4"
+    ],
+    "§ À quelle heure vous allez prendre le déjeuner ? → Je ne prends pas le déjeuner. Normal / normalement": [
+      "u0-01-prendre-dej",
+      "u0-04-dejeuner",
+      "u0-01-normalement",
+      "note:u0-01#4"
+    ],
+    "§ Qu'est-ce que vous allez prendre comme déjeuner ? → Je vais aller au restaurant": [
+      "u0-01-comme",
+      "u0-01-restaurant",
+      "note:u0-01#4"
+    ],
+    "§ <수업> rentrer vs la rentrée (발음 같음)": [
+      "u0-02-rentree",
+      "u0-06-rentree",
+      "note:u0-02#7"
+    ],
+    "§ <수업> 악상 그라브 vs 악상 테귀 발음 차이": [
+      "u0-02-e-accents",
+      "note:u0-02#1"
+    ],
+    "§ <수업> partir · sortir · dormir (la sortie : 출구)": [
+      "u0-08-sortie",
+      "note:u0-02#7"
+    ],
+    "§ 📝 Un pas de plus vers le français (자유 서술)": [
+      "u0-01-pas-de-plus",
+      "u0-01-expr-elle",
+      "u0-01-premiere-expr",
+      "u0-01-utile",
+      "note:u0-01#8"
+    ]
+  }
+}

@@ -1,0 +1,876 @@
+{
+  "id": "u1-14",
+  "unit": "u1",
+  "title": "가족 어휘 — Les DUBOIS",
+  "emoji": "🌳",
+  "date": "2026-09-23",
+  "sources": [
+    "semaine 4-2",
+    "semaine 5-1"
+  ],
+  "tips": [
+    {
+      "h": "3대 가계도 (화자 = Valérie)",
+      "rows": [
+        [
+          "Jean · Mireille",
+          "grand-père · grand-mère"
+        ],
+        [
+          "Bernard · Françoise",
+          "père · mère"
+        ],
+        [
+          "Pierre · Sophie",
+          "oncle · tante"
+        ],
+        [
+          "Paul",
+          "frère"
+        ],
+        [
+          "Vincent · Marie",
+          "cousin · cousine"
+        ]
+      ]
+    },
+    {
+      "h": "위아래로 부르는 이름",
+      "rows": [
+        [
+          "조부모 → 손주",
+          "petit-fils · petite-fille · petits-enfants"
+        ],
+        [
+          "부모 → 자녀",
+          "fils · fille · enfants"
+        ],
+        [
+          "삼촌·고모 → 조카",
+          "neveu · nièce"
+        ]
+      ]
+    },
+    {
+      "h": "🔴 복수에서 grand·petit도 변한다",
+      "b": "les **grands**-parents (grand-parents ✗)\nles **petits**-enfants (petit-enfants ✗)"
+    },
+    {
+      "h": "🔊 소리 함정 셋",
+      "b": "le fils [**피스**] — l 묵음, s 발음\nla fille [**피이**] — ll = [j]\nle cousin [꾸**장**] ↔ la cousine [꾸**진**]"
+    }
+  ],
+  "note": [
+    {
+      "h": "Les DUBOIS 가계도",
+      "skill": "famille",
+      "src": [
+        "semaine 4-2 p.19"
+      ],
+      "body": [
+        {
+          "p": "슬라이드의 가계도는 **Valérie DUBOIS**(= moi)를 기준으로 그려져 있습니다. 3대가 한 그림에 들어 있어요."
+        },
+        {
+          "table": [
+            [
+              "세대",
+              "인물",
+              "관계",
+              "뜻"
+            ],
+            [
+              "1대",
+              "Jean DUBOIS",
+              "mon grand-père",
+              "할아버지"
+            ],
+            [
+              "1대",
+              "Mireille DUBOIS",
+              "ma grand-mère",
+              "할머니"
+            ],
+            [
+              "2대",
+              "Bernard DUBOIS",
+              "mon père",
+              "아버지"
+            ],
+            [
+              "2대",
+              "Françoise DUBOIS",
+              "ma mère",
+              "어머니"
+            ],
+            [
+              "2대",
+              "Pierre DUBOIS",
+              "mon oncle",
+              "삼촌·고모부"
+            ],
+            [
+              "2대",
+              "Sophie DUBOIS",
+              "ma tante",
+              "고모·이모·숙모"
+            ],
+            [
+              "3대",
+              "Valérie DUBOIS",
+              "moi",
+              "나"
+            ],
+            [
+              "3대",
+              "Paul DUBOIS",
+              "mon frère",
+              "남자 형제"
+            ],
+            [
+              "3대",
+              "Vincent DUBOIS",
+              "mon cousin",
+              "사촌 (남)"
+            ],
+            [
+              "3대",
+              "Marie DUBOIS",
+              "ma cousine",
+              "사촌 (여)"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "memo": "프랑스어 oncle·tante는 친가·외가를 구별하지 않습니다. 한국어로는 삼촌·외삼촌·고모부가 전부 oncle."
+        }
+      ]
+    },
+    {
+      "h": "관계를 문장으로 (슬라이드 오른쪽)",
+      "skill": "famille",
+      "src": [
+        "semaine 4-2 p.19"
+      ],
+      "body": [
+        {
+          "ex": [
+            [
+              "Jean et Mireille sont les grands-parents de Valérie et de Paul.",
+              "장과 미레유는 발레리와 폴의 조부모다."
+            ],
+            [
+              "Paul est le petit-fils de Jean et de Mireille.",
+              "폴은 장과 미레유의 손자다."
+            ],
+            [
+              "Valérie est la petite-fille de Jean et de Mireille.",
+              "발레리는 장과 미레유의 손녀다."
+            ],
+            [
+              "Paul et Valérie sont les petits-enfants de Jean et de Mireille.",
+              "폴과 발레리는 장과 미레유의 손주들이다."
+            ],
+            [
+              "Bernard et Françoise sont les parents de Valérie et de Paul.",
+              "베르나르와 프랑수아즈는 발레리와 폴의 부모다."
+            ],
+            [
+              "Paul est le fils de Bernard et de Françoise.",
+              "폴은 베르나르와 프랑수아즈의 아들이다."
+            ],
+            [
+              "Valérie est la fille de Bernard et de Françoise.",
+              "발레리는 베르나르와 프랑수아즈의 딸이다."
+            ],
+            [
+              "Paul et Valérie sont les enfants de Bernard et de Françoise.",
+              "폴과 발레리는 베르나르와 프랑수아즈의 자녀다."
+            ],
+            [
+              "Valérie est la sœur de Paul.",
+              "발레리는 폴의 누나다."
+            ],
+            [
+              "Paul est le neveu de Pierre.",
+              "폴은 피에르의 조카다."
+            ],
+            [
+              "Valérie est la nièce de Pierre.",
+              "발레리는 피에르의 조카(여)다."
+            ]
+          ]
+        },
+        {
+          "warn": "두 사람을 나열할 때 de를 **반복**합니다: de Jean et **de** Mireille. 정관사와는 축약돼요 — le fils **du** professeur(de+le), la fille **des** voisins(de+les)."
+        }
+      ]
+    },
+    {
+      "h": "petit-fils의 함정 세 가지",
+      "skill": "famille",
+      "src": [
+        "semaine 4-2 p.19"
+      ],
+      "body": [
+        {
+          "list": [
+            "① **petit-fils / petite-fille = 손자 / 손녀**. '작은 아들·작은 딸'이 아닙니다.",
+            "② **les petits-enfants**(손주들) ≠ **les petits enfants**(어린 아이들). 하이픈 하나로 뜻이 갈립니다.",
+            "③ 복수형에서 **grand·petit도 함께 복수**: les grand**s**-parents, les petit**s**-enfants."
+          ]
+        },
+        {
+          "warn": "grands-parents는 하이픈 합성어라 **연음하지 않습니다** [그랑 빠항]. 반대로 petits-enfants는 **연음 필수** [쁘띠 장팡]."
+        }
+      ]
+    },
+    {
+      "h": "남성·여성 짝으로 외우기",
+      "skill": "famille",
+      "src": [
+        "semaine 4-2 p.19"
+      ],
+      "body": [
+        {
+          "table": [
+            [
+              "남성",
+              "여성"
+            ],
+            [
+              "le père / le grand-père",
+              "la mère / la grand-mère"
+            ],
+            [
+              "le fils / la petit-fils",
+              "la fille / la petite-fille"
+            ],
+            [
+              "le frère / l'oncle",
+              "la sœur / la tante"
+            ],
+            [
+              "le cousin / le neveu",
+              "la cousine / la nièce"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "p": "cousin → cousine처럼 **-e를 붙여 여성형을 만드는** 짝이 있고, frère → sœur, neveu → nièce, oncle → tante처럼 **단어 자체가 다른** 짝이 있습니다. 후자를 따로 외워두세요."
+        }
+      ]
+    },
+    {
+      "h": "발음 — 가족 어휘",
+      "skill": "pron",
+      "src": [
+        "semaine 4-2 p.19"
+      ],
+      "body": [
+        {
+          "list": [
+            "le fils [르 **피스**] — **l은 묵음, s는 발음**. [필스] ✗",
+            "la fille [라 **피이**] — ll = [j]. fils와 소리가 전혀 다름",
+            "grand-père [그랑 뻬흐] · grand-mère [그랑 메흐] — **d 묵음**",
+            "les grands-parents [레 그랑 빠항] — 연음 **없음**",
+            "les petits-enfants [레 쁘띠 **장팡**] — 연음 **있음**, t가 [t]로 살아남",
+            "mon‿oncle [모 **농**클] — n이 넘어가며 비모음이 풀림",
+            "la sœur [라 **쐬**흐] — œu는 [œ], 입을 벌린 채",
+            "le neveu [르 느**뵈**] — 끝 eu는 [ø]",
+            "la nièce [라 니**에스**] — **끝 -ce의 s 소리를 발음**",
+            "le cousin [르 꾸**장**] ↔ la cousine [라 꾸**진**] — 남성은 비모음, 여성은 [in]",
+            "la tante [라 **땅**뜨] — 앞 an은 비모음, 끝 -te는 발음"
+          ]
+        }
+      ]
+    },
+    {
+      "h": "연습문제 — 관점 뒤집기 (semaine 5-1)",
+      "skill": "famille",
+      "src": [
+        "semaine 5-1 p.9",
+        "semaine 5-1 p.5"
+      ],
+      "body": [
+        {
+          "p": "가계도는 Valérie 기준(mon oncle, ma tante)으로 적혀 있지만, 연습문제는 **다른 사람 기준**으로 묻습니다. 누구 입장인지 먼저 확인!"
+        },
+        {
+          "ex": [
+            [
+              "Jean est le grand-père de Vincent.",
+              "장은 뱅상의 할아버지다."
+            ],
+            [
+              "Vincent est le fils de Pierre.",
+              "뱅상은 피에르의 아들이다."
+            ],
+            [
+              "Marie est la fille de Sophie.",
+              "마리는 소피의 딸이다."
+            ],
+            [
+              "Bernard est l'oncle de Vincent.",
+              "베르나르는 뱅상의 삼촌이다."
+            ],
+            [
+              "Valérie est la nièce de Sophie.",
+              "발레리는 소피의 조카다."
+            ]
+          ]
+        },
+        {
+          "warn": "4번은 le oncle ✗ → **l'oncle** (모음 앞 엘리지옹)."
+        },
+        {
+          "p": "p.5의 새 가계도는 **Moi** 기준으로 소유형용사를 붙여 부릅니다: **mon** grand-père · **ma** grand-mère · **mon** père · **ma** mère · **mon** frère · **ma** sœur."
+        }
+      ]
+    },
+    {
+      "h": "수업 메모 — arbre généalogique · 합성어의 일치 (노션 9/29)",
+      "skill": "famille",
+      "src": [
+        "노션 9/29"
+      ],
+      "body": [
+        {
+          "p": "프랑스에서는 족보를 **나무**로 그립니다: **l'arbre généalogique** (가계도, 직역하면 '계보의 나무')."
+        },
+        {
+          "list": [
+            "복수면 grand도 -s: les grand**s**-parents",
+            "여성이면 petit도 -e: la petit**e**-fille",
+            "하이픈(-, trait d'union)으로 묶어 **한 단어**로 취급 — 하이픈을 빼먹지 않기"
+          ]
+        },
+        {
+          "warn": "단, **grand-mère**는 예외처럼 grand에 -e를 붙이지 않습니다 (grande-mère ✗). 여성형 -e는 petite-fille에서만!"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "u1-14-w-grand-pere",
+      "t": "word",
+      "skill": "famille",
+      "fr": "le grand-père",
+      "ko": "할아버지",
+      "g": "m",
+      "pron": "[르 그랑 뻬흐]",
+      "note": "d는 묵음",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-14-w-grand-mere",
+      "t": "word",
+      "skill": "famille",
+      "fr": "la grand-mère",
+      "ko": "할머니",
+      "g": "f",
+      "pron": "[라 그랑 메흐]",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-14-w-pere",
+      "t": "word",
+      "skill": "famille",
+      "fr": "le père",
+      "ko": "아버지",
+      "g": "m",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-14-w-mere",
+      "t": "word",
+      "skill": "famille",
+      "fr": "la mère",
+      "ko": "어머니",
+      "g": "f",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-14-w-oncle",
+      "t": "word",
+      "skill": "famille",
+      "fr": "l'oncle",
+      "ko": "삼촌",
+      "g": "m",
+      "pron": "[롱클]",
+      "note": "mon oncle [모 농클] — 친가·외가 구별 없음",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-14-w-tante",
+      "t": "word",
+      "skill": "famille",
+      "fr": "la tante",
+      "ko": "고모, 이모",
+      "g": "f",
+      "pron": "[라 땅뜨]",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-14-w-frere",
+      "t": "word",
+      "skill": "famille",
+      "fr": "le frère",
+      "ko": "남자 형제",
+      "g": "m",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-14-w-soeur",
+      "t": "word",
+      "skill": "famille",
+      "fr": "la sœur",
+      "ko": "여자 형제",
+      "g": "f",
+      "pron": "[라 쐬흐]",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-14-w-fils",
+      "t": "word",
+      "skill": "famille",
+      "fr": "le fils",
+      "ko": "아들",
+      "g": "m",
+      "pron": "[르 피스]",
+      "note": "l 묵음, s 발음",
+      "src": "semaine 4-2",
+      "star": true
+    },
+    {
+      "id": "u1-14-w-fille",
+      "t": "word",
+      "skill": "famille",
+      "fr": "la fille",
+      "ko": "딸",
+      "g": "f",
+      "pron": "[라 피이]",
+      "note": "ll = [j]",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-14-w-cousin",
+      "t": "word",
+      "skill": "famille",
+      "fr": "le cousin",
+      "ko": "사촌 (남자)",
+      "g": "m",
+      "pron": "[르 꾸장]",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-14-w-cousine",
+      "t": "word",
+      "skill": "famille",
+      "fr": "la cousine",
+      "ko": "사촌 (여자)",
+      "g": "f",
+      "pron": "[라 꾸진]",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-14-w-neveu",
+      "t": "word",
+      "skill": "famille",
+      "fr": "le neveu",
+      "ko": "조카 (남자)",
+      "g": "m",
+      "pron": "[르 느뵈]",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-14-w-niece",
+      "t": "word",
+      "skill": "famille",
+      "fr": "la nièce",
+      "ko": "조카 (여자)",
+      "g": "f",
+      "pron": "[라 니에스]",
+      "note": "끝 s 소리를 발음",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-14-w-petit-fils",
+      "t": "word",
+      "skill": "famille",
+      "fr": "le petit-fils",
+      "ko": "손자",
+      "g": "m",
+      "pron": "[르 쁘띠 피스]",
+      "src": "semaine 4-2",
+      "star": true
+    },
+    {
+      "id": "u1-14-w-petite-fille",
+      "t": "word",
+      "skill": "famille",
+      "fr": "la petite-fille",
+      "ko": "손녀",
+      "g": "f",
+      "pron": "[라 쁘띠뜨 피이]",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-14-w-petits-enfants",
+      "t": "word",
+      "skill": "famille",
+      "fr": "les petits-enfants",
+      "ko": "손주들",
+      "g": "pl",
+      "pron": "[레 쁘띠 장팡]",
+      "note": "les petits enfants(어린 아이들)와 구별",
+      "src": "semaine 4-2",
+      "star": true
+    },
+    {
+      "id": "u1-14-w-grands-parents",
+      "t": "word",
+      "skill": "famille",
+      "fr": "les grands-parents",
+      "ko": "조부모",
+      "g": "pl",
+      "pron": "[레 그랑 빠항]",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-14-w-parents",
+      "t": "word",
+      "skill": "famille",
+      "fr": "les parents",
+      "ko": "부모",
+      "g": "pl",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-14-w-enfants",
+      "t": "word",
+      "skill": "famille",
+      "fr": "les enfants",
+      "ko": "자녀들",
+      "g": "pl",
+      "pron": "[레 장팡]",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-14-c-petit-fils",
+      "t": "choice",
+      "skill": "famille",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Paul est le ___ de Jean et de Mireille.",
+      "ko": "폴은 장과 미레유의 손자다.",
+      "a": "petit-fils",
+      "wrong": [
+        "petite-fille",
+        "neveu",
+        "fils"
+      ],
+      "hint": "장과 미레유는 폴의 조부모예요. 남자 손주는?",
+      "explain": "조부모에서 본 손자. '작은 아들'이 아닙니다.",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-14-c-niece",
+      "t": "choice",
+      "skill": "famille",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Valérie est la ___ de Pierre.",
+      "ko": "발레리는 피에르의 조카다.",
+      "a": "nièce",
+      "wrong": [
+        "neveu",
+        "cousine",
+        "sœur"
+      ],
+      "hint": "피에르는 발레리의 oncle이에요. 그 반대말은?",
+      "explain": "oncle에서 본 여자 조카가 nièce. 남자면 neveu.",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-14-c-grands-parents",
+      "t": "choice",
+      "skill": "famille",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Jean et Mireille sont les ___ de Valérie et de Paul.",
+      "ko": "장과 미레유는 발레리와 폴의 조부모다.",
+      "a": "grands-parents",
+      "wrong": [
+        "grand-parents",
+        "parents",
+        "petits-enfants"
+      ],
+      "hint": "복수일 때 앞의 형용사도 같이 변합니다.",
+      "explain": "복수에서 grand도 -s를 받습니다.",
+      "src": "semaine 4-2",
+      "star": true
+    },
+    {
+      "id": "u1-14-err-petit-enfants",
+      "t": "error",
+      "skill": "famille",
+      "s": "Paul et Valérie sont les petit-enfants de Jean.",
+      "wrong": "petit-enfants",
+      "right": "petits-enfants",
+      "ko": "폴과 발레리는 장의 손주들이다.",
+      "hint": "앞부분이 복수 표시를 못 받았어요.",
+      "explain": "하이픈 합성어라도 형용사 부분이 함께 복수가 됩니다.",
+      "src": "semaine 4-2",
+      "star": true
+    },
+    {
+      "id": "u1-14-c-petits-enfants-sens",
+      "t": "choice",
+      "skill": "famille",
+      "prompt": "les petits-enfants의 뜻은?",
+      "q": "하이픈이 있는 les petits-enfants는?",
+      "a": "손주들",
+      "wrong": [
+        "어린 아이들",
+        "막내들",
+        "작은 아들들"
+      ],
+      "say": "les petits-enfants",
+      "hint": "하이픈이 없으면 뜻이 달라져요.",
+      "explain": "les petits-enfants = 손주들, les petits enfants = 어린 아이들. 하이픈 하나 차이!",
+      "src": "semaine 4-2",
+      "star": true
+    },
+    {
+      "id": "u1-14-b-soeur",
+      "t": "build",
+      "skill": "famille",
+      "prompt": "문장을 만드세요",
+      "ko": "발레리는 폴의 누나다.",
+      "a": "Valérie est la sœur de Paul.",
+      "extra": [
+        "le",
+        "frère"
+      ],
+      "hint": "발레리는 여자예요. 관사도 거기에 맞춰요.",
+      "explain": "여성 명사라 la sœur. 소유는 de + 이름.",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-14-err-mon-tante",
+      "t": "error",
+      "skill": "famille",
+      "s": "Sophie est mon tante.",
+      "wrong": "mon tante",
+      "right": "ma tante",
+      "ko": "소피는 나의 고모다.",
+      "hint": "tante의 성을 확인해 보세요.",
+      "explain": "tante는 여성 명사 → ma. (모음으로 시작하지 않으니 mon을 쓸 이유도 없습니다.)",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-14-c-fils-pron",
+      "t": "choice",
+      "skill": "pron",
+      "prompt": "le fils의 발음은?",
+      "q": "'아들'을 어떻게 읽나요?",
+      "a": "[르 피스]",
+      "wrong": [
+        "[르 필스]",
+        "[르 피]",
+        "[르 피이]"
+      ],
+      "say": "le fils",
+      "hint": "l과 s 중 하나만 소리가 납니다. 어느 쪽일까요?",
+      "explain": "l은 묵음, s는 예외적으로 발음. la fille [피이]와 헷갈리지 마세요.",
+      "src": "semaine 4-2",
+      "star": true
+    },
+    {
+      "id": "u1-14-l-cousin",
+      "t": "listen",
+      "skill": "pron",
+      "say": "le cousin",
+      "a": "le cousin",
+      "wrong": [
+        "la cousine",
+        "le coussin"
+      ],
+      "ko": "사촌 (남자)",
+      "pron": "[르 꾸장]",
+      "hint": "끝소리가 콧소리인지, 가운데 소리가 [z]인지 [s]인지 들어보세요.",
+      "explain": "cousin [꾸장]은 비모음 + z 소리. cousine은 [꾸진], coussin(쿠션)은 [꾸쌍].",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-14-c-oncle-liaison",
+      "t": "choice",
+      "skill": "pron",
+      "prompt": "mon oncle의 발음은?",
+      "q": "mon oncle을 어떻게 읽나요?",
+      "a": "[모 농클]",
+      "wrong": [
+        "[몽 옹클]",
+        "[모 옹클]",
+        "[몽 농클]"
+      ],
+      "say": "mon oncle",
+      "hint": "mon의 n이 뒤 모음으로 넘어가면 앞 비모음은 어떻게 될까요?",
+      "explain": "n이 넘어가며 mon의 비모음이 풀려 [모]가 됩니다.",
+      "src": "semaine 4-2"
+    },
+    {
+      "id": "u1-14-c-ex1-grand-pere",
+      "t": "choice",
+      "skill": "famille",
+      "prompt": "연습문제 1 (Les DUBOIS)",
+      "q": "Jean est ___ de Vincent.",
+      "ko": "장은 뱅상의 할아버지다.",
+      "a": "le grand-père",
+      "wrong": [
+        "le père",
+        "l'oncle",
+        "le petit-fils"
+      ],
+      "hint": "Vincent의 아버지 Pierre는 Jean의 누구였죠?",
+      "explain": "Pierre가 Jean의 아들 → Jean은 Vincent의 할아버지.",
+      "src": "semaine 5-1"
+    },
+    {
+      "id": "u1-14-c-ex2-fils",
+      "t": "choice",
+      "skill": "famille",
+      "prompt": "연습문제 2 (Les DUBOIS)",
+      "q": "Vincent est ___ de Pierre.",
+      "ko": "뱅상은 피에르의 아들이다.",
+      "a": "le fils",
+      "wrong": [
+        "le neveu",
+        "le petit-fils",
+        "le frère"
+      ],
+      "hint": "Pierre 가지에서 바로 내려온 남자아이예요.",
+      "explain": "Pierre·Sophie의 아들이 Vincent.",
+      "src": "semaine 5-1"
+    },
+    {
+      "id": "u1-14-c-ex3-fille",
+      "t": "choice",
+      "skill": "famille",
+      "prompt": "연습문제 3 (Les DUBOIS)",
+      "q": "Marie est ___ de Sophie.",
+      "ko": "마리는 소피의 딸이다.",
+      "a": "la fille",
+      "wrong": [
+        "la nièce",
+        "la sœur",
+        "la petite-fille"
+      ],
+      "hint": "Sophie 가지에서 바로 내려온 여자아이예요.",
+      "explain": "Pierre·Sophie의 딸이 Marie.",
+      "src": "semaine 5-1"
+    },
+    {
+      "id": "u1-14-c-ex4-oncle",
+      "t": "choice",
+      "skill": "famille",
+      "prompt": "연습문제 4 (Les DUBOIS)",
+      "q": "Bernard est ___ de Vincent.",
+      "ko": "베르나르는 뱅상의 삼촌이다.",
+      "a": "l'oncle",
+      "wrong": [
+        "le oncle",
+        "le père",
+        "le cousin"
+      ],
+      "hint": "Bernard와 Pierre는 형제예요. 그리고 모음 앞 관사는?",
+      "explain": "아버지의 형제 = oncle. 모음 앞이라 엘리지옹: l'oncle.",
+      "src": "semaine 5-1",
+      "star": true
+    },
+    {
+      "id": "u1-14-c-ex5-niece",
+      "t": "choice",
+      "skill": "famille",
+      "prompt": "연습문제 5 (Les DUBOIS)",
+      "q": "Valérie est ___ de Sophie.",
+      "ko": "발레리는 소피의 조카다.",
+      "a": "la nièce",
+      "wrong": [
+        "la fille",
+        "la cousine",
+        "le neveu"
+      ],
+      "hint": "Sophie는 Valérie의 tante예요. 거꾸로 보면?",
+      "explain": "tante 입장에서 본 여자 조카 = nièce. 관점을 뒤집어야 하는 문제.",
+      "src": "semaine 5-1",
+      "star": true
+    },
+    {
+      "id": "u1-14-c-ma-grand-mere",
+      "t": "choice",
+      "skill": "famille",
+      "prompt": "빈칸에 알맞은 것은? (가계도 p.5)",
+      "q": "___ grand-mère",
+      "ko": "나의 할머니",
+      "a": "Ma",
+      "wrong": [
+        "Mon",
+        "Mes",
+        "Le"
+      ],
+      "hint": "grand-mère의 성을 확인해 보세요. 자음으로 시작하죠.",
+      "explain": "여성 단수 + 자음 시작 → ma. 남성이면 mon grand-père.",
+      "src": "semaine 5-1"
+    },
+    {
+      "id": "u1-14-w-arbre",
+      "t": "word",
+      "skill": "famille",
+      "fr": "l'arbre généalogique",
+      "ko": "가계도 (계보의 나무)",
+      "g": "m",
+      "pron": "[라흐브르 제네알로지끄]",
+      "src": "노션 9/29"
+    },
+    {
+      "id": "u1-14-err-grande-mere",
+      "t": "error",
+      "skill": "famille",
+      "s": "Mireille est la grande-mère de Paul.",
+      "wrong": "grande-mère",
+      "right": "grand-mère",
+      "ko": "미레유는 폴의 할머니다.",
+      "hint": "여성이라고 늘 -e가 붙는 건 아니에요. 할머니는 특별!",
+      "explain": "grand-mère는 grand에 -e를 붙이지 않는 고정 형태입니다. (petite-fille와 비교)",
+      "src": "노션 9/29",
+      "star": true
+    },
+    {
+      "id": "u1-14-c-petite-fille-agree",
+      "t": "choice",
+      "skill": "famille",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Valérie est la ___ de Jean et de Mireille.",
+      "ko": "발레리는 장과 미레유의 손녀다.",
+      "a": "petite-fille",
+      "wrong": [
+        "petit-fille",
+        "petite fille",
+        "petit-fils"
+      ],
+      "hint": "여성 명사 앞 형용사 일치 + 하이픈, 둘 다 확인!",
+      "explain": "손녀 = petite-fille. petit가 여성형 -e를 받고, 하이픈으로 한 단어가 됩니다 (petite fille는 '어린 여자아이').",
+      "src": "노션 9/29"
+    }
+  ],
+  "fixes": [
+    {
+      "where": "노션 9/29",
+      "was": "fils [퓌스]",
+      "now": "fils [피스]",
+      "why": "모음은 [i](이)라서 '퓌'([y], u 소리)가 아닙니다. l은 묵음, 끝의 s는 발음 → [fis]"
+    }
+  ]
+}

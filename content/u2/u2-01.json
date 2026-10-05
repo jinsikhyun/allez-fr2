@@ -1,0 +1,724 @@
+{
+  "id": "u2-01",
+  "unit": "u2",
+  "title": "제롱디프 (le gérondif)",
+  "emoji": "🎧",
+  "date": "2026-09-30",
+  "sources": [
+    "semaine 5-2"
+  ],
+  "tips": [
+    {
+      "h": "만드는 법",
+      "b": "**en + 현재분사**\ntravailler → travaillant → **en travaillant**\n형태는 어제 배운 -ant 그대로, 성수일치도 없음"
+    },
+    {
+      "h": "네 가지 뜻 (문맥으로)",
+      "rows": [
+        [
+          "동시성 (quand)",
+          "~하면서, ~할 때"
+        ],
+        [
+          "조건 (si)",
+          "~하면"
+        ],
+        [
+          "원인 (parce que)",
+          "~해서"
+        ],
+        [
+          "수단",
+          "~함으로써"
+        ]
+      ]
+    },
+    {
+      "h": "🔴 주어가 같아야",
+      "b": "제롱디프의 행동 = 주절 주어의 행동\nJ'ai vu Paul **sortant** → 나오는 건 Paul\nJ'ai vu Paul **en sortant** → 나오는 건 나"
+    },
+    {
+      "h": "연습문제 함정",
+      "b": "conduire → nous **conduisons** → en **conduisant** (conduiant ✗)\nmanger → en **mangeant** (e 유지)"
+    }
+  ],
+  "note": [
+    {
+      "h": "제롱디프란",
+      "skill": "gerondif",
+      "src": [
+        "semaine 5-2 p.10"
+      ],
+      "body": [
+        {
+          "ex": [
+            [
+              "Le gérondif est une forme adverbiale du verbe.",
+              "제롱디프는 동사의 부사형이다. (동사를 꾸민다)"
+            ],
+            [
+              "Il indique les circonstances de l'action : simultanéité, moyen, condition et cause.",
+              "행동의 상황을 나타낸다: 동시성, 수단, 조건, 원인."
+            ]
+          ]
+        },
+        {
+          "p": "만드는 법은 **« en » + 현재분사**. en travaillant, en prenant, en partant, en étant(예외 현재분사도 그대로). 새로 외울 형태가 없고, 현재분사처럼 **성수일치도 없습니다**."
+        },
+        {
+          "p": "영어로는 *while / by + -ing*에 해당: en travaillant = while working, en pratiquant = by practicing."
+        }
+      ]
+    },
+    {
+      "h": "네 가지 뜻 — quand · si · parce que를 바꾸기",
+      "skill": "gerondif",
+      "src": [
+        "semaine 5-2 p.11",
+        "semaine 5-2 p.12"
+      ],
+      "body": [
+        {
+          "p": "슬라이드는 quand/si/parce que 절을 제롱디프로 바꿉니다. 원래 접속사가 곧 그 제롱디프의 뜻이에요."
+        },
+        {
+          "table": [
+            [
+              "뜻",
+              "원래 문장",
+              "제롱디프"
+            ],
+            [
+              "동시성",
+              "Quand je travaille, j'écoute de la musique.",
+              "En travaillant, j'écoute de la musique."
+            ],
+            [
+              "조건",
+              "Si vous prenez le métro, vous pouvez trouver facilement le musée.",
+              "En prenant le métro, vous pouvez…"
+            ],
+            [
+              "원인",
+              "Il va rater son avion parce qu'il part trop tard.",
+              "Il va rater son avion en partant trop tard."
+            ],
+            [
+              "동시성",
+              "Quand je pars, je ferme la porte.",
+              "En partant, je ferme la porte."
+            ],
+            [
+              "원인",
+              "Elle a réveillé son bébé parce qu'elle a fermé la porte trop fort.",
+              "…en fermant la porte trop fort."
+            ]
+          ],
+          "head": true
+        },
+        {
+          "ex": [
+            [
+              "En travaillant, j'écoute de la musique.",
+              "일하면서 음악을 듣는다."
+            ],
+            [
+              "En prenant le métro, vous pouvez trouver facilement le musée.",
+              "지하철을 타면 미술관을 쉽게 찾을 수 있어요."
+            ],
+            [
+              "Il va rater son avion en partant trop tard.",
+              "너무 늦게 출발해서 그는 비행기를 놓칠 거다."
+            ],
+            [
+              "En partant, je ferme la porte.",
+              "나갈 때 나는 문을 닫는다."
+            ],
+            [
+              "Elle a réveillé son bébé en fermant la porte trop fort.",
+              "그녀는 문을 너무 세게 닫아서 아기를 깨웠다."
+            ],
+            [
+              "On apprend en pratiquant.",
+              "직접 해 봄으로써 배운다. (수단)"
+            ],
+            [
+              "L'appétit vient en mangeant.",
+              "식욕은 먹다 보면 생긴다. (속담)"
+            ]
+          ]
+        },
+        {
+          "memo": "L'appétit vient en mangeant은 속담: 하다 보면 욕심이 난다·재미가 붙는다. 주절이 과거(a réveillé)여도 제롱디프 형태는 그대로 — 시제는 주절이 정함."
+        }
+      ]
+    },
+    {
+      "h": "🔴 주어가 같아야 한다 — 현재분사와 비교",
+      "skill": "gerondif",
+      "src": [
+        "semaine 5-2 p.11",
+        "semaine 5-1 p.15"
+      ],
+      "body": [
+        {
+          "p": "제롱디프에는 주어가 없어서, **제롱디프의 행동을 하는 사람 = 주절의 주어**입니다. 슬라이드의 변환도 모두 두 절의 주어가 같아요 (je/je, vous/vous, il/il)."
+        },
+        {
+          "table": [
+            [
+              "문장",
+              "학교에서 나오는 사람"
+            ],
+            [
+              "J'ai vu Paul sortant de l'école.",
+              "Paul (현재분사 = 앞 명사를 꾸밈)"
+            ],
+            [
+              "J'ai vu Paul en sortant de l'école.",
+              "나 (제롱디프 = 주어 je의 행동)"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "table": [
+            [
+              "",
+              "현재분사",
+              "제롱디프"
+            ],
+            [
+              "형태",
+              "-ant",
+              "en + -ant"
+            ],
+            [
+              "꾸미는 것",
+              "주로 명사 (= qui + 동사)",
+              "동사 (언제·어떻게·왜)"
+            ],
+            [
+              "예",
+              "une secrétaire parlant…",
+              "j'écoute… en travaillant"
+            ]
+          ],
+          "head": true
+        }
+      ]
+    },
+    {
+      "h": "연습문제 (p.76) — 제롱디프로 바꾸기",
+      "skill": "gerondif",
+      "src": [
+        "semaine 5-2 p.14"
+      ],
+      "body": [
+        {
+          "ex": [
+            [
+              "Vous ne devez pas parler en mangeant.",
+              "먹으면서 말하면 안 됩니다. (← quand vous mangez · 동시성)"
+            ],
+            [
+              "En travaillant comme hôtesse de l'air, elle voyage beaucoup.",
+              "승무원으로 일해서 그녀는 여행을 많이 한다. (← parce qu'elle travaille · 원인)"
+            ],
+            [
+              "En conduisant trop vite, tu peux provoquer un accident.",
+              "너무 빨리 운전하면 사고를 낼 수 있어. (← si tu conduis · 조건)"
+            ]
+          ]
+        },
+        {
+          "warn": "3번: conduire → nous **conduisons** → **conduisant**. 원형만 보고 conduiant ✗. 1번: mangeant의 e 유지 (mangant ✗)."
+        }
+      ]
+    },
+    {
+      "h": "Qui dit ça ? — 노래 속 제롱디프",
+      "skill": "gerondif",
+      "src": [
+        "semaine 5-2 p.13"
+      ],
+      "body": [
+        {
+          "p": "슬라이드의 노래는 디즈니 〈알라딘〉 프랑스어판에서 **지니(le Génie)**가 부르는 노래. 가사 마지막 줄에 **en frottant**(frotter 문지르다)이 나오는데, '램프를 **문지르면**(문질러서) 원하는 건 다 가질 수 있다'는 뜻이라 **조건·수단**의 제롱디프입니다."
+        }
+      ]
+    },
+    {
+      "h": "발음",
+      "skill": "pron",
+      "src": [
+        "semaine 5-2"
+      ],
+      "body": [
+        {
+          "list": [
+            "en + -ant — 비모음 두 번: en travaillant [앙 트하바이양], en partant [앙 빠흐땅]",
+            "en prenant [앙 프흐낭] · en fermant [앙 페흐망] · en mangeant [앙 망장]",
+            "en pratiquant [앙 프하띠깡] — qu = [k]",
+            "en conduisant [앙 꽁뒤장] — s는 모음 사이라 [z]",
+            "L'appétit vient‿en mangeant [라뻬띠 비앙 땅 망장] — vient의 t가 en과 연음",
+            "rater son‿avion [하떼 쏘 나비옹] — son‿avion 연음",
+            "hôtesse de l'air [오떼스 드 레흐] — h 묵음"
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "u2-01-c-form",
+      "t": "choice",
+      "skill": "gerondif",
+      "prompt": "travailler의 제롱디프는?",
+      "q": "travailler → ___",
+      "a": "en travaillant",
+      "wrong": [
+        "en travaillé",
+        "travaillant",
+        "en travailler"
+      ],
+      "say": "en travaillant",
+      "hint": "en 뒤에 무엇이 오는지 떠올려 보세요 — 어제 배운 형태!",
+      "explain": "en + 현재분사.",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u2-01-t-prenant",
+      "t": "type",
+      "skill": "gerondif",
+      "prompt": "제롱디프로 바꾸세요",
+      "q": "prendre → ___",
+      "a": "en prenant",
+      "hint": "현재분사는 nous 현재형에서 출발했죠.",
+      "explain": "nous prenons → prenant → en prenant.",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u2-01-t-partant",
+      "t": "type",
+      "skill": "gerondif",
+      "prompt": "제롱디프로 바꾸세요",
+      "q": "partir → ___",
+      "a": "en partant",
+      "hint": "nous part… 에서 시작해요.",
+      "explain": "nous partons → partant → en partant.",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u2-01-c-etant",
+      "t": "choice",
+      "skill": "gerondif",
+      "prompt": "être의 제롱디프는?",
+      "q": "être → ___",
+      "a": "en étant",
+      "wrong": [
+        "en été",
+        "en soyant",
+        "étant"
+      ],
+      "say": "en étant",
+      "hint": "예외 현재분사도 그대로 씁니다.",
+      "explain": "en + étant. été는 과거분사.",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u2-01-c-quand-travaille",
+      "t": "choice",
+      "skill": "gerondif",
+      "prompt": "제롱디프로 바꾸면?",
+      "q": "Quand je travaille, j'écoute de la musique.",
+      "a": "En travaillant, j'écoute de la musique.",
+      "wrong": [
+        "En travailler, j'écoute de la musique.",
+        "En travaillé, j'écoute de la musique.",
+        "En je travaille, j'écoute de la musique."
+      ],
+      "say": "",
+      "hint": "접속사와 주어를 지우고 en + -ant.",
+      "explain": "quand 절 → 제롱디프(동시성): 일하면서 음악을 듣는다.",
+      "src": "semaine 5-2",
+      "star": true
+    },
+    {
+      "id": "u2-01-c-metro-sens",
+      "t": "choice",
+      "skill": "gerondif",
+      "prompt": "여기서 En prenant le métro의 뜻은?",
+      "q": "En prenant le métro, vous pouvez trouver facilement le musée.",
+      "a": "지하철을 타면 (조건)",
+      "wrong": [
+        "지하철을 탔기 때문에 (원인)",
+        "지하철을 타기 전에",
+        "지하철을 타지 않고"
+      ],
+      "say": "",
+      "hint": "원래 문장은 Si vous prenez… 였어요.",
+      "explain": "si 절 → 조건의 제롱디프.",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u2-01-c-avion",
+      "t": "choice",
+      "skill": "gerondif",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Il va rater son avion ___ trop tard.",
+      "ko": "너무 늦게 출발해서 그는 비행기를 놓칠 거다.",
+      "a": "en partant",
+      "wrong": [
+        "partant",
+        "en parti",
+        "en part"
+      ],
+      "hint": "원인을 나타내는 부사형 — en이 필요해요.",
+      "explain": "parce qu'il part → en partant (원인).",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u2-01-b-porte",
+      "t": "build",
+      "skill": "gerondif",
+      "prompt": "제롱디프로 바꾸세요",
+      "from": "Quand je pars, je ferme la porte.",
+      "a": "En partant, je ferme la porte.",
+      "extra": [
+        "Quand",
+        "parti"
+      ],
+      "ko": "나갈 때 나는 문을 닫는다.",
+      "hint": "Quand je pars 부분만 바꾸면 돼요.",
+      "explain": "주어가 둘 다 je라서 바꿀 수 있습니다.",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u2-01-c-bebe",
+      "t": "choice",
+      "skill": "gerondif",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Elle a réveillé son bébé ___ la porte trop fort.",
+      "ko": "그녀는 문을 너무 세게 닫아서 아기를 깨웠다.",
+      "a": "en fermant",
+      "wrong": [
+        "en fermé",
+        "fermante",
+        "en a fermé"
+      ],
+      "hint": "주절이 과거여도 제롱디프 형태는 바뀌지 않아요.",
+      "explain": "parce qu'elle a fermé → en fermant (원인). 시제는 주절이 정함.",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u2-01-c-apprend",
+      "t": "choice",
+      "skill": "gerondif",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "On apprend ___.",
+      "ko": "직접 해 봄으로써 배운다.",
+      "a": "en pratiquant",
+      "wrong": [
+        "en pratique",
+        "pratiqué",
+        "en pratiquer"
+      ],
+      "hint": "'~함으로써' — 수단을 나타내요.",
+      "explain": "수단의 제롱디프. 영어 by practicing.",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u2-01-c-appetit",
+      "t": "choice",
+      "skill": "gerondif",
+      "prompt": "속담을 완성하세요",
+      "q": "L'appétit vient ___.",
+      "ko": "식욕은 먹다 보면 생긴다.",
+      "a": "en mangeant",
+      "wrong": [
+        "en mangant",
+        "en mange",
+        "mangeant"
+      ],
+      "hint": "manger의 nous 현재형 철자를 떠올려요.",
+      "explain": "e 유지 + en. 뜻: 하다 보면 욕심이 난다.",
+      "src": "semaine 5-2",
+      "star": true
+    },
+    {
+      "id": "u2-01-c-appetit-sens",
+      "t": "choice",
+      "skill": "gerondif",
+      "prompt": "속담 « L'appétit vient en mangeant »의 뜻은?",
+      "q": "비유적인 뜻을 고르세요.",
+      "a": "하다 보면 욕심이 생긴다",
+      "wrong": [
+        "배고플 때 먹어야 한다",
+        "많이 먹으면 살찐다",
+        "먹을 땐 말하지 마라"
+      ],
+      "say": "L'appétit vient en mangeant.",
+      "hint": "먹기 시작하면 더 먹고 싶어지죠.",
+      "explain": "일단 시작하면 재미·욕심이 붙는다는 속담.",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u2-01-c-four",
+      "t": "choice",
+      "skill": "gerondif",
+      "prompt": "제롱디프가 나타내는 상황이 아닌 것은?",
+      "q": "simultanéité, moyen, condition, cause",
+      "a": "소유",
+      "wrong": [
+        "동시성",
+        "조건",
+        "원인"
+      ],
+      "say": "",
+      "hint": "슬라이드의 네 단어를 떠올려 보세요.",
+      "explain": "동시성·수단·조건·원인 네 가지.",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u2-01-c-sujet",
+      "t": "choice",
+      "skill": "gerondif",
+      "prompt": "학교에서 나오는 사람은?",
+      "q": "J'ai vu Paul en sortant de l'école.",
+      "a": "나 (주절의 주어)",
+      "wrong": [
+        "Paul",
+        "둘 다",
+        "알 수 없다"
+      ],
+      "say": "",
+      "hint": "제롱디프에는 주어가 없어요. 그럼 누구의 행동일까요?",
+      "explain": "제롱디프의 행동 = 주절 주어(je). Paul이 나오는 거라면 sortant(현재분사).",
+      "src": "semaine 5-2",
+      "star": true
+    },
+    {
+      "id": "u2-01-c-pp-vs-ger",
+      "t": "choice",
+      "skill": "gerondif",
+      "prompt": "학교에서 나오는 사람이 Paul인 문장은?",
+      "q": "세 문장 중 고르세요.",
+      "a": "J'ai vu Paul sortant de l'école.",
+      "wrong": [
+        "J'ai vu Paul en sortant de l'école.",
+        "En sortant de l'école, j'ai vu Paul."
+      ],
+      "say": "",
+      "hint": "명사 바로 뒤에서 그 명사를 꾸미는 건 어느 쪽?",
+      "explain": "현재분사는 앞 명사(Paul)를, 제롱디프는 주어(je)의 행동을 나타냅니다.",
+      "src": "semaine 5-2",
+      "star": true
+    },
+    {
+      "id": "u2-01-b-ex1",
+      "t": "build",
+      "skill": "gerondif",
+      "prompt": "연습문제 1 — 제롱디프로",
+      "from": "Vous ne devez pas parler quand vous mangez.",
+      "a": "Vous ne devez pas parler en mangeant.",
+      "extra": [
+        "quand",
+        "mangant"
+      ],
+      "ko": "먹으면서 말하면 안 됩니다.",
+      "hint": "quand vous mangez 부분을 바꿔요. 철자 조심!",
+      "explain": "동시성. mangeant의 e 유지.",
+      "src": "semaine 5-2",
+      "star": true
+    },
+    {
+      "id": "u2-01-c-ex2",
+      "t": "choice",
+      "skill": "gerondif",
+      "prompt": "연습문제 2 — 빈칸은?",
+      "q": "___ comme hôtesse de l'air, elle voyage beaucoup.",
+      "ko": "승무원으로 일해서 그녀는 여행을 많이 한다.",
+      "a": "En travaillant",
+      "wrong": [
+        "Parce que travaillant",
+        "En travaillante",
+        "En travaille"
+      ],
+      "hint": "parce qu'elle travaille를 바꾼 거예요. 성수일치는?",
+      "explain": "원인의 제롱디프. elle이 여성이어도 -ant 그대로.",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u2-01-c-ex3",
+      "t": "choice",
+      "skill": "gerondif",
+      "prompt": "연습문제 3 — 빈칸은?",
+      "q": "___ trop vite, tu peux provoquer un accident.",
+      "ko": "너무 빨리 운전하면 사고를 낼 수 있어.",
+      "a": "En conduisant",
+      "wrong": [
+        "En conduiant",
+        "En conduisent",
+        "En conduit"
+      ],
+      "hint": "conduire의 nous 형태는? -s-가 들어가요.",
+      "explain": "nous conduisons → conduisant. 조건의 제롱디프.",
+      "src": "semaine 5-2",
+      "star": true
+    },
+    {
+      "id": "u2-01-err-conduiant",
+      "t": "error",
+      "skill": "gerondif",
+      "s": "En conduiant trop vite, tu peux provoquer un accident.",
+      "wrong": "conduiant",
+      "right": "conduisant",
+      "ko": "너무 빨리 운전하면 사고를 낼 수 있어.",
+      "hint": "원형이 아니라 nous 현재형에서 출발했나요?",
+      "explain": "nous conduisons → conduisant.",
+      "src": "semaine 5-2",
+      "star": true
+    },
+    {
+      "id": "u2-01-err-mangant",
+      "t": "error",
+      "skill": "gerondif",
+      "s": "Vous ne devez pas parler en mangant.",
+      "wrong": "mangant",
+      "right": "mangeant",
+      "ko": "먹으면서 말하면 안 됩니다.",
+      "hint": "g 뒤에 a가 오면 소리가 어떻게 되죠?",
+      "explain": "[ʒ] 소리를 지키려고 e를 남깁니다.",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u2-01-c-frottant",
+      "t": "choice",
+      "skill": "gerondif",
+      "prompt": "지니의 노래 속 « en frottant (la lampe) »의 뜻은?",
+      "q": "frotter = 문지르다",
+      "a": "(램프를) 문지르면 — 조건·수단",
+      "wrong": [
+        "문질렀기 때문에",
+        "문지르기 전에",
+        "문지르지 않고"
+      ],
+      "say": "",
+      "hint": "램프를 문지르면 무슨 일이 생기죠?",
+      "explain": "조건·수단의 제롱디프 — 문지르면(문질러서) 원하는 걸 가질 수 있다.",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u2-01-l-en-mangeant",
+      "t": "listen",
+      "skill": "pron",
+      "say": "en mangeant",
+      "a": "en mangeant",
+      "wrong": [
+        "on mangeait",
+        "en mangent"
+      ],
+      "ko": "먹으면서",
+      "pron": "[앙 망장]",
+      "hint": "첫소리와 끝소리가 모두 콧소리 [앙]인지 들어보세요.",
+      "explain": "en [앙] + mangeant [망장].",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u2-01-c-vient-en",
+      "t": "choice",
+      "skill": "pron",
+      "prompt": "« vient en mangeant »의 vient en 발음은?",
+      "q": "L'appétit vient en mangeant.",
+      "a": "[비앙 땅] — t 연음",
+      "wrong": [
+        "[비앙 앙] — 연음 없음",
+        "[비엔 앙]",
+        "[비앙뜨 앙]"
+      ],
+      "say": "L'appétit vient en mangeant.",
+      "hint": "vient의 끝 자음이 다음 모음 앞에서 되살아나요.",
+      "explain": "vient‿en — 묵음 t가 연음으로 [t].",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u2-01-w-rater",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "rater son avion",
+      "ko": "비행기를 놓치다",
+      "pron": "[하떼 쏘 나비옹]",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u2-01-w-reveiller",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "réveiller",
+      "ko": "(남을) 깨우다",
+      "note": "se réveiller = 깨어나다",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u2-01-w-trop-fort",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "trop fort",
+      "ko": "너무 세게",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u2-01-w-pratiquer",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "pratiquer",
+      "ko": "실천하다, 연습하다",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u2-01-w-appetit",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "l'appétit",
+      "ko": "식욕",
+      "g": "m",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u2-01-w-hotesse",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "l'hôtesse de l'air",
+      "ko": "승무원 (여)",
+      "g": "f",
+      "pron": "[로떼스 드 레흐]",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u2-01-w-conduire",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "conduire",
+      "ko": "운전하다",
+      "note": "nous conduisons",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u2-01-w-provoquer",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "provoquer un accident",
+      "ko": "사고를 내다",
+      "src": "semaine 5-2"
+    },
+    {
+      "id": "u2-01-w-facilement",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "facilement",
+      "ko": "쉽게",
+      "src": "semaine 5-2"
+    }
+  ]
+}

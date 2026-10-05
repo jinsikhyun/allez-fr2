@@ -1,0 +1,125 @@
+{
+  "id": "u0-08",
+  "unit": "u0",
+  "title": "현재형: 불규칙 동사 II",
+  "emoji": "🌪️",
+  "date": "2026-09-10",
+  "sources": ["semaine 2-2", "semaine 2-3", "노션 9/10", "Quiz 1", "Révision générale"],
+  "tips": [
+    {"h": "partir · sortir · dormir", "b": "단수에서 어간 끝 자음이 빠진다 (-s -s -t)\nje **pars** / nous **part**ons · je **sors** / nous **sort**ons · je **dors** / nous **dorm**ons"},
+    {"h": "prendre · mettre · dire", "rows": [["prendre", "prends · prend · prenons · prenez · prennent"], ["mettre", "mets · met · mettons · mettez · mettent"], ["dire", "dis · dit · disons · dites · disent"]], "b": "il prend · il met — 어미 없음. **vous dites** (disez ✗)\ncomprendre · apprendre는 prendre와 똑같이 변한다"},
+    {"h": "venir · devenir", "b": "je viens · il vient · nous venons · vous venez · ils vie**nn**ent\nTu **veins** ✗ → Tu **viens** (i가 먼저!)"},
+    {"h": "-re 규칙형: attendre · descendre", "rows": [["je / tu", "-s", "attends · descends"], ["il / elle", "(어미 없음)", "attend · descend"], ["nous", "-ons", "attendons · descendons"], ["vous", "-ez", "attendez · descendez"], ["ils / elles", "-ent", "attendent · descendent"]], "b": "descendre는 attendre와 **똑같은 패턴**으로 변한다 (3군이지만 모양은 규칙적)!"},
+    {"h": "écrire · lire", "b": "j'écris → nous écri**v**ons · ils écri**v**ent\nje lis → nous li**s**ons · ils li**s**ent"}
+  ],
+  "fixes": [
+    {"where": "Révision générale (attendre 표)", "was": "Je attends", "now": "J'attends", "why": "모음 앞 je는 반드시 j' — Quiz 1에서 교수님이 지적한 바로 그 실수"}
+  ],
+  "note": [
+    {
+      "h": "partir · sortir · dormir",
+      "skill": "pres-irr",
+      "src": ["semaine 2-2 p.16", "semaine 2-3 p.13", "노션 9/10"],
+      "body": [
+        {"table": [["", "partir 떠나다", "sortir 나가다", "dormir 자다"], ["je", "pars", "sors", "dors"], ["tu", "pars", "sors", "dors"], ["il/elle", "part", "sort", "dort"], ["nous", "partons", "sortons", "dormons"], ["vous", "partez", "sortez", "dormez"], ["ils/elles", "partent", "sortent", "dorment"]], "head": true},
+        {"p": "단수(je·tu·il)에서 어간 끝 자음(t·t·m)이 빠지고 **-s · -s · -t**. 복수에서 다시 살아난다: je pars → nous partons."},
+        {"memo": "필기: 떠나다 / 나가다 (la sortie : 출구) / 자다"},
+        {"warn": "on도 3인칭 단수 → **On part** (On partons ✗, Quiz 1 III-12)"}
+      ]
+    },
+    {
+      "h": "prendre · mettre · dire",
+      "skill": "pres-irr",
+      "src": ["semaine 2-2 p.17", "semaine 2-3 p.14", "노션 9/10"],
+      "body": [
+        {"table": [["", "prendre 잡다·타다·먹다", "mettre 놓다·입다", "dire 말하다"], ["je", "prends", "mets", "dis"], ["tu", "prends", "mets", "dis"], ["il/elle", "prend", "met", "dit"], ["nous", "prenons", "mettons", "disons"], ["vous", "prenez", "mettez", "dites"], ["ils/elles", "prennent", "mettent", "disent"]], "head": true},
+        {"memo": "필기: prendre = 영어 take (take a bus, take sth to eat) · mettre = put (두다, 입다) · dire = 말하다"},
+        {"p": "il prend · il met — 어간이 d·t로 끝나 3인칭 단수에 어미가 없다. ils **prennent**은 n 두 개 [프헨], nous prenons은 하나 [프흐농]."},
+        {"warn": "vous **dites** (disez ✗) · tu **mets** (metts ✗, Quiz 1)"},
+        {"p": "**comprendre**(이해하다)·**apprendre**(배우다)도 prendre와 똑같이 변한다."},
+        {"ex": [["Je ne comprends pas la question.", "질문이 이해가 안 돼요."], ["J'apprends le français.", "나는 프랑스어를 배운다."], ["Je ne prends pas le déjeuner.", "저는 점심을 안 먹어요."]]}
+      ]
+    },
+    {
+      "h": "venir · devenir",
+      "skill": "pres-irr",
+      "src": ["semaine 2-2 p.22–23", "Quiz 1", "노션 9/10", "Révision générale"],
+      "body": [
+        {"p": "슬라이드엔 표 없이 드릴(20. Tu viens · 21. Je deviens)과 Quiz 1에만 나왔다."},
+        {"table": [["", "venir 오다", "devenir ~이 되다"], ["je", "viens", "deviens"], ["tu", "viens", "deviens"], ["il/elle", "vient", "devient"], ["nous", "venons", "devenons"], ["vous", "venez", "devenez"], ["ils/elles", "viennent", "deviennent"]], "head": true},
+        {"p": "nous·vous는 ven- [브농/브네], ils는 vie + **nn** → viennent [비엔]. devenir = de + venir라 똑같이 변한다."},
+        {"warn": "Tu veins ✗ → **Tu viens** · Elles devient ✗ → **Elles deviennent** (Quiz 1)"}
+      ]
+    },
+    {
+      "h": "-re 규칙형: attendre · descendre",
+      "skill": "pres-irr",
+      "src": ["Quiz 1 II", "semaine 2-2 p.23", "노션 9/10", "노션 9/15"],
+      "body": [
+        {"table": [["", "attendre 기다리다", "descendre 내려가다"], ["je", "j'attends", "descends"], ["tu", "attends", "descends"], ["il/elle", "attend", "descend"], ["nous", "attendons", "descendons"], ["vous", "attendez", "descendez"], ["ils/elles", "attendent", "descendent"]], "head": true},
+        {"p": "-re를 떼고 **-s · -s · (없음) · -ons · -ez · -ent**. 어간이 이미 d로 끝나서 il/elle에 t를 붙이지 않는다: il attend, il descend."},
+        {"warn": "Il descends ✗ → **Il descend** (Quiz 1)."},
+        {"p": "9/15 필기엔 'descendre = 불규칙동사'로 적혀 있다 — 3군 동사는 흔히 '불규칙'으로 묶으니 틀린 말은 아니다. 다만 변화 모양은 attendre와 똑같은 -re 패턴이라, 하나만 외우면 둘 다 해결!"},
+        {"warn": "**J'attends** — 모음 앞 엘리지옹! (Je attends ✗)"},
+        {"memo": "발음: attends · attend 모두 [아땅] — je/tu/il 소리가 같다. nous descendons [누 데쌍동], descend의 d 무음"}
+      ]
+    },
+    {
+      "h": "écrire · lire",
+      "skill": "pres-irr",
+      "src": ["Quiz 1 II", "노션 9/10"],
+      "body": [
+        {"table": [["", "écrire 쓰다", "lire 읽다"], ["je", "j'écris", "lis"], ["tu", "écris", "lis"], ["il/elle", "écrit", "lit"], ["nous", "écrivons", "lisons"], ["vous", "écrivez", "lisez"], ["ils/elles", "écrivent", "lisent"]], "head": true},
+        {"p": "둘 다 불규칙. écrire는 복수에서 **v**가, lire는 복수에서 **s**가 생긴다."},
+        {"warn": "**J'écris** (Je écris ✗) — 하지만 **Je lis**는 그대로 (l은 자음)"},
+        {"memo": "발음: écrit [에크히] · lit [리] — 끝 t 무음. nous écrivons [에크히봉]은 단수에 없던 v 소리"}
+      ]
+    },
+    {
+      "h": "발음 한눈에",
+      "skill": "pron",
+      "src": ["노션 9/10", "Révision générale"],
+      "body": [
+        {"list": ["je pars [파흐] → nous partons [파흐똥]: 빠졌던 자음이 복수에서 다시 들린다", "il prend [프항] ↔ ils prennent [프헨]", "il vient [비앵] ↔ ils viennent [비엔]", "vous dites [부 디뜨]", "il attend [아땅] · nous descendons [데쌍동]", "il écrit [에크히] · il lit [리]"]}
+      ]
+    },
+    {
+      "h": "prendre 가족: comprendre · apprendre",
+      "skill": "pres-irr",
+      "src": ["노션 9/10", "Révision générale p.8"],
+      "body": [
+        {"table": [["", "comprendre 이해하다", "apprendre 배우다"], ["je", "comprends", "j'apprends"], ["tu", "comprends", "apprends"], ["il/elle", "comprend", "apprend"], ["nous", "comprenons", "apprenons"], ["vous", "comprenez", "apprenez"], ["ils/elles", "comprennent", "apprennent"]], "head": true},
+        {"p": "prendre 앞에 com-/ap-이 붙은 것뿐 → 변화도 prendre와 **똑같다**: il 어미 없음 (comprend), nous·vous에서 d 탈락 (comprenons), ils는 nn (comprennent)."},
+        {"memo": "9/10: Je ne comprends pas (la question). = 질문이 이해가 안 돼요 — 수업 중 바로 써먹는 표현"}
+      ]
+    }
+  ],
+  "cards": [
+    {"id": "u0-08-partir", "t": "verb", "inf": "partir", "ko": "떠나다", "group": 3, "forms": {"je": "pars", "tu": "pars", "il": "part", "nous": "partons", "vous": "partez", "ils": "partent"}, "traps": [{"p": "il", "wrong": "pars", "why": "il/elle/on은 -t: il part"}, {"p": "je", "wrong": "part", "why": "je·tu는 -s: je pars"}], "note": "on도 3인칭 단수 → On part (Quiz 1)", "star": true, "src": "semaine 2-2", "skill": "pres-irr"},
+    {"id": "u0-08-sortir", "t": "verb", "inf": "sortir", "ko": "나가다", "group": 3, "forms": {"je": "sors", "tu": "sors", "il": "sort", "nous": "sortons", "vous": "sortez", "ils": "sortent"}, "traps": [{"p": "il", "wrong": "sors", "why": "il/elle은 -t: il sort"}, {"p": "je", "wrong": "sorts", "why": "단수에선 t가 빠진다: je sors"}], "note": "la sortie = 출구", "src": "semaine 2-2", "skill": "pres-irr"},
+    {"id": "u0-08-dormir", "t": "verb", "inf": "dormir", "ko": "자다", "group": 3, "forms": {"je": "dors", "tu": "dors", "il": "dort", "nous": "dormons", "vous": "dormez", "ils": "dorment"}, "traps": [{"p": "je", "wrong": "dorms", "why": "단수에선 m이 빠진다: je dors"}, {"p": "il", "wrong": "dorme", "why": "il dort — -t로 끝"}], "src": "semaine 2-2", "skill": "pres-irr"},
+    {"id": "u0-08-dors", "t": "choice", "prompt": "빈칸에 알맞은 것은?", "q": "Je ___ bien. (dormir)", "ko": "나는 잘 잔다.", "a": "dors", "wrong": ["dorms", "dorme", "dort"], "say": "Je dors bien.", "explain": "dormir·partir·sortir는 단수에서 어간 끝 자음이 빠져요: je dors, je pars, je sors.", "skill": "pres-irr", "hint": "dormir·partir·sortir는 단수에서 어간 끝 자음이 빠져요!"},
+    {"id": "u0-08-prendre", "t": "verb", "inf": "prendre", "ko": "잡다, 타다, 먹다", "group": 3, "forms": {"je": "prends", "tu": "prends", "il": "prend", "nous": "prenons", "vous": "prenez", "ils": "prennent"}, "traps": [{"p": "il", "wrong": "prends", "why": "il prend — d로 끝나서 어미 없음"}, {"p": "nous", "wrong": "prendons", "why": "nous·vous는 d가 빠짐: prenons"}, {"p": "ils", "wrong": "prenent", "why": "ils는 n 두 개: prennent"}], "note": "영어 take: prendre le bus (버스를 타다)", "pron": "[일 프헨 · 누 프흐농]", "star": true, "src": "semaine 2-2", "skill": "pres-irr"},
+    {"id": "u0-08-prennent", "t": "choice", "prompt": "빈칸에 알맞은 것은?", "q": "Ils ___ le bus. (prendre)", "ko": "그들은 버스를 탄다.", "a": "prennent", "wrong": ["prenent", "prendent", "prenons"], "say": "Ils prennent le bus.", "explain": "ils는 n을 겹쳐 prennent [프헨]. nous prenons [프흐농]은 n 하나.", "star": true, "skill": "pres-irr", "hint": "prendre의 ils 형태! n이 몇 개인지 주의해요"},
+    {"id": "u0-08-listen-prennent", "t": "listen", "say": "Ils prennent le bus.", "a": "Ils prennent le bus.", "wrong": ["Il prend le bus."], "ko": "그들은 버스를 탄다.", "pron": "[일 프헨 르 뷔스]", "explain": "복수 prennent은 [프헨]으로 n 소리가 들리고, 단수 prend은 비모음 [프항].", "skill": "pron", "hint": "비모음 [ɑ̃]인지, n 소리가 또렷이 들리는지 들어봐요"},
+    {"id": "u0-08-comprends", "t": "choice", "prompt": "빈칸에 알맞은 것은?", "q": "Je ne ___ pas la question.", "ko": "질문이 이해가 안 돼요.", "a": "comprends", "wrong": ["comprend", "comprenons", "comprendre"], "explain": "comprendre(이해하다)는 prendre와 똑같이 변해요: je comprends, nous comprenons, ils comprennent.", "src": "노션 9/10", "skill": "pres-irr", "hint": "comprendre는 prendre와 똑같이 변해요! 주어는 je"},
+    {"id": "u0-08-apprends", "t": "choice", "prompt": "빈칸에 알맞은 것은?", "q": "J'___ le français.", "ko": "나는 프랑스어를 배운다.", "a": "apprends", "wrong": ["apprend", "apprenons", "apprennent"], "explain": "apprendre(배우다)도 prendre 패턴. je는 -ds: j'apprends.", "src": "노션 9/1 자기소개", "skill": "pres-irr", "hint": "apprendre도 prendre 패턴! je 형태의 끝 글자는?"},
+    {"id": "u0-08-mettre", "t": "verb", "inf": "mettre", "ko": "놓다, 입다", "group": 3, "forms": {"je": "mets", "tu": "mets", "il": "met", "nous": "mettons", "vous": "mettez", "ils": "mettent"}, "traps": [{"p": "tu", "wrong": "metts", "why": "단수는 t 하나: tu mets (Quiz 1 오답!)"}, {"p": "il", "wrong": "mets", "why": "il met — 어미 없음"}, {"p": "nous", "wrong": "metons", "why": "복수는 tt: mettons"}], "note": "단수 t 하나, 복수 tt", "star": true, "src": "semaine 2-2", "skill": "pres-irr"},
+    {"id": "u0-08-dire", "t": "verb", "inf": "dire", "ko": "말하다", "group": 3, "forms": {"je": "dis", "tu": "dis", "il": "dit", "nous": "disons", "vous": "dites", "ils": "disent"}, "traps": [{"p": "vous", "wrong": "disez", "why": "-ez 예외 3인방: êtes · faites · dites"}, {"p": "ils", "wrong": "dient", "why": "복수는 s가 생김: disent"}], "note": "vous dites — -ez 아님!", "star": true, "src": "semaine 2-2", "skill": "pres-irr"},
+    {"id": "u0-08-disez", "t": "error", "s": "Qu'est-ce que vous disez ?", "wrong": "disez", "right": "dites", "ko": "뭐라고 하시는 거예요?", "explain": "dire의 vous는 dites! vous êtes · faites · dites만 -ez가 아니에요.", "star": true, "skill": "pres-irr", "hint": "dire의 vous 형태를 의심해봐요 — -ez 예외 3인방!"},
+    {"id": "u0-08-venir", "t": "verb", "inf": "venir", "ko": "오다", "group": 3, "forms": {"je": "viens", "tu": "viens", "il": "vient", "nous": "venons", "vous": "venez", "ils": "viennent"}, "traps": [{"p": "tu", "wrong": "veins", "why": "i가 e보다 먼저: v-i-e-n-s (Quiz 1 오답!)"}, {"p": "ils", "wrong": "venent", "why": "ils는 vie + nn: viennent"}, {"p": "nous", "wrong": "viennons", "why": "nous·vous는 ven-: venons"}], "pron": "[비앵 · 브농 · 비엔]", "star": true, "src": "semaine 2-2", "skill": "pres-irr"},
+    {"id": "u0-08-listen-viennent", "t": "listen", "say": "Elles viennent demain.", "a": "Elles viennent demain.", "wrong": ["Elle vient demain."], "ko": "그녀들은 내일 온다.", "pron": "[엘 비엔 드맹]", "explain": "복수 viennent은 [비엔], 단수 vient은 비모음 [비앵].", "skill": "pron", "hint": "비모음 [ɛ̃](앵)인지, n 소리가 들리는지 구분해봐요"},
+    {"id": "u0-08-devenir", "t": "verb", "inf": "devenir", "ko": "~이 되다", "group": 3, "forms": {"je": "deviens", "tu": "deviens", "il": "devient", "nous": "devenons", "vous": "devenez", "ils": "deviennent"}, "traps": [{"p": "ils", "wrong": "devient", "why": "복수 주어엔 deviennent (Quiz 1 오답!)"}, {"p": "ils", "wrong": "devenent", "why": "ils는 vie + nn: deviennent"}], "note": "de + venir → venir와 똑같이 변한다", "star": true, "src": "semaine 2-2", "skill": "pres-irr"},
+    {"id": "u0-08-attendre", "t": "verb", "inf": "attendre", "ko": "기다리다", "group": 3, "forms": {"je": "attends", "tu": "attends", "il": "attend", "nous": "attendons", "vous": "attendez", "ils": "attendent"}, "traps": [{"p": "il", "wrong": "attends", "why": "il/elle은 어미 없음: il attend"}, {"p": "il", "wrong": "attendt", "why": "어간이 d로 끝나서 t를 안 붙임"}], "note": "j'attends — 엘리지옹! (Quiz 1)", "pron": "[아땅]", "star": true, "src": "Quiz 1", "skill": "pres-irr"},
+    {"id": "u0-08-attend", "t": "choice", "prompt": "빈칸에 알맞은 것은?", "q": "Il ___ le bus. (attendre)", "ko": "그는 버스를 기다린다.", "a": "attend", "wrong": ["attends", "attendt", "attende"], "say": "Il attend le bus.", "explain": "-re 규칙형은 il/elle에 어미가 없어요. 어간이 이미 d로 끝나서 t를 안 붙여요.", "star": true, "skill": "pres-irr", "hint": "-re 규칙형의 il 형태! 어간이 d로 끝나면 t를 붙일까요?"},
+    {"id": "u0-08-descendre", "t": "verb", "inf": "descendre", "ko": "내려가다, 내리다", "group": 3, "forms": {"je": "descends", "tu": "descends", "il": "descend", "nous": "descendons", "vous": "descendez", "ils": "descendent"}, "traps": [{"p": "il", "wrong": "descends", "why": "il descend — 어미 없음 (Quiz 1 오답!)"}, {"p": "il", "wrong": "descendt", "why": "어간이 d로 끝나서 t를 안 붙임"}], "note": "attendre와 똑같은 -re 패턴 (il descend — 어미 없음)", "pron": "[누 데쌍동]", "star": true, "src": "Quiz 1", "skill": "pres-irr"},
+    {"id": "u0-08-descendre-type", "t": "choice", "prompt": "descendre의 현재형은 어떤 패턴?", "q": "je descends, il descend, nous descendons…", "a": "attendre와 같은 -re 규칙형", "wrong": ["prendre와 같은 불규칙형", "1군 -er 규칙형", "2군 -ir 규칙형"], "say": "", "explain": "3군이라 '불규칙'으로 분류되기도 하지만, 변화 모양은 attendre와 똑같은 -re 패턴이에요: -s · -s · (없음) · -ons · -ez · -ent.", "skill": "pres-irr", "hint": "nous descendons — 어간이 끝까지 그대로예요! 어떤 패턴일까요?"},
+    {"id": "u0-08-ecrire", "t": "verb", "inf": "écrire", "ko": "쓰다", "group": 3, "forms": {"je": "écris", "tu": "écris", "il": "écrit", "nous": "écrivons", "vous": "écrivez", "ils": "écrivent"}, "traps": [{"p": "nous", "wrong": "écrisons", "why": "복수는 v가 생김: écrivons"}, {"p": "ils", "wrong": "écrient", "why": "복수는 v가 생김: écrivent"}], "note": "j'écris — 엘리지옹! (Quiz 1)", "src": "Quiz 1", "skill": "pres-irr"},
+    {"id": "u0-08-ecrivons", "t": "choice", "prompt": "빈칸에 알맞은 것은?", "q": "Nous ___ une lettre. (écrire)", "ko": "우리는 편지를 쓴다.", "a": "écrivons", "wrong": ["écrisons", "écrions", "écrivont"], "say": "Nous écrivons une lettre.", "explain": "écrire는 복수에서 v가 생겨요: nous écrivons, vous écrivez, ils écrivent.", "skill": "pres-irr", "hint": "écrire는 복수에서 새 자음이 생겨요! nous 형태는?"},
+    {"id": "u0-08-lire", "t": "verb", "inf": "lire", "ko": "읽다", "group": 3, "forms": {"je": "lis", "tu": "lis", "il": "lit", "nous": "lisons", "vous": "lisez", "ils": "lisent"}, "traps": [{"p": "nous", "wrong": "lions", "why": "복수는 s가 생김: lisons"}, {"p": "ils", "wrong": "lient", "why": "복수는 s가 생김: lisent"}], "note": "je lis — l은 자음이라 축약 안 함", "src": "Quiz 1", "skill": "pres-irr"},
+    {"id": "u0-08-lit", "t": "choice", "prompt": "빈칸에 알맞은 것은?", "q": "Elle ___ un livre. (lire)", "ko": "그녀는 책을 읽는다.", "a": "lit", "wrong": ["lis", "lisent", "lisit"], "say": "Elle lit un livre.", "explain": "lire: je lis, tu lis, il/elle lit — 끝 t는 무음 [리].", "skill": "pres-irr", "hint": "lire의 il/elle 형태! je·tu와 끝 글자가 달라요"},
+    {"id": "u0-08-comprendre", "t": "verb", "inf": "comprendre", "ko": "이해하다", "group": 3, "forms": {"je": "comprends", "tu": "comprends", "il": "comprend", "nous": "comprenons", "vous": "comprenez", "ils": "comprennent"}, "traps": [{"p": "ils", "wrong": "comprenent", "why": "prendre처럼 n 두 개: comprennent"}, {"p": "il", "wrong": "comprends", "why": "il/elle은 어미 없음: il comprend"}, {"p": "nous", "wrong": "comprendons", "why": "nous·vous는 d가 빠짐: comprenons"}], "note": "com + prendre → prendre와 똑같이 변한다", "src": "노션 9/10", "skill": "pres-irr"},
+    {"id": "u0-08-apprendre", "t": "verb", "inf": "apprendre", "ko": "배우다", "group": 3, "forms": {"je": "apprends", "tu": "apprends", "il": "apprend", "nous": "apprenons", "vous": "apprenez", "ils": "apprennent"}, "traps": [{"p": "nous", "wrong": "apprendons", "why": "nous·vous는 d가 빠짐: apprenons"}, {"p": "ils", "wrong": "apprenent", "why": "ils는 n 두 개: apprennent"}], "note": "모음 앞 → j'apprends. J'apprends le français.", "src": "노션 9/1 자기소개", "skill": "pres-irr"},
+    {"id": "u0-08-sortie", "t": "word", "skill": "vocab", "fr": "la sortie", "ko": "출구", "g": "f", "note": "sortir(나가다)의 명사형", "src": "노션 9/10"}
+  ]
+}

@@ -1,0 +1,1074 @@
+{
+  "id": "u1-11",
+  "unit": "u1",
+  "title": "텍스트 〈Dans la rue〉",
+  "emoji": "🏖️",
+  "date": "2026-09-22",
+  "sources": [
+    "semaine 4-1"
+  ],
+  "tips": [
+    {
+      "h": "대화 한 줄 요약",
+      "b": "랑베르 부부 → 코트다쥐르 휴가 🏖️\n메르시에 부부 → 장이 교통사고로 다리 골절 🦽 → 파리에 남음"
+    },
+    {
+      "h": "휴가 이야기 틀",
+      "rows": [
+        [
+          "Nous sommes allés à ~",
+          "~에 다녀왔어요"
+        ],
+        [
+          "Le premier jour, …",
+          "첫날엔"
+        ],
+        [
+          "Le lendemain, …",
+          "다음 날엔"
+        ],
+        [
+          "Le dernier jour, …",
+          "마지막 날엔"
+        ],
+        [
+          "Nous sommes bien contents de notre séjour.",
+          "여행에 아주 만족해요"
+        ]
+      ]
+    },
+    {
+      "h": "🔴 숨은 시험 포인트",
+      "b": "Il s'est **cassé** une jambe — 부러진 건 une jambe(뒤) → se는 '자기에게'(COI) → 일치 X\n주어가 여자여도: Elle s'est **cassé** une jambe (cassée X)\n(Elle s'est lavé les mains과 같은 구조)"
+    },
+    {
+      "h": "관용 표현",
+      "b": "descendre **dans un hôtel** = 호텔에 **묵다** (내려가다 X)\nC'est dommage ! = 안타깝네요 · Il va mieux = 나아졌다"
+    }
+  ],
+  "note": [
+    {
+      "h": "텍스트 줄거리",
+      "skill": "vocab",
+      "src": [
+        "semaine 4-1 p.20–22"
+      ],
+      "body": [
+        {
+          "p": "길에서 만난 **메르시에 부인**(Mme Mercier)과 **랑베르 부인**(Mme Lambert)의 대화. 전문은 슬라이드 p.20–22에서 볼 것."
+        },
+        {
+          "list": [
+            "① 인사 — 서로 안부를 묻는다 (Vous allez bien ? / Et vous-même ?)",
+            "② 메르시에 부인이 랑베르 부인이 햇볕에 탄 걸 알아본다 → 랑베르 부부는 코트다쥐르에 다녀왔다",
+            "③ 여행 이야기 — 니스 근처 작은 호텔에 묵음 → 첫날 니스 구시가지 산책 → 다음 날 해수욕 → 마지막 날 피카소 미술관 → 아주 만족",
+            "④ 랑베르 부인이 되묻는다: 휴가 안 가셨어요? → 장이 교통사고로 다리가 부러져서 파리에 남았다",
+            "⑤ 랑베르 부인이 안타까워하며 장의 상태를 묻고, 지금은 훨씬 나아졌다는 대답으로 끝난다"
+          ]
+        },
+        {
+          "ex": [
+            [
+              "Vous êtes bien bronzée !",
+              "정말 보기 좋게 타셨네요!"
+            ],
+            [
+              "Nous sommes allés sur la Côte d'Azur.",
+              "코트다쥐르에 다녀왔어요."
+            ],
+            [
+              "Il s'est cassé une jambe.",
+              "그는 다리가 부러졌어요."
+            ],
+            [
+              "C'est dommage !",
+              "안됐네요!"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "h": "텍스트 속 복합과거",
+      "skill": "aux",
+      "src": [
+        "semaine 4-1 p.20–22"
+      ],
+      "body": [
+        {
+          "table": [
+            [
+              "문장",
+              "조동사",
+              "포인트"
+            ],
+            [
+              "Nous sommes allés",
+              "être",
+              "nous = 랑베르 부부(남녀) → 남성 복수"
+            ],
+            [
+              "vous vous êtes bien amusés",
+              "être",
+              "대명동사, vous = 부부 둘"
+            ],
+            [
+              "Nous sommes descendus",
+              "être",
+              "descendre (여기선 '묵다')"
+            ],
+            [
+              "nous nous sommes promenés / baignés",
+              "être",
+              "대명동사, se = COD → 일치"
+            ],
+            [
+              "nous avons visité",
+              "avoir",
+              "visiter는 이동동사 아님"
+            ],
+            [
+              "vous n'êtes pas partis",
+              "être",
+              "부정: ne + être + pas + 분사"
+            ],
+            [
+              "Jean a eu",
+              "avoir",
+              "avoir의 과거분사 eu [위]"
+            ],
+            [
+              "Il s'est cassé une jambe",
+              "être",
+              "COD une jambe가 뒤 → 일치 X"
+            ],
+            [
+              "nous sommes restés",
+              "être",
+              "rester는 être 무리"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "warn": "몸의 부위가 COD로 뒤에 오면 se는 COI(자기에게) → 일치 없음. 주어가 여자여도 Elle s'est cassé une jambe (cassée X)"
+        },
+        {
+          "p": "Vous êtes bien **bronzée**: bronzé(e)는 형용사처럼 쓰여 주어에 성·수를 맞춘다. 여기 vous는 존칭으로 부른 랑베르 부인 **한 명(여성)** → 여성 단수. 반면 Nous sommes allés의 nous는 부부 → 남성 복수."
+        }
+      ]
+    },
+    {
+      "h": "텍스트 어휘",
+      "skill": "vocab",
+      "src": [
+        "semaine 4-1 p.20–22"
+      ],
+      "body": [
+        {
+          "table": [
+            [
+              "표현",
+              "뜻"
+            ],
+            [
+              "Et vous-même ?",
+              "당신은요? (Et vous?의 강조)"
+            ],
+            [
+              "bronzé(e)",
+              "햇볕에 그을린"
+            ],
+            [
+              "la Côte d'Azur",
+              "코트다쥐르 (남프랑스 지중해 해안)"
+            ],
+            [
+              "descendre dans un hôtel",
+              "호텔에 묵다"
+            ],
+            [
+              "près de ~",
+              "~ 근처에"
+            ],
+            [
+              "le vieux quartier",
+              "구시가지"
+            ],
+            [
+              "le lendemain",
+              "다음 날"
+            ],
+            [
+              "se baigner",
+              "해수욕하다, 물에 들어가다"
+            ],
+            [
+              "être content(e) de ~",
+              "~에 만족하다"
+            ],
+            [
+              "bien + 형용사/분사",
+              "아주, 정말 (bien bronzée, bien contents, bien amusés)"
+            ],
+            [
+              "le séjour",
+              "체류, 머문 기간"
+            ],
+            [
+              "partir en vacances",
+              "휴가를 떠나다"
+            ],
+            [
+              "Hélas !",
+              "아아, 유감스럽게도"
+            ],
+            [
+              "un accident de voiture",
+              "교통사고"
+            ],
+            [
+              "se casser une jambe",
+              "다리가 부러지다"
+            ],
+            [
+              "C'est dommage !",
+              "안타깝다, 아쉽다"
+            ],
+            [
+              "aller mieux",
+              "(몸이) 나아지다"
+            ]
+          ],
+          "head": true
+        }
+      ]
+    },
+    {
+      "h": "발음",
+      "skill": "pron",
+      "src": [
+        "semaine 4-1 p.20–22"
+      ],
+      "body": [
+        {
+          "list": [
+            "Nous sommes‿allés [누 쏨 잘레] · Nous‿avons visité [누 자봉 비지떼] — 연음",
+            "vous vous‿êtes bien‿amusés [부 부 제뜨 비앵 나뮈제]",
+            "Hélas [엘라스] — 끝 s를 **발음**하는 예외",
+            "le lendemain [르 랑드맹] — ain 비모음",
+            "un‿accident [엉 낙시당] — cc는 [ks]",
+            "beaucoup mieux [보꾸 미으] — x 묵음",
+            "bronzée [브홍제] · Côte d'Azur [꼬뜨 다쥐흐]"
+          ]
+        }
+      ]
+    },
+    {
+      "h": "인사 · 맞장구 · 형용사 일치",
+      "skill": "vocab",
+      "src": [
+        "semaine 4-1 p.20–22"
+      ],
+      "body": [
+        {
+          "table": [
+            [
+              "표현",
+              "뜻"
+            ],
+            [
+              "Mme = Madame",
+              "~ 부인 (기혼 여성 호칭)"
+            ],
+            [
+              "Vous allez bien ?",
+              "잘 지내세요?"
+            ],
+            [
+              "Très bien, merci. Et vous-même ?",
+              "아주 잘 지내요. 당신은요?"
+            ],
+            [
+              "Eh oui !",
+              "네, 그렇죠! (맞장구)"
+            ],
+            [
+              "Mais oui !",
+              "그럼요! (강한 긍정)"
+            ],
+            [
+              "le premier jour / le dernier jour",
+              "첫날 / 마지막 날"
+            ],
+            [
+              "le musée (Picasso)",
+              "미술관, 박물관"
+            ],
+            [
+              "beaucoup mieux",
+              "훨씬 나은"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "list": [
+            "C'est une **belle** région — région은 여성 → beau의 여성형 belle",
+            "Nous sommes bien **contents** — nous = 랑베르 부부(남녀) → 형용사도 남성 복수",
+            "Jean **a eu** un accident — avoir의 과거분사는 eu [위], 조동사도 avoir",
+            "se promener · se baigner · se casser: 텍스트 속 대명동사 → 모두 être"
+          ]
+        },
+        {
+          "p": "이해 체크: 첫날 = 니스 구시가지 산책 · 다음 날 = 해수욕 · 마지막 날 = 피카소 미술관 · 메르시에 부부 = 장의 사고로 파리에 남음."
+        }
+      ]
+    },
+    {
+      "h": "수업 필기 (9/23) — 텍스트 보충",
+      "skill": "vocab",
+      "src": [
+        "노션 9/23",
+        "semaine 4-1 p.20–22"
+      ],
+      "body": [
+        {
+          "p": "교수님이 텍스트를 다시 읽으면서 표현을 하나씩 짚었습니다. **dernier의 자리**가 이날 새로 나온 포인트입니다."
+        },
+        {
+          "table": [
+            [
+              "표현",
+              "뜻",
+              "dernier의 자리"
+            ],
+            [
+              "le dernier jour",
+              "마지막 날",
+              "명사 앞"
+            ],
+            [
+              "le dernier cours",
+              "마지막 수업",
+              "명사 앞"
+            ],
+            [
+              "l'été dernier",
+              "지난 여름",
+              "명사 뒤"
+            ],
+            [
+              "la semaine dernière",
+              "지난주",
+              "명사 뒤"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "p": "**명사 앞이면 '마지막', 명사 뒤면 '지난'.** 같은 단어인데 자리로 뜻이 갈립니다."
+        },
+        {
+          "list": [
+            "descendre dans un hôtel = 호텔에 묵다 (내려가다가 아님)",
+            "se promener = 산책하다 · se baigner = 물놀이·해수욕하다",
+            "casser = 부수다 / se casser une jambe = 다리가 부러지다",
+            "Mais oui ! 의 Mais는 '하지만'이 아니라 **강조**"
+          ]
+        },
+        {
+          "warn": "필기의 « Hélas (어머나) »는 뜻이 어긋납니다. hélas는 놀람이 아니라 **안타까움**('아아, 아쉽게도')이에요."
+        },
+        {
+          "memo": "« Il va mieux ? » 옆에 적힌 Se sentir — 둘 다 쓰지만 구조가 다릅니다: Il va mieux. / Il se sent mieux."
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "u1-11-bronze",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "bronzé",
+      "ko": "햇볕에 그을린",
+      "note": "여성: bronzée",
+      "pron": "[브홍제]",
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-11-cote-azur",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "la Côte d'Azur",
+      "ko": "코트다쥐르 (남프랑스 해안)",
+      "g": "f",
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-11-descendre-hotel",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "descendre dans un hôtel",
+      "ko": "호텔에 묵다",
+      "note": "내려가다 X — 관용 표현",
+      "star": true,
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-11-vieux-quartier",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "le vieux quartier",
+      "ko": "구시가지",
+      "g": "m",
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-11-lendemain",
+      "t": "word",
+      "skill": "time",
+      "fr": "le lendemain",
+      "ko": "다음 날",
+      "g": "m",
+      "pron": "[르 랑드맹]",
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-11-se-baigner",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "se baigner",
+      "ko": "해수욕하다",
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-11-sejour",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "le séjour",
+      "ko": "체류 (머문 기간)",
+      "g": "m",
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-11-partir-vacances",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "partir en vacances",
+      "ko": "휴가를 떠나다",
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-11-helas",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "Hélas !",
+      "ko": "아아, 유감스럽게도",
+      "pron": "[엘라스]",
+      "note": "끝 s 발음",
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-11-accident",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "un accident de voiture",
+      "ko": "교통사고",
+      "g": "m",
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-11-dommage",
+      "t": "word",
+      "skill": "greet",
+      "fr": "C'est dommage !",
+      "ko": "(그거) 참 안됐네요!",
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-11-aller-mieux",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "aller mieux",
+      "ko": "(몸이) 나아지다",
+      "note": "Il va beaucoup mieux. 훨씬 나아졌다",
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-11-content-de",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "être content de",
+      "ko": "~에 만족하다",
+      "note": "여성: être contente de",
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-11-c-alles",
+      "t": "choice",
+      "skill": "agreement",
+      "hint": "휴가를 간 '우리'는 랑베르 부부 — 남편과 아내",
+      "prompt": "빈칸에 알맞은 것은? (aller)",
+      "q": "Eh oui ! Nous ___ sur la Côte d'Azur.",
+      "ko": "네, 맞아요! 코트다쥐르에 다녀왔어요.",
+      "a": "sommes allés",
+      "wrong": [
+        "avons allé",
+        "sommes allé",
+        "avons allés"
+      ],
+      "explain": "aller → être. 남녀가 섞인 nous → 남성 복수 allés.",
+      "src": "semaine 4-1 p.20"
+    },
+    {
+      "id": "u1-11-c-amuses",
+      "t": "choice",
+      "skill": "pronominal",
+      "hint": "se가 COD면 주어에 일치 — 남녀가 섞인 복수라면?",
+      "prompt": "메르시에 부인이 랑베르 부부에게 — 빈칸에 알맞은 것은? (s'amuser)",
+      "q": "Alors, vous vous êtes bien ___ ?",
+      "ko": "그래서, 재밌게 지내셨어요?",
+      "a": "amusés",
+      "wrong": [
+        "amusé",
+        "amusées",
+        "amuser"
+      ],
+      "explain": "대명동사 + se=COD → 주어와 일치. vous = 부부(남녀) → amusés.",
+      "src": "semaine 4-1 p.20"
+    },
+    {
+      "id": "u1-11-c-bronzee",
+      "t": "choice",
+      "skill": "agreement",
+      "hint": "존칭 vous — 실제 상대는 몇 명? 남자? 여자?",
+      "prompt": "메르시에 부인이 랑베르 부인에게 — 빈칸에 알맞은 것은?",
+      "q": "Ça va. Vous êtes bien ___ !",
+      "ko": "잘 지내요. 보기 좋게 타셨네요!",
+      "a": "bronzée",
+      "wrong": [
+        "bronzé",
+        "bronzés",
+        "bronzées"
+      ],
+      "explain": "존칭 vous 한 명(여성) → 여성 단수. 과거분사 일치와 같은 원리예요.",
+      "src": "semaine 4-1 p.20"
+    },
+    {
+      "id": "u1-11-c-casse",
+      "t": "choice",
+      "skill": "agreement",
+      "hint": "부러진 건 une jambe(뒤)! 그럼 se의 역할은?",
+      "prompt": "빈칸에 알맞은 것은? (se casser)",
+      "q": "Jean a eu un accident de voiture. Il s'est ___ une jambe.",
+      "ko": "장이 교통사고를 당했어요. 다리가 부러졌어요.",
+      "a": "cassé",
+      "wrong": [
+        "cassée",
+        "cassés",
+        "casser"
+      ],
+      "explain": "COD une jambe가 뒤 → se는 '자기에게'(COI) → 일치 X. s'est lavé les mains과 같은 구조!",
+      "star": true,
+      "src": "semaine 4-1 p.22"
+    },
+    {
+      "id": "u1-11-c-visite",
+      "t": "choice",
+      "skill": "aux",
+      "hint": "visiter는 이동동사 15개 목록에 있었나요?",
+      "prompt": "빈칸에 알맞은 것은? (visiter)",
+      "q": "Et le dernier jour, nous ___ le musée Picasso.",
+      "ko": "그리고 마지막 날엔 피카소 미술관을 둘러봤어요.",
+      "a": "avons visité",
+      "wrong": [
+        "sommes visités",
+        "avons visités",
+        "sommes visité"
+      ],
+      "explain": "visiter는 목적어(le musée)를 받는 일반동사 → avoir, 일치 X.",
+      "src": "semaine 4-1 p.21"
+    },
+    {
+      "id": "u1-11-c-partis",
+      "t": "choice",
+      "skill": "pc-neg-q",
+      "hint": "partir의 조동사는? ne…pas가 감싸는 건 그 조동사",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Et vous, vous n'___ pas partis en vacances ?",
+      "ko": "댁은요, 휴가 안 떠나셨어요?",
+      "a": "êtes",
+      "wrong": [
+        "avez",
+        "est",
+        "es"
+      ],
+      "explain": "partir → être. vous의 être = êtes. partis는 메르시에 부부 둘이라 복수.",
+      "src": "semaine 4-1 p.21"
+    },
+    {
+      "id": "u1-11-c-descendus-sens",
+      "t": "choice",
+      "skill": "vocab",
+      "hint": "여행 중에 호텔에서 하는 일을 떠올려봐요",
+      "prompt": "이 문장의 뜻은?",
+      "q": "Nous sommes descendus dans un petit hôtel près de Nice.",
+      "say": "",
+      "a": "니스 근처 작은 호텔에 묵었다",
+      "wrong": [
+        "니스 근처 작은 호텔에서 내려왔다",
+        "니스 근처 작은 호텔로 내려갔다",
+        "니스 근처 작은 호텔을 샀다"
+      ],
+      "explain": "descendre dans un hôtel = 호텔에 묵다 (관용). 조동사는 여전히 être.",
+      "star": true,
+      "src": "semaine 4-1 p.21"
+    },
+    {
+      "id": "u1-11-c-why-paris",
+      "t": "choice",
+      "skill": "vocab",
+      "hint": "Hélas, non ! 다음에 누가 어떻게 됐다고 했죠?",
+      "prompt": "메르시에 부부가 파리에 남은 이유는?",
+      "q": "Alors, nous sommes restés à Paris.",
+      "say": "",
+      "a": "장이 교통사고로 다리가 부러져서",
+      "wrong": [
+        "장이 니스로 출장을 가서",
+        "휴가를 좋아하지 않아서",
+        "메르시에 부인이 다리를 다쳐서"
+      ],
+      "explain": "Jean a eu un accident de voiture. Il s'est cassé une jambe.",
+      "src": "semaine 4-1 p.22"
+    },
+    {
+      "id": "u1-11-c-sequence",
+      "t": "choice",
+      "skill": "time",
+      "hint": "첫날 → ? → 마지막 날. '그다음 날'을 가리키는 말",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Le premier jour… ___, nous nous sommes baignés. Et le dernier jour…",
+      "say": "",
+      "a": "Le lendemain",
+      "wrong": [
+        "Demain",
+        "Hier",
+        "La veille"
+      ],
+      "explain": "le lendemain = (과거 이야기 속) 다음 날. demain은 '내일'(지금 기준), la veille는 '전날'이라 안 맞아요.",
+      "src": "semaine 4-1 p.21"
+    },
+    {
+      "id": "u1-11-c-helas-pron",
+      "t": "choice",
+      "skill": "pron",
+      "hint": "끝 자음은 보통 묵음인데… 이 단어는 예외!",
+      "prompt": "소리 고르기",
+      "q": "Hélas의 발음은?",
+      "say": "Hélas !",
+      "a": "[엘라스] — 끝 s 발음",
+      "wrong": [
+        "[엘라] — 끝 s 묵음",
+        "[헬라스] — h 발음",
+        "[엘라즈] — s를 z로"
+      ],
+      "explain": "hélas는 끝 s를 소리 내는 예외. h는 무음.",
+      "src": "semaine 4-1 p.22"
+    },
+    {
+      "id": "u1-11-e-avons-alles",
+      "t": "error",
+      "skill": "aux",
+      "hint": "aller의 조동사를 다시 생각해봐요",
+      "s": "Nous avons allés sur la Côte d'Azur.",
+      "wrong": "avons allés",
+      "right": "sommes allés",
+      "ko": "우리는 코트다쥐르에 다녀왔다.",
+      "explain": "aller는 être 동사 → Nous sommes allés.",
+      "star": true
+    },
+    {
+      "id": "u1-11-e-cassee",
+      "t": "error",
+      "skill": "agreement",
+      "hint": "부러진 건 무엇? 그것이 과거분사 앞에 있나요?",
+      "s": "Marie s'est cassée une jambe au ski.",
+      "wrong": "cassée",
+      "right": "cassé",
+      "ko": "마리는 스키 타다가 다리가 부러졌다.",
+      "explain": "주어가 여성이어도 COD une jambe가 뒤라 일치 X → cassé.",
+      "star": true
+    },
+    {
+      "id": "u1-11-b-restes",
+      "t": "build",
+      "skill": "aux",
+      "hint": "rester는 être 무리. 주어는 메르시에 부부",
+      "prompt": "문장을 만드세요",
+      "ko": "그래서 우리는 파리에 남아 있었어요.",
+      "a": "Alors, nous sommes restés à Paris.",
+      "extra": [
+        "avons",
+        "resté"
+      ],
+      "explain": "rester → être, nous(부부) → restés.",
+      "src": "semaine 4-1 p.22"
+    },
+    {
+      "id": "u1-11-b-mieux",
+      "t": "build",
+      "skill": "vocab",
+      "hint": "'나아지다' = aller + ?, '훨씬'은 그 앞에",
+      "prompt": "문장을 만드세요",
+      "ko": "네, 그는 훨씬 나아졌어요.",
+      "a": "Oui, il va beaucoup mieux.",
+      "extra": [
+        "bien",
+        "plus"
+      ],
+      "explain": "aller mieux = 나아지다. beaucoup mieux = 훨씬 나은.",
+      "src": "semaine 4-1 p.22"
+    },
+    {
+      "id": "u1-11-b-promenes",
+      "t": "build",
+      "skill": "pronominal",
+      "hint": "대명동사 → 재귀대명사 + être + 과거분사(주어 일치)",
+      "prompt": "문장을 만드세요",
+      "ko": "첫날엔 우리는 산책했어요.",
+      "a": "Le premier jour, nous nous sommes promenés.",
+      "extra": [
+        "avons",
+        "promené"
+      ],
+      "explain": "se promener → nous nous sommes promenés (부부 → 남성 복수).",
+      "src": "semaine 4-1 p.21"
+    },
+    {
+      "id": "u1-11-madame",
+      "t": "word",
+      "skill": "greet",
+      "fr": "Madame",
+      "ko": "~ 부인 (기혼 여성 호칭)",
+      "note": "약어 Mme · Bonjour, Madame Lambert !",
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-11-allez-bien",
+      "t": "word",
+      "skill": "greet",
+      "fr": "Vous allez bien ?",
+      "ko": "잘 지내세요?",
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-11-vous-meme",
+      "t": "word",
+      "skill": "greet",
+      "fr": "Et vous-même ?",
+      "ko": "당신은요? (되물을 때)",
+      "note": "Et vous ?의 강조형",
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-11-eh-oui",
+      "t": "word",
+      "skill": "greet",
+      "fr": "Eh oui !",
+      "ko": "네, 그렇죠! (맞장구)",
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-11-mais-oui",
+      "t": "word",
+      "skill": "greet",
+      "fr": "Mais oui !",
+      "ko": "그럼요! (강한 긍정)",
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-11-region",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "la région",
+      "ko": "지역, 지방",
+      "g": "f",
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-11-pres-de",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "près de",
+      "ko": "~ 근처에",
+      "note": "près de Nice 니스 근처",
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-11-premier-jour",
+      "t": "word",
+      "skill": "time",
+      "fr": "le premier jour",
+      "ko": "첫날",
+      "g": "m",
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-11-dernier-jour",
+      "t": "word",
+      "skill": "time",
+      "fr": "le dernier jour",
+      "ko": "마지막 날",
+      "g": "m",
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-11-musee",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "le musée",
+      "ko": "미술관, 박물관",
+      "g": "m",
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-11-se-promener",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "se promener",
+      "ko": "산책하다",
+      "note": "je me promène (è!) · nous nous promenons",
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-11-se-casser",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "se casser une jambe",
+      "ko": "다리가 부러지다",
+      "note": "Il s'est cassé une jambe. (일치 X)",
+      "src": "semaine 4-1"
+    },
+    {
+      "id": "u1-11-c-belle",
+      "t": "choice",
+      "skill": "adj",
+      "hint": "région은 여성 명사! beau의 여성형은?",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "C'est une ___ région, la Côte d'Azur !",
+      "ko": "코트다쥐르는 아름다운 지방이죠!",
+      "a": "belle",
+      "wrong": [
+        "beau",
+        "bel",
+        "beaux"
+      ],
+      "explain": "la région(여성 단수) → belle. bel은 모음 앞 남성 단수용.",
+      "src": "semaine 4-1 p.20"
+    },
+    {
+      "id": "u1-11-c-contents",
+      "t": "choice",
+      "skill": "adj",
+      "hint": "nous = 랑베르 부부(남녀)! 형용사도 성·수 일치",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Nous sommes bien ___ de notre séjour.",
+      "ko": "우리는 여행에 아주 만족해요.",
+      "a": "contents",
+      "wrong": [
+        "content",
+        "contentes",
+        "contente"
+      ],
+      "explain": "남녀가 섞인 nous → 남성 복수 contents.",
+      "src": "semaine 4-1 p.21"
+    },
+    {
+      "id": "u1-11-c-baignes",
+      "t": "choice",
+      "skill": "pronominal",
+      "hint": "se baigner도 대명동사! nous = 부부(남녀)",
+      "prompt": "빈칸에 알맞은 것은? (se baigner)",
+      "q": "Le lendemain, nous nous sommes ___.",
+      "ko": "다음 날엔 해수욕을 했어요.",
+      "a": "baignés",
+      "wrong": [
+        "baigné",
+        "baignées",
+        "baigner"
+      ],
+      "explain": "대명동사 + se = COD → 주어와 일치. 남녀 nous → baignés.",
+      "src": "semaine 4-1 p.21"
+    },
+    {
+      "id": "u1-11-c-eu",
+      "t": "choice",
+      "skill": "pp",
+      "hint": "avoir의 복합과거! 조동사도 avoir, 과거분사는 불규칙 두 글자",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Hélas, non ! Jean ___ un accident de voiture.",
+      "ko": "아뇨, 안타깝게도! 장이 교통사고를 당했어요.",
+      "a": "a eu",
+      "wrong": [
+        "est eu",
+        "a avoir",
+        "a eus"
+      ],
+      "pron": "[아 위]",
+      "explain": "avoir → eu [위]. avoir의 복합과거도 조동사는 avoir: a eu.",
+      "src": "semaine 4-1 p.22"
+    },
+    {
+      "id": "u1-11-c-va-mieux",
+      "t": "choice",
+      "skill": "vocab",
+      "hint": "다친 사람 안부를 묻는 장면이에요. aller + mieux는?",
+      "prompt": "이 질문의 뜻은?",
+      "q": "Il va mieux maintenant ?",
+      "say": "Il va mieux maintenant ?",
+      "a": "지금은 좀 나아졌나요?",
+      "wrong": [
+        "지금 더 멀리 가나요?",
+        "지금 어디 가요?",
+        "지금 더 좋아하나요?"
+      ],
+      "explain": "aller mieux = (몸이) 나아지다. 대답: Oui, il va beaucoup mieux.",
+      "src": "semaine 4-1 p.22"
+    },
+    {
+      "id": "u1-11-c-first-day",
+      "t": "choice",
+      "skill": "vocab",
+      "hint": "se promener가 무슨 뜻이었는지 떠올려봐요",
+      "prompt": "랑베르 부부가 첫날(le premier jour) 한 일은?",
+      "q": "Le premier jour, nous nous sommes promenés…",
+      "say": "",
+      "a": "니스 구시가지 산책",
+      "wrong": [
+        "해수욕",
+        "피카소 미술관 관람",
+        "호텔 찾기"
+      ],
+      "explain": "첫날 산책 → 다음 날 해수욕 → 마지막 날 피카소 미술관.",
+      "src": "semaine 4-1 p.21"
+    },
+    {
+      "id": "u1-11-c-last-day",
+      "t": "choice",
+      "skill": "vocab",
+      "hint": "le dernier jour 문장의 동사는 visiter였어요",
+      "prompt": "랑베르 부부가 마지막 날(le dernier jour) 한 일은?",
+      "q": "Et le dernier jour, nous avons visité…",
+      "say": "",
+      "a": "피카소 미술관 관람",
+      "wrong": [
+        "니스 구시가지 산책",
+        "해수욕",
+        "파리로 돌아옴"
+      ],
+      "explain": "nous avons visité le musée Picasso — visiter는 avoir 동사.",
+      "src": "semaine 4-1 p.21"
+    },
+    {
+      "id": "u1-11-w-semaine-derniere",
+      "t": "word",
+      "skill": "time",
+      "fr": "la semaine dernière",
+      "ko": "지난주",
+      "g": "f",
+      "src": "노션 9/23"
+    },
+    {
+      "id": "u1-11-w-dernier-cours",
+      "t": "word",
+      "skill": "time",
+      "fr": "le dernier cours",
+      "ko": "마지막 수업",
+      "g": "m",
+      "src": "노션 9/23"
+    },
+    {
+      "id": "u1-11-c-dernier-position",
+      "t": "choice",
+      "skill": "time",
+      "hint": "형용사가 명사 뒤로 가면 '지난', 앞이면 '마지막'이었죠.",
+      "prompt": "'지난주에'에 알맞은 것은?",
+      "q": "Je l'ai vu ___.",
+      "ko": "나는 지난주에 그를 봤다.",
+      "a": "la semaine dernière",
+      "wrong": [
+        "la dernière semaine",
+        "le dernier semaine",
+        "dernière la semaine"
+      ],
+      "explain": "명사 뒤 → '지난'. 앞에 두면 la dernière semaine = 마지막 주가 됩니다.",
+      "star": true,
+      "src": "노션 9/23"
+    },
+    {
+      "id": "u1-11-c-dernier-sens",
+      "t": "choice",
+      "skill": "time",
+      "hint": "형용사가 명사 앞에 붙어 있어요.",
+      "prompt": "le dernier cours의 뜻은?",
+      "q": "le dernier cours",
+      "say": "le dernier cours",
+      "a": "마지막 수업",
+      "wrong": [
+        "지난 수업",
+        "첫 수업",
+        "다음 수업"
+      ],
+      "explain": "명사 **앞**이면 '마지막', **뒤**면 '지난'(l'été dernier = 지난 여름).",
+      "src": "노션 9/23"
+    },
+    {
+      "id": "u1-11-w-casser",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "casser",
+      "ko": "부수다, 깨뜨리다",
+      "note": "se casser une jambe = 다리가 부러지다",
+      "src": "노션 9/23"
+    },
+    {
+      "id": "u1-11-c-se-sentir",
+      "t": "choice",
+      "skill": "pronominal",
+      "hint": "-ir 동사의 3인칭 단수 현재형을 떠올려봐요.",
+      "prompt": "빈칸에 알맞은 것은? (se sentir)",
+      "q": "Il se ___ mieux aujourd'hui.",
+      "ko": "그는 오늘 몸이 더 나아졌다.",
+      "a": "sent",
+      "wrong": [
+        "sens",
+        "sente",
+        "sentir"
+      ],
+      "explain": "se sentir: je me sens · tu te sens · il se sent. aller mieux(Il va mieux)와 같은 뜻, 다른 구조.",
+      "src": "노션 9/23"
+    }
+  ],
+  "fixes": [
+    {
+      "where": "노션 9/23",
+      "was": "Hélas (어머나)",
+      "now": "Hélas = 아아, 아쉽게도 (안타까움)",
+      "why": "놀람의 감탄사가 아니라 유감·안타까움을 나타냄. 대화에서도 휴가를 못 갔다는 아쉬움을 나타낸다"
+    },
+    {
+      "where": "노션 9/23",
+      "was": "Il va mieux maintenant ? → Se sentir",
+      "now": "Il va mieux. / Il se sent mieux.",
+      "why": "aller mieux와 se sentir mieux는 동사가 달라 구조도 다르다 (se sentir는 대명동사)"
+    },
+    {
+      "where": "노션 9/23",
+      "was": "darnier의 위치에 따라",
+      "now": "dernier의 위치에 따라",
+      "why": "철자 (e/a)"
+    }
+  ]
+}

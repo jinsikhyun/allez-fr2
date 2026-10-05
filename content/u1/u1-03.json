@@ -1,0 +1,490 @@
+{
+  "id": "u1-03",
+  "unit": "u1",
+  "title": "불규칙 과거분사",
+  "emoji": "🧩",
+  "date": "2026-09-15",
+  "sources": ["semaine 3-1", "semaine 3-2", "교재 p.68", "노션 9/15", "노션 9/16"],
+  "tips": [
+    {
+      "h": "불규칙 13개 (자료 순서)",
+      "rows": [
+        ["avoir → eu", "être → été"],
+        ["faire → fait", "prendre → pris"],
+        ["mettre → mis", "lire → lu"],
+        ["voir → vu", "pouvoir → pu"],
+        ["vouloir → voulu", "savoir → su"],
+        ["devoir → dû", "ouvrir → ouvert"],
+        ["connaître → connu", "+ comprendre → compris, dire → dit"]
+      ]
+    },
+    {
+      "h": "끝소리로 묶기",
+      "rows": [
+        ["-u (8개)", "eu · lu · vu · pu · voulu · su · dû · connu"],
+        ["-s", "pris · mis (compris)"],
+        ["-t", "fait · ouvert (dit)"],
+        ["-é", "été"]
+      ]
+    },
+    {
+      "h": "dû ≠ du",
+      "b": "devoir → **dû** (^ 필수!)\ndu = 부분관사 (du pain). 발음이 같아서 쓰기에서만 틀려요."
+    },
+    {
+      "h": "발음",
+      "b": "-u 계열은 전부 입술 오므린 **[위]** /y/: eu [위] · lu [뤼] · vu [뷔] · su [쒸] · dû [뒤] · connu [코뉘]\n끝 자음 무음: fait [페] · pris [프히] · mis [미] · ouvert [우베흐]"
+    },
+    {
+      "h": "être도 조동사는 avoir",
+      "b": "**J'ai été** malade. (Je suis été ✗)"
+    }
+  ],
+  "fixes": [
+    {
+      "where": "노션 9/16 필기",
+      "was": "Elles on fait",
+      "now": "Elles ont fait",
+      "why": "조동사 avoir의 3인칭 복수는 ont. on은 주어 대명사(발음만 같음)"
+    }
+  ],
+  "note": [
+    {
+      "h": "불규칙 과거분사 13개", "skill": "pp", "src": ["semaine 3-1 p.14-15","semaine 3-2 p.19-20","노션 9/15"],
+      "body": [
+        {"p":"-é / -i 규칙을 따르지 않아 **통째로 외워야** 하는 과거분사. 자료 제시 순서 그대로."},
+        {"table":[["원형","과거분사","예","뜻"],["avoir","eu","J'ai eu","가졌다"],["être","été","Tu as été","~였다"],["faire","fait","Il a fait","했다"],["prendre","pris","Elle a pris","잡았다·탔다"],["mettre","mis","Nous avons mis","놓았다·입었다"],["lire","lu","Vous avez lu","읽었다"],["voir","vu","Ils ont vu","보았다"],["pouvoir","pu","Elles ont pu","할 수 있었다"],["vouloir","voulu","J'ai voulu","원했다"],["savoir","su","Tu as su","알았다"],["devoir","dû","Il a dû","해야 했다"],["ouvrir","ouvert","Elle a ouvert","열었다"],["connaître","connu","Nous avons connu","알게 됐다"]],"head":true},
+        {"memo":"9/16 복습 자료에서 같은 13개를 인칭을 바꿔 가며(J'ai eu, Tu as été, Il a fait…) 다시 보여 주셨어요 → avoir 인칭 변화까지 같이 연습."}
+      ]
+    },
+    {
+      "h": "끝소리로 묶어 외우기", "skill": "pp", "src": ["노션 9/15"],
+      "body": [
+        {"table":[["무리","과거분사"],["-u (8개)","eu · lu · vu · pu · voulu · su · dû · connu"],["-s","pris · mis"],["-t","fait · ouvert"],["-é","été"]],"head":true},
+        {"p":"13개를 네 덩어리로 묶으면 부담이 확 줄어요."},
+        {"memo":"필기(9/15)는 -u 7개(eu, lu, vu, pu, voulu, su, connu)로 정리 — **dû**는 û 때문에 따로 뺀 셈. 소리로는 dû [뒤]도 같은 무리라 8개로 묶어 외워도 OK."}
+      ]
+    },
+    {
+      "h": "같은 무리 · 연습문제에 나온 것", "skill": "pp", "src": ["semaine 3-1 p.17","semaine 3-2 p.32-36","노션 9/15","노션 9/16"],
+      "body": [
+        {"table":[["원형","과거분사","근거"],["comprendre","compris","p.68 — prendre → pris 계열"],["dire","dit","9/16 연습 21번 Elles disent → Elles ont dit"]],"head":true},
+        {"ex":[["J'ai compris la question.","나는 질문을 이해했다."],["Elles ont dit bonjour.","그녀들은 인사를 했다."]]},
+        {"p":"9/16 연습문제 중 avoir + 불규칙: Tu dois → Tu as **dû** · Ils voient → Ils ont **vu** · Elle connaît → Elle a **connu** · Elles font → Elles ont **fait** · Vous pouvez → Vous avez **pu** · Nous prenons → Nous avons **pris**"},
+        {"warn":"필기 오타: Elles **on** fait ✗ → Elles **ont** fait. on(주어)과 ont(조동사)은 소리만 같아요."}
+      ]
+    },
+    {
+      "h": "dû ≠ du", "skill": "spelling", "src": ["semaine 3-1 p.15","노션 9/15"],
+      "body": [
+        {"p":"devoir의 과거분사 **dû**에는 악상 시르콩플렉스(^). 부분관사 **du**(du pain)와 구별하려고 붙인 것 — 발음은 같아서 **쓰기에서만** 틀려요."},
+        {"ex":[["J'ai dû travailler.","나는 일해야 했다."],["Je mange du pain.","나는 빵을 먹는다."]]},
+        {"memo":"필기(9/15): du는 부분관사. 헷갈리지 말고 û를 꼭!"}
+      ]
+    },
+    {
+      "h": "être의 복합과거도 avoir", "skill": "aux", "src": ["semaine 3-1 p.14","semaine 3-2 p.19"],
+      "body": [
+        {"p":"être 자체의 복합과거는 조동사 **avoir** + été."},
+        {"ex":[["J'ai été malade.","나는 아팠다."],["Tu as été gentil.","너는 친절했다."]]},
+        {"warn":"Je suis été ✗ → J'ai été ✓"}
+      ]
+    },
+    {
+      "h": "발음", "skill": "pron", "src": ["노션 9/15"],
+      "body": [
+        {"p":"-u 계열은 전부 입술을 오므린 프랑스어 /y/ **[위]** 소리 (영어 u 아님)."},
+        {"table":[["과거분사","발음"],["eu","[위] — e 묵음! J'ai eu [제 위]"],["lu · vu · pu","[뤼] · [뷔] · [퓌]"],["su · dû","[쒸] · [뒤]"],["voulu · connu","[불뤼] · [코뉘]"],["fait · pris · mis","[페] · [프히] · [미] — 끝 자음 무음"],["ouvert · compris","[우베흐] · [콩프히] — t, s 무음"]],"head":true},
+        {"memo":"eu는 철자와 달리 [외]가 아니라 [위]. J'ai eu / J'ai lu / J'ai vu = [제 위] / [제 뤼] / [제 뷔] — 첫 자음만 달라요."}
+      ]
+    },
+    {
+      "h": "9/15 수업 시작 — 동사 복습 25개 (세 번째 반복)",
+      "skill": "inf",
+      "src": [
+        "semaine 3-1 p.4–8",
+        "노션 9/15"
+      ],
+      "body": [
+        {
+          "p": "9/9 · 9/10에 이어 **세 번째**로 돌린 드릴 \"Dites l'infinitif des verbes.\" — 세 번 반복 = 시험에 나온다는 신호! 원형 찾기 연습은 「Quiz 1 리벤지」 레슨 카드로."
+        },
+        {
+          "table": [
+            [
+              "#",
+              "변화형",
+              "원형",
+              "과거분사"
+            ],
+            [
+              "1",
+              "Je rougis",
+              "rougir 빨개지다",
+              "rougi"
+            ],
+            [
+              "2",
+              "Elle réfléchit",
+              "réfléchir 깊이 생각하다",
+              "réfléchi"
+            ],
+            [
+              "3",
+              "Ils réussissent",
+              "réussir 성공하다",
+              "réussi"
+            ],
+            [
+              "4",
+              "Vous réagissez",
+              "réagir 반응하다",
+              "réagi"
+            ],
+            [
+              "5",
+              "Il grossit",
+              "grossir 살찌다",
+              "grossi"
+            ],
+            [
+              "6",
+              "Elles veulent",
+              "vouloir 원하다",
+              "voulu"
+            ],
+            [
+              "7",
+              "Nous dormons",
+              "dormir 자다",
+              "dormi"
+            ],
+            [
+              "8",
+              "Je peux",
+              "pouvoir 할 수 있다",
+              "pu"
+            ],
+            [
+              "9",
+              "Vous mettez",
+              "mettre 놓다·입다",
+              "mis"
+            ],
+            [
+              "10",
+              "Tu prends",
+              "prendre 잡다·타다·먹다",
+              "pris"
+            ],
+            [
+              "11",
+              "Nous disons",
+              "dire 말하다",
+              "dit"
+            ],
+            [
+              "12",
+              "Elle sort",
+              "sortir 나가다",
+              "sorti (être)"
+            ],
+            [
+              "13",
+              "Ils voient",
+              "voir 보다",
+              "vu"
+            ],
+            [
+              "14",
+              "Vous faites",
+              "faire 하다·만들다",
+              "fait"
+            ],
+            [
+              "15",
+              "Il sait",
+              "savoir 알다",
+              "su"
+            ],
+            [
+              "16",
+              "Elles doivent",
+              "devoir ~해야 하다",
+              "dû"
+            ],
+            [
+              "17",
+              "Nous prenons",
+              "prendre",
+              "pris"
+            ],
+            [
+              "18",
+              "Je dis",
+              "dire",
+              "dit"
+            ],
+            [
+              "19",
+              "Vous partez",
+              "partir 출발하다",
+              "parti (être)"
+            ],
+            [
+              "20",
+              "Tu viens",
+              "venir 오다",
+              "venu (être)"
+            ],
+            [
+              "21",
+              "Je deviens",
+              "devenir ~가 되다",
+              "devenu (être)"
+            ],
+            [
+              "22",
+              "Vous tombez",
+              "tomber 넘어지다·떨어지다",
+              "tombé (être)"
+            ],
+            [
+              "23",
+              "Ils laissent",
+              "laisser 놓아두다",
+              "laissé"
+            ],
+            [
+              "24",
+              "Nous quittons",
+              "quitter 떠나다·(직장을) 그만두다",
+              "quitté"
+            ],
+            [
+              "25",
+              "Elle descend",
+              "descendre 내려가다",
+              "descendu (être)"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "memo": "과거분사 열은 복습용으로 덧붙인 것 (슬라이드는 원형만 물었어요). 배운 규칙 그대로: 2군 -ir → -i, -er → -é, 나머지는 불규칙 표. (être) = 다음 날(9/16) 배운 조동사 être 이동 동사."
+        },
+        {
+          "list": [
+            "réussissent [헤위씨쓰] — 세 음절, 끝 -ent 묵음",
+            "sortir — 원형 끝 **r을 발음** [쏘흐띠흐] (-er 원형만 r 묵음)",
+            "voient [부아] — 3인칭 복수 -ent는 항상 묵음 주의",
+            "laissent [레쓰] — s 두 개, -ent 묵음"
+          ]
+        },
+        {
+          "list": [
+            "devoir + 동사원형 = ~해야 한다: Je dois partir.",
+            "descendre 현재형: je descends · tu descends · il descend · nous descendons · vous descendez · ils descendent (필기엔 \"불규칙\"으로 적었지만 attendre와 같은 -re 패턴)"
+          ]
+        },
+        {
+          "memo": "필기: \"devoir + 명사 = N이 필요하다\"로 적혀 있어요. 사전에서 devoir + 명사는 주로 \"(돈 등을) 빚지다\" — Je te dois dix euros. (너한테 10유로 빚졌어)"
+        }
+      ]
+    },
+    {
+      "h": "prendre 가족 — comprendre · apprendre",
+      "skill": "pp",
+      "src": [
+        "semaine 3-1 p.17",
+        "노션 9/15"
+      ],
+      "body": [
+        {
+          "table": [
+            [
+              "원형",
+              "과거분사",
+              "뜻"
+            ],
+            [
+              "prendre",
+              "pris",
+              "잡다 · 타다"
+            ],
+            [
+              "comprendre",
+              "compris",
+              "이해하다"
+            ],
+            [
+              "apprendre",
+              "appris",
+              "배우다"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "ex": [
+            [
+              "J'ai compris la question.",
+              "나는 질문을 이해했다."
+            ],
+            [
+              "J'ai appris le français.",
+              "나는 프랑스어를 배웠다."
+            ]
+          ]
+        },
+        {
+          "memo": "필기(9/15): p.68 7번 comprendre는 자료 표엔 없지만 prendre 계열이라 compris. apprendre → appris도 같은 방식."
+        }
+      ]
+    }
+  ],
+  "cards": [
+    { "id": "u1-03-avoir", "t": "pp", "skill": "pp", "inf": "avoir", "ko": "가지다", "pp": "eu", "aux": "avoir", "ex": { "fr": "J'ai eu des nouvelles de François.", "ko": "나는 프랑수아의 소식을 들었다." }, "pron": "[제 위]", "explain": "eu는 [위] 한 소리 (e 묵음).", "star": true, "src": "교재 p.68" },
+    { "id": "u1-03-etre", "t": "pp", "skill": "pp", "inf": "être", "ko": "~이다, 있다", "pp": "été", "aux": "avoir", "ex": { "fr": "J'ai été malade.", "ko": "나는 아팠다." }, "explain": "être의 복합과거 조동사는 avoir! J'ai été (Je suis été ✗)", "star": true, "src": "semaine 3-1" },
+    { "id": "u1-03-faire", "t": "pp", "skill": "pp", "inf": "faire", "ko": "하다, 만들다", "pp": "fait", "aux": "avoir", "ex": { "fr": "Elles ont fait la cuisine.", "ko": "그녀들은 요리를 했다." }, "src": "semaine 3-2" },
+    { "id": "u1-03-prendre", "t": "pp", "skill": "pp", "inf": "prendre", "ko": "잡다, 타다", "pp": "pris", "aux": "avoir", "ex": { "fr": "Nous avons pris le métro.", "ko": "우리는 지하철을 탔다." }, "star": true, "src": "교재 p.68" },
+    { "id": "u1-03-mettre", "t": "pp", "skill": "pp", "inf": "mettre", "ko": "놓다, 입다", "pp": "mis", "aux": "avoir", "ex": { "fr": "J'ai mis mon manteau.", "ko": "나는 외투를 입었다." }, "src": "semaine 3-1" },
+    { "id": "u1-03-lire", "t": "pp", "skill": "pp", "inf": "lire", "ko": "읽다", "pp": "lu", "aux": "avoir", "ex": { "fr": "Vous avez lu ce livre.", "ko": "당신은 이 책을 읽었다." }, "src": "semaine 3-1" },
+    { "id": "u1-03-voir", "t": "pp", "skill": "pp", "inf": "voir", "ko": "보다", "pp": "vu", "aux": "avoir", "ex": { "fr": "On a vu un film superbe.", "ko": "우리는 굉장한 영화를 봤다." }, "explain": "on은 3인칭 단수 → On a vu.", "star": true, "src": "교재 p.68" },
+    { "id": "u1-03-pouvoir", "t": "pp", "skill": "pp", "inf": "pouvoir", "ko": "할 수 있다", "pp": "pu", "aux": "avoir", "ex": { "fr": "Nous avons pu parler avec le professeur.", "ko": "우리는 교수님과 이야기할 수 있었다." }, "src": "semaine 3-1" },
+    { "id": "u1-03-vouloir", "t": "pp", "skill": "pp", "inf": "vouloir", "ko": "원하다", "pp": "voulu", "aux": "avoir", "ex": { "fr": "J'ai voulu voir ce film.", "ko": "나는 그 영화를 보고 싶었다." }, "src": "semaine 3-1" },
+    { "id": "u1-03-savoir", "t": "pp", "skill": "pp", "inf": "savoir", "ko": "알다 (사실)", "pp": "su", "aux": "avoir", "ex": { "fr": "Il a su la vérité.", "ko": "그는 진실을 알게 되었다." }, "src": "semaine 3-1" },
+    { "id": "u1-03-devoir", "t": "pp", "skill": "pp", "inf": "devoir", "ko": "~해야 하다", "pp": "dû", "aux": "avoir", "ex": { "fr": "J'ai dû travailler.", "ko": "나는 일해야 했다." }, "explain": "û 필수! du는 부분관사예요.", "star": true, "src": "semaine 3-1" },
+    { "id": "u1-03-ouvrir", "t": "pp", "skill": "pp", "inf": "ouvrir", "ko": "열다", "pp": "ouvert", "aux": "avoir", "ex": { "fr": "Elle a ouvert la porte.", "ko": "그녀는 문을 열었다." }, "src": "semaine 3-1" },
+    { "id": "u1-03-connaitre", "t": "pp", "skill": "pp", "inf": "connaître", "ko": "알다 (사람·장소)", "pp": "connu", "aux": "avoir", "ex": { "fr": "J'ai connu Marie à Paris.", "ko": "나는 파리에서 마리를 알게 됐다." }, "src": "semaine 3-1" },
+    { "id": "u1-03-comprendre", "t": "pp", "skill": "pp", "inf": "comprendre", "ko": "이해하다", "pp": "compris", "aux": "avoir", "ex": { "fr": "J'ai compris la question.", "ko": "나는 질문을 이해했다." }, "explain": "prendre 계열 → pris처럼 compris.", "src": "교재 p.68" },
+    { "id": "u1-03-dire", "t": "pp", "skill": "pp", "inf": "dire", "ko": "말하다", "pp": "dit", "aux": "avoir", "ex": { "fr": "Elles ont dit bonjour.", "ko": "그녀들은 인사를 했다." }, "src": "semaine 3-2" },
+
+    {
+      "id": "u1-03-du-circonflexe", "t": "choice", "skill": "spelling", "hint": "devoir의 과거분사! 부분관사 du와 구별하는 표시는?",
+      "say": "Vous avez dû attendre.",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Vous avez ___ attendre. (devoir)",
+      "a": "dû", "wrong": ["du", "dut", "devu"],
+      "ko": "당신은 기다려야 했다.",
+      "explain": "devoir → dû (^ 필수). 모자 없는 du는 부분관사(du pain)!",
+      "star": true, "src": "노션 9/15"
+    },
+    {
+      "id": "u1-03-ouvert", "t": "choice", "skill": "pp", "hint": "ouvrir는 -ir이지만 2군이 아니에요! 불규칙 과거분사 기억나요?",
+      "say": "J'ai ouvert la fenêtre.",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "J'ai ___ la fenêtre. (ouvrir)",
+      "a": "ouvert", "wrong": ["ouvri", "ouvré", "ouvrit"],
+      "ko": "나는 창문을 열었다.",
+      "explain": "ouvrir는 -ir이지만 2군이 아니라 불규칙 → ouvert (t 무음 [우베흐])."
+    },
+    {
+      "id": "u1-03-odd-u", "t": "choice", "skill": "pp", "hint": "네 동사의 과거분사를 하나씩 말해봐요! 끝소리가 다른 하나는?",
+      "prompt": "과거분사가 -u로 끝나지 않는 동사는?",
+      "q": "다음 중 하나만 -u 무리가 아니에요.",
+      "a": "mettre", "wrong": ["lire", "pouvoir", "connaître"],
+      "say": "",
+      "explain": "mettre → mis. lire → lu, pouvoir → pu, connaître → connu는 -u 무리."
+    },
+    {
+      "id": "u1-03-eu-pron", "t": "choice", "skill": "pron", "hint": "avoir의 과거분사 eu는 한 소리예요! 프랑스어 u는 어떻게 읽죠?",
+      "prompt": "발음 퀴즈",
+      "q": "J'ai eu의 eu는 어떻게 읽을까?",
+      "a": "[위] — e는 묵음", "wrong": ["[외]", "[으]", "[에우]"],
+      "say": "J'ai eu.",
+      "explain": "avoir의 과거분사 eu는 /y/ 한 소리 → J'ai eu [제 위].",
+      "src": "노션 9/15"
+    },
+    {
+      "id": "u1-03-as-ete", "t": "choice", "skill": "aux", "hint": "être의 복합과거도 조동사는 avoir! tu의 avoir형은?",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Tu ___ été gentil.",
+      "a": "as", "wrong": ["es", "est", "a"],
+      "ko": "너는 친절했다.",
+      "explain": "être의 복합과거도 조동사는 avoir → Tu as été.",
+      "star": true
+    },
+
+    {
+      "id": "u1-03-err-prendu", "t": "error", "skill": "pp", "hint": "prendre의 과거분사는 불규칙! -u를 붙이면 될까요?",
+      "s": "Nous avons prendu le métro.", "wrong": "prendu", "right": "pris",
+      "ko": "우리는 지하철을 탔다.",
+      "explain": "prendre → pris (prendu ✗). comprendre → compris도 같은 꼴.",
+      "star": true
+    },
+    {
+      "id": "u1-03-err-ont", "t": "error", "skill": "aux", "hint": "주어 on과 조동사, 소리가 같아요! elles의 avoir형은?",
+      "s": "Elles on fait leurs devoirs.", "wrong": "on", "right": "ont",
+      "ko": "그녀들은 숙제를 했다.",
+      "explain": "조동사는 ont(avoir). on은 주어 대명사 — 소리가 [옹]으로 같아서 헷갈려요.",
+      "star": true, "src": "노션 9/16"
+    },
+    {
+      "id": "u1-03-err-mettre", "t": "error", "skill": "pp", "hint": "mettre는 -re 동사! -é를 붙이는 건 -er 동사뿐이에요",
+      "s": "Nous avons metté la table.", "wrong": "metté", "right": "mis",
+      "ko": "우리는 식탁을 차렸다.",
+      "explain": "mettre → mis. -re라고 -é를 붙이면 안 돼요."
+    },
+    {
+      "id": "u1-03-err-pouvoir", "t": "error", "skill": "pp", "hint": "pouvoir의 과거분사는 아주 짧아요! vouloir와 헷갈리지 말기",
+      "s": "Vous avez pouvu dormir.", "wrong": "pouvu", "right": "pu",
+      "ko": "당신은 잘 수 있었다.",
+      "explain": "pouvoir → pu (짧게!). vouloir → voulu와 헷갈리지 말기."
+    },
+
+    {
+      "id": "u1-03-l-lu", "t": "listen", "skill": "pron", "hint": "과거분사 첫 자음에 집중! 모음만 들리나요, 자음이 있나요?",
+      "say": "J'ai lu.", "a": "J'ai lu.", "wrong": ["J'ai eu.", "J'ai vu."],
+      "ko": "나는 읽었다", "pron": "[제 뤼]",
+      "explain": "lu [뤼] · eu [위] · vu [뷔] — 첫 자음으로 구별!"
+    },
+    {
+      "id": "u1-03-l-mis", "t": "listen", "skill": "pron", "hint": "끝 자음은 모두 묵음! 과거분사의 첫 소리를 들어봐요",
+      "say": "J'ai mis.", "a": "J'ai mis.", "wrong": ["J'ai pris.", "J'ai dit."],
+      "ko": "나는 놓았다", "pron": "[제 미]",
+      "explain": "mis · pris · dit 모두 끝 자음 무음 → [미] [프히] [디]."
+    },
+    {
+      "id": "u1-03-l-su", "t": "listen", "skill": "pron", "hint": "과거분사가 한 음절이에요. [위] 앞 자음을 잘 들어봐요!",
+      "say": "Il a su.", "a": "Il a su.", "wrong": ["Il a pu.", "Il a vu."],
+      "ko": "그는 알게 되었다", "pron": "[일 라 쒸]",
+      "explain": "su [쒸] · pu [퓌] · vu [뷔]."
+    },
+
+    {
+      "id": "u1-03-t-prenons", "t": "type", "skill": "pp", "hint": "prendre의 과거분사는 불규칙! nous의 avoir형도 챙겨요",
+      "prompt": "복합과거로 바꾸세요",
+      "q": "Nous prenons.",
+      "a": "Nous avons pris",
+      "explain": "prendre → pris. nous → avons.",
+      "src": "semaine 3-2"
+    },
+    {
+      "id": "u1-03-t-font", "t": "type", "skill": "pp", "hint": "faire의 과거분사는? elles의 조동사는 [옹] 소리, 철자 주의!",
+      "prompt": "복합과거로 바꾸세요",
+      "q": "Elles font.",
+      "a": "Elles ont fait",
+      "explain": "faire → fait. elles → ont (on ✗).",
+      "src": "semaine 3-2"
+    },
+
+    {
+      "id": "u1-03-b-dois", "t": "build", "skill": "pp", "hint": "부분관사 du와 헷갈리지 말기! 뒤의 partir는 원형 그대로",
+      "prompt": "복합과거로 바꾸세요",
+      "from": "Tu dois partir.",
+      "a": "Tu as dû partir.",
+      "extra": ["du", "doit"],
+      "ko": "너는 떠나야 했다.",
+      "explain": "devoir → dû (û!). 뒤의 동사원형 partir는 그대로.",
+      "src": "semaine 3-2"
+    },
+    {"id":"u1-03-apprendre","t":"pp","skill":"pp","inf":"apprendre","ko":"배우다","pp":"appris","aux":"avoir","ex":{"fr":"J'ai appris le français.","ko":"나는 프랑스어를 배웠다."},"src":"노션 9/15"},
+    {"id":"u1-03-c-avez-lu","t":"choice","skill":"aux","prompt":"빈칸에 알맞은 것은?","q":"Vous ___ lu ce livre ?","ko":"이 책 읽으셨어요?","a":"avez","wrong":["avons","êtes","ont"],"hint":"lire는 조동사 avoir! 주어 vous에 맞는 현재형은?","explain":"Vous avez lu (슬라이드 9/16 p.19). avoir: j'ai · tu as · il a · nous avons · vous avez · ils ont.","src":"semaine 3-2 p.19"},
+    {"id":"u1-03-l-reussissent","t":"listen","skill":"pron","say":"Ils réussissent.","a":"Ils réussissent.","wrong":["Il réussit."],"ko":"그들은 성공한다","pron":"[일 헤위씨쓰]","hint":"복수면 -iss- 음절이 하나 더! 끝에 [쓰]가 들리나요?","explain":"réussissent [헤위씨쓰] — 세 음절, 끝 -ent 묵음 (9/15 필기). 단수 réussit은 [헤위씨].","src":"노션 9/15"},
+    {"id":"u1-03-c-laissent-pron","t":"choice","skill":"pron","prompt":"발음 퀴즈 (9/15 필기)","q":"Ils laissent의 발음은?","a":"[일 레쓰]","wrong":["[일 레쌍]","[일 레쌍뜨]","[일 레씨]"],"say":"Ils laissent.","hint":"3인칭 복수 어미 -ent는 소리가 날까요?","explain":"-ent(3인칭 복수 어미)는 묵음 → [레쓰]. ai = [에].","src":"노션 9/15"},
+    {"id":"u1-03-c-voient-pron","t":"choice","skill":"pron","prompt":"발음 퀴즈 (9/15 필기)","q":"Ils voient의 발음은?","a":"[일 부아]","wrong":["[일 부아앙]","[일 부아양뜨]","[일 부아이앙]"],"say":"Ils voient.","hint":"동사 끝 -ent는 글자만 있고 소리는…?","explain":"voient [부아] — 단수 il voit와 소리가 같아요. -ent 묵음은 \"항상\" 주의 (9/15 필기).","src":"노션 9/15"},
+    {"id":"u1-03-c-sortir-r","t":"choice","skill":"pron","prompt":"발음 퀴즈 (9/15 필기)","q":"동사원형 sortir의 끝 -r은?","a":"소리 낸다 [쏘흐띠흐]","wrong":["묵음이다 [쏘흐띠]","-er처럼 읽는다 [쏘흐떼]"],"say":"sortir","hint":"-er 원형과 -ir 원형은 끝 r 처리가 달라요","explain":"-ir 원형은 끝 r을 발음: sortir [쏘흐띠흐], finir [피니흐]. -er 원형(parler [파흘레])만 r 묵음.","src":"노션 9/15"},
+    {"id":"u1-03-c-devoir-sens","t":"choice","skill":"vocab","prompt":"뜻으로 알맞은 것은?","q":"Je dois partir.","a":"나는 떠나야 한다","wrong":["나는 떠날 수 있다","나는 떠나고 싶다","나는 떠났다"],"say":"Je dois partir.","hint":"devoir + 동사원형 = 영어 must","explain":"devoir + 동사원형 = ~해야 한다 (9/15 필기). pouvoir는 \"할 수 있다\", vouloir는 \"원하다\".","src":"노션 9/15"}
+  ]
+}

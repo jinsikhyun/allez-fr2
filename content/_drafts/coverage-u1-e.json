@@ -1,0 +1,25 @@
+{
+  "semaine 5-2": {
+    "p.1": ["skip: 표지 (Semaine 5 · Leçon 10 · 9/30)"],
+    "p.2": ["skip: 목차 (현재분사 복습 / 제롱디프 / 위치 표현)"],
+    "p.3": ["skip: PARTIE 1 간지 (Révision : le participe présent)"],
+    "p.4": ["u1-15-c-parlant", "u1-15-c-start-nous", "u1-15-c-agree-rule", "note:u1-15#0", "note:u1-15#1"],
+    "p.5": ["u1-15-t-restant", "u1-15-t-travaillant", "u1-15-c-mangeant", "note:u1-15#1"],
+    "p.6": ["u1-15-c-ayant", "u1-15-c-etant", "u1-15-c-sachant", "note:u1-15#2"],
+    "p.7": ["u1-15-c-ex-parlant", "u1-15-c-ex-arrivant", "u1-15-c-ex-acceptant", "u1-15-c-ex-nayant", "u1-15-c-ex-etant", "note:u1-15#3"],
+    "p.8": ["u1-15-c-ex1-jouant", "u1-15-c-ex2-sortant", "u1-15-c-ex3-prenant", "note:u1-15#5"],
+    "p.9": ["skip: PARTIE 2 간지 (Le gérondif)"],
+    "p.10": ["u1-17-c-form", "u1-17-t-prenant", "u1-17-t-partant", "u1-17-c-etant", "u1-17-c-four", "note:u1-17#0", "tip:u1-17#0", "tip:u1-17#1"],
+    "p.11": ["u1-17-c-quand-travaille", "u1-17-c-metro-sens", "u1-17-c-avion", "u1-17-c-sujet", "u1-17-c-pp-vs-ger", "u1-17-w-rater", "u1-17-w-facilement", "note:u1-17#1", "note:u1-17#2", "tip:u1-17#2"],
+    "p.12": ["u1-17-b-porte", "u1-17-c-bebe", "u1-17-c-apprend", "u1-17-c-appetit", "u1-17-c-appetit-sens", "u1-17-c-vient-en", "u1-17-l-en-mangeant", "u1-17-w-reveiller", "u1-17-w-trop-fort", "u1-17-w-pratiquer", "u1-17-w-appetit", "note:u1-17#1", "note:u1-17#5"],
+    "p.13": ["u1-17-c-frottant", "note:u1-17#4"],
+    "p.14": ["u1-17-b-ex1", "u1-17-c-ex2", "u1-17-c-ex3", "u1-17-err-conduiant", "u1-17-err-mangant", "u1-17-w-hotesse", "u1-17-w-conduire", "u1-17-w-provoquer", "note:u1-17#3", "tip:u1-17#3"],
+    "p.15": ["skip: PARTIE 3 간지 (Les expressions de localisation)"],
+    "p.16": ["u1-18-w-mairie", "u1-18-w-eglise", "u1-18-w-poste", "u1-18-w-cinema", "u1-18-w-ecole", "u1-18-w-bibliotheque", "u1-18-w-boulangerie", "u1-18-w-cafe", "u1-18-w-pharmacie", "u1-18-w-hopital", "note:u1-18#0", "tip:u1-18#3"],
+    "p.17": ["u1-18-w-derriere", "u1-18-w-devant", "u1-18-w-en-face", "u1-18-w-a-cote", "u1-18-w-entre", "u1-18-c-derriere", "u1-18-c-devant", "u1-18-c-en-face", "u1-18-c-a-cote", "u1-18-c-entre-et", "u1-18-err-devant-de", "u1-18-c-de-rule", "u1-18-l-derriere", "note:u1-18#1", "note:u1-18#2", "tip:u1-18#0", "tip:u1-18#1"],
+    "p.18": ["u1-18-c-derriere", "u1-18-c-ex2", "u1-18-b-ex3", "note:u1-18#3"],
+    "p.19": ["u1-18-c-ex4", "u1-18-c-ex5", "u1-18-c-ex6", "u1-18-err-de-le", "note:u1-18#2", "note:u1-18#3", "tip:u1-18#2"],
+    "p.20": ["u0-01-ademain", "skip: 마무리 슬라이드 (Questions / À demain !)"]
+  },
+  "노션 9/30": ["skip: 이미지 2장만 있음 — 이 세션에서 서명 URL(prod-files-secure.s3) 접근이 차단돼 열지 못함. 학생 필기라면 다음 실행에서 반영할 것"]
+}

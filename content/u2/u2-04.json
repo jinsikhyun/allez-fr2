@@ -1,0 +1,808 @@
+{
+ "id": "u2-04",
+ "unit": "u2",
+ "title": "현재분사·제롱디프 심화 + 위치 복습",
+ "emoji": "🔁",
+ "date": "2026-10-01",
+ "sources": [
+  "semaine 5-3",
+  "노션 10/1"
+ ],
+ "tips": [
+  {
+   "h": "현재분사 만들기",
+   "b": "nous 현재형 -ons → **-ant**\n불규칙: avoir **ayant** · être **étant** · savoir **sachant**"
+  },
+  {
+   "h": "제롱디프 세 가지",
+   "rows": [
+    [
+     "동시",
+     "Tu parles en dormant."
+    ],
+    [
+     "방법·수단",
+     "en regardant des films"
+    ],
+    [
+     "원인",
+     "En courant trop vite, Paul est tombé."
+    ]
+   ]
+  },
+  {
+   "h": "분사구문",
+   "b": "이유: **Étant malade,** … = Parce que je suis malade.\n앞뒤 쉼표 → 고급 표현"
+  }
+ ],
+ "note": [
+  {
+   "h": "현재분사 복습 — 만드는 법·불규칙",
+   "skill": "gerondif",
+   "src": [
+    "semaine 5-3 p.4-6",
+    "노션 10/1"
+   ],
+   "body": [
+    {
+     "p": "현재분사(participe présent)는 **invariable**(성·수 변화 없음)이고 항상 **-ant**로 끝나요. 동사 값을 가져서 동작·상태를 나타내요. 만드는 법: **nous 현재형에서 -ons를 떼고 -ant**."
+    },
+    {
+     "table": [
+      [
+       "원형",
+       "nous",
+       "현재분사"
+      ],
+      [
+       "parler",
+       "parlons",
+       "parlant"
+      ],
+      [
+       "aller",
+       "allons",
+       "allant"
+      ],
+      [
+       "rentrer",
+       "rentrons",
+       "rentrant"
+      ],
+      [
+       "devoir",
+       "devons",
+       "devant"
+      ],
+      [
+       "conduire",
+       "conduisons",
+       "conduisant"
+      ]
+     ],
+     "head": true
+    },
+    {
+     "warn": "불규칙: avoir → **ayant**, être → **étant**, savoir → **sachant**."
+    },
+    {
+     "memo": "노션: 현재분사는 격식을 차려야 할 때, 공식적인 장소나 메일 같은 글에서 많이 쓴다."
+    }
+   ]
+  },
+  {
+   "h": "분사구문 — 명사 수식·이유",
+   "skill": "gerondif",
+   "src": [
+    "semaine 5-3 p.7-11",
+    "노션 10/1"
+   ],
+   "body": [
+    {
+     "ex": [
+      [
+       "Les enfants jouant dans le jardin sont mes voisins.",
+       "정원에서 노는 아이들은 내 이웃이다."
+      ],
+      [
+       "Les étudiants ayant vingt ans peuvent boire de l'alcool.",
+       "스무 살인 학생들은 술을 마실 수 있다."
+      ],
+      [
+       "Sophie étant malade ne peut pas marcher.",
+       "소피는 아파서 걸을 수 없다. (= Parce qu'elle est malade…)"
+      ],
+      [
+       "Paul ayant beaucoup de travail ne déjeune pas aujourd'hui.",
+       "폴은 일이 많아서 점심을 먹지 않는다."
+      ],
+      [
+       "Le bus étant en retard, nous prenons un taxi.",
+       "버스가 늦어서 우리는 택시를 탄다."
+      ]
+     ]
+    },
+    {
+     "p": "분사구문 **앞뒤에 쉼표**를 붙이면 더 고급 표현: *Sophie, étant malade, ne peut pas marcher.* / *Étant malade, Sophie ne peut pas marcher.* 마지막 문장(독립분사구문)은 분사의 주어(le bus)와 주절 주어(nous)가 달라도 돼요 (더 나아가기)."
+    },
+    {
+     "memo": "노션: participe présent = 의미를 어느 정도 확정하는 표현. 이유를 말할 땐 en 없이 Étant / Ayant."
+    }
+   ]
+  },
+  {
+   "h": "제롱디프 — en + 현재분사 (세 가지 쓰임)",
+   "skill": "gerondif",
+   "src": [
+    "semaine 5-3 p.12-17",
+    "노션 10/1"
+   ],
+   "body": [
+    {
+     "list": [
+      "① **동시**(la simultanéité): Tu parles en dormant. / Elle cuisine en écoutant de la musique.",
+      "② **방법·수단**(comment): Il apprend le français en regardant des films français.",
+      "③ **원인**(pourquoi): En courant trop vite, Paul est tombé. / J'ai raté mon avion en partant trop tard."
+     ]
+    },
+    {
+     "p": "노션: **en이 붙으면 동시성이 강해진다**. 제롱디프는 주절 동사와 아주 긴밀하게 연결돼야 해요."
+    },
+    {
+     "ex": [
+      [
+       "Voyant son professeur, Thomas lui a dit bonjour.",
+       "선생님을 보고 토마는 인사했다. (분사구문)"
+      ],
+      [
+       "En voyant son professeur, Thomas lui a dit bonjour.",
+       "선생님을 보는 순간 토마는 인사했다. (제롱디프)"
+      ],
+      [
+       "Étant malade, je suis restée chez moi.",
+       "아파서 집에 있었다."
+      ]
+     ]
+    },
+    {
+     "warn": "En étant malade …는 자료에서 (?)로 표시된 문장 — 이유를 말할 땐 보통 en 없이 Étant."
+    }
+   ]
+  },
+  {
+   "h": "연습문제(p.16) · conduire 변화",
+   "skill": "gerondif",
+   "src": [
+    "semaine 5-3 p.16",
+    "노션 10/1"
+   ],
+   "body": [
+    {
+     "ex": [
+      [
+       "Vous ne devez pas parler en mangeant.",
+       "먹으면서 말하면 안 돼요."
+      ],
+      [
+       "En conduisant trop vite, tu peux provoquer un accident.",
+       "너무 빨리 운전하면 사고를 낼 수 있다."
+      ]
+     ]
+    },
+    {
+     "table": [
+      [
+       "je",
+       "conduis"
+      ],
+      [
+       "tu",
+       "conduis"
+      ],
+      [
+       "il",
+       "conduit"
+      ],
+      [
+       "nous",
+       "conduisons"
+      ],
+      [
+       "vous",
+       "conduisez"
+      ],
+      [
+       "ils",
+       "conduisent"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "h": "위치 표현 복습 + de 축약",
+   "skill": "localisation",
+   "src": [
+    "semaine 5-3 p.19-22",
+    "노션 10/1"
+   ],
+   "body": [
+    {
+     "p": "건물: la mairie 시청 · l'église 교회 · la poste 우체국 · l'école 학교(초등학교) · la bibliothèque 도서관 · la boulangerie 빵집 · le café 카페 · la pharmacie 약국 · l'hôpital 병원 · la banque 은행(필기)."
+    },
+    {
+     "list": [
+      "derrière 뒤에",
+      "devant 앞에",
+      "en face de 맞은편에 (길을 사이에 두고 마주보는)",
+      "à côté de 옆에",
+      "entre … et … 사이에"
+     ]
+    },
+    {
+     "warn": "pharmacie의 ph는 [f]: [파흐마씨]. **de + le = du**, **de + les = des**: à côté du café."
+    },
+    {
+     "ex": [
+      [
+       "L'église est derrière la mairie.",
+       "교회는 시청 뒤에 있다."
+      ],
+      [
+       "La pharmacie est entre le café et l'hôpital.",
+       "약국은 카페와 병원 사이에 있다."
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "id": "u2-04-c-allant",
+   "t": "choice",
+   "skill": "gerondif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "aller → ___ (현재분사)",
+   "a": "allant",
+   "wrong": [
+    "allons",
+    "aillant",
+    "allent"
+   ],
+   "hint": "nous allons에서 -ons만 -ant로 바꿔요",
+   "explain": "(nous) allons → allant. -ons를 떼고 -ant!",
+   "src": "semaine 5-3",
+   "ko": "가다",
+   "star": true
+  },
+  {
+   "id": "u2-04-c-rentrant",
+   "t": "choice",
+   "skill": "gerondif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "rentrer → ___ (현재분사)",
+   "a": "rentrant",
+   "wrong": [
+    "rentrons",
+    "rentrent",
+    "rentrants"
+   ],
+   "hint": "nous 형태에서 어미만 바꿔요. 현재분사는 성·수 변화 없음",
+   "explain": "(nous) rentrons → rentrant.",
+   "src": "semaine 5-3",
+   "ko": "돌아가다"
+  },
+  {
+   "id": "u2-04-c-devant-pp",
+   "t": "choice",
+   "skill": "gerondif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "devoir의 현재분사는?",
+   "a": "devant",
+   "wrong": [
+    "devons",
+    "devoyant",
+    "devoir"
+   ],
+   "hint": "nous 현재형 어간에서 출발해요",
+   "explain": "(nous) devons → devant. 전치사 devant(~앞에)와 철자가 같아요.",
+   "src": "semaine 5-3",
+   "ko": "~해야 하다"
+  },
+  {
+   "id": "u2-04-c-ayant",
+   "t": "choice",
+   "skill": "gerondif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "avoir의 현재분사는?",
+   "a": "ayant",
+   "wrong": [
+    "avant",
+    "avoyant",
+    "aillant"
+   ],
+   "hint": "불규칙 — 통째로 외우는 형태예요",
+   "explain": "avoir → ayant (불규칙).",
+   "src": "semaine 5-3",
+   "ko": "가지다",
+   "star": true
+  },
+  {
+   "id": "u2-04-c-sachant",
+   "t": "choice",
+   "skill": "gerondif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "savoir의 현재분사는?",
+   "a": "sachant",
+   "wrong": [
+    "savant",
+    "savons",
+    "savoyant"
+   ],
+   "hint": "nous savons로는 만들 수 없는 불규칙이에요",
+   "explain": "savoir → sachant (불규칙).",
+   "src": "semaine 5-3",
+   "ko": "알다",
+   "star": true
+  },
+  {
+   "id": "u2-04-t-etant",
+   "t": "type",
+   "skill": "gerondif",
+   "prompt": "être의 현재분사는?",
+   "q": "être → ___",
+   "a": "étant",
+   "alts": [],
+   "hint": "불규칙! 악센트까지 정확히",
+   "explain": "être → étant.",
+   "src": "semaine 5-3"
+  },
+  {
+   "id": "u2-04-c-invariable",
+   "t": "choice",
+   "skill": "gerondif",
+   "prompt": "맞는 것을 고르세요",
+   "q": "현재분사에 대해 맞는 설명은?",
+   "a": "성·수에 따라 변하지 않는다",
+   "wrong": [
+    "주어에 맞춰 -s·-e가 붙는다",
+    "항상 être와 함께 쓴다",
+    "끝이 -ons로 끝난다"
+   ],
+   "hint": "정의 첫 줄을 떠올려요",
+   "explain": "현재분사는 **invariable** — 항상 -ant로 끝나고 변하지 않아요.",
+   "src": "semaine 5-3 p.4"
+  },
+  {
+   "id": "u2-04-c-enfants",
+   "t": "choice",
+   "skill": "gerondif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "Les enfants ___ dans le jardin sont mes voisins.",
+   "a": "jouant",
+   "wrong": [
+    "jouent",
+    "en jouant",
+    "jouants"
+   ],
+   "hint": "'~하고 있는' 명사를 꾸미는 말이에요. 동사 변화형이 아니에요",
+   "explain": "Les enfants qui jouent… = Les enfants jouant… (명사 수식).",
+   "src": "semaine 5-3",
+   "ko": "정원에서 노는 아이들은 내 이웃이다."
+  },
+  {
+   "id": "u2-04-c-etudiants",
+   "t": "choice",
+   "skill": "gerondif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "Les étudiants ___ vingt ans peuvent boire de l'alcool.",
+   "a": "ayant",
+   "wrong": [
+    "ont",
+    "en ayant",
+    "avants"
+   ],
+   "hint": "avoir의 불규칙 현재분사",
+   "explain": "Les étudiants qui ont vingt ans → ayant vingt ans.",
+   "src": "semaine 5-3",
+   "ko": "스무 살인 학생들은 술을 마실 수 있다."
+  },
+  {
+   "id": "u2-04-c-sophie",
+   "t": "choice",
+   "skill": "gerondif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "___ malade, Sophie ne peut pas marcher.",
+   "a": "Étant",
+   "wrong": [
+    "En étant",
+    "Est",
+    "Sachant"
+   ],
+   "hint": "이유(parce que)를 나타내는 분사구문, être의 분사",
+   "explain": "= Parce qu'elle est malade… 이유를 나타내는 분사구문은 en 없이 Étant.",
+   "src": "semaine 5-3",
+   "ko": "아파서 소피는 걸을 수 없다.",
+   "star": true
+  },
+  {
+   "id": "u2-04-c-paul",
+   "t": "choice",
+   "skill": "gerondif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "Paul ___ beaucoup de travail ne déjeune pas aujourd'hui.",
+   "a": "ayant",
+   "wrong": [
+    "en ayant",
+    "a",
+    "avant"
+   ],
+   "hint": "주어 바로 뒤에서 이유를 말해요. avoir의 분사",
+   "explain": "= Parce qu'il a beaucoup de travail…",
+   "src": "semaine 5-3",
+   "ko": "폴은 일이 많아서 오늘 점심을 먹지 않는다."
+  },
+  {
+   "id": "u2-04-c-virgule",
+   "t": "choice",
+   "skill": "gerondif",
+   "prompt": "맞는 문장은?",
+   "q": "'Sophie étant malade ne peut pas marcher.'를 더 고급스럽게 쓰는 법은?",
+   "a": "Sophie, étant malade, ne peut pas marcher.",
+   "wrong": [
+    "Sophie étant, malade ne peut pas marcher.",
+    "Sophie étant malade, ne peut pas, marcher.",
+    "Sophie en étant malade ne peut pas marcher."
+   ],
+   "hint": "분사구문 앞뒤에 무엇을 붙일까요?",
+   "explain": "분사구문의 앞뒤에 쉼표를 붙이면 더 고급 표현이 돼요. (노션·p.8)",
+   "src": "semaine 5-3 p.8 · 노션 10/1",
+   "star": true
+  },
+  {
+   "id": "u2-04-c-bus",
+   "t": "choice",
+   "skill": "gerondif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "Le bus ___ en retard, nous prenons un taxi.",
+   "a": "étant",
+   "wrong": [
+    "en étant",
+    "est",
+    "ayant"
+   ],
+   "hint": "주어가 두 문장에서 달라도 되는 독립분사구문이에요",
+   "explain": "독립분사구문: 분사의 주어(le bus)와 주절의 주어(nous)가 달라도 돼요 (격식체). = Parce que le bus est en retard…",
+   "src": "semaine 5-3",
+   "ko": "버스가 늦어서 우리는 택시를 탄다.",
+   "star": true
+  },
+  {
+   "id": "u2-04-c-voyageurs",
+   "t": "choice",
+   "skill": "gerondif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "Les voyageurs ___ de Séoul arrivent à midi.",
+   "a": "venant",
+   "wrong": [
+    "venants",
+    "viennent",
+    "en venant"
+   ],
+   "hint": "venir의 현재분사, 성·수 변화 없음",
+   "explain": "venir → (nous venons) venant.",
+   "src": "semaine 5-3",
+   "ko": "서울에서 오는 여행객들은 정오에 도착한다."
+  },
+  {
+   "id": "u2-04-c-etant-malade",
+   "t": "choice",
+   "skill": "gerondif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "___ malade, je reste chez moi.",
+   "a": "Étant",
+   "wrong": [
+    "En étant",
+    "Sachant",
+    "Ayant"
+   ],
+   "hint": "'아파서' 이유 — être의 분사",
+   "explain": "Étant malade, je reste chez moi. = Parce que je suis malade.",
+   "src": "semaine 5-3",
+   "ko": "나는 아파서 집에 있다."
+  },
+  {
+   "id": "u2-04-c-formel",
+   "t": "choice",
+   "skill": "gerondif",
+   "prompt": "맞는 것은?",
+   "q": "현재분사(participe présent)는 주로 어떤 상황에서 쓰나요?",
+   "a": "격식을 차린 글·공식적 상황",
+   "wrong": [
+    "친구와의 일상 대화",
+    "문자 메시지 잡담",
+    "시장에서 흥정할 때"
+   ],
+   "hint": "노션 필기: 메일 같은 공식 글",
+   "explain": "현재분사는 격식체·공식적인 장소·메일 같은 글에서 많이 써요. 일상 구어에선 드물어요.",
+   "src": "노션 10/1"
+  },
+  {
+   "id": "u2-04-c-dormant",
+   "t": "choice",
+   "skill": "gerondif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "Tu parles ___.",
+   "a": "en dormant",
+   "wrong": [
+    "dormant",
+    "en dors",
+    "quand dormant"
+   ],
+   "hint": "동시에 일어나는 두 동작, en + 현재분사",
+   "explain": "= Tu parles quand tu dors. (dormir → dormant)",
+   "src": "semaine 5-3",
+   "ko": "너는 자면서 말해.",
+   "star": true
+  },
+  {
+   "id": "u2-04-c-cuisine",
+   "t": "choice",
+   "skill": "gerondif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "Elle cuisine ___ de la musique.",
+   "a": "en écoutant",
+   "wrong": [
+    "écoutant",
+    "en écoute",
+    "en écoutent"
+   ],
+   "hint": "'~하면서' 동시 동작",
+   "explain": "= Elle cuisine et, en même temps, elle écoute de la musique.",
+   "src": "semaine 5-3",
+   "ko": "그녀는 음악을 들으면서 요리한다."
+  },
+  {
+   "id": "u2-04-c-films",
+   "t": "choice",
+   "skill": "gerondif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "Il apprend le français ___ des films français.",
+   "a": "en regardant",
+   "wrong": [
+    "regardant",
+    "en regarde",
+    "après regarder"
+   ],
+   "hint": "'어떻게?'에 대한 방법",
+   "explain": "방법·수단: Comment ? — en regardant.",
+   "src": "semaine 5-3",
+   "ko": "그는 프랑스 영화를 보면서(보는 방법으로) 프랑스어를 배운다."
+  },
+  {
+   "id": "u2-04-c-cafe",
+   "t": "choice",
+   "skill": "gerondif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "Elle a trouvé ce café ___ sur Internet.",
+   "a": "en cherchant",
+   "wrong": [
+    "cherchant",
+    "en cherche",
+    "en chercher"
+   ],
+   "hint": "어떻게 찾았나? — 방법",
+   "explain": "Comment ? Elle a cherché sur Internet.",
+   "src": "semaine 5-3",
+   "ko": "그녀는 인터넷을 검색해서 이 카페를 찾았다."
+  },
+  {
+   "id": "u2-04-c-tombe",
+   "t": "choice",
+   "skill": "gerondif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "___ trop vite, Paul est tombé.",
+   "a": "En courant",
+   "wrong": [
+    "Courant",
+    "En court",
+    "En courir"
+   ],
+   "hint": "원인(왜 넘어졌나)을 말하는 제롱디프",
+   "explain": "= Parce qu'il a couru trop vite… courir → courant → en courant.",
+   "src": "semaine 5-3",
+   "ko": "너무 빨리 달려서 폴은 넘어졌다.",
+   "star": true
+  },
+  {
+   "id": "u2-04-c-tard",
+   "t": "choice",
+   "skill": "gerondif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "J'ai raté mon avion ___ trop tard.",
+   "a": "en partant",
+   "wrong": [
+    "partant",
+    "en partais",
+    "en partir"
+   ],
+   "hint": "원인(왜 놓쳤나)",
+   "explain": "= parce que je suis parti(e) trop tard. partir → partant.",
+   "src": "semaine 5-3",
+   "ko": "너무 늦게 출발해서 비행기를 놓쳤다."
+  },
+  {
+   "id": "u2-04-c-trois-sens",
+   "t": "choice",
+   "skill": "gerondif",
+   "prompt": "어느 쓰임?",
+   "q": "'Tu parles en dormant.' 은 제롱디프의 세 쓰임 중 무엇?",
+   "a": "동시 상황",
+   "wrong": [
+    "방법·수단",
+    "원인",
+    "조건"
+   ],
+   "hint": "quand tu dors로 바꿀 수 있어요",
+   "explain": "제롱디프 3분류: ① 동시 ② 방법·수단 ③ 원인.",
+   "src": "semaine 5-3 p.12 · 노션 10/1",
+   "star": true
+  },
+  {
+   "id": "u2-04-c-en-sens",
+   "t": "choice",
+   "skill": "gerondif",
+   "prompt": "맞는 것은?",
+   "q": "현재분사와 제롱디프(en + 분사)의 차이로 맞는 것은?",
+   "a": "en이 붙으면 동시성이 더 강해진다",
+   "wrong": [
+    "en이 붙으면 과거 시제가 된다",
+    "en이 붙으면 분사가 성·수 일치한다",
+    "둘은 완전히 같다"
+   ],
+   "hint": "노션 필기 한 줄",
+   "explain": "'En이 있는 거 없는 거 뭔 차이냐 — en이 붙으면 동시적인 게 강해'. 제롱디프는 주절 동사와 긴밀하게 연결돼요.",
+   "src": "semaine 5-3 p.17 · 노션 10/1"
+  },
+  {
+   "id": "u2-04-c-voyant",
+   "t": "choice",
+   "skill": "gerondif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "___ son professeur, Thomas lui a dit bonjour.",
+   "a": "En voyant",
+   "wrong": [
+    "Voyant ✗ 불가",
+    "En voir",
+    "Vu"
+   ],
+   "hint": "만나는 순간에 동시에 — 제롱디프",
+   "explain": "Voyant son professeur(분사구문)·En voyant(제롱디프) 둘 다 쓰이지만 en voyant이 '보는 순간에'의 동시성이 더 강해요.",
+   "src": "semaine 5-3 p.17",
+   "ko": "선생님을 보고 토마는 인사했다."
+  },
+  {
+   "id": "u2-04-c-conduire",
+   "t": "choice",
+   "skill": "gerondif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "conduire의 현재분사는?",
+   "a": "conduisant",
+   "wrong": [
+    "conduiant",
+    "conduisons",
+    "conduisent"
+   ],
+   "hint": "nous conduisons에서 출발해요",
+   "explain": "(nous) conduisons → conduisant. 필기: Je conduis / Tu conduis / Il conduit / Nous conduisons / Vous conduisez / Ils conduisent.",
+   "src": "semaine 5-3 p.16 · 노션 10/1",
+   "ko": "운전하다"
+  },
+  {
+   "id": "u2-04-w-invariable",
+   "t": "word",
+   "skill": "vocab",
+   "fr": "invariable",
+   "ko": "변하지 않는",
+   "src": "semaine 5-3"
+  },
+  {
+   "id": "u2-04-w-simultaneite",
+   "t": "word",
+   "skill": "vocab",
+   "fr": "la simultanéité",
+   "ko": "동시성",
+   "src": "semaine 5-3",
+   "note": "en même temps = 동시에",
+   "g": "f"
+  },
+  {
+   "id": "u2-04-w-moyen",
+   "t": "word",
+   "skill": "vocab",
+   "fr": "le moyen",
+   "ko": "수단, 방법",
+   "src": "semaine 5-3",
+   "note": "m"
+  },
+  {
+   "id": "u2-04-w-cause",
+   "t": "word",
+   "skill": "vocab",
+   "fr": "la cause",
+   "ko": "원인",
+   "src": "semaine 5-3",
+   "note": "f"
+  },
+  {
+   "id": "u2-04-w-cuisiner",
+   "t": "word",
+   "skill": "vocab",
+   "fr": "cuisiner",
+   "ko": "요리하다",
+   "src": "semaine 5-3"
+  },
+  {
+   "id": "u2-04-w-tomber",
+   "t": "word",
+   "skill": "vocab",
+   "fr": "tomber",
+   "ko": "넘어지다, 떨어지다",
+   "src": "semaine 5-3"
+  },
+  {
+   "id": "u2-04-w-dormir",
+   "t": "word",
+   "skill": "vocab",
+   "fr": "dormir",
+   "ko": "자다",
+   "src": "semaine 5-3",
+   "note": "현재분사 dormant"
+  },
+  {
+   "id": "u2-04-err-conduisant-gen",
+   "t": "error",
+   "skill": "gerondif",
+   "s": "Il parle en dormons.",
+   "wrong": "dormons",
+   "right": "dormant",
+   "ko": "그는 자면서 말한다.",
+   "hint": "en 뒤에는 어떤 형태가 올까요?",
+   "explain": "제롱디프 = en + 현재분사(-ant). -ons는 nous 현재형이에요.",
+   "src": "semaine 5-3"
+  },
+  {
+   "id": "u2-04-b-bus",
+   "t": "build",
+   "skill": "gerondif",
+   "prompt": "분사구문으로 바꾸세요",
+   "from": "Parce que le bus est en retard, nous prenons un taxi.",
+   "a": "Le bus étant en retard, nous prenons un taxi.",
+   "extra": [
+    "est",
+    "ayant"
+   ],
+   "hint": "parce que 절 → 분사구문, 주어는 그대로 앞에",
+   "ko": "버스가 늦어서 우리는 택시를 탄다.",
+   "explain": "독립분사구문 — 주어(le bus)+étant.",
+   "src": "semaine 5-3 p.10"
+  },
+  {
+   "id": "u2-04-b-merge",
+   "t": "build",
+   "skill": "gerondif",
+   "prompt": "제롱디프로 한 문장으로",
+   "from": "Elle cuisine. Elle écoute de la musique.",
+   "a": "Elle cuisine en écoutant de la musique.",
+   "extra": [
+    "écoute",
+    "et"
+   ],
+   "hint": "동시 동작 — 두 번째 동사를 en + 분사로",
+   "ko": "그녀는 음악을 들으면서 요리한다.",
+   "explain": "두 문장을 합칠 때 동시 동작은 en + 현재분사.",
+   "src": "semaine 5-3 p.13 · 노션 10/1"
+  }
+ ]
+}

@@ -1,0 +1,609 @@
+{
+  "id": "u1-06",
+  "unit": "u1",
+  "title": "대명동사",
+  "emoji": "🪞",
+  "date": "2026-09-16",
+  "sources": ["semaine 3-2", "semaine 3-3", "노션 9/16", "노션 9/17"],
+  "tips": [
+    {
+      "h": "왜 être일까?",
+      "b": "se laver = **자기 자신을** 씻기다.\n재귀대명사(me/te/se/nous/vous)가 **목적어 자리를 이미 채우고** 있어서 조동사는 **être**.\n그래서 주어와 성·수 일치: Elle s'est lavé**e**"
+    },
+    {
+      "h": "어순: 주어 + 재귀대명사 + être + p.p.",
+      "rows": [
+        ["Je me suis lavé", "Je suis me lavé ✗"],
+        ["Tu t'es lavé", "te → t'"],
+        ["Il s'est lavé", "se → s'"],
+        ["Ils se sont lavés", "sont 앞은 축약 X"]
+      ]
+    },
+    {
+      "h": "부정 · 의문",
+      "b": "부정: ne는 **재귀대명사 앞** → Je **ne** me suis **pas** lavé\n도치: 재귀대명사는 맨 앞 그대로 → **S'est-elle** lavée ? · **Se sont-ils** aimés ?"
+    },
+    {
+      "h": "현재형 함정",
+      "b": "s'amuser: je **m'**amuse (me amuse ✗)\nse lever: je me l**è**ve · nous nous l**e**vons (nous·vous는 악상 X)"
+    }
+  ],
+  "fixes": [
+    {
+      "where": "노션 9/17",
+      "was": "(대명동사는 목적어를 이미 갖고 있어서) 다른 목적어를 못 받고 조동사가 être",
+      "now": "재귀대명사가 목적어 자리를 채워서 조동사가 être. 하지만 다른 COD도 받을 수 있다: Elle s'est lavé les mains.",
+      "why": "같은 날 슬라이드에 s'est lavé les mains, se sont écrit des lettres가 나옴"
+    }
+  ],
+  "note": [
+    {
+      "h": "대명동사란?",
+      "skill": "pronominal",
+      "src": [
+        "semaine 3-2 p.37–41",
+        "노션 9/16",
+        "노션 9/17"
+      ],
+      "body": [
+        {
+          "p": "동사 앞에 **재귀대명사**(me, te, se, nous, vous, se)가 붙어 \"자기 자신을 ~하다\" 또는 \"서로 ~하다\"가 되는 동사."
+        },
+        {
+          "table": [
+            [
+              "동사",
+              "뜻",
+              "직역"
+            ],
+            [
+              "se réveiller",
+              "잠에서 깨다",
+              "자기를 깨우다"
+            ],
+            [
+              "se laver",
+              "씻다",
+              "자기를 씻기다"
+            ],
+            [
+              "se lever",
+              "일어나다",
+              "자기를 일으키다"
+            ],
+            [
+              "s'amuser",
+              "즐겁게 놀다",
+              "자기를 즐겁게 하다"
+            ],
+            [
+              "s'aimer",
+              "서로 사랑하다",
+              "서로를 사랑하다"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "memo": "노션 9/17: \"직역 칸이 핵심\" — 목적어가 이미 동사 안에 들어 있다는 게 보인다."
+        }
+      ]
+    },
+    {
+      "h": "현재형 변화",
+      "skill": "pronominal",
+      "src": [
+        "semaine 3-2 p.37–40",
+        "semaine 3-3 p.11–13",
+        "노션 9/16"
+      ],
+      "body": [
+        {
+          "table": [
+            [
+              "주어",
+              "se laver",
+              "s'amuser"
+            ],
+            [
+              "je",
+              "me lave",
+              "m'amuse"
+            ],
+            [
+              "tu",
+              "te laves",
+              "t'amuses"
+            ],
+            [
+              "il / elle",
+              "se lave",
+              "s'amuse"
+            ],
+            [
+              "nous",
+              "nous lavons",
+              "nous amusons"
+            ],
+            [
+              "vous",
+              "vous lavez",
+              "vous amusez"
+            ],
+            [
+              "ils / elles",
+              "se lavent",
+              "s'amusent"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "list": [
+            "모음 앞 me / te / se → **m' / t' / s'** (엘리지옹): je m'amuse, il s'amuse",
+            "se lever: je me lève, ils se lèvent / nous nous levons, vous vous levez — nous·vous에서 악상 X (acheter와 같은 규칙)",
+            "se réveiller: je me réveille, nous nous réveillons … ill은 [j] 소리 [헤베이예]"
+          ]
+        }
+      ]
+    },
+    {
+      "h": "왜 조동사가 être일까?",
+      "skill": "pronominal",
+      "src": [
+        "노션 9/16",
+        "노션 9/17"
+      ],
+      "body": [
+        {
+          "p": "se laver = **자기 자신을** 씻기다. 목적어 역할을 하는 재귀대명사가 **이미 동사 안에** 들어 있다. 그래서 대명동사는 **전부 être**로 복합과거를 만든다."
+        },
+        {
+          "ex": [
+            [
+              "Elle lave Marie. = Elle la lave.",
+              "그녀는 마리를(그녀를) 씻긴다."
+            ],
+            [
+              "Elle se lave.",
+              "그녀는 (자기 자신을) 씻는다."
+            ]
+          ]
+        },
+        {
+          "warn": "다른 목적어를 못 받는 건 아니다: Elle s'est lavé les mains. 이때는 일치가 달라진다 → 「과거분사 성수일치」 레슨"
+        }
+      ]
+    },
+    {
+      "h": "복합과거: 주어 + 재귀대명사 + être + 과거분사",
+      "skill": "pronominal",
+      "src": [
+        "semaine 3-2 p.37–40",
+        "semaine 3-3 p.11–13",
+        "노션 9/16"
+      ],
+      "body": [
+        {
+          "table": [
+            [
+              "현재",
+              "복합과거"
+            ],
+            [
+              "Je me lave",
+              "Je me suis lavé / lavée"
+            ],
+            [
+              "Tu te laves",
+              "Tu t'es lavé / lavée"
+            ],
+            [
+              "Il se lave",
+              "Il s'est lavé"
+            ],
+            [
+              "Elle se lave",
+              "Elle s'est lavée"
+            ],
+            [
+              "Nous nous lavons",
+              "Nous nous sommes lavés / lavées"
+            ],
+            [
+              "Vous vous lavez",
+              "Vous vous êtes lavé · lavée · lavés · lavées"
+            ],
+            [
+              "Ils se lavent",
+              "Ils se sont lavés"
+            ],
+            [
+              "Elles se lavent",
+              "Elles se sont lavées"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "list": [
+            "재귀대명사는 être **앞**: Je me suis lavé (Je suis me lavé ✗)",
+            "te → t', se → s' (뒤의 es, est가 모음): Tu t'es levé, Il s'est levé",
+            "sont 앞은 축약 X: Ils se sont amusés",
+            "성·수 일치는 être 동사와 같다: 주어에 맞춤"
+          ]
+        },
+        {
+          "ex": [
+            [
+              "Je me suis réveillée.",
+              "나(여)는 잠에서 깼다."
+            ],
+            [
+              "Il s'est amusé.",
+              "그는 즐겁게 놀았다."
+            ],
+            [
+              "Elles se sont levées.",
+              "그녀들은 일어났다."
+            ]
+          ]
+        },
+        {
+          "memo": "발음: Il s'est lavé [일 세 라베] · Tu t'es lavé [뛰 떼 라베] · Vous vous êtes [부 부 제뜨] (연음) · Nous nous sommes [누 누 쏨]"
+        }
+      ]
+    },
+    {
+      "h": "s'aimer — 서로 사랑하다",
+      "skill": "pronominal",
+      "src": [
+        "semaine 3-2 p.41",
+        "semaine 3-3 p.14",
+        "노션 9/16"
+      ],
+      "body": [
+        {
+          "p": "\"서로\"라는 뜻일 때는 주어가 복수: Nous nous aimons · Vous vous aimez · Ils s'aiment."
+        },
+        {
+          "ex": [
+            [
+              "Nous nous sommes aimés.",
+              "우리는 서로 사랑했다."
+            ],
+            [
+              "Ils se sont aimés.",
+              "그들은 서로 사랑했다."
+            ],
+            [
+              "Elles se sont aimées.",
+              "그녀들은 서로 사랑했다."
+            ]
+          ]
+        },
+        {
+          "memo": "노션(9/16) \"복수 주어로만\" = '서로 사랑하다' 뜻일 때의 이야기 (슬라이드도 복수만). 참고로 단수 주어면 '자기 자신을 사랑하다': Il s'aime."
+        }
+      ]
+    },
+    {
+      "h": "부정: ne + 재귀대명사 + être + pas",
+      "skill": "pc-neg-q",
+      "src": [
+        "semaine 3-3 p.15",
+        "노션 9/17"
+      ],
+      "body": [
+        {
+          "table": [
+            [
+              "긍정",
+              "부정"
+            ],
+            [
+              "Je me suis lavé.",
+              "Je ne me suis pas lavé."
+            ],
+            [
+              "Tu t'es réveillée.",
+              "Tu ne t'es pas réveillée."
+            ],
+            [
+              "Ils se sont aimés.",
+              "Ils ne se sont pas aimés."
+            ]
+          ],
+          "head": true
+        },
+        {
+          "warn": "Je me ne suis pas lavé ✗ — 재귀대명사 + être는 떼어낼 수 없는 한 덩어리 → ne는 그 **앞**, pas는 과거분사 앞"
+        },
+        {
+          "memo": "발음: Je ne me suis pas lavé [쥬 느 므 쒸 빠 라베]. 구어에서는 ne를 빼고 말하기도 한다."
+        }
+      ]
+    },
+    {
+      "h": "의문: 도치해도 재귀대명사는 맨 앞",
+      "skill": "pc-neg-q",
+      "src": [
+        "semaine 3-3 p.16",
+        "노션 9/17"
+      ],
+      "body": [
+        {
+          "table": [
+            [
+              "평서문",
+              "도치 의문문"
+            ],
+            [
+              "Elle s'est lavée.",
+              "S'est-elle lavée ?"
+            ],
+            [
+              "Tu t'es réveillé.",
+              "T'es-tu réveillé ?"
+            ],
+            [
+              "Ils se sont aimés.",
+              "Se sont-ils aimés ?"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "p": "순서: **재귀대명사 + être-주어 + 과거분사**. Est-ce que를 쓰면 어순 그대로: Est-ce que tu t'es levé ?"
+        },
+        {
+          "warn": "Est-elle se lavée ? ✗ — 재귀대명사는 뒤로 가지 않는다"
+        },
+        {
+          "memo": "발음: S'est-elle [세뗄] · T'es-tu [떼뛰] · Se sont-ils [쓰 쏭띨] (t 연음)"
+        }
+      ]
+    },
+    {
+      "h": "슬라이드 예시 · 발음 보충",
+      "skill": "pronominal",
+      "src": [
+        "semaine 3-2 p.37–41",
+        "semaine 4-1 p.5",
+        "노션 9/16"
+      ],
+      "body": [
+        {
+          "p": "슬라이드 첫 예시(3-2 p.37): **Je me réveille → Je me suis réveillé / réveillée.** 말하는 사람이 여자면 -e. 같은 표가 9/22(4-1 p.5)에 se laver로 한 번 더 복습됐다."
+        },
+        {
+          "ex": [
+            [
+              "Je me suis réveillée.",
+              "(여) 나는 잠에서 깼다."
+            ],
+            [
+              "Vous vous êtes aimés.",
+              "너희는 서로 사랑했다."
+            ],
+            [
+              "Tu ne t'es pas réveillée.",
+              "너(여)는 잠에서 깨지 않았다."
+            ]
+          ]
+        },
+        {
+          "list": [
+            "Il s'est lavé [일 세 라베] ↔ Il est lavé [일 레 라베] ↔ Il a lavé [일 라 라베] — s' 소리 하나로 뜻이 갈린다",
+            "réveillé [헤베이예] — ill = [j]",
+            "Je ne me suis pas lavé [쥬 느 므 쒸 빠 라베] — [느][므]가 연달아 나와도 그대로"
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    { "id": "u1-06-se-laver", "t": "verb", "skill": "pronominal", "inf": "se laver", "ko": "씻다", "group": 1,
+      "forms": { "je": "me lave", "tu": "te laves", "il": "se lave", "nous": "nous lavons", "vous": "vous lavez", "ils": "se lavent" },
+      "traps": [
+        { "p": "je", "wrong": "se lave", "why": "je의 재귀대명사는 me" },
+        { "p": "nous", "wrong": "se lavons", "why": "nous 주어면 재귀대명사도 nous → nous nous lavons" }
+      ],
+      "note": "직역: 자기 자신을 씻기다", "src": "semaine 3-2" },
+    { "id": "u1-06-se-lever", "t": "verb", "skill": "pronominal", "inf": "se lever", "ko": "일어나다", "group": 1,
+      "forms": { "je": "me lève", "tu": "te lèves", "il": "se lève", "nous": "nous levons", "vous": "vous levez", "ils": "se lèvent" },
+      "traps": [
+        { "p": "nous", "wrong": "nous lèvons", "why": "nous·vous에서는 악상이 사라짐" },
+        { "p": "ils", "wrong": "se levent", "why": "ils에서는 è: se lèvent" }
+      ],
+      "note": "acheter처럼 e → è (nous·vous 제외)", "star": true, "src": "semaine 3-2" },
+    { "id": "u1-06-s-amuser", "t": "verb", "skill": "pronominal", "inf": "s'amuser", "ko": "즐겁게 놀다", "group": 1,
+      "forms": { "je": "m'amuse", "tu": "t'amuses", "il": "s'amuse", "nous": "nous amusons", "vous": "vous amusez", "ils": "s'amusent" },
+      "traps": [
+        { "p": "je", "wrong": "me amuse", "why": "모음 앞 me → m' (엘리지옹!)" },
+        { "p": "tu", "wrong": "te amuses", "why": "모음 앞 te → t'" }
+      ],
+      "note": "모음 앞 me/te/se → m'/t'/s'", "star": true, "src": "semaine 3-2" },
+    { "id": "u1-06-se-reveiller", "t": "verb", "skill": "pronominal", "inf": "se réveiller", "ko": "잠에서 깨다", "group": 1,
+      "forms": { "je": "me réveille", "tu": "te réveilles", "il": "se réveille", "nous": "nous réveillons", "vous": "vous réveillez", "ils": "se réveillent" },
+      "traps": [
+        { "p": "tu", "wrong": "se réveilles", "why": "tu의 재귀대명사는 te" },
+        { "p": "vous", "wrong": "se réveillez", "why": "vous 주어면 vous vous" }
+      ],
+      "note": "직역: 자기 자신을 깨우다", "src": "semaine 3-2" },
+
+    { "id": "u1-06-why-etre", "t": "choice", "skill": "pronominal", "hint": "se laver = 누가 누구를 씻겨요? me의 역할을 생각해봐요", "prompt": "대명동사가 복합과거에서 être를 쓰는 이유는?",
+      "q": "Je me suis lavé. (← se laver)", "say": "",
+      "a": "재귀대명사가 이미 목적어 역할을 해서", "wrong": ["이동을 나타내는 동사라서", "-er 동사라서", "주어가 je라서"],
+      "explain": "se laver = 자기 자신을 씻기다. 목적어(me)가 동사 안에 이미 들어 있으니 être!", "star": true, "src": "노션 9/17" },
+    { "id": "u1-06-c-suis", "t": "choice", "skill": "pronominal", "hint": "대명동사의 조동사는 항상 같아요! je형은?", "prompt": "빈칸에 알맞은 것은?",
+      "q": "Je me ___ lavé ce matin.", "ko": "나는 오늘 아침에 씻었다.",
+      "a": "suis", "wrong": ["ai", "es", "sommes"],
+      "explain": "대명동사는 언제나 être: Je me suis lavé." },
+    { "id": "u1-06-c-levee", "t": "choice", "skill": "agreement", "hint": "대명동사 → 조동사 être! 주어 elle의 성·수는?", "prompt": "빈칸에 알맞은 것은?",
+      "q": "Elle s'est ___ à 7 heures.", "ko": "그녀는 7시에 일어났다.",
+      "a": "levée", "wrong": ["levé", "levés", "lève"],
+      "explain": "대명동사 → être → 주어 elle과 일치: levée.", "star": true },
+    { "id": "u1-06-c-tes", "t": "choice", "skill": "elision", "hint": "s'amuser의 조동사는 être! 모음 앞의 te는?", "prompt": "빈칸에 알맞은 것은?",
+      "q": "Paul, tu ___ amusé hier soir ?", "ko": "폴, 어젯밤 재밌게 놀았어?",
+      "a": "t'es", "wrong": ["te es", "t'as", "s'es"],
+      "explain": "te + es → t'es (엘리지옹). t'as는 tu as의 구어 축약이라 여기선 틀려요.", "star": true },
+    { "id": "u1-06-c-se-sont", "t": "choice", "skill": "elision", "hint": "뒤의 조동사가 자음으로 시작해요! 엘리지옹이 필요할까요?", "prompt": "빈칸에 알맞은 것은?",
+      "q": "Ils ___ sont amusés au parc.", "ko": "그들은 공원에서 즐겁게 놀았다.",
+      "a": "se", "wrong": ["s'", "les", "leur"],
+      "explain": "sont은 자음 s로 시작 → 축약 없이 se. 축약은 s'est, t'es처럼 모음 앞에서만." },
+    { "id": "u1-06-c-aimees", "t": "choice", "skill": "agreement", "hint": "s'aimer도 être! 주어 elles의 성·수는?", "prompt": "빈칸에 알맞은 것은? (s'aimer)",
+      "q": "Elles se sont ___ tout de suite.", "ko": "그녀들은 곧바로 서로 좋아하게 됐다.",
+      "a": "aimées", "wrong": ["aimés", "aimé", "aimée"],
+      "explain": "s'aimer(서로 사랑하다) → 주어 elles에 맞춰 여성 복수 -ées." },
+    { "id": "u1-06-c-sommes", "t": "choice", "skill": "pronominal", "hint": "대명동사는 être! 주어 nous의 être형은?", "prompt": "빈칸에 알맞은 것은?",
+      "q": "Nous nous ___ réveillés tard.", "ko": "우리는 늦게 깼다.",
+      "a": "sommes", "wrong": ["avons", "sont", "êtes"],
+      "explain": "nous → être는 sommes. nous가 두 번 나와도 그대로!" },
+    { "id": "u1-06-c-inversion", "t": "choice", "skill": "pc-neg-q", "hint": "재귀대명사는 맨 앞에 그대로! 조동사와 주어만 뒤집어요", "prompt": "도치 의문문으로 맞는 것은?",
+      "q": "Elle s'est lavée.", "say": "S'est-elle lavée ?",
+      "a": "S'est-elle lavée ?", "wrong": ["Est-elle se lavée ?", "Se est-elle lavée ?", "Elle s'est-elle lavée ?"],
+      "explain": "재귀대명사는 맨 앞에 그대로, être와 주어만 뒤집기: S'est-elle.", "star": true, "src": "semaine 3-3" },
+    { "id": "u1-06-c-negation", "t": "choice", "skill": "pc-neg-q", "hint": "재귀대명사 + 조동사는 한 덩어리! ne…pas는 어디를 감쌀까요?", "prompt": "부정문으로 맞는 것은?",
+      "q": "Ils se sont aimés.", "say": "Ils ne se sont pas aimés.",
+      "a": "Ils ne se sont pas aimés.", "wrong": ["Ils se ne sont pas aimés.", "Ils ne se sont aimés pas.", "Ils se sont ne pas aimés."],
+      "explain": "재귀대명사 + être는 한 덩어리 → ne는 그 앞, pas는 과거분사 앞.", "star": true, "src": "semaine 3-3" },
+
+    { "id": "u1-06-err-suis-me", "t": "error", "skill": "pronominal", "hint": "재귀대명사는 조동사 앞일까요, 뒤일까요?",
+      "s": "Je suis me lavé ce matin.", "wrong": "suis me", "right": "me suis",
+      "ko": "나는 오늘 아침에 씻었다.", "explain": "재귀대명사가 être 앞: Je me suis lavé.", "star": true, "src": "노션 9/16" },
+    { "id": "u1-06-err-levee", "t": "error", "skill": "agreement", "hint": "대명동사 조동사는 être! 주어 elle과 일치했나요?",
+      "s": "Elle s'est levé à 6 heures.", "wrong": "levé", "right": "levée",
+      "ko": "그녀는 6시에 일어났다.", "explain": "être 조동사 → 주어 elle에 맞춰 levée." },
+    { "id": "u1-06-err-se-est", "t": "error", "skill": "elision", "hint": "모음 앞의 se가 그대로일까요? 엘리지옹!",
+      "s": "Il se est amusé au parc.", "wrong": "se est", "right": "s'est",
+      "ko": "그는 공원에서 즐겁게 놀았다.", "explain": "모음 앞 se → s' (엘리지옹): Il s'est amusé.", "star": true },
+    { "id": "u1-06-err-me-ne", "t": "error", "skill": "pc-neg-q", "hint": "ne는 재귀대명사보다 앞일까요, 뒤일까요?",
+      "s": "Je me ne suis pas lavé.", "wrong": "me ne", "right": "ne me",
+      "ko": "나는 씻지 않았다.", "explain": "ne는 재귀대명사 앞으로: Je ne me suis pas lavé.", "src": "노션 9/17" },
+
+    { "id": "u1-06-b-neg-marc", "t": "build", "skill": "pc-neg-q", "hint": "재귀대명사 + 조동사를 한 덩어리로 ne…pas가 감싸요!", "prompt": "부정문으로 바꾸세요",
+      "from": "Marc s'est lavé.",
+      "a": "Marc ne s'est pas lavé.", "extra": ["se", "n'"],
+      "ko": "마르크는 씻지 않았다.",
+      "explain": "ne + s'est + pas + lavé. 재귀대명사는 ne 뒤에 붙어 있어요." },
+    { "id": "u1-06-b-inv-aimes", "t": "build", "skill": "pc-neg-q", "hint": "재귀대명사는 맨 앞 그대로! 조동사와 ils만 뒤집어요", "prompt": "도치 의문문으로 바꾸세요",
+      "from": "Ils se sont aimés.",
+      "a": "Se sont-ils aimés ?", "extra": ["Ont-ils", "aimé"],
+      "ko": "그들은 서로 사랑했나요?",
+      "explain": "Se + sont-ils + aimés. sont-ils는 t 연음 [쏭띨]." },
+    { "id": "u1-06-b-estceque", "t": "build", "skill": "pc-neg-q", "hint": "Est-ce que 뒤는 평서문 어순 그대로! 재귀대명사도 제자리", "prompt": "Est-ce que 의문문으로 바꾸세요",
+      "from": "Tu t'es levé tôt.",
+      "a": "Est-ce que tu t'es levé tôt ?", "extra": ["as", "te"],
+      "ko": "너 일찍 일어났어?",
+      "explain": "Est-ce que + 평서문 그대로. 어순을 바꿀 필요 없음." },
+    { "id": "u1-06-b-amuses", "t": "build", "skill": "pronominal", "hint": "대명동사 → 조동사 être! 주어 nous(남자들)에 일치해봐요", "prompt": "문장을 만드세요",
+      "ko": "우리(남자들)는 파티에서 즐겁게 놀았다.",
+      "a": "Nous nous sommes amusés à la fête.", "extra": ["avons", "amusé"],
+      "explain": "nous nous sommes + 남성 복수 amusés." },
+
+    { "id": "u1-06-t-lavee", "t": "type", "skill": "pronominal", "hint": "대명동사는 être! 모음 앞 se와 주어 elle 일치를 챙겨요", "prompt": "복합과거로 바꾸세요",
+      "q": "Elle se lave.", "a": "Elle s'est lavée",
+      "explain": "se + est → s'est, 주어 elle에 맞춰 lavée." },
+    { "id": "u1-06-t-inv-tu", "t": "type", "skill": "pc-neg-q", "hint": "재귀대명사는 앞에 그대로, 조동사와 tu만 뒤집어 하이픈!", "prompt": "도치 의문문으로 바꾸세요 (Paul에게)",
+      "q": "Tu t'es réveillé.", "a": "T'es-tu réveillé ?", "alts": ["T'es-tu réveillé"],
+      "explain": "t'es + tu를 하이픈으로: T'es-tu réveillé ?", "src": "semaine 3-3" },
+    {
+      "id": "u1-06-c-reveillee",
+      "t": "choice",
+      "skill": "pronominal",
+      "hint": "대명동사는 조동사가 정해져 있어요! 말하는 Léa의 성은?",
+      "prompt": "복합과거로 바꾸세요 (말하는 사람 = Léa)",
+      "q": "Je me réveille. → Je me ___.",
+      "say": "Je me suis réveillée.",
+      "a": "suis réveillée",
+      "wrong": [
+        "suis réveillé",
+        "ai réveillé",
+        "suis réveillés"
+      ],
+      "explain": "대명동사 → être, je = Léa(여) → réveillée. 슬라이드: Je me suis réveillé / réveillée.",
+      "src": "semaine 3-2 p.37"
+    },
+    {
+      "id": "u1-06-c-vous-etes",
+      "t": "choice",
+      "skill": "pronominal",
+      "hint": "대명동사의 조동사! 주어 vous에 맞는 형태는?",
+      "prompt": "빈칸에 알맞은 것은? (s'aimer)",
+      "q": "Vous vous ___ aimés.",
+      "ko": "너희는 서로 사랑했다.",
+      "a": "êtes",
+      "wrong": [
+        "avez",
+        "sont",
+        "es"
+      ],
+      "explain": "Vous vous êtes aimé(e)s — vous가 두 번, 조동사는 êtes. [부 부 제뜨] 연음.",
+      "src": "semaine 3-2 p.41"
+    },
+    {
+      "id": "u1-06-c-aimer-plural",
+      "t": "choice",
+      "skill": "pronominal",
+      "hint": "뜻을 떠올려봐요: 누가 누구를 사랑하나요?",
+      "prompt": "s'aimer(서로 사랑하다)가 슬라이드에서 nous · vous · ils · elles로만 나온 이유는?",
+      "q": "Nous nous aimons · Vous vous aimez · Ils s'aiment · Elles s'aiment",
+      "say": "",
+      "a": "'서로'라는 뜻이라 주어가 둘 이상이어야 해서",
+      "wrong": [
+        "s'aimer는 단수형이 불규칙이라서",
+        "s'aimer는 조동사가 avoir라서",
+        "je · tu는 모음 앞에서 줄어들어서"
+      ],
+      "explain": "'서로 ~하다'는 여럿일 때만 성립. 단수 Il s'aime는 '자기 자신을 사랑하다'.",
+      "src": "semaine 3-2 p.41"
+    },
+    {
+      "id": "u1-06-b-neg-reveillee",
+      "t": "build",
+      "skill": "pc-neg-q",
+      "hint": "ne는 재귀대명사 앞, pas는 과거분사 앞!",
+      "prompt": "부정문으로 바꾸세요",
+      "from": "Tu t'es réveillée.",
+      "a": "Tu ne t'es pas réveillée.",
+      "extra": [
+        "te",
+        "n'"
+      ],
+      "ko": "너(여)는 잠에서 깨지 않았다.",
+      "explain": "ne + t'es + pas + réveillée. 슬라이드 3-3 p.15 두 번째 예문.",
+      "src": "semaine 3-3 p.15"
+    },
+    {
+      "id": "u1-06-l-sest",
+      "t": "listen",
+      "skill": "pron",
+      "hint": "주어 il 뒤에 [ㅅ] 소리가 붙었나요?",
+      "say": "Il s'est lavé.",
+      "a": "Il s'est lavé.",
+      "wrong": [
+        "Il est lavé.",
+        "Il a lavé."
+      ],
+      "pron": "[일 세 라베]",
+      "explain": "s'est [세] = 대명동사 복합과거. est [에]만 들리면 수동, a [아]면 avoir 복합과거.",
+      "src": "노션 9/16"
+    },
+    {
+      "id": "u1-06-l-reveille",
+      "t": "listen",
+      "skill": "pron",
+      "hint": "과거분사 부분의 음절 수를 세어봐요",
+      "say": "Je me suis réveillé.",
+      "a": "Je me suis réveillé.",
+      "wrong": [
+        "Je me suis levé.",
+        "Je me suis lavé."
+      ],
+      "pron": "[쥬 므 쒸 헤베이예]",
+      "explain": "réveillé [헤베이예] — ill은 [j]. levé [르베], lavé [라베]와 구별!",
+      "src": "노션 9/16"
+    }
+  ]
+}

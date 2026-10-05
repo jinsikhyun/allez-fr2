@@ -1,0 +1,172 @@
+{
+  "id": "u0-05",
+  "unit": "u0",
+  "title": "의문사와 날짜·시간",
+  "emoji": "🕐",
+  "date": "2026-09-08",
+  "sources": ["semaine 1-3", "semaine 2-1", "노션 9/3", "노션 9/8", "노션 9/10", "Révision générale"],
+  "tips": [
+    {"h": "의문대명사 2×2", "rows": [["", "사물 (une chose)", "사람 (une personne)"], ["주어", "Qu'est-ce qui", "Qui · Qui est-ce qui"], ["목적어", "Que · Qu'est-ce que · …quoi", "Qui · Qui est-ce que"]], "b": "뒤쪽 **qui = 주어 자리**, **que = 목적어 자리**. qui는 절대 qu'로 줄지 않는다!"},
+    {"h": "의문형용사 quel (명사에 성·수 일치)", "rows": [["", "남성", "여성"], ["단수", "quel", "quelle"], ["복수", "quels", "quelles"]], "b": "Quel âge as-tu ? · Quelle heure est-il ? · Quelle est votre nationalité ? · Quels sont les problèmes ?"},
+    {"h": "빈도 — À quelle fréquence… ?", "rows": [["souvent", "자주"], ["quelquefois / parfois", "가끔"], ["de temps en temps", "때때로"], ["ne … jamais", "전혀 ~않다"], ["tous les jours · tous les mercredis", "매일 · 매주 수요일"], ["une fois par semaine · huit fois par mois", "주 1회 · 월 8회"]]},
+    {"h": "12달 (달 앞에는 en: en septembre)", "rows": [["janvier", "février", "mars [마흐스]"], ["avril", "mai", "juin"], ["juillet", "août [우]", "septembre"], ["octobre", "novembre", "décembre"]]},
+    {"h": "매 수업 첫 질문", "rows": [["On est le combien ?", "On est le 10 septembre."], ["On est quel jour ?", "On est jeudi."], ["Quelle heure est-il ?", "Il est douze heures neuf."], ["Nous sommes combien ?", "Nous sommes seize."], ["Votre anniversaire, c'est quand ?", "C'est le vingt et un septembre."]]}
+  ],
+  "fixes": [
+    {"where": "노션 9/10", "was": "Il est douze herues neuf.", "now": "Il est douze heures neuf.", "why": "heures 철자 오타"},
+    {"where": "노션 9/10 · Révision générale p.35", "was": "mars (마흐스 — 끝 s는 거의 안 들림)", "now": "mars [마흐스] — 끝 s를 발음한다", "why": "mars는 끝 s를 소리 내는 단어 ([maʁs])"},
+    {"where": "Révision générale p.35", "was": "quarante-six (46) [꺄헝트 시즈]", "now": "[까항뜨 씨스]", "why": "six를 단독으로 읽을 땐 [씨스]. [z]는 뒤에 모음으로 시작하는 명사가 올 때만 (six ans [씨장])"}
+  ],
+  "note": [
+    {
+      "h": "의문대명사 qui / que (leçon 6)", "skill": "interrog", "src": ["semaine 1-3 p.12-14", "semaine 2-1 p.6-8", "노션 9/3"],
+      "body": [
+        {"table": [["", "사물 (une chose)", "사람 (une personne)"], ["주어", "Qu'est-ce qui", "Qui est-ce qui / Qui"], ["목적어", "Qu'est-ce que / Que / … quoi", "Qui est-ce que / Qui"]], "head": true},
+        {"p": "앞부분 = 묻는 대상 (Qu'est-ce = 사물, Qui est-ce = 사람), 뒷부분 = 문장 속 역할 (**qui = 주어**, **que = 목적어**)."},
+        {"ex": [["Tu regardes un film. → Tu regardes quoi ? / Que regardes-tu ? / Qu'est-ce que tu regardes ?", "사물 · 목적어: 너 뭐 봐?"], ["Tu regardes ton copain. → Tu regardes qui ? / Qui regardes-tu ? / Qui est-ce que tu regardes ?", "사람 · 목적어: 너 누구 봐?"], ["Le professeur me regarde. → Qui me regarde ? / Qui est-ce qui me regarde ?", "사람 · 주어: 누가 날 봐?"], ["Le café au lait est bon ici. → Qu'est-ce qui est bon ici ?", "사물 · 주어: 여기 뭐가 맛있어?"]]},
+        {"memo": "9/3 필기: 'Qui는 앞에 와도 안 바뀜' — que는 모음 앞에서 qu'로 줄지만 qui는 절대 안 줄어든다."},
+        {"warn": "quoi는 동사 뒤에만: Tu regardes quoi ? (Quoi regardes-tu ✗). 사물 주어 칸은 Qu'est-ce qui 하나뿐."}
+      ]
+    },
+    {
+      "h": "연습: Exercices d'interrogation (9/8)", "skill": "interrog", "src": ["semaine 2-1 p.10", "노션 9/8"],
+      "body": [
+        {"table": [["문제", "정답"], ["1. Tu manges quoi ?", "= Qu'est-ce que tu manges ? = Que manges-tu ?"], ["2. ___ couleur est-ce qu'elle choisit ?", "Quelle (couleur 여성)"], ["3. ___ est là ?", "Qui (= Qui est-ce qui)"], ["4. ___ ne va pas ?", "Qu'est-ce qui"], ["5. ___ préfères-tu dans Rescene ?", "Qui"], ["6. ___ il y a ?", "Qu'est-ce qu'"], ["7. ___ il a ?", "Qu'est-ce qu'"]], "head": true},
+        {"ex": [["Qu'est-ce qui ne va pas ?", "뭐가 잘못됐어? (aller = 되어가다)"], ["Qui préfères-tu dans Rescene ?", "리센느에서 누구를 더 좋아해?"], ["Qu'est-ce qu'il y a ?", "무슨 일이야?"], ["Qu'est-ce qu'il a ?", "그에게 무슨 일 있어? (그 사람 왜 그래?)"]]},
+        {"memo": "9/8 필기: Qu'est-ce qu'il y a ? — il은 아무 뜻 없고 il y a가 한 세트 (= there is). 6번과 7번은 y 한 글자 차이!"}
+      ]
+    },
+    {
+      "h": "의문형용사 quel (leçon 5)", "skill": "interrog", "src": ["semaine 2-1 p.9", "노션 9/8"],
+      "body": [
+        {"table": [["", "남성", "여성"], ["단수", "quel", "quelle"], ["복수", "quels", "quelles"]], "head": true},
+        {"ex": [["Quel âge as-tu ?", "몇 살이야? (âge 남성)"], ["Quelle heure est-il ?", "몇 시야? (heure 여성)"], ["On est quel jour ?", "무슨 요일이야? (jour 남성)"], ["Quel est ton nom ?", "이름이 뭐야?"], ["Quelle est votre nationalité ?", "국적이 어떻게 되세요?"], ["Quels sont les problèmes ?", "문제가 뭐야?"]]},
+        {"p": "네 형태 모두 소리는 [껠] — 쓰기에서만 구별된다. 뒤 명사의 성·수를 먼저 확인!"},
+        {"memo": "9/8 필기: nationalité 발음 주의 [나씨오날리떼] — ti가 [씨]. question [께스띠옹]의 ti와 비교."}
+      ]
+    },
+    {
+      "h": "의문부사 (leçons 5-8)", "skill": "interrog", "src": ["semaine 2-1 p.11-13", "노션 9/8"],
+      "body": [
+        {"table": [["의문사", "뜻", "예문"], ["Comment", "어떻게", "Comment allez-vous ? · Comment est-ce qu'il va à la fac ?"], ["Où", "어디", "Où habites-tu ? · Où va-t-elle ?"], ["Pourquoi", "왜", "Pourquoi étudies-tu le français ? · Pourquoi parle-t-il très vite ?"], ["Combien", "얼마", "C'est combien ? · Ça coûte combien ?"], ["Quand", "언제", "Quand rentres-tu à la maison ? · Quand le train part-il ? / Quand part le train ?"], ["Depuis quand", "언제부터", "Depuis quand est-ce qu'elle travaille ici ? · Depuis quand sont-ils dans ce café ?"], ["À quelle heure", "몇 시에", "À quelle heure est-ce que le cours commence ? · À quelle heure vas-tu déjeuner ?"], ["À quelle fréquence", "얼마나 자주", "À quelle fréquence allez-vous au cinéma ?"]], "head": true},
+        {"memo": "9/8 필기: 친구에게는 Comment vas-tu ?, 격식은 Comment allez-vous ?"},
+        {"warn": "où(어디)는 accent grave 필수 — ou는 '또는'."}
+      ]
+    },
+    {
+      "h": "빈도 (La fréquence · leçon 8)", "skill": "time", "src": ["semaine 2-1 p.15-16", "노션 9/8", "노션 9/10"],
+      "body": [
+        {"p": "질문은 **À quelle fréquence … ?** 대답은 부사형(동사 바로 뒤) 또는 횟수형(문장 끝)."},
+        {"table": [["souvent", "자주"], ["quelquefois / parfois", "가끔"], ["de temps en temps", "때때로"], ["ne … jamais", "전혀 ~않다"], ["tous les jours", "매일"], ["une fois par semaine", "일주일에 한 번"], ["huit fois par mois", "한 달에 여덟 번"], ["tous les mercredis", "매주 수요일마다"]]},
+        {"ex": [["Je vais souvent au cinéma.", "나는 영화관에 자주 간다."], ["Je vais de temps en temps au cinéma.", "나는 때때로 영화관에 간다."], ["Je ne vais jamais au cinéma.", "나는 영화관에 절대 안 간다."], ["J'ai cours de français tous les jours.", "나는 매일 프랑스어 수업이 있다."]]},
+        {"memo": "9/10 수업 문답: À quelle fréquence vous avez cours de français ? → Trois fois par semaine. 필기: la semaine(그 주) / par semaine(한 주마다). 9/8: huit / cinq / six / dix fois par mois처럼 숫자만 바꾸면 된다."},
+        {"p": "발음: fois [푸아] (oi = [wa]) · tous les jours의 tous는 s 묵음 [뚜]."}
+      ]
+    },
+    {
+      "h": "날짜 · 요일 · 달 (매 수업 첫 질문)", "skill": "time", "src": ["노션 9/10", "Révision générale"],
+      "body": [
+        {"table": [["질문", "대답"], ["On est le combien ? / Nous sommes le combien ? / Quelle est la date ?", "On est le 10 septembre."], ["On est quel jour ?", "On est jeudi."], ["Nous sommes en quel mois ?", "Nous sommes en septembre."], ["Votre anniversaire, c'est quand ?", "C'est le vingt et un septembre."]], "head": true},
+        {"list": ["날짜: le + 숫자 + 달 (1일만 le premier)", "달 앞에는 en: en septembre", "21·31 = vingt et un, trente et un (et 필수)"]},
+        {"table": [["janvier [장비에]", "février [페브히예]", "mars [마흐스]"], ["avril [아브힐]", "mai [메]", "juin [쥐앵]"], ["juillet [쥐이에]", "août [우]", "septembre [셉땅브흐]"], ["octobre [옥또브흐]", "novembre [노방브흐]", "décembre [데쌍브흐]"]]},
+        {"warn": "mars는 끝 s를 발음 [마흐스] · sept [쎄뜨] vs septembre [셉땅브흐] · août는 짧게 한 음절 [우]"},
+        {"memo": "-embre로 끝나는 달은 '앙(비모음) + 브흐': 셉땅브흐 / 노방브흐 / 데쌍브흐."}
+      ]
+    },
+    {
+      "h": "시간 · 인원 · 날씨", "skill": "time", "src": ["노션 9/10", "Révision générale"],
+      "body": [
+        {"ex": [["Quelle heure est-il ? — Il est douze heures neuf.", "몇 시야? — 12시 9분이야."], ["Il est quatre heures quarante. = Il est seize heures quarante.", "(오후) 4시 40분 = 16시 40분"], ["Nous sommes combien ? — Nous sommes seize.", "우리 몇 명이야? — 16명이야."], ["Quel temps fait-il aujourd'hui ? — Il y a du vent. Il fait gris.", "오늘 날씨 어때? — 바람이 불어. 흐려."]]},
+        {"p": "시간은 **Il est + 숫자 + heure(s)** (+ 분). 일상은 12시간제, 공식은 24시간제 둘 다 쓴다."},
+        {"memo": "필기: '→ 숫자 / 요일 / 달 복습하자'. 수업 전 교수님이 매번 구두로 묻는 질문 세트."}
+      ]
+    },
+    {
+      "h": "숫자 · 요일 · 발음 체크 (Révision p.33–35)", "skill": "time", "src": ["Révision générale p.33-35", "노션 9/8", "노션 9/10", "semaine 1-2 p.22"],
+      "body": [
+        {"table": [["숫자", "읽기 · 포인트"], ["16 seize", "[쎄즈] — Nous sommes seize."], ["19 dix-neuf", "[디즈뇌프] · dix-neuf ans [디즈뇌 방] — f가 [v]로 연음"], ["21 vingt et un", "[뱅 떼 앵] — 21·31·41…엔 et"], ["22 vingt-deux", "22부터는 하이픈만"], ["46 quarante-six", "[까항뜨 씨스]"]], "head": true},
+        {"list": ["요일: lundi 월요일 · mercredi 수요일 · jeudi 목요일 — On est jeudi. (관사 없이)", "tous les jours [뚜 레 주흐] — 명사 앞 tous는 s 묵음 / Ils sont tous là. [뚜스] — 홀로 쓰인 tous는 s 발음", "fois [푸아] — oi = [wa]", "nationalité [나씨오날리떼] (ti = [si]) ↔ question [께스띠옹] (s 뒤 ti = [ti])", "-embre = 비모음 '앙' + 브흐: septembre · novembre · décembre"]},
+        {"memo": "필기: '→ 숫자 / 요일 / 달 복습하자' — 수업 첫머리 구두 질문에 바로 쓰인다."}
+      ]
+    }
+  ],
+  "cards": [
+    {"id": "u0-05-que", "t": "choice", "skill": "interrog", "hint": "사물을 묻는 목적어 자리 + 도치 형태! 사람용 의문사는 빼고", "prompt": "빈칸에 알맞은 의문사는?", "q": "Tu regardes un film. → ___ regardes-tu ?", "a": "Que", "wrong": ["Qui", "Quoi", "Qu'est-ce que"], "say": "Que regardes-tu ?", "star": true, "src": "semaine 1-3", "explain": "사물 + 목적어 + 도치 → Que. 같은 뜻: Qu'est-ce que tu regardes ? / Tu regardes quoi ?"},
+    {"id": "u0-05-qui-obj", "t": "choice", "skill": "interrog", "hint": "copain은 사람! 사람이면 목적어 자리여도 쓰는 의문사는?", "prompt": "빈칸에 알맞은 의문사는?", "q": "Tu regardes ton copain. → ___ regardes-tu ?", "a": "Qui", "wrong": ["Que", "Quoi", "Qu'est-ce qui"], "say": "Qui regardes-tu ?", "src": "semaine 1-3", "explain": "사람이면 목적어여도 Qui. 필기: 'Qui는 앞에 와도 안 바뀜'."},
+    {"id": "u0-05-qui-est-ce-qui", "t": "choice", "skill": "interrog", "hint": "사람 + 주어 자리! 긴 형태의 끝부분은 주어면 뭐가 될까요?", "prompt": "빈칸에 알맞은 의문사는?", "q": "Le professeur me regarde. → ___ me regarde ?", "a": "Qui est-ce qui", "wrong": ["Qu'est-ce qui", "Qui est-ce que", "Que"], "say": "Qui est-ce qui me regarde ?", "star": true, "src": "semaine 1-3", "explain": "사람 + 주어 → Qui est-ce qui (= Qui). 뒤쪽 qui가 '주어 자리' 표시."},
+    {"id": "u0-05-qu-est-ce-qui", "t": "choice", "skill": "interrog", "hint": "café au lait는 사물, 그리고 주어 자리! 이 칸엔 짧은 형태가 없어요", "prompt": "빈칸에 알맞은 의문사는?", "q": "Le café au lait est bon ici. → ___ est bon ici ?", "a": "Qu'est-ce qui", "wrong": ["Qu'est-ce que", "Qui est-ce qui", "Quoi"], "say": "Qu'est-ce qui est bon ici ?", "star": true, "src": "semaine 1-3", "explain": "사물 + 주어 → Qu'est-ce qui. 이 칸만은 짧은 형태가 없어요!"},
+    {"id": "u0-05-err-ne-va-pas", "t": "error", "skill": "interrog", "hint": "ne va pas 앞, 주어 자리가 비어 있어요! 사물 주어용 형태는?", "s": "Qu'est-ce que ne va pas ?", "wrong": "Qu'est-ce que", "right": "Qu'est-ce qui", "ko": "뭐가 잘못됐어?", "star": true, "src": "semaine 2-1", "explain": "ne va pas의 주어 자리가 비어 있어요 → 사물 주어 = Qu'est-ce qui."},
+    {"id": "u0-05-build-manges", "t": "build", "skill": "interrog", "hint": "사물을 묻는 목적어 자리예요. est-ce que 뒤 어순은 평서문 그대로!", "prompt": "est-ce que 형태로 바꾸세요", "from": "Tu manges quoi ?", "a": "Qu'est-ce que tu manges ?", "extra": ["qui", "qu'"], "ko": "너 뭐 먹어?", "src": "semaine 2-1", "explain": "Tu manges quoi ? = Que manges-tu ? = Qu'est-ce que tu manges ? 모두 같은 뜻."},
+    {"id": "u0-05-il-y-a", "t": "choice", "skill": "interrog", "hint": "'있다' = il y a 세트! 한 글자 빠지면 뜻이 달라져요", "prompt": "알맞은 질문은?", "q": "무슨 일이야? (What's the matter?)", "a": "Qu'est-ce qu'il y a ?", "wrong": ["Qu'est-ce qu'il a ?", "Qu'est-ce qui il y a ?", "Qui est-ce qu'il y a ?"], "say": "Qu'est-ce qu'il y a ?", "star": true, "src": "노션 9/8", "explain": "il y a가 한 세트 → Qu'est-ce qu'il y a ? 한 글자 차이인 Qu'est-ce qu'il a ?는 '그 사람 무슨 일 있어?'."},
+    {"id": "u0-05-qui-est-la", "t": "choice", "skill": "interrog", "hint": "'누구'를 묻는 주어 자리! 사람일까 사물일까?", "prompt": "빈칸에 알맞은 것은?", "q": "___ est là ?", "ko": "거기 누구 있어요?", "a": "Qui", "wrong": ["Que", "Qu'est-ce que", "Quoi"], "src": "semaine 2-1", "explain": "사람 + 주어 → Qui (= Qui est-ce qui est là ?)."},
+    {"id": "u0-05-quelle-couleur", "t": "choice", "skill": "interrog", "hint": "couleur의 성·수에 맞춰 의문형용사를 골라요!", "prompt": "빈칸에 알맞은 것은?", "q": "___ couleur est-ce qu'elle choisit ?", "ko": "그녀는 무슨 색을 골라?", "a": "Quelle", "wrong": ["Quel", "Quels", "Qu'est-ce que"], "star": true, "src": "semaine 2-1", "explain": "couleur는 여성 단수 → quelle. quel/quelle/quels/quelles는 소리가 모두 [껠]!"},
+    {"id": "u0-05-nationalite", "t": "choice", "skill": "interrog", "hint": "-té로 끝나는 명사는 보통 여성! 의문형용사를 맞춰봐요", "prompt": "빈칸에 알맞은 것은?", "q": "___ est votre nationalité ?", "ko": "국적이 어떻게 되세요?", "a": "Quelle", "wrong": ["Quel", "Quelles", "Qui"], "pron": "[나씨오날리떼]", "src": "노션 9/8", "explain": "nationalité는 여성 → Quelle. ti는 [씨]: [나씨오날리떼] (question은 [께스띠옹])."},
+    {"id": "u0-05-quels", "t": "choice", "skill": "interrog", "hint": "problème의 성은? -ème로 끝나도 속지 말기! 수도 확인", "prompt": "빈칸에 알맞은 것은?", "q": "___ sont les problèmes ?", "ko": "문제가 뭐야? (문제들이 뭐야?)", "a": "Quels", "wrong": ["Quelles", "Quel", "Qu'est-ce que"], "src": "semaine 2-1", "explain": "problèmes는 남성 복수 → quels. (-ème로 끝나도 problème은 남성!)"},
+    {"id": "u0-05-quelle-heure", "t": "type", "skill": "interrog", "hint": "heure는 여성일까 남성일까? 시간 묻기는 도치형 한 세트!", "prompt": "프랑스어로 쓰세요", "q": "몇 시예요?", "a": "Quelle heure est-il ?", "alts": ["Il est quelle heure ?"], "star": true, "src": "semaine 2-1", "explain": "heure는 여성 → Quelle. 도치 est-il까지 한 세트로! (구어로는 Il est quelle heure ?도 OK)"},
+    {"id": "u0-05-ou", "t": "choice", "skill": "interrog", "hint": "'어디'를 묻는 의문사! 악센트 하나로 뜻이 달라져요", "prompt": "빈칸에 알맞은 것은?", "q": "___ habites-tu ?", "ko": "너 어디 살아?", "a": "Où", "wrong": ["Ou", "Quand", "Comment"], "src": "semaine 2-1", "explain": "'어디' = où (accent grave 필수!). ou는 '또는'."},
+    {"id": "u0-05-comment", "t": "choice", "skill": "interrog", "hint": "가는 '방법'을 묻고 있어요! 안부 물을 때도 쓰는 말", "prompt": "빈칸에 알맞은 것은?", "q": "___ est-ce qu'il va à la fac ?", "ko": "그는 학교에 어떻게 가?", "a": "Comment", "wrong": ["Combien", "Pourquoi", "Quel"], "src": "semaine 2-1", "explain": "'어떻게' = Comment. Comment allez-vous ?도 같은 의문사."},
+    {"id": "u0-05-combien", "t": "choice", "skill": "interrog", "hint": "가격이나 수량을 묻는 의문사예요! '어떻게'와 헷갈리지 마요", "prompt": "빈칸에 알맞은 것은?", "q": "Ça coûte ___ ?", "ko": "이거 얼마예요?", "a": "combien", "wrong": ["comment", "quand", "quel"], "src": "semaine 2-1", "explain": "가격·수량 = combien. C'est combien ?도 같은 뜻."},
+    {"id": "u0-05-pourquoi", "t": "choice", "skill": "interrog", "hint": "이유를 묻는 질문! 대답에 쓰는 '왜냐하면'과 구분해요", "prompt": "빈칸에 알맞은 것은?", "q": "___ étudies-tu le français ?", "ko": "왜 프랑스어를 공부해?", "a": "Pourquoi", "wrong": ["Parce que", "Comment", "Quand"], "src": "semaine 2-1", "explain": "왜? = Pourquoi, 대답은 Parce que…(왜냐하면)."},
+    {"id": "u0-05-depuis-quand", "t": "choice", "skill": "interrog", "hint": "'언제'가 아니라 '언제부터'! 시작점을 묻는 표현은?", "prompt": "빈칸에 알맞은 것은?", "q": "___ est-ce qu'elle travaille ici ?", "ko": "그녀는 언제부터 여기서 일해?", "a": "Depuis quand", "wrong": ["Quand", "À quelle heure", "Combien"], "src": "semaine 2-1", "explain": "'언제부터' = Depuis quand. 그냥 Quand은 '언제'."},
+    {"id": "u0-05-part-il", "t": "choice", "skill": "interrog", "hint": "명사 주어 train을 대명사로 되받아 도치! 동사가 t로 끝나요", "prompt": "빈칸에 알맞은 것은?", "q": "Quand le train ___ ?", "ko": "기차는 언제 떠나?", "a": "part-il", "wrong": ["part-t-il", "part-elle", "il part"], "say": "Quand le train part-il ?", "star": true, "src": "semaine 2-1", "explain": "명사 주어 train → il로 되받아 도치. part는 t로 끝나서 -t- 불필요. Quand part le train ?도 가능."},
+    {"id": "u0-05-a-quelle-heure", "t": "choice", "skill": "interrog", "hint": "'몇 시에' — 시각 앞 전치사 잊지 말기! heure의 성도 확인", "prompt": "빈칸에 알맞은 것은?", "q": "___ est-ce que le cours commence ?", "ko": "수업 몇 시에 시작해?", "a": "À quelle heure", "wrong": ["Quelle heure", "À quel heure", "Quand heure"], "star": true, "src": "semaine 2-1", "explain": "'몇 시에' = À quelle heure (heure 여성 → quelle, 앞에 à)."},
+    {"id": "u0-05-de-temps", "t": "word", "skill": "time", "fr": "de temps en temps", "ko": "때때로 (from time to time)", "pron": "[드 땅 장 땅]", "src": "semaine 2-1"},
+    {"id": "u0-05-souvent", "t": "word", "skill": "time", "fr": "souvent", "ko": "자주", "pron": "[쑤방]", "note": "Je vais souvent au cinéma.", "src": "semaine 2-1"},
+    {"id": "u0-05-quelquefois", "t": "word", "skill": "time", "fr": "quelquefois", "ko": "가끔 (sometimes, 한 단어)", "note": "= parfois", "src": "semaine 2-1"},
+    {"id": "u0-05-une-fois", "t": "word", "skill": "time", "fr": "une fois par semaine", "ko": "일주일에 한 번", "note": "trois fois par semaine = 주 3회", "src": "semaine 2-1"},
+    {"id": "u0-05-tous-les-jours", "t": "word", "skill": "time", "fr": "tous les jours", "ko": "매일", "pron": "[뚜 레 주흐]", "note": "여기서 tous의 s는 묵음", "src": "semaine 2-1"},
+    {"id": "u0-05-mercredis", "t": "word", "skill": "time", "fr": "tous les mercredis", "ko": "매주 수요일마다", "src": "semaine 2-1"},
+    {"id": "u0-05-trois-fois", "t": "choice", "skill": "time", "hint": "빈도를 묻고 있어요! '주 몇 회'는 fois + 어떤 전치사?", "prompt": "알맞은 대답은?", "q": "À quelle fréquence avez-vous cours de français ?", "a": "Trois fois par semaine.", "wrong": ["Trois fois pour semaine.", "À trois heures.", "Depuis trois semaines."], "say": "Trois fois par semaine.", "star": true, "src": "노션 9/10", "explain": "빈도 = 숫자 + fois par + 기간 (주 3회). À quelle heure(몇 시), Depuis quand(언제부터)과 헷갈리지 말기."},
+    {"id": "u0-05-le-combien", "t": "choice", "skill": "time", "hint": "le combien = 며칠? 요일·달이 아니라 날짜로 답해요", "prompt": "알맞은 대답은?", "q": "On est le combien ?", "a": "On est le 10 septembre.", "wrong": ["On est jeudi.", "Il est dix heures.", "On est en septembre."], "say": "On est le combien ? On est le 10 septembre.", "star": true, "src": "노션 9/10", "explain": "le combien = 며칠? → le + 숫자 + 달. 요일은 On est quel jour ?로 물어요."},
+    {"id": "u0-05-quel-jour", "t": "choice", "skill": "time", "hint": "요일을 물었어요! 주어는 on, 요일 앞에 관사·전치사가 필요할까요?", "prompt": "알맞은 대답은?", "q": "On est quel jour ?", "a": "On est jeudi.", "wrong": ["Il est jeudi.", "On est en jeudi.", "On est le jeudi septembre."], "say": "On est quel jour ? On est jeudi.", "src": "노션 9/10", "explain": "요일은 On est + 요일 (관사·전치사 없이). 주어는 on / nous — il이 아니에요."},
+    {"id": "u0-05-en-mois", "t": "choice", "skill": "time", "hint": "달 이름 앞 전치사를 떠올려봐요. 날짜(며칠)일 때와는 달라요!", "prompt": "알맞은 대답은?", "q": "Nous sommes en quel mois ?", "a": "Nous sommes en septembre.", "wrong": ["Nous sommes le septembre.", "Nous sommes à septembre.", "Nous sommes septembre."], "say": "Nous sommes en septembre.", "src": "Révision générale", "explain": "달 앞에는 en: en septembre. 날짜(며칠)일 때만 le: le 10 septembre."},
+    {"id": "u0-05-premier", "t": "choice", "skill": "time", "hint": "1일만 특별해요! 기수 대신 서수, le와 어울리는 형태는?", "prompt": "빈칸에 알맞은 것은?", "q": "On est le ___ septembre. (9월 1일)", "a": "premier", "wrong": ["un", "une", "première"], "src": "Révision générale", "explain": "1일만 서수 le premier, 나머지는 le 2, le 10…처럼 기수."},
+    {"id": "u0-05-anniversaire", "t": "choice", "skill": "time", "hint": "21·31을 읽는 방법을 떠올려봐요. 날짜 앞엔 관사!", "prompt": "알맞은 대답은?", "q": "Votre anniversaire, c'est quand ?", "a": "C'est le vingt et un septembre.", "wrong": ["C'est le vingt-un septembre.", "C'est en vingt et un septembre.", "C'est vingt et un de septembre."], "say": "C'est le vingt et un septembre.", "src": "노션 9/10", "explain": "21·31은 vingt et un, trente et un (et 필수). 날짜 앞엔 le."},
+    {"id": "u0-05-heure", "t": "choice", "skill": "time", "hint": "시각은 être로 말해요! 분 앞에 et가 필요할까요?", "prompt": "알맞은 대답은? (12시 9분)", "q": "Quelle heure est-il ?", "a": "Il est douze heures neuf.", "wrong": ["Il est douze heures et neuf.", "Il a douze heures neuf.", "C'est douze heure neuf."], "say": "Il est douze heures neuf.", "src": "노션 9/10", "explain": "시간은 Il est + 숫자 + heures (+ 분). et는 et quart, et demie에만 써요."},
+    {"id": "u0-05-seize-heures", "t": "choice", "skill": "time", "hint": "오후 4시를 24시간제로 바꿔봐요! 분은 그대로", "prompt": "같은 시각은?", "q": "Il est quatre heures quarante (de l'après-midi).", "a": "Il est seize heures quarante.", "wrong": ["Il est six heures quarante.", "Il est seize heures quatorze.", "Il est quatorze heures quarante."], "say": "Il est seize heures quarante.", "src": "Révision générale", "explain": "오후 4시 40분 = 16시 40분. 일상은 12시간제, 공식 시간은 24시간제를 써요."},
+    {"id": "u0-05-seize", "t": "choice", "skill": "time", "hint": "'우리 몇 명?'엔 être로 답해요. le를 붙이면 날짜가 돼요!", "prompt": "알맞은 대답은? (16명)", "q": "Nous sommes combien ?", "a": "Nous sommes seize.", "wrong": ["Nous avons seize.", "Il y a seize nous.", "Nous sommes le seize."], "say": "Nous sommes combien ? Nous sommes seize.", "src": "Révision générale", "explain": "'우리 몇 명이야?' → Nous sommes + 숫자. le를 붙이면 날짜(16일)가 돼요."},
+    {"id": "u0-05-meteo", "t": "choice", "skill": "time", "hint": "날씨 표현엔 être·avoir가 아닌 전용 틀이 있어요!", "prompt": "알맞은 대답은?", "q": "Quel temps fait-il aujourd'hui ?", "a": "Il y a du vent. Il fait gris.", "wrong": ["Il est du vent. Il est gris.", "Il a du vent. Il fait gris.", "C'est quatre heures."], "say": "Quel temps fait-il aujourd'hui ? Il y a du vent. Il fait gris.", "src": "노션 9/10", "explain": "날씨: Il y a du vent (바람이 분다) · Il fait gris (흐리다). 동사 il y a / il fait를 기억!"},
+    {"id": "u0-05-janvier", "t": "word", "skill": "time", "fr": "janvier", "ko": "1월", "pron": "[장비에]", "src": "노션 9/10"},
+    {"id": "u0-05-fevrier", "t": "word", "skill": "time", "fr": "février", "ko": "2월", "pron": "[페브히예]", "src": "노션 9/10"},
+    {"id": "u0-05-mars", "t": "word", "skill": "time", "fr": "mars", "ko": "3월", "pron": "[마흐스]", "note": "끝 s를 발음해요!", "star": true, "src": "노션 9/10"},
+    {"id": "u0-05-avril", "t": "word", "skill": "time", "fr": "avril", "ko": "4월", "pron": "[아브힐]", "src": "노션 9/10"},
+    {"id": "u0-05-mai", "t": "word", "skill": "time", "fr": "mai", "ko": "5월", "pron": "[메]", "note": "ai = [ɛ]", "src": "노션 9/10"},
+    {"id": "u0-05-juin", "t": "word", "skill": "time", "fr": "juin", "ko": "6월", "pron": "[쥐앵]", "note": "코로 울리는 비모음", "src": "노션 9/10"},
+    {"id": "u0-05-juillet", "t": "word", "skill": "time", "fr": "juillet", "ko": "7월", "pron": "[쥐이에]", "src": "노션 9/10"},
+    {"id": "u0-05-aout", "t": "word", "skill": "time", "fr": "août", "ko": "8월", "pron": "[우]", "note": "짧게 한 음절 ([우뜨]라고도 함)", "src": "노션 9/10"},
+    {"id": "u0-05-septembre", "t": "word", "skill": "time", "fr": "septembre", "ko": "9월", "pron": "[셉땅브흐]", "note": "sept(7) [쎄뜨]와 달리 p를 발음", "star": true, "src": "노션 9/10"},
+    {"id": "u0-05-octobre", "t": "word", "skill": "time", "fr": "octobre", "ko": "10월", "pron": "[옥또브흐]", "src": "노션 9/10"},
+    {"id": "u0-05-novembre", "t": "word", "skill": "time", "fr": "novembre", "ko": "11월", "pron": "[노방브흐]", "note": "-embre = 비모음 + 브흐", "src": "노션 9/10"},
+    {"id": "u0-05-decembre", "t": "word", "skill": "time", "fr": "décembre", "ko": "12월", "pron": "[데쌍브흐]", "src": "노션 9/10"},
+    {"id": "u0-05-quoi", "t": "choice", "skill": "interrog", "hint": "동사 뒤(문장 끝)에 오는 '무엇'은 어떤 형태?", "prompt": "빈칸에 알맞은 의문사는?", "q": "Tu regardes un film. → Tu regardes ___ ?", "a": "quoi", "wrong": ["que", "qui", "qu'est-ce que"], "say": "Tu regardes quoi ?", "src": "semaine 1-3", "explain": "동사 뒤 사물 목적어 = quoi (구어). que는 문장 맨 앞에서만: Que regardes-tu ?"},
+    {"id": "u0-05-qui-est-ce-que", "t": "choice", "skill": "interrog", "hint": "사람 + 목적어! 긴 형태의 뒤쪽은 목적어 자리 표시", "prompt": "빈칸에 알맞은 의문사는?", "q": "Tu regardes ton copain. → ___ tu regardes ?", "a": "Qui est-ce que", "wrong": ["Qu'est-ce que", "Qui est-ce qui", "Que"], "say": "Qui est-ce que tu regardes ?", "star": true, "src": "semaine 1-3", "explain": "사람 + 목적어 → Qui est-ce que (= Qui regardes-tu ? = Tu regardes qui ?)."},
+    {"id": "u0-05-qui-sujet", "t": "choice", "skill": "interrog", "hint": "사람이 주어! 가장 짧은 한 단어 형태는?", "prompt": "짧은 형태로", "q": "Le professeur me regarde. → ___ me regarde ?", "a": "Qui", "wrong": ["Que", "Quoi", "Qu'est-ce qui"], "say": "Qui me regarde ?", "src": "semaine 2-1", "explain": "사람 + 주어 → Qui (= Qui est-ce qui). 사물 주어였다면 Qu'est-ce qui."},
+    {"id": "u0-05-ex1-que", "t": "choice", "skill": "interrog", "hint": "도치 형태 앞 '무엇' — 사물·목적어의 짧은 형태!", "prompt": "Exercice 1: 빈칸에 알맞은 것은?", "q": "Tu manges quoi ? = ___ manges-tu ?", "a": "Que", "wrong": ["Qui", "Quoi", "Qu'est-ce que"], "say": "Que manges-tu ?", "src": "semaine 2-1", "explain": "Tu manges quoi ? = Qu'est-ce que tu manges ? = Que manges-tu ? (도치 앞엔 que)"},
+    {"id": "u0-05-ex5-rescene", "t": "choice", "skill": "interrog", "hint": "Rescene 멤버, 즉 사람을 묻는 목적어 자리!", "prompt": "Exercice 5: 빈칸에 알맞은 것은?", "q": "___ préfères-tu dans Rescene ?", "ko": "리센느에서 누구를 더 좋아해?", "a": "Qui", "wrong": ["Que", "Qu'est-ce qui", "Quel"], "say": "Qui préfères-tu dans Rescene ?", "star": true, "src": "semaine 2-1", "explain": "사람 + 목적어 + 도치 → Qui. (= Qui est-ce que tu préfères dans Rescene ?)"},
+    {"id": "u0-05-ex7-il-a", "t": "choice", "skill": "interrog", "hint": "il a(그가 가지다)의 목적어 + 사물! 모음 앞 축약도", "prompt": "Exercice 7: 빈칸에 알맞은 것은?", "q": "___ il a ?", "ko": "그 사람 무슨 일 있어? (그에게 무슨 일이야?)", "a": "Qu'est-ce qu'", "wrong": ["Qu'est-ce qui", "Qui est-ce qu'", "Quel"], "say": "Qu'est-ce qu'il a ?", "star": true, "src": "semaine 2-1", "explain": "사물 + 목적어 → Qu'est-ce que, il 앞이라 qu'. 6번 Qu'est-ce qu'il y a ?(무슨 일이야?)와 y 한 글자 차이!"},
+    {"id": "u0-05-quel-age", "t": "choice", "skill": "interrog", "hint": "âge는 -e로 끝나지만 남성 명사!", "prompt": "빈칸에 알맞은 것은?", "q": "___ âge as-tu ?", "ko": "몇 살이야?", "a": "Quel", "wrong": ["Quelle", "Quels", "Qu'est-ce que"], "say": "Quel âge as-tu ?", "src": "semaine 2-1", "explain": "âge는 남성 → quel. 나이는 avoir로: J'ai vingt ans."},
+    {"id": "u0-05-quel-nom", "t": "choice", "skill": "interrog", "hint": "nom의 성을 확인! être 앞 의문형용사도 명사에 일치", "prompt": "빈칸에 알맞은 것은?", "q": "___ est ton nom ?", "ko": "이름이 뭐야?", "a": "Quel", "wrong": ["Quelle", "Qui", "Que"], "say": "Quel est ton nom ?", "src": "semaine 2-1", "explain": "nom은 남성 → Quel est ton nom ? (Quel + être + 명사)"},
+    {"id": "u0-05-parle-t-il", "t": "build", "skill": "question", "hint": "parle은 모음 e로 끝나요! il과 부딪치면?", "prompt": "'왜'를 넣어 도치 의문문으로 바꾸세요", "from": "Il parle très vite.", "a": "Pourquoi parle-t-il très vite ?", "extra": ["parle-il", "Parce"], "ko": "그는 왜 그렇게 빨리 말해?", "src": "semaine 2-1", "explain": "Pourquoi + 도치. parle + il은 모음 충돌 → parle-t-il."},
+    {"id": "u0-05-quand", "t": "choice", "skill": "interrog", "hint": "'언제'를 묻는 의문사!", "prompt": "빈칸에 알맞은 것은?", "q": "___ rentres-tu à la maison ?", "ko": "언제 집에 돌아가?", "a": "Quand", "wrong": ["Combien", "Comment", "Quel"], "say": "Quand rentres-tu à la maison ?", "src": "semaine 2-1", "explain": "'언제' = Quand. '언제부터'는 Depuis quand."},
+    {"id": "u0-05-depuis-cafe", "t": "build", "skill": "interrog", "hint": "'언제부터' 두 단어 + 주어·동사 도치!", "prompt": "'언제부터' 도치 의문문으로 바꾸세요", "from": "Ils sont dans ce café.", "a": "Depuis quand sont-ils dans ce café ?", "extra": ["Pourquoi", "ils"], "ko": "그들은 언제부터 이 카페에 있어?", "src": "semaine 2-1", "explain": "Depuis quand + 도치(sont-ils). sont은 t로 끝나서 -t- 불필요."},
+    {"id": "u0-05-dejeuner-heure", "t": "build", "skill": "interrog", "hint": "'몇 시에' + aller 도치 + 동사원형", "prompt": "문장을 만드세요", "ko": "몇 시에 점심 먹을 거야?", "a": "À quelle heure vas-tu déjeuner ?", "extra": ["quel", "vais"], "src": "semaine 2-1", "explain": "À quelle heure + 도치(vas-tu) + 동사원형(déjeuner). heure는 여성 → quelle."},
+    {"id": "u0-05-frequence-foot", "t": "choice", "skill": "interrog", "hint": "얼마나 '자주'를 묻는 표현!", "prompt": "빈칸에 알맞은 것은?", "q": "___ est-ce qu'elle joue au football ?", "ko": "그녀는 얼마나 자주 축구를 해?", "a": "À quelle fréquence", "wrong": ["À quelle heure", "Depuis quand", "Combien"], "say": "À quelle fréquence est-ce qu'elle joue au football ?", "src": "semaine 2-1", "explain": "빈도 = À quelle fréquence. 대답: souvent, de temps en temps, une fois par semaine…"},
+    {"id": "u0-05-cinema-answer", "t": "choice", "skill": "time", "hint": "빈도를 물었어요! 빈도 부사는 동사 바로 뒤", "prompt": "알맞은 대답은?", "q": "À quelle fréquence allez-vous au cinéma ?", "a": "Je vais souvent au cinéma.", "wrong": ["Je vais au cinéma à huit heures.", "Je souvent vais au cinéma.", "Je vais au cinéma avec Alex."], "say": "À quelle fréquence allez-vous au cinéma ? Je vais souvent au cinéma.", "src": "semaine 2-1", "explain": "빈도 부사(souvent, parfois…)는 동사 바로 뒤: Je vais souvent au cinéma."},
+    {"id": "u0-05-parfois", "t": "choice", "skill": "time", "hint": "'가끔'을 뜻하는 또 다른 한 단어 — 슬라이드에서 / 로 나란히!", "prompt": "같은 뜻의 단어는?", "q": "quelquefois", "a": "parfois", "wrong": ["souvent", "jamais", "tous les jours"], "say": "quelquefois, parfois", "src": "semaine 2-1", "explain": "quelquefois = parfois = 가끔. souvent은 '자주', jamais는 '전혀'."},
+    {"id": "u0-05-souvent-build", "t": "build", "skill": "time", "hint": "빈도 부사 위치는 동사 바로 뒤!", "prompt": "문장을 만드세요", "ko": "나는 영화관에 자주 가.", "a": "Je vais souvent au cinéma.", "extra": ["jamais", "le"], "src": "semaine 2-1", "explain": "Je vais + souvent + au cinéma. 부사는 동사 바로 뒤."},
+    {"id": "u0-05-temps-build", "t": "build", "skill": "time", "hint": "'때때로' = from time to time, 네 단어 덩어리!", "prompt": "문장을 만드세요", "ko": "나는 때때로 영화관에 가.", "a": "Je vais de temps en temps au cinéma.", "extra": ["fois", "par"], "src": "semaine 2-1", "explain": "de temps en temps = 때때로. souvent처럼 동사 뒤에 넣어요."},
+    {"id": "u0-05-huit-fois", "t": "word", "skill": "time", "fr": "huit fois par mois", "ko": "한 달에 여덟 번", "note": "huit / cinq / six / dix fois par mois — 숫자만 바꾸기", "src": "semaine 2-1"},
+    {"id": "u0-05-par-semaine", "t": "choice", "skill": "time", "hint": "par = '~마다, ~당'. la semaine(그 주)와 구별!", "prompt": "뜻은?", "q": "Trois fois par semaine.", "a": "일주일에 세 번", "wrong": ["그 주에 세 번", "3주 동안", "세 번째 주에"], "say": "Trois fois par semaine.", "src": "노션 9/10", "explain": "par semaine = 한 주마다(주당). 필기: la semaine(그 주) / par semaine(한 주마다)."},
+    {"id": "u0-05-tous-pron", "t": "choice", "skill": "pron", "hint": "뒤에 명사가 오는 tous예요. 홀로 쓰일 때와 달라요", "prompt": "발음은?", "q": "tous les jours의 tous", "a": "[뚜] — s 묵음", "wrong": ["[뚜스] — s 발음", "[뚜즈] — 연음", "[또]"], "say": "tous les jours", "src": "Révision générale", "explain": "명사 앞 tous = [뚜]. 대명사로 홀로 쓰일 때만 [뚜스]: Ils sont tous là."},
+    {"id": "u0-05-ti-pron", "t": "choice", "skill": "pron", "hint": "교수님이 비교해서 짚은 짝! 한쪽은 s 뒤에 ti가 와요", "prompt": "ti 발음 비교", "q": "nationalité와 question의 ti는?", "a": "nationalité [씨] · question [띠]", "wrong": ["둘 다 [씨]", "둘 다 [띠]", "nationalité [띠] · question [씨]"], "say": "nationalité, question", "star": true, "src": "노션 9/8", "explain": "nationalité [나씨오날리떼]는 ti = [si], question [께스띠옹]은 s 뒤라 ti = [ti]."},
+    {"id": "u0-05-embre", "t": "choice", "skill": "pron", "hint": "em은 비모음 철자! an·en과 같은 줄이었어요", "prompt": "발음은?", "q": "septembre, novembre, décembre — -embre의 소리는?", "a": "[ɑ̃bʁ] 앙브흐", "wrong": ["[ɛmbʁ] 엠브흐", "[ɛ̃bʁ] 앵브흐", "[ɔ̃bʁ] 옹브흐"], "say": "septembre, novembre, décembre", "src": "노션 9/10", "explain": "-embre = 비모음 /ɑ̃/ + 브흐: 셉땅브흐 · 노방브흐 · 데쌍브흐."},
+    {"id": "u0-05-date-q", "t": "choice", "skill": "time", "hint": "jour는 '날짜'가 아니라 '요일'을 물을 때!", "prompt": "질문 고르기", "q": "날짜(며칠)를 묻는 질문이 아닌 것은?", "a": "On est quel jour ?", "wrong": ["On est le combien ?", "Nous sommes le combien ?", "Quelle est la date ?"], "say": "", "src": "노션 9/10", "explain": "On est quel jour ? = 무슨 요일? 날짜는 le combien ? / Quelle est la date ?"},
+    {"id": "u0-05-la-date", "t": "choice", "skill": "time", "hint": "date = 며칠! le + 숫자 + 달", "prompt": "알맞은 대답은?", "q": "Quelle est la date aujourd'hui ?", "a": "C'est le 9 septembre.", "wrong": ["C'est jeudi.", "C'est en septembre.", "C'est neuf heures."], "say": "Quelle est la date aujourd'hui ? C'est le 9 septembre.", "src": "Révision générale", "explain": "날짜는 le + 숫자 + 달. 요일(jeudi), 달(en septembre), 시간(neuf heures)과 구별!"},
+    {"id": "u0-05-vingt-et-un", "t": "choice", "skill": "time", "hint": "21·31·41…엔 숫자 사이에 접속사가 들어가요", "prompt": "21을 프랑스어로?", "q": "21", "a": "vingt et un", "wrong": ["vingt-un", "vingt-deux", "deux-un"], "say": "vingt et un", "src": "Révision générale", "explain": "21 = vingt et un (et 필수). 22부터는 vingt-deux처럼 하이픈만."},
+    {"id": "u0-05-quarante-six", "t": "choice", "skill": "time", "hint": "40 + 6, 하이픈으로 연결!", "prompt": "46을 프랑스어로?", "q": "46", "a": "quarante-six", "wrong": ["quatre-six", "quarante et six", "soixante-quatre"], "say": "quarante-six", "pron": "[까항뜨 씨스]", "src": "Révision générale", "explain": "46 = quarante-six. six를 단독으로 읽으면 [씨스]."},
+    {"id": "u0-05-dix-neuf-ans", "t": "choice", "skill": "pron", "hint": "neuf + ans은 특별한 연음! f가 부드러운 소리로 바뀌어요", "prompt": "발음은?", "q": "Alex a dix-neuf ans.", "a": "[디즈뇌 방] — f가 [v]로 연음", "wrong": ["[디즈뇌 팡] — f 그대로 연음", "[디즈뇌프 앙] — 연음 없음", "[디즈뇌 앙] — f 묵음"], "say": "Alex a dix-neuf ans.", "src": "semaine 1-2", "explain": "neuf ans · neuf heures에선 f가 [v]로 연음: [디즈뇌 방]. 보통은 [뇌프]."},
+    {"id": "u0-05-jeudi", "t": "word", "skill": "time", "fr": "jeudi", "ko": "목요일", "pron": "[죄디]", "note": "eu = /ø/ (입 오므려서) · On est jeudi.", "src": "semaine 1-2"},
+    {"id": "u0-05-lundi", "t": "word", "skill": "time", "fr": "lundi", "ko": "월요일", "pron": "[렁디]", "note": "un = /œ̃/ 비모음", "src": "semaine 1-2"},
+    {"id": "u0-05-mercredi", "t": "word", "skill": "time", "fr": "mercredi", "ko": "수요일", "pron": "[메흐크흐디]", "note": "tous les mercredis = 매주 수요일", "src": "semaine 2-1"}
+  ]
+}

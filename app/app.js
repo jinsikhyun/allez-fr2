@@ -55,6 +55,7 @@
     device: null, // 이 기기 id (동기화용, 기기마다 다름)
     sync: null, // { code, at, err } — 기기마다 따로
     ledgers: {}, // 다른 기기들의 장부 (동기화로 받아옴)
+    vb: { ed: {}, del: {}, kn: {} }, // 동사장에서 바꾼 것 (추가·수정·삭제·외웠어요)
     fold: {}, // 홈에서 접어 둔 유닛 { 유닛id: true/false } (없으면 마지막 유닛만 펼침)
     srs: 2, // 카드 상태 형식 버전 (2 = 졸업 시스템)
   });
@@ -65,7 +66,7 @@
       if (raw) {
         const s = JSON.parse(raw);
         const f = fresh();
-        const out = { ...f, ...s, settings: { ...f.settings, ...s.settings }, streak: { ...f.streak, ...s.streak }, stats: { ...f.stats, ...s.stats }, sk: s.sk || {}, kd: s.kd || {}, sens: s.sens || {}, ledgers: s.ledgers || {}, fold: s.fold || {} };
+        const out = { ...f, ...s, settings: { ...f.settings, ...s.settings }, streak: { ...f.streak, ...s.streak }, stats: { ...f.stats, ...s.stats }, sk: s.sk || {}, kd: s.kd || {}, sens: s.sens || {}, ledgers: s.ledgers || {}, fold: s.fold || {}, vb: s.vb || { ed: {}, del: {}, kn: {} } };
         if ((s.srs || 1) < 2) migrateToGraduation(out);
         return out;
       }
@@ -1419,9 +1420,296 @@
     $('button', el).onclick = () => el.remove();
   }
 
+  // ================================================================ 동사장 (Mes verbes)
+  // 기본 목록 = content.json의 verbs. 학생이 바꾼 것 = S.vb (기기 연동으로 합쳐짐, 바꾼 시각이 늦은 쪽이 이김)
+  //   S.vb.ed[id]  = { doc, at }   추가하거나 고친 동사
+  //   S.vb.del[id] = { v, at }     지운 동사 (v=false면 되살림)
+  //   S.vb.kn[id]  = { v, at }     외웠어요 표시
+  const VB_GROUPS = { 1: { name: '1군', sub: '-er 규칙 동사', color: 'var(--blue)' }, 2: { name: '2군', sub: '-ir 규칙 동사 (-issons)', color: 'var(--purple)' }, 3: { name: '불규칙', sub: '3군 (-ir · -re · -oir 등)', color: 'var(--orange)' } };
+  const AUX_FORMS = { avoir: ['ai', 'as', 'a', 'avons', 'avez', 'ont'], être: ['suis', 'es', 'est', 'sommes', 'êtes', 'sont'] };
+  const ETRE_VERBS = new Set(['aller', 'venir', 'arriver', 'partir', 'entrer', 'sortir', 'monter', 'descendre', 'naître', 'mourir', 'tomber', 'rester', 'rentrer', 'retourner', 'revenir', 'devenir', 'passer', 'repartir', 'ressortir', 'redescendre', 'remonter', 'parvenir', 'intervenir']);
+  const IR_IRREG = /(dormir|partir|sortir|sentir|servir|mentir|courir|mourir|ouvrir|offrir|couvrir|souffrir|cueillir|tenir|venir|fuir|acquérir|bouillir)$/;
+  const vbSlug = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  const vbIsPron = (inf) => /^(se |s')/.test(inf);
+  const vbBase = (inf) => inf.replace(/^(se |s')/, '');
+  const VB = { q: '', filter: 'all', hide: false, revealed: new Set(), confirm: null, showDeleted: false };
+  function vbState() {
+    if (!S.vb) S.vb = { ed: {}, del: {}, kn: {} };
+    for (const k of ['ed', 'del', 'kn']) if (!S.vb[k]) S.vb[k] = {};
+    return S.vb;
+  }
+  function vbList() {
+    const st = vbState();
+    const map = new Map((C.verbs || []).map((v) => [v.id, { ...v, origin: 'class' }]));
+    for (const [id, e] of Object.entries(st.ed)) map.set(id, { ...(map.get(id) || {}), ...e.doc, id, origin: map.has(id) ? (map.get(id).origin) : 'mine', edited: map.has(id) });
+    const out = [];
+    for (const [id, v] of map) {
+      if (vbIsDeleted(id)) continue;
+      out.push({ ...v, known: !!(st.kn[id] && st.kn[id].v) });
+    }
+    return out.sort((a, b) => (a.group || '3').localeCompare(b.group || '3') || vbBase(a.inf).localeCompare(vbBase(b.inf), 'fr'));
+  }
+  function vbIsDeleted(id) {
+    const st = vbState();
+    const d = st.del[id];
+    return !!(d && d.v && d.at >= ((st.ed[id] || {}).at || 0));
+  }
+  function vbDeleted() { return (C.verbs || []).filter((v) => vbIsDeleted(v.id)); }
+  function vbTouch() { save(); syncNow(); }
+
+  // ---- 규칙으로 변화형 채우기 (규칙 동사 · 아는 동사의 파생어)
+  function vbGuess(infRaw) {
+    const inf = infRaw.trim().toLowerCase().replace(/\s+/g, ' ');
+    const pron = vbIsPron(inf);
+    const base = vbBase(inf);
+    let forms, pp, group, aux = 'avoir', how;
+    const list = vbList();
+    // 1) 아는 동사에서 파생 (revenir ← venir, permettre ← mettre, découvrir ← couvrir…)
+    const parent = list.filter((v) => !v.pronominal && v.group === '3' && base !== vbBase(v.inf) && base.endsWith(vbBase(v.inf)) && vbBase(v.inf).length >= 4)
+      .sort((a, b) => vbBase(b.inf).length - vbBase(a.inf).length)[0];
+    if (parent) {
+      const pre = base.slice(0, base.length - parent.inf.length);
+      forms = Object.fromEntries(PERSONS.map((p) => [p, pre + parent.forms[p]]));
+      pp = pre + parent.pp; group = '3'; aux = parent.aux; how = `「${parent.inf}」와 같은 변화`;
+    } else if (/er$/.test(base) && base !== 'aller') {
+      const st = base.slice(0, -2);
+      let strong = st, nous = st;
+      if (/g$/.test(st)) nous = st + 'e';
+      if (/c$/.test(st)) nous = st.slice(0, -1) + 'ç';
+      if (/(oy|uy)$/.test(st)) strong = st.slice(0, -1) + 'i';
+      else if (/(app|rapp)el$|(^|re)jet$/.test(st)) strong = st + st.slice(-1);
+      else if (/é[^aeiouéèê]+$/.test(st)) strong = st.replace(/é([^aeiouéèê]+)$/, 'è$1');
+      else if (/e[^aeiouéèê]$/.test(st) && st.length > 2) strong = st.replace(/e([^aeiouéèê])$/, 'è$1');
+      forms = { je: strong + 'e', tu: strong + 'es', il: strong + 'e', nous: nous + 'ons', vous: st + 'ez', ils: strong + 'ent' };
+      pp = st + 'é'; group = '1'; how = '1군 규칙';
+    } else if (/ir$/.test(base) && !IR_IRREG.test(base)) {
+      const st = base.slice(0, -2);
+      forms = { je: st + 'is', tu: st + 'is', il: st + 'it', nous: st + 'issons', vous: st + 'issez', ils: st + 'issent' };
+      pp = st + 'i'; group = '2'; how = '2군 규칙 (dormir·partir처럼 3군일 수도 있으니 확인!)';
+    } else if (/dre$/.test(base) && !/prendre$/.test(base)) {
+      const st = base.slice(0, -2);
+      forms = { je: st + 's', tu: st + 's', il: st, nous: st + 'ons', vous: st + 'ez', ils: st + 'ent' };
+      pp = st + 'u'; group = '3'; how = 'attendre형 (-dre)';
+    } else return null;
+    if (pron) {
+      const refl = ['me', 'te', 'se', 'nous', 'vous', 'se'];
+      forms = Object.fromEntries(PERSONS.map((p, i) => {
+        const f = forms[p], r = refl[i];
+        return [p, r.length === 2 && VOWEL.test(f) ? r[0] + "'" + f : `${r} ${f}`];
+      }));
+      aux = 'être';
+    } else if (ETRE_VERBS.has(base)) aux = 'être';
+    const nous = forms.nous.replace(/^nous /, '');
+    let ppr = ({ avoir: 'ayant', être: 'étant', savoir: 'sachant' })[base] || nous.replace(/ons$/, 'ant');
+    if (pron) ppr = (VOWEL.test(ppr) ? "s'" : 'se ') + ppr;
+    return { inf, forms, pp, ppr, group, aux, pronominal: pron, how };
+  }
+
+  // ---- 표시용 변화형
+  function vbMark(form, inf) {
+    const m = form.match(/^((?:me|te|se|nous|vous) |[mts]')?(.*)$/);
+    const refl = m[1] || '', verb = m[2];
+    const stem = vbBase(inf).replace(/(er|ir|re|oir)$/, '');
+    let i = 0;
+    while (i < verb.length && i < stem.length && verb[i] === stem[i]) i++;
+    if (i === 0) i = Math.max(0, verb.length - 3);
+    const tail = verb.slice(i);
+    return `${esc(refl)}${esc(verb.slice(0, i))}${tail ? `<em>${esc(tail)}</em>` : ''}`;
+  }
+  function vbPresent(v) {
+    return PERSONS.map((p) => {
+      const f = (v.forms || {})[p] || '';
+      const s = p === 'je' && !v.pronominal && VOWEL.test(f) ? "j'" : PLABEL[p];
+      const spoken = (s.endsWith("'") ? s : s.split('/')[0] + ' ') + f;
+      return { s, html: vbMark(f, v.inf), spoken };
+    });
+  }
+  function vbPC(v) {
+    const aux = AUX_FORMS[v.aux] || AUX_FORMS.avoir;
+    const etre = v.aux === 'être';
+    const agree = ['(e)', '(e)', '(e)', '(e)s', '(e)(s)', '(e)s'];
+    const refl = ['me', 'te', 'se', 'nous', 'vous', 'se'];
+    return PERSONS.map((p, i) => {
+      const a = aux[i];
+      const pre = v.pronominal ? ((i !== 3 && i !== 4 && VOWEL.test(a)) ? refl[i][0] + "'" + a : `${refl[i]} ${a}`) : a;
+      const s = !v.pronominal && p === 'je' && VOWEL.test(a) ? "j'" : PLABEL[p];
+      const spoken = (s.endsWith("'") ? s : s.split('/')[0] + ' ') + pre + ' ' + v.pp;
+      return { s, html: `${esc(pre)} ${esc(v.pp)}${etre ? `<em>${esc(agree[i])}</em>` : ''}`, spoken };
+    });
+  }
+
+  function vbCard(v) {
+    const g = VB_GROUPS[v.group] || VB_GROUPS[3];
+    const hidden = VB.hide && !VB.revealed.has(v.id);
+    const line = (l) => `<button class="vb-line ${hidden ? 'vb-hid' : ''} ${l.s.endsWith("'") ? 'el' : ''}" data-vsay="${esc(l.spoken)}"><span class="p">${esc(l.s)}</span><span class="f">${l.html}</span></button>`;
+    const src = v.origin === 'mine' ? '내가 추가한 동사' : v.since ? `${shortDate(v.since)} 수업부터` : '수업 예문·필기에 등장';
+    return `<article class="vb-card ${v.known ? 'known' : ''}" data-vid="${esc(v.id)}">
+      <div class="vb-head">
+        <span class="vb-inf fr">${esc(v.inf)}</span>
+        ${speakBtn(v.inf)}
+        <span class="muted">→</span><span class="vb-ko">${esc(v.ko || '')}</span>
+        <span class="vb-pron muted">${esc(v.pron || '')}</span>
+        <span class="vb-badge" style="background:${g.color}">${g.name}${v.pronominal ? ' · 대명동사' : ''}</span>
+        ${v.origin === 'mine' ? '<span class="vb-badge" style="background:var(--muted)">내가 추가</span>' : v.edited ? '<span class="vb-badge" style="background:var(--muted)">수정함</span>' : ''}
+      </div>
+      <div class="vb-tools">
+        <button class="vb-known" data-vact="known" aria-pressed="${v.known}">${v.known ? '✓ 외웠어요' : '외웠어요?'}</button>
+        ${VB.hide ? `<button class="vb-more" data-vact="reveal">${VB.revealed.has(v.id) ? '다시 가리기' : '다 보기'}</button>` : ''}
+        <button class="vb-more" data-vact="edit">수정</button><button class="vb-more" data-vact="del">삭제</button>
+      </div>
+      ${VB.confirm === v.id ? `<div class="vb-confirm">「${esc(v.inf)}」를 동사장에서 지울까요?${v.origin === 'class' ? ' (설정 아래 「지운 동사」에서 되살릴 수 있어요)' : ''} <button class="btn small red" data-vact="del-yes">삭제</button><button class="btn small ghost" data-vact="del-no">취소</button></div>` : ''}
+      <div class="vb-box fr">
+        <div><span class="lbl">Infinitif</span><b>${esc(v.inf)}</b></div>
+        <div class="${hidden ? 'vb-hid' : ''}"><span class="lbl">Participe présent</span><b class="f">${esc(v.ppr || '')}</b></div>
+        <div class="${hidden ? 'vb-hid' : ''}"><span class="lbl">Participe passé</span><b class="f">${esc(v.pp || '')}</b></div>
+      </div>
+      <div class="vb-meta"><span>Groupe <b>${g.name}</b></span><span>Auxiliaire <b class="fr">${esc(v.aux)}</b></span><span>${esc(src)}</span></div>
+      <div class="vb-tenses fr">
+        <div class="vb-tense"><h4>Présent</h4>${vbPresent(v).map(line).join('')}</div>
+        <div class="vb-tense"><h4>Passé composé</h4>${vbPC(v).map(line).join('')}</div>
+      </div>
+      ${v.note ? `<div class="vb-note"><b>주의</b> ${esc(v.note)}</div>` : ''}
+    </article>`;
+  }
+
+  function vbFiltered(all) {
+    const strip = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+    const q = strip(VB.q.trim());
+    return all.filter((v) => {
+      const f = VB.filter;
+      if (f === 'pron' && !v.pronominal) return false;
+      if (['1', '2', '3'].includes(f) && v.group !== f) return false;
+      if (f === 'todo' && v.known) return false;
+      if (f === 'known' && !v.known) return false;
+      if (f === 'mine' && v.origin !== 'mine') return false;
+      if (!q) return true;
+      return strip([v.inf, v.ko, v.pp, ...Object.values(v.forms || {})].join(' ')).includes(q);
+    });
+  }
+
+  function renderVerbs() {
+    view = 'verbs';
+    const all = vbList();
+    const n = (fn) => all.filter(fn).length;
+    const chips = [['all', `전체 ${all.length}`], ['1', `1군 ${n((v) => v.group === '1')}`], ['2', `2군 ${n((v) => v.group === '2')}`], ['3', `불규칙 ${n((v) => v.group === '3')}`],
+      ['pron', `대명동사 ${n((v) => v.pronominal)}`], ['todo', `외울 것 ${n((v) => !v.known)}`], ['known', `✓ 외웠어요 ${n((v) => v.known)}`]];
+    if (all.some((v) => v.origin === 'mine')) chips.push(['mine', `내가 추가 ${n((v) => v.origin === 'mine')}`]);
+    const vs = vbFiltered(all);
+    let body = '';
+    for (const g of ['1', '2', '3']) {
+      const part = vs.filter((v) => v.group === g);
+      if (!part.length) continue;
+      body += `<div class="vb-group"><span class="vb-dot" style="background:${VB_GROUPS[g].color}"></span><h3>${VB_GROUPS[g].name}</h3><span class="muted">${esc(VB_GROUPS[g].sub)} · ${part.length}개</span></div>${part.map(vbCard).join('')}`;
+    }
+    if (!body) body = `<div class="empty"><div class="e">${Pipou.svg('think')}</div><p>${VB.q ? `「${esc(VB.q)}」에 맞는 동사가 없어요.` : '이 필터에 해당하는 동사가 없어요.'}</p></div>`;
+    const deleted = vbDeleted();
+    const scrollY = window.scrollY;
+    app.innerHTML = `
+      <div class="page-head"><button class="icon-btn" id="back" aria-label="뒤로">←</button><h2>📒 동사장 <small class="muted fr" style="font-weight:600">Mes verbes</small></h2><button class="btn small" id="vb-add" style="width:auto">＋ 추가</button></div>
+      <div class="page vb-page">
+        <div class="vb-bar">
+          <input class="type-input" id="vb-q" type="search" placeholder="동사·뜻 검색 (예: prendre, 가다)" value="${esc(VB.q)}" autocomplete="off" autocapitalize="off" spellcheck="false">
+          <button class="btn small ghost vb-hide" id="vb-hide" aria-pressed="${VB.hide}">🙈 가리기</button>
+        </div>
+        <div class="vb-chips">${chips.map(([k, t]) => `<button class="vb-chip" data-vf="${k}" aria-pressed="${VB.filter === k}">${esc(t)}</button>`).join('')}</div>
+        <div class="muted" style="font-size:13px">외운 동사 ${n((v) => v.known)} / ${all.length} · 줄을 누르면 읽어줘요${VB.hide ? ' · 가린 칸은 눌러서 확인' : ''}</div>
+        ${body}
+        ${deleted.length ? `<details class="box" ${VB.showDeleted ? 'open' : ''} id="vb-deleted"><summary>🗑️ 지운 동사 ${deleted.length}개</summary>${deleted.map((v) => `<div class="li"><div class="l1"><b class="fr">${esc(v.inf)}</b><small>${esc(v.ko)}</small></div><button class="btn small ghost" style="width:auto" data-vrestore="${esc(v.id)}">되살리기</button></div>`).join('')}</details>` : ''}
+      </div>`;
+    window.scrollTo(0, scrollY);
+    $('#back').onclick = goHome;
+    $('#vb-add').onclick = () => vbForm(null);
+    const qi = $('#vb-q');
+    qi.oninput = () => {
+      VB.q = qi.value;
+      const pos = qi.selectionStart;
+      renderVerbs();
+      const ni = $('#vb-q'); ni.focus(); try { ni.setSelectionRange(pos, pos); } catch (e) { /* 무시 */ }
+    };
+    $('#vb-hide').onclick = () => { VB.hide = !VB.hide; VB.revealed.clear(); renderVerbs(); };
+    $$('[data-vf]').forEach((b) => b.onclick = () => { VB.filter = b.dataset.vf; renderVerbs(); });
+    $$('[data-vrestore]').forEach((b) => b.onclick = () => { const st = vbState(); st.del[b.dataset.vrestore] = { v: false, at: Date.now() }; VB.showDeleted = true; vbTouch(); renderVerbs(); toast('되살렸어요'); });
+    const det = $('#vb-deleted'); if (det) det.ontoggle = () => { VB.showDeleted = det.open; };
+    $$('[data-vsay]').forEach((b) => b.onclick = () => {
+      if (b.classList.contains('vb-hid')) { b.classList.remove('vb-hid'); return; }
+      TTS.speak(b.dataset.vsay);
+    });
+    $$('.vb-box .vb-hid').forEach((d) => d.onclick = () => d.classList.remove('vb-hid'));
+    $$('[data-vact]').forEach((b) => b.onclick = () => {
+      const id = b.closest('.vb-card').dataset.vid;
+      const v = all.find((x) => x.id === id);
+      const st = vbState();
+      const act = b.dataset.vact;
+      if (act === 'known') { st.kn[id] = { v: !v.known, at: Date.now() }; vbTouch(); renderVerbs(); return; }
+      if (act === 'reveal') { VB.revealed.has(id) ? VB.revealed.delete(id) : VB.revealed.add(id); renderVerbs(); return; }
+      if (act === 'edit') { vbForm(v); return; }
+      if (act === 'del') { VB.confirm = id; renderVerbs(); return; }
+      if (act === 'del-no') { VB.confirm = null; renderVerbs(); return; }
+      if (act === 'del-yes') {
+        VB.confirm = null;
+        if (v.origin === 'mine') delete st.ed[id];
+        st.del[id] = { v: true, at: Date.now() };
+        vbTouch(); renderVerbs(); toast(`「${v.inf}」를 지웠어요`);
+      }
+    });
+    bindSpeak();
+  }
+
+  function vbForm(v) {
+    const editing = !!v;
+    const f = v || { forms: {} };
+    const sh = sheet(`
+      <h3>${editing ? `「${esc(v.inf)}」 수정` : '동사 추가'}</h3>
+      <form class="vb-form" id="vb-form">
+        <div class="vb-row"><label>동사원형<input id="vf-inf" class="fr" value="${esc(f.inf || '')}" ${editing ? 'disabled' : ''} required autocapitalize="off" spellcheck="false" placeholder="예: revenir, se coucher"></label>
+          ${editing ? '' : '<button type="button" class="btn small ghost" id="vf-guess" style="width:auto">✨ 변화형 채우기</button>'}</div>
+        <div class="muted" id="vf-msg" style="font-size:13px">${editing ? '' : '동사원형을 쓰고 「변화형 채우기」를 누르면 규칙 동사와 아는 동사의 파생어(revenir, permettre…)는 자동으로 채워져요. 뜻·발음은 직접 써주세요.'}</div>
+        <div class="vb-grid">
+          <label>뜻<input id="vf-ko" value="${esc(f.ko || '')}" required></label>
+          <label>발음<input id="vf-pron" value="${esc(f.pron || '')}" placeholder="[프항드흐]"></label>
+          <label>그룹<select id="vf-group">${['1', '2', '3'].map((g) => `<option value="${g}" ${f.group === g ? 'selected' : ''}>${VB_GROUPS[g].name}</option>`).join('')}</select></label>
+          <label>조동사<select id="vf-aux" class="fr">${['avoir', 'être'].map((a) => `<option ${f.aux === a ? 'selected' : ''}>${a}</option>`).join('')}</select></label>
+          <label>과거분사<input id="vf-pp" class="fr" value="${esc(f.pp || '')}" required></label>
+          <label>현재분사<input id="vf-ppr" class="fr" value="${esc(f.ppr || '')}"></label>
+        </div>
+        <div class="vb-grid">${PERSONS.map((p) => `<label>${PLABEL[p]}<input id="vf-${p}" class="fr" value="${esc((f.forms || {})[p] || '')}" required autocapitalize="off" spellcheck="false"></label>`).join('')}</div>
+        <label class="vb-full">메모 (주의할 점)<textarea id="vf-note" rows="2">${esc(f.note || '')}</textarea></label>
+        <div class="row"><button type="button" class="btn ghost" id="vf-cancel">취소</button><button type="submit" class="btn">저장</button></div>
+      </form>`);
+    sh.classList.add('tall');
+    const msg = $('#vf-msg', sh);
+    $('#vf-cancel', sh).onclick = closeSheet;
+    const g = $('#vf-guess', sh);
+    if (g) g.onclick = () => {
+      const inf = $('#vf-inf', sh).value.trim();
+      if (!inf) { msg.textContent = '먼저 동사원형을 써주세요.'; return; }
+      const r = vbGuess(inf);
+      if (!r) { msg.textContent = '불규칙 동사라 자동으로 못 채워요. 변화형을 직접 써주세요.'; return; }
+      $('#vf-group', sh).value = r.group; $('#vf-aux', sh).value = r.aux; $('#vf-pp', sh).value = r.pp; $('#vf-ppr', sh).value = r.ppr;
+      PERSONS.forEach((p) => { $(`#vf-${p}`, sh).value = r.forms[p]; });
+      msg.textContent = `채웠어요 (${r.how}). 틀린 곳이 없는지 확인하세요.`;
+    };
+    $('#vb-form', sh).onsubmit = (e) => {
+      e.preventDefault();
+      const inf = editing ? v.inf : $('#vf-inf', sh).value.trim().replace(/\s+/g, ' ');
+      const id = editing ? v.id : vbSlug(inf);
+      if (!editing && vbList().some((x) => x.id === id)) { msg.textContent = `「${inf}」는 이미 동사장에 있어요.`; return; }
+      const doc = {
+        inf, ko: $('#vf-ko', sh).value.trim(), pron: $('#vf-pron', sh).value.trim(), group: $('#vf-group', sh).value,
+        aux: $('#vf-aux', sh).value, pp: $('#vf-pp', sh).value.trim(), ppr: $('#vf-ppr', sh).value.trim(), pronominal: vbIsPron(inf),
+        forms: Object.fromEntries(PERSONS.map((p) => [p, $(`#vf-${p}`, sh).value.trim()])), note: $('#vf-note', sh).value.trim(),
+        since: editing ? (v.since || '') : '', lessons: editing ? (v.lessons || []) : [],
+      };
+      vbState().ed[id] = { doc, at: Date.now() };
+      vbTouch();
+      closeSheet();
+      if (!editing) { VB.q = ''; VB.filter = 'all'; }
+      renderVerbs();
+      toast(editing ? `「${inf}」를 고쳤어요` : `「${inf}」를 추가했어요`);
+    };
+  }
+
   // ================================================================ home
-  // 동사장(Mes verbes): claude.ai Artifact 페이지 — 동사 82개 + 직접 추가·삭제·암기
-  const VERBS_URL = 'https://claude.ai/artifact/5h7xwz3k1HJzztxPZRX3ky';
   function markSeen(lessonId) {
     if (!S.seenLessons) S.seenLessons = [];
     if (!S.seenLessons.includes(lessonId)) { S.seenLessons.push(lessonId); save(); }
@@ -1532,7 +1820,7 @@
           <div class="sub-actions">
             <button class="btn small ghost" id="go-weak">🎯 약점 훈련${weak ? '' : ''}</button>
             <button class="btn small ghost" id="go-mistakes">📕 오답노트${mistakes ? ` ${mistakes}` : ''}</button>
-            <a class="btn small ghost verbs-link" href="${VERBS_URL}" target="_blank" rel="noopener">📒 동사장 · Mes verbes <span aria-hidden="true">↗</span></a>
+            <button class="btn small ghost verbs-link" id="go-verbs">📒 동사장 · Mes verbes</button>
           </div>
         </div>
         ${recentHtml}
@@ -1543,6 +1831,7 @@
     $('#go-review').onclick = () => startSession('review');
     $('#go-weak').onclick = () => openView('weak', renderWeak);
     $('#go-mistakes').onclick = () => openView('mistakes', renderMistakes);
+    $('#go-verbs').onclick = () => { window.scrollTo(0, 0); openView('verbs', renderVerbs); };
     $$('.node, .recent-row').forEach((b) => b.onclick = () => openLessonSheet(b.dataset.l));
     $$('.unit-note').forEach((b) => b.onclick = () => openView('notes', () => renderUnitNotes(b.dataset.u)));
     $$('.unit-toggle').forEach((b) => b.onclick = () => {
@@ -2016,6 +2305,14 @@
       }
     }
     if ((remote.sensAt || 0) > (S.sensAt || 0)) { S.sens = remote.sens || {}; S.sensAt = remote.sensAt; }
+    if (remote.vb) {
+      const st = vbState();
+      for (const k of ['ed', 'del', 'kn']) {
+        for (const [id, r] of Object.entries(remote.vb[k] || {})) {
+          if (r && typeof r === 'object' && (!st[k][id] || (r.at || 0) > (st[k][id].at || 0))) st[k][id] = r;
+        }
+      }
+    }
     if (Array.isArray(remote.seenLessons)) S.seenLessons = [...new Set([...(S.seenLessons || []), ...remote.seenLessons])];
     S.stats.bestCombo = Math.max(S.stats.bestCombo || 0, remote.bestCombo || 0);
     S.streak.best = Math.max(S.streak.best || 0, remote.streakBest || 0);
@@ -2042,7 +2339,7 @@
         const me = deviceId();
         await syncApi('put', {
           v: 1, updatedAt: Date.now(), ledgers: { ...S.ledgers, [me]: own }, cards: S.cards, sk: S.sk, kd: S.kd,
-          sens: S.sens, sensAt: S.sensAt || 0, seenLessons: S.seenLessons || [], bestCombo: S.stats.bestCombo || 0, streakBest: S.streak.best || 0,
+          sens: S.sens, sensAt: S.sensAt || 0, vb: vbState(), seenLessons: S.seenLessons || [], bestCombo: S.stats.bestCombo || 0, streakBest: S.streak.best || 0,
         });
         S.sync.at = Date.now();
         S.sync.err = null;

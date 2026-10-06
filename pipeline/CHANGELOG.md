@@ -149,3 +149,9 @@ PARTIE 1(대화문 복습 + pour aller plus loin)은 간지만 있고 내용 슬
 - 별도 동사장 페이지(claude.ai Artifact): 동사 82개(1군 42 · 2군 8 · 불규칙 32, 대명동사 8)를 Reverso 형식(Présent · Passé composé · 분사)으로. 직접 추가(✨ 자동 채우기)·수정·삭제, 가리기 모드, 외웠어요 표시
 - Allez 홈에 「📒 동사장 · Mes verbes」 버튼 추가 (새 탭으로 열림). 페이지 원본은 `verbs/`
 - 배포: content.json version 20261006060155
+
+## 2026-10-06 — 동사장을 Allez 안으로
+- Artifact 연결 대신 Allez 자체 화면 「📒 동사장」: 기본 82개는 `content/verbs.json` → content.json에 포함
+- 추가·수정·삭제(되살리기)·외웠어요는 앱 기록(`S.vb`)에 저장, 기기 연동으로 컴↔폰 합침(항목마다 바꾼 시각이 늦은 쪽)
+- 변화형 채우기: 1군·2군·-dre 규칙(철자 변화 포함) + 아는 동사의 파생어(revenir, permettre, découvrir…), 대명동사 자동. 불규칙은 직접 입력
+- 빌드: 수업 카드의 동사가 동사장에 없으면 경고. 이전 Artifact용 `verbs/` 폴더 삭제

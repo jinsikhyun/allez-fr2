@@ -308,6 +308,29 @@ for (const u of bundle.units) for (const l of u.lessons) {
   }
 }
 
+// ---- 동사장 기본 목록 (content/verbs.json)
+{
+  const where = 'content/verbs.json';
+  const verbs = readJson(path.join(contentDir, 'verbs.json')) || [];
+  const ids = new Set();
+  for (const [i, v] of verbs.entries()) {
+    const w = `${where}[${i}] ${v && v.inf}`;
+    if (!str(v.id) || !str(v.inf) || !str(v.ko)) { err(w, 'id, inf, ko 필요'); continue; }
+    if (ids.has(v.id)) err(w, `id "${v.id}" 중복`);
+    ids.add(v.id);
+    if (!['1', '2', '3'].includes(v.group)) err(w, 'group은 "1" | "2" | "3"');
+    if (!['avoir', 'être'].includes(v.aux)) err(w, 'aux는 avoir/être');
+    if (!str(v.pp)) err(w, 'pp 없음');
+    for (const p of PERSONS) if (!v.forms || !str(v.forms[p])) err(w, `forms.${p} 없음`);
+  }
+  // 수업 카드에 나온 동사가 동사장에 빠졌는지
+  const known = new Set(verbs.map((v) => v.inf));
+  for (const u of bundle.units) for (const l of u.lessons) for (const c of l.cards) {
+    if ((c.t === 'verb' || c.t === 'pp') && !known.has(c.inf)) warn(where, `${l.id}의 "${c.inf}"가 동사장에 없음 — content/verbs.json에 추가`);
+  }
+  bundle.verbs = verbs;
+}
+
 for (const w of warnings) console.warn('⚠️ ', w);
 for (const e of errors) console.error('❌', e);
 

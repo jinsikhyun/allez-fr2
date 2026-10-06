@@ -22,9 +22,7 @@
    "u0-06",
    "u1-02"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "aimer",
@@ -48,9 +46,7 @@
   "lessons": [
    "u0-06"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "aller",
@@ -75,9 +71,7 @@
    "u0-07",
    "u1-05"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "appeler",
@@ -101,9 +95,7 @@
   "lessons": [
    "u0-06"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "apporter",
@@ -127,9 +119,7 @@
   "lessons": [
    "u0-06"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "apprendre",
@@ -154,9 +144,7 @@
    "u0-08",
    "u1-03"
   ],
-  "since": "2026-09-10",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-10"
  },
  {
   "id": "arriver",
@@ -180,9 +168,7 @@
   "lessons": [
    "u1-05"
   ],
-  "since": "2026-09-16",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-16"
  },
  {
   "id": "arreter",
@@ -206,9 +192,7 @@
   "lessons": [
    "u0-06"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "attendre",
@@ -233,9 +217,7 @@
    "u0-08",
    "u1-02"
   ],
-  "since": "2026-09-10",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-10"
  },
  {
   "id": "avoir",
@@ -260,9 +242,7 @@
    "u0-07",
    "u1-03"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "boire",
@@ -284,9 +264,7 @@
   "ppr": "buvant",
   "note": "",
   "lessons": [],
-  "since": "",
-  "origin": "class",
-  "known": false
+  "since": ""
  },
  {
   "id": "chercher",
@@ -308,9 +286,7 @@
   "ppr": "cherchant",
   "note": "",
   "lessons": [],
-  "since": "",
-  "origin": "class",
-  "known": false
+  "since": ""
  },
  {
   "id": "choisir",
@@ -335,9 +311,7 @@
    "u0-06",
    "u1-02"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "commencer",
@@ -361,9 +335,7 @@
   "lessons": [
    "u0-06"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "comprendre",
@@ -388,9 +360,7 @@
    "u0-08",
    "u1-03"
   ],
-  "since": "2026-09-10",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-10"
  },
  {
   "id": "conduire",
@@ -412,9 +382,7 @@
   "ppr": "conduisant",
   "note": "",
   "lessons": [],
-  "since": "",
-  "origin": "class",
-  "known": false
+  "since": ""
  },
  {
   "id": "connaitre",
@@ -439,9 +407,7 @@
    "u0-07",
    "u1-03"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "courir",
@@ -463,9 +429,7 @@
   "ppr": "courant",
   "note": "",
   "lessons": [],
-  "since": "",
-  "origin": "class",
-  "known": false
+  "since": ""
  },
  {
   "id": "descendre",
@@ -490,9 +454,7 @@
    "u0-08",
    "u1-05"
   ],
-  "since": "2026-09-10",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-10"
  },
  {
   "id": "devenir",
@@ -517,9 +479,7 @@
    "u0-08",
    "u1-05"
   ],
-  "since": "2026-09-10",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-10"
  },
  {
   "id": "devoir",
@@ -544,9 +504,7 @@
    "u0-07",
    "u1-03"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "dire",
@@ -571,9 +529,7 @@
    "u0-08",
    "u1-03"
   ],
-  "since": "2026-09-10",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-10"
  },
  {
   "id": "donner",
@@ -597,9 +553,7 @@
   "lessons": [
    "u0-06"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "dormir",
@@ -623,9 +577,7 @@
   "lessons": [
    "u0-08"
   ],
-  "since": "2026-09-10",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-10"
  },
  {
   "id": "entrer",
@@ -650,9 +602,7 @@
    "u0-06",
    "u1-05"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "faire",
@@ -677,9 +627,7 @@
    "u0-07",
    "u1-03"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "finir",
@@ -704,9 +652,7 @@
    "u0-06",
    "u1-02"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "grandir",
@@ -731,9 +677,7 @@
    "u0-06",
    "u1-02"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "grossir",
@@ -757,9 +701,7 @@
   "lessons": [
    "u0-06"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "habiter",
@@ -783,9 +725,7 @@
   "lessons": [
    "u0-06"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "laisser",
@@ -809,9 +749,7 @@
   "lessons": [
    "u0-06"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "lire",
@@ -836,9 +774,7 @@
    "u0-08",
    "u1-03"
   ],
-  "since": "2026-09-10",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-10"
  },
  {
   "id": "manger",
@@ -863,9 +799,7 @@
    "u0-06",
    "u1-02"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "manquer",
@@ -889,9 +823,7 @@
   "lessons": [
    "u0-06"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "marcher",
@@ -913,9 +845,7 @@
   "ppr": "marchant",
   "note": "",
   "lessons": [],
-  "since": "",
-  "origin": "class",
-  "known": false
+  "since": ""
  },
  {
   "id": "mettre",
@@ -940,9 +870,7 @@
    "u0-08",
    "u1-03"
   ],
-  "since": "2026-09-10",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-10"
  },
  {
   "id": "monter",
@@ -967,9 +895,7 @@
    "u0-06",
    "u1-05"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "mourir",
@@ -993,9 +919,7 @@
   "lessons": [
    "u1-05"
   ],
-  "since": "2026-09-16",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-16"
  },
  {
   "id": "naitre",
@@ -1019,9 +943,7 @@
   "lessons": [
    "u1-05"
   ],
-  "since": "2026-09-16",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-16"
  },
  {
   "id": "offrir",
@@ -1043,9 +965,7 @@
   "ppr": "offrant",
   "note": "",
   "lessons": [],
-  "since": "",
-  "origin": "class",
-  "known": false
+  "since": ""
  },
  {
   "id": "ouvrir",
@@ -1069,9 +989,7 @@
   "lessons": [
    "u1-03"
   ],
-  "since": "2026-09-15",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-15"
  },
  {
   "id": "parler",
@@ -1096,9 +1014,7 @@
    "u0-06",
    "u1-02"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "partir",
@@ -1123,9 +1039,7 @@
    "u0-08",
    "u1-05"
   ],
-  "since": "2026-09-10",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-10"
  },
  {
   "id": "passer",
@@ -1150,9 +1064,7 @@
    "u0-06",
    "u1-05"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "porter",
@@ -1176,9 +1088,7 @@
   "lessons": [
    "u0-06"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "pouvoir",
@@ -1203,9 +1113,7 @@
    "u0-07",
    "u1-03"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "prendre",
@@ -1230,9 +1138,7 @@
    "u0-08",
    "u1-03"
   ],
-  "since": "2026-09-10",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-10"
  },
  {
   "id": "preferer",
@@ -1256,9 +1162,7 @@
   "lessons": [
    "u0-06"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "quitter",
@@ -1283,9 +1187,7 @@
    "u0-06",
    "u1-02"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "regarder",
@@ -1309,9 +1211,7 @@
   "lessons": [
    "u0-06"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "rencontrer",
@@ -1336,9 +1236,7 @@
    "u0-06",
    "u1-02"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "rentrer",
@@ -1363,9 +1261,7 @@
    "u0-06",
    "u1-05"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "rester",
@@ -1390,9 +1286,7 @@
    "u0-06",
    "u1-05"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "rougir",
@@ -1416,9 +1310,7 @@
   "lessons": [
    "u0-06"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "reagir",
@@ -1442,9 +1334,7 @@
   "lessons": [
    "u0-06"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "reflechir",
@@ -1468,9 +1358,7 @@
   "lessons": [
    "u0-06"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "repeter",
@@ -1494,9 +1382,7 @@
   "lessons": [
    "u0-06"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "reussir",
@@ -1520,9 +1406,7 @@
   "lessons": [
    "u0-06"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "s-amuser",
@@ -1546,9 +1430,7 @@
   "lessons": [
    "u1-06"
   ],
-  "since": "2026-09-16",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-16"
  },
  {
   "id": "s-appeler",
@@ -1570,9 +1452,7 @@
   "ppr": "s'appelant",
   "note": "",
   "lessons": [],
-  "since": "",
-  "origin": "class",
-  "known": false
+  "since": ""
  },
  {
   "id": "savoir",
@@ -1597,9 +1477,7 @@
    "u0-07",
    "u1-03"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "se-casser",
@@ -1621,9 +1499,7 @@
   "ppr": "se cassant",
   "note": "",
   "lessons": [],
-  "since": "",
-  "origin": "class",
-  "known": false
+  "since": ""
  },
  {
   "id": "se-laver",
@@ -1647,9 +1523,7 @@
   "lessons": [
    "u1-06"
   ],
-  "since": "2026-09-16",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-16"
  },
  {
   "id": "se-lever",
@@ -1673,9 +1547,7 @@
   "lessons": [
    "u1-06"
   ],
-  "since": "2026-09-16",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-16"
  },
  {
   "id": "se-promener",
@@ -1697,9 +1569,7 @@
   "ppr": "se promenant",
   "note": "",
   "lessons": [],
-  "since": "",
-  "origin": "class",
-  "known": false
+  "since": ""
  },
  {
   "id": "se-reveiller",
@@ -1723,9 +1593,7 @@
   "lessons": [
    "u1-06"
   ],
-  "since": "2026-09-16",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-16"
  },
  {
   "id": "se-sentir",
@@ -1747,9 +1615,7 @@
   "ppr": "se sentant",
   "note": "",
   "lessons": [],
-  "since": "",
-  "origin": "class",
-  "known": false
+  "since": ""
  },
  {
   "id": "sortir",
@@ -1774,9 +1640,7 @@
    "u0-08",
    "u1-05"
   ],
-  "since": "2026-09-10",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-10"
  },
  {
   "id": "tomber",
@@ -1801,9 +1665,7 @@
    "u0-06",
    "u1-05"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "travailler",
@@ -1828,9 +1690,7 @@
    "u0-06",
    "u1-02"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "telecharger",
@@ -1854,9 +1714,7 @@
   "lessons": [
    "u0-06"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "telephoner",
@@ -1878,9 +1736,7 @@
   "ppr": "téléphonant",
   "note": "",
   "lessons": [],
-  "since": "",
-  "origin": "class",
-  "known": false
+  "since": ""
  },
  {
   "id": "utiliser",
@@ -1904,9 +1760,7 @@
   "lessons": [
    "u0-06"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "venir",
@@ -1931,9 +1785,7 @@
    "u0-08",
    "u1-05"
   ],
-  "since": "2026-09-10",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-10"
  },
  {
   "id": "visiter",
@@ -1958,9 +1810,7 @@
    "u0-06",
    "u1-02"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "voir",
@@ -1985,9 +1835,7 @@
    "u0-07",
    "u1-03"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "vouloir",
@@ -2012,9 +1860,7 @@
    "u0-07",
    "u1-03"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "voyager",
@@ -2038,9 +1884,7 @@
   "lessons": [
    "u0-06"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  },
  {
   "id": "ecouter",
@@ -2062,9 +1906,7 @@
   "ppr": "écoutant",
   "note": "",
   "lessons": [],
-  "since": "",
-  "origin": "class",
-  "known": false
+  "since": ""
  },
  {
   "id": "ecrire",
@@ -2088,9 +1930,7 @@
   "lessons": [
    "u0-08"
   ],
-  "since": "2026-09-10",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-10"
  },
  {
   "id": "etudier",
@@ -2114,9 +1954,7 @@
   "lessons": [
    "u1-02"
   ],
-  "since": "2026-09-15",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-15"
  },
  {
   "id": "etre",
@@ -2141,8 +1979,6 @@
    "u0-07",
    "u1-03"
   ],
-  "since": "2026-09-09",
-  "origin": "class",
-  "known": false
+  "since": "2026-09-09"
  }
 ]

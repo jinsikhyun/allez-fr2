@@ -6,6 +6,7 @@
 - `content/` — 문제·노트 원본. 작성 규칙은 **CONTENT_GUIDE.md** (반드시 먼저 읽기)
 - `tools/build.mjs` — 검증 + `app/content.json` 생성 (+ sw.js 캐시 버전 갱신)
 - `tools/extract.py` — PDF 텍스트 추출 (`tools/.venv/bin/python` 사용)
+- `content/verbs.json` — 동사장(📒 Mes verbes) 기본 목록. 앱이 학생의 추가·수정·삭제·외웠어요(`S.vb`, 기기 연동으로 합쳐짐)를 그 위에 얹는다
 - `tools/coverage.mjs` — 수업자료 커버리지 검사 (`content/coverage/*.json` 대조표 → `pipeline/COVERAGE.md`)
 - `pipeline/processed.json` — 이미 반영한 자료 목록 / `pipeline/CHANGELOG.md` — 업데이트 기록
 - 학생 자료: `../강의자료/` (PDF), 노션 `26-2 / 필기 및 자료 / 교양프랑스어II` (page id `722e4debecb882bda65301cb03f6526f`)
@@ -27,6 +28,7 @@
 2. **추출**: `tools/.venv/bin/python tools/extract.py "../강의자료/<파일>.pdf"` → `pipeline/extracted/`. 그림 페이지 PNG는 Read로 확인.
 3. **어디에 넣을지 결정**: 유닛 = Leçon. 슬라이드/필기에 새 Leçon 번호(예: Leçon 10)가 시작되면 `content/units.json`에 유닛을 추가(`u2`, `u3`… 제목 `Leçon 10 · <주제>`)하고 `content/u2/`를 만든다. 같은 Leçon이면 기존 유닛에 레슨 파일을 추가한다. 기존 레슨 내용이 보강된 경우엔 그 레슨 파일에 카드/노트를 **추가**만 한다 (기존 카드 id 변경·삭제 금지 — 학습 기록이 id에 묶여 있음).
 4. **작성**: CONTENT_GUIDE.md대로 레슨 파일 작성 — 카드 수는 자료 분량만큼 빠짐없이(모든 카드에 `skill`, 문제형 카드엔 `hint`), 수업자료+노션 필기를 대조·종합한 `note`, `tips`, 필기 오류는 고쳐서 `fixes`. 새 문법이면 `content/skills.json`에 스킬 추가. 슬라이드에 정답이 없는 연습문제는 직접 풀어 정답을 만든다. 교수님 자료와 다른 "정정"은 명백한 오류일 때만.
+4-1. **동사장**: 새 레슨에 `verb`·`pp` 카드로 나온 동사가 `content/verbs.json`에 없으면 추가한다 (필드: id(악센트 뺀 slug), inf, ko, pron [한글], group "1"|"2"|"3", pronominal, forms 6칸, pp, aux, ppr, note, lessons, since). 빌드가 빠진 동사를 경고로 알려준다. 기존 동사 id는 바꾸지 않는다.
 5. **커버리지 (필수 — 학생 요구사항: 수업자료·수업 내용을 빠짐없이)**: 새 PDF는 **모든 페이지**, 새 노션 필기는 **모든 섹션**을 `content/coverage/<파일>.json` 대조표에 카드/노트로 연결한다 (형식은 `tools/coverage.mjs` 머리 주석). 연결할 카드가 없는 내용은 카드·노트를 추가한다. 연습문제는 문항마다 카드. `node tools/coverage.mjs`가 ✅(빠진 페이지 0, 참조 오류 0)일 때까지.
 6. **검증**: `node tools/build.mjs` — 오류 0이 될 때까지 고친다. 새 카드 몇 장을 무작위로 골라 프랑스어·정답 유일성을 다시 확인.
 7. **배포**: `cd app && npx vercel deploy --prod --yes --scope hyun-4947` (프로젝트는 `app/.vercel`에 연결돼 있지만 `project.json`의 orgId가 현재 팀과 달라서 `--scope` 없이는 "Not authorized"). 배포 후 https://allez-fr2.vercel.app 가 200인지, `/content.json`의 version이 새 빌드인지 확인.

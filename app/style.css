@@ -590,3 +590,22 @@ details.covers summary { font-weight: 800; cursor: pointer; }
 .vb-form label { display: flex; flex-direction: column; gap: 3px; font-size: 12.5px; font-weight: 800; color: var(--muted); min-width: 0; }
 .vb-form input, .vb-form select, .vb-form textarea { font-size: 16px; padding: 9px 10px; border-radius: 10px; border: 2px solid var(--line2); background: var(--bg2); color: var(--text); min-width: 0; font-weight: 500; }
 .vb-form input:disabled { opacity: .7; }
+
+/* ---------- 동사 테스트 ---------- */
+.vt-table { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 10px; }
+.vt-cell { display: flex; flex-direction: column; gap: 3px; font-size: 13px; font-weight: 800; color: var(--muted); min-width: 0; }
+.vt-cell input { font-size: 18px; padding: 10px 12px; border-radius: 12px; border: 2px solid var(--line2); background: var(--card); color: var(--text); outline: none; min-width: 0; font-weight: 600; }
+.vt-cell input:focus { border-color: var(--blue); }
+.vt-cell input.right { border-color: var(--green); background: var(--green-bg); }
+.vt-cell input.wrong { border-color: var(--red); background: var(--red-bg); }
+.vt-set { display: flex; flex-direction: column; gap: 6px; margin: 4px 0 14px; }
+.vt-h { font-weight: 800; font-size: 14.5px; }
+.vt-opt { display: flex; gap: 10px; align-items: center; padding: 8px 10px; border-radius: 12px; background: var(--bg2); cursor: pointer; }
+.vt-opt input { width: 20px; height: 20px; flex: none; accent-color: var(--blue); }
+.vt-opt span { display: flex; flex-direction: column; min-width: 0; }
+.vt-opt small { color: var(--muted); font-size: 12.5px; }
+.vt-result { width: 100%; display: flex; flex-direction: column; gap: 10px; text-align: left; }
+.vt-sug { display: flex; gap: 8px; align-items: center; padding: 6px 2px; border-top: 1px solid var(--line); }
+.vt-sug input { width: 18px; height: 18px; accent-color: var(--green); }
+.vb-score { color: var(--text); font-weight: 700; }
+.page-head .btn.small { min-height: 38px; padding: 6px 12px; }

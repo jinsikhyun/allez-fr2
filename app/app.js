@@ -936,7 +936,7 @@
     bindSpeak();
     const qa = $('#qa');
     const check = $('#check');
-    ({ mc: renderMC, ox: renderOX, type: renderType, build: renderBuild, tap: renderTap, match: renderMatch })[q.kind](q, qa, check);
+    ({ mc: renderMC, ox: renderOX, type: renderType, build: renderBuild, tap: renderTap, match: renderMatch, vtable: renderVTable })[q.kind](q, qa, check);
     check.onclick = () => (P.phase === 'answer' ? submit() : next());
     sanitizeHint(q);
     P.hintSteps = hintSteps(q);
@@ -1162,6 +1162,7 @@
   const OOPS = ['Oups…', 'Presque !', 'Pas grave !', 'Aïe !', 'Mince !'];
 
   function evaluate(q) {
+    if (q.kind === 'vtable') return vtEvaluate(q);
     let ok = false;
     let hint = '';
     if (q.kind === 'mc') ok = norm(P.sel) === norm(q.answer);
@@ -1190,6 +1191,7 @@
     // 직접 쓰기 오답은 "내 답도 맞아요"로 되돌릴 수 있게 채점 전 상태를 기억 (악센트·엘리지옹 실수는 진짜 오답이라 제외)
     const undo = !ok && q.kind === 'type' && !hint ? snapshotAnswer(q) : null;
     const gained = commitAnswer(q, ok, hinted);
+    if (q.vid && P.vlog) P.vlog[P.i] = { vid: q.vid, ok };
     save();
     const hb = $('#hint');
     if (hb) hb.classList.add('hidden');
@@ -1201,6 +1203,7 @@
     if (!P || P.phase !== 'feedback' || P.queue[P.i] !== q) return;
     restoreAnswer(q, undo);
     const gained = commitAnswer(q, true, hinted);
+    if (q.vid && P.vlog) P.vlog[P.i] = { vid: q.vid, ok: true };
     save();
     showFeedback(q, true, { hinted, gained, overridden: true });
   }
@@ -1282,8 +1285,9 @@
       ti.blur();
     }
     if (q.kind === 'build') $$('#line .chip').forEach((b) => b.classList.add(ok ? 'right' : 'wrong'));
+    if (q.kind === 'vtable') (q._cells || []).forEach((r, i) => { const inp = $(`#vt-${i}`); if (inp) { inp.classList.add(r ? 'right' : 'wrong'); inp.blur(); inp.readOnly = true; } });
 
-    const showAnswer = !ok || q.kind === 'type' || q.kind === 'build' || q.kind === 'tap' || q.kind === 'ox' || q.kind === 'match';
+    const showAnswer = !ok || q.kind === 'type' || q.kind === 'vtable' || q.kind === 'build' || q.kind === 'tap' || q.kind === 'ox' || q.kind === 'match';
     const title = overridden ? '정답으로 바꿨어요' : ok ? (hinted ? '힌트 찬스 성공!' : pick(PRAISE)) : (q.kind === 'match' ? '짝 맞추기 완료!' : pick(OOPS));
     const noteSkill = hint.startsWith('élision') ? 'elision' : q.skill;
     const related = !ok && noteSkill ? relatedNotes(q, noteSkill) : [];
@@ -1359,6 +1363,7 @@
     d.s++;
     S.stats.sessions++;
     S.stats.bestCombo = Math.max(S.stats.bestCombo, P.bestCombo);
+    if (P.mode === 'verbtest') vtFinish();
     let streakUp = false;
     if (d.s >= S.settings.goal && S.streak.last !== t) {
       S.streak.n = S.streak.last === addDays(t, -1) ? S.streak.n + 1 : 1;
@@ -1396,16 +1401,23 @@
           <div class="tile" style="--c:var(--orange)"><div class="th">최고 콤보</div><div class="tv">${P.bestCombo}</div></div>
         </div>
         ${banner}
+        ${P.mode === 'verbtest' ? vtResultHtml() : ''}
         <div class="levelbar"><div class="lb-top"><span>${le} Lv.${L} ${esc(lt)}</span><span>${S.xp - lo} / ${hi - lo}</span></div><div class="bar"><i style="width:0%"></i></div></div>
         <div class="actions">
-          <button class="btn" id="again">한 판 더 ▶</button>
-          <button class="btn ghost" id="home">홈으로</button>
+          <button class="btn" id="again">${P.mode === 'verbtest' ? '같은 설정으로 다시 ▶' : '한 판 더 ▶'}</button>
+          <button class="btn ghost" id="home">${P.mode === 'verbtest' ? '📒 동사장으로' : '홈으로'}</button>
         </div>
       </div>`;
     requestAnimationFrame(() => setTimeout(() => { const i = $('.levelbar .bar i'); if (i) i.style.width = pct + '%'; }, 80));
-    const mode = P.mode, lessonId = P.lessonId;
-    $('#again').onclick = () => startSession(mode === 'mistakes' && !mistakeCards().length ? 'review' : mode, lessonId);
-    $('#home').onclick = () => { P = null; goHome(); };
+    const mode = P.mode, lessonId = P.lessonId, vtCfg = P.vt;
+    if (mode === 'verbtest') {
+      bindVtResult();
+      $('#again').onclick = () => startVerbTest(vtCfg);
+      $('#home').onclick = () => { P = null; renderVerbs(); window.scrollTo(0, 0); };
+    } else {
+      $('#again').onclick = () => startSession(mode === 'mistakes' && !mistakeCards().length ? 'review' : mode, lessonId);
+      $('#home').onclick = () => { P = null; goHome(); };
+    }
     SFX.fanfare();
     if (perfect || streakUp) confetti();
     if (levelUp) setTimeout(() => showLevelUp(levelAfter), 900);
@@ -1435,7 +1447,7 @@
   const VB = { q: '', filter: 'all', hide: false, revealed: new Set(), confirm: null, showDeleted: false };
   function vbState() {
     if (!S.vb) S.vb = { ed: {}, del: {}, kn: {} };
-    for (const k of ['ed', 'del', 'kn']) if (!S.vb[k]) S.vb[k] = {};
+    for (const k of ['ed', 'del', 'kn', 'st']) if (!S.vb[k]) S.vb[k] = {};
     return S.vb;
   }
   function vbList() {
@@ -1563,7 +1575,7 @@
         <div class="${hidden ? 'vb-hid' : ''}"><span class="lbl">Participe présent</span><b class="f">${esc(v.ppr || '')}</b></div>
         <div class="${hidden ? 'vb-hid' : ''}"><span class="lbl">Participe passé</span><b class="f">${esc(v.pp || '')}</b></div>
       </div>
-      <div class="vb-meta"><span>Groupe <b>${g.name}</b></span><span>Auxiliaire <b class="fr">${esc(v.aux)}</b></span><span>${esc(src)}</span></div>
+      <div class="vb-meta"><span>Groupe <b>${g.name}</b></span><span>Auxiliaire <b class="fr">${esc(v.aux)}</b></span><span>${esc(src)}</span>${(() => { const t = vbState().st[v.id]; return t ? `<span class="vb-score">📝 테스트 ✓${t.ok} ✗${t.ng}</span>` : ''; })()}</div>
       <div class="vb-tenses fr">
         <div class="vb-tense"><h4>Présent</h4>${vbPresent(v).map(line).join('')}</div>
         <div class="vb-tense"><h4>Passé composé</h4>${vbPC(v).map(line).join('')}</div>
@@ -1605,7 +1617,7 @@
     const deleted = vbDeleted();
     const scrollY = window.scrollY;
     app.innerHTML = `
-      <div class="page-head"><button class="icon-btn" id="back" aria-label="뒤로">←</button><h2>📒 동사장 <small class="muted fr" style="font-weight:600">Mes verbes</small></h2><button class="btn small" id="vb-add" style="width:auto">＋ 추가</button></div>
+      <div class="page-head"><button class="icon-btn" id="back" aria-label="뒤로">←</button><h2>📒 동사장 <small class="muted fr" style="font-weight:600">Mes verbes</small></h2><button class="btn small green" id="vb-test" style="width:auto">📝 테스트</button><button class="btn small" id="vb-add" style="width:auto">＋</button></div>
       <div class="page vb-page">
         <div class="vb-bar">
           <input class="type-input" id="vb-q" type="search" placeholder="동사·뜻 검색 (예: prendre, 가다)" value="${esc(VB.q)}" autocomplete="off" autocapitalize="off" spellcheck="false">
@@ -1619,6 +1631,7 @@
     window.scrollTo(0, scrollY);
     $('#back').onclick = goHome;
     $('#vb-add').onclick = () => vbForm(null);
+    $('#vb-test').onclick = openVerbTestSetup;
     const qi = $('#vb-q');
     qi.oninput = () => {
       VB.q = qi.value;
@@ -1707,6 +1720,240 @@
       renderVerbs();
       toast(editing ? `「${inf}」를 고쳤어요` : `「${inf}」를 추가했어요`);
     };
+  }
+
+  // ================================================================ 동사 테스트 (동사장 안)
+  // 문제는 Allez의 문제 화면(renderPlayer)을 그대로 쓴다. 변화표 6칸만 새 형식(vtable).
+  // 결과: 동사별 맞힘/틀림을 S.vb.st[id] = { ok, ng, at }에, 틀린 동사는 "외울 것"으로 되돌리고 다 맞힌 동사는 "외웠어요" 제안
+  const VT_CATS = {
+    pres: { label: '현재형 변화', sub: 'nous ___ (prendre)', kinds: ['pres'] },
+    table: { label: '변화표 채우기', sub: 'je~ils 6칸 (Quiz 1 II번)', kinds: ['table'] },
+    ppaux: { label: '과거분사·조동사', sub: 'prendre → pris · avoir/être', kinds: ['pp', 'aux'] },
+    inf: { label: '뜻·원형', sub: '뜻 → 원형 · 변화형 → 원형 · 현재분사', kinds: ['meaning', 'inf', 'ppr'] },
+  };
+  const VT = { cats: ['pres', 'table', 'ppaux', 'inf'], scope: 'view', todoOnly: false, count: 10 };
+  try { Object.assign(VT, JSON.parse(localStorage.getItem('allez.vt') || '{}')); } catch (e) { /* 기본값 */ }
+  const vtSave = () => { try { localStorage.setItem('allez.vt', JSON.stringify(VT)); } catch (e) { /* 무시 */ } };
+  const vtSkill = (v) => (v.pronominal ? 'pronominal' : v.group === '1' ? 'pres-er' : v.group === '2' ? 'pres-ir' : 'pres-irr');
+  const vtEnding = (v) => (v.group === '1' ? '-er 어미: -e · -es · -e · -ons · -ez · -ent' : v.group === '2' ? '-ir(2군) 어미: -is · -is · -it · -issons · -issez · -issent' : '불규칙 동사! 주어와 세트로 외운 소리를 떠올려봐요');
+
+  function vtScopeList(scope, todoOnly) {
+    const all = vbList();
+    let list;
+    if (scope === 'view') list = vbFiltered(all);
+    else if (scope === 'all') list = all;
+    else if (['1', '2', '3'].includes(scope)) list = all.filter((v) => v.group === scope);
+    else if (scope === 'pron') list = all.filter((v) => v.pronominal);
+    else if (scope === 'missed') { const st = vbState().st; list = all.filter((v) => st[v.id] && st[v.id].ng > 0 && (st[v.id].last === false)); }
+    else list = all;
+    if (todoOnly) list = list.filter((v) => !v.known);
+    return list.filter((v) => v.forms && PERSONS.every((p) => v.forms[p]) && v.pp);
+  }
+
+  // 한 동사 + 한 종류 → Allez 문제 하나
+  function vtQuestion(v, kind, pool) {
+    const mc = Math.random() < 0.5;
+    const base = { ids: [], vid: v.id, skill: vtSkill(v), star: false, tag: '동사 테스트', explain: v.note || '' };
+    const others = pool.filter((x) => x.id !== v.id);
+    const infT = [others.filter((x) => x.group === v.group).map((x) => x.inf), others.map((x) => x.inf)];
+    if (kind === 'pres') {
+      const p = pick(PERSONS);
+      const form = v.forms[p];
+      const subj = p === 'je' && !v.pronominal && VOWEL.test(form) ? "j'" : p === 'il' ? pick(['il', 'elle', 'on']) : p === 'ils' ? pick(['ils', 'elles']) : p;
+      const full = subj.endsWith("'") ? subj + form : `${subj} ${form}`;
+      const q = { ...base, tag: '동사 테스트 · 현재형', prompt: mc ? '알맞은 형태는?' : '동사를 변화시켜 쓰세요', main: `${subj === "j'" ? 'je' : subj} ___`, mainFr: true, sub: `${v.inf} · ${v.ko}`, reveal: full, say: full, hint: verbHint(v, p, form, null) };
+      if (mc) return { ...q, kind: 'mc', options: options(form, [], 3, shuffle([...PERSONS.filter((x) => x !== p).map((x) => v.forms[x]), ...fakeForms(v, p)])), optionsFr: true, answer: form, grid: form.length < 12 };
+      return { ...q, kind: 'type', accept: [form, full], elisionTrap: subj === "j'" ? `je ${form}` : null };
+    }
+    if (kind === 'table') {
+      const lines = PERSONS.map((p) => `${p === 'je' && !v.pronominal && VOWEL.test(v.forms.je) ? "j'" : PLABEL[p] + ' '}${v.forms[p]}`);
+      return { ...base, kind: 'vtable', tag: '동사 테스트 · 변화표', prompt: '현재형 변화표를 채우세요', main: v.inf, mainFr: true, speakMain: v.inf, sub: v.ko, cells: PERSONS.map((p) => v.forms[p]), reveal: lines.join('\n'), say: lines.join(', '), hint: vtEnding(v) };
+    }
+    if (kind === 'pp') {
+      const q = { ...base, skill: 'pp', tag: '동사 테스트 · 과거분사', prompt: mc ? '과거분사는?' : '과거분사를 쓰세요', main: v.inf, mainFr: true, speakMain: v.inf, sub: v.ko, reveal: `${v.inf} → ${v.pp}`, say: v.pp, hint: ppHint(v) };
+      if (mc) return { ...q, kind: 'mc', options: options(v.pp, [others.map((x) => x.pp)], 3, shuffle(fakePP(v.inf)).slice(0, 2)), optionsFr: true, answer: v.pp, grid: true };
+      return { ...q, kind: 'type', accept: [v.pp] };
+    }
+    if (kind === 'aux') {
+      if (v.pronominal) return vtQuestion(v, 'pp', pool);
+      const a = v.aux === 'être' ? 'est' : 'a';
+      return { ...base, skill: 'aux', kind: 'mc', tag: '동사 테스트 · 조동사', prompt: 'avoir? être? 빈칸에 알맞은 것은', main: `Il ___ ${v.pp}.`, mainFr: true, sub: `${v.inf} · ${v.ko}`, options: ['a', 'est'], fixed: true, grid: true, optionsFr: true, answer: a, reveal: `Il ${a} ${v.pp}. (${v.aux})`, say: `Il ${a} ${v.pp}.`, hint: '이동·상태 변화 동사와 대명동사는 être, 나머지는 avoir' };
+    }
+    if (kind === 'meaning') {
+      const q = { ...base, skill: 'vocab', tag: '동사 테스트 · 뜻', prompt: mc ? '이 뜻의 동사는?' : '이 뜻의 동사원형을 쓰세요', main: v.ko, reveal: `${v.inf} = ${v.ko}`, say: v.inf, hint: `「${vbBase(v.inf).slice(0, 1)}…」로 시작해요${v.pronominal ? ' (대명동사)' : ''}` };
+      if (mc) return { ...q, kind: 'mc', options: options(v.inf, infT), optionsFr: true, answer: v.inf };
+      return { ...q, kind: 'type', accept: [v.inf] };
+    }
+    if (kind === 'inf') {
+      const p = pick(PERSONS);
+      const form = v.forms[p];
+      const subj = p === 'je' && !v.pronominal && VOWEL.test(form) ? "j'" : PLABEL[p].split('/')[0];
+      const full = subj.endsWith("'") ? subj + form : `${subj} ${form}`;
+      const q = { ...base, skill: 'inf', tag: '동사 테스트 · 원형 찾기', prompt: '이 동사의 원형은?', main: cap(full), mainFr: true, speakMain: full, reveal: `${v.inf} (${v.ko})`, say: v.inf, hint: `뜻은 「${v.ko}」예요` };
+      if (mc) return { ...q, kind: 'mc', options: options(v.inf, infT), optionsFr: true, answer: v.inf, grid: true };
+      return { ...q, kind: 'type', accept: [v.inf] };
+    }
+    // ppr
+    if (!v.ppr) return vtQuestion(v, 'inf', pool);
+    const q = { ...base, skill: 'part-pres', tag: '동사 테스트 · 현재분사', prompt: mc ? '현재분사는?' : '현재분사를 쓰세요', main: v.inf, mainFr: true, speakMain: v.inf, sub: v.ko, reveal: `${v.inf} → ${v.ppr}`, say: v.ppr, hint: 'nous 현재형에서 -ons를 떼고 -ant! (예외: ayant · étant · sachant)' };
+    if (mc) return { ...q, kind: 'mc', options: options(v.ppr, [], 3, shuffle([v.forms.nous.replace(/^nous /, '').replace(/ons$/, 'ent'), vbBase(v.inf).replace(/(er|ir|re|oir)$/, '') + 'ant', v.forms.nous.replace(/^nous /, '') + 'ant'])), optionsFr: true, answer: v.ppr, grid: true };
+    return { ...q, kind: 'type', accept: [v.ppr] };
+  }
+
+  function buildVerbTest(cfg) {
+    const verbs = shuffle(vtScopeList(cfg.scope, cfg.todoOnly));
+    if (!verbs.length || !cfg.cats.length) return [];
+    const n = cfg.count === 'all' ? verbs.length : Math.min(cfg.count, Math.max(verbs.length * 3, 1));
+    // 종류(카테고리)를 고르게 돌리고, 그 안에서 세부 문제를 고른다. 변화표는 길어서 전체의 30%까지만
+    const cats = cfg.cats.slice();
+    const qs = [];
+    let tables = 0;
+    let order = shuffle(cats);
+    for (let i = 0; i < n; i++) {
+      const v = verbs[i % verbs.length];
+      if (!order.length) order = shuffle(cats);
+      let cat = order.pop();
+      if (cat === 'table' && tables >= Math.max(1, Math.round(n * 0.3)) && cats.length > 1) cat = pick(cats.filter((c) => c !== 'table'));
+      const kind = pick(VT_CATS[cat].kinds);
+      if (kind === 'table') tables++;
+      const q = vtQuestion(v, kind, verbs);
+      if (q) qs.push(q);
+    }
+    return qs;
+  }
+  function startVerbTest(cfg) {
+    closeSheet();
+    const qs = buildVerbTest(cfg);
+    if (!qs.length) { toast('이 범위에는 시험 볼 동사가 없어요'); return; }
+    P = { mode: 'verbtest', vt: { ...cfg }, queue: qs, i: 0, phase: 'answer', combo: 0, bestCombo: 0, xp: 0, ok: 0, answered: 0, mistakes: 0, retried: new Set(), start: Date.now(), finished: false, hintsUsed: 0, vlog: {} };
+    SFX.get();
+    view = 'player';
+    renderPlayer();
+    window.scrollTo(0, 0);
+  }
+
+  // 변화표 6칸 입력
+  function renderVTable(q, qa, check) {
+    qa.innerHTML = `<div class="vt-table fr">${PERSONS.map((p, i) => `<label class="vt-cell"><span>${p === 'je' && VOWEL.test(q.cells[0]) && !/^(me|m')/.test(q.cells[0]) ? "je / j'" : PLABEL[p]}</span>
+        <input id="vt-${i}" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" lang="fr"></label>`).join('')}</div>
+      <div class="accents">${ACCENTS.map((a) => `<button data-a="${esc(a)}">${esc(a)}</button>`).join('')}</div>`;
+    const inputs = PERSONS.map((_, i) => $(`#vt-${i}`, qa));
+    let last = inputs[0];
+    const sync = () => { P.sel = inputs.map((x) => x.value); check.disabled = !inputs.some((x) => x.value.trim()); };
+    inputs.forEach((inp, i) => {
+      inp.addEventListener('focus', () => { last = inp; });
+      inp.addEventListener('input', sync);
+      inp.addEventListener('keydown', (e) => {
+        if (e.key !== 'Enter') return;
+        e.preventDefault();
+        if (i < inputs.length - 1) inputs[i + 1].focus(); else if (!check.disabled) check.click();
+      });
+    });
+    $$('.accents button', qa).forEach((b) => {
+      b.addEventListener('pointerdown', (e) => e.preventDefault());
+      b.onclick = () => {
+        const s = last.selectionStart ?? last.value.length, e2 = last.selectionEnd ?? last.value.length;
+        last.value = last.value.slice(0, s) + b.dataset.a + last.value.slice(e2);
+        last.setSelectionRange(s + 1, s + 1); last.focus(); sync();
+      };
+    });
+    P.sel = inputs.map(() => '');
+    setTimeout(() => inputs[0].focus(), 60);
+  }
+  // 칸 하나 채점: 동사형만 써도, 주어까지 써도 정답
+  function vtCellOk(typed, form, p) {
+    const n = norm(typed);
+    if (!n) return false;
+    const subj = p === 'je' && VOWEL.test(form) && !/^(me|m')/.test(form) ? "j'" : PLABEL[p].split('/')[0];
+    const alts = [form, subj.endsWith("'") ? subj + form : `${subj} ${form}`];
+    if (p === 'il') alts.push(`elle ${form}`, `on ${form}`);
+    if (p === 'ils') alts.push(`elles ${form}`);
+    return alts.some((a) => norm(a) === n);
+  }
+  function vtEvaluate(q) {
+    const res = q.cells.map((form, i) => vtCellOk(P.sel[i] || '', form, PERSONS[i]));
+    const ok = res.every(Boolean);
+    let hint = '';
+    if (!ok) {
+      const wrong = res.filter((r) => !r).length;
+      const accentOnly = q.cells.every((form, i) => res[i] || deaccent(norm(P.sel[i] || '')) === deaccent(norm(form)));
+      hint = accentOnly ? '악센트만 달라요! 철자까지 정확하게 ✍️' : `6칸 중 ${6 - wrong}칸 정답`;
+    }
+    q._cells = res;
+    return { ok, hint };
+  }
+
+  // 시험이 끝나면: 동사별 기록 + 외울 것/외웠어요 반영
+  function vtFinish() {
+    const st = vbState();
+    const now = Date.now();
+    const per = {};
+    for (const { vid, ok } of Object.values(P.vlog || {})) {
+      const r = per[vid] || (per[vid] = { ok: 0, ng: 0 });
+      ok ? r.ok++ : r.ng++;
+    }
+    const all = vbList();
+    P.vtDemoted = [];
+    P.vtSuggest = [];
+    for (const [vid, r] of Object.entries(per)) {
+      const s = st.st[vid] || { ok: 0, ng: 0 };
+      st.st[vid] = { ok: (s.ok || 0) + r.ok, ng: (s.ng || 0) + r.ng, last: r.ng === 0, at: now };
+      const v = all.find((x) => x.id === vid);
+      if (!v) continue;
+      if (r.ng > 0) {
+        if (v.known) { st.kn[vid] = { v: false, at: now }; P.vtDemoted.push(v); }
+      } else if (!v.known) P.vtSuggest.push(v);
+    }
+    P.vtPer = per;
+  }
+  function vtResultHtml() {
+    const all = vbList();
+    const per = P.vtPer || {};
+    const wrong = Object.entries(per).filter(([, r]) => r.ng > 0).map(([id, r]) => ({ v: all.find((x) => x.id === id), r })).filter((x) => x.v);
+    return `<div class="vt-result">
+      ${wrong.length ? `<div class="box"><h4>❌ 틀린 동사 ${wrong.length}개</h4>${wrong.map(({ v, r }) => `<div class="li"><div class="l1"><b class="fr">${esc(v.inf)}</b><small>${esc(v.ko)} · 이번 시험 ✓${r.ok} ✗${r.ng}</small></div></div>`).join('')}
+        ${P.vtDemoted.length ? `<p class="muted" style="font-size:13px;margin-top:6px">「외웠어요」였던 ${P.vtDemoted.map((v) => esc(v.inf)).join(', ')}는 「외울 것」으로 돌려놨어요.</p>` : ''}</div>` : ''}
+      ${P.vtSuggest.length ? `<div class="box"><h4>✅ 다 맞힌 동사 — 외웠어요로 표시할까요?</h4>${P.vtSuggest.map((v) => `<label class="vt-sug"><input type="checkbox" data-vtsug="${esc(v.id)}" checked> <b class="fr">${esc(v.inf)}</b> <small class="muted">${esc(v.ko)}</small></label>`).join('')}
+        <button class="btn small green" id="vt-mark" style="margin-top:8px">선택한 동사 「외웠어요」로 표시</button></div>` : ''}
+    </div>`;
+  }
+  function bindVtResult() {
+    const btn = $('#vt-mark');
+    if (!btn) return;
+    btn.onclick = () => {
+      const st = vbState();
+      const ids = $$('[data-vtsug]').filter((x) => x.checked).map((x) => x.dataset.vtsug);
+      ids.forEach((id) => { st.kn[id] = { v: true, at: Date.now() }; });
+      save(); syncNow();
+      btn.disabled = true;
+      btn.textContent = `✓ ${ids.length}개 표시했어요`;
+    };
+  }
+
+  // 시작 화면 (시트)
+  function openVerbTestSetup() {
+    const scopes = [['view', '지금 보는 목록'], ['all', '전체'], ['1', '1군'], ['2', '2군'], ['3', '불규칙'], ['pron', '대명동사'], ['missed', '지난 시험에서 틀린 동사']];
+    const draw = () => {
+      const n = vtScopeList(VT.scope, VT.todoOnly).length;
+      const sh = sheet(`
+        <h3>📝 동사 테스트</h3>
+        <div class="meta">객관식과 직접 쓰기가 섞여 나와요 · 변화표는 직접 써요</div>
+        <div class="vt-set"><div class="vt-h">문제 종류</div>
+          ${Object.entries(VT_CATS).map(([k, c]) => `<label class="vt-opt"><input type="checkbox" data-vtcat="${k}" ${VT.cats.includes(k) ? 'checked' : ''}><span><b>${c.label}</b><small class="fr">${esc(c.sub)}</small></span></label>`).join('')}</div>
+        <div class="vt-set"><div class="vt-h">범위 <small class="muted">· 동사 ${n}개</small></div>
+          <div class="vb-chips">${scopes.map(([k, t]) => `<button class="vb-chip" data-vtscope="${k}" aria-pressed="${VT.scope === k}">${esc(t)}</button>`).join('')}</div>
+          <label class="vt-opt" style="margin-top:6px"><input type="checkbox" id="vt-todo" ${VT.todoOnly ? 'checked' : ''}><span><b>「외울 것」만</b><small>외웠어요 표시한 동사는 빼기</small></span></label></div>
+        <div class="vt-set"><div class="vt-h">문항 수</div>
+          <div class="seg" id="vt-count">${[[10, '10문제'], [20, '20문제'], ['all', `동사마다 1문제 (${n})`]].map(([v, t]) => `<button data-v="${v}" class="${String(VT.count) === String(v) ? 'on' : ''}">${t}</button>`).join('')}</div></div>
+        <button class="btn" id="vt-go" ${!n || !VT.cats.length ? 'disabled' : ''}>▶ 시작하기</button>`);
+      sh.classList.add('tall');
+      $$('[data-vtcat]', sh).forEach((c) => c.onchange = () => { VT.cats = $$('[data-vtcat]', sh).filter((x) => x.checked).map((x) => x.dataset.vtcat); vtSave(); draw(); });
+      $$('[data-vtscope]', sh).forEach((b) => b.onclick = () => { VT.scope = b.dataset.vtscope; vtSave(); draw(); });
+      $('#vt-todo', sh).onchange = (e) => { VT.todoOnly = e.target.checked; vtSave(); draw(); };
+      $$('#vt-count button', sh).forEach((b) => b.onclick = () => { VT.count = b.dataset.v === 'all' ? 'all' : Number(b.dataset.v); vtSave(); draw(); });
+      $('#vt-go', sh).onclick = () => startVerbTest({ ...VT });
+    };
+    draw();
   }
 
   // ================================================================ home
@@ -2307,7 +2554,7 @@
     if ((remote.sensAt || 0) > (S.sensAt || 0)) { S.sens = remote.sens || {}; S.sensAt = remote.sensAt; }
     if (remote.vb) {
       const st = vbState();
-      for (const k of ['ed', 'del', 'kn']) {
+      for (const k of ['ed', 'del', 'kn', 'st']) {
         for (const [id, r] of Object.entries(remote.vb[k] || {})) {
           if (r && typeof r === 'object' && (!st[k][id] || (r.at || 0) > (st[k][id].at || 0))) st[k][id] = r;
         }

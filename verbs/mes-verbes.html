@@ -1,0 +1,478 @@
+<title>Mes verbes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: Reverso식 변화표 카드를 세로로 쌓은 개인 동사 사전 — 위에 검색·필터 바, 카드마다 Présent / Passé composé 두 칸 */
+:root {
+  --bg: #f4f6fa;
+  --surface: #ffffff;
+  --panel: #f5f8fc;
+  --line: #dce3ee;
+  --ink: #1c2433;
+  --muted: #667086;
+  --bleu: #1f5fbf;      /* 동사·강조 */
+  --bleu-soft: #e7effb;
+  --rouge: #d6384a;     /* 어미·주의 */
+  --rouge-soft: #fcebed;
+  --vert: #1f8f5a;
+  --vert-soft: #e3f4ec;
+  --g1: #1f5fbf; --g2: #7a4fd6; --g3: #d0602a;
+  --font-display: "Outfit", "IBM Plex Sans KR", system-ui, sans-serif;
+  --font-body: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+  --r: 14px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #10141c; --surface: #171d28; --panel: #1c2432; --line: #2a3446; --ink: #e9edf5; --muted: #98a3b8;
+    --bleu: #7fb0ff; --bleu-soft: #1d2b45; --rouge: #ff8593; --rouge-soft: #3a1d24; --vert: #5fd39a; --vert-soft: #16302a;
+    --g1: #7fb0ff; --g2: #b49bff; --g3: #ffa36e;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #10141c; --surface: #171d28; --panel: #1c2432; --line: #2a3446; --ink: #e9edf5; --muted: #98a3b8;
+  --bleu: #7fb0ff; --bleu-soft: #1d2b45; --rouge: #ff8593; --rouge-soft: #3a1d24; --vert: #5fd39a; --vert-soft: #16302a;
+  --g1: #7fb0ff; --g2: #b49bff; --g3: #ffa36e;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.5; }
+.wrap { max-width: 980px; margin: 0 auto; padding-inline: 16px; padding-block: 20px 60px; }
+button, input, select, textarea { font: inherit; color: inherit; }
+button { cursor: pointer; }
+:focus-visible { outline: 2px solid var(--bleu); outline-offset: 2px; }
+
+/* ---- 머리 */
+.top { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 12px 20px; margin-bottom: 14px; }
+.brand { display: flex; align-items: center; gap: 10px; }
+.flag { width: 30px; height: 20px; border-radius: 4px; overflow: hidden; display: flex; flex: none; box-shadow: 0 0 0 1px var(--line); }
+.flag i { flex: 1; } .flag i:nth-child(1) { background: #2b54b8; } .flag i:nth-child(2) { background: #fff; } .flag i:nth-child(3) { background: #e2364a; }
+h1 { font-family: var(--font-display); font-size: 30px; font-weight: 600; margin: 0; color: var(--bleu); letter-spacing: -.01em; }
+.sub { color: var(--muted); font-size: 13.5px; }
+.counts { display: flex; gap: 8px; flex-wrap: wrap; margin-left: auto; }
+.count { font-size: 12.5px; font-weight: 600; padding: 3px 10px; border-radius: 999px; background: var(--surface); border: 1px solid var(--line); font-variant-numeric: tabular-nums; }
+
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); padding-block: 10px; display: grid; gap: 10px; }
+.bar-row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+#q { flex: 1 1 220px; min-width: 0; padding: 10px 14px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); font-size: 15px; }
+.chip { padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); font-size: 13.5px; font-weight: 500; }
+.chip[aria-pressed="true"] { background: var(--bleu); border-color: var(--bleu); color: var(--surface); }
+.btn { padding: 9px 14px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); font-weight: 600; font-size: 14px; }
+.btn.primary { background: var(--bleu); border-color: var(--bleu); color: var(--surface); }
+.btn.danger { background: var(--rouge); border-color: var(--rouge); color: var(--surface); }
+.btn:disabled { opacity: .5; cursor: default; }
+.toggle[aria-pressed="true"] { background: var(--rouge-soft); border-color: var(--rouge); color: var(--rouge); }
+
+/* ---- 그룹 머리 */
+.group-head { display: flex; align-items: baseline; gap: 10px; margin: 26px 2px 10px; }
+.group-head h2 { font-family: var(--font-display); font-size: 20px; font-weight: 600; margin: 0; }
+.group-head span { color: var(--muted); font-size: 13px; }
+.dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; flex: none; align-self: center; }
+
+/* ---- 동사 카드 (Reverso 형식) */
+.list { display: grid; gap: 14px; }
+.verb { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 16px 18px; display: grid; gap: 12px; min-width: 0; }
+.verb.known { border-color: var(--vert); }
+.v-head { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; }
+.v-inf { font-family: var(--font-display); font-size: 27px; font-weight: 500; color: var(--bleu); line-height: 1.1; }
+.icon { width: 34px; height: 34px; border-radius: 50%; border: 1px solid var(--line); background: var(--surface); display: inline-grid; place-items: center; font-size: 15px; color: var(--bleu); }
+.arrow { color: var(--muted); }
+.v-ko { font-size: 17px; font-weight: 600; }
+.v-pron { color: var(--muted); font-size: 14px; }
+.badge { font-size: 11.5px; font-weight: 700; padding: 2px 9px; border-radius: 999px; color: var(--surface); }
+.badge.mine { background: var(--muted); }
+.v-tools { margin-left: auto; display: flex; gap: 6px; align-items: center; }
+.known-btn { padding: 5px 11px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); font-size: 13px; font-weight: 600; color: var(--muted); }
+.known-btn[aria-pressed="true"] { background: var(--vert-soft); border-color: var(--vert); color: var(--vert); }
+.more { border: 0; background: none; color: var(--muted); font-size: 13px; padding: 4px 6px; }
+
+.forms-box { border: 1.5px solid var(--bleu); border-radius: 10px; padding: 10px 16px; display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 4px 16px; }
+.forms-box div { min-width: 0; }
+.forms-box .lbl { color: var(--muted); font-size: 13px; margin-right: 6px; }
+.forms-box .val { font-family: var(--font-display); font-size: 21px; color: var(--bleu); font-weight: 500; }
+.meta { display: flex; flex-wrap: wrap; gap: 4px 18px; font-size: 14px; color: var(--muted); }
+.meta b { color: var(--bleu); font-weight: 500; }
+
+.tenses-title { text-align: center; color: var(--bleu); font-family: var(--font-display); letter-spacing: .08em; font-size: 15px; font-weight: 500; }
+.tenses { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
+.tense { background: var(--panel); border-radius: 10px; padding: 12px 16px; min-width: 0; }
+.tense h3 { margin: 0 0 6px; text-align: center; font-size: 15.5px; font-weight: 600; }
+.line { display: flex; gap: 6px; align-items: baseline; padding: 5px 0; font-size: 16.5px; border: 0; background: none; width: 100%; text-align: left; flex-wrap: wrap; }
+.line .p { color: var(--muted); }
+.line.el { gap: 0; }
+.line .f { color: var(--bleu); font-weight: 500; overflow-wrap: anywhere; }
+.line .f em { font-style: normal; color: var(--rouge); }
+.hidden-form .f { color: transparent; background: var(--line); border-radius: 6px; min-width: 7ch; display: inline-block; user-select: none; }
+.hidden-form .f em { color: transparent; }
+.note { font-size: 13.5px; background: var(--rouge-soft); color: var(--ink); border-radius: 10px; padding: 8px 12px; }
+.note b { color: var(--rouge); }
+.confirm { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: 14px; background: var(--rouge-soft); border-radius: 10px; padding: 8px 12px; }
+
+.empty { text-align: center; color: var(--muted); padding: 48px 12px; background: var(--surface); border: 1px dashed var(--line); border-radius: var(--r); }
+.empty b { color: var(--ink); }
+.status { font-size: 13px; color: var(--muted); min-height: 1.2em; }
+
+/* ---- 추가·수정 창 */
+dialog { border: 0; border-radius: 18px; padding: 0; width: min(640px, calc(100vw - 32px)); background: var(--surface); color: var(--ink); }
+dialog::backdrop { background: rgba(10, 16, 28, .45); }
+.dlg { padding: 18px 20px; display: grid; gap: 12px; max-height: 86vh; overflow: auto; }
+.dlg h2 { margin: 0; font-family: var(--font-display); font-size: 22px; color: var(--bleu); }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; }
+label.f { display: grid; gap: 4px; font-size: 13px; color: var(--muted); font-weight: 600; min-width: 0; }
+label.f input, label.f select, label.f textarea { padding: 8px 10px; border-radius: 10px; border: 1px solid var(--line); background: var(--panel); font-size: 15px; font-weight: 400; color: var(--ink); min-width: 0; }
+.row-auto { display: flex; gap: 8px; align-items: end; flex-wrap: wrap; }
+.row-auto label { flex: 1 1 200px; }
+.dlg-actions { display: flex; gap: 8px; justify-content: flex-end; flex-wrap: wrap; }
+.ai-msg { font-size: 13px; color: var(--muted); }
+@media (prefers-reduced-motion: no-preference) { .verb { transition: border-color .2s; } }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <div class="brand"><span class="flag" aria-hidden="true"><i></i><i></i><i></i></span><h1>Mes verbes</h1></div>
+      <div class="sub">교양프랑스어II · 수업자료 + 노션 필기 + 교프어I 복습에서 모은 동사</div>
+    </div>
+    <div class="counts" id="counts"></div>
+  </header>
+
+  <div class="bar">
+    <div class="bar-row">
+      <input id="q" type="search" placeholder="동사·뜻 검색 (예: prendre, 가다)" autocomplete="off" autocapitalize="off" spellcheck="false">
+      <button class="btn toggle" id="hide" aria-pressed="false" title="변화형을 가리고 눌러서 확인">🙈 가리기</button>
+      <button class="btn primary" id="add">＋ 동사 추가</button>
+    </div>
+    <div class="bar-row" id="filters"></div>
+    <div class="status" id="status" role="status"></div>
+  </div>
+
+  <main id="list"><div class="empty">동사 목록을 불러오는 중이에요…</div></main>
+</div>
+
+<dialog id="dlg">
+  <form class="dlg" id="form" method="dialog">
+    <h2 id="dlg-title">동사 추가</h2>
+    <div class="row-auto">
+      <label class="f">동사원형 (Infinitif)<input id="f-inf" required placeholder="예: boire, se coucher" autocapitalize="off" spellcheck="false"></label>
+      <button type="button" class="btn" id="f-ai">✨ 자동 채우기</button>
+    </div>
+    <div class="ai-msg" id="f-ai-msg">동사원형만 쓰고 자동 채우기를 누르면 뜻·발음·변화형이 채워져요. 저장 전에 꼭 확인하세요.</div>
+    <div class="grid2">
+      <label class="f">뜻<input id="f-ko" required></label>
+      <label class="f">발음<input id="f-pron" placeholder="[프항드흐]"></label>
+      <label class="f">그룹<select id="f-group"><option value="1">1군 (-er)</option><option value="2">2군 (-ir)</option><option value="3">불규칙 (3군)</option></select></label>
+      <label class="f">조동사<select id="f-aux"><option value="avoir">avoir</option><option value="être">être</option></select></label>
+      <label class="f">과거분사 (Participe passé)<input id="f-pp" required></label>
+      <label class="f">현재분사 (Participe présent)<input id="f-ppr"></label>
+    </div>
+    <div class="grid2" id="f-forms"></div>
+    <label class="f">메모 (주의할 점)<textarea id="f-note" rows="2"></textarea></label>
+    <div class="dlg-actions">
+      <button type="button" class="btn" id="f-cancel">취소</button>
+      <button type="submit" class="btn primary" id="f-save">저장</button>
+    </div>
+  </form>
+</dialog>
+
+<script>
+(() => {
+  const $ = (s, el = document) => el.querySelector(s);
+  const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const P = ['je', 'tu', 'il', 'nous', 'vous', 'ils'];
+  const PL = { je: 'je', tu: 'tu', il: 'il/elle', nous: 'nous', vous: 'vous', ils: 'ils/elles' };
+  const GROUPS = { 1: { name: '1군', sub: '-er 규칙 동사', color: 'var(--g1)' }, 2: { name: '2군', sub: '-ir 규칙 동사 (-issons)', color: 'var(--g2)' }, 3: { name: '불규칙', sub: '3군 (-ir · -re · -oir 등)', color: 'var(--g3)' } };
+  const AUX = { avoir: ['ai', 'as', 'a', 'avons', 'avez', 'ont'], être: ['suis', 'es', 'est', 'sommes', 'êtes', 'sont'] };
+  const VOWEL = /^[aeiouyàâäéèêëîïôöûùüœh]/i;
+  const isPron = (inf) => /^(se |s')/.test(inf);
+  const slug = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
+  const state = { verbs: [], q: '', filter: 'all', hide: false, revealed: new Set(), confirm: null, canWrite: true };
+  let db = null, col = null, sample = null;
+  try { state.hide = localStorage.getItem('mv.hide') === '1'; } catch (e) { /* 저장소 없음 */ }
+
+  // ---------- 음성
+  const tts = 'speechSynthesis' in window;
+  let voice = null;
+  if (tts) {
+    const pickV = () => { const vs = speechSynthesis.getVoices(); voice = vs.find((v) => v.lang === 'fr-FR') || vs.find((v) => /^fr/i.test(v.lang)) || null; };
+    pickV(); speechSynthesis.onvoiceschanged = pickV;
+  }
+  function say(text) {
+    if (!tts || !text) return;
+    speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(text.replace(/\(e\)|\(s\)/g, ''));
+    u.lang = 'fr-FR'; if (voice) u.voice = voice; u.rate = 0.9;
+    speechSynthesis.speak(u);
+  }
+
+  // ---------- 변화형 만들기
+  function stemOf(inf) {
+    const b = inf.replace(/^(se |s')/, '');
+    return b.replace(/(er|ir|re|oir)$/, '');
+  }
+  // 어간과 겹치지 않는 뒷부분(어미·철자 변화)을 빨간색으로
+  function markEnding(form, inf) {
+    const m = form.match(/^((?:me|te|se|nous|vous) |[mts]')?(.*)$/);
+    const refl = m[1] || '', verb = m[2];
+    const stem = stemOf(inf);
+    let i = 0;
+    while (i < verb.length && i < stem.length && verb[i] === stem[i]) i++;
+    if (i === 0) i = Math.max(0, verb.length - 3); // 어간이 완전히 다른 형태(suis, vais…)는 끝 세 글자만
+    const tail = verb.slice(i);
+    return `${esc(refl)}${esc(verb.slice(0, i))}${tail ? `<em>${esc(tail)}</em>` : ''}`;
+  }
+  function subj(p, form, pron) {
+    if (p === 'je' && !pron && VOWEL.test(form)) return "j'";
+    return PL[p];
+  }
+  function presentLines(v) {
+    return P.map((p) => {
+      const f = v.forms?.[p] || '';
+      const s = subj(p, f, v.pronominal);
+      const spoken = (s.endsWith("'") ? s : (p === 'il' ? 'il' : p === 'ils' ? 'ils' : s) + ' ') + f;
+      return { p: s, html: markEnding(f, v.inf), spoken };
+    });
+  }
+  function pcLines(v) {
+    const aux = AUX[v.aux] || AUX.avoir;
+    const etre = v.aux === 'être';
+    const agree = ['(e)', '(e)', '(e)', '(e)s', '(e)(s)', '(e)s'];
+    const refl = ['me', 'te', 'se', 'nous', 'vous', 'se'];
+    return P.map((p, i) => {
+      const a = aux[i];
+      let pre;
+      if (v.pronominal) {
+        const r = refl[i];
+        pre = (VOWEL.test(a) && r.length === 2 && i !== 3 && i !== 4) ? r[0] + "'" + a : `${r} ${a}`;
+      } else pre = a;
+      const s = !v.pronominal && p === 'je' && VOWEL.test(a) ? "j'" : PL[p];
+      const pp = v.pp + (etre ? agree[i] : '');
+      const text = `${pre} ${pp}`;
+      const spoken = (s.endsWith("'") ? s : s.split('/')[0] + ' ') + pre + ' ' + v.pp;
+      return { p: s, html: `${esc(pre)} <span>${esc(v.pp)}</span>${etre ? `<em>${esc(agree[i])}</em>` : ''}`, spoken, text };
+    });
+  }
+
+  // ---------- 그리기
+  function filtered() {
+    const q = state.q.trim().toLowerCase().normalize('NFC');
+    const strip = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+    return state.verbs.filter((v) => {
+      if (state.filter === 'pron' && !v.pronominal) return false;
+      if (['1', '2', '3'].includes(state.filter) && v.group !== state.filter) return false;
+      if (state.filter === 'todo' && v.known) return false;
+      if (state.filter === 'known' && !v.known) return false;
+      if (state.filter === 'mine' && v.origin !== 'mine') return false;
+      if (!q) return true;
+      const hay = [v.inf, v.ko, v.pp, ...(Object.values(v.forms || {}))].join(' ');
+      return hay.toLowerCase().includes(q) || strip(hay).includes(strip(q));
+    });
+  }
+  function renderFilters() {
+    const n = (f) => state.verbs.filter(f).length;
+    const items = [
+      ['all', `전체 ${state.verbs.length}`], ['1', `1군 ${n((v) => v.group === '1')}`], ['2', `2군 ${n((v) => v.group === '2')}`],
+      ['3', `불규칙 ${n((v) => v.group === '3')}`], ['pron', `대명동사 ${n((v) => v.pronominal)}`],
+      ['todo', `외울 것 ${n((v) => !v.known)}`], ['known', `✓ 외웠어요 ${n((v) => v.known)}`],
+    ];
+    if (state.verbs.some((v) => v.origin === 'mine')) items.push(['mine', `내가 추가 ${n((v) => v.origin === 'mine')}`]);
+    $('#filters').innerHTML = items.map(([k, t]) => `<button class="chip" data-f="${k}" aria-pressed="${state.filter === k}">${esc(t)}</button>`).join('');
+    const c = ['1', '2', '3'].map((g) => `<span class="count" style="color:${GROUPS[g].color}">${GROUPS[g].name} ${n((v) => v.group === g)}</span>`);
+    c.push(`<span class="count" style="color:var(--vert)">외운 동사 ${n((v) => v.known)} / ${state.verbs.length}</span>`);
+    $('#counts').innerHTML = c.join('');
+  }
+  function lessonText(v) {
+    if (v.origin === 'mine') return '내가 추가한 동사';
+    if (!v.since) return '수업 예문·필기에 등장';
+    const [, m, d] = v.since.split('-').map(Number);
+    return `${m}/${d} 수업부터`;
+  }
+  function verbCard(v) {
+    const g = GROUPS[v.group] || GROUPS[3];
+    const reveal = state.revealed.has(v.id);
+    const hidden = state.hide && !reveal;
+    const pres = presentLines(v), pc = pcLines(v);
+    const line = (l) => `<button class="line ${hidden ? 'hidden-form' : ''} ${l.p.endsWith("'") ? 'el' : ''}" data-say="${esc(l.spoken)}" title="눌러서 듣기"><span class="p">${esc(l.p)}</span><span class="f">${l.html}</span></button>`;
+    const confirming = state.confirm === v.id;
+    return `<article class="verb ${v.known ? 'known' : ''}" data-id="${esc(v.id)}">
+      <div class="v-head">
+        <span class="v-inf" lang="fr">${esc(v.inf)}</span>
+        <button class="icon" data-say="${esc(v.inf)}" aria-label="${esc(v.inf)} 듣기">🔊</button>
+        <span class="arrow" aria-hidden="true">→</span>
+        <span class="v-ko">${esc(v.ko)}</span>
+        <span class="v-pron">${esc(v.pron || '')}</span>
+        <span class="badge" style="background:${g.color}">${g.name}${v.pronominal ? ' · 대명동사' : ''}</span>
+        ${v.origin === 'mine' ? '<span class="badge mine">내가 추가</span>' : ''}
+        <span class="v-tools">
+          <button class="known-btn" data-act="known" aria-pressed="${!!v.known}">${v.known ? '✓ 외웠어요' : '외웠어요?'}</button>
+          ${state.hide ? `<button class="more" data-act="reveal">${reveal ? '다시 가리기' : '다 보기'}</button>` : ''}
+          ${state.canWrite ? '<button class="more" data-act="edit">수정</button><button class="more" data-act="del">삭제</button>' : ''}
+        </span>
+      </div>
+      ${confirming ? `<div class="confirm">「${esc(v.inf)}」를 목록에서 지울까요? <button class="btn danger" data-act="del-yes">삭제</button><button class="btn" data-act="del-no">취소</button></div>` : ''}
+      <div class="forms-box">
+        <div><span class="lbl">Infinitif</span><span class="val" lang="fr">${esc(v.inf)}</span></div>
+        <div><span class="lbl">Participe présent</span><span class="val ${hidden ? 'hidden-form' : ''}" lang="fr"><span class="f">${esc(v.ppr || '')}</span></span></div>
+        <div><span class="lbl">Participe passé</span><span class="val ${hidden ? 'hidden-form' : ''}" lang="fr"><span class="f">${esc(v.pp)}</span></span></div>
+      </div>
+      <div class="meta"><span>Groupe: <b>${g.name}</b> <small>(${esc(g.sub)})</small></span><span>Auxiliaire: <b>${esc(v.aux)}</b></span><span>${esc(lessonText(v))}</span></div>
+      <div class="tenses-title">INDICATIF</div>
+      <div class="tenses" lang="fr">
+        <div class="tense"><h3>Présent</h3>${pres.map(line).join('')}</div>
+        <div class="tense"><h3>Passé composé</h3>${pc.map(line).join('')}</div>
+      </div>
+      ${v.note ? `<div class="note"><b>주의</b> ${esc(v.note)}</div>` : ''}
+    </article>`;
+  }
+  function render() {
+    renderFilters();
+    const list = $('#list');
+    if (!state.verbs.length) {
+      list.innerHTML = db
+        ? '<div class="empty"><b>아직 동사가 없어요.</b><br>위의 「＋ 동사 추가」로 첫 동사를 넣어보세요.</div>'
+        : '<div class="empty"><b>동사 목록을 불러올 수 없어요.</b><br>claude.ai에 로그인한 상태로 이 페이지를 열어주세요.</div>';
+      return;
+    }
+    const vs = filtered();
+    if (!vs.length) { list.innerHTML = `<div class="empty">「${esc(state.q)}」에 맞는 동사가 없어요.</div>`; return; }
+    let html = '';
+    for (const g of ['1', '2', '3']) {
+      const part = vs.filter((v) => v.group === g);
+      if (!part.length) continue;
+      html += `<div class="group-head"><span class="dot" style="background:${GROUPS[g].color}"></span><h2>${GROUPS[g].name}</h2><span>${esc(GROUPS[g].sub)} · ${part.length}개</span></div>`;
+      html += `<div class="list">${part.map(verbCard).join('')}</div>`;
+    }
+    list.innerHTML = html;
+  }
+  const setStatus = (t) => { $('#status').textContent = t; };
+
+  // ---------- 동작
+  document.addEventListener('click', async (e) => {
+    const sayEl = e.target.closest('[data-say]');
+    const card = e.target.closest('.verb');
+    const act = e.target.closest('[data-act]')?.dataset.act;
+    const f = e.target.closest('[data-f]');
+    if (f) { state.filter = f.dataset.f; render(); return; }
+    if (card && act) {
+      const id = card.dataset.id;
+      const v = state.verbs.find((x) => x.id === id);
+      if (!v) return;
+      if (act === 'reveal') { state.revealed.has(id) ? state.revealed.delete(id) : state.revealed.add(id); render(); return; }
+      if (act === 'edit') { openForm(v); return; }
+      if (act === 'del') { state.confirm = id; render(); return; }
+      if (act === 'del-no') { state.confirm = null; render(); return; }
+      if (act === 'del-yes') {
+        state.confirm = null;
+        try { await col.doc(id).delete(); setStatus(`「${v.inf}」를 지웠어요.`); } catch (err) { setStatus(writeError(err)); render(); }
+        return;
+      }
+      if (act === 'known') {
+        try { await col.doc(id).update({ known: !v.known }); } catch (err) { setStatus(writeError(err)); }
+        return;
+      }
+    }
+    if (sayEl) {
+      const line = sayEl.closest('.line');
+      if (line && line.classList.contains('hidden-form')) { line.classList.remove('hidden-form'); return; } // 가리기 모드: 첫 탭은 보이기
+      say(sayEl.dataset.say);
+    }
+  });
+  $('#q').addEventListener('input', (e) => { state.q = e.target.value; render(); });
+  $('#hide').addEventListener('click', () => {
+    state.hide = !state.hide; state.revealed.clear();
+    $('#hide').setAttribute('aria-pressed', state.hide);
+    try { localStorage.setItem('mv.hide', state.hide ? '1' : '0'); } catch (e) { /* 무시 */ }
+    render();
+  });
+  $('#hide').setAttribute('aria-pressed', state.hide);
+  function writeError(err) {
+    if (err && err.code === 'invalid_argument') { state.canWrite = false; return '이 계정으로는 목록을 바꿀 수 없어요 (보기 전용).'; }
+    if (err && err.code === 'quota_exceeded') return '저장 공간이 가득 찼어요. 쓰지 않는 동사를 지운 뒤 다시 해보세요.';
+    return '저장하지 못했어요. 잠시 뒤 다시 해보세요.';
+  }
+
+  // ---------- 추가·수정 창
+  const dlg = $('#dlg');
+  let editing = null;
+  $('#f-forms').innerHTML = P.map((p) => `<label class="f">${PL[p]}<input id="f-${p}" required lang="fr" autocapitalize="off" spellcheck="false"></label>`).join('');
+  function fill(v) {
+    $('#f-inf').value = v.inf || ''; $('#f-ko').value = v.ko || ''; $('#f-pron').value = v.pron || '';
+    $('#f-group').value = v.group || '1'; $('#f-aux').value = v.aux || 'avoir'; $('#f-pp').value = v.pp || ''; $('#f-ppr').value = v.ppr || '';
+    $('#f-note').value = v.note || '';
+    P.forEach((p) => { $(`#f-${p}`).value = v.forms?.[p] || ''; });
+  }
+  function openForm(v) {
+    editing = v || null;
+    $('#dlg-title').textContent = v ? `「${v.inf}」 수정` : '동사 추가';
+    fill(v || {});
+    $('#f-inf').disabled = !!v;
+    $('#f-ai').hidden = !sample || !!v;
+    $('#f-ai-msg').hidden = !sample || !!v;
+    dlg.showModal();
+  }
+  $('#add').addEventListener('click', () => openForm(null));
+  $('#f-cancel').addEventListener('click', () => dlg.close());
+  $('#form').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const inf = $('#f-inf').value.trim().replace(/\s+/g, ' ');
+    if (!inf) return;
+    const id = editing ? editing.id : slug(inf);
+    if (!editing && state.verbs.some((v) => v.id === id)) { $('#f-ai-msg').hidden = false; $('#f-ai-msg').textContent = `「${inf}」는 이미 목록에 있어요.`; return; }
+    const doc = {
+      ...(editing || {}), id, inf, ko: $('#f-ko').value.trim(), pron: $('#f-pron').value.trim(), group: $('#f-group').value,
+      pronominal: isPron(inf), aux: $('#f-aux').value, pp: $('#f-pp').value.trim(), ppr: $('#f-ppr').value.trim(),
+      forms: Object.fromEntries(P.map((p) => [p, $(`#f-${p}`).value.trim()])), note: $('#f-note').value.trim(),
+      origin: editing ? editing.origin : 'mine', known: editing ? !!editing.known : false,
+      lessons: editing ? (editing.lessons || []) : [], since: editing ? (editing.since || '') : '',
+    };
+    $('#f-save').disabled = true;
+    try {
+      await col.doc(id).set(doc);
+      dlg.close();
+      setStatus(editing ? `「${inf}」를 고쳤어요.` : `「${inf}」를 추가했어요.`);
+      state.q = ''; $('#q').value = '';
+    } catch (err) { $('#f-ai-msg').hidden = false; $('#f-ai-msg').textContent = writeError(err); }
+    finally { $('#f-save').disabled = false; }
+  });
+  $('#f-ai').addEventListener('click', async () => {
+    const inf = $('#f-inf').value.trim();
+    const msg = $('#f-ai-msg');
+    if (!inf) { msg.textContent = '먼저 동사원형을 써주세요.'; return; }
+    const btn = $('#f-ai'); btn.disabled = true; msg.textContent = '변화형을 찾는 중이에요… (몇 초 걸려요)';
+    const prompt = `You fill a French verb card for a Korean university student. Verb (infinitive): "${inf}".
+Reply with ONLY one JSON object, no other text:
+{"ko": "짧은 한국어 뜻", "pron": "[한글 발음, French r = ㅎ, 예: prendre → [프항드흐]]", "group": "1" | "2" | "3",
+ "aux": "avoir" | "être", "pp": "participe passé (masc. sing.)", "ppr": "participe présent",
+ "forms": {"je": "", "tu": "", "il": "", "nous": "", "vous": "", "ils": ""}, "note": "자주 틀리는 점 한 줄 (한국어, 없으면 빈 문자열)"}
+Rules: present indicative only. forms WITHOUT subject pronouns; for a pronominal verb include the reflexive pronoun (e.g. "me lave", "m'amuse", "nous lavons"); write the je form without elision ("aime", not "j'aime"). group "1" = -er verbs except aller, "2" = -ir verbs with nous -issons, "3" = all others. Pronominal verbs take être. If "${inf}" is not a French verb, reply {"error": "not a verb"}.`;
+    try {
+      const r = await sample.json(prompt, { modelTier: 'default' });
+      if (!r || r.error || !r.forms) { msg.textContent = '프랑스어 동사를 찾지 못했어요. 철자를 확인해 주세요.'; return; }
+      fill({ inf, ...r, forms: r.forms });
+      msg.textContent = '채웠어요. 틀린 곳이 없는지 확인한 뒤 저장하세요.';
+    } catch (err) {
+      if (['not_granted', 'sampling_disabled', 'not_declared', 'capability_disabled', 'capability_removed'].includes(err?.code)) {
+        msg.textContent = '자동 채우기를 쓸 수 없어요. 칸을 직접 채워주세요.'; btn.hidden = true;
+      } else if (err?.code === 'rate_limited') msg.textContent = '요청이 많아요. 잠시 뒤 다시 눌러주세요.';
+      else msg.textContent = '자동 채우기에 실패했어요. 다시 눌러보거나 직접 채워주세요.';
+    } finally { btn.disabled = false; }
+  });
+
+  // ---------- 저장소 연결
+  render();
+  (async () => {
+    if (!window.claude?.use) { render(); return; }
+    const [d, s, u] = await Promise.all([claude.use('db'), claude.use('sample'), claude.use('user')]);
+    db = d; sample = s;
+    if (u) { try { const ok = await u.can('data.write'); if (ok === false) state.canWrite = false; } catch (e) { /* 모름: 그대로 */ } }
+    if (!state.canWrite) $('#add').hidden = true;
+    if (!db) { render(); return; }
+    col = db.collection('verbs');
+    col.onSnapshot((snap) => {
+      state.verbs = snap.docs.map((d) => ({ id: d.id, ...d.data() }))
+        .sort((a, b) => (a.group || '3').localeCompare(b.group || '3') || a.inf.replace(/^(se |s')/, '').localeCompare(b.inf.replace(/^(se |s')/, ''), 'fr'));
+      render();
+    }, () => { setStatus('목록 연결이 끊겼어요. 페이지를 새로 고쳐 주세요.'); });
+  })();
+})();
+</script>

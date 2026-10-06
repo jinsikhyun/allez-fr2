@@ -1,6 +1,6 @@
 // 오프라인 지원: 앱 파일은 캐시 우선, 문제(content.json)는 네트워크 우선(3초 안에 안 오면 캐시).
 // VERSION은 tools/build.mjs가 빌드할 때마다 갱신한다.
-const VERSION = '20261001160946';
+const VERSION = '20261006060155';
 const CACHE = `allez-${VERSION}`;
 const SHELL = ['./', 'index.html', 'style.css', 'app.js', 'mascot.js', 'content.json', 'manifest.webmanifest',
   'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png'];

@@ -535,3 +535,4 @@ details.covers summary { font-weight: 800; cursor: pointer; }
 .cov-row { margin-top: 8px; font-size: 13.5px; }
 .cov-row small { color: var(--muted); font-weight: 700; }
 .cov-secs { font-size: 12.5px; color: var(--muted); margin: 3px 0 0 4px; }
+.sub-actions .verbs-link { grid-column: 1 / -1; text-decoration: none; }

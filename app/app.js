@@ -1420,6 +1420,8 @@
   }
 
   // ================================================================ home
+  // 동사장(Mes verbes): claude.ai Artifact 페이지 — 동사 82개 + 직접 추가·삭제·암기
+  const VERBS_URL = 'https://claude.ai/artifact/5h7xwz3k1HJzztxPZRX3ky';
   function markSeen(lessonId) {
     if (!S.seenLessons) S.seenLessons = [];
     if (!S.seenLessons.includes(lessonId)) { S.seenLessons.push(lessonId); save(); }
@@ -1530,6 +1532,7 @@
           <div class="sub-actions">
             <button class="btn small ghost" id="go-weak">🎯 약점 훈련${weak ? '' : ''}</button>
             <button class="btn small ghost" id="go-mistakes">📕 오답노트${mistakes ? ` ${mistakes}` : ''}</button>
+            <a class="btn small ghost verbs-link" href="${VERBS_URL}" target="_blank" rel="noopener">📒 동사장 · Mes verbes <span aria-hidden="true">↗</span></a>
           </div>
         </div>
         ${recentHtml}

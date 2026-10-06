@@ -1,0 +1,2148 @@
+[
+ {
+  "id": "acheter",
+  "inf": "acheter",
+  "ko": "사다, 구매하다",
+  "pron": "[아슈떼]",
+  "group": "1",
+  "pronominal": false,
+  "forms": {
+   "je": "achète",
+   "tu": "achètes",
+   "il": "achète",
+   "nous": "achetons",
+   "vous": "achetez",
+   "ils": "achètent"
+  },
+  "pp": "acheté",
+  "aux": "avoir",
+  "ppr": "achetant",
+  "note": "è는 je·tu·il·ils, nous·vous는 악상 없음 · 어미가 무음이면 è: j'achète · nous·vous는 악상 없음: achetons · ils도 è: achètent",
+  "lessons": [
+   "u0-06",
+   "u1-02"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "aimer",
+  "inf": "aimer",
+  "ko": "좋아하다, 사랑하다",
+  "pron": "[에메]",
+  "group": "1",
+  "pronominal": false,
+  "forms": {
+   "je": "aime",
+   "tu": "aimes",
+   "il": "aime",
+   "nous": "aimons",
+   "vous": "aimez",
+   "ils": "aiment"
+  },
+  "pp": "aimé",
+  "aux": "avoir",
+  "ppr": "aimant",
+  "note": "모음 앞 je → j'aime. J'aime les comédies musicales. · 3인칭 복수는 -ent",
+  "lessons": [
+   "u0-06"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "aller",
+  "inf": "aller",
+  "ko": "가다",
+  "pron": "[알레]",
+  "group": "3",
+  "pronominal": false,
+  "forms": {
+   "je": "vais",
+   "tu": "vas",
+   "il": "va",
+   "nous": "allons",
+   "vous": "allez",
+   "ils": "vont"
+  },
+  "pp": "allé",
+  "aux": "être",
+  "ppr": "allant",
+  "note": "-er인데 1군 아님! 어간 v- / all- / v- · aller는 -er로 끝나도 1군이 아님 → ils vont · je vais, il va · nous·vous만 all-: allons, allez",
+  "lessons": [
+   "u0-07",
+   "u1-05"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "appeler",
+  "inf": "appeler",
+  "ko": "부르다, 전화하다",
+  "pron": "[아쁠레]",
+  "group": "1",
+  "pronominal": false,
+  "forms": {
+   "je": "appelle",
+   "tu": "appelles",
+   "il": "appelle",
+   "nous": "appelons",
+   "vous": "appelez",
+   "ils": "appellent"
+  },
+  "pp": "appelé",
+  "aux": "avoir",
+  "ppr": "appelant",
+  "note": "ll은 je·tu·il·ils, nous·vous만 l 하나 · 어미가 무음이면 l을 겹친다: j'appelle · nous·vous는 l 하나: appelons · nous·vous는 l 하나: appelez · ils는 ll: appellent",
+  "lessons": [
+   "u0-06"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "apporter",
+  "inf": "apporter",
+  "ko": "가져오다",
+  "pron": "[아뽀흐떼]",
+  "group": "1",
+  "pronominal": false,
+  "forms": {
+   "je": "apporte",
+   "tu": "apportes",
+   "il": "apporte",
+   "nous": "apportons",
+   "vous": "apportez",
+   "ils": "apportent"
+  },
+  "pp": "apporté",
+  "aux": "avoir",
+  "ppr": "apportant",
+  "note": "a + porter(들다·입고 있다). 모음 앞 → j'apporte · p 두 개: j'apporte",
+  "lessons": [
+   "u0-06"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "apprendre",
+  "inf": "apprendre",
+  "ko": "배우다",
+  "pron": "[아프항드흐]",
+  "group": "3",
+  "pronominal": false,
+  "forms": {
+   "je": "apprends",
+   "tu": "apprends",
+   "il": "apprend",
+   "nous": "apprenons",
+   "vous": "apprenez",
+   "ils": "apprennent"
+  },
+  "pp": "appris",
+  "aux": "avoir",
+  "ppr": "apprenant",
+  "note": "모음 앞 → j'apprends. J'apprends le français. · nous·vous는 d가 빠짐: apprenons · ils는 n 두 개: apprennent",
+  "lessons": [
+   "u0-08",
+   "u1-03"
+  ],
+  "since": "2026-09-10",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "arriver",
+  "inf": "arriver",
+  "ko": "도착하다",
+  "pron": "[아히베]",
+  "group": "1",
+  "pronominal": false,
+  "forms": {
+   "je": "arrive",
+   "tu": "arrives",
+   "il": "arrive",
+   "nous": "arrivons",
+   "vous": "arrivez",
+   "ils": "arrivent"
+  },
+  "pp": "arrivé",
+  "aux": "être",
+  "ppr": "arrivant",
+  "note": "",
+  "lessons": [
+   "u1-05"
+  ],
+  "since": "2026-09-16",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "arreter",
+  "inf": "arrêter",
+  "ko": "멈추다, 그만두다",
+  "pron": "[아헤떼]",
+  "group": "1",
+  "pronominal": false,
+  "forms": {
+   "je": "arrête",
+   "tu": "arrêtes",
+   "il": "arrête",
+   "nous": "arrêtons",
+   "vous": "arrêtez",
+   "ils": "arrêtent"
+  },
+  "pp": "arrêté",
+  "aux": "avoir",
+  "ppr": "arrêtant",
+  "note": "Quiz 1: Je arrête ✗ → J'arrête (엘리지옹!) · arrêter는 모든 인칭에서 ê 그대로 · ê(악상 시르콩플렉스)를 빼먹지 말 것",
+  "lessons": [
+   "u0-06"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "attendre",
+  "inf": "attendre",
+  "ko": "기다리다",
+  "pron": "[아땅드흐]",
+  "group": "3",
+  "pronominal": false,
+  "forms": {
+   "je": "attends",
+   "tu": "attends",
+   "il": "attend",
+   "nous": "attendons",
+   "vous": "attendez",
+   "ils": "attendent"
+  },
+  "pp": "attendu",
+  "aux": "avoir",
+  "ppr": "attendant",
+  "note": "j'attends — 엘리지옹! (Quiz 1) · il/elle은 어미 없음: il attend · 어간이 d로 끝나서 t를 안 붙임",
+  "lessons": [
+   "u0-08",
+   "u1-02"
+  ],
+  "since": "2026-09-10",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "avoir",
+  "inf": "avoir",
+  "ko": "가지다 (have)",
+  "pron": "[아부아흐]",
+  "group": "3",
+  "pronominal": false,
+  "forms": {
+   "je": "ai",
+   "tu": "as",
+   "il": "a",
+   "nous": "avons",
+   "vous": "avez",
+   "ils": "ont"
+  },
+  "pp": "eu",
+  "aux": "avoir",
+  "ppr": "ayant",
+  "note": "j'ai (엘리지옹). 나이도 avoir: Alex a dix-neuf ans. · sont은 être! avoir는 ils ont [일 종] · tu는 s: tu as",
+  "lessons": [
+   "u0-07",
+   "u1-03"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "boire",
+  "inf": "boire",
+  "ko": "마시다",
+  "pron": "[부아흐]",
+  "group": "3",
+  "pronominal": false,
+  "forms": {
+   "je": "bois",
+   "tu": "bois",
+   "il": "boit",
+   "nous": "buvons",
+   "vous": "buvez",
+   "ils": "boivent"
+  },
+  "pp": "bu",
+  "aux": "avoir",
+  "ppr": "buvant",
+  "note": "",
+  "lessons": [],
+  "since": "",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "chercher",
+  "inf": "chercher",
+  "ko": "찾다",
+  "pron": "[셰흐셰]",
+  "group": "1",
+  "pronominal": false,
+  "forms": {
+   "je": "cherche",
+   "tu": "cherches",
+   "il": "cherche",
+   "nous": "cherchons",
+   "vous": "cherchez",
+   "ils": "cherchent"
+  },
+  "pp": "cherché",
+  "aux": "avoir",
+  "ppr": "cherchant",
+  "note": "",
+  "lessons": [],
+  "since": "",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "choisir",
+  "inf": "choisir",
+  "ko": "고르다, 선택하다",
+  "pron": "[슈아지흐]",
+  "group": "2",
+  "pronominal": false,
+  "forms": {
+   "je": "choisis",
+   "tu": "choisis",
+   "il": "choisit",
+   "nous": "choisissons",
+   "vous": "choisissez",
+   "ils": "choisissent"
+  },
+  "pp": "choisi",
+  "aux": "avoir",
+  "ppr": "choisissant",
+  "note": "명사형 le choix (선택) · il/elle은 -it: il choisit · 복수엔 -iss-: choisissent",
+  "lessons": [
+   "u0-06",
+   "u1-02"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "commencer",
+  "inf": "commencer",
+  "ko": "시작하다",
+  "pron": "[꼬망쎄]",
+  "group": "1",
+  "pronominal": false,
+  "forms": {
+   "je": "commence",
+   "tu": "commences",
+   "il": "commence",
+   "nous": "commençons",
+   "vous": "commencez",
+   "ils": "commencent"
+  },
+  "pp": "commencé",
+  "aux": "avoir",
+  "ppr": "commençant",
+  "note": "nous commençons — 세디유! · o 앞에서 [s] 소리를 지키려면 ç · ç는 nous만! e 앞의 c는 원래 [s]",
+  "lessons": [
+   "u0-06"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "comprendre",
+  "inf": "comprendre",
+  "ko": "이해하다",
+  "pron": "[꽁프항드흐]",
+  "group": "3",
+  "pronominal": false,
+  "forms": {
+   "je": "comprends",
+   "tu": "comprends",
+   "il": "comprend",
+   "nous": "comprenons",
+   "vous": "comprenez",
+   "ils": "comprennent"
+  },
+  "pp": "compris",
+  "aux": "avoir",
+  "ppr": "comprenant",
+  "note": "com + prendre → prendre와 똑같이 변한다 · prendre처럼 n 두 개: comprennent · il/elle은 어미 없음: il comprend · nous·vous는 d가 빠짐: comprenons",
+  "lessons": [
+   "u0-08",
+   "u1-03"
+  ],
+  "since": "2026-09-10",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "conduire",
+  "inf": "conduire",
+  "ko": "운전하다",
+  "pron": "[꽁뒤이흐]",
+  "group": "3",
+  "pronominal": false,
+  "forms": {
+   "je": "conduis",
+   "tu": "conduis",
+   "il": "conduit",
+   "nous": "conduisons",
+   "vous": "conduisez",
+   "ils": "conduisent"
+  },
+  "pp": "conduit",
+  "aux": "avoir",
+  "ppr": "conduisant",
+  "note": "",
+  "lessons": [],
+  "since": "",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "connaitre",
+  "inf": "connaître",
+  "ko": "(사람·장소를) 알다",
+  "pron": "[꼬네트흐]",
+  "group": "3",
+  "pronominal": false,
+  "forms": {
+   "je": "connais",
+   "tu": "connais",
+   "il": "connaît",
+   "nous": "connaissons",
+   "vous": "connaissez",
+   "ils": "connaissent"
+  },
+  "pp": "connu",
+  "aux": "avoir",
+  "ppr": "connaissant",
+  "note": "savoir = 지식·사실 / connaître = 사람·장소 · il/elle은 -t: il connaît (î 유지) · 복수는 -ss-: connaissons",
+  "lessons": [
+   "u0-07",
+   "u1-03"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "courir",
+  "inf": "courir",
+  "ko": "달리다",
+  "pron": "[꾸히흐]",
+  "group": "3",
+  "pronominal": false,
+  "forms": {
+   "je": "cours",
+   "tu": "cours",
+   "il": "court",
+   "nous": "courons",
+   "vous": "courez",
+   "ils": "courent"
+  },
+  "pp": "couru",
+  "aux": "avoir",
+  "ppr": "courant",
+  "note": "",
+  "lessons": [],
+  "since": "",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "descendre",
+  "inf": "descendre",
+  "ko": "내려가다, 내리다",
+  "pron": "[데쌍드흐]",
+  "group": "3",
+  "pronominal": false,
+  "forms": {
+   "je": "descends",
+   "tu": "descends",
+   "il": "descend",
+   "nous": "descendons",
+   "vous": "descendez",
+   "ils": "descendent"
+  },
+  "pp": "descendu",
+  "aux": "être",
+  "ppr": "descendant",
+  "note": "attendre와 똑같은 -re 패턴 (il descend — 어미 없음) · il descend — 어미 없음 (Quiz 1 오답!) · 어간이 d로 끝나서 t를 안 붙임",
+  "lessons": [
+   "u0-08",
+   "u1-05"
+  ],
+  "since": "2026-09-10",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "devenir",
+  "inf": "devenir",
+  "ko": "~이 되다",
+  "pron": "[드브니흐]",
+  "group": "3",
+  "pronominal": false,
+  "forms": {
+   "je": "deviens",
+   "tu": "deviens",
+   "il": "devient",
+   "nous": "devenons",
+   "vous": "devenez",
+   "ils": "deviennent"
+  },
+  "pp": "devenu",
+  "aux": "être",
+  "ppr": "devenant",
+  "note": "de + venir → venir와 똑같이 변한다 · 복수 주어엔 deviennent (Quiz 1 오답!) · ils는 vie + nn: deviennent",
+  "lessons": [
+   "u0-08",
+   "u1-05"
+  ],
+  "since": "2026-09-10",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "devoir",
+  "inf": "devoir",
+  "ko": "~해야 한다",
+  "pron": "[드부아흐]",
+  "group": "3",
+  "pronominal": false,
+  "forms": {
+   "je": "dois",
+   "tu": "dois",
+   "il": "doit",
+   "nous": "devons",
+   "vous": "devez",
+   "ils": "doivent"
+  },
+  "pp": "dû",
+  "aux": "avoir",
+  "ppr": "devant",
+  "note": "Tu dois travailler. = 너는 공부해야 해 · ils는 doiv-: doivent · nous·vous는 dev-: devons",
+  "lessons": [
+   "u0-07",
+   "u1-03"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "dire",
+  "inf": "dire",
+  "ko": "말하다",
+  "pron": "[디흐]",
+  "group": "3",
+  "pronominal": false,
+  "forms": {
+   "je": "dis",
+   "tu": "dis",
+   "il": "dit",
+   "nous": "disons",
+   "vous": "dites",
+   "ils": "disent"
+  },
+  "pp": "dit",
+  "aux": "avoir",
+  "ppr": "disant",
+  "note": "vous dites — -ez 아님! · -ez 예외 3인방: êtes · faites · dites · 복수는 s가 생김: disent",
+  "lessons": [
+   "u0-08",
+   "u1-03"
+  ],
+  "since": "2026-09-10",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "donner",
+  "inf": "donner",
+  "ko": "주다",
+  "pron": "[도네]",
+  "group": "1",
+  "pronominal": false,
+  "forms": {
+   "je": "donne",
+   "tu": "donnes",
+   "il": "donne",
+   "nous": "donnons",
+   "vous": "donnez",
+   "ils": "donnent"
+  },
+  "pp": "donné",
+  "aux": "avoir",
+  "ppr": "donnant",
+  "note": "vous는 -ez. donné는 과거분사",
+  "lessons": [
+   "u0-06"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "dormir",
+  "inf": "dormir",
+  "ko": "자다",
+  "pron": "[도흐미흐]",
+  "group": "3",
+  "pronominal": false,
+  "forms": {
+   "je": "dors",
+   "tu": "dors",
+   "il": "dort",
+   "nous": "dormons",
+   "vous": "dormez",
+   "ils": "dorment"
+  },
+  "pp": "dormi",
+  "aux": "avoir",
+  "ppr": "dormant",
+  "note": "단수에선 m이 빠진다: je dors · il dort — -t로 끝",
+  "lessons": [
+   "u0-08"
+  ],
+  "since": "2026-09-10",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "entrer",
+  "inf": "entrer",
+  "ko": "들어가다",
+  "pron": "[앙트헤]",
+  "group": "1",
+  "pronominal": false,
+  "forms": {
+   "je": "entre",
+   "tu": "entres",
+   "il": "entre",
+   "nous": "entrons",
+   "vous": "entrez",
+   "ils": "entrent"
+  },
+  "pp": "entré",
+  "aux": "être",
+  "ppr": "entrant",
+  "note": "모음 앞 → j'entre",
+  "lessons": [
+   "u0-06",
+   "u1-05"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "faire",
+  "inf": "faire",
+  "ko": "하다, 만들다",
+  "pron": "[페흐]",
+  "group": "3",
+  "pronominal": false,
+  "forms": {
+   "je": "fais",
+   "tu": "fais",
+   "il": "fait",
+   "nous": "faisons",
+   "vous": "faites",
+   "ils": "font"
+  },
+  "pp": "fait",
+  "aux": "avoir",
+  "ppr": "faisant",
+  "note": "nous faisons [누 프종] 발음 주의! · -ez 예외 3인방: vous faites · ils font — 완전 불규칙 · il/elle은 -t: il fait",
+  "lessons": [
+   "u0-07",
+   "u1-03"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "finir",
+  "inf": "finir",
+  "ko": "끝내다, 마치다",
+  "pron": "[피니흐]",
+  "group": "2",
+  "pronominal": false,
+  "forms": {
+   "je": "finis",
+   "tu": "finis",
+   "il": "finit",
+   "nous": "finissons",
+   "vous": "finissez",
+   "ils": "finissent"
+  },
+  "pp": "fini",
+  "aux": "avoir",
+  "ppr": "finissant",
+  "note": "2군 기본형: -is -is -it -issons -issez -issent · il/elle은 -it: il finit · 복수엔 -iss-: finissons · 복수엔 -iss-: finissent",
+  "lessons": [
+   "u0-06",
+   "u1-02"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "grandir",
+  "inf": "grandir",
+  "ko": "자라다, 커지다",
+  "pron": "[그항디흐]",
+  "group": "2",
+  "pronominal": false,
+  "forms": {
+   "je": "grandis",
+   "tu": "grandis",
+   "il": "grandit",
+   "nous": "grandissons",
+   "vous": "grandissez",
+   "ils": "grandissent"
+  },
+  "pp": "grandi",
+  "aux": "avoir",
+  "ppr": "grandissant",
+  "note": "grand(큰) + ir · 복수엔 -iss-: grandissons",
+  "lessons": [
+   "u0-06",
+   "u1-02"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "grossir",
+  "inf": "grossir",
+  "ko": "살찌다",
+  "pron": "[그호씨흐]",
+  "group": "2",
+  "pronominal": false,
+  "forms": {
+   "je": "grossis",
+   "tu": "grossis",
+   "il": "grossit",
+   "nous": "grossissons",
+   "vous": "grossissez",
+   "ils": "grossissent"
+  },
+  "pp": "grossi",
+  "aux": "avoir",
+  "ppr": "grossissant",
+  "note": "gros(뚱뚱한) + ir · 복수엔 -iss-: grossissent",
+  "lessons": [
+   "u0-06"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "habiter",
+  "inf": "habiter",
+  "ko": "살다, 거주하다",
+  "pron": "[아비떼]",
+  "group": "1",
+  "pronominal": false,
+  "forms": {
+   "je": "habite",
+   "tu": "habites",
+   "il": "habite",
+   "nous": "habitons",
+   "vous": "habitez",
+   "ils": "habitent"
+  },
+  "pp": "habité",
+  "aux": "avoir",
+  "ppr": "habitant",
+  "note": "h는 무음 → j'habite (엘리지옹!) · tu는 -es: tu habites",
+  "lessons": [
+   "u0-06"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "laisser",
+  "inf": "laisser",
+  "ko": "놓아두다, 내버려두다",
+  "pron": "[레쎄]",
+  "group": "1",
+  "pronominal": false,
+  "forms": {
+   "je": "laisse",
+   "tu": "laisses",
+   "il": "laisse",
+   "nous": "laissons",
+   "vous": "laissez",
+   "ils": "laissent"
+  },
+  "pp": "laissé",
+  "aux": "avoir",
+  "ppr": "laissant",
+  "note": "ai = [ɛ] '에' · s 두 개: je laisse",
+  "lessons": [
+   "u0-06"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "lire",
+  "inf": "lire",
+  "ko": "읽다",
+  "pron": "[리흐]",
+  "group": "3",
+  "pronominal": false,
+  "forms": {
+   "je": "lis",
+   "tu": "lis",
+   "il": "lit",
+   "nous": "lisons",
+   "vous": "lisez",
+   "ils": "lisent"
+  },
+  "pp": "lu",
+  "aux": "avoir",
+  "ppr": "lisant",
+  "note": "je lis — l은 자음이라 축약 안 함 · 복수는 s가 생김: lisons · 복수는 s가 생김: lisent",
+  "lessons": [
+   "u0-08",
+   "u1-03"
+  ],
+  "since": "2026-09-10",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "manger",
+  "inf": "manger",
+  "ko": "먹다",
+  "pron": "[망제]",
+  "group": "1",
+  "pronominal": false,
+  "forms": {
+   "je": "mange",
+   "tu": "manges",
+   "il": "mange",
+   "nous": "mangeons",
+   "vous": "mangez",
+   "ils": "mangent"
+  },
+  "pp": "mangé",
+  "aux": "avoir",
+  "ppr": "mangeant",
+  "note": "nous mangeons — e 유지! · g 뒤에 e를 남겨야 [ʒ] 소리 유지 · e 추가는 nous만! vous mangez",
+  "lessons": [
+   "u0-06",
+   "u1-02"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "manquer",
+  "inf": "manquer",
+  "ko": "부족하다, 그립다",
+  "pron": "[망께]",
+  "group": "1",
+  "pronominal": false,
+  "forms": {
+   "je": "manque",
+   "tu": "manques",
+   "il": "manque",
+   "nous": "manquons",
+   "vous": "manquez",
+   "ils": "manquent"
+  },
+  "pp": "manqué",
+  "aux": "avoir",
+  "ppr": "manquant",
+  "note": "Tu me manques. = 네가 보고 싶어",
+  "lessons": [
+   "u0-06"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "marcher",
+  "inf": "marcher",
+  "ko": "걷다",
+  "pron": "[마흐셰]",
+  "group": "1",
+  "pronominal": false,
+  "forms": {
+   "je": "marche",
+   "tu": "marches",
+   "il": "marche",
+   "nous": "marchons",
+   "vous": "marchez",
+   "ils": "marchent"
+  },
+  "pp": "marché",
+  "aux": "avoir",
+  "ppr": "marchant",
+  "note": "",
+  "lessons": [],
+  "since": "",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "mettre",
+  "inf": "mettre",
+  "ko": "놓다, 입다",
+  "pron": "[메트흐]",
+  "group": "3",
+  "pronominal": false,
+  "forms": {
+   "je": "mets",
+   "tu": "mets",
+   "il": "met",
+   "nous": "mettons",
+   "vous": "mettez",
+   "ils": "mettent"
+  },
+  "pp": "mis",
+  "aux": "avoir",
+  "ppr": "mettant",
+  "note": "단수 t 하나, 복수 tt · 단수는 t 하나: tu mets (Quiz 1 오답!) · il met — 어미 없음 · 복수는 tt: mettons",
+  "lessons": [
+   "u0-08",
+   "u1-03"
+  ],
+  "since": "2026-09-10",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "monter",
+  "inf": "monter",
+  "ko": "올라가다",
+  "pron": "[몽떼]",
+  "group": "1",
+  "pronominal": false,
+  "forms": {
+   "je": "monte",
+   "tu": "montes",
+   "il": "monte",
+   "nous": "montons",
+   "vous": "montez",
+   "ils": "montent"
+  },
+  "pp": "monté",
+  "aux": "être",
+  "ppr": "montant",
+  "note": "",
+  "lessons": [
+   "u0-06",
+   "u1-05"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "mourir",
+  "inf": "mourir",
+  "ko": "죽다",
+  "pron": "[무히흐]",
+  "group": "3",
+  "pronominal": false,
+  "forms": {
+   "je": "meurs",
+   "tu": "meurs",
+   "il": "meurt",
+   "nous": "mourons",
+   "vous": "mourez",
+   "ils": "meurent"
+  },
+  "pp": "mort",
+  "aux": "être",
+  "ppr": "mourant",
+  "note": "",
+  "lessons": [
+   "u1-05"
+  ],
+  "since": "2026-09-16",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "naitre",
+  "inf": "naître",
+  "ko": "태어나다",
+  "pron": "[네트흐]",
+  "group": "3",
+  "pronominal": false,
+  "forms": {
+   "je": "nais",
+   "tu": "nais",
+   "il": "naît",
+   "nous": "naissons",
+   "vous": "naissez",
+   "ils": "naissent"
+  },
+  "pp": "né",
+  "aux": "être",
+  "ppr": "naissant",
+  "note": "",
+  "lessons": [
+   "u1-05"
+  ],
+  "since": "2026-09-16",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "offrir",
+  "inf": "offrir",
+  "ko": "주다, 선물하다",
+  "pron": "[오프히흐]",
+  "group": "3",
+  "pronominal": false,
+  "forms": {
+   "je": "offre",
+   "tu": "offres",
+   "il": "offre",
+   "nous": "offrons",
+   "vous": "offrez",
+   "ils": "offrent"
+  },
+  "pp": "offert",
+  "aux": "avoir",
+  "ppr": "offrant",
+  "note": "",
+  "lessons": [],
+  "since": "",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "ouvrir",
+  "inf": "ouvrir",
+  "ko": "열다",
+  "pron": "[우브히흐]",
+  "group": "3",
+  "pronominal": false,
+  "forms": {
+   "je": "ouvre",
+   "tu": "ouvres",
+   "il": "ouvre",
+   "nous": "ouvrons",
+   "vous": "ouvrez",
+   "ils": "ouvrent"
+  },
+  "pp": "ouvert",
+  "aux": "avoir",
+  "ppr": "ouvrant",
+  "note": "",
+  "lessons": [
+   "u1-03"
+  ],
+  "since": "2026-09-15",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "parler",
+  "inf": "parler",
+  "ko": "말하다",
+  "pron": "[빠흘레]",
+  "group": "1",
+  "pronominal": false,
+  "forms": {
+   "je": "parle",
+   "tu": "parles",
+   "il": "parle",
+   "nous": "parlons",
+   "vous": "parlez",
+   "ils": "parlent"
+  },
+  "pp": "parlé",
+  "aux": "avoir",
+  "ppr": "parlant",
+  "note": "1군 기본형. -ent는 무음 → ils parlent [일 파흘] · vous는 -ez! parlé는 과거분사 · 3인칭 복수는 -ent (발음 안 함)",
+  "lessons": [
+   "u0-06",
+   "u1-02"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "partir",
+  "inf": "partir",
+  "ko": "떠나다",
+  "pron": "[빠흐띠흐]",
+  "group": "3",
+  "pronominal": false,
+  "forms": {
+   "je": "pars",
+   "tu": "pars",
+   "il": "part",
+   "nous": "partons",
+   "vous": "partez",
+   "ils": "partent"
+  },
+  "pp": "parti",
+  "aux": "être",
+  "ppr": "partant",
+  "note": "on도 3인칭 단수 → On part (Quiz 1) · il/elle/on은 -t: il part · je·tu는 -s: je pars",
+  "lessons": [
+   "u0-08",
+   "u1-05"
+  ],
+  "since": "2026-09-10",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "passer",
+  "inf": "passer",
+  "ko": "지나가다, (시간을) 보내다",
+  "pron": "[빠쎄]",
+  "group": "1",
+  "pronominal": false,
+  "forms": {
+   "je": "passe",
+   "tu": "passes",
+   "il": "passe",
+   "nous": "passons",
+   "vous": "passez",
+   "ils": "passent"
+  },
+  "pp": "passé",
+  "aux": "être",
+  "ppr": "passant",
+  "note": "",
+  "lessons": [
+   "u0-06",
+   "u1-05"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "porter",
+  "inf": "porter",
+  "ko": "들다, 입고 있다",
+  "pron": "[뽀흐떼]",
+  "group": "1",
+  "pronominal": false,
+  "forms": {
+   "je": "porte",
+   "tu": "portes",
+   "il": "porte",
+   "nous": "portons",
+   "vous": "portez",
+   "ils": "portent"
+  },
+  "pp": "porté",
+  "aux": "avoir",
+  "ppr": "portant",
+  "note": "a + porter = apporter(가져오다) · 3인칭 복수는 -ent (발음 안 함) · vous는 -ez. porté는 과거분사",
+  "lessons": [
+   "u0-06"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "pouvoir",
+  "inf": "pouvoir",
+  "ko": "~할 수 있다",
+  "pron": "[뿌부아흐]",
+  "group": "3",
+  "pronominal": false,
+  "forms": {
+   "je": "peux",
+   "tu": "peux",
+   "il": "peut",
+   "nous": "pouvons",
+   "vous": "pouvez",
+   "ils": "peuvent"
+  },
+  "pp": "pu",
+  "aux": "avoir",
+  "ppr": "pouvant",
+  "note": "뒤에 동사원형: Je peux entrer ? · ils는 peuv-: peuvent · je·tu는 -x: je peux",
+  "lessons": [
+   "u0-07",
+   "u1-03"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "prendre",
+  "inf": "prendre",
+  "ko": "잡다, 타다, 먹다",
+  "pron": "[프항드흐]",
+  "group": "3",
+  "pronominal": false,
+  "forms": {
+   "je": "prends",
+   "tu": "prends",
+   "il": "prend",
+   "nous": "prenons",
+   "vous": "prenez",
+   "ils": "prennent"
+  },
+  "pp": "pris",
+  "aux": "avoir",
+  "ppr": "prenant",
+  "note": "영어 take: prendre le bus (버스를 타다) · il prend — d로 끝나서 어미 없음 · nous·vous는 d가 빠짐: prenons · ils는 n 두 개: prennent",
+  "lessons": [
+   "u0-08",
+   "u1-03"
+  ],
+  "since": "2026-09-10",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "preferer",
+  "inf": "préférer",
+  "ko": "선호하다, 더 좋아하다",
+  "pron": "[프헤페헤]",
+  "group": "1",
+  "pronominal": false,
+  "forms": {
+   "je": "préfère",
+   "tu": "préfères",
+   "il": "préfère",
+   "nous": "préférons",
+   "vous": "préférez",
+   "ils": "préfèrent"
+  },
+  "pp": "préféré",
+  "aux": "avoir",
+  "ppr": "préférant",
+  "note": "원형은 préférer — è 없이 é 두 개 + -er (préfèrer ✗ · Quiz 1 오답 préféer ✗) · 두 번째 é → è: je préfère · nous·vous는 é 그대로: préférons · ils도 è: préfèrent",
+  "lessons": [
+   "u0-06"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "quitter",
+  "inf": "quitter",
+  "ko": "(장소·사람을) 떠나다",
+  "pron": "[끼떼]",
+  "group": "1",
+  "pronominal": false,
+  "forms": {
+   "je": "quitte",
+   "tu": "quittes",
+   "il": "quitte",
+   "nous": "quittons",
+   "vous": "quittez",
+   "ils": "quittent"
+  },
+  "pp": "quitté",
+  "aux": "avoir",
+  "ppr": "quittant",
+  "note": "t 두 개: nous quittons",
+  "lessons": [
+   "u0-06",
+   "u1-02"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "regarder",
+  "inf": "regarder",
+  "ko": "바라보다",
+  "pron": "[흐가흐데]",
+  "group": "1",
+  "pronominal": false,
+  "forms": {
+   "je": "regarde",
+   "tu": "regardes",
+   "il": "regarde",
+   "nous": "regardons",
+   "vous": "regardez",
+   "ils": "regardent"
+  },
+  "pp": "regardé",
+  "aux": "avoir",
+  "ppr": "regardant",
+  "note": "",
+  "lessons": [
+   "u0-06"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "rencontrer",
+  "inf": "rencontrer",
+  "ko": "만나다",
+  "pron": "[항꽁트헤]",
+  "group": "1",
+  "pronominal": false,
+  "forms": {
+   "je": "rencontre",
+   "tu": "rencontres",
+   "il": "rencontre",
+   "nous": "rencontrons",
+   "vous": "rencontrez",
+   "ils": "rencontrent"
+  },
+  "pp": "rencontré",
+  "aux": "avoir",
+  "ppr": "rencontrant",
+  "note": "",
+  "lessons": [
+   "u0-06",
+   "u1-02"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "rentrer",
+  "inf": "rentrer",
+  "ko": "(집에) 돌아가다",
+  "pron": "[항트헤]",
+  "group": "1",
+  "pronominal": false,
+  "forms": {
+   "je": "rentre",
+   "tu": "rentres",
+   "il": "rentre",
+   "nous": "rentrons",
+   "vous": "rentrez",
+   "ils": "rentrent"
+  },
+  "pp": "rentré",
+  "aux": "être",
+  "ppr": "rentrant",
+  "note": "rentrer와 la rentrée(개학)는 발음이 같다 · rentré는 과거분사. 현재형 je rentre",
+  "lessons": [
+   "u0-06",
+   "u1-05"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "rester",
+  "inf": "rester",
+  "ko": "남아 있다, 머무르다",
+  "pron": "[헤스떼]",
+  "group": "1",
+  "pronominal": false,
+  "forms": {
+   "je": "reste",
+   "tu": "restes",
+   "il": "reste",
+   "nous": "restons",
+   "vous": "restez",
+   "ils": "restent"
+  },
+  "pp": "resté",
+  "aux": "être",
+  "ppr": "restant",
+  "note": "faux ami! 영어 rest(쉬다)가 아니라 '남아 있다'",
+  "lessons": [
+   "u0-06",
+   "u1-05"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "rougir",
+  "inf": "rougir",
+  "ko": "(얼굴이) 빨개지다",
+  "pron": "[후지흐]",
+  "group": "2",
+  "pronominal": false,
+  "forms": {
+   "je": "rougis",
+   "tu": "rougis",
+   "il": "rougit",
+   "nous": "rougissons",
+   "vous": "rougissez",
+   "ils": "rougissent"
+  },
+  "pp": "rougi",
+  "aux": "avoir",
+  "ppr": "rougissant",
+  "note": "rouge(빨간) + ir · il/elle은 -it: il rougit",
+  "lessons": [
+   "u0-06"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "reagir",
+  "inf": "réagir",
+  "ko": "반응하다",
+  "pron": "[헤아지흐]",
+  "group": "2",
+  "pronominal": false,
+  "forms": {
+   "je": "réagis",
+   "tu": "réagis",
+   "il": "réagit",
+   "nous": "réagissons",
+   "vous": "réagissez",
+   "ils": "réagissent"
+  },
+  "pp": "réagi",
+  "aux": "avoir",
+  "ppr": "réagissant",
+  "note": "복수엔 -iss-: réagissez",
+  "lessons": [
+   "u0-06"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "reflechir",
+  "inf": "réfléchir",
+  "ko": "깊이 생각하다",
+  "pron": "[헤플레시흐]",
+  "group": "2",
+  "pronominal": false,
+  "forms": {
+   "je": "réfléchis",
+   "tu": "réfléchis",
+   "il": "réfléchit",
+   "nous": "réfléchissons",
+   "vous": "réfléchissez",
+   "ils": "réfléchissent"
+  },
+  "pp": "réfléchi",
+  "aux": "avoir",
+  "ppr": "réfléchissant",
+  "note": "Je réfléchis. = 생각해 볼게요 · il/elle은 -it: il réfléchit · 복수엔 -iss-: réfléchissent",
+  "lessons": [
+   "u0-06"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "repeter",
+  "inf": "répéter",
+  "ko": "반복하다",
+  "pron": "[헤뻬떼]",
+  "group": "1",
+  "pronominal": false,
+  "forms": {
+   "je": "répète",
+   "tu": "répètes",
+   "il": "répète",
+   "nous": "répétons",
+   "vous": "répétez",
+   "ils": "répètent"
+  },
+  "pp": "répété",
+  "aux": "avoir",
+  "ppr": "répétant",
+  "note": "préférer와 같은 패턴 (é → è) · 두 번째 é → è: il répète · nous·vous는 é 그대로: répétons",
+  "lessons": [
+   "u0-06"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "reussir",
+  "inf": "réussir",
+  "ko": "성공하다, (시험에) 붙다",
+  "pron": "[헤위씨흐]",
+  "group": "2",
+  "pronominal": false,
+  "forms": {
+   "je": "réussis",
+   "tu": "réussis",
+   "il": "réussit",
+   "nous": "réussissons",
+   "vous": "réussissez",
+   "ils": "réussissent"
+  },
+  "pp": "réussi",
+  "aux": "avoir",
+  "ppr": "réussissant",
+  "note": "복수엔 -iss-: réussissons · il/elle은 -it: il réussit",
+  "lessons": [
+   "u0-06"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "s-amuser",
+  "inf": "s'amuser",
+  "ko": "즐겁게 놀다",
+  "pron": "[싸뮈제]",
+  "group": "1",
+  "pronominal": true,
+  "forms": {
+   "je": "m'amuse",
+   "tu": "t'amuses",
+   "il": "s'amuse",
+   "nous": "nous amusons",
+   "vous": "vous amusez",
+   "ils": "s'amusent"
+  },
+  "pp": "amusé",
+  "aux": "être",
+  "ppr": "s'amusant",
+  "note": "모음 앞 me/te/se → m'/t'/s' · 모음 앞 me → m' (엘리지옹!) · 모음 앞 te → t'",
+  "lessons": [
+   "u1-06"
+  ],
+  "since": "2026-09-16",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "s-appeler",
+  "inf": "s'appeler",
+  "ko": "이름이 ~이다",
+  "pron": "[싸쁠레]",
+  "group": "1",
+  "pronominal": true,
+  "forms": {
+   "je": "m'appelle",
+   "tu": "t'appelles",
+   "il": "s'appelle",
+   "nous": "nous appelons",
+   "vous": "vous appelez",
+   "ils": "s'appellent"
+  },
+  "pp": "appelé",
+  "aux": "être",
+  "ppr": "s'appelant",
+  "note": "",
+  "lessons": [],
+  "since": "",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "savoir",
+  "inf": "savoir",
+  "ko": "알다",
+  "pron": "[싸부아흐]",
+  "group": "3",
+  "pronominal": false,
+  "forms": {
+   "je": "sais",
+   "tu": "sais",
+   "il": "sait",
+   "nous": "savons",
+   "vous": "savez",
+   "ils": "savent"
+  },
+  "pp": "su",
+  "aux": "avoir",
+  "ppr": "sachant",
+  "note": "Tu sais… = 있잖아 (말버릇) · 복수는 sav-: ils savent · il/elle은 -t: il sait",
+  "lessons": [
+   "u0-07",
+   "u1-03"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "se-casser",
+  "inf": "se casser",
+  "ko": "(신체 일부가) 부러지다",
+  "pron": "[쓰 까쎄]",
+  "group": "1",
+  "pronominal": true,
+  "forms": {
+   "je": "me casse",
+   "tu": "te casses",
+   "il": "se casse",
+   "nous": "nous cassons",
+   "vous": "vous cassez",
+   "ils": "se cassent"
+  },
+  "pp": "cassé",
+  "aux": "être",
+  "ppr": "se cassant",
+  "note": "",
+  "lessons": [],
+  "since": "",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "se-laver",
+  "inf": "se laver",
+  "ko": "씻다",
+  "pron": "[쓰 라베]",
+  "group": "1",
+  "pronominal": true,
+  "forms": {
+   "je": "me lave",
+   "tu": "te laves",
+   "il": "se lave",
+   "nous": "nous lavons",
+   "vous": "vous lavez",
+   "ils": "se lavent"
+  },
+  "pp": "lavé",
+  "aux": "être",
+  "ppr": "se lavant",
+  "note": "직역: 자기 자신을 씻기다 · je의 재귀대명사는 me · nous 주어면 재귀대명사도 nous → nous nous lavons",
+  "lessons": [
+   "u1-06"
+  ],
+  "since": "2026-09-16",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "se-lever",
+  "inf": "se lever",
+  "ko": "일어나다",
+  "pron": "[쓰 르베]",
+  "group": "1",
+  "pronominal": true,
+  "forms": {
+   "je": "me lève",
+   "tu": "te lèves",
+   "il": "se lève",
+   "nous": "nous levons",
+   "vous": "vous levez",
+   "ils": "se lèvent"
+  },
+  "pp": "levé",
+  "aux": "être",
+  "ppr": "se levant",
+  "note": "acheter처럼 e → è (nous·vous 제외) · nous·vous에서는 악상이 사라짐 · ils에서는 è: se lèvent",
+  "lessons": [
+   "u1-06"
+  ],
+  "since": "2026-09-16",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "se-promener",
+  "inf": "se promener",
+  "ko": "산책하다",
+  "pron": "[쓰 프호므네]",
+  "group": "1",
+  "pronominal": true,
+  "forms": {
+   "je": "me promène",
+   "tu": "te promènes",
+   "il": "se promène",
+   "nous": "nous promenons",
+   "vous": "vous promenez",
+   "ils": "se promènent"
+  },
+  "pp": "promené",
+  "aux": "être",
+  "ppr": "se promenant",
+  "note": "",
+  "lessons": [],
+  "since": "",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "se-reveiller",
+  "inf": "se réveiller",
+  "ko": "잠에서 깨다",
+  "pron": "[쓰 헤베예]",
+  "group": "1",
+  "pronominal": true,
+  "forms": {
+   "je": "me réveille",
+   "tu": "te réveilles",
+   "il": "se réveille",
+   "nous": "nous réveillons",
+   "vous": "vous réveillez",
+   "ils": "se réveillent"
+  },
+  "pp": "réveillé",
+  "aux": "être",
+  "ppr": "se réveillant",
+  "note": "직역: 자기 자신을 깨우다 · tu의 재귀대명사는 te · vous 주어면 vous vous",
+  "lessons": [
+   "u1-06"
+  ],
+  "since": "2026-09-16",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "se-sentir",
+  "inf": "se sentir",
+  "ko": "(몸·기분이) ~하다고 느끼다",
+  "pron": "[쓰 쌍띠흐]",
+  "group": "3",
+  "pronominal": true,
+  "forms": {
+   "je": "me sens",
+   "tu": "te sens",
+   "il": "se sent",
+   "nous": "nous sentons",
+   "vous": "vous sentez",
+   "ils": "se sentent"
+  },
+  "pp": "senti",
+  "aux": "être",
+  "ppr": "se sentant",
+  "note": "",
+  "lessons": [],
+  "since": "",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "sortir",
+  "inf": "sortir",
+  "ko": "나가다",
+  "pron": "[쏘흐띠흐]",
+  "group": "3",
+  "pronominal": false,
+  "forms": {
+   "je": "sors",
+   "tu": "sors",
+   "il": "sort",
+   "nous": "sortons",
+   "vous": "sortez",
+   "ils": "sortent"
+  },
+  "pp": "sorti",
+  "aux": "être",
+  "ppr": "sortant",
+  "note": "la sortie = 출구 · il/elle은 -t: il sort · 단수에선 t가 빠진다: je sors",
+  "lessons": [
+   "u0-08",
+   "u1-05"
+  ],
+  "since": "2026-09-10",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "tomber",
+  "inf": "tomber",
+  "ko": "떨어지다, 넘어지다",
+  "pron": "[똥베]",
+  "group": "1",
+  "pronominal": false,
+  "forms": {
+   "je": "tombe",
+   "tu": "tombes",
+   "il": "tombe",
+   "nous": "tombons",
+   "vous": "tombez",
+   "ils": "tombent"
+  },
+  "pp": "tombé",
+  "aux": "être",
+  "ppr": "tombant",
+  "note": "om = 비모음 [ɔ̃] · vous는 -ez. tombé는 과거분사",
+  "lessons": [
+   "u0-06",
+   "u1-05"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "travailler",
+  "inf": "travailler",
+  "ko": "일하다, 공부하다",
+  "pron": "[트하바이예]",
+  "group": "1",
+  "pronominal": false,
+  "forms": {
+   "je": "travaille",
+   "tu": "travailles",
+   "il": "travaille",
+   "nous": "travaillons",
+   "vous": "travaillez",
+   "ils": "travaillent"
+  },
+  "pp": "travaillé",
+  "aux": "avoir",
+  "ppr": "travaillant",
+  "note": "ill = [j] 소리 · travail은 명사(일). 동사는 je travaille",
+  "lessons": [
+   "u0-06",
+   "u1-02"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "telecharger",
+  "inf": "télécharger",
+  "ko": "다운로드하다",
+  "pron": "[뗄레샤흐제]",
+  "group": "1",
+  "pronominal": false,
+  "forms": {
+   "je": "télécharge",
+   "tu": "télécharges",
+   "il": "télécharge",
+   "nous": "téléchargeons",
+   "vous": "téléchargez",
+   "ils": "téléchargent"
+  },
+  "pp": "téléchargé",
+  "aux": "avoir",
+  "ppr": "téléchargeant",
+  "note": "manger와 같은 -ger 규칙: nous téléchargeons · -ger → nous -geons (Quiz 1 오답!)",
+  "lessons": [
+   "u0-06"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "telephoner",
+  "inf": "téléphoner",
+  "ko": "전화하다",
+  "pron": "[뗄레포네]",
+  "group": "1",
+  "pronominal": false,
+  "forms": {
+   "je": "téléphone",
+   "tu": "téléphones",
+   "il": "téléphone",
+   "nous": "téléphonons",
+   "vous": "téléphonez",
+   "ils": "téléphonent"
+  },
+  "pp": "téléphoné",
+  "aux": "avoir",
+  "ppr": "téléphonant",
+  "note": "",
+  "lessons": [],
+  "since": "",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "utiliser",
+  "inf": "utiliser",
+  "ko": "사용하다",
+  "pron": "[위띨리제]",
+  "group": "1",
+  "pronominal": false,
+  "forms": {
+   "je": "utilise",
+   "tu": "utilises",
+   "il": "utilise",
+   "nous": "utilisons",
+   "vous": "utilisez",
+   "ils": "utilisent"
+  },
+  "pp": "utilisé",
+  "aux": "avoir",
+  "ppr": "utilisant",
+  "note": "모음 앞 → j'utilise. 영어처럼 z로 쓰지 않기",
+  "lessons": [
+   "u0-06"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "venir",
+  "inf": "venir",
+  "ko": "오다",
+  "pron": "[브니흐]",
+  "group": "3",
+  "pronominal": false,
+  "forms": {
+   "je": "viens",
+   "tu": "viens",
+   "il": "vient",
+   "nous": "venons",
+   "vous": "venez",
+   "ils": "viennent"
+  },
+  "pp": "venu",
+  "aux": "être",
+  "ppr": "venant",
+  "note": "i가 e보다 먼저: v-i-e-n-s (Quiz 1 오답!) · ils는 vie + nn: viennent · nous·vous는 ven-: venons",
+  "lessons": [
+   "u0-08",
+   "u1-05"
+  ],
+  "since": "2026-09-10",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "visiter",
+  "inf": "visiter",
+  "ko": "(장소를) 방문하다",
+  "pron": "[비지떼]",
+  "group": "1",
+  "pronominal": false,
+  "forms": {
+   "je": "visite",
+   "tu": "visites",
+   "il": "visite",
+   "nous": "visitons",
+   "vous": "visitez",
+   "ils": "visitent"
+  },
+  "pp": "visité",
+  "aux": "avoir",
+  "ppr": "visitant",
+  "note": "",
+  "lessons": [
+   "u0-06",
+   "u1-02"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "voir",
+  "inf": "voir",
+  "ko": "보다",
+  "pron": "[부아흐]",
+  "group": "3",
+  "pronominal": false,
+  "forms": {
+   "je": "vois",
+   "tu": "vois",
+   "il": "voit",
+   "nous": "voyons",
+   "vous": "voyez",
+   "ils": "voient"
+  },
+  "pp": "vu",
+  "aux": "avoir",
+  "ppr": "voyant",
+  "note": "y는 nous·vous에서만: ils voient · nous voyons — y [j] 소리",
+  "lessons": [
+   "u0-07",
+   "u1-03"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "vouloir",
+  "inf": "vouloir",
+  "ko": "원하다",
+  "pron": "[불루아흐]",
+  "group": "3",
+  "pronominal": false,
+  "forms": {
+   "je": "veux",
+   "tu": "veux",
+   "il": "veut",
+   "nous": "voulons",
+   "vous": "voulez",
+   "ils": "veulent"
+  },
+  "pp": "voulu",
+  "aux": "avoir",
+  "ppr": "voulant",
+  "note": "뒤에 명사 또는 동사원형: Je veux un café. · ils는 veul-: veulent · je·tu는 -x: tu veux",
+  "lessons": [
+   "u0-07",
+   "u1-03"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "voyager",
+  "inf": "voyager",
+  "ko": "여행하다",
+  "pron": "[부아야제]",
+  "group": "1",
+  "pronominal": false,
+  "forms": {
+   "je": "voyage",
+   "tu": "voyages",
+   "il": "voyage",
+   "nous": "voyageons",
+   "vous": "voyagez",
+   "ils": "voyagent"
+  },
+  "pp": "voyagé",
+  "aux": "avoir",
+  "ppr": "voyageant",
+  "note": "manger · télécharger와 같은 -ger 규칙 · g 뒤에 e를 남겨야 [ʒ] 소리 유지: voyageons · e 추가는 nous만! vous voyagez",
+  "lessons": [
+   "u0-06"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "ecouter",
+  "inf": "écouter",
+  "ko": "듣다",
+  "pron": "[에꾸떼]",
+  "group": "1",
+  "pronominal": false,
+  "forms": {
+   "je": "écoute",
+   "tu": "écoutes",
+   "il": "écoute",
+   "nous": "écoutons",
+   "vous": "écoutez",
+   "ils": "écoutent"
+  },
+  "pp": "écouté",
+  "aux": "avoir",
+  "ppr": "écoutant",
+  "note": "",
+  "lessons": [],
+  "since": "",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "ecrire",
+  "inf": "écrire",
+  "ko": "쓰다",
+  "pron": "[에크히흐]",
+  "group": "3",
+  "pronominal": false,
+  "forms": {
+   "je": "écris",
+   "tu": "écris",
+   "il": "écrit",
+   "nous": "écrivons",
+   "vous": "écrivez",
+   "ils": "écrivent"
+  },
+  "pp": "écrit",
+  "aux": "avoir",
+  "ppr": "écrivant",
+  "note": "j'écris — 엘리지옹! (Quiz 1) · 복수는 v가 생김: écrivons · 복수는 v가 생김: écrivent",
+  "lessons": [
+   "u0-08"
+  ],
+  "since": "2026-09-10",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "etudier",
+  "inf": "étudier",
+  "ko": "공부하다",
+  "pron": "[에뛰디에]",
+  "group": "1",
+  "pronominal": false,
+  "forms": {
+   "je": "étudie",
+   "tu": "étudies",
+   "il": "étudie",
+   "nous": "étudions",
+   "vous": "étudiez",
+   "ils": "étudient"
+  },
+  "pp": "étudié",
+  "aux": "avoir",
+  "ppr": "étudiant",
+  "note": "",
+  "lessons": [
+   "u1-02"
+  ],
+  "since": "2026-09-15",
+  "origin": "class",
+  "known": false
+ },
+ {
+  "id": "etre",
+  "inf": "être",
+  "ko": "~이다, (~에) 있다 (be)",
+  "pron": "[에트흐]",
+  "group": "3",
+  "pronominal": false,
+  "forms": {
+   "je": "suis",
+   "tu": "es",
+   "il": "est",
+   "nous": "sommes",
+   "vous": "êtes",
+   "ils": "sont"
+  },
+  "pp": "été",
+  "aux": "avoir",
+  "ppr": "étant",
+  "note": "-ez 예외 3인방: êtes · faites · dites · ont은 avoir! être는 ils sont [일 쏭] · nous sommes — -ons가 아님",
+  "lessons": [
+   "u0-07",
+   "u1-03"
+  ],
+  "since": "2026-09-09",
+  "origin": "class",
+  "known": false
+ }
+]

@@ -1,0 +1,173 @@
+{
+ "semaine 6-1": {
+  "p.1": [
+   "skip: 표지 (Semaine 6 · Leçon 10 · 10/6)"
+  ],
+  "p.2": [
+   "skip: 목차"
+  ],
+  "p.3": [
+   "skip: PARTIE 1 간지"
+  ],
+  "p.4": [
+   "u2-05-c-persons",
+   "u2-05-c-parler",
+   "u2-05-w-ordre",
+   "u2-05-w-conseil",
+   "note:u2-05#0"
+  ],
+  "p.5": [
+   "u2-05-c-manger-nous",
+   "u2-05-c-donner",
+   "note:u2-05#0"
+  ],
+  "p.6": [
+   "u2-05-c-finir",
+   "u2-05-c-prendre",
+   "u2-05-c-s-rule",
+   "note:u2-05#0"
+  ],
+  "p.7": [
+   "u2-05-c-avoir-tu",
+   "u2-05-c-avoir-nous",
+   "u2-05-c-etre-tu",
+   "u2-05-c-etre-vous",
+   "u2-05-c-etre-nous",
+   "note:u2-05#1"
+  ],
+  "p.8": [
+   "u2-05-c-savoir",
+   "u2-05-c-vouloir",
+   "note:u2-05#1"
+  ],
+  "p.9": [
+   "u2-05-c-aller-tu",
+   "u2-05-c-aller-vous",
+   "note:u2-05#1"
+  ],
+  "p.10": [
+   "u2-05-w-patient",
+   "u2-05-c-etre-vous",
+   "u2-05-c-finir",
+   "note:u2-05#2"
+  ],
+  "p.11": [
+   "u2-05-c-aller-tu",
+   "u2-05-c-aller-vous",
+   "u2-05-c-avoir-nous",
+   "u2-05-c-tout-droit",
+   "u2-05-w-courage",
+   "note:u2-05#2"
+  ],
+  "p.12": [
+   "u2-05-c-vouloir",
+   "u2-05-c-savoir",
+   "note:u2-05#1"
+  ],
+  "p.13": [
+   "u2-05-c-neg1",
+   "u2-05-c-neg2",
+   "u2-05-c-neg-etre",
+   "note:u2-05#2"
+  ],
+  "p.14": [
+   "u2-05-c-neg-elision",
+   "u2-05-c-neg-ayons",
+   "u2-05-err-ne-allez",
+   "note:u2-05#2"
+  ],
+  "p.15": [
+   "u2-05-c-cod-moi",
+   "u2-05-c-le",
+   "u2-05-c-la",
+   "u2-05-c-me-front",
+   "note:u2-05#3"
+  ],
+  "p.16": [
+   "u2-05-c-pron-tu",
+   "u2-05-c-pron-vous",
+   "u2-05-c-pron-nous",
+   "u2-05-c-pron-neg",
+   "note:u2-05#3"
+  ],
+  "p.17": [
+   "u2-05-t-regarde",
+   "u2-05-t-reponds",
+   "u2-05-t-leve-tot",
+   "u2-05-t-envoyez",
+   "u2-05-t-peur",
+   "u2-05-t-voir-prof",
+   "u2-05-w-envoyer",
+   "note:u2-05#3"
+  ],
+  "p.18": [
+   "skip: PARTIE 2 간지"
+  ],
+  "p.19": [
+   "u2-05-c-pour-aller",
+   "u2-05-c-metro",
+   "u2-05-w-seine",
+   "u2-05-w-pantheon",
+   "note:u2-05#4"
+  ],
+  "p.20": [
+   "u2-05-c-fleuve",
+   "u2-05-c-gauche",
+   "u2-05-c-bout",
+   "u2-05-w-pont",
+   "u2-05-w-traverser",
+   "u2-05-w-tourner",
+   "u2-05-w-continuer",
+   "u2-05-w-rue",
+   "note:u2-05#4"
+  ],
+  "p.21": [
+   "skip: 마무리 슬라이드 (Questions / À demain !)"
+  ]
+ },
+ "노션 10/6": {
+  "명령문 정의·활용 (1군 -s 탈락, finir/prendre)": [
+   "u2-05-c-s-rule",
+   "u2-05-c-finir",
+   "u2-05-c-prendre",
+   "note:u2-05#0"
+  ],
+  "불규칙 aie·ayons·ayez·sache·aller": [
+   "u2-05-c-avoir-tu",
+   "u2-05-c-savoir",
+   "u2-05-c-aller-tu",
+   "note:u2-05#1"
+  ],
+  "tout droit·droite·Bon courage·du courage": [
+   "u2-05-c-tout-droit",
+   "u2-05-c-courage",
+   "u2-05-w-courage",
+   "u2-05-w-droite",
+   "u2-05-w-gauche",
+   "note:u2-05#2"
+  ],
+  "N'allez 엘리지옹": [
+   "u2-05-c-neg-elision",
+   "u2-05-err-ne-allez",
+   "note:u2-05#2"
+  ],
+  "me 문장 앞 불가·le/la 성일치": [
+   "u2-05-c-me-front",
+   "u2-05-c-le",
+   "u2-05-c-la",
+   "note:u2-05#3"
+  ],
+  "Nous nous amusons ce soir": [
+   "u2-05-c-pron-nous",
+   "note:u2-05#3"
+  ],
+  "envoyer 활용": [
+   "u2-05-t-envoyer-je",
+   "u2-05-w-envoyer",
+   "note:u2-05#3"
+  ],
+  "이미지(필기 사진)": [
+   "skip: 사진은 세션에서 열 수 없음 — 글 필기만 반영"
+  ]
+ }
+}

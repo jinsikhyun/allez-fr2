@@ -1,0 +1,171 @@
+{
+  "id": "u1-17",
+  "unit": "u1",
+  "title": "Quiz 2 (9/17) — 시험 형식 그대로",
+  "emoji": "📝",
+  "date": "2026-09-17",
+  "sources": [
+    "Quiz 2 (9/17)",
+    "노션 midterm 정리노트"
+  ],
+  "tips": [
+    {
+      "h": "Quiz 2에 나온 대명동사",
+      "rows": [
+        ["se préparer", "준비하다"],
+        ["se raser", "면도하다"],
+        ["se maquiller", "화장하다"],
+        ["s'habiller", "옷을 입다"],
+        ["se rendre à", "~에 가다 (= aller)"],
+        ["se servir de", "~을 사용하다 (= utiliser)"]
+      ]
+    },
+    {
+      "h": "III번 오류 세 묶음",
+      "b": "① 조동사 잘못 (arriver·대명동사 → être)\n② 일치 누락 (se = 자기 자신을 → 주어에 일치)\n③ 과잉 일치 (뒤에 COD / à qqn 동사 → 일치 X)"
+    },
+    {
+      "h": "판별 순서",
+      "b": "① avoir? → 앞에 COD 대명사 있나\n② être + 대명동사? → 뒤에 COD / à qqn?\n③ 아니면 주어에 일치"
+    }
+  ],
+  "note": [
+    {
+      "h": "Quiz 2 개요",
+      "skill": "agreement",
+      "src": ["Quiz 2 (9/17)", "노션 midterm 정리노트"],
+      "body": [
+        {"p": "교수님이 직접 만든 퀴즈 — **I. 복합과거로 바꾸기 · II. 부정/의문으로 바꾸기 · III. 오류 찾아 고치기**. 중간고사(10/21 수) 형식과 같다. III-11·12는 9/17 필기, III-9·10은 semaine 4-1 슬라이드 (X)로 다시 나왔다."},
+        {"memo": "출처: 노션 midterm 「Leçon 9 정리노트」의 Quiz 2 전 문항. 정답·풀이는 그 페이지와 같고, 아래 카드에 문항마다 하나씩 넣었다."}
+      ]
+    },
+    {
+      "h": "I. Mettez les verbes suivants au passé composé",
+      "skill": "aux",
+      "src": ["Quiz 2 (9/17) I"],
+      "body": [
+        {
+          "table": [
+            ["현재", "복합과거"],
+            ["1. Je prends", "J'ai **pris**"],
+            ["2. Elle se réveille", "Elle s'est réveillé**e**"],
+            ["3. Nous voyons", "Nous avons **vu**"],
+            ["4. Ils se préparent", "Ils se sont préparé**s**"],
+            ["5. Marie arrive", "Marie **est** arrivé**e**"],
+            ["6. Tu te laves", "Tu t'es lavé(e)"],
+            ["7. Paul se rase", "Paul s'est rasé"],
+            ["8. Elles se maquillent", "Elles se sont maquillé**es**"],
+            ["9. Nous partons", "Nous **sommes** parti(e)s"],
+            ["10. Vous vous habillez", "Vous vous êtes habillé(e)(s)"],
+            ["11. Elle se rend à l'université", "Elle s'est **rendue** à l'université"],
+            ["12. Ils se promènent", "Ils se sont promenés"]
+          ],
+          "head": true
+        },
+        {"list": [
+          "avoir는 1·3번 둘뿐 — 나머지는 이동동사(arriver, partir)이거나 대명동사라 être",
+          "-é/-i가 아닌 분사 3개: prendre → pris · voir → vu · se rendre → rendu (descendre → descendu와 같은 패턴)",
+          "12번: 현재형 prom**è**nent의 è는 분사에서 사라진다 → promenés"
+        ]}
+      ]
+    },
+    {
+      "h": "II. Transformez les phrases (부정 · 의문)",
+      "skill": "pc-neg-q",
+      "src": ["Quiz 2 (9/17) II"],
+      "body": [
+        {
+          "table": [
+            ["문제", "정답"],
+            ["1. Elle s'est préparée rapidement. → 부정", "Elle **ne** s'est **pas** préparée rapidement."],
+            ["2. Ils se sont promenés dans le parc. → 부정", "Ils **ne** se sont **pas** promenés dans le parc."],
+            ["3. Tu t'es servi de cet ordinateur. → 의문", "**T'es-tu** servi de cet ordinateur ?"],
+            ["4. Vous vous êtes rendue à l'université. → 의문", "**Vous êtes-vous** rendue à l'université ?"],
+            ["5. Elles se sont maquillées avant la fête. → 부정", "Elles **ne** se sont **pas** maquillées avant la fête."]
+          ],
+          "head": true
+        },
+        {"warn": "[재귀대명사 + être]는 떼지 않는 한 덩어리. 부정은 그 덩어리를 ne…pas로 감싸고, 도치는 재귀대명사를 맨 앞에 둔 채 être와 주어만 바꾼다. 과거분사의 일치(-e, -s, -es)는 그대로."},
+        {"p": "4번 rendu**e**의 -e = 존칭 vous로 부른 **여성 한 명** (대화문 Vous êtes bien bronzée와 같은 원리)."}
+      ]
+    },
+    {
+      "h": "III. Trouvez et corrigez l'erreur",
+      "skill": "agreement",
+      "src": ["Quiz 2 (9/17) III"],
+      "body": [
+        {
+          "table": [
+            ["틀린 문장", "고친 것", "유형"],
+            ["1. Marie a arrivée à l'université à neuf heures.", "Marie **est** arrivée", "① 조동사"],
+            ["2. Sophie a se réveillé très tôt ce matin.", "Sophie **s'est** réveillée", "① 조동사"],
+            ["3. Paul et Marc se sont préparé avant de sortir.", "se sont préparé**s**", "② 일치 누락"],
+            ["4. Julie s'est habillé rapidement.", "s'est habillé**e**", "② 일치 누락"],
+            ["5. Marie et Sophie se sont promené sur le campus.", "se sont promené**es**", "② 일치 누락"],
+            ["6. Les filles se sont amusé à la fête.", "se sont amusé**es**", "② 일치 누락"],
+            ["7. Marie s'est rendu à la bibliothèque.", "s'est rendu**e**", "② 일치 누락"],
+            ["8. Sophie s'est lavée les cheveux avant le dîner.", "s'est lavé les cheveux", "③ 과잉 일치"],
+            ["9. Paul et Marie se sont téléphonés hier soir.", "se sont téléphoné", "③ 과잉 일치"],
+            ["10. Ils se sont écrits des lettres pendant les vacances.", "se sont écrit des lettres", "③ 과잉 일치"],
+            ["11. Julie a acheté ce livre. Elle l'a achetée hier.", "Elle l'a acheté", "③ 엉뚱한 대상"],
+            ["12. Marie et Sophie ont regardé ces photos. Elles les ont regardé ensemble.", "Elles les ont regardé**es**", "③ 일치 누락(avoir)"]
+          ],
+          "head": true
+        },
+        {"list": [
+          "① 1–2 조동사를 잘못 고름 — arriver(이동동사)·대명동사는 être. 2번은 재귀대명사 자리도 틀림(a se → s'est)",
+          "② 3–7 일치 누락 — se가 COD(자기 자신을)이니 주어에 맞춤. 남녀 섞이면 남성 복수, 여성만이면 -es",
+          "③ 8–12 과잉 일치 / 엉뚱한 대상 — COD가 뒤에 따로 있거나(les cheveux, des lettres), à qqn 동사(téléphoner)면 일치 X. avoir는 앞 COD의 성·수 확인(ce livre 남성 / ces photos 여성 복수)"
+        ]}
+      ]
+    },
+    {
+      "h": "발음 — Quiz 2 동사",
+      "skill": "pron",
+      "src": ["노션 midterm 정리노트"],
+      "body": [
+        {"list": [
+          "s'habiller [사비예] · se maquiller [쓰 마끼예] — ill = [j]",
+          "se raser [쓰 하제] · se rendre [쓰 항드흐]",
+          "Vous‿êtes-vous rendue [부 제뜨 부 항뒤] · Elle s'est préparée [엘 세 프헤빠헤]"
+        ]}
+      ]
+    }
+  ],
+  "cards": [
+    {"id": "u1-17-i1-pris", "t": "type", "skill": "pp", "prompt": "복합과거로 (Quiz 2 I-1)", "q": "Je prends → ___", "a": "J'ai pris", "alts": ["J’ai pris"], "hint": "prendre는 불규칙 과거분사!", "explain": "avoir + pris.", "src": "Quiz 2 (9/17)"},
+    {"id": "u1-17-i2-reveillee", "t": "type", "skill": "pronominal", "prompt": "복합과거로 (Quiz 2 I-2)", "q": "Elle se réveille → ___", "a": "Elle s'est réveillée", "alts": ["Elle s’est réveillée"], "hint": "대명동사 = être, 주어 elle에 일치.", "explain": "s'est + réveillé + e.", "src": "Quiz 2 (9/17)"},
+    {"id": "u1-17-i3-vu", "t": "choice", "skill": "pp", "prompt": "복합과거로 (Quiz 2 I-3)", "q": "Nous voyons → ___", "a": "Nous avons vu", "wrong": ["Nous avons voyé", "Nous sommes vus", "Nous avons vus"], "hint": "voir의 과거분사는 두 글자.", "explain": "voir → vu, 조동사 avoir.", "src": "Quiz 2 (9/17)"},
+    {"id": "u1-17-i4-prepares", "t": "choice", "skill": "agreement", "prompt": "복합과거로 (Quiz 2 I-4)", "q": "Ils se préparent → ___", "a": "Ils se sont préparés", "wrong": ["Ils se sont préparé", "Ils ont se préparés", "Ils se ont préparés"], "hint": "se = 자기 자신을(COD) → 주어 ils에 일치.", "explain": "Ils se sont préparés.", "src": "Quiz 2 (9/17)", "star": true},
+    {"id": "u1-17-i5-arrivee", "t": "choice", "skill": "aux", "prompt": "복합과거로 (Quiz 2 I-5)", "q": "Marie arrive → ___", "a": "Marie est arrivée", "wrong": ["Marie a arrivé", "Marie a arrivée", "Marie est arrivé"], "hint": "arriver는 이동동사, 주어는 여성.", "explain": "être + arrivée.", "src": "Quiz 2 (9/17)"},
+    {"id": "u1-17-i6-lave", "t": "choice", "skill": "pronominal", "prompt": "복합과거로 (Quiz 2 I-6)", "q": "Tu te laves → ___", "a": "Tu t'es lavé(e)", "wrong": ["Tu te es lavé(e)", "Tu as te lavé", "Tu t'as lavé(e)"], "hint": "te + es → 엘리지옹, 조동사는 être.", "explain": "Tu t'es lavé(e).", "src": "Quiz 2 (9/17)"},
+    {"id": "u1-17-i7-rase", "t": "type", "skill": "pronominal", "prompt": "복합과거로 (Quiz 2 I-7)", "q": "Paul se rase → ___", "a": "Paul s'est rasé", "alts": ["Paul s’est rasé"], "hint": "se raser = 면도하다. 주어는 남성 단수.", "explain": "s'est rasé.", "src": "Quiz 2 (9/17)"},
+    {"id": "u1-17-i8-maquillees", "t": "choice", "skill": "agreement", "prompt": "복합과거로 (Quiz 2 I-8)", "q": "Elles se maquillent → ___", "a": "Elles se sont maquillées", "wrong": ["Elles se sont maquillé", "Elles se sont maquillés", "Elles ont se maquillées"], "hint": "주어 elles = 여성 복수.", "explain": "se maquiller(화장하다) → maquillées.", "src": "Quiz 2 (9/17)"},
+    {"id": "u1-17-i9-partis", "t": "choice", "skill": "aux", "prompt": "복합과거로 (Quiz 2 I-9)", "q": "Nous partons → ___", "a": "Nous sommes parti(e)s", "wrong": ["Nous avons parti", "Nous sommes partons", "Nous avons partis"], "hint": "partir는 이동동사.", "explain": "être + parti(e)s.", "src": "Quiz 2 (9/17)"},
+    {"id": "u1-17-i10-habilles", "t": "choice", "skill": "pronominal", "prompt": "복합과거로 (Quiz 2 I-10)", "q": "Vous vous habillez → ___", "a": "Vous vous êtes habillé(e)(s)", "wrong": ["Vous êtes vous habillé(e)(s)", "Vous vous avez habillé(e)(s)", "Vous vous êtes habillez"], "hint": "재귀대명사 + être 순서!", "explain": "s'habiller(옷을 입다) → vous vous êtes habillé(e)(s).", "src": "Quiz 2 (9/17)"},
+    {"id": "u1-17-i11-rendue", "t": "type", "skill": "pp", "prompt": "복합과거로 (Quiz 2 I-11)", "q": "Elle se rend à l'université → ___", "a": "Elle s'est rendue à l'université", "alts": ["Elle s’est rendue à l’université", "Elle s'est rendue à l'université."], "hint": "rendre의 분사는 descendre와 같은 패턴 + 여성 일치.", "explain": "se rendre à(~에 가다) → s'est rendue.", "src": "Quiz 2 (9/17)", "star": true},
+    {"id": "u1-17-i12-promenes", "t": "choice", "skill": "pronominal", "prompt": "복합과거로 (Quiz 2 I-12)", "q": "Ils se promènent → ___", "a": "Ils se sont promenés", "wrong": ["Ils se sont promènés", "Ils se sont promené", "Ils ont promené"], "hint": "현재형의 악상은 분사에서 어떻게 될까요?", "explain": "promener → promené (è 없음) + s.", "src": "Quiz 2 (9/17)"},
+    {"id": "u1-17-ii1-neg", "t": "build", "skill": "pc-neg-q", "prompt": "부정문으로 (Quiz 2 II-1)", "ko": "그녀는 서둘러 준비하지 않았다.", "a": "Elle ne s'est pas préparée rapidement.", "extra": ["n'est", "préparé"], "hint": "[재귀대명사 + être] 덩어리를 ne…pas로 감싸요.", "explain": "ne + s'est + pas + préparée.", "src": "Quiz 2 (9/17)"},
+    {"id": "u1-17-ii2-neg", "t": "build", "skill": "pc-neg-q", "prompt": "부정문으로 (Quiz 2 II-2)", "ko": "그들은 공원에서 산책하지 않았다.", "a": "Ils ne se sont pas promenés dans le parc.", "extra": ["promené", "ont"], "hint": "ne는 재귀대명사 앞에.", "explain": "Ils ne se sont pas promenés.", "src": "Quiz 2 (9/17)"},
+    {"id": "u1-17-ii3-inv", "t": "choice", "skill": "pc-neg-q", "prompt": "의문문(도치)으로 (Quiz 2 II-3)", "q": "Tu t'es servi de cet ordinateur. → ___", "a": "T'es-tu servi de cet ordinateur ?", "wrong": ["Es-tu te servi de cet ordinateur ?", "Tu-es t'servi de cet ordinateur ?", "Es-tu servi de cet ordinateur ?"], "hint": "재귀대명사는 맨 앞에 남아요.", "explain": "t' + es-tu + servi. se servir de = ~을 사용하다.", "src": "Quiz 2 (9/17)", "star": true},
+    {"id": "u1-17-ii4-inv", "t": "type", "skill": "pc-neg-q", "prompt": "의문문(도치)으로 (Quiz 2 II-4)", "q": "Vous vous êtes rendue à l'université. → ___", "a": "Vous êtes-vous rendue à l'université ?", "alts": ["Vous êtes-vous rendue à l'université?", "Vous êtes-vous rendue à l’université ?", "Vous êtes-vous rendue à l'université"], "hint": "앞의 vous는 재귀대명사! 주어 vous만 뒤로.", "explain": "재귀 vous + êtes-vous + rendue (존칭 여성 1명).", "src": "Quiz 2 (9/17)", "star": true},
+    {"id": "u1-17-ii5-neg", "t": "build", "skill": "pc-neg-q", "prompt": "부정문으로 (Quiz 2 II-5)", "ko": "그녀들은 파티 전에 화장하지 않았다.", "a": "Elles ne se sont pas maquillées avant la fête.", "extra": ["maquillé", "n'ont"], "hint": "일치는 부정문에서도 그대로.", "explain": "ne se sont pas maquillées.", "src": "Quiz 2 (9/17)"},
+    {"id": "u1-17-iii1", "t": "error", "skill": "aux", "s": "Marie a arrivée à l'université à neuf heures.", "wrong": "a arrivée", "right": "est arrivée", "ko": "마리는 9시에 대학에 도착했다.", "hint": "arriver는 어떤 조동사를 쓰죠?", "explain": "이동동사 → Marie est arrivée.", "src": "Quiz 2 (9/17)"},
+    {"id": "u1-17-iii2", "t": "error", "skill": "pronominal", "s": "Sophie a se réveillé très tôt ce matin.", "wrong": "a se réveillé", "right": "s'est réveillée", "ko": "소피는 오늘 아침 아주 일찍 일어났다.", "hint": "대명동사의 조동사와 재귀대명사 위치!", "explain": "재귀대명사 + être → Sophie s'est réveillée.", "src": "Quiz 2 (9/17)"},
+    {"id": "u1-17-iii3", "t": "error", "skill": "agreement", "s": "Paul et Marc se sont préparé avant de sortir.", "wrong": "préparé", "right": "préparés", "ko": "폴과 마르크는 나가기 전에 준비했다.", "hint": "se = 자기 자신을 → 주어의 수는?", "explain": "남성 복수 → préparés.", "src": "Quiz 2 (9/17)"},
+    {"id": "u1-17-iii4", "t": "error", "skill": "agreement", "s": "Julie s'est habillé rapidement.", "wrong": "habillé", "right": "habillée", "ko": "쥘리는 빨리 옷을 입었다.", "hint": "주어 Julie의 성은?", "explain": "여성 단수 → habillée.", "src": "Quiz 2 (9/17)"},
+    {"id": "u1-17-iii5", "t": "error", "skill": "agreement", "s": "Marie et Sophie se sont promené sur le campus.", "wrong": "promené", "right": "promenées", "ko": "마리와 소피는 캠퍼스를 산책했다.", "hint": "주어는 여성 두 명.", "explain": "여성 복수 → promenées.", "src": "Quiz 2 (9/17)"},
+    {"id": "u1-17-iii6", "t": "error", "skill": "agreement", "s": "Les filles se sont amusé à la fête.", "wrong": "amusé", "right": "amusées", "ko": "소녀들은 파티에서 즐겁게 놀았다.", "hint": "les filles = 여성 복수.", "explain": "amusées.", "src": "Quiz 2 (9/17)"},
+    {"id": "u1-17-iii7", "t": "error", "skill": "agreement", "s": "Marie s'est rendu à la bibliothèque.", "wrong": "rendu", "right": "rendue", "ko": "마리는 도서관에 갔다.", "hint": "se rendre도 자기 자신을 → 주어에 일치.", "explain": "여성 단수 → rendue.", "src": "Quiz 2 (9/17)"},
+    {"id": "u1-17-iii8", "t": "error", "skill": "agreement", "s": "Sophie s'est lavée les cheveux avant le dîner.", "wrong": "lavée", "right": "lavé", "ko": "소피는 저녁 식사 전에 머리를 감았다.", "hint": "씻은 대상(COD)이 동사 뒤에 따로 있어요.", "explain": "COD les cheveux가 뒤, se는 COI → 일치 X.", "src": "Quiz 2 (9/17)", "star": true},
+    {"id": "u1-17-iii9", "t": "error", "skill": "agreement", "s": "Paul et Marie se sont téléphonés hier soir.", "wrong": "téléphonés", "right": "téléphoné", "ko": "폴과 마리는 어젯밤 서로 전화했다.", "hint": "téléphoner 뒤에는 어떤 전치사가 오죠?", "explain": "téléphoner à qqn → se = COI → 일치 X.", "src": "Quiz 2 (9/17)", "star": true},
+    {"id": "u1-17-iii10", "t": "error", "skill": "agreement", "s": "Ils se sont écrits des lettres pendant les vacances.", "wrong": "écrits", "right": "écrit", "ko": "그들은 방학 동안 서로 편지를 썼다.", "hint": "쓴 것(COD)은 뒤에 따로 있어요.", "explain": "COD des lettres가 뒤 → écrit 그대로.", "src": "Quiz 2 (9/17)"},
+    {"id": "u1-17-w-se-raser", "t": "word", "skill": "vocab", "fr": "se raser", "ko": "면도하다", "src": "Quiz 2 (9/17)"},
+    {"id": "u1-17-w-se-maquiller", "t": "word", "skill": "vocab", "fr": "se maquiller", "ko": "화장하다", "src": "Quiz 2 (9/17)"},
+    {"id": "u1-17-w-s-habiller", "t": "word", "skill": "vocab", "fr": "s'habiller", "ko": "옷을 입다", "src": "Quiz 2 (9/17)"},
+    {"id": "u1-17-w-se-rendre", "t": "word", "skill": "vocab", "fr": "se rendre à", "ko": "~에 가다 (= aller)", "src": "Quiz 2 (9/17)"},
+    {"id": "u1-17-w-se-servir", "t": "word", "skill": "vocab", "fr": "se servir de", "ko": "~을 사용하다 (= utiliser)", "src": "Quiz 2 (9/17)"},
+    {"id": "u1-17-w-se-preparer", "t": "word", "skill": "vocab", "fr": "se préparer", "ko": "준비하다 (채비를 하다)", "src": "Quiz 2 (9/17)"},
+    {"id": "u1-17-l-habiller", "t": "listen", "skill": "pron", "say": "elle s'est habillée", "a": "elle s'est habillée", "wrong": ["elle s'est lavée", "elle est habillée"], "ko": "그녀는 옷을 입었다", "pron": "[엘 세 따비예]", "hint": "ill이 [이예]처럼 들려요.", "explain": "s'habiller — ill = [j].", "src": "Quiz 2 (9/17)"}
+  ]
+}

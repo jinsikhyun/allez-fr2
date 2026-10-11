@@ -178,5 +178,17 @@
     "label": "위치 표현 · 동네 어휘",
     "emoji": "📍",
     "hint": "de가 붙는 건 en face de · à côté de 둘뿐. de + le는 du로 합쳐져요."
+  },
+  {
+    "id": "imperatif",
+    "label": "명령문 (l'impératif)",
+    "emoji": "📣",
+    "hint": "tu·nous·vous 세 인칭만. -er 동사의 tu는 -s가 빠져요."
+  },
+  {
+    "id": "futur",
+    "label": "단순미래 (futur simple)",
+    "emoji": "🔮",
+    "hint": "동사원형(-re는 e 떼고) + ai·as·a·ons·ez·ont. avoir 현재형을 떠올려요!"
   }
 ]

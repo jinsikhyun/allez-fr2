@@ -1,0 +1,264 @@
+{
+  "id": "u3-02",
+  "unit": "u3",
+  "title": "단순미래 — 불규칙 9개 · 예문 · 미래 표지",
+  "emoji": "🔮",
+  "date": "2026-10-08",
+  "sources": [
+    "semaine 6-3",
+    "노션 10/8"
+  ],
+  "tips": [
+    {
+      "h": "불규칙 = 어간만 외우기",
+      "rows": [
+        ["avoir", "aur-"],
+        ["être", "ser-"],
+        ["aller", "ir-"],
+        ["voir", "verr-"],
+        ["faire", "fer-"],
+        ["savoir", "saur-"],
+        ["vouloir", "voudr-"],
+        ["pouvoir", "pourr-"],
+        ["venir", "viendr-"]
+      ]
+    },
+    {
+      "h": "어미는 그대로",
+      "b": "불규칙이어도 어미는 똑같이 -ai · -as · -a · -ons · -ez · -ont\nj'aurai · je serai · j'irai"
+    },
+    {
+      "h": "미래 표지",
+      "b": "demain · ce soir · ce week-end\nla semaine prochaine · l'année prochaine\ndans un an · dans dix ans"
+    },
+    {
+      "h": "발음 함정",
+      "b": "nous faisons [프종] ≠ nous ferons [프홍]\nils sauront [일쏘홍] ≠ ils auront [일조홍]\nje voudrai (미래) ≠ je voudrais (조건법)"
+    }
+  ],
+  "note": [
+    {
+      "h": "만드는 법 다시 보기 — 규칙 동사 6개",
+      "skill": "futur",
+      "src": ["semaine 6-3 p.4–6", "노션 10/8"],
+      "body": [
+        {"p": "Le futur simple est un temps qui est utilisé pour parler d'une action **à venir**. 만드는 법: **동사원형(또는 어간) + -ai · -as · -a · -ons · -ez · -ont**."},
+        {
+          "table": [
+            ["", "parler", "regarder", "finir", "écrire", "prendre", "boire"],
+            ["je", "parlerai", "regarderai", "finirai", "écrirai (j')", "prendrai", "boirai"],
+            ["tu", "parleras", "regarderas", "finiras", "écriras", "prendras", "boiras"],
+            ["il / elle", "parlera", "regardera", "finira", "écrira", "prendra", "boira"],
+            ["nous", "parlerons", "regarderons", "finirons", "écrirons", "prendrons", "boirons"],
+            ["vous", "parlerez", "regarderez", "finirez", "écrirez", "prendrez", "boirez"],
+            ["ils / elles", "parleront", "regarderont", "finiront", "écriront", "prendront", "boiront"]
+          ],
+          "head": true
+        },
+        {"warn": "✍️ 필기: -re 동사는 **-e만 없애고** 어미를 붙인다 — écrire → écrir-, prendre → prendr-, boire → boir-."},
+        {"memo": "✍️ 필기: trouver의 미래형은 trou / ve / rai 처럼 세 덩어리로 끊어 읽는다. 가운데 e는 아주 약하게."}
+      ]
+    },
+    {
+      "h": "예문 ① — 규칙 동사",
+      "skill": "futur",
+      "src": ["semaine 6-3 p.7", "노션 10/8"],
+      "body": [
+        {
+          "ex": [
+            ["Je dînerai chez moi ce soir.", "나는 오늘 저녁 집에서 저녁을 먹을 것이다."],
+            ["Nous visiterons le musée du Louvre demain.", "우리는 내일 루브르 박물관을 방문할 것이다."],
+            ["Vous répondrez à mes questions.", "당신은 내 질문들에 대답할 것이다."],
+            ["Il m'écrira.", "그는 나에게 편지를 쓸 것이다."],
+            ["Elles voyageront en France pendant les vacances.", "그녀들은 방학 동안 프랑스를 여행할 것이다."]
+          ]
+        },
+        {"p": "répondre(-re) → répondr**ez**, écrire → **écrira** (m' = à moi, COI). voyager는 원형 그대로 voyager + ont."},
+        {"memo": "✍️ 필기: voyageront 발음 주의 [부아야쥬홍] — ge 다음 e는 거의 들리지 않는다."}
+      ]
+    },
+    {
+      "h": "불규칙 9개 — 어간이 바뀐다",
+      "skill": "futur",
+      "src": ["semaine 6-3 p.8–10"],
+      "body": [
+        {
+          "table": [
+            ["원형", "je", "nous", "ils"],
+            ["avoir", "j'aurai", "nous aurons", "ils auront"],
+            ["être", "je serai", "nous serons", "ils seront"],
+            ["aller", "j'irai", "nous irons", "ils iront"],
+            ["voir", "je verrai", "nous verrons", "ils verront"],
+            ["faire", "je ferai", "nous ferons", "ils feront"],
+            ["savoir", "je saurai", "nous saurons", "ils sauront"],
+            ["vouloir", "je voudrai", "nous voudrons", "ils voudront"],
+            ["pouvoir", "je pourrai", "nous pourrons", "ils pourront"],
+            ["venir", "je viendrai", "nous viendrons", "ils viendront"]
+          ],
+          "head": true
+        },
+        {"p": "어미는 규칙 동사와 **똑같다**. 바뀌는 건 어간뿐 — 그래서 어간 9개만 외우면 된다. voir·pouvoir는 **rr**(두 개), aller는 완전히 다른 **ir-**."},
+        {"warn": "avoir·aller·être 앞의 je는 모음이라 **j'aurai · j'irai** (엘리지옹). je serai는 그대로."}
+      ]
+    },
+    {
+      "h": "발음 · 헷갈리는 짝",
+      "skill": "pron",
+      "src": ["노션 10/8", "semaine 6-3 p.9–10"],
+      "body": [
+        {
+          "list": [
+            "✍️ **nous faisons** [누 프종] (현재) vs **nous ferons** [누 프홍] (미래) — 철자 ai인데 현재형은 [으] 소리",
+            "✍️ **ils sauront** [일 쏘홍] (savoir) vs **ils auront** [일 조홍] (avoir) — 연음 [z] 하나 차이. [일쏘홍, 엘쏘홍]으로 또렷하게",
+            "j'irai [지헤] · je verrai [쥬 베헤] · je pourrai [쥬 뿌헤] · je viendrai [쥬 비앙드헤]",
+            "je serai [쥬 쓰헤] · j'aurai [조헤] · je saurai [쥬 쏘헤]"
+          ]
+        },
+        {"warn": "✍️ 필기: **Je voudrai**에 -s를 붙인 **Je voudrais**는 미래가 아니라 **조건법(conditionnel)** — '~하고 싶은데요'(공손). 소리는 거의 같고 철자로 구별."}
+      ]
+    },
+    {
+      "h": "예문 ② — 불규칙",
+      "skill": "futur",
+      "src": ["semaine 6-3 p.11"],
+      "body": [
+        {
+          "ex": [
+            ["J'aurai vingt-et-un ans en décembre.", "나는 12월에 스물한 살이 될 것이다."],
+            ["Vous serez libre en 2030.", "당신은 2030년에 자유로울 것이다."],
+            ["Elle saura la vérité la semaine prochaine.", "그녀는 다음 주에 진실을 알게 될 것이다."],
+            ["Ils iront au cinéma ce week-end.", "그들은 이번 주말에 영화관에 갈 것이다."]
+          ]
+        },
+        {"p": "나이는 avoir로: J'**aurai** 21 ans (je serai ✗)."}
+      ]
+    },
+    {
+      "h": "미래 표지 (indicateurs du futur)",
+      "skill": "futur",
+      "src": ["semaine 6-3 p.12", "노션 10/8"],
+      "body": [
+        {
+          "table": [
+            ["표지", "뜻"],
+            ["demain", "내일"],
+            ["ce soir / ce vendredi / ce week-end", "오늘 저녁 / 이번 금요일 / 이번 주말"],
+            ["la semaine prochaine / le mois prochain / l'année prochaine", "다음 주 / 다음 달 / 내년"],
+            ["dans un an / dans deux ans / dans dix ans", "1년 후 / 2년 후 / 10년 후"]
+          ],
+          "head": true
+        },
+        {"p": "**prochain**은 명사 뒤에서 '다음 ~'. semaine·année는 여성이라 **prochaine**. **dans + 기간** = 지금부터 ~ 후."}
+      ]
+    },
+    {
+      "h": "연습 8문항 정답",
+      "skill": "futur",
+      "src": ["semaine 6-3 p.13–14"],
+      "body": [
+        {
+          "list": [
+            "1. Je **finirai** mon travail samedi. (finir)",
+            "2. Cela **prendra** du temps. (prendre)",
+            "3. Elle **sera** de retour demain soir. (être)",
+            "4. Nous **irons** à Nice cet été. (aller)",
+            "5. Il **fera** beau demain. (faire)",
+            "6. Ils **viendront** la semaine prochaine. (venir)",
+            "7. Elle **achètera** une cravate pour son mari. (acheter)",
+            "8. Je **pourrai** vous répondre tout à l'heure ? (pouvoir)"
+          ]
+        },
+        {"memo": "7번 acheter는 현재형 j'achète처럼 미래형 전체에서 è: j'achèterai, nous achèterons (슬라이드에 정답 없음 — 직접 풀이)."},
+        {"p": "Cela prend du temps = 시간이 걸리다 · être de retour = 돌아와 있다 · tout à l'heure = 조금 이따가."}
+      ]
+    },
+    {
+      "h": "작문 — 10년 뒤의 하루 (Ce sera le 8 octobre 2036)",
+      "skill": "futur",
+      "src": ["semaine 6-3 p.15–16", "노션 10/8"],
+      "body": [
+        {"p": "Imaginez une journée de votre vie dans dix ans. — 현재형으로 쓴 하루를 **미래형으로 바꾸기** (✍️ 필기: \"이렇게 바꾸기!\")."},
+        {
+          "table": [
+            ["현재", "미래"],
+            ["C'est le 8 octobre 2036.", "Ce **sera** le 8 octobre 2036."],
+            ["C'est le jour de mon mariage.", "Ce **sera** le jour de mon mariage."],
+            ["Je me lève tôt. Je me prépare vite.", "Je me **lèverai** tôt. Je me **préparerai** vite."],
+            ["Puis, je prends un petit-déjeuner avec ma famille.", "Puis, je **prendrai** un petit-déjeuner avec ma famille."],
+            ["Ensuite, je mets une belle robe. Elle est magnifique.", "Ensuite, je **mettrai** une belle robe. Elle **sera** magnifique."],
+            ["Il fait beau.", "Il **fera** beau."],
+            ["Mes amis viennent pour me féliciter.", "Mes amis **viendront** pour me féliciter."],
+            ["Alors, nous passons un bon moment ensemble.", "Alors, nous **passerons** un bon moment ensemble."],
+            ["Enfin, mon mari et moi, on part en France pour notre voyage de noces.", "Enfin, mon mari et moi, on **partira** en France pour notre voyage de noces."],
+            ["Nous ne pouvons pas conduire. Nous prenons l'avion.", "Nous ne **pourrons** pas conduire. Nous **prendrons** l'avion."]
+          ],
+          "head": true
+        },
+        {"list": [
+          "C'est → **Ce sera** (c' 엘리지옹은 est 앞에서만)",
+          "대명동사: 재귀대명사는 그대로, 동사만 미래 — je me lèverai (se lever → è가 미래형 전체에)",
+          "mettre → mettr- (e 떼기) · partir → partir- · on = 3인칭 단수 → on partira",
+          "부정: ne + 미래동사 + pas — Nous ne pourrons pas",
+          "le voyage de noces = 신혼여행 · féliciter = 축하하다"
+        ]}
+      ]
+    }
+  ],
+  "cards": [
+    {"id": "u3-02-c-regarder", "t": "choice", "skill": "futur", "prompt": "빈칸에 알맞은 것은?", "q": "Ce soir, nous ___ un film.", "ko": "오늘 저녁 우리는 영화를 볼 것이다.", "a": "regarderons", "wrong": ["regardons", "regarderez", "regarderont"], "hint": "원형 전체 + nous 어미.", "explain": "regarder + ons. ce soir = 미래 표지.", "src": "semaine 6-3 p.5"},
+    {"id": "u3-02-t-finir-vous", "t": "type", "skill": "futur", "prompt": "단순미래로", "q": "vous (finir) → vous ___", "a": "finirez", "hint": "-ir 동사도 원형을 그대로 어간으로.", "explain": "finir + ez.", "src": "semaine 6-3 p.5"},
+    {"id": "u3-02-c-finir-ils", "t": "choice", "skill": "futur", "prompt": "빈칸에 알맞은 것은?", "q": "Ils ___ leurs devoirs demain.", "ko": "그들은 내일 숙제를 끝낼 것이다.", "a": "finiront", "wrong": ["finissent", "finissont", "finirent"], "hint": "미래형에 -iss-는 들어가지 않아요.", "explain": "finir + ont. -iss-는 현재형 복수에만.", "src": "semaine 6-3 p.5"},
+    {"id": "u3-02-c-boire", "t": "choice", "skill": "futur", "prompt": "boire의 미래형 je 형태는?", "q": "boire → je ___", "a": "boirai", "wrong": ["boirerai", "buvrai", "boiverai"], "hint": "-re로 끝나는 동사는 끝 e를 어떻게 하죠?", "explain": "boire → boir- + ai.", "src": "semaine 6-3 p.6"},
+    {"id": "u3-02-t-boire-nous", "t": "type", "skill": "futur", "prompt": "단순미래로", "q": "nous (boire) → nous ___", "a": "boirons", "hint": "현재형 buvons와 헷갈리지 말고 원형에서 출발!", "explain": "boir- + ons. 현재형 nous buvons과 다름.", "src": "semaine 6-3 p.6"},
+    {"id": "u3-02-c-diner", "t": "choice", "skill": "futur", "prompt": "빈칸에 알맞은 것은?", "q": "Je ___ chez moi ce soir.", "ko": "나는 오늘 저녁 집에서 저녁을 먹을 것이다.", "a": "dînerai", "wrong": ["dînais", "dînai", "dînerez"], "say": "Je dînerai chez moi ce soir.", "hint": "원형 dîner 뒤에 je 어미.", "explain": "dîner + ai.", "src": "semaine 6-3 p.7", "star": true},
+    {"id": "u3-02-b-visiterons", "t": "build", "skill": "futur", "prompt": "문장을 만드세요", "ko": "우리는 내일 루브르 박물관을 방문할 것이다.", "a": "Nous visiterons le musée du Louvre demain.", "extra": ["visitons", "visiterez"], "hint": "nous의 미래 어미를 고르세요.", "explain": "visiter + ons.", "src": "semaine 6-3 p.7"},
+    {"id": "u3-02-c-repondrez", "t": "choice", "skill": "futur", "prompt": "빈칸에 알맞은 것은?", "q": "Vous ___ à mes questions.", "ko": "당신은 내 질문들에 대답할 것이다.", "a": "répondrez", "wrong": ["répondrerez", "répondez", "répondiez"], "hint": "-re 동사! 끝 e를 떼고 vous 어미.", "explain": "répondre → répondr- + ez.", "src": "semaine 6-3 p.7"},
+    {"id": "u3-02-c-mecrira", "t": "choice", "skill": "futur", "prompt": "빈칸에 알맞은 것은?", "q": "Il m'___.", "ko": "그는 나에게 편지를 쓸 것이다.", "a": "écrira", "wrong": ["écrit", "écrirera", "écriras"], "hint": "écrire에서 e를 떼고 il 어미.", "explain": "écrir- + a. m' = à moi (COI).", "src": "semaine 6-3 p.7"},
+    {"id": "u3-02-b-voyageront", "t": "build", "skill": "futur", "prompt": "문장을 만드세요", "ko": "그녀들은 방학 동안 프랑스를 여행할 것이다.", "a": "Elles voyageront en France pendant les vacances.", "extra": ["voyagent", "au"], "hint": "elles 미래 어미 + 여성 국가 앞 전치사.", "explain": "voyager + ont · en France.", "src": "semaine 6-3 p.7"},
+    {"id": "u3-02-l-voyageront", "t": "listen", "skill": "pron", "say": "elles voyageront", "a": "elles voyageront", "wrong": ["elles voyagent", "elles voyageaient"], "ko": "그녀들은 여행할 것이다", "pron": "[엘 부아야쥬홍]", "hint": "끝에 [홍]이 들리나요?", "explain": "✍️ 필기: [부아야쥬홍] — 미래 어미 [홍].", "src": "노션 10/8"},
+    {"id": "u3-02-c-irr-avoir", "t": "choice", "skill": "futur", "prompt": "avoir의 미래 어간은?", "q": "avoir → j'___ai", "a": "aur-", "wrong": ["avoir-", "av-", "ai-"], "hint": "불규칙! j'… 21 ans 예문을 떠올려요.", "explain": "j'aurai, tu auras, il aura …", "src": "semaine 6-3 p.8", "star": true},
+    {"id": "u3-02-c-irr-etre", "t": "choice", "skill": "futur", "prompt": "être의 미래 어간은?", "q": "être → je ___ai", "a": "ser-", "wrong": ["êtr-", "ét-", "sour-"], "hint": "C'est → Ce ___a … 10년 뒤 작문!", "explain": "je serai, ce sera.", "src": "semaine 6-3 p.8", "star": true},
+    {"id": "u3-02-t-aller-je", "t": "type", "skill": "futur", "prompt": "단순미래로", "q": "je (aller) → ___", "a": "j'irai", "alts": ["j’irai"], "hint": "aller의 미래 어간은 완전히 달라요 — 두 글자! 엘리지옹도.", "explain": "aller → ir- : j'irai.", "src": "semaine 6-3 p.8", "star": true},
+    {"id": "u3-02-c-aller-nous", "t": "choice", "skill": "futur", "prompt": "빈칸에 알맞은 것은?", "q": "Nous ___ à Nice cet été.", "ko": "우리는 이번 여름 니스에 갈 것이다.", "a": "irons", "wrong": ["allerons", "allons", "irez"], "hint": "aller는 원형을 쓰지 않는 불규칙!", "explain": "ir- + ons. (연습 4번)", "src": "semaine 6-3 p.13"},
+    {"id": "u3-02-c-voir", "t": "choice", "skill": "futur", "prompt": "voir의 미래 je 형태는?", "q": "voir → je ___", "a": "verrai", "wrong": ["voirai", "verai", "voyerai"], "hint": "어간에 r이 두 개!", "explain": "voir → verr- : je verrai.", "src": "semaine 6-3 p.9"},
+    {"id": "u3-02-t-faire-il", "t": "type", "skill": "futur", "prompt": "단순미래로", "q": "Il (faire) beau demain. → Il ___ beau demain.", "a": "fera", "alts": ["Il fera beau demain.", "Il fera beau demain"], "hint": "faire의 미래 어간은 f + e + r.", "explain": "fer- + a. (연습 5번)", "src": "semaine 6-3 p.13", "star": true},
+    {"id": "u3-02-c-savoir", "t": "choice", "skill": "futur", "prompt": "빈칸에 알맞은 것은?", "q": "Elle ___ la vérité la semaine prochaine.", "ko": "그녀는 다음 주에 진실을 알게 될 것이다.", "a": "saura", "wrong": ["savoira", "sait", "sera"], "hint": "savoir의 어간은 avoir 어간 앞에 s를 붙인 모양.", "explain": "saur- + a.", "src": "semaine 6-3 p.11"},
+    {"id": "u3-02-c-vouloir", "t": "choice", "skill": "futur", "prompt": "vouloir의 미래 nous 형태는?", "q": "vouloir → nous ___", "a": "voudrons", "wrong": ["voulerons", "voulons", "vouloirons"], "hint": "어간이 voud- 로 바뀌어요.", "explain": "vouloir → voudr- : nous voudrons.", "src": "semaine 6-3 p.10"},
+    {"id": "u3-02-c-pouvoir", "t": "choice", "skill": "futur", "prompt": "빈칸에 알맞은 것은?", "q": "Je ___ vous répondre tout à l'heure ?", "ko": "조금 이따 대답드려도 될까요?", "a": "pourrai", "wrong": ["pouvoirai", "pourai", "peux"], "hint": "voir처럼 r이 두 개인 어간.", "explain": "pourr- + ai. (연습 8번)", "src": "semaine 6-3 p.14"},
+    {"id": "u3-02-t-venir-ils", "t": "type", "skill": "futur", "prompt": "단순미래로", "q": "Ils (venir) la semaine prochaine. → Ils ___ la semaine prochaine.", "a": "viendront", "alts": ["Ils viendront la semaine prochaine.", "Ils viendront la semaine prochaine"], "hint": "venir의 미래 어간: vien + d + r.", "explain": "viendr- + ont. (연습 6번)", "src": "semaine 6-3 p.14"},
+    {"id": "u3-02-c-match-stem", "t": "choice", "skill": "futur", "prompt": "원형과 미래 어간의 짝이 틀린 것은?", "q": "avoir·être·aller·voir·faire·savoir·vouloir·pouvoir·venir", "a": "venir → venir-", "wrong": ["voir → verr-", "être → ser-", "savoir → saur-"], "hint": "슬라이드 불규칙 9개 중 마지막 동사를 확인!", "explain": "venir → viendr- (je viendrai).", "src": "semaine 6-3 p.8–10"},
+    {"id": "u3-02-c-endings-irr", "t": "choice", "skill": "futur", "prompt": "불규칙 동사의 미래 어미는?", "q": "j'aurai · je serai · j'irai …", "a": "규칙 동사와 똑같다 (-ai -as -a -ons -ez -ont)", "wrong": ["동사마다 다르다", "-rai 대신 -ai만 붙인다", "nous·vous만 다르다"], "hint": "바뀌는 건 어간일까 어미일까?", "explain": "어간만 불규칙, 어미는 공통.", "src": "semaine 6-3 p.8"},
+    {"id": "u3-02-err-allerai", "t": "error", "skill": "futur", "s": "Ce week-end, j'allerai au cinéma.", "wrong": "allerai", "right": "irai", "ko": "이번 주말에 나는 영화관에 갈 것이다.", "hint": "aller는 원형을 어간으로 쓰지 않아요.", "explain": "aller → ir- : j'irai.", "src": "semaine 6-3 p.8", "star": true},
+    {"id": "u3-02-err-voirai", "t": "error", "skill": "futur", "s": "Nous voirons ce film demain.", "wrong": "voirons", "right": "verrons", "ko": "우리는 내일 이 영화를 볼 것이다.", "hint": "voir의 미래 어간은 r이 두 개.", "explain": "voir → verr- : nous verrons.", "src": "semaine 6-3 p.9"},
+    {"id": "u3-02-err-serai-age", "t": "error", "skill": "futur", "s": "Je serai vingt-et-un ans en décembre.", "wrong": "serai", "right": "aurai", "ko": "나는 12월에 스물한 살이 될 것이다.", "hint": "프랑스어로 나이는 어떤 동사로 말하죠?", "explain": "나이는 avoir: J'aurai 21 ans.", "src": "semaine 6-3 p.11"},
+    {"id": "u3-02-b-aurai", "t": "build", "skill": "futur", "prompt": "문장을 만드세요", "ko": "나는 12월에 스물한 살이 될 것이다.", "a": "J'aurai vingt-et-un ans en décembre.", "extra": ["Je serai", "J'ai"], "hint": "나이는 avoir, 미래로.", "explain": "avoir → aur- : j'aurai.", "src": "semaine 6-3 p.11"},
+    {"id": "u3-02-c-serez", "t": "choice", "skill": "futur", "prompt": "빈칸에 알맞은 것은?", "q": "Vous ___ libre en 2030.", "ko": "당신은 2030년에 자유로울 것이다.", "a": "serez", "wrong": ["aurez", "êtrez", "êtes"], "hint": "être의 미래 어간 + vous 어미.", "explain": "ser- + ez.", "src": "semaine 6-3 p.11"},
+    {"id": "u3-02-b-iront", "t": "build", "skill": "futur", "prompt": "문장을 만드세요", "ko": "그들은 이번 주말에 영화관에 갈 것이다.", "a": "Ils iront au cinéma ce week-end.", "extra": ["vont", "alleront"], "hint": "aller의 미래 어간 + ils 어미.", "explain": "ir- + ont.", "src": "semaine 6-3 p.11"},
+    {"id": "u3-02-c-indic", "t": "choice", "skill": "futur", "prompt": "미래 표지가 아닌 것은?", "q": "demain · ce soir · la semaine prochaine · ?", "a": "hier", "wrong": ["dans dix ans", "l'année prochaine", "ce week-end"], "hint": "앞으로 올 때를 가리키지 않는 말을 찾아요.", "explain": "hier(어제)는 과거 표지.", "src": "semaine 6-3 p.12"},
+    {"id": "u3-02-c-dans", "t": "choice", "skill": "futur", "prompt": "'10년 후에'를 프랑스어로?", "q": "___ dix ans", "a": "dans", "wrong": ["en", "pendant", "il y a"], "hint": "지금부터 ~ 뒤 — 시간 표현 슬라이드!", "explain": "dans + 기간 = ~ 후에. il y a dix ans는 10년 전.", "src": "semaine 6-3 p.12"},
+    {"id": "u3-02-c-prochaine", "t": "choice", "skill": "futur", "prompt": "빈칸에 알맞은 것은?", "q": "l'année ___", "ko": "내년", "a": "prochaine", "wrong": ["prochain", "prochains", "dernière"], "hint": "année의 성은? 형용사는 명사에 맞춰요.", "explain": "année는 여성 → prochaine. le mois prochain.", "src": "semaine 6-3 p.12"},
+    {"id": "u3-02-t-ex1-finirai", "t": "type", "skill": "futur", "prompt": "괄호 동사를 단순미래로", "q": "Je ___ mon travail samedi. (finir)", "a": "finirai", "alts": ["Je finirai mon travail samedi.", "Je finirai mon travail samedi"], "hint": "-ir 동사도 원형 그대로 + je 어미.", "explain": "finir + ai. (연습 1번)", "src": "semaine 6-3 p.13"},
+    {"id": "u3-02-c-ex2-prendra", "t": "choice", "skill": "futur", "prompt": "괄호 동사를 단순미래로", "q": "Cela ___ du temps. (prendre)", "ko": "그건 시간이 걸릴 것이다.", "a": "prendra", "wrong": ["prendera", "prend", "prendras"], "hint": "cela = 3인칭 단수, -re의 e는 떼고.", "explain": "prendr- + a. prendre du temps = 시간이 걸리다. (연습 2번)", "src": "semaine 6-3 p.13"},
+    {"id": "u3-02-t-ex3-sera", "t": "type", "skill": "futur", "prompt": "괄호 동사를 단순미래로", "q": "Elle ___ de retour demain soir. (être)", "a": "sera", "alts": ["Elle sera de retour demain soir.", "Elle sera de retour demain soir"], "hint": "être의 불규칙 어간 + il/elle 어미.", "explain": "ser- + a. être de retour = 돌아와 있다. (연습 3번)", "src": "semaine 6-3 p.13"},
+    {"id": "u3-02-c-ex7-achetera", "t": "choice", "skill": "futur", "prompt": "괄호 동사를 단순미래로", "q": "Elle ___ une cravate pour son mari. (acheter)", "ko": "그녀는 남편을 위해 넥타이를 살 것이다.", "a": "achètera", "wrong": ["achetera", "achète", "achèterai"], "hint": "현재형 j'achète처럼 악상이 붙어요.", "explain": "acheter는 미래형 전체에서 è: elle achètera. (연습 7번)", "src": "semaine 6-3 p.14"},
+    {"id": "u3-02-c-ce-sera", "t": "choice", "skill": "futur", "prompt": "미래형으로 바꾸면?", "q": "C'est le 8 octobre 2036. → ___ le 8 octobre 2036.", "a": "Ce sera", "wrong": ["C'sera", "C'est sera", "Ce est"], "hint": "c'의 엘리지옹은 est 앞에서만 일어나요.", "explain": "C'est → Ce sera.", "src": "semaine 6-3 p.15", "star": true},
+    {"id": "u3-02-c-leverai", "t": "choice", "skill": "futur", "prompt": "미래형으로 바꾸면?", "q": "Je me lève tôt. → Je me ___ tôt.", "a": "lèverai", "wrong": ["leverai", "lèvrai", "me lèverai"], "hint": "재귀대명사는 그대로, se lever는 악상 è 유지.", "explain": "se lever → je me lèverai.", "src": "semaine 6-3 p.15"},
+    {"id": "u3-02-t-preparerai", "t": "type", "skill": "futur", "prompt": "미래형으로 바꾸세요", "q": "Je me prépare vite. → Je me ___ vite.", "a": "préparerai", "alts": ["Je me préparerai vite.", "Je me préparerai vite"], "hint": "재귀대명사 me는 그대로 두고 동사만.", "explain": "préparer + ai.", "src": "semaine 6-3 p.15"},
+    {"id": "u3-02-c-mettrai", "t": "choice", "skill": "futur", "prompt": "미래형으로 바꾸면?", "q": "Ensuite, je mets une belle robe. → Ensuite, je ___ une belle robe.", "a": "mettrai", "wrong": ["metterai", "mettai", "mettrais"], "hint": "-re 동사 mettre — 끝 e만 떼요.", "explain": "mettr- + ai.", "src": "semaine 6-3 p.15"},
+    {"id": "u3-02-b-prendrai-pdj", "t": "build", "skill": "futur", "prompt": "문장을 만드세요", "ko": "그다음 나는 가족과 아침을 먹을 것이다.", "a": "Puis, je prendrai un petit-déjeuner avec ma famille.", "extra": ["prends", "prenderai"], "hint": "prendre의 미래 — e를 떼고.", "explain": "je prendrai.", "src": "semaine 6-3 p.15"},
+    {"id": "u3-02-c-viendront-amis", "t": "choice", "skill": "futur", "prompt": "미래형으로 바꾸면?", "q": "Mes amis viennent pour me féliciter. → Mes amis ___ pour me féliciter.", "a": "viendront", "wrong": ["veniront", "viendrons", "viennront"], "hint": "venir 어간 + ils 어미.", "explain": "viendr- + ont. féliciter = 축하하다.", "src": "semaine 6-3 p.16"},
+    {"id": "u3-02-c-partira", "t": "choice", "skill": "futur", "prompt": "미래형으로 바꾸면?", "q": "Mon mari et moi, on part en France. → Mon mari et moi, on ___ en France.", "a": "partira", "wrong": ["partirons", "partra", "partiront"], "hint": "on은 몇 인칭이었죠?", "explain": "on = 3인칭 단수 → partir + a.", "src": "semaine 6-3 p.16"},
+    {"id": "u3-02-b-pourrons-neg", "t": "build", "skill": "futur", "prompt": "문장을 만드세요", "ko": "우리는 운전할 수 없을 것이다.", "a": "Nous ne pourrons pas conduire.", "extra": ["pouvons", "pourons"], "hint": "ne + 미래 동사 + pas, r이 두 개!", "explain": "pourr- + ons, 부정은 동사를 감싸요.", "src": "semaine 6-3 p.16"},
+    {"id": "u3-02-c-passerons", "t": "choice", "skill": "futur", "prompt": "미래형으로 바꾸면?", "q": "Alors, nous passons un bon moment ensemble. → Alors, nous ___ un bon moment ensemble.", "a": "passerons", "wrong": ["passons", "passrons", "passerez"], "hint": "-er 동사, 원형 그대로 + nous 어미.", "explain": "passer + ons. passer un bon moment = 좋은 시간을 보내다.", "src": "semaine 6-3 p.16"},
+    {"id": "u3-02-w-voyage-noces", "t": "word", "skill": "vocab", "fr": "le voyage de noces", "ko": "신혼여행", "src": "semaine 6-3 p.16"},
+    {"id": "u3-02-w-feliciter", "t": "word", "skill": "vocab", "fr": "féliciter", "ko": "축하하다", "src": "semaine 6-3 p.16"},
+    {"id": "u3-02-w-de-retour", "t": "word", "skill": "vocab", "fr": "être de retour", "ko": "돌아와 있다", "src": "semaine 6-3 p.13"},
+    {"id": "u3-02-w-tout-a-lheure", "t": "word", "skill": "vocab", "fr": "tout à l'heure", "ko": "조금 이따가 / 아까", "src": "semaine 6-3 p.14"},
+    {"id": "u3-02-w-cravate", "t": "word", "skill": "vocab", "fr": "la cravate", "ko": "넥타이", "src": "semaine 6-3 p.14"},
+    {"id": "u3-02-c-faisons-ferons", "t": "choice", "skill": "pron", "prompt": "nous faisons과 nous ferons의 발음은?", "q": "faisons (현재) / ferons (미래)", "a": "[프종] / [프홍]", "wrong": ["[페종] / [페홍]", "둘 다 [프홍]", "[프종] / [페롱]"], "say": "nous faisons, nous ferons", "hint": "✍️ 필기 '발음 주의!' — 현재형의 ai가 특이해요.", "explain": "faisons의 ai는 [으]로 약하게 → [프종]. 미래는 [프홍].", "src": "노션 10/8", "star": true},
+    {"id": "u3-02-l-sauront", "t": "listen", "skill": "pron", "say": "ils sauront", "a": "ils sauront", "wrong": ["ils auront", "ils seront"], "ko": "그들은 알게 될 것이다", "pron": "[일 쏘홍]", "hint": "연음 [z]인지 또렷한 [s]인지 들어봐요.", "explain": "✍️ 필기: sauront [일쏘홍] vs auront [일조홍].", "src": "노션 10/8", "star": true},
+    {"id": "u3-02-l-auront", "t": "listen", "skill": "pron", "say": "elles auront", "a": "elles auront", "wrong": ["elles sauront", "elles seront"], "ko": "그녀들은 가질 것이다", "pron": "[엘 조홍]", "hint": "s와 a 사이 연음은 [z] 소리예요.", "explain": "elles‿auront — 연음 [z]. sauront은 [s].", "src": "노션 10/8"},
+    {"id": "u3-02-c-voudrais", "t": "choice", "skill": "futur", "prompt": "Je voudrai와 Je voudrais의 차이는?", "q": "Je voudrai / Je voudrais", "a": "voudrai = 미래 · voudrais = 조건법(공손한 '~하고 싶은데요')", "wrong": ["둘 다 미래, 철자만 자유", "voudrai = 현재 · voudrais = 미래", "voudrais는 틀린 철자"], "hint": "✍️ 필기: -s 하나로 시제가 바뀐다!", "explain": "Je voudrais un café. = 커피 한 잔 주세요(조건법). Je voudrai = ~하고 싶을 것이다(미래).", "src": "노션 10/8", "star": true},
+    {"id": "u3-02-l-irai", "t": "listen", "skill": "pron", "say": "j'irai", "a": "j'irai", "wrong": ["j'irais", "j'ai"], "ko": "나는 갈 것이다", "pron": "[지헤]", "hint": "aller의 짧은 미래 어간이 들리나요?", "explain": "j'irai [지헤]. (j'irais도 소리는 거의 같지만 조건법)", "src": "semaine 6-3 p.8"}
+  ]
+}

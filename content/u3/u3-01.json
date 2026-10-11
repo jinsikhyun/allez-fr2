@@ -1,0 +1,535 @@
+{
+  "id": "u3-01",
+  "unit": "u3",
+  "title": "단순미래 (le futur simple) — 규칙형",
+  "emoji": "🔮",
+  "date": "2026-10-07",
+  "sources": [
+    "semaine 6-2"
+  ],
+  "tips": [
+    {
+      "h": "만드는 법",
+      "b": "**동사원형 + 어미**\n어미는 모든 동사에 똑같이: -ai · -as · -a · -ons · -ez · -ont\ntrouver → je **trouverai**"
+    },
+    {
+      "h": "-re 동사는 e를 떼고",
+      "rows": [
+        [
+          "prendre",
+          "je prendrai"
+        ],
+        [
+          "écrire",
+          "j'écrirai"
+        ]
+      ]
+    },
+    {
+      "h": "어미 외우는 요령",
+      "b": "avoir 현재형과 거의 같다\nai · as · a · (av)ons · (av)ez · ont"
+    },
+    {
+      "h": "소리",
+      "b": "-rai·-rez [헤] · -ras·-ra [하] · -rons·-ront [홍]\nje parlerai [쥬 빠흘르헤]"
+    }
+  ],
+  "note": [
+    {
+      "h": "📌 진도 안내",
+      "skill": "futur",
+      "src": [
+        "semaine 6-2 p.20",
+        "녹음 10/7"
+      ],
+      "body": [
+        {
+          "memo": "semaine 6-2(10/7) 슬라이드 PARTIE 4에 있지만 녹음상 이날 수업은 여기까지 진행되지 않았다. 본격 수업은 10/8 semaine 6-3 (Leçon 11)."
+        }
+      ]
+    },
+    {
+      "h": "단순미래란 · 만드는 법",
+      "skill": "futur",
+      "src": [
+        "semaine 6-2 p.21"
+      ],
+      "body": [
+        {
+          "ex": [
+            [
+              "Le futur simple est utilisé pour parler d'une action à venir.",
+              "단순미래는 앞으로 올 행동을 말할 때 쓴다."
+            ],
+            [
+              "Comment le former ? En ajoutant les mêmes terminaisons pour tous les verbes.",
+              "어떻게 만드나? 모든 동사에 같은 어미를 붙여서."
+            ]
+          ]
+        },
+        {
+          "table": [
+            [
+              "주어",
+              "trouver",
+              "어미"
+            ],
+            [
+              "je",
+              "trouverai",
+              "-ai"
+            ],
+            [
+              "tu",
+              "trouveras",
+              "-as"
+            ],
+            [
+              "il / elle",
+              "trouvera",
+              "-a"
+            ],
+            [
+              "nous",
+              "trouverons",
+              "-ons"
+            ],
+            [
+              "vous",
+              "trouverez",
+              "-ez"
+            ],
+            [
+              "ils / elles",
+              "trouveront",
+              "-ont"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "p": "**동사원형 전체**를 어간으로 쓰고 그 뒤에 어미를 붙입니다. trouver + ai → trouverai. 그래서 미래형에는 언제나 **r** 소리가 들어 있어요."
+        },
+        {
+          "memo": "어미 -ai · -as · -a · -ons · -ez · -ont은 avoir의 현재형(ai, as, a, avons, avez, ont)과 거의 같다 — nous·vous만 av-가 빠진 모양."
+        }
+      ]
+    },
+    {
+      "h": "-er · -re 동사 — prendre, écrire는 e를 뗀다",
+      "skill": "futur",
+      "src": [
+        "semaine 6-2 p.22"
+      ],
+      "body": [
+        {
+          "table": [
+            [
+              "",
+              "parler",
+              "prendre",
+              "écrire"
+            ],
+            [
+              "je",
+              "parlerai",
+              "prendrai",
+              "écrirai (j')"
+            ],
+            [
+              "tu",
+              "parleras",
+              "prendras",
+              "écriras"
+            ],
+            [
+              "il / elle",
+              "parlera",
+              "prendra",
+              "écrira"
+            ],
+            [
+              "nous",
+              "parlerons",
+              "prendrons",
+              "écrirons"
+            ],
+            [
+              "vous",
+              "parlerez",
+              "prendrez",
+              "écrirez"
+            ],
+            [
+              "ils / elles",
+              "parleront",
+              "prendront",
+              "écriront"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "warn": "-re로 끝나는 동사는 원형의 **끝 e를 떼고** 어미를 붙입니다: prendre → prendr- → je prendrai (prendrerai ✗), écrire → écrir- → j'écrirai."
+        },
+        {
+          "p": "écrire는 모음으로 시작하니 je → **j'**écrirai (엘리지옹)."
+        }
+      ]
+    },
+    {
+      "h": "발음",
+      "skill": "pron",
+      "src": [
+        "semaine 6-2 p.21–22"
+      ],
+      "body": [
+        {
+          "list": [
+            "-rai [헤] · -ras [하] · -ra [하] · -rons [홍] · -rez [헤] · -ront [홍]",
+            "je trouverai [쥬 트후브헤] — 가운데 e는 약하게, 빨리 말하면 거의 사라짐",
+            "je parlerai [쥬 빠흘르헤] · ils parleront [일 빠흘르홍]",
+            "je prendrai [쥬 프항드헤] · nous prendrons [누 프항드홍]",
+            "j'écrirai [제크히헤] · nous‿écrirons [누 제크히홍] · ils‿écriront [일 제크히홍] — 연음",
+            "tu parleras = il parlera — 끝 s 묵음이라 소리가 같다"
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "u3-01-c-usage",
+      "t": "choice",
+      "skill": "futur",
+      "prompt": "단순미래는 언제 쓰나요?",
+      "q": "Le futur simple est utilisé pour parler d'une action…",
+      "a": "à venir (앞으로 올 행동)",
+      "wrong": [
+        "passée (지난 행동)",
+        "en cours (진행 중인 행동)",
+        "habituelle (습관)"
+      ],
+      "say": "",
+      "hint": "이름에 답이 있어요 — futur!",
+      "explain": "une action à venir = 앞으로 일어날 행동.",
+      "src": "semaine 6-2"
+    },
+    {
+      "id": "u3-01-c-endings",
+      "t": "choice",
+      "skill": "futur",
+      "prompt": "단순미래 어미 순서로 맞는 것은?",
+      "q": "je · tu · il · nous · vous · ils",
+      "a": "-ai · -as · -a · -ons · -ez · -ont",
+      "wrong": [
+        "-e · -es · -e · -ons · -ez · -ent",
+        "-ais · -ais · -ait · -ions · -iez · -aient",
+        "-é · -é · -é · -és · -és · -és"
+      ],
+      "say": "",
+      "hint": "avoir 현재형을 떠올려 보세요.",
+      "explain": "avoir 현재형(ai, as, a, avons, avez, ont)과 거의 같은 어미.",
+      "src": "semaine 6-2",
+      "star": true
+    },
+    {
+      "id": "u3-01-c-stem",
+      "t": "choice",
+      "skill": "futur",
+      "prompt": "단순미래 어간은?",
+      "q": "trouver → je ___ai",
+      "a": "trouver- (동사원형 전체)",
+      "wrong": [
+        "trouv- (-er를 뗀 어간)",
+        "trouvons- (nous 현재형)",
+        "trouvé- (과거분사)"
+      ],
+      "say": "",
+      "hint": "미래형엔 항상 r 소리가 들어 있어요.",
+      "explain": "원형 전체 + 어미 → trouverai.",
+      "src": "semaine 6-2",
+      "star": true
+    },
+    {
+      "id": "u3-01-c-je-trouver",
+      "t": "choice",
+      "skill": "futur",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Je ___ la solution.",
+      "ko": "나는 해결책을 찾을 것이다.",
+      "a": "trouverai",
+      "wrong": [
+        "trouvai",
+        "trouverais",
+        "trouve"
+      ],
+      "hint": "원형 trouver를 그대로 두고 je 어미를 붙여요.",
+      "explain": "trouver + ai.",
+      "src": "semaine 6-2"
+    },
+    {
+      "id": "u3-01-t-tu-trouver",
+      "t": "type",
+      "skill": "futur",
+      "prompt": "단순미래로",
+      "q": "tu (trouver) → tu ___",
+      "a": "trouveras",
+      "hint": "tu의 어미는 avoir의 tu 형태와 같아요.",
+      "explain": "trouver + as.",
+      "src": "semaine 6-2"
+    },
+    {
+      "id": "u3-01-t-nous-trouver",
+      "t": "type",
+      "skill": "futur",
+      "prompt": "단순미래로",
+      "q": "nous (trouver) → nous ___",
+      "a": "trouverons",
+      "hint": "nous 어미는 현재형 nous 어미와 같은 모양이에요.",
+      "explain": "trouver + ons.",
+      "src": "semaine 6-2"
+    },
+    {
+      "id": "u3-01-c-ils-trouver",
+      "t": "choice",
+      "skill": "futur",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Ils ___ le chemin.",
+      "ko": "그들은 길을 찾을 것이다.",
+      "a": "trouveront",
+      "wrong": [
+        "trouverent",
+        "trouveras",
+        "trouverons"
+      ],
+      "hint": "ils 어미는 avoir의 ils 형태(ils ont)와 같아요.",
+      "explain": "trouver + ont.",
+      "src": "semaine 6-2"
+    },
+    {
+      "id": "u3-01-c-elle-parler",
+      "t": "choice",
+      "skill": "futur",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Elle ___ français demain.",
+      "ko": "그녀는 내일 프랑스어를 할 것이다.",
+      "a": "parlera",
+      "wrong": [
+        "parlerai",
+        "parlerons",
+        "parlerait"
+      ],
+      "hint": "il·elle의 어미는 한 글자예요.",
+      "explain": "parler + a. parlerai는 je 형태.",
+      "src": "semaine 6-2"
+    },
+    {
+      "id": "u3-01-t-vous-parler",
+      "t": "type",
+      "skill": "futur",
+      "prompt": "단순미래로",
+      "q": "vous (parler) → vous ___",
+      "a": "parlerez",
+      "hint": "vous 어미는 현재형 vous 어미와 같은 모양이에요.",
+      "explain": "parler + ez.",
+      "src": "semaine 6-2"
+    },
+    {
+      "id": "u3-01-c-prendre-stem",
+      "t": "choice",
+      "skill": "futur",
+      "prompt": "prendre의 단순미래 (je)는?",
+      "q": "prendre → je ___",
+      "a": "prendrai",
+      "wrong": [
+        "prenderai",
+        "prendrerai",
+        "prenrai"
+      ],
+      "hint": "-re 동사는 원형의 끝 글자 하나를 떼요.",
+      "explain": "prendre → prendr- + ai.",
+      "src": "semaine 6-2",
+      "star": true
+    },
+    {
+      "id": "u3-01-err-prendrerai",
+      "t": "error",
+      "skill": "futur",
+      "s": "Demain, je prendrerai le métro.",
+      "wrong": "prendrerai",
+      "right": "prendrai",
+      "ko": "내일 나는 지하철을 탈 것이다.",
+      "hint": "-re 동사의 끝 e는 어떻게 하죠?",
+      "explain": "-re 동사는 끝 e를 떼고 어미: prendr- + ai.",
+      "src": "semaine 6-2",
+      "star": true
+    },
+    {
+      "id": "u3-01-t-nous-prendre",
+      "t": "type",
+      "skill": "futur",
+      "prompt": "단순미래로",
+      "q": "nous (prendre) → nous ___",
+      "a": "prendrons",
+      "hint": "끝 e를 떼고 nous 어미.",
+      "explain": "prendr- + ons.",
+      "src": "semaine 6-2"
+    },
+    {
+      "id": "u3-01-c-vous-prendre",
+      "t": "choice",
+      "skill": "futur",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Vous ___ la rue Saint-Jacques.",
+      "ko": "생자크 거리로 가시게 될 거예요.",
+      "a": "prendrez",
+      "wrong": [
+        "prenez",
+        "prendrerez",
+        "prendriez"
+      ],
+      "hint": "현재형과 헷갈리지 말 것 — 미래엔 r 소리가 있어요.",
+      "explain": "prendr- + ez. prenez는 현재형·명령문.",
+      "src": "semaine 6-2"
+    },
+    {
+      "id": "u3-01-c-ecrire-je",
+      "t": "choice",
+      "skill": "futur",
+      "prompt": "écrire의 단순미래 (je)는?",
+      "q": "écrire → ___",
+      "a": "j'écrirai",
+      "wrong": [
+        "je écrirai",
+        "j'écrirerai",
+        "j'écrivrai"
+      ],
+      "hint": "끝 e를 떼고, 모음 앞 je도 처리해요.",
+      "explain": "écrir- + ai, je → j'.",
+      "src": "semaine 6-2",
+      "star": true
+    },
+    {
+      "id": "u3-01-t-ils-ecrire",
+      "t": "type",
+      "skill": "futur",
+      "prompt": "단순미래로",
+      "q": "ils (écrire) → ils ___",
+      "a": "écriront",
+      "hint": "écrir- 뒤에 ils 어미.",
+      "explain": "écrir- + ont.",
+      "src": "semaine 6-2"
+    },
+    {
+      "id": "u3-01-c-tu-ecrire",
+      "t": "choice",
+      "skill": "futur",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Tu m'___ un e-mail ?",
+      "ko": "나한테 이메일 써 줄 거야?",
+      "a": "écriras",
+      "wrong": [
+        "écrirais",
+        "écrivras",
+        "écrires"
+      ],
+      "hint": "tu 어미는 -as.",
+      "explain": "écrir- + as.",
+      "src": "semaine 6-2"
+    },
+    {
+      "id": "u3-01-err-trouvrai",
+      "t": "error",
+      "skill": "futur",
+      "s": "Je trouvrai un hôtel près de Nice.",
+      "wrong": "trouvrai",
+      "right": "trouverai",
+      "ko": "니스 근처에서 호텔을 찾을 거야.",
+      "hint": "-er 동사는 원형을 통째로 남겨요.",
+      "explain": "-er 동사는 원형 전체 + 어미 → trouverai. e를 떼는 건 -re 동사만.",
+      "src": "semaine 6-2"
+    },
+    {
+      "id": "u3-01-b-parlerons",
+      "t": "build",
+      "skill": "futur",
+      "prompt": "문장을 만드세요",
+      "ko": "우리는 프랑스어로 말할 것이다.",
+      "a": "Nous parlerons en français.",
+      "extra": [
+        "parlons",
+        "parlerez"
+      ],
+      "hint": "nous의 미래 어미를 고르세요.",
+      "explain": "parler + ons.",
+      "src": "semaine 6-2"
+    },
+    {
+      "id": "u3-01-c-pres-vs-fut",
+      "t": "choice",
+      "skill": "futur",
+      "prompt": "미래형인 것은?",
+      "q": "다음 중 단순미래 형태를 고르세요.",
+      "a": "vous parlerez",
+      "wrong": [
+        "vous parlez",
+        "vous parliez",
+        "vous avez parlé"
+      ],
+      "say": "",
+      "hint": "미래형에는 원형의 r이 들어 있어요.",
+      "explain": "parlez는 현재, avez parlé는 복합과거.",
+      "src": "semaine 6-2"
+    },
+    {
+      "id": "u3-01-c-pron-ras",
+      "t": "choice",
+      "skill": "pron",
+      "prompt": "tu parleras와 il parlera의 발음은?",
+      "q": "두 형태를 소리로 비교하면?",
+      "a": "똑같다 — 끝 s 묵음",
+      "wrong": [
+        "tu parleras만 끝에 [s]",
+        "il parlera만 끝에 [a]를 길게",
+        "tu parleras는 [하스]"
+      ],
+      "say": "tu parleras, il parlera",
+      "hint": "프랑스어의 끝 s는 대부분 소리가 없죠.",
+      "explain": "둘 다 [빠흘르하]. 철자로만 구별.",
+      "src": "semaine 6-2"
+    },
+    {
+      "id": "u3-01-l-prendrai",
+      "t": "listen",
+      "skill": "pron",
+      "say": "je prendrai",
+      "a": "je prendrai",
+      "wrong": [
+        "je prends",
+        "je prenais"
+      ],
+      "ko": "나는 탈 것이다",
+      "pron": "[쥬 프항드헤]",
+      "hint": "끝에 [드헤] 소리가 들리나요?",
+      "explain": "미래형은 원형의 r이 들어가 [프항드헤].",
+      "src": "semaine 6-2"
+    },
+    {
+      "id": "u3-01-l-ecriront",
+      "t": "listen",
+      "skill": "pron",
+      "say": "ils écriront",
+      "a": "ils écriront",
+      "wrong": [
+        "ils écrivent",
+        "ils écrivaient"
+      ],
+      "ko": "그들은 쓸 것이다",
+      "pron": "[일 제크히홍]",
+      "hint": "ils와 é 사이에 [z] 연음이 들리고, 끝이 [홍]이에요.",
+      "explain": "ils‿écriront — 연음 + 미래 어미 [홍].",
+      "src": "semaine 6-2"
+    }
+  ]
+}

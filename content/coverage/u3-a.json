@@ -1,0 +1,41 @@
+{
+  "semaine 6-3": {
+    "p.1": ["skip: 표지 (Semaine 6 · Leçon 11 · 10/8)"],
+    "p.2": ["skip: 목차 (Le futur simple)"],
+    "p.3": ["skip: PARTIE 1 간지 (Le futur simple)"],
+    "p.4": ["u3-01-c-usage", "u3-01-c-endings", "u3-01-c-stem", "u3-01-c-je-trouver", "u3-01-t-tu-trouver", "u3-01-t-nous-trouver", "u3-01-c-ils-trouver", "note:u3-02#0", "tip:u3-01#0"],
+    "p.5": ["u3-01-c-elle-parler", "u3-01-t-vous-parler", "u3-02-c-regarder", "u3-02-t-finir-vous", "u3-02-c-finir-ils", "note:u3-02#0"],
+    "p.6": ["u3-01-c-ecrire-je", "u3-01-t-ils-ecrire", "u3-01-c-prendre-stem", "u3-01-t-nous-prendre", "u3-02-c-boire", "u3-02-t-boire-nous", "note:u3-02#0"],
+    "p.7": ["u3-02-c-diner", "u3-02-b-visiterons", "u3-02-c-repondrez", "u3-02-c-mecrira", "u3-02-b-voyageront", "note:u3-02#1"],
+    "p.8": ["u3-02-c-irr-avoir", "u3-02-c-irr-etre", "u3-02-t-aller-je", "u3-02-err-allerai", "u3-02-c-endings-irr", "u3-02-l-irai", "note:u3-02#2", "tip:u3-02#0", "tip:u3-02#1"],
+    "p.9": ["u3-02-c-voir", "u3-02-err-voirai", "u3-02-t-faire-il", "u3-02-c-savoir", "note:u3-02#2", "note:u3-02#3"],
+    "p.10": ["u3-02-c-vouloir", "u3-02-c-pouvoir", "u3-02-t-venir-ils", "u3-02-c-match-stem", "note:u3-02#2"],
+    "p.11": ["u3-02-b-aurai", "u3-02-err-serai-age", "u3-02-c-serez", "u3-02-c-savoir", "u3-02-b-iront", "note:u3-02#4"],
+    "p.12": ["u3-02-c-indic", "u3-02-c-dans", "u3-02-c-prochaine", "note:u3-02#5", "tip:u3-02#2"],
+    "p.13": ["u3-02-t-ex1-finirai", "u3-02-c-ex2-prendra", "u3-02-t-ex3-sera", "u3-02-c-aller-nous", "u3-02-t-faire-il", "u3-02-w-de-retour", "note:u3-02#6"],
+    "p.14": ["u3-02-t-venir-ils", "u3-02-c-ex7-achetera", "u3-02-c-pouvoir", "u3-02-w-tout-a-lheure", "u3-02-w-cravate", "note:u3-02#6"],
+    "p.15": ["u3-02-c-ce-sera", "u3-02-c-leverai", "u3-02-t-preparerai", "u3-02-b-prendrai-pdj", "u3-02-c-mettrai", "note:u3-02#7"],
+    "p.16": ["u3-02-c-viendront-amis", "u3-02-c-passerons", "u3-02-c-partira", "u3-02-b-pourrons-neg", "u3-02-w-voyage-noces", "u3-02-w-feliciter", "note:u3-02#7"],
+    "p.17": ["u0-01-ademain", "skip: 마무리 슬라이드 (Questions / À la semaine prochaine !)"]
+  },
+  "노션 10/8": {
+    "§ Le futur simple — des terminaisons 어미 -ai/-as/-a/-ons/-ez/-ont": ["u3-01-c-endings", "note:u3-02#0"],
+    "§ trouver 찾다 — 발음 trou / ve / rai 로 끊김": ["u3-01-c-je-trouver", "note:u3-02#0"],
+    "§ -e만 없애고 (-re 동사)": ["u3-02-c-boire", "u3-01-err-prendrerai", "note:u3-02#0"],
+    "§ 예문 5개 (dînerai · visiterons · répondrez · m'écrira · voyageront)": ["u3-02-c-diner", "u3-02-b-visiterons", "u3-02-c-repondrez", "u3-02-c-mecrira", "u3-02-b-voyageront", "note:u3-02#1"],
+    "§ voyageront 발음 주의 [부아야쥬홍]": ["u3-02-l-voyageront", "note:u3-02#1"],
+    "§ Nous faisons랑 ferons 발음 주의": ["u3-02-c-faisons-ferons", "note:u3-02#3", "tip:u3-02#3"],
+    "§ Ils/Elles sauront vs auront 발음 주의 [일쏘홍, 엘쏘홍]": ["u3-02-l-sauront", "u3-02-l-auront", "note:u3-02#3"],
+    "§ Je voudrai + s → Je voudrais = conditionnel": ["u3-02-c-voudrais", "note:u3-02#3"],
+    "§ 미래형 시제를 쓸 때의 표지들": ["u3-02-c-indic", "u3-02-c-dans", "note:u3-02#5"],
+    "§ 10년 뒤의 미래형 — Ce sera le 8 octobre 2036 / Ce sera le jour de mon mariage": ["u3-02-c-ce-sera", "note:u3-02#7"],
+    "§ 슬라이드 캡처 이미지들": ["note:u3-02#2", "skip: 이미지 파일은 열 수 없음 — 같은 내용의 semaine 6-3 슬라이드로 반영"]
+  },
+  "노션 midterm 정리노트 — Quiz 2 (9/17)": {
+    "§ I. Mettez les verbes suivants au passé composé (12문항)": ["u1-17-i1-pris", "u1-17-i2-reveillee", "u1-17-i3-vu", "u1-17-i4-prepares", "u1-17-i5-arrivee", "u1-17-i6-lave", "u1-17-i7-rase", "u1-17-i8-maquillees", "u1-17-i9-partis", "u1-17-i10-habilles", "u1-17-i11-rendue", "u1-17-i12-promenes", "note:u1-17#1"],
+    "§ II. Transformez les phrases (5문항)": ["u1-17-ii1-neg", "u1-17-ii2-neg", "u1-17-ii3-inv", "u1-17-ii4-inv", "u1-17-ii5-neg", "note:u1-17#2"],
+    "§ III. Trouvez et corrigez l'erreur (12문항)": ["u1-17-iii1", "u1-17-iii2", "u1-17-iii3", "u1-17-iii4", "u1-17-iii5", "u1-17-iii6", "u1-17-iii7", "u1-17-iii8", "u1-17-iii9", "u1-17-iii10", "u1-08-e-livre", "u1-08-e-regardees", "note:u1-17#3"],
+    "§ Quiz 2에 나온 대명동사 어휘": ["u1-17-w-se-raser", "u1-17-w-se-maquiller", "u1-17-w-s-habiller", "u1-17-w-se-rendre", "u1-17-w-se-servir", "u1-17-w-se-preparer", "tip:u1-17#0"],
+    "§ 발음 — Quiz 2 동사": ["u1-17-l-habiller", "note:u1-17#4"]
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-01T16:10:00Z",
+  "last_run": "2026-10-11T14:12:21Z",
   "notion_parent": "722e4debecb882bda65301cb03f6526f",
   "files": {
     "FRAN141(03).hwp": {
@@ -66,6 +66,21 @@
       "size": 930739,
       "mtime": 0,
       "via": "2026-10-01 실행: u2-04 생성"
+    },
+    "[Francais II]semaine 6-1.pdf": {
+      "size": 433315,
+      "mtime": 1791255895,
+      "via": "2026-10-06 실행: u2-05 생성"
+    },
+    "[Francais II]semaine 6-2.pdf": {
+      "size": 1848148,
+      "mtime": 1791428708,
+      "via": "채팅 요청으로 반영(2026-10-08) — 학생 결석, 녹음 2개(약 104분) 전사 + 슬라이드. u2-06 · u3-01(새 유닛 u3)"
+    },
+    "[Francais II]semaine 6-3.pdf": {
+      "size": 295572,
+      "mtime": 1791428687,
+      "via": "채팅 요청으로 반영(2026-10-11): u3-02 생성"
     }
   },
   "notion_processed": {
@@ -82,7 +97,11 @@
     "deae4debecb882d3879c0167e8a55883": "9/23 (학생 필기 반영 2026-09-24: 재귀/상호 se · qqn·qqch · envie 표현 · dernier 위치 · 텍스트 보충 → u1-10/u1-11/u1-12에 추가)",
     "af4e4debecb882739987011b718f11d9": "9/29 (학생 필기: PARTIE 1 대화문 → u1-16 / 가계도·합성어 일치·fils 발음·연습 답·불규칙 현재분사·부정 de → 2026-09-30 실행에서 u1-14 보강·대조표 매핑. 하위 「Semaine 5-1 정리」는 Claude가 만든 페이지라 제외)",
     "f5be4debecb883c393e3018310008c95": "9/30 (학생 필기 글: -al→-aux·faisant/prenant·devoir/savoir·trop → u2-03. 사진 이미지는 열 수 없어 미반영. 하위 「Semaine 5-2 정리」는 Claude 페이지라 제외)",
-    "3ece4debecb8810ab004f852898bda4b": "10/1 (학생 필기 글 → u2-04. 사진 이미지는 열 수 없어 미반영. 하위 「Semaine 5-3 정리」는 Claude 페이지라 제외)"
+    "3ece4debecb8810ab004f852898bda4b": "10/1 (학생 필기 글 → u2-04. 사진 이미지는 열 수 없어 미반영. 하위 「Semaine 5-3 정리」는 Claude 페이지라 제외)",
+    "3ece4debecb881a29a1dc26caaf0c801": "10/6 (학생 필기 글: 명령문 -s 규칙·aie·aller·tout droit·n'allez·me→moi·envoyer → u2-05. 사진 미반영. 하위 「Semaine 6-1 정리」는 Claude 페이지라 제외)",
+    "3ece4debecb881a19785f19c606b84b1": "10/7 (학생 결석 — 날짜 페이지 비어 있음. Claude가 녹음 기반 하위 「Semaine 6-2 정리」 작성 → u2-06·u3-01. 이후 학생이 날짜 페이지에 필기를 쓰면 보강)",
+    "3ece4debecb881aa945cc0370ef26996": "10/8 (학생 필기 글: 어미·trou/ve/rai·-e 떼기·예문 5개·voyageront·faisons/ferons·sauront/auront·voudrai/voudrais·Ce sera → u3-02. 이미지는 열 수 없어 슬라이드로 대체)",
+    "3f6e4debecb8814d8102fc96e38ce764": "midterm 「Leçon 9 정리노트」 (Claude 정리 페이지지만 Quiz 2 (9/17) 문항은 수업 자료 → u1-17. 나머지는 기존 u1 레슨과 중복이라 제외)"
   },
   "notion_empty_at_last_run": {},
   "note": "FRAN141(03).hwp는 교프어I(지난 학기) 강의계획서라 콘텐츠에 사용하지 않음",

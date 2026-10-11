@@ -1,0 +1,983 @@
+{
+  "id": "u2-06",
+  "unit": "u2",
+  "title": "길 안내 표현 · droit · 판테옹 (10/7 녹음)",
+  "emoji": "🗺️",
+  "date": "2026-10-07",
+  "sources": [
+    "semaine 6-2",
+    "녹음 10/7"
+  ],
+  "tips": [
+    {
+      "h": "droit 네 가지",
+      "rows": [
+        [
+          "le droit (n.)",
+          "권리"
+        ],
+        [
+          "droit / droite (adj.)",
+          "곧은 · 오른쪽의"
+        ],
+        [
+          "tout droit (adv.)",
+          "곧장 — 불변"
+        ],
+        [
+          "la droite / à droite (de)",
+          "오른쪽 · 오른쪽으로"
+        ]
+      ]
+    },
+    {
+      "h": "⭐ 교수님 구두 포인트",
+      "b": "Soyons patient**e**s — 우리가 전부 여자면 -es\nOù **se trouve** le Panthéon ? — 고급스러운 질문\n처음 본 사람에게: **Je vous en prie** · **madame**"
+    },
+    {
+      "h": "친구에게는 tu 명령문",
+      "b": "Prends la deuxième rue à droite. Puis **tourne** à droite.\n(-er 동사는 tu 명령문에서 -s 없음)"
+    },
+    {
+      "h": "순서 표현",
+      "b": "**D'abord** → Puis → Ensuite → Et là\nd'abord = 먼저 (일상에서 아주 중요)"
+    }
+  ],
+  "note": [
+    {
+      "h": "명령문 복습 — 오늘 더해진 것",
+      "skill": "imperatif",
+      "src": [
+        "semaine 6-2 p.4–6",
+        "녹음 10/7"
+      ],
+      "body": [
+        {
+          "list": [
+            "Pour donner un ordre ou un conseil. Trois personnes : tu, nous, vous — sans pronom sujet.",
+            "**Veuillez + infinitif** : demande polie — Veuillez entrer. (들어오십시오)",
+            "(Veuille et veuillons sont rares.) — 교수님: 읽을 일도 말할 일도 거의 없다",
+            "부정: ne / n' + (대명사) + 동사 + pas — Ne me donne pas ce livre !"
+          ]
+        },
+        {
+          "warn": "⭐ 녹음: Soyons patients ! — '여럿이라 s를 붙였다. 우리가 다 여자면 patientes.' 명령문엔 주어가 안 보여도 형용사는 숨은 주어(듣는 사람·우리)에 맞춘다: Sois patient(e) · Soyez patient(e)(s)."
+        }
+      ]
+    },
+    {
+      "h": "시사 — 고등학생 시위 팻말 속 명령문",
+      "skill": "imperatif",
+      "src": [
+        "semaine 6-2 p.7–8",
+        "녹음 10/7"
+      ],
+      "body": [
+        {
+          "ex": [
+            [
+              "Sois jeune et tais-toi → Bats-toi !",
+              "젊으니 입 다물어라 → 싸워라!"
+            ],
+            [
+              "C'est nous l'avenir. Écoutez-nous !",
+              "미래는 우리다. 우리 말을 들어라!"
+            ],
+            [
+              "Quand les lycéens demandent à être entendus",
+              "고등학생들이 목소리를 들어 달라고 요구할 때"
+            ]
+          ]
+        },
+        {
+          "list": [
+            "sois = être의 tu 명령문 · tais-toi = **se taire**(입 다물다) · bats-toi = **se battre**(싸우다 — '자기를 때리다'가 아님)",
+            "대명동사 명령문이라 te → **toi**가 동사 뒤로",
+            "Écoutez-**nous** — 긍정 명령문이라 COD nous가 뒤로"
+          ]
+        },
+        {
+          "memo": "녹음 요약: 프랑스 전역 고등학생(lycéens)이 학교를 봉쇄(blocus)하며 격렬히 시위 중. 이유 — 난방·단열·냉방 등 시설이 열악하고, 교사가 없어 대입 시험 6개월 전부터 수업이 없는 학교도 있으며, 3년 전부터 요구했지만 조치가 없었다는 것. 대학도 외국인 학비가 크게 올랐다. p.8은 파리 낭테르 대학교의 10월 6일 휴교 공지."
+        }
+      ]
+    },
+    {
+      "h": "길 안내 표현 · 순서 · tu/vous",
+      "skill": "imperatif",
+      "src": [
+        "semaine 6-2 p.10",
+        "semaine 6-2 p.17",
+        "녹음 10/7"
+      ],
+      "body": [
+        {
+          "table": [
+            [
+              "표현",
+              "뜻"
+            ],
+            [
+              "aller [continuer] tout droit",
+              "직진하다 [계속 직진하다]"
+            ],
+            [
+              "tourner à gauche [à droite]",
+              "왼쪽 [오른쪽]으로 돌다"
+            ],
+            [
+              "prendre la première [deuxième] rue à gauche [à droite]",
+              "왼쪽 [오른쪽] 첫 [두] 번째 길로 들어서다"
+            ],
+            [
+              "traverser la rue",
+              "길을 건너다"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "p": "순서: **D'abord**(먼저) → **Puis**(그다음) → **Ensuite**(그러고 나서) → **Et là**(그리고 거기서). 교수님: d'abord는 교과서엔 없었지만 일상에서 아주 중요."
+        },
+        {
+          "warn": "⭐ 녹음: 연습문제는 '친구(votre amie)에게' 설명하는 상황 → **tu 명령문** (Prends · Tourne · Va · Continue). -er 동사·aller는 tu 명령문에서 -s를 뺀다."
+        },
+        {
+          "ex": [
+            [
+              "D'abord, prends la deuxième rue à droite. Puis tourne à droite.",
+              "먼저 오른쪽 두 번째 길로 들어가. 그다음 오른쪽으로 돌아. (교수님 답안 일부)"
+            ],
+            [
+              "Expliquez-lui comment aller à la gare.",
+              "그녀에게 역에 어떻게 가는지 설명해 주세요. (문제 지시문)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "h": "단어 « droit » — 네 가지 뜻",
+      "skill": "vocab",
+      "src": [
+        "semaine 6-2 p.11",
+        "녹음 10/7"
+      ],
+      "body": [
+        {
+          "table": [
+            [
+              "품사",
+              "뜻",
+              "예"
+            ],
+            [
+              "명사 (le droit)",
+              "권리",
+              "Nous avons le droit de parler."
+            ],
+            [
+              "형용사",
+              "곧은",
+              "un chemin droit / une ligne droite"
+            ],
+            [
+              "형용사",
+              "오른쪽의",
+              "le bras droit / la main droite / le pied droit / la jambe droite"
+            ],
+            [
+              "부사",
+              "곧장, 직접",
+              "aller tout droit / regarder droit dans les yeux"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "list": [
+            "**la droite** (명사): Tenez la droite ! (오른쪽을 유지하세요) / C'est sur votre droite. (당신 오른편에 있어요)",
+            "**à droite (de)**: tourner à droite / C'est à droite de la poste. — à droite는 부사처럼, à droite de는 전치사처럼",
+            "형용사는 성수일치(droit / droite), 부사 tout droit는 불변: Elle va tout droit."
+          ]
+        },
+        {
+          "memo": "녹음: '뜻이 많지만 다 외울 필요는 없고 필요한 것만' — 길 안내의 à droite · tout droit가 핵심."
+        }
+      ]
+    },
+    {
+      "h": "GPS 영상 표현 (녹음, 일부 불확실)",
+      "skill": "vocab",
+      "src": [
+        "semaine 6-2 p.12",
+        "녹음 10/7"
+      ],
+      "body": [
+        {
+          "list": [
+            "le rond-point — 원형 교차로",
+            "Dans 100 mètres, tournez à droite. — 100미터 후 오른쪽으로",
+            "Tenez la gauche. — 왼쪽 차선을 유지하세요"
+          ]
+        },
+        {
+          "memo": "녹음 음질이 나빠 영상 문장은 교수님 설명에서 재구성한 것. 시험 대비 확정 자료로 쓰지 말 것."
+        }
+      ]
+    },
+    {
+      "h": "텍스트 〈Devant Notre-Dame〉 — 교수님 구두 보충",
+      "skill": "vocab",
+      "src": [
+        "semaine 6-2 p.14",
+        "semaine 6-2 p.16",
+        "녹음 10/7"
+      ],
+      "body": [
+        {
+          "list": [
+            "일상에선 Notre-Dame de Paris를 그냥 **Notre-Dame**이라고 한다",
+            "Pardon, monsieur 대신 **Excusez-moi**도 쓴다",
+            "**Ah bon ?** — '아 그래요?' 같은 리액션",
+            "**plus facilement** — facile → facilement (쉽게)"
+          ]
+        },
+        {
+          "warn": "⭐ 녹음: Le Panthéon **se trouve** au bout de la rue. → 질문도 se trouver로 하면 고급스럽다: **Où se trouve le Panthéon ?** / **Où se trouvent les toilettes ?** (복수면 se trouvent)"
+        },
+        {
+          "warn": "⭐ 녹음: 처음 본 사람에게 — **mademoiselle**은 요즘 쓰지 않으니 **madame** / 고맙다는 말에는 De rien보다 **Je vous en prie**가 더 맞다."
+        }
+      ]
+    },
+    {
+      "h": "판테옹 이야기 (녹음)",
+      "skill": "vocab",
+      "src": [
+        "semaine 6-2 p.15",
+        "녹음 10/7"
+      ],
+      "body": [
+        {
+          "list": [
+            "로마의 판테온(여러 신을 모신 신전)에서 영감을 받은 건물",
+            "원래는 파리의 수호 성인 **생트 주느비에브**를 기리는 **성당**으로 지었다",
+            "1789년 대혁명 직후라 종교 건물로 쓰지 않고 **국가 위인을 모시는 곳**이 되며 '판테옹'이라는 이름을 씀",
+            "역사와 함께 이름이 계속 바뀜: 왕정복고 → 성당 / 1830 → 판테옹 / 1851 → 성당 / **1885** → 판테옹",
+            "1885년 계기: **빅토르 위고**의 죽음 — 국가적 지식인을 이곳에 모셔야 한다는 생각"
+          ]
+        },
+        {
+          "memo": "보충: 정면 글귀 « Aux grands hommes la patrie reconnaissante » (위대한 인물들에게, 감사하는 조국이). rue Soufflot는 설계한 건축가 수플로의 이름."
+        }
+      ]
+    },
+    {
+      "h": "연습 — 오페라 → 생라자르 · Vous allez où ?",
+      "skill": "imperatif",
+      "src": [
+        "semaine 6-2 p.17–19",
+        "녹음 10/7"
+      ],
+      "body": [
+        {
+          "p": "**p.17** Vous êtes devant l'Opéra Garnier avec votre amie de Rouen. Elle doit prendre le train à la gare Saint-Lazare. Expliquez-lui comment aller à la gare."
+        },
+        {
+          "ex": [
+            [
+              "D'abord, prends la rue de la Chaussée-d'Antin et va tout droit. Ensuite, tourne à gauche dans la rue Saint-Lazare et continue tout droit. Après la rue du Havre, la gare Saint-Lazare est sur ta droite.",
+              "지도로 확인한 경로 예시 (다른 길도 정답 가능)"
+            ]
+          ]
+        },
+        {
+          "p": "**p.18–19 Vous allez où ?** (듣기, 교수님 풀이에서 재구성 — 불확실): 지도 1 → avenue des Écoles → en face de la poste → tournez à droite (rue Saint-Martin) → ④ la pharmacie / 지도 2 → 지하철역 → 은행 앞에서 오른쪽 → avenue de la République → C'est sur votre droite → ① la mairie(추정)."
+        },
+        {
+          "memo": "녹음(불확실): 시험에 나온다면 길 설명을 직접 쓰게 하기보다 지도에 화살표로 표시하는 식일 것 같다는 취지."
+        }
+      ]
+    },
+    {
+      "h": "발음",
+      "skill": "pron",
+      "src": [
+        "semaine 6-2",
+        "녹음 10/7"
+      ],
+      "body": [
+        {
+          "list": [
+            "patients [빠시앙] · patientes [빠시앙뜨] — ti가 [시]",
+            "Tais-toi [떼 뚜아] · Bats-toi [바 뚜아] · Écoutez-nous [에꾸떼 누]",
+            "le droit [르 드화] · la droite [라 드화뜨] — 여성형만 t 발음",
+            "le rond-point [르 홍뿌앙] · d'abord [다보흐]",
+            "Où se trouve [우 스 트후브] · Je vous‿en prie [쥬 부 장 프히]",
+            "le lycée [르 리쎄] — -ée지만 남성 명사"
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "u2-06-c-veuillez",
+      "t": "choice",
+      "skill": "imperatif",
+      "prompt": "정중하게 '들어오십시오'",
+      "q": "___ entrer.",
+      "a": "Veuillez",
+      "wrong": [
+        "Voulez",
+        "Veuille",
+        "Veuillons"
+      ],
+      "hint": "vouloir의 vous 명령문 + 동사원형 = 정중한 요청.",
+      "explain": "Veuillez + 동사원형 = ~해 주십시오.",
+      "src": "semaine 6-2 p.5",
+      "star": true
+    },
+    {
+      "id": "u2-06-c-veuillez-sens",
+      "t": "choice",
+      "skill": "imperatif",
+      "prompt": "« Veuillez + 동사원형 »의 쓰임은?",
+      "q": "Veuillez patienter quelques instants.",
+      "a": "정중한 요청 (~해 주십시오)",
+      "wrong": [
+        "강한 금지 (~하지 마)",
+        "제안 (~하자)",
+        "과거의 바람"
+      ],
+      "say": "",
+      "hint": "결제 화면·안내문에 자주 나오는 말투예요.",
+      "explain": "pour formuler une demande polie.",
+      "src": "semaine 6-2 p.5"
+    },
+    {
+      "id": "u2-06-c-rare",
+      "t": "choice",
+      "skill": "imperatif",
+      "prompt": "슬라이드에서 '드물다(rares)'고 한 형태는?",
+      "q": "vouloir의 명령문 중…",
+      "a": "veuille · veuillons",
+      "wrong": [
+        "veuillez",
+        "voulez · voulons",
+        "veux · voulons"
+      ],
+      "say": "",
+      "hint": "실제로 자주 쓰는 건 vous 형태 하나뿐이에요.",
+      "explain": "Veuille et veuillons sont rares. 교수님: 읽을 일도 말할 일도 거의 없다.",
+      "src": "semaine 6-2 p.5"
+    },
+    {
+      "id": "u2-06-c-patientes",
+      "t": "choice",
+      "skill": "imperatif",
+      "prompt": "(우리 모두 여자) 빈칸은?",
+      "q": "Soyons ___ !",
+      "ko": "(여자들끼리) 참을성을 갖자!",
+      "a": "patientes",
+      "wrong": [
+        "patients",
+        "patiente",
+        "patient"
+      ],
+      "hint": "숨은 주어 '우리'의 성과 수를 생각해요.",
+      "explain": "교수님: 여럿이라 s, 우리가 다 여자면 patientes.",
+      "src": "녹음 10/7",
+      "star": true
+    },
+    {
+      "id": "u2-06-c-patients",
+      "t": "choice",
+      "skill": "imperatif",
+      "prompt": "(남녀가 섞인 우리) 빈칸은?",
+      "q": "Soyons ___ !",
+      "ko": "참을성을 갖자!",
+      "a": "patients",
+      "wrong": [
+        "patientes",
+        "patient",
+        "patiente"
+      ],
+      "hint": "남자가 한 명이라도 있으면 어떤 형태?",
+      "explain": "남성 포함 복수 → patients (슬라이드 예문).",
+      "src": "semaine 6-2 p.5"
+    },
+    {
+      "id": "u2-06-c-neg-pron",
+      "t": "choice",
+      "skill": "imperatif",
+      "prompt": "부정 명령문의 빈칸은?",
+      "q": "Ne ___ donne pas ce livre !",
+      "ko": "나한테 그 책 주지 마!",
+      "a": "me",
+      "wrong": [
+        "moi",
+        "m'",
+        "-moi"
+      ],
+      "hint": "부정이면 대명사는 원래 자리, 원래 모양이에요.",
+      "explain": "ne + (대명사) + 동사 + pas. 긍정일 때만 Donne-moi.",
+      "src": "semaine 6-2 p.6"
+    },
+    {
+      "id": "u2-06-c-sois",
+      "t": "choice",
+      "skill": "imperatif",
+      "prompt": "팻말의 빈칸은?",
+      "q": "___ jeune et tais-toi !",
+      "ko": "젊으니 입 다물어라!",
+      "a": "Sois",
+      "wrong": [
+        "Es",
+        "Soit",
+        "Sais"
+      ],
+      "hint": "être의 tu 명령문은 불규칙이에요.",
+      "explain": "être → sois · soyons · soyez.",
+      "src": "semaine 6-2 p.7",
+      "star": true
+    },
+    {
+      "id": "u2-06-c-taire",
+      "t": "choice",
+      "skill": "imperatif",
+      "prompt": "tais-toi의 원형은?",
+      "q": "Tais-toi ! (입 다물어!)",
+      "a": "se taire",
+      "wrong": [
+        "se taiser",
+        "se tenir",
+        "se tirer"
+      ],
+      "say": "",
+      "hint": "대명동사예요. '입을 다물다'.",
+      "explain": "se taire → tu te tais → Tais-toi !",
+      "src": "녹음 10/7"
+    },
+    {
+      "id": "u2-06-c-battre",
+      "t": "choice",
+      "skill": "imperatif",
+      "prompt": "bats-toi의 원형과 뜻은?",
+      "q": "Bats-toi !",
+      "a": "se battre — 싸우다",
+      "wrong": [
+        "se battre — 자기를 때리다",
+        "battre — 이기다",
+        "se bâtir — 짓다"
+      ],
+      "say": "",
+      "hint": "교수님: '자기 자신을 때리는 게 아니라…'",
+      "explain": "se battre = 싸우다. 팻말: Sois jeune et tais-toi → Bats-toi !",
+      "src": "녹음 10/7",
+      "star": true
+    },
+    {
+      "id": "u2-06-c-ecoutez-nous",
+      "t": "choice",
+      "skill": "imperatif",
+      "prompt": "팻말의 빈칸은?",
+      "q": "C'est nous l'avenir. ___ !",
+      "ko": "미래는 우리다. 우리 말을 들어라!",
+      "a": "Écoutez-nous",
+      "wrong": [
+        "Nous écoutez",
+        "Écoutez-vous",
+        "Écoute-nous-vous"
+      ],
+      "hint": "긍정 명령문이면 대명사는 동사 뒤로.",
+      "explain": "vous 명령문 + COD nous가 하이픈으로 뒤에.",
+      "src": "semaine 6-2 p.7"
+    },
+    {
+      "id": "u2-06-w-lycee",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "le lycée",
+      "ko": "고등학교",
+      "g": "m",
+      "pron": "[르 리쎄]",
+      "note": "-ée로 끝나지만 남성",
+      "src": "semaine 6-2 p.7",
+      "star": true
+    },
+    {
+      "id": "u2-06-w-lyceen",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "le lycéen / la lycéenne",
+      "ko": "고등학생",
+      "say": "lycéen, lycéenne",
+      "src": "semaine 6-2 p.7"
+    },
+    {
+      "id": "u2-06-w-blocus",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "le blocus",
+      "ko": "봉쇄",
+      "g": "m",
+      "src": "semaine 6-2 p.7"
+    },
+    {
+      "id": "u2-06-w-se-taire",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "se taire",
+      "ko": "입을 다물다",
+      "src": "semaine 6-2 p.7"
+    },
+    {
+      "id": "u2-06-w-se-battre",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "se battre",
+      "ko": "싸우다",
+      "src": "semaine 6-2 p.7"
+    },
+    {
+      "id": "u2-06-w-avenir",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "l'avenir",
+      "ko": "미래",
+      "g": "m",
+      "src": "semaine 6-2 p.7"
+    },
+    {
+      "id": "u2-06-c-premiere",
+      "t": "choice",
+      "skill": "imperatif",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Prenez la ___ rue à droite.",
+      "ko": "오른쪽 첫 번째 길로 들어가세요.",
+      "a": "première",
+      "wrong": [
+        "premier",
+        "une",
+        "primière"
+      ],
+      "hint": "rue는 여성 명사예요.",
+      "explain": "la première rue (여성).",
+      "src": "semaine 6-2 p.10"
+    },
+    {
+      "id": "u2-06-c-traverser",
+      "t": "choice",
+      "skill": "imperatif",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "___ la rue !",
+      "ko": "길을 건너세요!",
+      "a": "Traversez",
+      "wrong": [
+        "Tournez",
+        "Continuez",
+        "Prenez"
+      ],
+      "hint": "'건너다'는 영어 traverse와 닮았어요.",
+      "explain": "traverser la rue = 길을 건너다.",
+      "src": "semaine 6-2 p.10"
+    },
+    {
+      "id": "u2-06-c-tout-droit",
+      "t": "choice",
+      "skill": "vocab",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Elle va tout ___.",
+      "ko": "그녀는 곧장 간다.",
+      "a": "droit",
+      "wrong": [
+        "droite",
+        "droits",
+        "à droite"
+      ],
+      "hint": "여기선 부사예요. 부사는 성수일치를 할까요?",
+      "explain": "tout droit는 부사라 주어가 여성이어도 불변.",
+      "src": "semaine 6-2 p.11",
+      "star": true
+    },
+    {
+      "id": "u2-06-c-droit-n",
+      "t": "choice",
+      "skill": "vocab",
+      "prompt": "« Nous avons le droit de parler. »의 droit는?",
+      "q": "le droit de + 동사원형",
+      "a": "권리 (명사)",
+      "wrong": [
+        "오른쪽 (형용사)",
+        "곧장 (부사)",
+        "곧은 (형용사)"
+      ],
+      "say": "",
+      "hint": "관사 le가 붙어 있어요.",
+      "explain": "le droit de ~ = ~할 권리.",
+      "src": "semaine 6-2 p.11"
+    },
+    {
+      "id": "u2-06-c-ligne-droite",
+      "t": "choice",
+      "skill": "vocab",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "une ligne ___",
+      "ko": "직선",
+      "a": "droite",
+      "wrong": [
+        "droit",
+        "droits",
+        "à droite"
+      ],
+      "hint": "ligne은 여성 명사예요.",
+      "explain": "형용사 droit → 여성 droite.",
+      "src": "semaine 6-2 p.11"
+    },
+    {
+      "id": "u2-06-c-main-droite",
+      "t": "choice",
+      "skill": "vocab",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "la main ___",
+      "ko": "오른손",
+      "a": "droite",
+      "wrong": [
+        "droit",
+        "à droite",
+        "gauche"
+      ],
+      "hint": "main은 여성 명사예요.",
+      "explain": "le bras droit / la main droite.",
+      "src": "semaine 6-2 p.11"
+    },
+    {
+      "id": "u2-06-c-tenez",
+      "t": "choice",
+      "skill": "vocab",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "___ la droite !",
+      "ko": "오른쪽을 유지하세요!",
+      "a": "Tenez",
+      "wrong": [
+        "Tournez",
+        "Traversez",
+        "Allez"
+      ],
+      "hint": "tenir(붙잡다, 유지하다)의 vous 명령문.",
+      "explain": "Tenez la droite = 오른쪽(차선)을 유지하세요.",
+      "src": "semaine 6-2 p.11"
+    },
+    {
+      "id": "u2-06-c-sur-votre-droite",
+      "t": "choice",
+      "skill": "vocab",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "C'est ___ votre droite.",
+      "ko": "당신 오른편에 있어요.",
+      "a": "sur",
+      "wrong": [
+        "de",
+        "en",
+        "par"
+      ],
+      "hint": "'~편 위에'라는 느낌의 전치사예요.",
+      "explain": "C'est sur votre droite (명사 la droite 앞).",
+      "src": "semaine 6-2 p.11"
+    },
+    {
+      "id": "u2-06-c-a-droite-de",
+      "t": "choice",
+      "skill": "vocab",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "C'est à droite ___ la poste.",
+      "ko": "우체국 오른쪽에 있어요.",
+      "a": "de",
+      "wrong": [
+        "à",
+        "sur",
+        "du"
+      ],
+      "hint": "기준이 되는 명사 앞에 붙는 전치사예요.",
+      "explain": "à droite de + 명사. la poste라 축약 없음.",
+      "src": "semaine 6-2 p.11"
+    },
+    {
+      "id": "u2-06-c-tournez-a",
+      "t": "choice",
+      "skill": "vocab",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Tournez ___ droite.",
+      "ko": "오른쪽으로 도세요.",
+      "a": "à",
+      "wrong": [
+        "la",
+        "sur",
+        "de"
+      ],
+      "hint": "방향으로 '오른쪽으로'.",
+      "explain": "tourner à droite. (Tenez la droite와 구별)",
+      "src": "semaine 6-2 p.11"
+    },
+    {
+      "id": "u2-06-w-rond-point",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "le rond-point",
+      "ko": "원형 교차로",
+      "g": "m",
+      "pron": "[르 홍뿌앙]",
+      "src": "녹음 10/7"
+    },
+    {
+      "id": "u2-06-w-d-abord",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "d'abord",
+      "ko": "먼저",
+      "pron": "[다보흐]",
+      "note": "교수님: 일상에서 아주 중요",
+      "src": "녹음 10/7",
+      "star": true
+    },
+    {
+      "id": "u2-06-c-order",
+      "t": "choice",
+      "skill": "vocab",
+      "prompt": "길 안내 순서 표현을 순서대로 놓은 것은?",
+      "q": "먼저 → 그다음 → 그러고 나서",
+      "a": "D'abord → Puis → Ensuite",
+      "wrong": [
+        "Ensuite → D'abord → Puis",
+        "Puis → Ensuite → D'abord",
+        "Enfin → D'abord → Puis"
+      ],
+      "say": "",
+      "hint": "'먼저'는 교수님이 일상에서 아주 중요하다고 한 단어예요.",
+      "explain": "D'abord(먼저) → Puis(그다음) → Ensuite(그러고 나서).",
+      "src": "녹음 10/7"
+    },
+    {
+      "id": "u2-06-c-se-trouve",
+      "t": "choice",
+      "skill": "vocab",
+      "prompt": "고급스럽게 물어보기",
+      "q": "Où ___ le Panthéon ?",
+      "ko": "판테옹이 어디 있어요?",
+      "a": "se trouve",
+      "wrong": [
+        "se trouvent",
+        "trouve",
+        "est trouvé"
+      ],
+      "hint": "텍스트 마지막 줄의 동사를 떠올려요. 주어는 하나.",
+      "explain": "교수님: est 대신 se trouve — 아는 것 안에서 고급스럽게.",
+      "src": "녹음 10/7",
+      "star": true
+    },
+    {
+      "id": "u2-06-c-toilettes",
+      "t": "choice",
+      "skill": "vocab",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Où se ___ les toilettes ?",
+      "ko": "화장실이 어디예요?",
+      "a": "trouvent",
+      "wrong": [
+        "trouve",
+        "trouvez",
+        "trouvons"
+      ],
+      "hint": "les toilettes는 복수예요.",
+      "explain": "복수 주어 → se trouvent.",
+      "src": "녹음 10/7"
+    },
+    {
+      "id": "u2-06-c-je-vous-en-prie",
+      "t": "choice",
+      "skill": "greet",
+      "prompt": "처음 본 사람이 길을 알려 줘서 고맙다고 해요. 더 정중한 대답은?",
+      "q": "— Merci beaucoup, monsieur.",
+      "a": "Je vous en prie.",
+      "wrong": [
+        "De rien.",
+        "Pas de souci.",
+        "Ça va."
+      ],
+      "say": "",
+      "hint": "교수님: 처음 본 사람에겐 '천만에요'의 더 정중한 버전을.",
+      "explain": "De rien도 틀린 건 아니지만 처음 본 사람에겐 Je vous en prie가 더 맞다.",
+      "src": "녹음 10/7",
+      "star": true
+    },
+    {
+      "id": "u2-06-c-madame",
+      "t": "choice",
+      "skill": "greet",
+      "prompt": "모르는 여성에게 요즘 자연스러운 호칭은?",
+      "q": "De rien, ___.",
+      "a": "madame",
+      "wrong": [
+        "mademoiselle",
+        "ma fille",
+        "toi"
+      ],
+      "hint": "교수님: 슬라이드의 괄호 속 호칭은 요즘 잘 안 써요.",
+      "explain": "mademoiselle은 요즘 쓰지 않음 → madame.",
+      "src": "녹음 10/7"
+    },
+    {
+      "id": "u2-06-c-prends",
+      "t": "choice",
+      "skill": "imperatif",
+      "prompt": "친구에게 길을 설명할 때 빈칸은?",
+      "q": "D'abord, ___ la deuxième rue à droite.",
+      "ko": "먼저 오른쪽 두 번째 길로 들어가.",
+      "a": "prends",
+      "wrong": [
+        "prenez",
+        "prendre",
+        "prends-tu"
+      ],
+      "hint": "교수님: 친구니까 tu 명령문!",
+      "explain": "votre amie에게 설명 → tu 명령문 prends.",
+      "src": "녹음 10/7",
+      "star": true
+    },
+    {
+      "id": "u2-06-c-tourne",
+      "t": "choice",
+      "skill": "imperatif",
+      "prompt": "(친구에게) 빈칸은?",
+      "q": "Puis ___ à droite.",
+      "ko": "그다음 오른쪽으로 돌아.",
+      "a": "tourne",
+      "wrong": [
+        "tournes",
+        "tournez",
+        "tourner"
+      ],
+      "hint": "-er 동사의 tu 명령문은 철자가 하나 빠져요.",
+      "explain": "tu tournes → Tourne ! (-s 없음)",
+      "src": "녹음 10/7",
+      "star": true
+    },
+    {
+      "id": "u2-06-b-expliquez",
+      "t": "build",
+      "skill": "imperatif",
+      "prompt": "문장을 만드세요 (문제 지시문)",
+      "ko": "그녀에게 역에 어떻게 가는지 설명해 주세요.",
+      "a": "Expliquez-lui comment aller à la gare.",
+      "extra": [
+        "leur",
+        "Explique"
+      ],
+      "hint": "'그녀에게'는 COI, 긍정 명령문이라 동사 뒤에.",
+      "explain": "Expliquez-lui — COI lui가 하이픈으로 뒤에.",
+      "src": "semaine 6-2 p.17"
+    },
+    {
+      "id": "u2-06-c-facilement",
+      "t": "choice",
+      "skill": "vocab",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Vous pouvez le trouver plus ___.",
+      "ko": "더 쉽게 찾을 수 있어요.",
+      "a": "facilement",
+      "wrong": [
+        "facile",
+        "facilité",
+        "faciles"
+      ],
+      "hint": "동사를 꾸미니 부사(-ment)가 필요해요.",
+      "explain": "facile → facilement (easily).",
+      "src": "녹음 10/7"
+    },
+    {
+      "id": "u2-06-c-en-face",
+      "t": "choice",
+      "skill": "localisation",
+      "prompt": "빈칸에 알맞은 것은? (듣기 문제)",
+      "q": "Vous arrivez ___ la poste.",
+      "ko": "우체국 맞은편에 도착해요.",
+      "a": "en face de",
+      "wrong": [
+        "en face",
+        "devant de",
+        "à côté"
+      ],
+      "hint": "'맞은편'에는 전치사가 하나 더 붙어요.",
+      "explain": "en face de + 명사. 교수님: '마주하고 있다는 거죠.'",
+      "src": "녹음 10/7"
+    },
+    {
+      "id": "u2-06-c-pantheon-origin",
+      "t": "choice",
+      "skill": "vocab",
+      "prompt": "판테옹은 원래 무엇으로 지어졌나요? (수업 설명)",
+      "q": "Le Panthéon",
+      "a": "생트 주느비에브를 기리는 성당",
+      "wrong": [
+        "왕의 궁전",
+        "국립 도서관",
+        "로마에서 옮겨 온 신전"
+      ],
+      "say": "",
+      "hint": "파리의 수호 성인을 기리는 종교 건물이었어요.",
+      "explain": "성당으로 지었지만 대혁명 직후 위인을 모시는 판테옹이 됨.",
+      "src": "녹음 10/7"
+    },
+    {
+      "id": "u2-06-c-pantheon-1885",
+      "t": "choice",
+      "skill": "vocab",
+      "prompt": "1885년 판테옹이 다시 위인의 묘가 된 계기는? (수업 설명)",
+      "q": "1885 →",
+      "a": "빅토르 위고의 죽음",
+      "wrong": [
+        "나폴레옹의 대관식",
+        "프랑스 대혁명",
+        "에펠탑 완공"
+      ],
+      "say": "",
+      "hint": "『레 미제라블』의 작가예요.",
+      "explain": "국가적 지식인 빅토르 위고가 세상을 떠나자 이곳에 모심.",
+      "src": "녹음 10/7"
+    },
+    {
+      "id": "u2-06-c-patients-pron",
+      "t": "choice",
+      "skill": "pron",
+      "prompt": "patients의 발음은?",
+      "q": "Soyons patients !",
+      "a": "[빠시앙] — ti가 [시]",
+      "wrong": [
+        "[빠띠앙]",
+        "[빠띠엔뜨]",
+        "[빠시엔스]"
+      ],
+      "say": "patients",
+      "hint": "-tient의 t는 [t]로 소리 나지 않아요.",
+      "explain": "patient [빠시앙], patiente [빠시앙뜨].",
+      "src": "semaine 6-2 p.5"
+    },
+    {
+      "id": "u2-06-l-droite",
+      "t": "listen",
+      "skill": "pron",
+      "say": "la droite",
+      "a": "la droite",
+      "wrong": [
+        "le droit",
+        "l'endroit"
+      ],
+      "ko": "오른쪽",
+      "pron": "[라 드화뜨]",
+      "hint": "끝에 [뜨] 소리가 들리나요?",
+      "explain": "여성 droite만 t 발음. droit [드화]는 묵음.",
+      "src": "semaine 6-2 p.11"
+    }
+  ]
+}

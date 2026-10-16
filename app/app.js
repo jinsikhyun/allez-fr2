@@ -57,6 +57,8 @@
     ledgers: {}, // 다른 기기들의 장부 (동기화로 받아옴)
     vb: { ed: {}, del: {}, kn: {} }, // 동사장에서 바꾼 것 (추가·수정·삭제·외웠어요)
     fold: {}, // 홈에서 접어 둔 유닛 { 유닛id: true/false } (없으면 마지막 유닛만 펼침)
+    wk: {}, // 약점 노트 { 카드id: { at, cat, n, part, tag, q, heard, given, ans } | { at, done: true } }
+    exams: [], // 실전 연습 기록 [{ at, units, n, ok, parts }]
     srs: 2, // 카드 상태 형식 버전 (2 = 졸업 시스템)
   });
   let S = load();
@@ -66,7 +68,7 @@
       if (raw) {
         const s = JSON.parse(raw);
         const f = fresh();
-        const out = { ...f, ...s, settings: { ...f.settings, ...s.settings }, streak: { ...f.streak, ...s.streak }, stats: { ...f.stats, ...s.stats }, sk: s.sk || {}, kd: s.kd || {}, sens: s.sens || {}, ledgers: s.ledgers || {}, fold: s.fold || {}, vb: s.vb || { ed: {}, del: {}, kn: {} } };
+        const out = { ...f, ...s, settings: { ...f.settings, ...s.settings }, streak: { ...f.streak, ...s.streak }, stats: { ...f.stats, ...s.stats }, sk: s.sk || {}, kd: s.kd || {}, sens: s.sens || {}, ledgers: s.ledgers || {}, fold: s.fold || {}, wk: s.wk || {}, exams: s.exams || [], vb: s.vb || { ed: {}, del: {}, kn: {} } };
         if ((s.srs || 1) < 2) migrateToGraduation(out);
         return out;
       }
@@ -147,7 +149,8 @@
     if (ok && !hinted) c.b = Math.min(5, c.b + 1);
     else if (!ok) c.b = c.b >= 3 ? 1 : 0;
     if (!ok) { c.st = 0; c.g = null; c.due = t; return; }
-    if (retry) return; // 같은 판 재도전은 연속 정답에 안 넣음
+    if (retry) return;
+    if (!hinted && S.wk && S.wk[id] && !S.wk[id].done) S.wk[id] = { at: Date.now(), done: true }; // 약점 노트에서 졸업 // 같은 판 재도전은 연속 정답에 안 넣음
     if (hinted) { c.hn = (c.hn || 0) + 1; c.due = addDays(t, 1); return; }
     if (c.sd !== t) { c.st = (c.st || 0) + 1; c.sd = t; }
     const card = cardById.get(id);
@@ -795,6 +798,7 @@
     return shuffle(qs).slice(0, SESSION);
   }
   function buildSession(mode, lessonId) {
+    if (mode === 'weaknote') return buildWeakNoteSession();
     if (mode === 'weak') {
       const ids = lessonId ? [lessonId] : weakSkills().slice(0, 2).map((r) => r.id);
       return ids.length ? buildWeakSession(ids) : [];
@@ -888,7 +892,7 @@
   function startSession(mode, lessonId) {
     closeSheet();
     const qs = buildSession(mode, lessonId);
-    if (!qs.length) { toast(mode === 'mistakes' ? '오답이 없어요! 👏' : mode === 'weak' ? '아직 약점 데이터가 부족해요. 몇 판 더 풀어봐요!' : '풀 수 있는 문제가 없어요'); return; }
+    if (!qs.length) { toast(mode === 'weaknote' ? '약점 노트가 비어 있어요! 👏' : mode === 'mistakes' ? '오답이 없어요! 👏' : mode === 'weak' ? '아직 약점 데이터가 부족해요. 몇 판 더 풀어봐요!' : '풀 수 있는 문제가 없어요'); return; }
     if (lessonId && mode === 'lesson') markSeen(lessonId);
     P = { mode, lessonId, queue: qs, i: 0, phase: 'answer', combo: 0, bestCombo: 0, xp: 0, ok: 0, answered: 0, mistakes: 0, retried: new Set(), start: Date.now(), finished: false, hintsUsed: 0 };
     SFX.get();
@@ -896,7 +900,7 @@
     else openView('player', renderPlayer);
   }
   function quitSession() {
-    if (P && P.answered > 0 && !confirm('그만할까요? 푼 문제는 기록돼요.')) return;
+    if (P && P.answered > 0 && !confirm(P.mode === 'exam' && P.ex.grading === 'end' ? '그만할까요? 이 시험은 채점되지 않아요.' : '그만할까요? 푼 문제는 기록돼요.')) return;
     save();
     P = null;
     TTS.ok && speechSynthesis.cancel();
@@ -905,6 +909,8 @@
 
   function renderPlayer() {
     const q = P.queue[P.i];
+    if (P.mode === 'exam' && q.partI === 0 && !P.ex.shown[q.part]) return renderPartIntro(q);
+    const exTag = P.mode === 'exam' ? `${(EXAM_PARTS.find((p) => p.id === q.part) || {}).ko || ''} ${q.partI + 1}/${q.partN} · ` : '';
     P.phase = 'answer';
     P.sel = null;
     const pct = (P.i / P.queue.length) * 100;
@@ -916,7 +922,7 @@
           <div class="combo" id="combo">${P.combo >= 3 ? `🔥 ${P.combo}` : ''}</div>
         </div>
         <div class="p-body">
-          <div class="q-tag">${esc(q.tag)}${q.star ? ' <span class="star">★ 교수님 강조</span>' : ''}</div>
+          <div class="q-tag">${esc(exTag + (q.tag || ''))}${q.star ? ' <span class="star">★ 교수님 강조</span>' : ''}</div>
           <h2 class="q-prompt">${esc(q.prompt)}</h2>
           ${q.listen ? `<div class="big-play">${speakBtn(q.listen)}${speakBtn(q.listen, 'slow').replace('🔊', '🐢')}</div>` : ''}
           ${q.main ? `<div class="q-main"><div class="txt ${q.mainFr ? 'fr' : ''}">${mainHtml(q.main)}</div>${q.speakMain ? speakBtn(q.speakMain) : ''}</div>` : ''}
@@ -943,7 +949,8 @@
     P.hintStep = 0;
     P.hinted = false;
     const hb = $('#hint');
-    if (!P.hintSteps.length) hb.classList.add('hidden');
+    if (!P.hintSteps.length || P.mode === 'exam') hb.classList.add('hidden');
+    if (P.mode === 'exam' && P.ex.grading === 'end') check.textContent = P.i === P.queue.length - 1 ? '제출하고 채점 ✓' : '다음 ›';
     hb.onclick = useHint;
     if (q.listen) setTimeout(() => TTS.speak(q.listen), 250);
   }
@@ -1173,10 +1180,11 @@
       const s = norm(P.sel.map((i) => q.blocks[i]).join(' '));
       ok = q.accept.some((a) => norm(a) === s);
     } else if (q.kind === 'type') {
-      const n = norm(P.sel);
-      ok = q.accept.some((a) => norm(a) === n);
+      const lz = (s) => norm(q.loose ? String(s ?? '').replace(/[,;:!?.«»"()]/g, ' ') : s); // 받아쓰기·작문: 문장부호 무시
+      const n = lz(P.sel);
+      ok = q.accept.some((a) => lz(a) === n);
       if (!ok && q.elisionTrap && n === norm(q.elisionTrap)) hint = "élision! 모음 앞에선 je → j'";
-      else if (!ok && q.accept.some((a) => deaccent(norm(a)) === deaccent(n))) hint = '악센트만 달라요! 철자까지 정확하게 ✍️';
+      else if (!ok && q.accept.some((a) => deaccent(lz(a)) === deaccent(n))) hint = '악센트만 달라요! 철자까지 정확하게 ✍️';
     }
     return { ok: !!ok, hint };
   }
@@ -1184,6 +1192,8 @@
   function submit() {
     const q = P.queue[P.i];
     const { ok, hint } = evaluate(q);
+    if (P.mode === 'exam') P.ex.log[P.i] = { q, ok, hint, given: givenText(q) };
+    if (P.mode === 'exam' && P.ex.grading === 'end') { P.answered++; SFX.tap(); next(); return; }
     P.phase = 'feedback';
     P.answered++;
     S.stats.answers++;
@@ -1202,6 +1212,7 @@
   function overrideAnswer(q, undo, hinted) {
     if (!P || P.phase !== 'feedback' || P.queue[P.i] !== q) return;
     restoreAnswer(q, undo);
+    if (P.mode === 'exam' && P.ex.log[P.i]) P.ex.log[P.i].ok = true;
     const gained = commitAnswer(q, true, hinted);
     if (q.vid && P.vlog) P.vlog[P.i] = { vid: q.vid, ok: true };
     save();
@@ -1249,7 +1260,7 @@
       P.combo = 0;
       if (q.kind !== 'match') P.mistakes++;
       const key = q.gen ? `gen:${q.skill}` : q.ids.join(',');
-      if (!P.retried.has(key)) {
+      if (P.mode !== 'exam' && !P.retried.has(key)) {
         P.retried.add(key);
         const cards = q.ids.map((id) => allCards.find((c) => c.id === id)).filter(Boolean);
         const retry = q.gen && !cards.length ? genFor(q.skill) : cards.length > 1 ? makeWordMatch(cards) : cards.length ? makeQuestion(cards[0]) : null;
@@ -1353,6 +1364,7 @@
 
   function finish() {
     P.finished = true;
+    if (P.mode === 'exam') examCommit();
     const perfect = P.mistakes === 0;
     if (perfect) P.xp += 20;
     const t = today();
@@ -1374,7 +1386,7 @@
     save();
     syncNow();
     const levelAfter = levelOf(S.xp);
-    renderResult({ perfect, streakUp, levelUp: levelAfter > levelBefore, levelAfter, day: d });
+    (P.mode === 'exam' ? renderExamResult : renderResult)({ perfect, streakUp, levelUp: levelAfter > levelBefore, levelAfter, day: d });
   }
 
   function renderResult({ perfect, streakUp, levelUp, levelAfter, day }) {
@@ -1956,6 +1968,368 @@
     draw();
   }
 
+  // ================================================================ 📝 실전 연습 — 유닛(Leçon) 범위 · 시험형
+  // 파트 순서대로 듣기 30% → 쓰기 30% → 객관식 40% (소리 꺼짐이면 듣기 빼고 쓰기 43 · 객관식 57).
+  // 레슨을 돌아가며 1장씩 뽑아 범위 전체에 고르게, 같은 레슨에선 이미 나온 노트 주제(ns)는 피한다. 힌트·재도전 없음.
+  const EXAM_PARTS = [
+    { id: 'listen', fr: 'Compréhension orale', ko: '🎧 듣기', desc: '듣고 고르거나 받아쓰기 · 🔊 🐢로 다시 들을 수 있어요' },
+    { id: 'write', fr: 'Expression écrite', ko: '✍️ 쓰기', desc: '보기 없이 직접 써요 · 악센트까지 정확하게' },
+    { id: 'mc', fr: 'Questions à choix multiples', ko: '☑️ 객관식', desc: '알맞은 것을 고르세요' },
+  ];
+  const EX = (() => {
+    const d = { units: null, n: 20, grading: 'end' };
+    try { return { ...d, ...JSON.parse(localStorage.getItem('allez.exam') || '{}') }; } catch (e) { return d; }
+  })();
+  const exSave = () => { try { localStorage.setItem('allez.exam', JSON.stringify(EX)); } catch (e) { /* 무시 */ } };
+  const isFrText = (s) => !!s && !hasHangul(s);
+  const wordCount = (s) => blocksOf(String(s || '')).length;
+  const shortFr = (s, max = 9) => isFrText(s) && wordCount(s) >= 2 && wordCount(s) <= max && !/[/()…→]|_{3}/.test(s);
+  const unitShort = (u) => u.title.split(' · ')[0];
+  const unitNames = (ids) => ids.map((id) => C.units.find((u) => u.id === id)).filter(Boolean).map(unitShort).join(' + ');
+  // 카드 속 완성된 프랑스어 문장과 뜻 [fr, ko] (받아쓰기·듣고 뜻 고르기용)
+  function cardSentence(c) {
+    if (c.t === 'choice' && isFrText(c.q) && isFrText(c.a) && c.say !== '') {
+      const fr = c.say || (BLANK.test(c.q) ? fill(c.q, c.a) : null);
+      if (fr) return [fr, c.ko];
+    }
+    if (c.t === 'build' && isFrText(c.a)) return [c.a, c.ko];
+    if (c.t === 'type' && isFrText(c.a) && wordCount(c.a) >= 2) return [c.a, c.ko];
+    if (c.t === 'error') { const i = c.s.indexOf(c.wrong); return [c.s.slice(0, i) + c.right + c.s.slice(i + c.wrong.length), c.ko]; }
+    if (c.t === 'pp' && c.ex) return [c.ex.fr, c.ex.ko];
+    return null;
+  }
+  const plainWord = (c) => c.t === 'word' && !/[/()]/.test(c.fr);
+  const blankChoice = (c, maxA = 3) => c.t === 'choice' && isFrText(c.q) && BLANK.test(c.q) && isFrText(c.a) && wordCount(c.a) <= maxA && !/^-|-$/.test(c.a);
+  // 파트별 문제 만들기: [가중치, 만드는 함수] 목록 (빈 목록 = 이 파트엔 못 냄)
+  const EX_GEN = {
+    listen(c) {
+      const g = [];
+      if (c.t === 'listen') g.push([2, () => ({ ...qListen(c), tag: '소리 구별' })]);
+      if (plainWord(c)) {
+        const say = c.say || c.fr;
+        g.push([2, () => ({ kind: 'type', tag: '받아쓰기 · 단어', prompt: '듣고 그대로 쓰세요', listen: say, accept: [c.fr], reveal: `${c.fr} = ${c.ko}`, say, explain: c.note || '' })]);
+        g.push([2, () => ({ kind: 'mc', tag: '듣고 뜻 고르기', prompt: '듣고 뜻을 고르세요', listen: say, options: options(c.ko, tiers(c, 'word', (x) => x.ko)), answer: c.ko, reveal: `${c.fr} = ${c.ko}`, say })]);
+      }
+      if (blankChoice(c)) {
+        const full = c.say || fill(c.q, c.a);
+        if (shortFr(full, 12)) g.push([3, () => ({ kind: 'type', tag: '듣고 빈칸 쓰기', prompt: '문장을 듣고 빈칸을 쓰세요', listen: full, main: c.q, mainFr: true, accept: [c.a, full], reveal: full, say: full, explain: c.explain })]);
+      }
+      const sen = cardSentence(c);
+      if (sen && shortFr(sen[0])) {
+        g.push([3, () => ({ kind: 'type', tag: '받아쓰기 · 문장', prompt: '듣고 문장을 그대로 쓰세요', listen: sen[0], accept: [sen[0]], loose: true, reveal: sen[1] ? `${sen[0]}\n= ${sen[1]}` : sen[0], say: sen[0], explain: c.explain })]);
+        if (sen[1]) g.push([2, () => {
+          const kos = (cs) => cs.filter((x) => x !== c).map(cardSentence).filter((s) => s && s[1] && s[1] !== sen[1]).map((s) => s[1]);
+          return { kind: 'mc', tag: '듣고 뜻 고르기', prompt: '듣고 알맞은 뜻을 고르세요', listen: sen[0], options: options(sen[1], [kos(lessonOf(c).cards), kos(unitOf(c).lessons.flatMap((l) => l.cards))]), answer: sen[1], reveal: `${sen[0]}\n= ${sen[1]}`, say: sen[0] };
+        }]);
+      }
+      return g;
+    },
+    write(c) {
+      const g = [];
+      if (blankChoice(c) && (c.ko || /\(.+\)/.test(c.q))) { // 보기 없이 풀려면 뜻이나 (원형) 단서가 있어야
+        const full = fill(c.q, c.a);
+        g.push([3, () => ({ kind: 'type', tag: '빈칸 쓰기', prompt: c.prompt && !/고르|것은|맞는/.test(c.prompt) ? c.prompt : '빈칸에 알맞은 말을 쓰세요', main: c.q, mainFr: true, sub: c.ko, accept: [c.a, full], reveal: full, say: c.say || full, explain: c.explain, pron: c.pron })]);
+      }
+      if (c.t === 'verb') g.push([2, () => qVerb(c, 2, 'conj-type')]);
+      if (c.t === 'pp') g.push([2, () => qPP(c, 2, c.ex ? 'ex-type' : 'pp-type')]);
+      if (c.t === 'type') g.push([3, () => ({ ...qType(c), tag: '쓰기' })]);
+      if (c.t === 'build' && wordCount(c.a) <= 10) {
+        g.push([3, () => ({ kind: 'type', tag: c.from ? '바꿔 쓰기' : '작문', prompt: c.from ? (c.prompt || '바꿔 쓰세요') : '프랑스어로 쓰세요', main: c.from || c.ko, mainFr: !!c.from, sub: c.from ? c.ko : null, accept: [c.a, ...(c.alts || [])], loose: true, reveal: c.a, say: c.a, explain: c.explain })]);
+      }
+      if (c.t === 'error') {
+        const fixed = cardSentence(c)[0];
+        g.push([2, () => ({ kind: 'type', tag: '고쳐 쓰기', prompt: '틀린 부분을 찾아 바르게 고쳐 쓰세요 (고친 말만 써도 돼요)', main: c.s, mainFr: true, sub: c.ko, accept: [c.right, fixed], loose: true, reveal: `${c.wrong} → ${c.right}\n${fixed}`, say: fixed, explain: c.explain, fixWord: c.right })]);
+      }
+      if (plainWord(c)) g.push([1, () => ({ kind: 'type', tag: '단어 쓰기', prompt: c.g ? '프랑스어로 쓰세요 (관사까지)' : '프랑스어로 쓰세요', main: c.ko, accept: [c.fr], reveal: c.fr, say: c.say || c.fr, explain: c.note || '' })]);
+      return g;
+    },
+    mc(c) {
+      const g = [];
+      if (c.t === 'choice') g.push([4, () => qChoice(c)]);
+      if (c.t === 'error') g.push([2, () => qError(c, 1)]);
+      if (c.t === 'word') g.push([2, () => qWord(c, 0)]);
+      if (c.t === 'verb') g.push([2, () => qVerb(c, 0, pick(['conj-mc', 'inf-mc']))]);
+      if (c.t === 'pp') g.push([2, () => qPP(c, 0, pick(['pp-mc', 'aux']))]);
+      return g;
+    },
+  };
+  function examQuestion(c, part) {
+    const gens = EX_GEN[part](c);
+    for (let tries = 0; gens.length && tries < 4; tries++) {
+      let r = Math.random() * gens.reduce((a, x) => a + x[0], 0);
+      const g = gens.find((x) => (r -= x[0]) < 0) || gens[0];
+      let q = null;
+      try { q = g[1](); } catch (e) { q = null; }
+      if (!q || q.kind === 'match' || (q.kind === 'mc' && !q.fixed && (!q.options || q.options.length < 3))) continue;
+      q.ids = q.ids && q.ids.length ? q.ids : [c.id];
+      q.skill = c.skill;
+      q.lessonId = lessonOf(c).id;
+      q.star = c.star;
+      q.part = part;
+      if (q.pron === undefined) q.pron = c.pron;
+      return q;
+    }
+    return null;
+  }
+  function examCounts(n) {
+    if (!(S.settings.sound && TTS.ok)) { const w = Math.round(n * 0.43); return { listen: 0, write: w, mc: n - w }; }
+    const l = Math.round(n * 0.3), w = Math.round(n * 0.3);
+    return { listen: l, write: w, mc: n - l - w };
+  }
+  function buildExam(cfg) {
+    const lessons = C.units.filter((u) => cfg.units.includes(u.id)).flatMap((u) => u.lessons);
+    const counts = examCounts(cfg.n);
+    const used = new Set();
+    const usedNs = {};
+    const out = [];
+    for (const part of EXAM_PARTS) {
+      const want = counts[part.id];
+      let order = shuffle(lessons.map((l) => ({ l, cards: l.cards.filter((c) => usable(c) && EX_GEN[part.id](c).length) })).filter((x) => x.cards.length));
+      const qs = [];
+      while (qs.length < want && order.length) {
+        for (const x of order) {
+          if (qs.length >= want) break;
+          const cand = x.cards.filter((c) => !used.has(c.id));
+          if (!cand.length) continue;
+          const nsUsed = usedNs[x.l.id] || (usedNs[x.l.id] = new Set());
+          // 틀린 적 있는 카드·새 카드·교수님 강조를 조금 우선, 같은 레슨에서 이미 나온 주제는 피하기
+          const score = (c) => {
+            const st = S.cards[c.id];
+            return (st && st.w > 0 && !st.g ? 2.5 : 0) + (!st ? 1 : 0) + (c.star ? 0.6 : 0) - (c.ns && nsUsed.has(c.ns[0]) ? 2 : 0) + Math.random() * 1.6;
+          };
+          const c = cand.map((k) => [k, score(k)]).sort((a, b) => b[1] - a[1])[0][0];
+          used.add(c.id);
+          if (c.ns) nsUsed.add(c.ns[0]);
+          const q = examQuestion(c, part.id);
+          if (q) qs.push(q);
+        }
+        order = order.filter((x) => x.cards.some((c) => !used.has(c.id)));
+      }
+      shuffle(qs).forEach((q, i) => { q.partI = i; q.partN = qs.length; out.push(q); });
+    }
+    return out;
+  }
+  function startExam(cfg) {
+    closeSheet();
+    if (!cfg.units || !cfg.units.length) { toast('범위를 하나 이상 골라요'); return; }
+    const qs = buildExam(cfg);
+    if (!qs.length) { toast('이 범위에는 낼 문제가 없어요'); return; }
+    P = { mode: 'exam', ex: { units: [...cfg.units], n: cfg.n, grading: cfg.grading, log: [], shown: {} }, queue: qs, i: 0, phase: 'answer', combo: 0, bestCombo: 0, xp: 0, ok: 0, answered: 0, mistakes: 0, retried: new Set(), start: Date.now(), finished: false, hintsUsed: 0 };
+    SFX.get();
+    if (view === 'player' || view === 'result') { view = 'player'; renderPlayer(); window.scrollTo(0, 0); }
+    else openView('player', renderPlayer);
+  }
+  const partNo = (part) => EXAM_PARTS.filter((p) => P.queue.some((q) => q.part === p.id)).findIndex((p) => p.id === part) + 1;
+  function renderPartIntro(q) {
+    const part = EXAM_PARTS.find((p) => p.id === q.part);
+    app.innerHTML = `
+      <div class="player">
+        <div class="p-top"><button class="icon-btn" id="quit" aria-label="그만하기">✕</button><div class="progress"><i style="width:${(P.i / P.queue.length) * 100}%"></i></div><div class="combo"></div></div>
+        <div class="p-body part-intro">
+          <div class="pi-k">${esc(part.ko)}</div>
+          <h2 class="fr">Partie ${partNo(q.part)} · ${esc(part.fr)}</h2>
+          <p>${q.partN}문제 · ${esc(part.desc)}</p>
+          ${P.ex.grading === 'end' ? '<p class="muted">정답은 다 풀고 나서 한꺼번에 보여줘요</p>' : ''}
+        </div>
+        <div class="p-foot"><div class="foot-row"><button class="btn" id="pi-go">시작 ▶</button></div></div>
+      </div>`;
+    $('#quit').onclick = quitSession;
+    $('#pi-go').onclick = () => { P.ex.shown[q.part] = true; SFX.tap(); renderPlayer(); };
+  }
+  // 채점 기록에 남길 "내 답"
+  function givenText(q) {
+    if (q.kind === 'mc' || q.kind === 'type') return P.sel ?? '';
+    if (q.kind === 'ox') return P.sel ? '⭕ 맞아요' : '❌ 틀려요';
+    if (q.kind === 'tap') return q.chunks[P.sel] ? q.chunks[P.sel].t : '';
+    if (q.kind === 'build') return (P.sel || []).map((i) => q.blocks[i]).join(' ');
+    return '';
+  }
+
+  // ---- 틀린 이유 분류 → 약점 노트
+  const VERBISH = new Set(['pres-er', 'pres-ir', 'pres-irr', 'stem-change', 'pronominal', 'pp', 'aux', 'futur', 'imperatif', 'part-pres', 'gerondif', 'inf', 'pc-neg-q']);
+  const WK_CATS = {
+    accent: { e: '✏️', label: '악센트', tip: '뜻·문법은 맞았는데 악센트가 빠지거나 바뀌었어요. é · è · ê · à · ç · ô… 쓰고 나서 모음 위를 한 번 더!' },
+    elision: { e: '✂️', label: '엘리지옹', tip: "모음·무음 h 앞에선 je → j', ne → n', que → qu', le·la → l', de → d'. (qu'Alex · qu'hier · n'iront)" },
+    agreement: { e: '⚖️', label: '성·수 일치', tip: '단어 끝 -e · -s · -es가 틀렸어요. 주어(être 동사)나 명사의 성·수를 다시 따져봐요.' },
+    order: { e: '🔀', label: '어순', tip: '단어는 다 맞는데 순서가 달라요. ne…pas · 대명사 · 형용사 자리를 확인!' },
+    listen: { e: '🎧', label: '듣기 · 받아쓰기', tip: '비슷한 소리를 헷갈렸어요. 🐢로 느리게 다시 듣고 끝소리(-ons/-ont · -ez/-ai)와 모음(se/sau)에 집중!' },
+    verb: { e: '🔧', label: '동사 형태', tip: '동사 활용·시제 형태가 틀렸어요. 📒 동사장에서 변화표를 직접 써 봐요.' },
+    vocab: { e: '📚', label: '어휘', tip: '단어 뜻 · 철자 · 관사를 헷갈렸어요. 관사와 세트로 소리 내어 외우기!' },
+    grammar: { e: '🧩', label: '문법', tip: '문법 규칙을 다시 확인해요. 관련 노트를 열어 보세요.' },
+  };
+  function classifyMiss(r) {
+    const q = r.q;
+    if (r.hint && r.hint.startsWith('élision')) return 'elision';
+    if (q.kind === 'type' || q.kind === 'build') {
+      const loose = (s) => (q.loose ? String(s).replace(/[,;:!?.«»"()]/g, ' ') : String(s));
+      const n = norm(loose(r.given || ''));
+      const answers = (q.accept || []).map((a) => norm(loose(a)));
+      if (n && answers.some((a) => deaccent(a) === deaccent(n))) return 'accent';
+      const el = (s) => deaccent(s).replace(/\b(j|l|n|qu|d|m|t|s|c)'/g, '$1e ').replace(/\s+/g, ' ').trim();
+      if (n && answers.some((a) => el(a) === el(n))) return 'elision';
+      if (n && (!VERBISH.has(q.skill) || q.skill === 'agreement')) {
+        const stem = (s) => deaccent(s).split(' ').map((w) => w.replace(/(es|e|s|x)$/, '')).join(' ');
+        if (answers.some((a) => stem(a) === stem(n))) return 'agreement';
+      }
+      const bag = (s) => deaccent(s).split(/[\s']+/).filter(Boolean).sort().join(' ');
+      if (wordCount(n) > 2 && answers.some((a) => bag(a) === bag(n))) return 'order';
+    }
+    if (q.part === 'listen') return 'listen';
+    if (q.skill === 'agreement' || q.skill === 'elision') return q.skill;
+    if (q.skill === 'vocab' || q.skill === 'gender' || /단어/.test(q.tag || '')) return 'vocab';
+    if (VERBISH.has(q.skill)) return 'verb';
+    return 'grammar';
+  }
+  function addWeak(r, now) {
+    const id = r.q.ids[0];
+    if (!id) return;
+    const prev = S.wk[id];
+    S.wk[id] = {
+      at: now, cat: r.cat, n: (prev && !prev.done ? prev.n || 1 : 0) + 1, part: r.q.part, tag: r.q.tag,
+      q: String(r.q.main || '').slice(0, 160), sub: String(r.q.sub || '').slice(0, 120), heard: String(r.q.listen || '').slice(0, 160),
+      given: String(r.given ?? '').slice(0, 120), ans: String(r.q.reveal || r.q.answer || '').slice(0, 200),
+    };
+  }
+  function examScore(log) {
+    const rs = log.filter(Boolean);
+    const parts = {}, lessons = {};
+    for (const r of rs) {
+      for (const [m, k] of [[parts, r.q.part], [lessons, r.q.lessonId]]) {
+        const x = m[k] || (m[k] = { n: 0, ok: 0 });
+        x.n++; if (r.ok) x.ok++;
+      }
+    }
+    return { n: rs.length, ok: rs.filter((r) => r.ok).length, parts, lessons };
+  }
+  // 시험 끝: (한꺼번에 채점이면) 기록 반영 → 틀린 문제 분류해 약점 노트 → 시험 기록
+  function examCommit() {
+    const ex = P.ex;
+    const copy = (o) => (o === undefined ? undefined : JSON.parse(JSON.stringify(o)));
+    if (ex.grading === 'end') {
+      ex.log.forEach((r) => {
+        if (!r) return;
+        S.stats.answers++;
+        r.snap = copy(S.cards[r.q.ids[0]]);
+        commitAnswer(r.q, r.ok, false);
+      });
+    }
+    const now = Date.now();
+    ex.log.forEach((r) => { if (r && !r.ok) { r.cat = classifyMiss(r); addWeak(r, now); } });
+    const res = examScore(ex.log);
+    ex.at = now;
+    S.exams = [...(S.exams || []), { at: now, units: ex.units, n: res.n, ok: res.ok, parts: res.parts }].slice(-30);
+  }
+  // 결과 화면의 "내 답도 맞아요" (한꺼번에 채점, 직접 쓰기 오답)
+  function examOverride(i) {
+    const r = P.ex.log[i];
+    if (!r || r.ok) return;
+    const id = r.q.ids[0];
+    if (r.snap) S.cards[id] = r.snap; else delete S.cards[id];
+    grade(id, true, false);
+    const sk = S.sk[r.q.skill];
+    if (sk) { sk.ok++; const k = sk.h.lastIndexOf('0'); if (k >= 0) sk.h = sk.h.slice(0, k) + '1' + sk.h.slice(k + 1); }
+    const kd = S.kd[r.q.listen ? 'listen' : r.q.kind];
+    if (kd) kd.ok++;
+    S.stats.correct++;
+    P.ok++; P.mistakes = Math.max(0, P.mistakes - 1);
+    r.ok = true;
+    if (S.wk[id] && !S.wk[id].done) S.wk[id] = { at: Date.now(), done: true };
+    const h = (S.exams || []).find((e) => e.at === P.ex.at);
+    if (h) { const res = examScore(P.ex.log); h.ok = res.ok; h.parts = res.parts; }
+    save(); syncNow();
+  }
+  const scoreBar = (label, x, wide) => {
+    const p = x.n ? x.ok / x.n : 0;
+    const col = p < 0.5 ? 'var(--red)' : p < 0.8 ? 'var(--gold)' : 'var(--green)';
+    return `<div class="bar-row ${wide ? 'wide' : ''}"><span>${esc(label)}</span><div class="hbar"><i style="width:${p * 100}%;background:${col}"></i></div><b>${x.ok}/${x.n}</b></div>`;
+  };
+  function examReviewRow(r, i) {
+    const q = r.q;
+    const part = EXAM_PARTS.find((p) => p.id === q.part);
+    const canOverride = !r.ok && P.ex.grading === 'end' && q.kind === 'type' && !['accent', 'elision'].includes(r.cat);
+    const cat = !r.ok && r.cat ? WK_CATS[r.cat] : null;
+    return `<div class="rv ${r.ok ? 'ok' : 'bad'}" data-i="${i}">
+      <div class="rv-h"><b>${r.ok ? '✓' : '✗'} ${i + 1}</b><small>${esc(part ? part.ko : '')} · ${esc(q.tag || '')}</small>${cat ? `<span class="pill">${cat.e} ${esc(cat.label)}</span>` : ''}</div>
+      ${q.listen ? `<div class="rv-q"><span class="fr">🔊 ${esc(q.listen)}</span> ${speakBtn(q.listen)}</div>` : ''}
+      ${q.main ? `<div class="rv-q ${q.mainFr ? 'fr' : ''}">${esc(q.main)}</div>` : ''}${q.sub ? `<div class="rv-exp">${esc(q.sub)}</div>` : ''}
+      ${!r.ok ? `<div class="rv-me">내 답 <span class="fr">${esc(r.given || '(비움)')}</span></div>` : ''}
+      <div class="rv-ans">정답 <span class="fr">${esc(q.reveal || q.answer || '').replace(/\n/g, '<br>')}</span></div>
+      ${!r.ok && q.explain ? `<div class="rv-exp">${esc(q.explain)}</div>` : ''}
+      ${!r.ok ? `<div class="rv-act">${q.skill ? `<button class="note-link rv-note" data-i="${i}">📖 관련 노트</button>` : ''}${canOverride ? `<button class="fb-override rv-ov" data-i="${i}">🙋 내 답도 맞아요</button>` : ''}</div>` : ''}
+    </div>`;
+  }
+  function renderExamResult({ perfect, streakUp, levelUp, levelAfter }) {
+    view = 'result';
+    const ex = P.ex;
+    const res = examScore(ex.log);
+    const pct = res.n ? Math.round((res.ok / res.n) * 100) : 0;
+    const cats = {};
+    ex.log.forEach((r) => { if (r && !r.ok && r.cat) cats[r.cat] = (cats[r.cat] || 0) + 1; });
+    const catList = Object.entries(cats).sort((a, b) => b[1] - a[1]);
+    const lessonRows = Object.entries(res.lessons).map(([id, x]) => ({ l: lessonById.get(id), ...x })).filter((x) => x.l)
+      .sort((a, b) => a.ok / a.n - b.ok / b.n || b.n - a.n);
+    const [mood, head] = pct >= 90 ? ['cheer', 'Excellent !'] : pct >= 75 ? ['happy', 'Très bien !'] : pct >= 55 ? ['idle', 'Pas mal !'] : ['think', 'Courage !'];
+    app.innerHTML = `
+      <div class="page-head"><button class="icon-btn" id="back" aria-label="홈으로">←</button><h2>📝 실전 연습 결과</h2></div>
+      <div class="page exam-result">
+        <div class="score-card">
+          <div class="sc-pipou">${Pipou.svg(mood, 'bounce')}</div>
+          <div><div class="sc-big">${pct}<small>점</small></div><div class="sc-sub"><b>${esc(head)}</b> ${res.ok}/${res.n} 정답 · ${esc(unitNames(ex.units))} · +${P.xp} XP${streakUp ? ` · 🔥 ${S.streak.n}일 연속` : ''}</div></div>
+        </div>
+        <div class="section-title">영역별</div>
+        <div class="box">${EXAM_PARTS.filter((p) => res.parts[p.id]).map((p) => scoreBar(p.ko, res.parts[p.id])).join('')}</div>
+        ${catList.length ? `<div class="section-title">이번 시험에서 틀린 이유</div>
+          <div class="box">${catList.map(([k, n]) => `<div class="wk-cat"><b>${WK_CATS[k].e} ${esc(WK_CATS[k].label)} <span class="muted">${n}문제</span></b><small>${esc(WK_CATS[k].tip)}</small></div>`).join('')}
+          <button class="btn small" id="ex-wk" style="margin-top:10px">🩹 약점 노트 열기</button></div>` : ''}
+        <div class="section-title">레슨별 (약한 순)</div>
+        <div class="box">${lessonRows.map((x) => scoreBar(`${x.l.emoji || ''} ${x.l.title}`, x, true)).join('')}</div>
+        <div class="section-title">문제별 채점</div>
+        <div class="rv-list">${ex.log.map((r, i) => (r ? examReviewRow(r, i) : '')).join('')}</div>
+        <div class="actions">
+          <button class="btn" id="again">같은 범위로 다시 ▶</button>
+          <button class="btn ghost" id="home">홈으로</button>
+        </div>
+      </div>`;
+    bindSpeak();
+    const cfg = { units: ex.units, n: ex.n, grading: ex.grading };
+    $('#again').onclick = () => startExam(cfg);
+    $('#home').onclick = $('#back').onclick = () => { P = null; goHome(); };
+    if ($('#ex-wk')) $('#ex-wk').onclick = () => { P = null; view = 'weaknote'; renderWeakNote(); window.scrollTo(0, 0); };
+    $$('.rv-note').forEach((b) => b.onclick = () => { const q = ex.log[+b.dataset.i].q; openNoteSheet(relatedNotes(q, q.skill)); });
+    $$('.rv-ov').forEach((b) => b.onclick = () => { const y = window.scrollY; examOverride(+b.dataset.i); renderExamResult({ perfect: false, streakUp: false, levelUp: false, levelAfter }); window.scrollTo(0, y); });
+    if (!levelUp && !perfect && !streakUp) return;
+    SFX.fanfare();
+    if (perfect || streakUp) confetti();
+    if (levelUp) setTimeout(() => showLevelUp(levelAfter), 900);
+  }
+  function openExamSetup() {
+    if (!EX.units || !EX.units.some((id) => C.units.find((u) => u.id === id))) EX.units = [C.units[C.units.length - 1].id];
+    const draw = () => {
+      const sound = S.settings.sound && TTS.ok;
+      const cnt = examCounts(EX.n);
+      const hist = (S.exams || []).slice(-4).reverse();
+      const sh = sheet(`
+        <h3>📝 실전 연습</h3>
+        <div class="meta">시험처럼 파트별로: ${sound ? `🎧 듣기 ${cnt.listen} → ` : ''}✍️ 쓰기 ${cnt.write} → ☑️ 객관식 ${cnt.mc} · 힌트 없음 · 범위 전체에서 고르게</div>
+        <div class="vt-set"><div class="vt-h">범위 <small class="muted">· 여러 개 고를 수 있어요</small></div>
+          ${C.units.map((u) => `<label class="vt-opt"><input type="checkbox" data-exu="${esc(u.id)}" ${EX.units.includes(u.id) ? 'checked' : ''}><span><b>${esc(u.emoji || '📘')} ${esc(u.title)}</b><small>${esc(u.subtitle || '')} · 레슨 ${u.lessons.length}개 · ${Math.round(mastery(u.lessons.flatMap((l) => l.cards)) * 100)}%</small></span></label>`).join('')}</div>
+        <div class="vt-set"><div class="vt-h">문항 수</div>
+          <div class="seg" id="ex-n">${[20, 30, 40].map((v) => `<button data-v="${v}" class="${EX.n === v ? 'on' : ''}">${v}문제</button>`).join('')}</div></div>
+        <div class="vt-set"><div class="vt-h">채점</div>
+          <div class="seg" id="ex-g">${[['end', '📋 끝나고 한꺼번에'], ['each', '⚡ 문제마다 바로']].map(([v, t]) => `<button data-v="${v}" class="${EX.grading === v ? 'on' : ''}">${t}</button>`).join('')}</div></div>
+        ${sound ? '' : '<div class="ex-warn">🔇 소리가 꺼져 있어서 듣기 파트가 빠져요. <button class="btn small ghost" id="ex-sound">🔊 소리 켜기</button></div>'}
+        ${hist.length ? `<div class="vt-set"><div class="vt-h">지난 기록</div>${hist.map((e) => `<div class="ex-hist"><span>${shortDate(today(new Date(e.at)))} · ${esc(unitNames(e.units))} · ${e.n}문제</span><b>${e.n ? Math.round((e.ok / e.n) * 100) : 0}점</b></div>`).join('')}</div>` : ''}
+        <button class="btn" id="ex-go" ${EX.units.length ? '' : 'disabled'}>▶ 시작하기</button>`);
+      sh.classList.add('tall');
+      $$('[data-exu]', sh).forEach((c) => c.onchange = () => { EX.units = $$('[data-exu]', sh).filter((x) => x.checked).map((x) => x.dataset.exu); exSave(); draw(); });
+      $$('#ex-n button', sh).forEach((b) => b.onclick = () => { EX.n = Number(b.dataset.v); exSave(); SFX.tap(); draw(); });
+      $$('#ex-g button', sh).forEach((b) => b.onclick = () => { EX.grading = b.dataset.v; exSave(); SFX.tap(); draw(); });
+      if ($('#ex-sound', sh)) $('#ex-sound', sh).onclick = () => { S.settings.sound = true; save(); draw(); };
+      $('#ex-go', sh).onclick = () => startExam({ ...EX });
+    };
+    draw();
+  }
+
   // ================================================================ home
   function markSeen(lessonId) {
     if (!S.seenLessons) S.seenLessons = [];
@@ -2014,6 +2388,7 @@
     const day = todayDay();
     const goal = S.settings.goal;
     const mistakes = mistakeCards().length;
+    const wkN = weakItems().length;
     const [mood, msg] = greeting(due, fresh, weak);
 
     const recent = recentLessons();
@@ -2064,10 +2439,12 @@
             <span>오늘 ${Math.min(day.s, goal)}/${goal}판</span>
           </div>
           <button class="btn" id="go-review">▶ 오늘의 복습 · 약 3분</button>
+          <button class="btn purple" id="go-exam">📝 실전 연습 · 듣기 · 쓰기 · 객관식</button>
           <div class="sub-actions">
             <button class="btn small ghost" id="go-weak">🎯 약점 훈련${weak ? '' : ''}</button>
             <button class="btn small ghost" id="go-mistakes">📕 오답노트${mistakes ? ` ${mistakes}` : ''}</button>
-            <button class="btn small ghost verbs-link" id="go-verbs">📒 동사장 · Mes verbes</button>
+            <button class="btn small ghost" id="go-weaknote">🩹 약점 노트${wkN ? ` ${wkN}` : ''}</button>
+            <button class="btn small ghost" id="go-verbs">📒 동사장 · Mes verbes</button>
           </div>
         </div>
         ${recentHtml}
@@ -2078,6 +2455,8 @@
     $('#go-review').onclick = () => startSession('review');
     $('#go-weak').onclick = () => openView('weak', renderWeak);
     $('#go-mistakes').onclick = () => openView('mistakes', renderMistakes);
+    $('#go-exam').onclick = openExamSetup;
+    $('#go-weaknote').onclick = () => openView('weaknote', renderWeakNote);
     $('#go-verbs').onclick = () => { window.scrollTo(0, 0); openView('verbs', renderVerbs); };
     $$('.node, .recent-row').forEach((b) => b.onclick = () => openLessonSheet(b.dataset.l));
     $$('.unit-note').forEach((b) => b.onclick = () => openView('notes', () => renderUnitNotes(b.dataset.u)));
@@ -2348,6 +2727,64 @@
     bindSpeak();
   }
 
+  // ================================================================ 🩹 약점 노트 (실전 연습에서 틀린 문제를 이유별로 모아 둠 · 다시 맞히면 사라짐)
+  function weakItems() {
+    return Object.entries(S.wk || {}).filter(([id, w]) => w && !w.done && cardById.has(id))
+      .map(([id, w]) => ({ id, w, c: cardById.get(id), l: lessonOf(cardById.get(id)) }))
+      .sort((a, b) => (b.w.n || 1) - (a.w.n || 1) || b.w.at - a.w.at);
+  }
+  function buildWeakNoteSession() {
+    const items = shuffle(weakItems()).slice(0, SESSION);
+    return items.map(({ c, w }) => (w.part && examQuestion(c, w.part)) || makeQuestion(c)).filter(Boolean);
+  }
+  function renderWeakNote() {
+    const items = weakItems();
+    const byCat = {};
+    items.forEach((x) => (byCat[x.w.cat] || (byCat[x.w.cat] = [])).push(x));
+    const cats = Object.keys(WK_CATS).filter((k) => byCat[k]).sort((a, b) => byCat[b].length - byCat[a].length);
+    const bySkill = {};
+    items.forEach((x) => { bySkill[x.c.skill] = (bySkill[x.c.skill] || 0) + 1; });
+    const topSkills = Object.entries(bySkill).sort((a, b) => b[1] - a[1]).slice(0, 3).map(([id, n]) => ({ sk: (C.skills || []).find((s) => s.id === id) || { id, label: id, emoji: '🧩' }, n }));
+    const byLesson = {};
+    items.forEach((x) => { byLesson[x.l.id] = (byLesson[x.l.id] || 0) + 1; });
+    const topLessons = Object.entries(byLesson).sort((a, b) => b[1] - a[1]).slice(0, 3).map(([id, n]) => ({ l: lessonById.get(id), n }));
+    const itemHtml = ({ id, w, l }) => `<div class="rv bad">
+      <div class="rv-h"><small>${esc(l.title)} · ${esc(w.tag || '')}${(w.n || 1) > 1 ? ` · ${w.n}번 틀림` : ''}</small></div>
+      ${w.heard ? `<div class="rv-q"><span class="fr">🔊 ${esc(w.heard)}</span> ${speakBtn(w.heard)}</div>` : ''}
+      ${w.q ? `<div class="rv-q ${hasHangul(w.q) ? '' : 'fr'}">${esc(w.q)}</div>` : ''}${w.sub ? `<div class="rv-exp">${esc(w.sub)}</div>` : ''}
+      <div class="rv-me">내 답 <span class="fr">${esc(w.given || '(비움)')}</span></div>
+      <div class="rv-ans">정답 <span class="fr">${esc(w.ans).replace(/\n/g, '<br>')}</span></div>
+      <div class="rv-act"><button class="note-link wk-note" data-id="${esc(id)}">📖 관련 노트</button></div>
+    </div>`;
+    app.innerHTML = `
+      <div class="page-head"><button class="icon-btn" id="back" aria-label="뒤로">←</button><h2>🩹 약점 노트</h2></div>
+      <div class="page">
+        ${items.length ? `
+          <div class="hello-top"><div class="hello-pipou">${Pipou.svg('think', 'bob')}</div><div class="bubble">실전 연습에서 틀린 ${items.length}문제를 틀린 이유별로 모았어요. 「${esc(WK_CATS[cats[0]].label)}」이(가) 제일 많아요. 다시 맞히면 여기서 사라져요!</div></div>
+          <button class="btn red" id="wk-start">🩹 약점만 다시 풀기 (${Math.min(items.length, SESSION)}문제)</button>
+          <div class="section-title">틀린 이유</div>
+          <div class="box">${cats.map((k) => `<div class="bar-row"><span>${WK_CATS[k].e} ${esc(WK_CATS[k].label)}</span><div class="hbar"><i style="width:${(byCat[k].length / items.length) * 100}%;background:var(--red)"></i></div><b>${byCat[k].length}</b></div>`).join('')}</div>
+          <div class="section-title">많이 틀린 문법 · 레슨</div>
+          <div class="box list">${topSkills.map(({ sk, n }) => `<button class="skill-row wk-skill" data-s="${esc(sk.id)}"><span class="se">${esc(sk.emoji || '🧩')}</span><span class="l1"><b>${esc(sk.label)}</b><small>약점 ${n}문제 · 탭하면 그 유형 집중 훈련</small></span><span class="go">▶</span></button>`).join('')}
+            ${topLessons.map(({ l, n }) => `<button class="skill-row wk-lesson" data-l="${esc(l.id)}"><span class="se">${esc(l.emoji || '📘')}</span><span class="l1"><b>${esc(l.title)}</b><small>약점 ${n}문제 · 탭하면 레슨 노트</small></span><span class="go">›</span></button>`).join('')}</div>
+          ${cats.map((k) => `<div class="section-title">${WK_CATS[k].e} ${esc(WK_CATS[k].label)} · ${byCat[k].length}</div>
+            <div class="wk-tip">${esc(WK_CATS[k].tip)}</div>
+            <div class="rv-list">${byCat[k].map(itemHtml).join('')}</div>`).join('')}`
+        : `<div class="empty"><div class="e">${Pipou.svg('happy', 'bob')}</div><p>약점 노트가 비어 있어요!<br>📝 실전 연습에서 틀린 문제가 이유별로 여기에 모여요.</p></div>
+           <button class="btn" id="wk-exam">📝 실전 연습 하러 가기</button>`}
+      </div>`;
+    $('#back').onclick = goHome;
+    bindSpeak();
+    if ($('#wk-start')) $('#wk-start').onclick = () => startSession('weaknote');
+    if ($('#wk-exam')) $('#wk-exam').onclick = openExamSetup;
+    $$('.wk-note').forEach((b) => b.onclick = () => {
+      const c = cardById.get(b.dataset.id);
+      openNoteSheet(relatedNotes({ ids: [c.id], skill: c.skill, lessonId: lessonOf(c).id }, c.skill));
+    });
+    $$('.wk-skill').forEach((b) => b.onclick = () => startSession('weak', b.dataset.s));
+    $$('.wk-lesson').forEach((b) => b.onclick = () => openView('notes', () => renderNotes(b.dataset.l)));
+  }
+
   // ================================================================ profile & settings
   function renderProfile() {
     const L = levelOf(S.xp);
@@ -2560,6 +2997,8 @@
         }
       }
     }
+    for (const [id, r] of Object.entries(remote.wk || {})) { const l = S.wk[id]; if (r && (!l || (r.at || 0) > (l.at || 0))) S.wk[id] = r; }
+    if (Array.isArray(remote.exams)) S.exams = [...new Map([...(S.exams || []), ...remote.exams].map((e) => [e.at, e])).values()].sort((a, b) => a.at - b.at).slice(-30);
     if (Array.isArray(remote.seenLessons)) S.seenLessons = [...new Set([...(S.seenLessons || []), ...remote.seenLessons])];
     S.stats.bestCombo = Math.max(S.stats.bestCombo || 0, remote.bestCombo || 0);
     S.streak.best = Math.max(S.streak.best || 0, remote.streakBest || 0);
@@ -2586,7 +3025,7 @@
         const me = deviceId();
         await syncApi('put', {
           v: 1, updatedAt: Date.now(), ledgers: { ...S.ledgers, [me]: own }, cards: S.cards, sk: S.sk, kd: S.kd,
-          sens: S.sens, sensAt: S.sensAt || 0, vb: vbState(), seenLessons: S.seenLessons || [], bestCombo: S.stats.bestCombo || 0, streakBest: S.streak.best || 0,
+          sens: S.sens, sensAt: S.sensAt || 0, vb: vbState(), seenLessons: S.seenLessons || [], wk: S.wk || {}, exams: S.exams || [], bestCombo: S.stats.bestCombo || 0, streakBest: S.streak.best || 0,
         });
         S.sync.at = Date.now();
         S.sync.err = null;
@@ -2699,7 +3138,7 @@
       if (document.visibilityState !== 'visible' || !S.sync || view === 'player') return;
       if (Date.now() - (S.sync.at || 0) > 60000) syncNow().then((ok) => { if (ok && view === 'home') renderHome(); });
     });
-    if (/[?&]debug\b/.test(location.search)) window.__allez = { syncNow, connectSync, deviceId, ownLedger, setS: (x) => { S = x; }, setDay: (n) => { DAY_OFFSET = n; }, grade, needFor, isGrad, progressOf, reset: () => { S = fresh(); S.seenLessons = []; }, sanitizeHint, hintSteps, allCards, makeQuestion, buildSession, GEN, genFor, skillReport, weakSkills, S: () => S, norm, blocksOf, startSession, play: (qs) => { P = { mode: 'review', queue: qs, i: 0, phase: 'answer', combo: 0, bestCombo: 0, xp: 0, ok: 0, answered: 0, mistakes: 0, retried: new Set(), start: Date.now(), finished: false }; openView('player', renderPlayer); } };
+    if (/[?&]debug\b/.test(location.search)) window.__allez = { syncNow, connectSync, deviceId, ownLedger, setS: (x) => { S = x; }, setDay: (n) => { DAY_OFFSET = n; }, grade, needFor, isGrad, progressOf, reset: () => { S = fresh(); S.seenLessons = []; }, sanitizeHint, hintSteps, allCards, makeQuestion, buildSession, buildExam, examQuestion, classifyMiss, weakItems, startExam, GEN, genFor, skillReport, weakSkills, S: () => S, norm, blocksOf, startSession, play: (qs) => { P = { mode: 'review', queue: qs, i: 0, phase: 'answer', combo: 0, bestCombo: 0, xp: 0, ok: 0, answered: 0, mistakes: 0, retried: new Set(), start: Date.now(), finished: false }; openView('player', renderPlayer); } };
 
     if ('serviceWorker' in navigator && location.protocol === 'https:') { // 로컬 미리보기(http)에선 캐시 안 씀
       navigator.serviceWorker.register('sw.js').catch(() => {});

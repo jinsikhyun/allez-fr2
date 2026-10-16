@@ -6,7 +6,7 @@
   "date": "2026-10-07",
   "sources": [
     "semaine 6-2",
-    "녹음 10/7"
+    "녹음 10/7 (Tiro 전사로 교차검증)"
   ],
   "tips": [
     {
@@ -32,7 +32,7 @@
     },
     {
       "h": "⭐ 교수님 구두 포인트",
-      "b": "Soyons patient**e**s — 우리가 전부 여자면 -es\nOù **se trouve** le Panthéon ? — 고급스러운 질문\n처음 본 사람에게: **Je vous en prie** · **madame**"
+      "b": "Soyons patient**e**s — 우리가 전부 여자면 -es\nOù **se trouve** le Panthéon ? — 고급스러운 질문\n처음 본 사람에게: De rien은 '조금 버릇없을 수 있다' → 정중한 대답은 **Je vous en prie** · 호칭은 **madame**"
     },
     {
       "h": "친구에게는 tu 명령문",
@@ -40,7 +40,7 @@
     },
     {
       "h": "순서 표현",
-      "b": "**D'abord** → Puis → Ensuite → Et là\nd'abord = 먼저 (일상에서 아주 중요)"
+      "b": "**D'abord** → Ensuite / Puis → **Enfin** (교수님 답안)\n본문: Puis → Ensuite → Et là\nd'abord = 먼저 — '일상에서도 아주 중요'"
     }
   ],
   "note": [
@@ -97,7 +97,7 @@
           ]
         },
         {
-          "memo": "녹음 요약: 프랑스 전역 고등학생(lycéens)이 학교를 봉쇄(blocus)하며 격렬히 시위 중. 이유 — 난방·단열·냉방 등 시설이 열악하고, 교사가 없어 대입 시험 6개월 전부터 수업이 없는 학교도 있으며, 3년 전부터 요구했지만 조치가 없었다는 것. 대학도 외국인 학비가 크게 올랐다. p.8은 파리 낭테르 대학교의 10월 6일 휴교 공지."
+          "memo": "녹음: 프랑스 전역 고등학생(lycéens)이 학교를 봉쇄(blocus)하며 격렬히 시위 중. 이유 — 시설 열악(누수·해충·난방·단열 없음, 40도까지 오르는데 냉방 없음), 교사 부족(바칼로레아 6개월 전부터 수업이 없는 학교도), 3년 전부터 SNS로 말했는데 아무도 듣지 않았다는 것. 뿌리는 긴축 재정. 유학 환경도 악화: 외국인 학비 10배 이상, 주택보조금(월 200–300유로) 올해부터 중단. p.8은 **교수님이 다니던 학교**인 파리 낭테르 대학교의 10월 6일 임시 폐쇄 공지(고등학생 시위 연대)."
         }
       ]
     },
@@ -136,7 +136,7 @@
           "head": true
         },
         {
-          "p": "순서: **D'abord**(먼저) → **Puis**(그다음) → **Ensuite**(그러고 나서) → **Et là**(그리고 거기서). 교수님: d'abord는 교과서엔 없었지만 일상에서 아주 중요."
+          "p": "순서: **D'abord**(먼저) → **Ensuite / Puis**(그다음) → **Enfin**(마지막으로). 본문에선 Puis → Ensuite → **Et là**(그리고 거기서). 교수님: d'abord는 교과서엔 없었지만 '일상에서도 아주 중요', puis·ensuite는 '여러분도 사용하실 수 있어야'."
         },
         {
           "warn": "⭐ 녹음: 연습문제는 '친구(votre amie)에게' 설명하는 상황 → **tu 명령문** (Prends · Tourne · Va · Continue). -er 동사·aller는 tu 명령문에서 -s를 뺀다."
@@ -144,8 +144,8 @@
         {
           "ex": [
             [
-              "D'abord, prends la deuxième rue à droite. Puis tourne à droite.",
-              "먼저 오른쪽 두 번째 길로 들어가. 그다음 오른쪽으로 돌아. (교수님 답안 일부)"
+              "D'abord, prends le boulevard Haussmann et va tout droit. Ensuite, prends la deuxième rue à droite. C'est la rue de Rome. Puis tourne à droite. C'est la rue Saint-Lazare. Enfin, la gare est sur ta gauche.",
+              "먼저 오스만 대로로 들어가서 쭉 가. 그다음 오른쪽 두 번째 길로 들어가. 로마 길이야. 그러고 나서 오른쪽으로 돌아. 생라자르 길이야. 마지막으로 역은 네 왼편에 있어. (교수님 답안 전문)"
             ],
             [
               "Expliquez-lui comment aller à la gare.",
@@ -206,7 +206,7 @@
       ]
     },
     {
-      "h": "GPS 영상 표현 (녹음, 일부 불확실)",
+      "h": "GPS 영상 표현 (녹음 검증)",
       "skill": "vocab",
       "src": [
         "semaine 6-2 p.12",
@@ -214,14 +214,31 @@
       ],
       "body": [
         {
-          "list": [
-            "le rond-point — 원형 교차로",
-            "Dans 100 mètres, tournez à droite. — 100미터 후 오른쪽으로",
-            "Tenez la gauche. — 왼쪽 차선을 유지하세요"
+          "ex": [
+            [
+              "Tournez à gauche.",
+              "좌회전하세요."
+            ],
+            [
+              "Traversez le rond-point, deuxième sortie.",
+              "로터리를 지나 두 번째 출구로."
+            ],
+            [
+              "Après 100 mètres, tournez à gauche.",
+              "100미터 후 좌회전하세요."
+            ],
+            [
+              "Après 100 mètres, allez tout droit. Puis tenez la gauche.",
+              "100미터 후 직진, 그다음 왼쪽 차선 유지."
+            ],
+            [
+              "Puis prenez l'autoroute.",
+              "그다음 고속도로를 타세요."
+            ]
           ]
         },
         {
-          "memo": "녹음 음질이 나빠 영상 문장은 교수님 설명에서 재구성한 것. 시험 대비 확정 자료로 쓰지 말 것."
+          "memo": "네덜란드에서 운전하는 트럭 기사 Gauthier 영상 (내비 이름 Sophie). 교수님: 'tourner 아니고 tenez la gauche — 헷갈리는 지점이니까 왼쪽 차선에 있으라고.' 자세한 연습은 레슨 「GPS · 길 안내 듣기 실전」."
         }
       ]
     },
@@ -237,7 +254,7 @@
         {
           "list": [
             "일상에선 Notre-Dame de Paris를 그냥 **Notre-Dame**이라고 한다",
-            "Pardon, monsieur 대신 **Excusez-moi**도 쓴다",
+            "Pardon, monsieur 대신 **Excusez-moi / S'il vous plaît, monsieur** — 'plus naturel'. Pardon은 지나가다 부딪혔을 때",
             "**Ah bon ?** — '아 그래요?' 같은 리액션",
             "**plus facilement** — facile → facilement (쉽게)"
           ]
@@ -246,7 +263,7 @@
           "warn": "⭐ 녹음: Le Panthéon **se trouve** au bout de la rue. → 질문도 se trouver로 하면 고급스럽다: **Où se trouve le Panthéon ?** / **Où se trouvent les toilettes ?** (복수면 se trouvent)"
         },
         {
-          "warn": "⭐ 녹음: 처음 본 사람에게 — **mademoiselle**은 요즘 쓰지 않으니 **madame** / 고맙다는 말에는 De rien보다 **Je vous en prie**가 더 맞다."
+          "warn": "⭐ 녹음: 처음 본 사람에게 — **mademoiselle**은 요즘 거의 쓰지 않으니 **madame** / De rien은 '조금 버릇없을 수 있다'. 고맙다는 말에 대한 정중한 대답의 정석은 **Je vous en prie** (3-1 Remercier 응답 칸). 녹음에선 학생 답 'je vous remercie'를 교수님이 '더 맞다'고 받으셨는데, Je vous remercie는 고마움을 표하는 쪽 표현이에요."
         }
       ]
     },
@@ -260,11 +277,11 @@
       "body": [
         {
           "list": [
-            "로마의 판테온(여러 신을 모신 신전)에서 영감을 받은 건물",
-            "원래는 파리의 수호 성인 **생트 주느비에브**를 기리는 **성당**으로 지었다",
-            "1789년 대혁명 직후라 종교 건물로 쓰지 않고 **국가 위인을 모시는 곳**이 되며 '판테옹'이라는 이름을 씀",
-            "역사와 함께 이름이 계속 바뀜: 왕정복고 → 성당 / 1830 → 판테옹 / 1851 → 성당 / **1885** → 판테옹",
-            "1885년 계기: **빅토르 위고**의 죽음 — 국가적 지식인을 이곳에 모셔야 한다는 생각"
+            "로마의 판테온(여러 신을 모신 신전)에서 영감을 받은 건물. 1750년대부터 지음",
+            "원래는 파리의 수호 성녀 **생트 주느비에브**를 기리는 교회(**Église Sainte-Geneviève**)로 지었다",
+            "1790년쯤 완공 — 1789년 대혁명 직후라 종교 건물로 쓰지 않고 **국가 위인을 모시는 곳**이 되며 '판테옹'이라는 이름을 씀",
+            "역사와 함께 이름이 계속 바뀜: 1814–15 왕정복고 → 교회 / 1830 → 판테옹 / 1851 → 교회 / **1885** → 판테옹",
+            "1885년 계기: **빅토르 위고**의 죽음 — 국장 행렬이 개선문에서 판테옹까지"
           ]
         },
         {
@@ -286,16 +303,16 @@
         {
           "ex": [
             [
-              "D'abord, prends la rue de la Chaussée-d'Antin et va tout droit. Ensuite, tourne à gauche dans la rue Saint-Lazare et continue tout droit. Après la rue du Havre, la gare Saint-Lazare est sur ta droite.",
-              "지도로 확인한 경로 예시 (다른 길도 정답 가능)"
+              "D'abord, prends le boulevard Haussmann et va tout droit. Ensuite, prends la deuxième rue à droite. C'est la rue de Rome. Puis tourne à droite. C'est la rue Saint-Lazare. Enfin, la gare est sur ta gauche.",
+              "교수님 답안 — '정답은 아니에요, 길이 많으니까'"
             ]
           ]
         },
         {
-          "p": "**p.18–19 Vous allez où ?** (듣기, 교수님 풀이에서 재구성 — 불확실): 지도 1 → avenue des Écoles → en face de la poste → tournez à droite (rue Saint-Martin) → ④ la pharmacie / 지도 2 → 지하철역 → 은행 앞에서 오른쪽 → avenue de la République → C'est sur votre droite → ① la mairie(추정)."
+          "p": "**p.18–19 Vous allez où ?** 듣고 건물 고르기 — 지도 1 정답 **④ la pharmacie**, 지도 2 정답 **① la mairie**. 스크립트 전문은 레슨 「GPS · 길 안내 듣기 실전」."
         },
         {
-          "memo": "녹음(불확실): 시험에 나온다면 길 설명을 직접 쓰게 하기보다 지도에 화살표로 표시하는 식일 것 같다는 취지."
+          "warn": "⭐ 교수님: 'C'est très très important pour l'examen. Vous écoutez et vous choisissez quel bâtiment vous allez.' 길 설명을 직접 쓰는 주관식은 생각이 없고, 나온다면 지도에 화살표로."
         }
       ]
     },
@@ -755,7 +772,7 @@
       ],
       "say": "",
       "hint": "'먼저'는 교수님이 일상에서 아주 중요하다고 한 단어예요.",
-      "explain": "D'abord(먼저) → Puis(그다음) → Ensuite(그러고 나서).",
+      "explain": "D'abord(먼저) 다음엔 Puis / Ensuite(그다음) — 둘은 바꿔 써도 돼요. 교수님 답안은 D'abord → Ensuite → Puis → Enfin.",
       "src": "녹음 10/7"
     },
     {
@@ -806,8 +823,8 @@
         "Ça va."
       ],
       "say": "",
-      "hint": "교수님: 처음 본 사람에겐 '천만에요'의 더 정중한 버전을.",
-      "explain": "De rien도 틀린 건 아니지만 처음 본 사람에겐 Je vous en prie가 더 맞다.",
+      "hint": "교수님: 처음 본 사람에게 De rien은 '조금 버릇없을 수 있다'.",
+      "explain": "고맙다는 말에 대한 정중한 대답의 정석은 Je vous en prie (3-1 Remercier 응답 칸). 녹음에선 학생 답 'je vous remercie'를 교수님이 받으셨는데, Je vous remercie는 고마움을 '표하는' 쪽 표현이에요.",
       "src": "녹음 10/7",
       "star": true
     },
@@ -918,7 +935,7 @@
       "skill": "vocab",
       "prompt": "판테옹은 원래 무엇으로 지어졌나요? (수업 설명)",
       "q": "Le Panthéon",
-      "a": "생트 주느비에브를 기리는 성당",
+      "a": "생트 주느비에브를 기리는 교회(성당)",
       "wrong": [
         "왕의 궁전",
         "국립 도서관",
@@ -926,7 +943,7 @@
       ],
       "say": "",
       "hint": "파리의 수호 성인을 기리는 종교 건물이었어요.",
-      "explain": "성당으로 지었지만 대혁명 직후 위인을 모시는 판테옹이 됨.",
+      "explain": "Église Sainte-Geneviève로 지었지만 1790년쯤 완공 — 대혁명 직후라 위인을 모시는 판테옹이 됨.",
       "src": "녹음 10/7"
     },
     {
@@ -978,6 +995,26 @@
       "hint": "끝에 [뜨] 소리가 들리나요?",
       "explain": "여성 droite만 t 발음. droit [드화]는 묵음.",
       "src": "semaine 6-2 p.11"
+    }
+  ],
+  "fixes": [
+    {
+      "where": "이전 녹음 정리 (Whisper)",
+      "was": "Dans 100 mètres, tournez à droite.",
+      "now": "Après 100 mètres, tournez à gauche.",
+      "why": "Tiro 전사로 GPS 영상 대사 확인"
+    },
+    {
+      "where": "이전 녹음 정리 (Whisper)",
+      "was": "교수님: 처음 본 사람에겐 Je vous en prie",
+      "now": "교수님: De rien은 조금 버릇없을 수 있다 (학생 답 je vous remercie를 받으심)",
+      "why": "발언을 그대로 옮김. 정중한 대답의 정석은 여전히 Je vous en prie"
+    },
+    {
+      "where": "Tiro 전사",
+      "was": "C'est la rue St Honoré.",
+      "now": "C'est la rue Saint-Lazare.",
+      "why": "p.17 지도에 생토노레 길 없음 — 로마 길 끝에서 오른쪽 = 생라자르 길"
     }
   ]
 }

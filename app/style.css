@@ -609,3 +609,43 @@ details.covers summary { font-weight: 800; cursor: pointer; }
 .vt-sug input { width: 18px; height: 18px; accent-color: var(--green); }
 .vb-score { color: var(--text); font-weight: 700; }
 .page-head .btn.small { min-height: 38px; padding: 6px 12px; }
+
+/* 📝 실전 연습 · 🩹 약점 노트 */
+.btn.purple { background: var(--purple); box-shadow: 0 4px 0 #5b34c7; margin-top: 10px; }
+.btn.purple:active { box-shadow: 0 0 0 #5b34c7; }
+.hello .btn + .btn.purple { margin-top: 10px; }
+.part-intro { display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; gap: 6px; min-height: 55vh; }
+.part-intro .pi-k { font-size: 40px; font-weight: 900; }
+.part-intro h2 { margin: 4px 0; font-size: 21px; }
+.part-intro p { margin: 0; font-size: 14.5px; }
+.ex-warn { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; font-size: 13.5px; font-weight: 700; padding: 10px 12px; border-radius: 12px; background: var(--red-bg); color: var(--red-d); }
+.ex-hist { display: flex; justify-content: space-between; gap: 10px; font-size: 13.5px; padding: 6px 2px; border-top: 1px solid var(--line); }
+.ex-hist:first-of-type { border-top: 0; }
+.score-card { display: flex; align-items: center; gap: 14px; border-radius: var(--radius); border: 2px solid var(--line); background: var(--card); padding: 12px 14px; }
+.score-card .sc-pipou { width: 84px; height: 84px; flex: none; }
+.score-card .sc-big { font-size: 44px; font-weight: 900; line-height: 1; }
+.score-card .sc-big small { font-size: 18px; margin-left: 2px; }
+.score-card .sc-sub { font-size: 13.5px; color: var(--muted); margin-top: 4px; }
+.score-card .sc-sub b { color: var(--text); }
+.wk-cat { display: flex; flex-direction: column; gap: 2px; padding: 8px 0; border-top: 1px solid var(--line); }
+.wk-cat:first-child { border-top: 0; padding-top: 0; }
+.wk-cat small { color: var(--muted); font-size: 12.5px; line-height: 1.45; }
+.wk-tip { font-size: 13px; color: var(--muted); margin: -6px 4px 0; line-height: 1.45; }
+.rv-list { display: flex; flex-direction: column; gap: 8px; }
+.rv { border-radius: 14px; border: 2px solid var(--line); background: var(--card); padding: 10px 12px; display: flex; flex-direction: column; gap: 4px; font-size: 14.5px; min-width: 0; }
+.rv.bad { border-color: var(--red-bg); }
+.rv-h { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.rv-h small { color: var(--muted); font-size: 12px; flex: 1; min-width: 0; }
+.rv.ok .rv-h b { color: var(--green-d); }
+.rv.bad .rv-h b { color: var(--red-d); }
+.rv-q { overflow-wrap: anywhere; }
+.rv-me, .rv-ans { font-size: 13.5px; overflow-wrap: anywhere; }
+.rv-me { color: var(--red-d); }
+.rv-ans { color: var(--green-d); }
+.rv-me .fr, .rv-ans .fr { font-weight: 800; margin-left: 4px; }
+.rv-exp { font-size: 12.5px; color: var(--muted); }
+.rv-act { display: flex; gap: 8px; flex-wrap: wrap; }
+.rv-act .note-link { width: auto; margin-top: 4px; background: var(--bg2); padding: 7px 10px; }
+.rv-act .fb-override { margin-top: 4px; }
+.bar-row.wide { grid-template-columns: minmax(0, 1fr) 72px 40px; }
+.bar-row.wide span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }

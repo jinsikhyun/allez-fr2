@@ -1,0 +1,237 @@
+{
+ "semaine 7-1": {
+  "p.1": [
+   "skip: 표지 (Semaine 7 · Leçon 11 · 10/13)"
+  ],
+  "p.2": [
+   "skip: 목차 (Révision : le futur simple / Le comparatif)"
+  ],
+  "p.3": [
+   "skip: PARTIE 1 간지 (Révision : le futur simple)"
+  ],
+  "p.4": [
+   "u3-01-c-usage",
+   "u3-01-c-endings",
+   "u3-01-c-je-trouver",
+   "u3-01-t-nous-trouver",
+   "note:u3-03#0"
+  ],
+  "p.5": [
+   "u3-01-c-elle-parler",
+   "u3-02-c-regarder",
+   "u3-03-c-etudier-je",
+   "u3-03-t-etudier-nous",
+   "u3-03-c-etudier-ils",
+   "u3-03-l-etudierai",
+   "note:u3-03#0"
+  ],
+  "p.6": [
+   "u3-01-c-ecrire-je",
+   "u3-01-t-nous-prendre",
+   "u3-01-err-prendrerai",
+   "note:u3-03#0"
+  ],
+  "p.7": [
+   "u3-03-b-visiterons",
+   "u3-03-t-repondrez",
+   "u3-03-b-neg-ecriront",
+   "u3-03-l-ecriront",
+   "u3-03-b-neg-dinerai",
+   "u3-03-c-neg-order",
+   "note:u3-03#1",
+   "tip:u3-03#0",
+   "tip:u3-03#1"
+  ],
+  "p.8": [
+   "u3-02-c-irr-avoir",
+   "u3-02-c-irr-etre",
+   "u3-02-c-savoir",
+   "u3-03-l-saurons",
+   "u3-03-l-serez",
+   "u3-03-c-serons-pron",
+   "note:u3-03#2"
+  ],
+  "p.9": [
+   "u3-02-c-voir",
+   "u3-02-t-faire-il",
+   "u3-02-t-aller-je",
+   "u3-03-c-rr",
+   "note:u3-03#2"
+  ],
+  "p.10": [
+   "u3-02-c-vouloir",
+   "u3-02-c-pouvoir",
+   "u3-02-t-venir-ils",
+   "u3-03-c-devenir-je",
+   "u3-03-t-devenir-tu",
+   "note:u3-03#2"
+  ],
+  "p.11": [
+   "u3-03-t-aurai-age",
+   "u3-03-b-serez-libre",
+   "u3-03-b-niront",
+   "u3-03-c-saura-dans",
+   "u3-03-err-sera-verite",
+   "u3-03-w-dans-quelques-jours",
+   "u3-03-w-cette-annee",
+   "note:u3-03#3"
+  ],
+  "p.12": [
+   "skip: PARTIE 2 간지 (Le comparatif)"
+  ],
+  "p.13": [
+   "u3-04-c-degres",
+   "u3-04-c-mots",
+   "note:u3-04#0"
+  ],
+  "p.14": [
+   "u3-04-b-plus-grand",
+   "u3-04-c-plus-grande",
+   "u3-04-b-plus-vite",
+   "u3-04-w-souvent",
+   "u3-04-w-vite",
+   "note:u3-04#1"
+  ],
+  "p.15": [
+   "u3-04-c-moins-grand",
+   "u3-04-c-aussi-grande",
+   "note:u3-04#1",
+   "tip:u3-04#0"
+  ],
+  "p.16": [
+   "u3-04-c-moins-vite-sens",
+   "u3-04-c-aussi-souvent",
+   "note:u3-04#1"
+  ],
+  "p.17": [
+   "u3-04-c-qu-alex",
+   "u3-04-c-moins-interessant",
+   "u3-04-c-aussi-chere",
+   "u3-04-b-plus-tot",
+   "u3-04-c-aussi-tard",
+   "u3-04-w-cher",
+   "u3-04-w-jeune",
+   "u3-04-w-interessant",
+   "u3-04-w-tot",
+   "u3-04-w-tard",
+   "note:u3-04#2"
+  ],
+  "p.18": [
+   "u3-04-c-formule-qualite",
+   "u3-04-c-aussi-autant",
+   "note:u3-04#1"
+  ],
+  "p.19": [
+   "u3-04-b-plus-de-sacs",
+   "u3-04-c-que-moi",
+   "u3-04-c-plus-d-argent",
+   "u3-04-b-mange-plus",
+   "u3-04-w-argent",
+   "note:u3-04#3"
+  ],
+  "p.20": [
+   "u3-04-c-autant-de-sacs",
+   "u3-04-c-moins-d-argent",
+   "note:u3-04#3"
+  ],
+  "p.21": [
+   "u3-04-c-autant-verbe",
+   "u3-04-c-boit-moins-sens",
+   "note:u3-04#3"
+  ],
+  "p.22": [
+   "u3-04-b-plus-de-livres",
+   "u3-04-c-autant-d-amis",
+   "u3-04-err-que-alex",
+   "u3-04-err-que-hier",
+   "u3-04-b-moins-qu-avant",
+   "u3-04-w-avant",
+   "note:u3-04#4"
+  ],
+  "p.23": [
+   "u3-04-c-formule-quantite",
+   "u3-04-c-aussi-autant",
+   "note:u3-04#3",
+   "tip:u3-04#1"
+  ],
+  "p.24": [
+   "skip: 마무리 슬라이드 (Questions / À demain !)"
+  ]
+ },
+ "노션 10/13": {
+  "§ 목차 — 단순 미래형 복습, 비교급 진도": [
+   "note:u3-03#0",
+   "note:u3-04#0"
+  ],
+  "§ Révision : le futur simple — 어미 · trouver · -re 동사 e 빼기": [
+   "u3-01-c-endings",
+   "u3-01-c-je-trouver",
+   "u3-01-err-prendrerai",
+   "note:u3-03#0"
+  ],
+  "§ exemples — 현재→미래 (Ils ne m'écriront pas → 듣기 주의)": [
+   "u3-03-b-neg-ecriront",
+   "u3-03-l-ecriront",
+   "u3-03-b-neg-dinerai",
+   "note:u3-03#1"
+  ],
+  "§ serons / saurons - serez / saurez 발음 주의": [
+   "u3-03-l-saurons",
+   "u3-03-l-serez",
+   "u3-03-c-serons-pron",
+   "tip:u3-03#2"
+  ],
+  "§ -r- / -rr- 발음 다름": [
+   "u3-03-c-rr",
+   "note:u3-03#2"
+  ],
+  "§ devenir도 venir랑 똑같음 (Je deviendrai …)": [
+   "u3-03-c-devenir-je",
+   "u3-03-t-devenir-tu",
+   "u3-03-w-devenir",
+   "tip:u3-03#3"
+  ],
+  "§ exemples — J'aurai 21 ans · serez libre · n'iront pas · saura dans quelques jours": [
+   "u3-03-t-aurai-age",
+   "u3-03-b-serez-libre",
+   "u3-03-b-niront",
+   "u3-03-c-saura-dans",
+   "u3-03-w-dans-quelques-jours",
+   "note:u3-03#3"
+  ],
+  "§ Le comparatif — 확실하게 배워놓기 · plus/moins/aussi · grande(여성형)": [
+   "u3-04-c-mots",
+   "u3-04-c-plus-grande",
+   "note:u3-04#0",
+   "note:u3-04#1"
+  ],
+  "§ exemples (성질) — 해석 · moins intéressant 리에종 · cher/chère": [
+   "u3-04-c-pron-moins-interessant",
+   "u3-04-c-aussi-chere",
+   "u3-04-w-interessant",
+   "note:u3-04#2"
+  ],
+  "§ comparer des quantités — plus에 s 발음 · plus beaucoup (정정)": [
+   "u3-04-b-mange-plus",
+   "u3-04-err-plus-beaucoup",
+   "u3-04-c-pron-plus-que",
+   "note:u3-04#3"
+  ],
+  "§ exemples (양) — qu'hier 무음 h 축약": [
+   "u3-04-err-que-hier",
+   "u3-04-c-autant-d-amis",
+   "note:u3-04#4"
+  ],
+  "§ plus 발음 정리 표": [
+   "u3-04-c-pron-plus-grand",
+   "u3-04-c-pron-plus-interessant",
+   "u3-04-c-pron-plus-que",
+   "u3-04-c-pron-ne-plus",
+   "u3-04-c-ne-plus-sens",
+   "note:u3-04#5"
+  ],
+  "§ 슬라이드 캡처 이미지들": [
+   "skip: 이미지 파일은 열 수 없음 — 같은 내용의 semaine 7-1 슬라이드로 반영"
+  ]
+ }
+}

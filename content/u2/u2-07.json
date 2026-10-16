@@ -1,0 +1,538 @@
+{
+  "id": "u2-07",
+  "unit": "u2",
+  "title": "길 묻기 업그레이드 · se rendre · 시사 (10/7 녹음)",
+  "emoji": "🗣️",
+  "date": "2026-10-07",
+  "sources": [
+    "semaine 6-2",
+    "녹음 10/7 (Tiro 전사)"
+  ],
+  "tips": [
+    {
+      "h": "se rendre → Rendez-vous",
+      "b": "Je **me rends** à la fac. = Je vais à la fac. ('고급' 느낌)\nVous vous rendez → **Rendez-vous** à la fac ! → '학교에서 만나요'로 굳음\nun rendez-vous = 약속"
+    },
+    {
+      "h": "한 단계 업그레이드한 길 묻기",
+      "rows": [
+        [
+          "Pardon, monsieur.",
+          "**Excusez-moi**, monsieur. (더 자연스러움)"
+        ],
+        [
+          "Pour aller au Panthéon ?",
+          "… , **s'il vous plaît** ? / **Comment** aller au Panthéon ?"
+        ],
+        [
+          "Où est le Panthéon ?",
+          "Où **se trouve** le Panthéon ?"
+        ],
+        [
+          "Pour aller aux toilettes ? ✗",
+          "Où sont / Où **se trouvent** les toilettes ?"
+        ]
+      ]
+    },
+    {
+      "h": "리액션·연결어",
+      "b": "**Ah bon ?** 아 그래요? · **Eh bien** [에 비앙] 그럼 · **là-bas** 저쪽 ↔ ici\nVous comprenez **mieux** ? — mieux = better\n**C'est à vous.** 여러분 차례예요"
+    }
+  ],
+  "note": [
+    {
+      "h": "se rendre — aller의 고급 버전, 그리고 Rendez-vous",
+      "skill": "pronominal",
+      "src": [
+        "녹음 10/7"
+      ],
+      "body": [
+        {
+          "p": "교수님: 'aller 대신 쓸 수 있는 대명동사 가다가 있었죠 — **se rendre**.' rendre는 '돌려주다'인데 **나 자신을 어디로 돌려준다 → 어디로 간다**."
+        },
+        {
+          "ex": [
+            [
+              "Je me rends à la fac.",
+              "나는 대학에 간다. (= Je vais à la fac.)"
+            ],
+            [
+              "Vous vous rendez à la fac.",
+              "당신은 학교에 갑니다."
+            ],
+            [
+              "Rendez-vous à la fac !",
+              "학교에서 만나요! (명령문이 굳은 표현)"
+            ]
+          ]
+        },
+        {
+          "memo": "교수님: 'Je me rends à la fac 이렇게 쓰면 고급이다, 프랑스어 좀 한다 이런 느낌. 다 배운 건데 잘 안 나와요.' / 'Rendez-vous로 시작하면 어디서 만나자라는 표현으로 굳었어요.' un rendez-vous = 약속(한국어 '랑데부')."
+        },
+        {
+          "warn": "활용은 rendre와 같다: je me rends · tu te rends · il se rend · nous nous rendons · vous vous rendez. 명령문은 재귀대명사가 동사 뒤로: Rendez-vous ! (Vous rendez ✗)"
+        }
+      ]
+    },
+    {
+      "h": "길 묻기 — 한 단계 업그레이드",
+      "skill": "greet",
+      "src": [
+        "semaine 6-2 p.14",
+        "semaine 6-2 p.16",
+        "녹음 10/7"
+      ],
+      "body": [
+        {
+          "list": [
+            "**Excusez-moi, monsieur. / S'il vous plaît, monsieur.** — 'C'est plus naturel.' 본문의 Pardon은 지나가다 부딪혔을 때 쓰는 말",
+            "Pour aller au Panthéon, **s'il vous plaît** ? — 더 공손하게",
+            "**Comment** aller au Panthéon ? — 배운 표현으로 '어떻게 가요?'",
+            "Où est le Panthéon ? → Où **se trouve** le Panthéon ? — '아는 것 안에서 고급스럽게'"
+          ]
+        },
+        {
+          "table": [
+            [
+              "화장실 물어보기",
+              ""
+            ],
+            [
+              "Les toilettes, s'il vous plaît.",
+              "⭕"
+            ],
+            [
+              "Où sont les toilettes, s'il vous plaît ?",
+              "⭕ '얘 좀 배운 거 같아'"
+            ],
+            [
+              "Où se trouvent les toilettes ?",
+              "⭕ 고급"
+            ],
+            [
+              "Pour aller aux toilettes ?",
+              "❌ 'ça marche pas'"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "list": [
+            "Vous comprenez **mieux** ? — 이제 더 잘 이해되세요? (mieux = better, plus bien ✗)",
+            "**Ah bon ?** — 리액션, '친구들이 무슨 얘기할 때 그냥 Ah bon?'",
+            "**Eh bien** — '르가 아니고 에더라고요' [에 비앙], 그럼·자",
+            "**là-bas** 저쪽 ↔ **ici** 여기 — Vous voyez la Seine là-bas ?",
+            "**C'est à vous.** — 원래 '~의 것이다', 여기선 '여러분 차례예요'"
+          ]
+        },
+        {
+          "memo": "교수님: 본문에서 지하철 탈지 묻는 건 파리에선 어색한 맥락이지만 '표현을 많이 배우게 하려고 넣은 것'."
+        }
+      ]
+    },
+    {
+      "h": "시사 — 시위 영상 속 표현",
+      "skill": "vocab",
+      "src": [
+        "semaine 6-2 p.7–8",
+        "녹음 10/7"
+      ],
+      "body": [
+        {
+          "ex": [
+            [
+              "On n'en peut plus.",
+              "더는 못 참겠어."
+            ],
+            [
+              "Qu'est-ce qui ne va pas ?",
+              "뭐가 문제야? (qu'est-ce qui = 무엇이)"
+            ],
+            [
+              "On n'a pas de clim l'été, donc on est obligé de faire cours à l'extérieur.",
+              "여름에 에어컨이 없어서 밖에서 수업해야 한다."
+            ]
+          ]
+        },
+        {
+          "list": [
+            "**surchargé** — (반에 학생이) 너무 많은, 과밀한. 교수님: '30명이 넘는 — 프랑스에선 그렇게 설계가 되지 않았었는데'",
+            "**l'actualité** (f) 뉴스, 시사",
+            "**la fermeture** (f) 폐쇄 — fermer 닫다. Fermeture temporaire des locaux de l'université mardi 6 octobre (p.8 낭테르 대학 공지)"
+          ]
+        },
+        {
+          "memo": "교수님: 'Qu'est-ce qui ne va pas — 배운 거예요. 무엇이, doesn't go well.' 영상 속 학생 말 « Le plancher, il est pas droit »(바닥이 반듯하지 않다)에도 형용사 droit가 나옴."
+        }
+      ]
+    },
+    {
+      "h": "판테옹 · droit 보충",
+      "skill": "vocab",
+      "src": [
+        "semaine 6-2 p.11",
+        "semaine 6-2 p.15",
+        "녹음 10/7"
+      ],
+      "body": [
+        {
+          "list": [
+            "**Sainte** = Saint(성인)의 여성형 → 성녀. Sainte-Geneviève = 파리의 수호 성녀 (Mont Saint-Michel의 Saint)",
+            "**l'église**: 프랑스는 가톨릭 국가라 교회·성당 구분 없이 다 église, 크면 **la cathédrale**",
+            "판테옹은 1750년대부터 Église Sainte-Geneviève로 짓다가 1790년쯤 완공 → 대혁명 직후라 위인을 모시는 곳으로"
+          ]
+        },
+        {
+          "p": "**à droite에 왜 -e?** 교수님: '**la direction** droite가 앞에 있다고 생각하면 될 것 같습니다.' — 숨은 여성 명사 direction에 맞춘 셈."
+        }
+      ]
+    },
+    {
+      "h": "발음",
+      "skill": "pron",
+      "src": [
+        "semaine 6-2 p.4",
+        "녹음 10/7"
+      ],
+      "body": [
+        {
+          "list": [
+            "**Parle !** — r·l처럼 자음이 연달아 오면 바로 앞 모음을 길게: 'parle 하지 말고 paaarle'",
+            "Je me rends [쥬 므 항] · Rendez-vous [항데 부]",
+            "Excusez-moi [엑스뀌제 무아] · Eh bien [에 비앙] · là-bas [라 바]",
+            "On n'en peut plus [옹 낭 쁘 쁠뤼] · l'actualité [락뛰알리떼]"
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "u2-07-c-me-rends",
+      "t": "choice",
+      "skill": "pronominal",
+      "prompt": "고급스럽게 '대학에 간다'",
+      "q": "Je ___ à la fac.",
+      "ko": "나는 대학에 간다.",
+      "a": "me rends",
+      "wrong": [
+        "me rend",
+        "rends",
+        "me rendre"
+      ],
+      "hint": "se rendre는 rendre처럼 활용 — je 형태는?",
+      "explain": "se rendre à = aller à. je me rends (rendre: je rends).",
+      "src": "녹음 10/7",
+      "star": true
+    },
+    {
+      "id": "u2-07-c-vous-rendez",
+      "t": "choice",
+      "skill": "pronominal",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Vous ___ à la fac.",
+      "ko": "당신은 학교에 갑니다.",
+      "a": "vous rendez",
+      "wrong": [
+        "rendez",
+        "vous rendre",
+        "vous rendre à"
+      ],
+      "hint": "대명동사라 재귀대명사도 주어에 맞춰요.",
+      "explain": "vous vous rendez — 주어 vous + 재귀대명사 vous.",
+      "src": "녹음 10/7"
+    },
+    {
+      "id": "u2-07-c-rendez-vous-imp",
+      "t": "choice",
+      "skill": "imperatif",
+      "prompt": "명령문으로 바꾸면?",
+      "q": "Vous vous rendez à la fac.",
+      "a": "Rendez-vous à la fac !",
+      "wrong": [
+        "Vous rendez à la fac !",
+        "Rendez-nous à la fac !",
+        "Rends-vous à la fac !"
+      ],
+      "hint": "주어를 빼고, 재귀대명사는 긍정 명령문에서 동사 뒤로.",
+      "explain": "Lavez-vous처럼 Rendez-vous. 이 명령문이 '~에서 만나요'로 굳었어요.",
+      "src": "녹음 10/7",
+      "star": true
+    },
+    {
+      "id": "u2-07-c-rendez-vous-sens",
+      "t": "choice",
+      "skill": "vocab",
+      "prompt": "« Rendez-vous à la fac ! »가 굳어서 쓰이는 뜻은?",
+      "q": "Rendez-vous à la fac !",
+      "a": "학교에서 만나요!",
+      "wrong": [
+        "학교에 돌려주세요!",
+        "학교를 떠나세요!",
+        "학교에 약속을 취소하세요!"
+      ],
+      "say": "Rendez-vous à la fac !",
+      "hint": "명사 un rendez-vous의 뜻을 떠올려요.",
+      "explain": "교수님: 'Rendez-vous로 시작하면 어디서 만나자라는 표현으로 굳었어요.'",
+      "src": "녹음 10/7"
+    },
+    {
+      "id": "u2-07-w-rendez-vous",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "un rendez-vous",
+      "ko": "약속, 만남",
+      "g": "m",
+      "pron": "[앙 항데부]",
+      "note": "se rendre의 명령문 Rendez-vous에서 온 말",
+      "src": "녹음 10/7"
+    },
+    {
+      "id": "u2-07-c-excusez",
+      "t": "choice",
+      "skill": "greet",
+      "prompt": "길을 물을 때 교수님이 'plus naturel'이라고 한 말은?",
+      "q": "___, monsieur. Pour aller au Panthéon ?",
+      "ko": "실례합니다. 판테옹 가려면요?",
+      "a": "Excusez-moi",
+      "wrong": [
+        "Pardon",
+        "Salut",
+        "Merci"
+      ],
+      "hint": "본문 표현보다 자연스러운 '실례합니다' — vous 명령문이에요.",
+      "explain": "Pardon은 지나가다 부딪혔을 때. 길을 물을 땐 Excusez-moi / S'il vous plaît, monsieur.",
+      "src": "녹음 10/7",
+      "star": true
+    },
+    {
+      "id": "u2-07-c-pardon-when",
+      "t": "choice",
+      "skill": "greet",
+      "prompt": "교수님 설명: Pardon은 주로 언제 쓰나요?",
+      "q": "Pardon !",
+      "a": "지나가다 부딪혔을 때",
+      "wrong": [
+        "모르는 사람에게 길을 물을 때 가장 자연스럽게",
+        "헤어질 때",
+        "선물을 받았을 때"
+      ],
+      "say": "",
+      "hint": "길 묻기엔 더 자연스러운 표현이 따로 있다고 했어요.",
+      "explain": "교수님: 'Pardon은 뭐 쳤을 때, 지나가다 치고 나서.' 길을 물을 땐 Excusez-moi.",
+      "src": "녹음 10/7"
+    },
+    {
+      "id": "u2-07-c-comment-aller",
+      "t": "choice",
+      "skill": "question",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "___ aller au Panthéon ?",
+      "ko": "판테옹에 어떻게 가요?",
+      "a": "Comment",
+      "wrong": [
+        "Où",
+        "Pourquoi",
+        "Quand"
+      ],
+      "hint": "Pour aller 대신 '어떻게'를 묻는 의문사.",
+      "explain": "Comment aller au Panthéon ? — 교수님이 Pour aller ~ ? 대신 제안한 표현.",
+      "src": "녹음 10/7"
+    },
+    {
+      "id": "u2-07-c-svp",
+      "t": "choice",
+      "skill": "greet",
+      "prompt": "모르는 사람에게 공손하게",
+      "q": "Pour aller au Panthéon, ___ ?",
+      "ko": "판테옹에 가려면요?",
+      "a": "s'il vous plaît",
+      "wrong": [
+        "merci",
+        "de rien",
+        "pardon"
+      ],
+      "hint": "처음 보는 사람에게 붙이는 공손한 꼬리말.",
+      "explain": "교수님: 공손한 느낌을 주려면 Pour aller au Panthéon, s'il vous plaît ?",
+      "src": "녹음 10/7"
+    },
+    {
+      "id": "u2-07-err-toilettes",
+      "t": "error",
+      "skill": "vocab",
+      "s": "Pour aller aux toilettes, s'il vous plaît ?",
+      "wrong": "Pour aller aux toilettes",
+      "right": "Où sont les toilettes",
+      "ko": "화장실이 어디예요?",
+      "hint": "화장실은 '가는 길'이 아니라 '위치'를 물어요.",
+      "explain": "교수님: 'Pour aller aux toilettes — ça marche pas.' Où sont / Où se trouvent les toilettes ?",
+      "src": "녹음 10/7"
+    },
+    {
+      "id": "u2-07-c-mieux",
+      "t": "choice",
+      "skill": "vocab",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Alors, vous comprenez ___ ?",
+      "ko": "자, 이제 더 잘 이해되세요?",
+      "a": "mieux",
+      "wrong": [
+        "meilleur",
+        "plus bien",
+        "bon"
+      ],
+      "hint": "영어 better에 해당하는 부사예요.",
+      "explain": "bien의 비교급 = mieux (plus bien ✗). meilleur는 형용사.",
+      "src": "녹음 10/7"
+    },
+    {
+      "id": "u2-07-w-la-bas",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "là-bas",
+      "ko": "저쪽에, 저기",
+      "note": "↔ ici 여기 · Vous voyez la Seine là-bas ?",
+      "pron": "[라 바]",
+      "src": "semaine 6-2 p.14"
+    },
+    {
+      "id": "u2-07-w-eh-bien",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "Eh bien",
+      "ko": "그럼, 자 (말 꺼낼 때)",
+      "pron": "[에 비앙]",
+      "note": "교수님: '르'가 아니라 '에'",
+      "src": "semaine 6-2 p.14"
+    },
+    {
+      "id": "u2-07-w-ah-bon",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "Ah bon ?",
+      "ko": "아 그래요? (리액션)",
+      "src": "semaine 6-2 p.14"
+    },
+    {
+      "id": "u2-07-w-c-est-a-vous",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "C'est à vous.",
+      "ko": "여러분 차례예요.",
+      "note": "원래 뜻: 당신(들)의 것이다",
+      "src": "녹음 10/7"
+    },
+    {
+      "id": "u2-07-w-on-n-en-peut-plus",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "On n'en peut plus.",
+      "ko": "더는 못 참겠어.",
+      "src": "semaine 6-2 p.7"
+    },
+    {
+      "id": "u2-07-c-qu-est-ce-qui",
+      "t": "choice",
+      "skill": "question",
+      "prompt": "뜻은?",
+      "q": "Qu'est-ce qui ne va pas ?",
+      "a": "뭐가 문제야?",
+      "wrong": [
+        "뭐가 마음에 들어?",
+        "너 어디 안 가?",
+        "누가 안 와?"
+      ],
+      "say": "Qu'est-ce qui ne va pas ?",
+      "hint": "qu'est-ce qui = 무엇이(주어) / ne va pas = 잘 안 되다",
+      "explain": "교수님: '배운 거예요. 무엇이, doesn't go well — 뭐가 문제냐?'",
+      "src": "semaine 6-2 p.7"
+    },
+    {
+      "id": "u2-07-w-actualite",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "l'actualité",
+      "ko": "뉴스, 시사",
+      "g": "f",
+      "src": "semaine 6-2 p.7"
+    },
+    {
+      "id": "u2-07-w-fermeture",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "la fermeture",
+      "ko": "폐쇄, 닫음",
+      "g": "f",
+      "note": "fermer 닫다 · p.8 Fermeture temporaire (임시 폐쇄)",
+      "src": "semaine 6-2 p.8"
+    },
+    {
+      "id": "u2-07-c-eglise",
+      "t": "choice",
+      "skill": "vocab",
+      "prompt": "교수님 설명: 프랑스에서 église는?",
+      "q": "l'église",
+      "a": "교회·성당 구분 없이 다 église (크면 cathédrale)",
+      "wrong": [
+        "개신교 교회만 가리킨다",
+        "가톨릭 대성당만 가리킨다",
+        "수도원만 가리킨다"
+      ],
+      "say": "",
+      "hint": "프랑스는 원래 가톨릭 국가였어요.",
+      "explain": "한국처럼 교회/성당을 나누지 않고 다 église, 큰 건 cathédrale.",
+      "src": "semaine 6-2 p.15"
+    },
+    {
+      "id": "u2-07-c-sainte",
+      "t": "choice",
+      "skill": "vocab",
+      "prompt": "Sainte-Geneviève의 Sainte는?",
+      "q": "Église Sainte-Geneviève",
+      "a": "Saint(성인)의 여성형 — 성녀",
+      "wrong": [
+        "Saint의 복수형",
+        "'건강한'이라는 형용사",
+        "왕비라는 뜻"
+      ],
+      "say": "",
+      "hint": "Mont Saint-Michel의 Saint에 -e가 붙었어요.",
+      "explain": "Sainte = 성녀. 생트 주느비에브는 파리의 수호 성녀.",
+      "src": "semaine 6-2 p.15"
+    },
+    {
+      "id": "u2-07-c-droite-e",
+      "t": "choice",
+      "skill": "vocab",
+      "prompt": "à droite에 -e가 붙는 이유 (교수님 설명)는?",
+      "q": "Tournez à droite.",
+      "a": "앞에 여성 명사 la direction이 숨어 있다고 생각",
+      "wrong": [
+        "droite가 부사라서",
+        "rue가 여성 명사라서",
+        "주어가 복수라서"
+      ],
+      "say": "",
+      "hint": "생략된 '방향'이라는 명사를 떠올려요.",
+      "explain": "교수님: 'la direction droite가 앞에 있다고 생각하면 될 것 같습니다.'",
+      "src": "semaine 6-2 p.11"
+    },
+    {
+      "id": "u2-07-c-parle-pron",
+      "t": "choice",
+      "skill": "pron",
+      "prompt": "Parle !처럼 r·l 자음이 겹칠 때 교수님 발음 요령은?",
+      "q": "Parle !",
+      "a": "바로 앞 모음을 길게 끈다",
+      "wrong": [
+        "r을 생략한다",
+        "l 뒤에 [으]를 세게 넣는다",
+        "두 자음 사이를 끊어 읽는다"
+      ],
+      "say": "Parle !",
+      "hint": "'parle 하지 말고 paaarle'",
+      "explain": "자음이 연달아 오면 앞 모음을 길게 — [빠–흘르].",
+      "src": "semaine 6-2 p.4"
+    }
+  ]
+}

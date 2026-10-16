@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-11T14:12:21Z",
+  "last_run": "2026-10-16T07:21:43Z",
   "notion_parent": "722e4debecb882bda65301cb03f6526f",
   "files": {
     "FRAN141(03).hwp": {
@@ -75,12 +75,27 @@
     "[Francais II]semaine 6-2.pdf": {
       "size": 1848148,
       "mtime": 1791428708,
-      "via": "채팅 요청으로 반영(2026-10-08) — 학생 결석, 녹음 2개(약 104분) 전사 + 슬라이드. u2-06 · u3-01(새 유닛 u3)"
+      "via": "채팅 요청으로 반영(2026-10-08) — 학생 결석, 녹음 2개(약 104분) 전사 + 슬라이드. u2-06 · u3-01(새 유닛 u3) / 2026-10-12 Tiro 전사로 교차검증 → u2-06 정정, u2-07·u2-08 추가"
     },
     "[Francais II]semaine 6-3.pdf": {
       "size": 295572,
       "mtime": 1791428687,
       "via": "채팅 요청으로 반영(2026-10-11): u3-02 생성"
+    },
+    "[Francais II]semaine 7-1.pdf": {
+      "size": 318792,
+      "mtime": 1791860120,
+      "via": "2026-10-14 채팅 요청 실행: u3-03 · u3-04 생성"
+    },
+    "[Francais II]semaine 7-2.pdf": {
+      "size": 336429,
+      "mtime": 1791963105,
+      "via": "2026-10-15 자동 실행: u3-05 · u3-06 · u3-07 생성"
+    },
+    "[Francais II]semaine 7-3.pdf": {
+      "size": 370961,
+      "mtime": 1792066135,
+      "via": "채팅 요청으로 반영(2026-10-16): u3-08 생성"
     }
   },
   "notion_processed": {
@@ -99,9 +114,12 @@
     "f5be4debecb883c393e3018310008c95": "9/30 (학생 필기 글: -al→-aux·faisant/prenant·devoir/savoir·trop → u2-03. 사진 이미지는 열 수 없어 미반영. 하위 「Semaine 5-2 정리」는 Claude 페이지라 제외)",
     "3ece4debecb8810ab004f852898bda4b": "10/1 (학생 필기 글 → u2-04. 사진 이미지는 열 수 없어 미반영. 하위 「Semaine 5-3 정리」는 Claude 페이지라 제외)",
     "3ece4debecb881a29a1dc26caaf0c801": "10/6 (학생 필기 글: 명령문 -s 규칙·aie·aller·tout droit·n'allez·me→moi·envoyer → u2-05. 사진 미반영. 하위 「Semaine 6-1 정리」는 Claude 페이지라 제외)",
-    "3ece4debecb881a19785f19c606b84b1": "10/7 (학생 결석 — 날짜 페이지 비어 있음. Claude가 녹음 기반 하위 「Semaine 6-2 정리」 작성 → u2-06·u3-01. 이후 학생이 날짜 페이지에 필기를 쓰면 보강)",
+    "3ece4debecb881a19785f19c606b84b1": "10/7 (학생 결석 — 본문 없음. 하위: 학생이 올린 Tiro 전사 「교양프랑스어 II 1007」 + Claude 「Semaine 6-2 정리 (녹음 교차검증본)」 → u2-06 정정·u2-07·u2-08 (2026-10-12 채팅). 이후 학생이 본문에 필기를 쓰면 보강)",
     "3ece4debecb881aa945cc0370ef26996": "10/8 (학생 필기 글: 어미·trou/ve/rai·-e 떼기·예문 5개·voyageront·faisons/ferons·sauront/auront·voudrai/voudrais·Ce sera → u3-02. 이미지는 열 수 없어 슬라이드로 대체)",
-    "3f6e4debecb8814d8102fc96e38ce764": "midterm 「Leçon 9 정리노트」 (Claude 정리 페이지지만 Quiz 2 (9/17) 문항은 수업 자료 → u1-17. 나머지는 기존 u1 레슨과 중복이라 제외)"
+    "3f6e4debecb8814d8102fc96e38ce764": "midterm 「Leçon 9 정리노트」 (Claude 정리 페이지지만 Quiz 2 (9/17) 문항은 수업 자료 → u1-17. 나머지는 기존 u1 레슨과 중복이라 제외)",
+    "3ece4debecb881d9a04eff15e52837bf": "10/13 (학생 필기 글: 미래 복습 예문·듣기 주의·serons/saurons·-r-/-rr-·devenir·비교급 예문·plus 발음표 → u3-03·u3-04. 이미지 미반영. 하위 「Semaine 7-1 정리」는 Claude 페이지라 제외)",
+    "3ece4debecb88142a1c0fa9e1edea584": "10/14 (학생 필기 글: 시험 안내(10년 뒤 미래·듣기 4–5문항)·Ce/Ça/Cela·aussi/autant·un peu/peu·Ex.2 답 moins·meilleur/mieux·최상급 일치·Russie 어순 → u3-05·u3-06·u3-07. 하위 「미래형 10년뒤 나」 작문 해설 → u3-07. 하위 「Semaine 7-2 정리」는 Claude 페이지라 제외. 이미지 미반영)",
+    "3ece4debecb881d18ee5d0d8281e4581": "10/15 (학생 필기 글: 최상급 예문 메모·inquiète/inquiétons 발음·pollués·시간 표지 → u3-08. 하위 「Semaine 7-3 정리」는 Claude 페이지라 제외. 하위 「시험 대비 — 10년 후 나의 하루」의 교수님 피드백(chez moi·ma femme et moi boirons·en regardant)만 u3-08에 반영. 이미지는 열 수 없음)"
   },
   "notion_empty_at_last_run": {},
   "note": "FRAN141(03).hwp는 교프어I(지난 학기) 강의계획서라 콘텐츠에 사용하지 않음",

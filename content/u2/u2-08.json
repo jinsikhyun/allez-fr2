@@ -1,0 +1,652 @@
+{
+  "id": "u2-08",
+  "unit": "u2",
+  "title": "GPS · 길 안내 듣기 실전 (10/7 녹음)",
+  "emoji": "🎧",
+  "date": "2026-10-07",
+  "sources": [
+    "semaine 6-2 p.12",
+    "semaine 6-2 p.17–19",
+    "녹음 10/7 (Tiro 전사)"
+  ],
+  "tips": [
+    {
+      "h": "⭐ 시험 형식 (교수님)",
+      "b": "'C'est très très important pour l'examen.'\n안내를 **듣고 어느 건물로 가는지 고르기** — 길 이름만 읽을 줄 알면 된다\n길 설명을 직접 쓰는 주관식은 '생각 없다' (나온다면 지도에 화살표)"
+    },
+    {
+      "h": "GPS 안내 문구",
+      "rows": [
+        [
+          "Après 100 mètres, tournez à gauche.",
+          "100m 후 좌회전"
+        ],
+        [
+          "Traversez le rond-point, deuxième sortie.",
+          "로터리 지나 2번째 출구"
+        ],
+        [
+          "Puis tenez la gauche.",
+          "왼쪽 차선 유지 (tourner ✗)"
+        ],
+        [
+          "Puis prenez l'autoroute.",
+          "고속도로를 타세요"
+        ]
+      ]
+    },
+    {
+      "h": "듣기에 꼭 나오는 표현",
+      "b": "**Vous êtes ici** 현재 위치 · **en face de** 맞은편 · **C'est sur votre droite** 오른편\n**en arrivant** devant ~ (~앞에 도착하면, 제롱디프) · **jusqu'à** ~까지 · **sortez de** ~에서 나오세요"
+    },
+    {
+      "h": "친구에게 길 설명 = tu 명령문",
+      "b": "Prends · Va · Tourne · Continue / '네 왼편' = sur **ta** gauche\n길로 '들어갈' 때는 tourne 대신 **prends** la deuxième rue"
+    }
+  ],
+  "note": [
+    {
+      "h": "GPS 영상 — 트럭 기사 Gauthier",
+      "skill": "imperatif",
+      "src": [
+        "semaine 6-2 p.12",
+        "녹음 10/7"
+      ],
+      "body": [
+        {
+          "p": "교수님: '**Si vous conduisez** — 운전하면 GPS 음성 안내를 들으니까 이 표현이 필요해요.' 네덜란드(Pays-Bas)에서 운전하는 트럭 기사 영상, 내비 이름은 Sophie."
+        },
+        {
+          "ex": [
+            [
+              "Tournez à gauche.",
+              "좌회전하세요."
+            ],
+            [
+              "Traversez le rond-point, deuxième sortie.",
+              "로터리를 지나 두 번째 출구로."
+            ],
+            [
+              "Après 100 mètres, tournez à gauche.",
+              "100미터 후 좌회전하세요."
+            ],
+            [
+              "Au rond-point, tournez à gauche.",
+              "로터리에서 왼쪽으로."
+            ],
+            [
+              "Après 100 mètres, allez tout droit. Puis tenez la gauche.",
+              "100미터 후 직진, 그다음 왼쪽 차선 유지."
+            ],
+            [
+              "Puis prenez l'autoroute.",
+              "그다음 고속도로를 타세요."
+            ]
+          ]
+        },
+        {
+          "ex": [
+            [
+              "Non, je vais pas tourner à gauche, ma petite dame. Je vais continuer parce que je connais un peu la route.",
+              "(기사) 아뇨, 왼쪽 안 갈래요. 이 길 좀 알거든요, 계속 갈게요."
+            ],
+            [
+              "Désolé, Sophie.",
+              "미안, 소피."
+            ],
+            [
+              "Oui, Sophie. On va prendre l'autoroute.",
+              "그래, 소피. 고속도로 탈게."
+            ]
+          ]
+        },
+        {
+          "warn": "교수님: '**tourner 아니고 tenez la gauche** — 헷갈리는 지점이니까 쭉 가는데 왼쪽 차선에 있으라고.' après = after → Après 100 mètres = 100미터 **후에**."
+        },
+        {
+          "memo": "le rond-point(원형 교차로)는 '외울 필요는 없지만', la sortie 출구 · l'autoroute 고속도로 · la route 길."
+        }
+      ]
+    },
+    {
+      "h": "듣기 지도 1 — Vous allez où ? (p.18)",
+      "skill": "localisation",
+      "src": [
+        "semaine 6-2 p.18",
+        "녹음 10/7"
+      ],
+      "body": [
+        {
+          "p": "보기: ① la gare ② le musée ③ le café ④ la pharmacie (지도에 le parc · la boulangerie · la poste · la bibliothèque도 있음). 출발 = **Vous êtes ici**."
+        },
+        {
+          "ex": [
+            [
+              "D'abord, prenez l'avenue des Écoles. Vous arrivez en face de la poste. Ensuite, tournez à droite. Puis allez tout droit et tournez à gauche. C'est la rue Saint-Martin. C'est sur votre droite.",
+              "먼저 에콜 대로로 가세요. 우체국 맞은편에 도착해요. 그다음 오른쪽으로 도세요. 그리고 쭉 가다가 왼쪽으로 도세요. 생마르탱 길이에요. 오른편에 있어요."
+            ]
+          ]
+        },
+        {
+          "p": "정답 **④ la pharmacie** — 교수님: 'Vous arrivez **en face de** la poste — 우체국을 마주 보고 있다는 거죠.' 'L'avenue 안 배웠지만 써 있잖아요.'"
+        },
+        {
+          "memo": "교수님: '프랑스 가서 지도 볼 때 Vous êtes ici 이거 찾아야 돼요.'"
+        }
+      ]
+    },
+    {
+      "h": "듣기 지도 2 — 조금 더 복잡한 지도 (p.19)",
+      "skill": "localisation",
+      "src": [
+        "semaine 6-2 p.19",
+        "녹음 10/7"
+      ],
+      "body": [
+        {
+          "p": "보기: ① la mairie ② le cinéma ③ la bibliothèque ④ la banque. 출발 = 지하철역(Vous êtes ici)."
+        },
+        {
+          "ex": [
+            [
+              "D'abord, sortez de la station de métro. Prenez le boulevard central et allez tout droit. Puis, en arrivant devant la banque, tournez à droite. Ensuite, continuez tout droit jusqu'à la deuxième rue à gauche. C'est l'avenue de la République. Et là, tournez à gauche. C'est sur votre droite.",
+              "먼저 지하철역에서 나오세요. 중앙 대로로 들어가서 쭉 가세요. 그다음 은행 앞에 도착하면 오른쪽으로 도세요. 그러고 나서 왼쪽 두 번째 길까지 계속 직진하세요. 레퓌블리크 대로예요. 거기서 왼쪽으로 도세요. 오른편에 있어요."
+            ]
+          ]
+        },
+        {
+          "p": "정답 **① la mairie** (시청) — 학생들 답이 mairie / cinéma로 갈렸고 'soit la mairie, soit le cinéma' 후 la mairie."
+        },
+        {
+          "list": [
+            "**sortez** de la station de métro — sortir의 vous 명령문",
+            "**en arrivant** devant la banque — 교수님: '**gérondif**. 도착하면서, 도착하면'",
+            "continuez tout droit **jusqu'à** la deuxième rue à gauche — ~까지"
+          ]
+        }
+      ]
+    },
+    {
+      "h": "연습 — 오페라 가르니에 → 생라자르 역 (p.17)",
+      "skill": "imperatif",
+      "src": [
+        "semaine 6-2 p.17",
+        "녹음 10/7"
+      ],
+      "body": [
+        {
+          "p": "지도: 오페라(오른쪽 아래) → 왼쪽으로 **Boulevard Haussmann** → 위로 가는 길 Rue du Havre(1번째), **Rue de Rome**(2번째) → 맨 위 **Rue Saint-Lazare** → 역은 그 북쪽."
+        },
+        {
+          "ex": [
+            [
+              "D'abord, prends le boulevard Haussmann et va tout droit. Ensuite, prends la deuxième rue à droite. C'est la rue de Rome. Puis tourne à droite. C'est la rue Saint-Lazare. Enfin, la gare est sur ta gauche.",
+              "먼저 오스만 대로로 들어가서 쭉 가. 그다음 오른쪽 두 번째 길로 들어가. 로마 길이야. 그러고 나서 오른쪽으로 돌아. 생라자르 길이야. 마지막으로 역은 네 왼편에 있어. (교수님 답안)"
+            ]
+          ]
+        },
+        {
+          "list": [
+            "친구(votre amie)에게 말하니까 **tu 명령문** — 'tutoyer 했어야 합니다. 그래서 prends.'",
+            "길로 '들어갈' 때: 'tourne라고 안 하고 **prends**라고 했어요'",
+            "**D'abord** — '본문엔 없었지만 아주 중요, 일상생활에서도' · **Enfin** = finally",
+            "le boulevard = 차선이 엄청 많은 큰 도로"
+          ]
+        },
+        {
+          "memo": "교수님: '이게 정답은 아니에요. 길이 많으니까.' / Tiro 전사의 « rue St Honoré »는 지도상 rue Saint-Lazare."
+        }
+      ]
+    },
+    {
+      "h": "발음",
+      "skill": "pron",
+      "src": [
+        "녹음 10/7"
+      ],
+      "body": [
+        {
+          "list": [
+            "Tournez à gauche [뚜흐네 아 고슈] ↔ Tenez la gauche [뜨네 라 고슈]",
+            "le rond-point [르 홍 뿌앵] · deuxième sortie [되지엠 쏘흐띠] · l'autoroute [로또후뜨]",
+            "Après 100 mètres [아프헤 쌍 메트흐] · en‿arrivant [앙 나히방] · jusqu'à [쥐스까]",
+            "C'est sur votre droite [쎄 쒸흐 보트흐 드화뜨] · la mairie [라 메히] · la banque [라 방끄]"
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "u2-08-c-exam",
+      "t": "choice",
+      "skill": "vocab",
+      "prompt": "교수님이 'très très important pour l'examen'이라고 한 형식은?",
+      "q": "Vous allez où ?",
+      "a": "안내를 듣고 어느 건물로 가는지 고르기",
+      "wrong": [
+        "길 설명을 프랑스어로 길게 쓰기",
+        "길 이름을 받아쓰기",
+        "GPS 영상 대사 외워 쓰기"
+      ],
+      "say": "",
+      "hint": "교수님이 지도 두 장으로 직접 연습시킨 그 형식이에요.",
+      "explain": "교수님: 'Vous écoutez et vous choisissez quel bâtiment vous allez.' 길 이름만 읽을 줄 알면 된다.",
+      "src": "녹음 10/7",
+      "star": true
+    },
+    {
+      "id": "u2-08-c-apres-100",
+      "t": "choice",
+      "skill": "imperatif",
+      "prompt": "GPS 안내 — 빈칸은?",
+      "q": "Après 100 mètres, ___ à gauche.",
+      "ko": "100미터 후 좌회전하세요.",
+      "a": "tournez",
+      "wrong": [
+        "tenez",
+        "traversez",
+        "continuez"
+      ],
+      "hint": "'꺾다, 돌다' = 영어 turn",
+      "explain": "tourner à gauche = 좌회전. tenez la gauche는 '왼쪽 차선 유지'.",
+      "src": "semaine 6-2 p.12"
+    },
+    {
+      "id": "u2-08-c-apres-sens",
+      "t": "choice",
+      "skill": "vocab",
+      "prompt": "GPS 안내의 뜻은?",
+      "q": "Après 100 mètres, allez tout droit.",
+      "a": "100미터 후 직진하세요.",
+      "wrong": [
+        "100미터 전에 직진하세요.",
+        "100미터 동안 오른쪽으로 가세요.",
+        "100미터 뒤에서 멈추세요."
+      ],
+      "say": "Après 100 mètres, allez tout droit.",
+      "hint": "après = 영어 after",
+      "explain": "Après 100 mètres = 100미터 후에. allez tout droit = 직진.",
+      "src": "semaine 6-2 p.12"
+    },
+    {
+      "id": "u2-08-c-tenez-gauche",
+      "t": "choice",
+      "skill": "vocab",
+      "prompt": "GPS 안내의 뜻은?",
+      "q": "Puis tenez la gauche.",
+      "a": "그다음 왼쪽 차선을 유지하세요",
+      "wrong": [
+        "그다음 왼쪽으로 도세요",
+        "그다음 왼쪽 길을 건너세요",
+        "그다음 왼손을 드세요"
+      ],
+      "say": "Puis tenez la gauche.",
+      "hint": "교수님: tourner가 아니라 tenir(hold)예요.",
+      "explain": "교수님: '헷갈리는 지점이니까 쭉 가는데 왼쪽 차선에 있으라고.'",
+      "src": "semaine 6-2 p.12",
+      "star": true
+    },
+    {
+      "id": "u2-08-c-rond-point",
+      "t": "choice",
+      "skill": "vocab",
+      "prompt": "GPS 안내 — 빈칸은?",
+      "q": "Traversez le rond-point, ___ sortie.",
+      "ko": "로터리를 지나 두 번째 출구로 나가세요.",
+      "a": "deuxième",
+      "wrong": [
+        "deux",
+        "la deux",
+        "deuxièmes"
+      ],
+      "hint": "'두 번째'는 서수 — 숫자에 -ième",
+      "explain": "deux → deuxième (서수). 영상에서 계속 나온 'deuxième sortie'.",
+      "src": "semaine 6-2 p.12"
+    },
+    {
+      "id": "u2-08-c-autoroute",
+      "t": "choice",
+      "skill": "imperatif",
+      "prompt": "GPS 안내 — 빈칸은?",
+      "q": "Puis ___ l'autoroute.",
+      "ko": "그다음 고속도로를 타세요.",
+      "a": "prenez",
+      "wrong": [
+        "tournez",
+        "traversez",
+        "tenez"
+      ],
+      "hint": "버스·길·고속도로를 '타다/들어서다'에 쓰는 동사",
+      "explain": "prendre l'autoroute = 고속도로를 타다 (prendre la rue, prendre le bus처럼).",
+      "src": "semaine 6-2 p.12"
+    },
+    {
+      "id": "u2-08-w-autoroute",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "l'autoroute",
+      "ko": "고속도로",
+      "g": "f",
+      "pron": "[로또후뜨]",
+      "src": "semaine 6-2 p.12"
+    },
+    {
+      "id": "u2-08-w-route",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "la route",
+      "ko": "도로, 길 (차도)",
+      "g": "f",
+      "note": "Je connais un peu la route. 이 길 좀 알아.",
+      "src": "semaine 6-2 p.12"
+    },
+    {
+      "id": "u2-08-w-chemin",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "le chemin",
+      "ko": "길 (가는 길, 여정)",
+      "g": "m",
+      "note": "indiquer le chemin 길을 알려 주다 · la rue = 거리(street)",
+      "src": "semaine 6-2 p.10"
+    },
+    {
+      "id": "u2-08-w-boulevard",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "le boulevard",
+      "ko": "대로 (차선이 많은 큰 길)",
+      "g": "m",
+      "src": "semaine 6-2 p.17"
+    },
+    {
+      "id": "u2-08-w-avenue",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "l'avenue",
+      "ko": "큰길, 가로수길",
+      "g": "f",
+      "note": "avenue des Écoles · avenue de la République",
+      "src": "semaine 6-2 p.18"
+    },
+    {
+      "id": "u2-08-w-banque",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "la banque",
+      "ko": "은행",
+      "g": "f",
+      "src": "semaine 6-2 p.19"
+    },
+    {
+      "id": "u2-08-w-station",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "la station de métro",
+      "ko": "지하철역",
+      "g": "f",
+      "src": "semaine 6-2 p.19"
+    },
+    {
+      "id": "u2-08-w-enfin",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "enfin",
+      "ko": "마지막으로",
+      "note": "순서: d'abord → ensuite / puis → enfin",
+      "src": "semaine 6-2 p.17"
+    },
+    {
+      "id": "u2-08-w-jusqu-a",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "jusqu'à",
+      "ko": "~까지",
+      "src": "semaine 6-2 p.19"
+    },
+    {
+      "id": "u2-08-c-en-arrivant",
+      "t": "choice",
+      "skill": "gerondif",
+      "prompt": "듣기 지도 2 — 빈칸은?",
+      "q": "Puis, en ___ devant la banque, tournez à droite.",
+      "ko": "그다음 은행 앞에 도착하면 오른쪽으로 도세요.",
+      "a": "arrivant",
+      "wrong": [
+        "arrivé",
+        "arriver",
+        "arrivez"
+      ],
+      "hint": "en + 현재분사 = 제롱디프",
+      "explain": "교수님: 'En arrivant, gérondif. 도착하면서, 도착하면.'",
+      "src": "semaine 6-2 p.19",
+      "star": true
+    },
+    {
+      "id": "u2-08-c-jusqu-a",
+      "t": "choice",
+      "skill": "localisation",
+      "prompt": "듣기 지도 2 — 빈칸은?",
+      "q": "Continuez tout droit ___ la deuxième rue à gauche.",
+      "ko": "왼쪽 두 번째 길까지 계속 직진하세요.",
+      "a": "jusqu'à",
+      "wrong": [
+        "depuis",
+        "pendant",
+        "avant"
+      ],
+      "hint": "'~까지'를 뜻하는 전치사",
+      "explain": "continuer tout droit jusqu'à ~ = ~까지 계속 직진.",
+      "src": "semaine 6-2 p.19"
+    },
+    {
+      "id": "u2-08-c-sortez",
+      "t": "choice",
+      "skill": "imperatif",
+      "prompt": "듣기 지도 2 — 빈칸은?",
+      "q": "D'abord, ___ de la station de métro.",
+      "ko": "먼저 지하철역에서 나오세요.",
+      "a": "sortez",
+      "wrong": [
+        "sortir",
+        "sors-vous",
+        "entrez"
+      ],
+      "hint": "'나가다' 동사의 vous 명령문",
+      "explain": "sortir → vous sortez → Sortez !",
+      "src": "semaine 6-2 p.19"
+    },
+    {
+      "id": "u2-08-l-gauche",
+      "t": "listen",
+      "skill": "pron",
+      "say": "Tournez à gauche.",
+      "a": "Tournez à gauche.",
+      "wrong": [
+        "Tenez la gauche.",
+        "Tournez à droite."
+      ],
+      "ko": "좌회전하세요.",
+      "hint": "동사가 tourner인지 tenir인지, 그리고 방향은?",
+      "explain": "Tournez [뚜흐네] ↔ Tenez [뜨네]. 듣기 문제에서 가장 헷갈리는 짝.",
+      "src": "semaine 6-2 p.12"
+    },
+    {
+      "id": "u2-08-l-sur-droite",
+      "t": "listen",
+      "skill": "pron",
+      "say": "C'est sur votre droite.",
+      "a": "C'est sur votre droite.",
+      "wrong": [
+        "C'est sur votre gauche.",
+        "Tournez à droite."
+      ],
+      "ko": "오른편에 있어요.",
+      "hint": "끝 단어에 [뜨] 소리가 들리나요?",
+      "explain": "듣기 두 지도 모두 마지막 문장이 C'est sur votre droite.",
+      "src": "semaine 6-2 p.18"
+    },
+    {
+      "id": "u2-08-l-deuxieme",
+      "t": "listen",
+      "skill": "pron",
+      "say": "Prenez la deuxième rue à droite.",
+      "a": "Prenez la deuxième rue à droite.",
+      "wrong": [
+        "Prenez la première rue à droite.",
+        "Prenez la deuxième rue à gauche."
+      ],
+      "ko": "오른쪽 두 번째 길로 들어가세요.",
+      "hint": "몇 번째, 어느 쪽 — 두 군데를 들어요.",
+      "explain": "deuxième [되지엠] / première [프흐미에흐], droite [드화뜨] / gauche [고슈].",
+      "src": "semaine 6-2 p.10"
+    },
+    {
+      "id": "u2-08-l-face",
+      "t": "listen",
+      "skill": "pron",
+      "say": "Vous arrivez en face de la poste.",
+      "a": "Vous arrivez en face de la poste.",
+      "wrong": [
+        "Vous arrivez à côté de la poste.",
+        "Vous arrivez devant la poste."
+      ],
+      "ko": "우체국 맞은편에 도착해요.",
+      "hint": "위치 전치사를 잘 들어요 — '맞은편'은?",
+      "explain": "en face de = 맞은편 (마주 보고). 듣기 지도 1의 핵심 단서.",
+      "src": "semaine 6-2 p.18"
+    },
+    {
+      "id": "u2-08-b-map1",
+      "t": "build",
+      "skill": "imperatif",
+      "prompt": "듣기 지도 1의 첫 문장을 만드세요",
+      "ko": "먼저 에콜 대로로 가세요.",
+      "a": "D'abord, prenez l'avenue des Écoles.",
+      "extra": [
+        "tournez",
+        "la"
+      ],
+      "hint": "순서어 + '접어들다' 동사 + 길 이름",
+      "explain": "길로 들어설 때는 prendre: prenez l'avenue des Écoles.",
+      "src": "semaine 6-2 p.18"
+    },
+    {
+      "id": "u2-08-b-map2",
+      "t": "build",
+      "skill": "localisation",
+      "prompt": "듣기 지도 2의 문장을 만드세요",
+      "ko": "왼쪽 두 번째 길까지 계속 직진하세요.",
+      "a": "Continuez tout droit jusqu'à la deuxième rue à gauche.",
+      "extra": [
+        "première",
+        "depuis"
+      ],
+      "hint": "계속 직진 → ~까지 → 몇 번째 길 → 어느 쪽",
+      "explain": "continuer tout droit jusqu'à + 장소.",
+      "src": "semaine 6-2 p.19"
+    },
+    {
+      "id": "u2-08-c-map1-answer",
+      "t": "choice",
+      "skill": "localisation",
+      "prompt": "듣기 지도 1: avenue des Écoles → en face de la poste → à droite → tout droit → à gauche (rue Saint-Martin) → sur votre droite. 도착한 곳은?",
+      "q": "Vous allez où ?",
+      "a": "④ la pharmacie",
+      "wrong": [
+        "① la gare",
+        "② le musée",
+        "③ le café"
+      ],
+      "say": "",
+      "hint": "rue Saint-Martin으로 들어선 뒤 오른편에 있는 건물",
+      "explain": "교수님: 'Vous allez à la pharmacie. 약국 간 거예요.'",
+      "src": "semaine 6-2 p.18"
+    },
+    {
+      "id": "u2-08-c-map2-answer",
+      "t": "choice",
+      "skill": "localisation",
+      "prompt": "듣기 지도 2: 지하철역 → boulevard Central → 은행 앞에서 à droite → 왼쪽 두 번째 길(avenue de la République)에서 à gauche → sur votre droite. 도착한 곳은?",
+      "q": "Vous allez où ?",
+      "a": "① la mairie",
+      "wrong": [
+        "② le cinéma",
+        "③ la bibliothèque",
+        "④ la banque"
+      ],
+      "say": "",
+      "hint": "avenue de la République로 들어선 뒤 오른편",
+      "explain": "학생들 답이 mairie와 cinéma로 갈렸는데 정답은 시청.",
+      "src": "semaine 6-2 p.19"
+    },
+    {
+      "id": "u2-08-b-opera1",
+      "t": "build",
+      "skill": "imperatif",
+      "prompt": "(친구에게) 교수님 답안 첫 문장",
+      "ko": "먼저 오스만 대로로 들어가서 쭉 가.",
+      "a": "D'abord, prends le boulevard Haussmann et va tout droit.",
+      "extra": [
+        "prenez",
+        "vas"
+      ],
+      "hint": "친구니까 tu 명령문 — aller의 tu 명령에는 s가 없어요.",
+      "explain": "tu 명령문: prends (s 유지) · va (s 없음).",
+      "src": "semaine 6-2 p.17",
+      "star": true
+    },
+    {
+      "id": "u2-08-c-opera-prends",
+      "t": "choice",
+      "skill": "imperatif",
+      "prompt": "교수님: 특정 길로 '들어갈' 때는 tourne 대신?",
+      "q": "Ensuite, ___ la deuxième rue à droite.",
+      "ko": "그다음 오른쪽 두 번째 길로 들어가.",
+      "a": "prends",
+      "wrong": [
+        "tourne",
+        "traverse",
+        "tiens"
+      ],
+      "hint": "'택하다, 접어들다' 동사의 tu 명령문",
+      "explain": "교수님: '저는 tourne라고 안 했고 prends라고 했어요.'",
+      "src": "semaine 6-2 p.17"
+    },
+    {
+      "id": "u2-08-c-opera-rue",
+      "t": "choice",
+      "skill": "localisation",
+      "prompt": "p.17 지도: 로마 길(rue de Rome) 끝에서 오른쪽으로 돌면 나오는 길은?",
+      "q": "Puis tourne à droite. C'est …",
+      "a": "la rue Saint-Lazare",
+      "wrong": [
+        "la rue Saint-Honoré",
+        "la rue du Havre",
+        "le boulevard Haussmann"
+      ],
+      "say": "",
+      "hint": "역 이름과 같은 길이에요.",
+      "explain": "그 길 북쪽에 역이 있어서 'la gare est sur ta gauche'. (Tiro 전사의 Saint-Honoré는 잘못 들은 것)",
+      "src": "semaine 6-2 p.17"
+    },
+    {
+      "id": "u2-08-c-opera-ta",
+      "t": "choice",
+      "skill": "imperatif",
+      "prompt": "(친구에게) 빈칸은?",
+      "q": "Enfin, la gare est sur ___ gauche.",
+      "ko": "마지막으로, 역은 네 왼편에 있어.",
+      "a": "ta",
+      "wrong": [
+        "votre",
+        "ton",
+        "sa"
+      ],
+      "hint": "친구에게 말하는 중 + gauche는 여성 명사",
+      "explain": "tu 말투 → '네' = ta (la gauche 여성). vous 말투라면 sur votre gauche.",
+      "src": "semaine 6-2 p.17"
+    }
+  ]
+}

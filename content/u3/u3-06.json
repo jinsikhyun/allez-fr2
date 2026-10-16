@@ -1,0 +1,915 @@
+{
+ "id": "u3-06",
+ "unit": "u3",
+ "title": "최상급 (le superlatif)",
+ "emoji": "🏆",
+ "date": "2026-10-14",
+ "sources": [
+  "semaine 7-2",
+  "노션 10/14"
+ ],
+ "tips": [
+  {
+   "h": "만드는 법",
+   "b": "비교급 앞에 **le / la / les** + 범위는 **de** (que ✗)\nplus jeune que … → **le** plus jeune **de** la classe"
+  },
+  {
+   "h": "품사별",
+   "rows": [
+    [
+     "형용사 (일치)",
+     "la plus grande de ses amies"
+    ],
+    [
+     "부사 (le 고정)",
+     "le moins vite de sa classe"
+    ],
+    [
+     "명사 (le 고정)",
+     "le plus d'argent de sa famille"
+    ],
+    [
+     "동사 (le 고정)",
+     "travaille le plus de ses collègues"
+    ]
+   ]
+  },
+  {
+   "h": "불규칙",
+   "b": "le meilleur / la meilleure / les meilleur(e)s · le mieux\n소유형용사가 있으면 관사 없이: **ma meilleure amie**"
+  },
+  {
+   "h": "명사 뒤 형용사",
+   "b": "le pays **le** plus grand du monde (관사 두 번)\n= le plus grand pays du monde"
+  }
+ ],
+ "note": [
+  {
+   "h": "최상급이란",
+   "skill": "superlatif",
+   "src": [
+    "semaine 7-2 p.18",
+    "노션 10/14"
+   ],
+   "body": [
+    {
+     "ex": [
+      [
+       "Le superlatif exprime le plus haut ou le plus bas degré d'une qualité.",
+       "최상급은 어떤 성질의 가장 높은 정도나 가장 낮은 정도를 나타낸다."
+      ],
+      [
+       "En ajoutant les articles définis (le, la, les) devant le comparatif.",
+       "비교급 앞에 정관사(le, la, les)를 붙여서 만든다."
+      ]
+     ]
+    },
+    {
+     "memo": "필기: 비교급 앞에 정관사(le/la/les)를 붙이면 끝."
+    }
+   ]
+  },
+  {
+   "h": "단계별로 늘리기 — 형용사 최상급",
+   "skill": "superlatif",
+   "src": [
+    "semaine 7-2 p.19",
+    "노션 10/14"
+   ],
+   "body": [
+    {
+     "table": [
+      [
+       "단계",
+       "문장"
+      ],
+      [
+       "비교급",
+       "François est plus jeune que Jean, Michel et Louis."
+      ],
+      [
+       "① 최상급",
+       "Il est le plus jeune."
+      ],
+      [
+       "② + 명사",
+       "Il est le plus jeune étudiant."
+      ],
+      [
+       "③ + 범위 (de)",
+       "Il est le plus jeune étudiant de la classe."
+      ]
+     ],
+     "head": true
+    },
+    {
+     "ex": [
+      [
+       "Françoise est moins grande que Jeanne, Michelle et Louise.",
+       "프랑수아즈는 잔, 미셸, 루이즈보다 키가 작다."
+      ],
+      [
+       "Elle est la moins grande.",
+       "그녀가 가장 작다."
+      ],
+      [
+       "Elle est la moins grande étudiante.",
+       "그녀는 가장 키가 작은 학생이다."
+      ],
+      [
+       "Elle est la moins grande étudiante de la classe.",
+       "그녀는 반에서 가장 키가 작은 학생이다."
+      ]
+     ]
+    },
+    {
+     "warn": "형용사 최상급은 **관사도 형용사도 성·수 일치**: le plus jeune / **la** moins grand**e**. 범위는 **de** (de la classe)."
+    },
+    {
+     "memo": "필기: le랑 la 당연히 성수일치 해줘야겠지."
+    }
+   ]
+  },
+  {
+   "h": "부사 · 명사 최상급 — le 고정",
+   "skill": "superlatif",
+   "src": [
+    "semaine 7-2 p.20",
+    "노션 10/14"
+   ],
+   "body": [
+    {
+     "ex": [
+      [
+       "François parle plus vite que les autres étudiants. → Il parle le plus vite de sa classe.",
+       "프랑수아는 다른 학생들보다 빨리 말한다 → 반에서 가장 빨리 말한다."
+      ],
+      [
+       "Françoise mange moins vite que les autres étudiantes. → Elle mange le moins vite de sa classe.",
+       "프랑수아즈는 다른 학생들보다 천천히 먹는다 → 반에서 가장 천천히 먹는다."
+      ],
+      [
+       "Jean a plus d'argent que son père, sa mère et ses sœurs. → Il a le plus d'argent de sa famille.",
+       "장은 부모님·누나들보다 돈이 많다 → 가족 중 돈이 가장 많다."
+      ],
+      [
+       "Sylvie a moins de livres que ses parents et ses frères. → Elle a le moins de livres de sa famille.",
+       "실비는 부모님·오빠들보다 책이 적다 → 가족 중 책이 가장 적다."
+      ]
+     ]
+    },
+    {
+     "warn": "**형용사일 때만 성 일치.** 부사·명사·동사 최상급은 주어가 여성이어도 항상 **le**: Elle mange **le** moins vite (la moins vite ✗)."
+    },
+    {
+     "p": "비교급 → 최상급 = **앞에 정관사 + que를 de로**. plus d'argent que … → le plus d'argent de …"
+    },
+    {
+     "memo": "필기: 형용사일 때만 성 일치."
+    }
+   ]
+  },
+  {
+   "h": "최상급 예문 (슬라이드 p.21)",
+   "skill": "superlatif",
+   "src": [
+    "semaine 7-2 p.21",
+    "노션 10/14"
+   ],
+   "body": [
+    {
+     "ex": [
+      [
+       "Valérie est la plus grande de ses amies.",
+       "발레리는 친구들 중 키가 가장 크다."
+      ],
+      [
+       "La Russie est le pays le plus grand du monde.",
+       "러시아는 세계에서 가장 큰 나라다."
+      ],
+      [
+       "= La Russie est le plus grand pays du monde.",
+       "(같은 뜻 — grand을 명사 앞에)"
+      ],
+      [
+       "Valérie a le plus d'amis de sa classe.",
+       "발레리는 반에서 친구가 가장 많다."
+      ],
+      [
+       "Sylvie a fait le moins de fautes.",
+       "실비는 실수를 가장 적게 했다."
+      ],
+      [
+       "Jean travaille le plus de ses collègues.",
+       "장은 동료들 중에서 가장 많이 일한다."
+      ]
+     ]
+    },
+    {
+     "list": [
+      "형용사가 명사 **뒤** → 관사 두 번: le pays **le** plus grand",
+      "형용사가 명사 **앞** → 관사 한 번: le plus grand pays",
+      "du monde = de + le monde",
+      "le moins de fautes — 양(명사)에 붙은 최상급",
+      "동사 + le plus (travaille le plus)"
+     ]
+    },
+    {
+     "memo": "필기: La Russie … → La Russie est le plus grand pays du monde. / le moins de fautes → 양을 나타내는 거에 붙음."
+    }
+   ]
+  },
+  {
+   "h": "le plus … possible · meilleur · mieux",
+   "skill": "superlatif",
+   "src": [
+    "semaine 7-2 p.22",
+    "노션 10/14"
+   ],
+   "body": [
+    {
+     "ex": [
+      [
+       "Je t'écris le plus vite possible.",
+       "가능한 한 빨리 너에게 연락할게."
+      ],
+      [
+       "En maths, Paul est le meilleur de sa classe.",
+       "수학에서 폴은 반에서 최고다."
+      ],
+      [
+       "Voici les meilleurs restaurants à Séoul.",
+       "서울 최고의 식당들이 여기 있다."
+      ],
+      [
+       "Qui chante le mieux entre Jennie et Lisa ?",
+       "제니와 리사 중 누가 노래를 가장 잘해?"
+      ]
+     ]
+    },
+    {
+     "table": [
+      [
+       "",
+       "최상급"
+      ],
+      [
+       "bon (형용사, 일치)",
+       "le meilleur / la meilleure / les meilleurs / les meilleures"
+      ],
+      [
+       "bien (부사, 불변)",
+       "le mieux"
+      ]
+     ],
+     "head": true
+    },
+    {
+     "warn": "le plus bon ✗ · le plus bien ✗ — 비교급처럼 meilleur / mieux."
+    },
+    {
+     "memo": "필기: entre에 밑줄 — 두 사람 '사이에서' 고를 땐 entre."
+    }
+   ]
+  },
+  {
+   "h": "연습 (슬라이드 p.23) 정답",
+   "skill": "superlatif",
+   "src": [
+    "semaine 7-2 p.23"
+   ],
+   "body": [
+    {
+     "table": [
+      [
+       "#",
+       "문제",
+       "정답"
+      ],
+      [
+       "6",
+       "Elle est (paresseuse) de sa famille. (+)",
+       "la plus paresseuse"
+      ],
+      [
+       "7",
+       "Il court (vite) de sa classe. (−)",
+       "le moins vite"
+      ],
+      [
+       "8",
+       "Valérie est ma (bonne) amie. (+)",
+       "meilleure → ma meilleure amie"
+      ]
+     ],
+     "head": true
+    },
+    {
+     "ex": [
+      [
+       "Elle est la plus paresseuse de sa famille.",
+       "그녀는 가족 중에서 가장 게으르다."
+      ],
+      [
+       "Il court le moins vite de sa classe.",
+       "그는 반에서 가장 느리게 달린다."
+      ],
+      [
+       "Valérie est ma meilleure amie.",
+       "발레리는 나의 가장 친한 친구다."
+      ]
+     ]
+    },
+    {
+     "warn": "6 형용사 → la로 **일치** ↔ 7 부사 → **le 고정**. 8 소유형용사 ma가 정관사 자리를 차지 → ma la meilleure ✗."
+    }
+   ]
+  },
+  {
+   "h": "노래로 보는 비교급 · 최상급 (p.24)",
+   "skill": "superlatif",
+   "src": [
+    "semaine 7-2 p.24"
+   ],
+   "body": [
+    {
+     "p": "노래 「Aimer, c'est ce qu'il y a de plus beau」로 비교급·최상급을 귀로 찾는 슬라이드. (가사는 옮기지 않고 문법만)"
+    },
+    {
+     "list": [
+      "**ce qu'il y a de plus beau** = 있는 것 중 가장 아름다운 것 (de + plus + 형용사)",
+      "**plus fort que tout** = 무엇보다 강한 → 비교급 + que",
+      "**le meilleur de nous** = 우리의 가장 좋은 것 → 최상급 + de",
+      "**moins peur** = 덜 두려움 → moins + 명사"
+     ]
+    },
+    {
+     "memo": "que가 나오면 비교급, 정관사 + de가 나오면 최상급."
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "id": "u3-06-c-def",
+   "t": "choice",
+   "skill": "superlatif",
+   "prompt": "알맞은 해석은?",
+   "q": "Le superlatif exprime le plus haut ou le plus bas degré d'une qualité.",
+   "a": "최상급은 성질의 가장 높은 정도나 가장 낮은 정도를 나타낸다.",
+   "wrong": [
+    "최상급은 두 대상의 성질을 비교한다.",
+    "최상급은 두 대상이 같은 정도임을 나타낸다.",
+    "최상급은 미래의 일을 나타낸다."
+   ],
+   "say": "Le superlatif exprime le plus haut ou le plus bas degré d'une qualité.",
+   "hint": "haut = 높은, bas = 낮은.",
+   "explain": "가장 높은(le plus) / 가장 낮은(le moins) 정도.",
+   "src": "semaine 7-2 p.18"
+  },
+  {
+   "id": "u3-06-c-former",
+   "t": "choice",
+   "skill": "superlatif",
+   "prompt": "최상급은 어떻게 만들까?",
+   "q": "Comment le former ?",
+   "a": "비교급 앞에 정관사 le/la/les를 붙인다",
+   "wrong": [
+    "비교급 앞에 부정관사 un/une/des를 붙인다",
+    "형용사 앞에 très를 붙인다",
+    "비교급 뒤에 de만 붙인다"
+   ],
+   "say": "",
+   "hint": "필기: '비교급 앞에 ○○○를 붙이면 끝'.",
+   "explain": "En ajoutant les articles définis devant le comparatif.",
+   "star": true,
+   "src": "semaine 7-2 p.18"
+  },
+  {
+   "id": "u3-06-c-le-plus-jeune",
+   "t": "choice",
+   "skill": "superlatif",
+   "prompt": "최상급으로",
+   "q": "François est plus jeune que Jean, Michel et Louis. → Il est ___.",
+   "ko": "그가 가장 어리다.",
+   "a": "le plus jeune",
+   "wrong": [
+    "la plus jeune",
+    "plus jeune",
+    "le plus jeunes"
+   ],
+   "hint": "François(남, 단수) → 정관사는?",
+   "explain": "비교급 plus jeune 앞에 le.",
+   "src": "semaine 7-2 p.19"
+  },
+  {
+   "id": "u3-06-b-plus-jeune-classe",
+   "t": "build",
+   "skill": "superlatif",
+   "prompt": "문장을 만드세요",
+   "ko": "그는 반에서 가장 어린 학생이다.",
+   "a": "Il est le plus jeune étudiant de la classe.",
+   "extra": [
+    "que",
+    "du"
+   ],
+   "hint": "le plus + 형용사 + 명사 + 범위.",
+   "explain": "jeune은 명사 앞 형용사 → 관사 한 번. 범위는 de.",
+   "star": true,
+   "src": "semaine 7-2 p.19"
+  },
+  {
+   "id": "u3-06-c-la-moins-grande",
+   "t": "choice",
+   "skill": "superlatif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "Elle est ___ étudiante de la classe.",
+   "ko": "그녀는 반에서 가장 키가 작은 학생이다.",
+   "a": "la moins grande",
+   "wrong": [
+    "le moins grande",
+    "la moins grand",
+    "la plus grande"
+   ],
+   "hint": "'가장 덜' + 여성 → 관사·형용사 모두?",
+   "explain": "형용사 최상급 → la + moins + grande (일치).",
+   "src": "semaine 7-2 p.19"
+  },
+  {
+   "id": "u3-06-c-range-de",
+   "t": "choice",
+   "skill": "superlatif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "Il est le plus jeune étudiant ___ la classe.",
+   "ko": "그는 반에서 가장 어린 학생이다.",
+   "a": "de",
+   "wrong": [
+    "que",
+    "dans",
+    "à"
+   ],
+   "hint": "최상급의 범위 = 영어 in/of. que는 비교급용!",
+   "explain": "최상급의 범위는 de: de la classe, de sa famille.",
+   "star": true,
+   "src": "semaine 7-2 p.19"
+  },
+  {
+   "id": "u3-06-c-il-parle",
+   "t": "choice",
+   "skill": "superlatif",
+   "prompt": "최상급으로",
+   "q": "François parle plus vite que les autres étudiants. → Il parle ___ de sa classe.",
+   "ko": "그는 반에서 가장 빨리 말한다.",
+   "a": "le plus vite",
+   "wrong": [
+    "plus vite",
+    "le plus vites",
+    "la plus vite"
+   ],
+   "hint": "vite는 부사 — 관사만 앞에.",
+   "explain": "부사 최상급 = le plus + 부사.",
+   "src": "semaine 7-2 p.20"
+  },
+  {
+   "id": "u3-06-c-le-moins-vite",
+   "t": "choice",
+   "skill": "superlatif",
+   "prompt": "최상급으로",
+   "q": "Françoise mange moins vite que les autres étudiantes. → Elle mange ___ de sa classe.",
+   "ko": "그녀는 반에서 가장 천천히 먹는다.",
+   "a": "le moins vite",
+   "wrong": [
+    "la moins vite",
+    "les moins vite",
+    "moins vite"
+   ],
+   "hint": "vite는 부사 — 주어가 여성이어도?",
+   "explain": "부사 최상급은 항상 le (필기: 형용사일 때만 성 일치).",
+   "star": true,
+   "src": "semaine 7-2 p.20"
+  },
+  {
+   "id": "u3-06-c-plus-d-argent",
+   "t": "choice",
+   "skill": "superlatif",
+   "prompt": "최상급으로",
+   "q": "Jean a plus d'argent que son père, sa mère et ses sœurs. → Il a ___ de sa famille.",
+   "ko": "그는 가족 중 돈이 가장 많다.",
+   "a": "le plus d'argent",
+   "wrong": [
+    "le plus de argent",
+    "plus d'argent",
+    "la plus d'argent"
+   ],
+   "hint": "비교급 그대로 앞에 정관사, 모음 축약도!",
+   "explain": "명사 최상급 = le plus de + 명사 → d'argent.",
+   "src": "semaine 7-2 p.20"
+  },
+  {
+   "id": "u3-06-b-moins-de-livres",
+   "t": "build",
+   "skill": "superlatif",
+   "prompt": "최상급으로 바꾸세요 (가족 중)",
+   "from": "Sylvie a moins de livres que ses parents et ses frères.",
+   "a": "Elle a le moins de livres de sa famille.",
+   "extra": [
+    "que",
+    "la"
+   ],
+   "ko": "그녀는 가족 중 책이 가장 적다.",
+   "hint": "que 대신 범위의 말, 앞에 정관사.",
+   "explain": "moins de livres → le moins de livres + de sa famille.",
+   "src": "semaine 7-2 p.20"
+  },
+  {
+   "id": "u3-06-c-que-de",
+   "t": "choice",
+   "skill": "superlatif",
+   "prompt": "비교급 → 최상급, 바뀌는 두 가지는?",
+   "q": "Jean a plus d'argent que son père. → Il a le plus d'argent de sa famille.",
+   "a": "앞에 정관사 + que 대신 de",
+   "wrong": [
+    "앞에 부정관사 + que 유지",
+    "plus를 très로 + de 추가",
+    "동사를 미래형으로 + que 삭제"
+   ],
+   "say": "",
+   "hint": "앞에 붙는 말과 범위를 나타내는 말.",
+   "explain": "정관사를 얹고, que를 범위의 de로.",
+   "src": "semaine 7-2 p.20"
+  },
+  {
+   "id": "u3-06-l-le-plus-vite",
+   "t": "listen",
+   "skill": "superlatif",
+   "say": "Il parle le plus vite de sa classe.",
+   "a": "Il parle le plus vite de sa classe.",
+   "wrong": [
+    "Il parle plus vite que sa classe.",
+    "Il parle le moins vite de sa classe."
+   ],
+   "ko": "그는 반에서 가장 빨리 말한다.",
+   "hint": "앞에 관사가 들렸나요? 더/덜은?",
+   "explain": "le plus vite de … = 최상급.",
+   "src": "semaine 7-2 p.20"
+  },
+  {
+   "id": "u3-06-c-valerie",
+   "t": "choice",
+   "skill": "superlatif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "Valérie est ___ grande de ses amies.",
+   "ko": "발레리는 친구들 중 키가 가장 크다.",
+   "a": "la plus",
+   "wrong": [
+    "le plus",
+    "plus",
+    "la plus de"
+   ],
+   "hint": "Valérie(여) + 형용사 최상급.",
+   "explain": "형용사 최상급 → 관사도 여성 la.",
+   "src": "semaine 7-2 p.21"
+  },
+  {
+   "id": "u3-06-c-russie",
+   "t": "choice",
+   "skill": "superlatif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "La Russie est le pays ___ grand du monde.",
+   "ko": "러시아는 세계에서 가장 큰 나라다.",
+   "a": "le plus",
+   "wrong": [
+    "plus",
+    "la plus",
+    "de plus"
+   ],
+   "hint": "명사 뒤 형용사 최상급 → 관사가 한 번 더!",
+   "explain": "le pays le plus grand: 명사 뒤 형용사면 관사 반복.",
+   "star": true,
+   "src": "semaine 7-2 p.21"
+  },
+  {
+   "id": "u3-06-c-russie-alt",
+   "t": "choice",
+   "skill": "superlatif",
+   "prompt": "같은 뜻의 다른 문장은? (필기)",
+   "q": "La Russie est le pays le plus grand du monde.",
+   "a": "La Russie est le plus grand pays du monde.",
+   "wrong": [
+    "La Russie est le pays plus grand du monde.",
+    "La Russie est la plus grande pays du monde.",
+    "La Russie est le plus grand pays de monde."
+   ],
+   "hint": "grand은 명사 앞에도 와요 — 그럼 관사는 몇 번?",
+   "explain": "명사 앞 형용사면 관사 한 번: le plus grand pays.",
+   "src": "노션 10/14"
+  },
+  {
+   "id": "u3-06-c-du-monde",
+   "t": "choice",
+   "skill": "superlatif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "La Russie est le plus grand pays ___ monde.",
+   "ko": "러시아는 세계에서 가장 큰 나라다.",
+   "a": "du",
+   "wrong": [
+    "de",
+    "dans le",
+    "au"
+   ],
+   "hint": "범위 de + le monde = ?",
+   "explain": "de + le → du.",
+   "src": "semaine 7-2 p.21"
+  },
+  {
+   "id": "u3-06-c-plus-d-amis",
+   "t": "choice",
+   "skill": "superlatif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "Valérie a ___ amis de sa classe.",
+   "ko": "발레리는 반에서 친구가 가장 많다.",
+   "a": "le plus d'",
+   "wrong": [
+    "la plus d'",
+    "le plus des",
+    "plus des"
+   ],
+   "say": "Valérie a le plus d'amis de sa classe.",
+   "hint": "명사 최상급 — 주어가 여성이어도 관사는?",
+   "explain": "명사 최상급은 le 고정: le plus d'amis.",
+   "src": "semaine 7-2 p.21"
+  },
+  {
+   "id": "u3-06-c-fautes-sens",
+   "t": "choice",
+   "skill": "superlatif",
+   "prompt": "알맞은 해석은?",
+   "q": "Sylvie a fait le moins de fautes.",
+   "a": "실비는 실수를 가장 적게 했다.",
+   "wrong": [
+    "실비는 실수를 가장 많이 했다.",
+    "실비는 실수를 조금 했다.",
+    "실비는 실수를 전혀 하지 않았다."
+   ],
+   "say": "Sylvie a fait le moins de fautes.",
+   "hint": "정관사 + moins = 가장 ○○.",
+   "explain": "le moins de + 명사 = 가장 적은 ~ (필기: 양에 붙음).",
+   "src": "semaine 7-2 p.21"
+  },
+  {
+   "id": "u3-06-c-travaille-le-plus",
+   "t": "choice",
+   "skill": "superlatif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "Jean travaille ___ de ses collègues.",
+   "ko": "장은 동료들 중에서 가장 많이 일한다.",
+   "a": "le plus",
+   "wrong": [
+    "la plus",
+    "plus",
+    "le plus de"
+   ],
+   "hint": "동사 뒤 최상급 — 관사는 고정.",
+   "explain": "동사 + le plus (+ de 범위).",
+   "src": "semaine 7-2 p.21"
+  },
+  {
+   "id": "u3-06-c-possible",
+   "t": "choice",
+   "skill": "superlatif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "Je t'écris ___ possible.",
+   "ko": "가능한 한 빨리 너에게 연락할게.",
+   "a": "le plus vite",
+   "wrong": [
+    "plus vite",
+    "la plus vite",
+    "les plus vite"
+   ],
+   "hint": "가능한 한 ~하게 = 부사 최상급 + possible.",
+   "explain": "le plus + 부사 + possible.",
+   "src": "semaine 7-2 p.22"
+  },
+  {
+   "id": "u3-06-c-le-meilleur",
+   "t": "choice",
+   "skill": "superlatif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "En maths, Paul est ___ de sa classe.",
+   "ko": "수학에서 폴은 반에서 최고다.",
+   "a": "le meilleur",
+   "wrong": [
+    "le plus bon",
+    "le mieux",
+    "la meilleure"
+   ],
+   "hint": "bon의 최상급은 불규칙 — Paul은 남성.",
+   "explain": "le plus bon ✗ → le meilleur.",
+   "star": true,
+   "src": "semaine 7-2 p.22"
+  },
+  {
+   "id": "u3-06-c-meilleurs-restaurants",
+   "t": "choice",
+   "skill": "superlatif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "Voici ___ restaurants à Séoul.",
+   "ko": "서울 최고의 식당들이 여기 있다.",
+   "a": "les meilleurs",
+   "wrong": [
+    "les meilleures",
+    "les plus bons",
+    "les mieux"
+   ],
+   "hint": "restaurant은 남성 복수 + bon의 불규칙.",
+   "explain": "les meilleurs (남성 복수 -s).",
+   "src": "semaine 7-2 p.22"
+  },
+  {
+   "id": "u3-06-c-le-mieux",
+   "t": "choice",
+   "skill": "superlatif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "Qui chante ___ entre Jennie et Lisa ?",
+   "ko": "제니와 리사 중 누가 노래를 가장 잘해?",
+   "a": "le mieux",
+   "wrong": [
+    "le meilleur",
+    "le plus bien",
+    "la mieux"
+   ],
+   "hint": "chanter를 꾸미는 부사의 최상급.",
+   "explain": "bien → le mieux (부사, 불변).",
+   "star": true,
+   "src": "semaine 7-2 p.22"
+  },
+  {
+   "id": "u3-06-c-entre",
+   "t": "choice",
+   "skill": "superlatif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "Qui chante le mieux ___ Jennie et Lisa ?",
+   "ko": "제니와 리사 중 누가 노래를 가장 잘해?",
+   "a": "entre",
+   "wrong": [
+    "que",
+    "dans",
+    "par"
+   ],
+   "hint": "두 사람 '사이에서' 고를 때.",
+   "explain": "entre A et B = A와 B 사이(중)에서.",
+   "src": "semaine 7-2 p.22"
+  },
+  {
+   "id": "u3-06-err-plus-bon",
+   "t": "error",
+   "skill": "superlatif",
+   "s": "En maths, Paul est le plus bon de sa classe.",
+   "wrong": "le plus bon",
+   "right": "le meilleur",
+   "ko": "수학에서 폴은 반에서 최고다.",
+   "hint": "bon은 최상급에서도 불규칙!",
+   "explain": "le plus bon ✗ → le meilleur.",
+   "src": "semaine 7-2 p.22"
+  },
+  {
+   "id": "u3-06-t-ex6",
+   "t": "type",
+   "skill": "superlatif",
+   "prompt": "최상급(+)으로 — 괄호 속 형용사를 바꿔 쓰세요",
+   "q": "Elle est ___ de sa famille. (paresseuse, +)",
+   "a": "la plus paresseuse",
+   "hint": "주어가 여성 — 관사도 형용사도 일치.",
+   "explain": "형용사 최상급: la plus paresseuse de sa famille.",
+   "star": true,
+   "src": "semaine 7-2 p.23"
+  },
+  {
+   "id": "u3-06-t-ex7",
+   "t": "type",
+   "skill": "superlatif",
+   "prompt": "최상급(−)으로 — 괄호 속 부사를 바꿔 쓰세요",
+   "q": "Il court ___ de sa classe. (vite, −)",
+   "a": "le moins vite",
+   "hint": "부사 → 관사는 고정, (−)는 '가장 덜'.",
+   "explain": "le moins vite de sa classe = 반에서 가장 느리게.",
+   "star": true,
+   "src": "semaine 7-2 p.23"
+  },
+  {
+   "id": "u3-06-t-ex8",
+   "t": "type",
+   "skill": "superlatif",
+   "prompt": "최상급(+)으로 — 괄호 속 형용사를 바꿔 쓰세요",
+   "q": "Valérie est ma ___ amie. (bonne, +)",
+   "a": "meilleure",
+   "hint": "bon의 불규칙 + amie(여). 소유형용사 뒤엔 관사 X.",
+   "explain": "ma meilleure amie = 가장 친한 친구.",
+   "star": true,
+   "src": "semaine 7-2 p.23"
+  },
+  {
+   "id": "u3-06-err-ma-la",
+   "t": "error",
+   "skill": "superlatif",
+   "s": "Valérie est ma la meilleure amie.",
+   "wrong": "ma la meilleure",
+   "right": "ma meilleure",
+   "ko": "발레리는 나의 가장 친한 친구다.",
+   "hint": "소유형용사와 정관사를 같이 쓸까요?",
+   "explain": "소유형용사가 정관사 자리를 대신한다.",
+   "src": "semaine 7-2 p.23"
+  },
+  {
+   "id": "u3-06-err-la-moins-vite",
+   "t": "error",
+   "skill": "superlatif",
+   "s": "Elle mange la moins vite de sa classe.",
+   "wrong": "la moins vite",
+   "right": "le moins vite",
+   "ko": "그녀는 반에서 가장 천천히 먹는다.",
+   "hint": "vite는 형용사? 부사?",
+   "explain": "부사 최상급은 성 일치 없이 le.",
+   "star": true,
+   "src": "semaine 7-2 p.20"
+  },
+  {
+   "id": "u3-06-w-paresseux",
+   "t": "word",
+   "skill": "adj",
+   "fr": "paresseux / paresseuse",
+   "ko": "게으른",
+   "say": "paresseux, paresseuse",
+   "src": "semaine 7-2 p.23"
+  },
+  {
+   "id": "u3-06-w-faute",
+   "t": "word",
+   "skill": "vocab",
+   "fr": "la faute",
+   "ko": "실수, 잘못",
+   "g": "f",
+   "src": "semaine 7-2 p.21"
+  },
+  {
+   "id": "u3-06-w-collegue",
+   "t": "word",
+   "skill": "vocab",
+   "fr": "le / la collègue",
+   "ko": "동료",
+   "say": "le collègue, la collègue",
+   "src": "semaine 7-2 p.21"
+  },
+  {
+   "id": "u3-06-w-monde",
+   "t": "word",
+   "skill": "vocab",
+   "fr": "le monde",
+   "ko": "세계, 세상",
+   "g": "m",
+   "src": "semaine 7-2 p.21"
+  },
+  {
+   "id": "u3-06-w-courir",
+   "t": "word",
+   "skill": "vocab",
+   "fr": "courir",
+   "ko": "달리다",
+   "note": "il court — t 묵음",
+   "src": "semaine 7-2 p.23"
+  },
+  {
+   "id": "u3-06-c-song-title",
+   "t": "choice",
+   "skill": "superlatif",
+   "prompt": "노래 제목의 뜻은?",
+   "q": "Aimer, c'est ce qu'il y a de plus beau.",
+   "a": "사랑하는 것, 그건 세상에서 가장 아름다운 것",
+   "wrong": [
+    "사랑하는 것은 그보다 더 아름답다",
+    "사랑하는 것은 아름답지 않다",
+    "사랑은 아름다운 만큼 어렵다"
+   ],
+   "hint": "ce qu'il y a de plus + 형용사 = 있는 것 중 가장 ~한 것.",
+   "explain": "최상급 뜻의 관용 구문: ce qu'il y a de plus beau.",
+   "src": "semaine 7-2 p.24"
+  },
+  {
+   "id": "u3-06-c-song-forms",
+   "t": "choice",
+   "skill": "superlatif",
+   "prompt": "노래 속 표현 중 최상급은?",
+   "q": "plus fort que tout · le meilleur de nous · moins peur",
+   "a": "le meilleur de nous",
+   "wrong": [
+    "plus fort que tout",
+    "moins peur",
+    "si haut"
+   ],
+   "say": "",
+   "hint": "정관사 + 불규칙 형태 + 범위 de.",
+   "explain": "que가 있으면 비교급, 정관사 + de면 최상급.",
+   "src": "semaine 7-2 p.24"
+  }
+ ]
+}

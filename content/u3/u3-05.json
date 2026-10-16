@@ -1,0 +1,920 @@
+{
+ "id": "u3-05",
+ "unit": "u3",
+ "title": "비교급 복습 — beaucoup·peu · meilleur·mieux",
+ "emoji": "🍰",
+ "date": "2026-10-14",
+ "sources": [
+  "semaine 7-2",
+  "노션 10/14"
+ ],
+ "tips": [
+  {
+   "h": "비교급으로 바꾸기",
+   "rows": [
+    [
+     "beaucoup de + 명사",
+     "plus de + 명사 + que"
+    ],
+    [
+     "peu de + 명사",
+     "moins de + 명사 + que"
+    ],
+    [
+     "동사 + beaucoup",
+     "동사 + plus que"
+    ],
+    [
+     "동사 + peu",
+     "동사 + moins que"
+    ]
+   ]
+  },
+  {
+   "h": "불규칙 — 우등(+)만!",
+   "rows": [
+    [
+     "bon / bonne",
+     "**meilleur / meilleure**"
+    ],
+    [
+     "bien",
+     "**mieux**"
+    ],
+    [
+     "− · =",
+     "moins bon · aussi bien (규칙대로)"
+    ]
+   ]
+  },
+  {
+   "h": "que 뒤엔 강세형",
+   "b": "que **moi** · qu'**elle** · que **lui** · qu'**elles**\nque + 모음 → **qu'** (qu'elle, qu'hier, qu'avant)"
+  },
+  {
+   "h": "발음",
+   "b": "meilleur = meilleure [메이외흐] — 철자만 다름 (l 두 개!)\nmieux [미으] — x 묵음"
+  }
+ ],
+ "note": [
+  {
+   "h": "비교급 복습 — 무엇을 비교하나",
+   "skill": "comparatif",
+   "src": [
+    "semaine 7-2 p.4–5, p.7",
+    "노션 10/14"
+   ],
+   "body": [
+    {
+     "ex": [
+      [
+       "Le comparatif est utilisé pour établir une comparaison.",
+       "비교급은 비교를 할 때 쓴다."
+      ],
+      [
+       "Il y a trois degrés de comparaison : supériorité, infériorité et égalité.",
+       "비교에는 우등·열등·동등의 세 단계가 있다."
+      ],
+      [
+       "En utilisant « plus », « moins », « aussi » ou « autant ».",
+       "plus, moins, aussi, autant을 써서 만든다."
+      ]
+     ]
+    },
+    {
+     "table": [
+      [
+       "비교 대상",
+       "+",
+       "−",
+       "="
+      ],
+      [
+       "형용사·부사 (성질)",
+       "plus … que",
+       "moins … que",
+       "aussi … que"
+      ],
+      [
+       "명사 (양)",
+       "plus de … que",
+       "moins de … que",
+       "autant de … que"
+      ],
+      [
+       "동사 (양)",
+       "동사 + plus que",
+       "동사 + moins que",
+       "동사 + autant que"
+      ]
+     ],
+     "head": true
+    },
+    {
+     "warn": "= 만 단어가 갈린다: 형용사·부사 앞 **aussi** / 명사·동사 **autant**. aussi de ✗ · Tu manges aussi que moi ✗"
+    },
+    {
+     "memo": "필기: **aussi는 성질 / autant은 양**."
+    }
+   ]
+  },
+  {
+   "h": "성질 비교 예문 (슬라이드 p.6)",
+   "skill": "comparatif",
+   "src": [
+    "semaine 7-2 p.6",
+    "노션 10/14"
+   ],
+   "body": [
+    {
+     "ex": [
+      [
+       "Il est plus jeune qu'elle.",
+       "그는 그녀보다 어리다."
+      ],
+      [
+       "Son film est moins intéressant que son livre.",
+       "그(그녀)의 영화는 그(그녀)의 책보다 덜 재미있다."
+      ],
+      [
+       "Cette maison est aussi chère que cet appartement.",
+       "이 집은 이 아파트만큼 비싸다."
+      ],
+      [
+       "Mon père se lève plus tôt que mon grand-père.",
+       "우리 아버지는 할아버지보다 일찍 일어나신다."
+      ],
+      [
+       "Leurs parents arrivent aussi tard que leurs grands-parents.",
+       "그들의 부모님은 조부모님만큼 늦게 도착한다."
+      ],
+      [
+       "Notre oncle vient moins souvent que notre tante.",
+       "우리 삼촌은 숙모(고모·이모)보다 덜 자주 온다."
+      ]
+     ]
+    },
+    {
+     "list": [
+      "qu'**elle** — que 뒤 인칭대명사는 **강세형**(pronom tonique): que moi, que lui, qu'elle",
+      "film(남) → intéressant. 여성 명사였으면 intéressant**e**",
+      "maison(여) → **chère** (남성 cher)",
+      "tôt · tard · souvent = **부사** → 일치하지 않음",
+      "oncle = 삼촌·고모부·이모부 / tante = 숙모·고모·이모"
+     ]
+    },
+    {
+     "memo": "필기: elle은 pronom tonique · 여성형 명사였으면 -e · 만큼 비싸다 · tôt는 부사여서 일치 안 시킴."
+    }
+   ]
+  },
+  {
+   "h": "beaucoup · un peu · peu → 비교급",
+   "skill": "comparatif",
+   "src": [
+    "semaine 7-2 p.8–10",
+    "노션 10/14"
+   ],
+   "body": [
+    {
+     "table": [
+      [
+       "",
+       "동사 뒤 (단독)",
+       "+ de + 명사"
+      ],
+      [
+       "많이",
+       "Je mange beaucoup.",
+       "J'ai beaucoup de travail."
+      ],
+      [
+       "조금",
+       "Je mange un peu.",
+       "J'ai un peu de travail."
+      ],
+      [
+       "거의 안",
+       "Je mange peu.",
+       "J'ai peu de travail."
+      ]
+     ],
+     "head": true
+    },
+    {
+     "ex": [
+      [
+       "Tu as beaucoup de sacs. → Tu as plus de sacs que moi.",
+       "너는 가방이 많다 → 나보다 가방이 많다."
+      ],
+      [
+       "Tu as peu de sacs. → Tu as moins de sacs que moi.",
+       "너는 가방이 거의 없다 → 나보다 가방이 적다."
+      ],
+      [
+       "Tu manges beaucoup. → Tu manges plus que moi.",
+       "너는 많이 먹는다 → 나보다 많이 먹는다."
+      ],
+      [
+       "Tu manges peu. → Tu manges moins que moi.",
+       "너는 적게 먹는다 → 나보다 적게 먹는다."
+      ],
+      [
+       "Tu as plus de / moins de / autant de sacs que moi.",
+       "나보다 가방이 많다 / 적다 / 나만큼 있다."
+      ],
+      [
+       "Tu manges plus / moins / autant que moi.",
+       "나보다 많이 / 적게 / 나만큼 먹는다."
+      ]
+     ]
+    },
+    {
+     "warn": "**peu**(거의 안) ≠ **un peu**(조금). un을 빼면 거의 부정이 된다: Je mange peu. = 나는 거의 안 먹는다."
+    },
+    {
+     "warn": "beaucoup → **plus**, peu → **moins**. plus peu ✗. 양 표현 뒤 명사엔 **관사 없이 de**: beaucoup de travail (beaucoup du ✗)."
+    },
+    {
+     "memo": "필기: un peu와 peu 차이 — un을 빼버리면 거의 부정이 됨. \"나는 거의 안 먹는다.\""
+    }
+   ]
+  },
+  {
+   "h": "연습 — Exercice 2 (p.83) 5번",
+   "skill": "comparatif",
+   "src": [
+    "semaine 7-2 p.11",
+    "노션 10/14"
+   ],
+   "body": [
+    {
+     "ex": [
+      [
+       "L'après-midi, je fais peu de sport.",
+       "오후에 나는 운동을 거의 하지 않는다."
+      ],
+      [
+       "→ L'après-midi, je fais moins de sport que le matin.",
+       "→ 오후에 나는 아침보다 운동을 덜 한다."
+      ]
+     ]
+    },
+    {
+     "p": "peu de → **moins de**. 비교 대상(le matin) 앞은 que."
+    },
+    {
+     "memo": "필기에 수업 정답으로 **moins**를 적어 둠 (Je fais moins de sport que le matin). 슬라이드엔 (+) 표시가 있지만 수업 정답을 따른다."
+    }
+   ]
+  },
+  {
+   "h": "양 비교 예문 (슬라이드 p.12)",
+   "skill": "comparatif",
+   "src": [
+    "semaine 7-2 p.12",
+    "노션 10/14"
+   ],
+   "body": [
+    {
+     "ex": [
+      [
+       "Elle a plus de livres que lui.",
+       "그녀는 그보다 책이 많다."
+      ],
+      [
+       "Mon frère a autant d'amis que ton frère.",
+       "내 형(남동생)은 네 형만큼 친구가 많다."
+      ],
+      [
+       "Je prends moins de café qu'elles.",
+       "나는 그녀들보다 커피를 덜 마신다."
+      ],
+      [
+       "Aujourd'hui, elles mangent plus qu'hier.",
+       "오늘 그녀들은 어제보다 더 많이 먹는다."
+      ],
+      [
+       "Vous travaillez moins qu'avant.",
+       "당신(들)은 예전보다 일을 덜 한다."
+      ],
+      [
+       "Travaillons autant que la semaine dernière !",
+       "지난주만큼 일하자!"
+      ]
+     ]
+    },
+    {
+     "list": [
+      "que **lui** · qu'**elles** — 강세형",
+      "autant **d'**amis — 모음 앞 de → d'",
+      "Travaillons = nous **명령문**(~하자). autant = 양(일의 양)"
+     ]
+    },
+    {
+     "memo": "필기: plus qu'hier → plus의 **-s를 발음**함 [플뤼스]. 지난주만큼 일하자~ (양적인 의미)."
+    }
+   ]
+  },
+  {
+   "h": "불규칙 비교급 — meilleur · mieux",
+   "skill": "comparatif",
+   "src": [
+    "semaine 7-2 p.13–16",
+    "노션 10/14"
+   ],
+   "body": [
+    {
+     "table": [
+      [
+       "",
+       "+",
+       "−",
+       "="
+      ],
+      [
+       "bon (형용사)",
+       "meilleur",
+       "moins bon",
+       "aussi bon"
+      ],
+      [
+       "bonne (형용사)",
+       "meilleure",
+       "moins bonne",
+       "aussi bonne"
+      ],
+      [
+       "bien (부사)",
+       "mieux",
+       "moins bien",
+       "aussi bien"
+      ]
+     ],
+     "head": true
+    },
+    {
+     "ex": [
+      [
+       "Ce gâteau est meilleur que l'autre.",
+       "이 케이크는 다른 것보다 더 맛있다."
+      ],
+      [
+       "Ce gâteau est moins bon / aussi bon que l'autre.",
+       "다른 것보다 덜 맛있다 / 똑같이 맛있다."
+      ],
+      [
+       "Cette idée est meilleure que l'autre.",
+       "이 아이디어는 다른 것보다 더 좋다."
+      ],
+      [
+       "Cette idée est moins bonne / aussi bonne que l'autre.",
+       "덜 좋다 / 똑같이 좋다."
+      ],
+      [
+       "Marie chante mieux que Paul.",
+       "마리는 폴보다 노래를 더 잘한다."
+      ],
+      [
+       "Marie chante moins bien / aussi bien que Paul.",
+       "덜 잘한다 / 똑같이 잘한다."
+      ],
+      [
+       "Je travaille mieux / moins bien / aussi bien qu'avant.",
+       "나는 예전보다 일을 더 잘 / 덜 잘 / 똑같이 잘한다."
+      ]
+     ]
+    },
+    {
+     "warn": "plus bon ✗ · plus bonne ✗ · plus bien ✗ — **우등(+)일 때만** meilleur(e) / mieux. 열등·동등은 규칙대로."
+    },
+    {
+     "warn": "**meilleur**는 형용사 → 성·수 일치 (meilleure). **mieux**는 부사 → 불변. bon은 être 뒤(Ce gâteau est bon), bien은 동사 수식(Marie chante bien)."
+    },
+    {
+     "memo": "필기: meilleur — l이 두 개, 발음 주의 / mieux — x는 발음 안 함 / bien은 부사 자리라 변화 안 함 / plus bon·bonne, plus bien일 때만 바뀜."
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "id": "u3-05-c-qu-elle",
+   "t": "choice",
+   "skill": "pron-tonic",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "Il est plus jeune ___.",
+   "ko": "그는 그녀보다 어리다.",
+   "a": "qu'elle",
+   "wrong": [
+    "que elle",
+    "que la",
+    "qu'elle est"
+   ],
+   "hint": "que + 모음, 그리고 사람은 강세형 대명사로!",
+   "explain": "que + elle → qu'elle. 필기: 여기서 elle은 pronom tonique.",
+   "star": true,
+   "src": "semaine 7-2 p.6"
+  },
+  {
+   "id": "u3-05-c-film-interessant",
+   "t": "choice",
+   "skill": "comparatif",
+   "prompt": "빈칸에 알맞은 형태는?",
+   "q": "Son film est moins ___ que son livre.",
+   "ko": "그의 영화는 책보다 덜 재미있다.",
+   "a": "intéressant",
+   "wrong": [
+    "intéressante",
+    "intéressants",
+    "intéressantes"
+   ],
+   "hint": "주어 film의 성·수는?",
+   "explain": "film은 남성 단수 → intéressant. 여성 명사였으면 -e.",
+   "src": "semaine 7-2 p.6"
+  },
+  {
+   "id": "u3-05-b-maison-chere",
+   "t": "build",
+   "skill": "comparatif",
+   "prompt": "문장을 만드세요",
+   "ko": "이 집은 이 아파트만큼 비싸다.",
+   "a": "Cette maison est aussi chère que cet appartement.",
+   "extra": [
+    "autant",
+    "cher"
+   ],
+   "hint": "성질의 '같게' + 형용사는 maison에 일치.",
+   "explain": "형용사 앞 동등은 aussi, maison(여) → chère.",
+   "src": "semaine 7-2 p.6"
+  },
+  {
+   "id": "u3-05-c-tot-invariable",
+   "t": "choice",
+   "skill": "comparatif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "Mon père se lève plus ___ que mon grand-père.",
+   "ko": "우리 아버지는 할아버지보다 일찍 일어나신다.",
+   "a": "tôt",
+   "wrong": [
+    "tôte",
+    "tôts",
+    "tard"
+   ],
+   "hint": "'일찍'은 부사예요 — 부사도 일치할까?",
+   "explain": "tôt는 부사라 형태가 바뀌지 않는다 (필기).",
+   "src": "semaine 7-2 p.6"
+  },
+  {
+   "id": "u3-05-c-aussi-tard",
+   "t": "choice",
+   "skill": "comparatif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "Leurs parents arrivent ___ tard que leurs grands-parents.",
+   "ko": "그들의 부모님은 조부모님만큼 늦게 도착한다.",
+   "a": "aussi",
+   "wrong": [
+    "autant",
+    "autant de",
+    "si"
+   ],
+   "hint": "부사 앞의 '같게'는 성질 쪽 단어.",
+   "explain": "tard는 부사 → aussi. autant은 양(명사·동사).",
+   "src": "semaine 7-2 p.6"
+  },
+  {
+   "id": "u3-05-c-oncle-sens",
+   "t": "choice",
+   "skill": "comparatif",
+   "prompt": "알맞은 해석은?",
+   "q": "Notre oncle vient moins souvent que notre tante.",
+   "a": "우리 삼촌은 숙모보다 덜 자주 온다.",
+   "wrong": [
+    "우리 삼촌은 숙모보다 더 자주 온다.",
+    "우리 삼촌은 숙모만큼 자주 온다.",
+    "우리 숙모는 삼촌보다 덜 자주 온다."
+   ],
+   "say": "Notre oncle vient moins souvent que notre tante.",
+   "hint": "moins는 더? 덜? 그리고 주어는 누구?",
+   "explain": "moins souvent = 덜 자주. 주어는 oncle.",
+   "src": "semaine 7-2 p.6"
+  },
+  {
+   "id": "u3-05-w-oncle",
+   "t": "word",
+   "skill": "famille",
+   "fr": "l'oncle",
+   "ko": "삼촌, 고모부, 이모부",
+   "g": "m",
+   "src": "semaine 7-2 p.6"
+  },
+  {
+   "id": "u3-05-w-tante",
+   "t": "word",
+   "skill": "famille",
+   "fr": "la tante",
+   "ko": "숙모, 고모, 이모",
+   "g": "f",
+   "src": "semaine 7-2 p.6"
+  },
+  {
+   "id": "u3-05-w-grands-parents",
+   "t": "word",
+   "skill": "famille",
+   "fr": "les grands-parents",
+   "ko": "조부모",
+   "g": "pl",
+   "src": "semaine 7-2 p.6"
+  },
+  {
+   "id": "u3-05-c-peu-moins",
+   "t": "choice",
+   "skill": "comparatif",
+   "prompt": "비교급으로 바꾸면?",
+   "q": "Tu as peu de sacs. → Tu as ___ sacs que moi.",
+   "ko": "너는 나보다 가방이 적다.",
+   "a": "moins de",
+   "wrong": [
+    "plus peu de",
+    "peu de",
+    "moins"
+   ],
+   "hint": "peu → '덜'에 해당하는 말, 명사 앞엔 연결어도!",
+   "explain": "peu de → moins de + 명사 + que.",
+   "star": true,
+   "src": "semaine 7-2 p.9"
+  },
+  {
+   "id": "u3-05-c-manges-peu",
+   "t": "choice",
+   "skill": "comparatif",
+   "prompt": "비교급으로 바꾸면?",
+   "q": "Tu manges peu. → Tu manges ___ que moi.",
+   "ko": "너는 나보다 적게 먹는다.",
+   "a": "moins",
+   "wrong": [
+    "plus peu",
+    "moins de",
+    "peu"
+   ],
+   "hint": "동사 뒤라 de는 필요 없어요.",
+   "explain": "동사 + peu → 동사 + moins que.",
+   "src": "semaine 7-2 p.9"
+  },
+  {
+   "id": "u3-05-c-peu-sens",
+   "t": "choice",
+   "skill": "comparatif",
+   "prompt": "알맞은 해석은?",
+   "q": "Je mange peu.",
+   "a": "나는 거의 안 먹는다.",
+   "wrong": [
+    "나는 조금 먹는다.",
+    "나는 많이 먹는다.",
+    "나는 더 먹는다."
+   ],
+   "say": "Je mange peu.",
+   "hint": "un이 빠지면 뜻이 확 달라져요.",
+   "explain": "peu = 거의 ~않게 (부정에 가까움). un peu = 조금.",
+   "star": true,
+   "src": "semaine 7-2 p.10"
+  },
+  {
+   "id": "u3-05-c-un-peu-de",
+   "t": "choice",
+   "skill": "comparatif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "J'ai ___ travail.",
+   "ko": "나는 일이 조금 있다.",
+   "a": "un peu de",
+   "wrong": [
+    "un peu",
+    "peu de",
+    "un peu du"
+   ],
+   "hint": "'조금' + 명사 앞 연결어 (관사 없이).",
+   "explain": "un peu de + 명사 = 약간의 ~. 명사 앞엔 de.",
+   "src": "semaine 7-2 p.10"
+  },
+  {
+   "id": "u3-05-err-beaucoup-du",
+   "t": "error",
+   "skill": "comparatif",
+   "s": "J'ai beaucoup du travail.",
+   "wrong": "beaucoup du",
+   "right": "beaucoup de",
+   "ko": "나는 일이 많다.",
+   "hint": "양 표현 뒤 명사에 관사가 붙을까?",
+   "explain": "beaucoup de + 무관사 명사.",
+   "src": "semaine 7-2 p.10"
+  },
+  {
+   "id": "u3-05-c-ex2-5",
+   "t": "choice",
+   "skill": "comparatif",
+   "prompt": "Exercice 2 (p.83) 5번 — 빈칸은?",
+   "q": "L'après-midi, je fais peu de sport. → L'après-midi, je fais ___ de sport que le matin.",
+   "a": "moins",
+   "wrong": [
+    "plus",
+    "peu",
+    "autant"
+   ],
+   "say": "L'après-midi, je fais moins de sport que le matin.",
+   "hint": "원래 문장의 peu를 비교급으로 바꾸면?",
+   "explain": "peu de → moins de. 수업 정답: …moins de sport que le matin.",
+   "star": true,
+   "src": "semaine 7-2 p.11"
+  },
+  {
+   "id": "u3-05-c-lui-tonique",
+   "t": "choice",
+   "skill": "pron-tonic",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "Elle a plus de livres que ___.",
+   "ko": "그녀는 그보다 책이 많다.",
+   "a": "lui",
+   "wrong": [
+    "il",
+    "le",
+    "son"
+   ],
+   "hint": "que 뒤 인칭대명사는 강세형!",
+   "explain": "그 = 강세형 lui. que il ✗.",
+   "src": "semaine 7-2 p.12"
+  },
+  {
+   "id": "u3-05-b-autant-d-amis",
+   "t": "build",
+   "skill": "comparatif",
+   "prompt": "문장을 만드세요",
+   "ko": "내 형은 네 형만큼 친구가 많다.",
+   "a": "Mon frère a autant d'amis que ton frère.",
+   "extra": [
+    "aussi",
+    "de"
+   ],
+   "hint": "명사의 '같게' + 모음 앞 축약.",
+   "explain": "명사 동등 = autant de → 모음 앞 autant d'amis.",
+   "src": "semaine 7-2 p.12"
+  },
+  {
+   "id": "u3-05-c-qu-elles",
+   "t": "choice",
+   "skill": "pron-tonic",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "Je prends moins de café ___.",
+   "ko": "나는 그녀들보다 커피를 덜 마신다.",
+   "a": "qu'elles",
+   "wrong": [
+    "que elles",
+    "qu'elle",
+    "que les"
+   ],
+   "hint": "그녀'들' + 모음 앞 que.",
+   "explain": "que + elles → qu'elles (강세형 복수).",
+   "src": "semaine 7-2 p.12"
+  },
+  {
+   "id": "u3-05-c-travaillons",
+   "t": "choice",
+   "skill": "comparatif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "Travaillons ___ que la semaine dernière !",
+   "ko": "지난주만큼 일하자!",
+   "a": "autant",
+   "wrong": [
+    "aussi",
+    "autant de",
+    "plus de"
+   ],
+   "hint": "동사 뒤의 '같게' — 양의 의미.",
+   "explain": "동사 + autant que. 필기: 지난주만큼 일하자 (양적인 의미).",
+   "src": "semaine 7-2 p.12"
+  },
+  {
+   "id": "u3-05-c-travaillons-mood",
+   "t": "choice",
+   "skill": "imperatif",
+   "prompt": "Travaillons는 어떤 형태?",
+   "q": "Travaillons autant que la semaine dernière !",
+   "a": "nous 명령문 (~하자)",
+   "wrong": [
+    "nous 현재형 평서문",
+    "nous 단순미래",
+    "tu 명령문"
+   ],
+   "say": "",
+   "hint": "주어가 없고 끝에 느낌표!",
+   "explain": "주어 없는 nous형 = 명령문 '~하자'.",
+   "src": "semaine 7-2 p.12"
+  },
+  {
+   "id": "u3-05-l-plus-qu-hier",
+   "t": "listen",
+   "skill": "pron",
+   "say": "Aujourd'hui, elles mangent plus qu'hier.",
+   "a": "Aujourd'hui, elles mangent plus qu'hier.",
+   "wrong": [
+    "Aujourd'hui, elles mangent moins qu'hier.",
+    "Aujourd'hui, elles mangent autant qu'hier."
+   ],
+   "ko": "오늘 그녀들은 어제보다 더 먹는다.",
+   "pron": "[엘 망쥬 플뤼스 끼에흐]",
+   "hint": "비교어 끝의 s 소리가 들렸나요?",
+   "explain": "동사 뒤 혼자 쓰인 plus는 s를 발음 [플뤼스] (필기).",
+   "src": "semaine 7-2 p.12"
+  },
+  {
+   "id": "u3-05-c-meilleur",
+   "t": "choice",
+   "skill": "comparatif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "Ce gâteau est ___ que l'autre.",
+   "ko": "이 케이크는 다른 것보다 더 맛있다.",
+   "a": "meilleur",
+   "wrong": [
+    "plus bon",
+    "meilleure",
+    "mieux"
+   ],
+   "hint": "bon의 '더'는 불규칙! gâteau는 남성.",
+   "explain": "plus bon ✗ → meilleur.",
+   "star": true,
+   "src": "semaine 7-2 p.13"
+  },
+  {
+   "id": "u3-05-c-meilleure",
+   "t": "choice",
+   "skill": "comparatif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "Cette idée est ___ que l'autre.",
+   "ko": "이 아이디어는 다른 것보다 더 좋다.",
+   "a": "meilleure",
+   "wrong": [
+    "plus bonne",
+    "meilleur",
+    "mieux"
+   ],
+   "hint": "idée는 여성 — 형용사는 일치!",
+   "explain": "plus bonne ✗ → meilleure (여성형 -e).",
+   "star": true,
+   "src": "semaine 7-2 p.13"
+  },
+  {
+   "id": "u3-05-err-plus-bonne",
+   "t": "error",
+   "skill": "comparatif",
+   "s": "Cette idée est plus bonne que l'autre.",
+   "wrong": "plus bonne",
+   "right": "meilleure",
+   "ko": "이 아이디어는 다른 것보다 더 좋다.",
+   "hint": "bonne의 우등 비교는 불규칙이에요.",
+   "explain": "슬라이드 ✗: plus bonne → meilleure.",
+   "src": "semaine 7-2 p.13"
+  },
+  {
+   "id": "u3-05-c-mieux",
+   "t": "choice",
+   "skill": "comparatif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "Marie chante ___ que Paul.",
+   "ko": "마리는 폴보다 노래를 더 잘한다.",
+   "a": "mieux",
+   "wrong": [
+    "plus bien",
+    "meilleur",
+    "meilleure"
+   ],
+   "hint": "bien은 부사 — 부사의 '더'는 불규칙.",
+   "explain": "plus bien ✗ → mieux (부사라 불변).",
+   "star": true,
+   "src": "semaine 7-2 p.14"
+  },
+  {
+   "id": "u3-05-err-plus-bien",
+   "t": "error",
+   "skill": "comparatif",
+   "s": "Je travaille plus bien qu'avant.",
+   "wrong": "plus bien",
+   "right": "mieux",
+   "ko": "나는 예전보다 일을 더 잘한다.",
+   "hint": "bien의 우등 비교는 따로 있어요.",
+   "explain": "슬라이드 ✗: plus bien → mieux.",
+   "star": true,
+   "src": "semaine 7-2 p.14"
+  },
+  {
+   "id": "u3-05-c-moins-bon",
+   "t": "choice",
+   "skill": "comparatif",
+   "prompt": "열등(−) 비교로",
+   "q": "Ce gâteau est ___ que l'autre.",
+   "ko": "이 케이크는 다른 것보다 덜 맛있다.",
+   "a": "moins bon",
+   "wrong": [
+    "moins meilleur",
+    "moins bien",
+    "moins bonne"
+   ],
+   "hint": "열등은 규칙대로, gâteau는 남성.",
+   "explain": "불규칙은 우등만. 열등은 moins bon.",
+   "src": "semaine 7-2 p.15"
+  },
+  {
+   "id": "u3-05-c-aussi-bonne",
+   "t": "choice",
+   "skill": "comparatif",
+   "prompt": "동등(=) 비교로",
+   "q": "Cette idée est ___ que l'autre.",
+   "ko": "이 아이디어는 다른 것만큼 좋다.",
+   "a": "aussi bonne",
+   "wrong": [
+    "aussi meilleure",
+    "autant bonne",
+    "aussi bon"
+   ],
+   "hint": "동등도 규칙대로 + idée에 일치.",
+   "explain": "aussi + bonne(여) + que.",
+   "src": "semaine 7-2 p.15"
+  },
+  {
+   "id": "u3-05-c-only-plus",
+   "t": "choice",
+   "skill": "comparatif",
+   "prompt": "bon/bien이 meilleur/mieux로 바뀌는 건 언제?",
+   "q": "bon → meilleur · bien → mieux",
+   "a": "우등(+) 비교일 때만",
+   "wrong": [
+    "열등(−) 비교일 때만",
+    "동등(=) 비교일 때만",
+    "세 경우 모두"
+   ],
+   "say": "",
+   "hint": "슬라이드에서 ✗ 표시가 붙은 건 어느 단계였죠?",
+   "explain": "필기: plus bon/bonne, plus bien일 때만 바뀜. moins bon · aussi bien은 그대로.",
+   "star": true,
+   "src": "semaine 7-2 p.15"
+  },
+  {
+   "id": "u3-05-c-moins-bien",
+   "t": "choice",
+   "skill": "comparatif",
+   "prompt": "열등(−) 비교로",
+   "q": "Marie chante ___ que Paul.",
+   "ko": "마리는 폴보다 노래를 덜 잘한다.",
+   "a": "moins bien",
+   "wrong": [
+    "moins mieux",
+    "moins bon",
+    "moins bonne"
+   ],
+   "hint": "열등은 규칙 + 부사는 불변.",
+   "explain": "moins + bien + que.",
+   "src": "semaine 7-2 p.16"
+  },
+  {
+   "id": "u3-05-t-aussi-bien",
+   "t": "type",
+   "skill": "comparatif",
+   "prompt": "동등(=) 비교로 빈칸을 채우세요",
+   "q": "Je travaille bien. → Je travaille ___ qu'avant.",
+   "a": "aussi bien",
+   "hint": "'같게' + 부사 그대로.",
+   "explain": "동등은 규칙대로: aussi bien que.",
+   "src": "semaine 7-2 p.16"
+  },
+  {
+   "id": "u3-05-c-pron-meilleur",
+   "t": "choice",
+   "skill": "pron",
+   "prompt": "meilleur와 meilleure의 발음은?",
+   "q": "meilleur / meilleure",
+   "a": "똑같다 [메이외흐]",
+   "wrong": [
+    "meilleure는 끝 e를 [으]로 더 읽는다",
+    "l을 살려 [멜뢰흐]로 읽는다"
+   ],
+   "say": "meilleur, meilleure",
+   "hint": "ill이 만드는 소리와 끝 e를 생각해요.",
+   "explain": "ill = [j], 끝 e 묵음 → 둘 다 [mɛjœʁ]. 필기: l 두 개, 발음 주의.",
+   "src": "노션 10/14"
+  },
+  {
+   "id": "u3-05-c-pron-mieux",
+   "t": "choice",
+   "skill": "pron",
+   "prompt": "mieux의 끝 x는?",
+   "q": "mieux",
+   "a": "발음하지 않는다 [미으]",
+   "wrong": [
+    "[s]로 읽는다 [미으스]",
+    "[ks]로 읽는다 [미윽스]"
+   ],
+   "say": "mieux",
+   "hint": "단어 끝 자음 대부분은?",
+   "explain": "필기: mieux — x는 발음 안 함.",
+   "src": "노션 10/14"
+  }
+ ]
+}

@@ -1,0 +1,1030 @@
+{
+ "id": "u3-07",
+ "unit": "u3",
+ "title": "대화문 「Comment tu vois ton avenir ?」 · 10년 뒤 나",
+ "emoji": "🌍",
+ "date": "2026-10-14",
+ "sources": [
+  "semaine 7-2",
+  "노션 10/14",
+  "노션 10/14 「미래형 10년뒤 나」"
+ ],
+ "tips": [
+  {
+   "h": "⭐ 시험 안내 (10/14)",
+   "b": "학습지 3번처럼 **10년 뒤 미래** 문제 → 내 10년 후 하루를 **단순미래**로 쓸 수 있게\n듣기 4–5문항, 대부분 **듣고 빈칸 쓰기**"
+  },
+  {
+   "h": "대화문 핵심",
+   "b": "il y a → **il y aura** · on **aura** (on = 3인칭 단수)\n**de plus en plus de / de moins en moins de** + 명사 = 점점 많은 / 적은\nla qualité … **sera-t-elle meilleure** ?\nTu ne crois pas ? — **Si**, …"
+  },
+  {
+   "h": "Ce / Ça / Cela",
+   "b": "c'est = **ce** + est (엘리지옹 됐으면 ce)\nça = cela의 구어형 (Comme ça)\n미래: **Ce sera** (s 앞이라 엘리지옹 없음)"
+  },
+  {
+   "h": "미래 어간 (작문용)",
+   "rows": [
+    [
+     "être / avoir",
+     "ser- / aur-"
+    ],
+    [
+     "aller / faire",
+     "ir- / fer-"
+    ],
+    [
+     "boire · prendre",
+     "-re에서 e 떼기: boir- · prendr-"
+    ]
+   ]
+  }
+ ],
+ "fixes": [
+  {
+   "where": "노션 10/14",
+   "was": "Ce / Ca / Cela",
+   "now": "Ce / Ça / Cela",
+   "why": "ça는 c 밑에 세디유(ç)를 꼭 붙인다. ca로 쓰면 [까]로 읽힘."
+  },
+  {
+   "where": "노션 10/14 「미래형 10년뒤 나」",
+   "was": "boire는 불규칙 어간 boir-를 씁니다.",
+   "now": "boire → boir- 는 -re 동사 규칙(끝 e 떼기)대로 만든 어간.",
+   "why": "boire의 현재형(buv-, boiv-)은 불규칙이지만 미래형은 prendre → prendr- 와 같은 규칙형."
+  },
+  {
+   "where": "노션 10/14 「미래형 10년뒤 나」",
+   "was": "manger는 -ge-로 끝나는 동사라서 e를 유지해 mangerons로 씁니다.",
+   "now": "미래형은 원형 manger에 어미 -ons를 붙여 mangerons — e는 원형에 원래 있는 글자.",
+   "why": "nous mangeons(현재)의 e 유지 규칙과 혼동. 미래형은 원형 + 어미라 따로 규칙이 필요 없다."
+  }
+ ],
+ "note": [
+  {
+   "h": "⭐ 시험 안내 (교수님, 10/14)",
+   "skill": "futur",
+   "src": [
+    "노션 10/14"
+   ],
+   "body": [
+    {
+     "list": [
+      "쓰기: 자유 작문은 아니지만 **학습지 3번처럼 「10년 뒤 미래」** 문제가 나온다 → **자기 10년 후 하루**를 단순미래로 쓸 수 있게 준비",
+      "듣기: **4–5문항**. 그중 4개는 **듣고 빈칸 쓰기**"
+     ]
+    },
+    {
+     "memo": "필기 원문: 작문은 안나오지만 학습지의 3번처럼 시험에 10년 뒤 미래 이거 나옴 / 자기 10년 후 하루는 쓸 수 있도록 / 듣기 문제 4-5개, 나머지는 4개 듣고 빈칸 쓰기."
+    }
+   ]
+  },
+  {
+   "h": "대화문 — Comment tu vois ton avenir ? (p.26–27)",
+   "skill": "futur",
+   "src": [
+    "semaine 7-2 p.26–27"
+   ],
+   "body": [
+    {
+     "ex": [
+      [
+       "Jean : Comment tu vois ton avenir ?",
+       "장: 너는 네 미래를 어떻게 보니?"
+      ],
+      [
+       "François : Je trouverai un travail intéressant. Je me marierai et j'aurai des enfants.",
+       "프랑수아: 나는 흥미로운 일을 찾을 거야. 결혼하고 아이들도 가질 거야."
+      ],
+      [
+       "Jean : Moi, j'ai peur de ne pas trouver de travail.",
+       "장: 나는 일자리를 못 찾을까 봐 걱정이야."
+      ],
+      [
+       "Il y aura de moins en moins de travail et de plus en plus de chômeurs.",
+       "일자리는 점점 줄고 실업자는 점점 늘 거야."
+      ],
+      [
+       "François : Pourtant, on aura plus de temps pour les loisirs, et justement, cela peut créer des emplois.",
+       "프랑수아: 그래도 여가 시간이 더 많아질 거고, 바로 그게 일자리를 만들 수 있어."
+      ],
+      [
+       "La vie sera plus facile grâce à la technologie moderne.",
+       "현대 기술 덕분에 삶은 더 편해질 거야."
+      ],
+      [
+       "Jean : Mais la qualité de la vie sera-t-elle meilleure ? Quand on pense à la pollution …",
+       "장: 하지만 삶의 질이 더 나아질까? 오염을 생각하면 …"
+      ],
+      [
+       "François : Ne t'inquiète pas. On utilisera des voitures électriques ou hybrides.",
+       "프랑수아: 걱정 마. 전기차나 하이브리드차를 쓸 거야."
+      ],
+      [
+       "Comme ça, il y aura moins de pollution. Tu ne crois pas ?",
+       "그러면 오염이 줄 거야. 그렇게 생각 안 해?"
+      ],
+      [
+       "Jean : Si, mais les eaux et le sol sont également pollués.",
+       "장: 아니, 그렇게 생각해. 그런데 물과 땅도 오염돼 있어."
+      ],
+      [
+       "Et bientôt, on manquera d'eau dans plusieurs pays. Tu vois, l'avenir n'est pas si rose.",
+       "그리고 곧 여러 나라에서 물이 부족해질 거야. 봐, 미래는 그렇게 장밋빛이 아니야."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "h": "대화문 속 미래 · 비교",
+   "skill": "futur",
+   "src": [
+    "semaine 7-2 p.26–27"
+   ],
+   "body": [
+    {
+     "table": [
+      [
+       "미래형",
+       "원형"
+      ],
+      [
+       "je trouverai · je me marierai",
+       "trouver · se marier (원형 + 어미)"
+      ],
+      [
+       "j'aurai · il y aura · on aura",
+       "avoir → aur-"
+      ],
+      [
+       "la vie sera · sera-t-elle",
+       "être → ser-"
+      ],
+      [
+       "on utilisera · on manquera",
+       "utiliser · manquer"
+      ]
+     ],
+     "head": true
+    },
+    {
+     "list": [
+      "il y a → **il y aura** (~이 있을 것이다)",
+      "**on** + 3인칭 단수: on aura, on utilisera, on manquera",
+      "**de moins en moins de** travail / **de plus en plus de** chômeurs = 점점 적은 / 많은 + 명사",
+      "plus de temps · plus facile · moins de pollution — 비교 대상이 문맥(지금)이라 que 없이",
+      "la qualité(여) → **meilleure** (plus bonne ✗)"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "대화문 표현 — 의문 · 부정 · Ce/Ça/Cela",
+   "skill": "question",
+   "src": [
+    "semaine 7-2 p.26–27",
+    "노션 10/14"
+   ],
+   "body": [
+    {
+     "list": [
+      "**sera-t-elle** meilleure ? — 명사 주어(la qualité) + 대명사 도치, 모음 충돌을 막는 **-t-**",
+      "Tu ne crois pas ? — **Si** = 부정 의문문에 '아니, 그렇게 생각해'로 반박 (Oui ✗)",
+      "j'ai peur de **ne pas** trouver **de** travail — 부정사 부정은 ne pas + 원형, 부정 뒤 명사 앞 de",
+      "**Ne t'inquiète pas.** — s'inquiéter의 tu 부정 명령 (-er 동사라 s 없음)",
+      "manquer **d'**eau — manquer de + 무관사 명사 (~이 부족하다)",
+      "pas **si** rose — 부정문의 si = 그렇게 (so)",
+      "**grâce à** = ~ 덕분에"
+     ]
+    },
+    {
+     "table": [
+      [
+       "",
+       "쓰임"
+      ],
+      [
+       "ce",
+       "c'est (ce + est, 엘리지옹) · ce sera"
+      ],
+      [
+       "cela",
+       "그것 (문어·정식): cela peut créer des emplois"
+      ],
+      [
+       "ça",
+       "cela의 구어형: Comme ça"
+      ]
+     ],
+     "head": true
+    },
+    {
+     "memo": "필기: Ce / Ça / Cela — 엘리지옹 됐다 싶으면 Ce 임!"
+    }
+   ]
+  },
+  {
+   "h": "10년 뒤 나 — 미래형 작문 예시",
+   "skill": "futur",
+   "src": [
+    "노션 10/14 「미래형 10년뒤 나」"
+   ],
+   "body": [
+    {
+     "ex": [
+      [
+       "Ce sera le 12 octobre 2036, un dimanche ordinaire.",
+       "2036년 10월 12일, 평범한 일요일일 것이다."
+      ],
+      [
+       "Je serai à Séoul, à la maison, avec ma femme et ma fille.",
+       "나는 서울 집에서 아내와 딸과 함께 있을 것이다."
+      ],
+      [
+       "Je me réveillerai à neuf heures et ma femme préparera le petit-déjeuner.",
+       "나는 9시에 일어나고 아내는 아침을 준비할 것이다."
+      ],
+      [
+       "Ensuite, nous irons en voiture dans un café avec une belle vue.",
+       "그다음 우리는 차를 타고 전망 좋은 카페에 갈 것이다."
+      ],
+      [
+       "À midi, nous irons au bord du fleuve Han et nous mangerons la pizza préférée de ma fille.",
+       "점심에 한강가에 가서 딸이 제일 좋아하는 피자를 먹을 것이다."
+      ],
+      [
+       "Après le repas, nous ferons du vélo ensemble.",
+       "식사 후 함께 자전거를 탈 것이다."
+      ],
+      [
+       "Le soir, je coucherai ma fille, puis ma femme et moi boirons de la bière et regarderons un film.",
+       "저녁엔 딸을 재우고, 아내와 나는 맥주를 마시며 영화를 볼 것이다."
+      ],
+      [
+       "Vers onze heures, je me coucherai.",
+       "11시쯤 나는 잘 것이다."
+      ]
+     ]
+    },
+    {
+     "list": [
+      "C'est → **Ce sera** (sera가 자음 s로 시작 → 엘리지옹 없음)",
+      "불규칙 어간: serai (être) · irons (aller) · ferons (faire)",
+      "원형 + 어미: réveillerai · préparera · mangerons · regarderons · coucherai · boirons(-re → e 떼기)",
+      "대명동사: je **me** réveillerai · je **me** coucherai",
+      "ma femme et moi = nous → boirons, regarderons",
+      "시간 표현: à neuf heures · à midi · le soir · vers onze heures (~쯤) · ensuite · après le repas",
+      "au bord du fleuve Han (à + le, de + le 축약) · faire du vélo · de la bière (부분관사) · une belle vue"
+     ]
+    },
+    {
+     "warn": "**coucher** ma fille = 딸을 재우다 (타동사) ↔ **se coucher** = 자다. Je me coucherai."
+    },
+    {
+     "memo": "시험 대비: 날짜 → 장소·함께 있는 사람 → 아침 → 점심 → 오후 → 저녁 → 잠 순서로 하루를 미래형으로 써 보기."
+    }
+   ]
+  },
+  {
+   "h": "대화문 어휘",
+   "skill": "vocab",
+   "src": [
+    "semaine 7-2 p.26–27"
+   ],
+   "body": [
+    {
+     "table": [
+      [
+       "표현",
+       "뜻"
+      ],
+      [
+       "l'avenir (m.)",
+       "미래"
+      ],
+      [
+       "se marier",
+       "결혼하다"
+      ],
+      [
+       "le chômeur / la chômeuse",
+       "실업자"
+      ],
+      [
+       "les loisirs (m.pl.)",
+       "여가"
+      ],
+      [
+       "pourtant",
+       "그래도, 그런데도"
+      ],
+      [
+       "justement",
+       "바로 그래서, 마침"
+      ],
+      [
+       "créer des emplois",
+       "일자리를 만들다"
+      ],
+      [
+       "grâce à",
+       "~ 덕분에"
+      ],
+      [
+       "la qualité de la vie",
+       "삶의 질"
+      ],
+      [
+       "s'inquiéter",
+       "걱정하다"
+      ],
+      [
+       "une voiture électrique / hybride",
+       "전기차 / 하이브리드차"
+      ],
+      [
+       "comme ça",
+       "그렇게 하면"
+      ],
+      [
+       "également",
+       "또한"
+      ],
+      [
+       "le sol",
+       "땅, 토양"
+      ],
+      [
+       "bientôt",
+       "곧"
+      ],
+      [
+       "manquer de",
+       "~이 부족하다"
+      ],
+      [
+       "plusieurs",
+       "여러"
+      ],
+      [
+       "pas si rose",
+       "그리 장밋빛이 아닌"
+      ]
+     ],
+     "head": true
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "id": "u3-07-c-exam",
+   "t": "choice",
+   "skill": "futur",
+   "prompt": "교수님 시험 안내 — 쓰기에서 준비할 것은?",
+   "q": "시험에 「10년 뒤 미래」 문제 (학습지 3번처럼)",
+   "a": "내 10년 후 하루를 단순미래로 쓰기",
+   "wrong": [
+    "지난 주말을 복합과거로 쓰기",
+    "길 안내 대화 외우기",
+    "가족 소개를 현재형으로 쓰기"
+   ],
+   "say": "",
+   "hint": "이번 Leçon에서 배운 시제와 '10년 뒤'.",
+   "explain": "필기: 자기 10년 후 하루는 쓸 수 있도록.",
+   "star": true,
+   "src": "노션 10/14"
+  },
+  {
+   "id": "u3-07-c-exam-listen",
+   "t": "choice",
+   "skill": "futur",
+   "prompt": "듣기 시험 형식 (필기)",
+   "q": "듣기 문제는?",
+   "a": "4–5문항, 대부분 듣고 빈칸 쓰기",
+   "wrong": [
+    "10문항, 모두 객관식",
+    "받아쓰기 없이 O/X만",
+    "듣기는 나오지 않음"
+   ],
+   "say": "",
+   "hint": "필기: '나머지는 4개 ○○ ○○ ○○'.",
+   "explain": "듣기 4–5문항, 그중 4개는 듣고 빈칸 쓰기.",
+   "star": true,
+   "src": "노션 10/14"
+  },
+  {
+   "id": "u3-07-c-avenir-sens",
+   "t": "choice",
+   "skill": "vocab",
+   "prompt": "알맞은 해석은?",
+   "q": "Comment tu vois ton avenir ?",
+   "a": "너는 네 미래를 어떻게 보니?",
+   "wrong": [
+    "너는 어떻게 여기 왔니?",
+    "너는 네 과거를 어떻게 생각해?",
+    "너는 언제 미래를 보러 가?"
+   ],
+   "say": "Comment tu vois ton avenir ?",
+   "hint": "avenir = à + venir (앞으로 올 것).",
+   "explain": "l'avenir = 미래. voir son avenir = 자기 미래를 내다보다.",
+   "src": "semaine 7-2 p.26"
+  },
+  {
+   "id": "u3-07-t-trouverai",
+   "t": "type",
+   "skill": "futur",
+   "prompt": "단순미래로 (대화문)",
+   "q": "Je (trouver) un travail intéressant. → Je ___ un travail intéressant.",
+   "a": "trouverai",
+   "hint": "원형 + je 어미.",
+   "explain": "trouver + ai.",
+   "src": "semaine 7-2 p.26"
+  },
+  {
+   "id": "u3-07-c-me-marierai",
+   "t": "choice",
+   "skill": "futur",
+   "prompt": "단순미래로 — 빈칸은?",
+   "q": "Je ___ et j'aurai des enfants.",
+   "ko": "나는 결혼하고 아이들을 가질 거야.",
+   "a": "me marierai",
+   "wrong": [
+    "marierai",
+    "me marirai",
+    "me marie"
+   ],
+   "hint": "대명동사 + 원형 그대로 + 어미.",
+   "explain": "se marier → je me marierai (원형 marier + ai).",
+   "src": "semaine 7-2 p.26"
+  },
+  {
+   "id": "u3-07-c-aurai",
+   "t": "choice",
+   "skill": "futur",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "Je me marierai et ___ des enfants.",
+   "ko": "나는 결혼하고 아이들을 가질 거야.",
+   "a": "j'aurai",
+   "wrong": [
+    "j'avrai",
+    "je aurai",
+    "j'avoirai"
+   ],
+   "hint": "avoir의 미래 어간 + 엘리지옹.",
+   "explain": "avoir → aur- + ai, je → j'.",
+   "src": "semaine 7-2 p.26"
+  },
+  {
+   "id": "u3-07-c-peur-pas-de",
+   "t": "choice",
+   "skill": "neg",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "Moi, j'ai peur de ne pas trouver ___ travail.",
+   "ko": "나는 일자리를 못 찾을까 봐 걱정이야.",
+   "a": "de",
+   "wrong": [
+    "du",
+    "un",
+    "le"
+   ],
+   "hint": "부정 뒤 명사 앞 부분관사는?",
+   "explain": "부정문에서 du/un → de. 부정사 부정은 ne pas + 원형.",
+   "src": "semaine 7-2 p.26"
+  },
+  {
+   "id": "u3-07-c-il-y-aura",
+   "t": "choice",
+   "skill": "futur",
+   "prompt": "단순미래로 — 빈칸은?",
+   "q": "___ de moins en moins de travail.",
+   "ko": "일자리는 점점 줄어들 거야.",
+   "a": "Il y aura",
+   "wrong": [
+    "Il y a",
+    "Il y sera",
+    "Il aura"
+   ],
+   "hint": "il y a의 미래 — avoir의 어간!",
+   "explain": "il y a → il y aura.",
+   "star": true,
+   "src": "semaine 7-2 p.26"
+  },
+  {
+   "id": "u3-07-c-de-plus-en-plus",
+   "t": "choice",
+   "skill": "comparatif",
+   "prompt": "알맞은 해석은?",
+   "q": "Il y aura de plus en plus de chômeurs.",
+   "a": "실업자가 점점 더 많아질 것이다.",
+   "wrong": [
+    "실업자가 점점 줄어들 것이다.",
+    "실업자가 더 이상 없을 것이다.",
+    "실업자가 조금 있을 것이다."
+   ],
+   "say": "Il y aura de plus en plus de chômeurs.",
+   "hint": "plus를 en으로 두 번 → 점점 ~.",
+   "explain": "de plus en plus de + 명사 = 점점 많은 ~.",
+   "star": true,
+   "src": "semaine 7-2 p.26"
+  },
+  {
+   "id": "u3-07-b-moins-en-moins",
+   "t": "build",
+   "skill": "comparatif",
+   "prompt": "문장을 만드세요",
+   "ko": "일자리가 점점 줄어들 것이다.",
+   "a": "Il y aura de moins en moins de travail.",
+   "extra": [
+    "du",
+    "plus"
+   ],
+   "hint": "'점점 덜'은 같은 말을 en으로 반복 + 명사 앞 de.",
+   "explain": "de moins en moins de + 명사 = 점점 적은 ~.",
+   "src": "semaine 7-2 p.26"
+  },
+  {
+   "id": "u3-07-c-on-aura",
+   "t": "choice",
+   "skill": "on",
+   "prompt": "단순미래로 — 빈칸은?",
+   "q": "Pourtant, on ___ plus de temps pour les loisirs.",
+   "ko": "그래도 우리는 여가 시간이 더 많아질 거야.",
+   "a": "aura",
+   "wrong": [
+    "aurons",
+    "auront",
+    "aurai"
+   ],
+   "hint": "on은 '우리'지만 동사는 몇 인칭?",
+   "explain": "on = 3인칭 단수 → aura.",
+   "star": true,
+   "src": "semaine 7-2 p.26"
+  },
+  {
+   "id": "u3-07-c-sera-plus-facile",
+   "t": "choice",
+   "skill": "futur",
+   "prompt": "단순미래로 — 빈칸은?",
+   "q": "La vie ___ plus facile grâce à la technologie moderne.",
+   "ko": "현대 기술 덕분에 삶은 더 편해질 거야.",
+   "a": "sera",
+   "wrong": [
+    "serai",
+    "aura",
+    "est"
+   ],
+   "hint": "être의 미래 어간 + elle 어미.",
+   "explain": "être → ser- + a.",
+   "src": "semaine 7-2 p.26"
+  },
+  {
+   "id": "u3-07-c-grace-a",
+   "t": "choice",
+   "skill": "vocab",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "La vie sera plus facile ___ la technologie moderne.",
+   "ko": "현대 기술 덕분에 삶은 더 편해질 거야.",
+   "a": "grâce à",
+   "wrong": [
+    "grâce de",
+    "à cause de",
+    "avec de"
+   ],
+   "hint": "긍정적인 원인 '~ 덕분에'.",
+   "explain": "grâce à = ~ 덕분에.",
+   "src": "semaine 7-2 p.26"
+  },
+  {
+   "id": "u3-07-c-sera-t-elle",
+   "t": "choice",
+   "skill": "question",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "Mais la qualité de la vie ___ meilleure ?",
+   "ko": "하지만 삶의 질이 더 나아질까?",
+   "a": "sera-t-elle",
+   "wrong": [
+    "sera-elle",
+    "sera-t-il",
+    "elle sera-t"
+   ],
+   "hint": "명사 주어 + 대명사 도치, 모음 사이 연결 글자, qualité의 성.",
+   "explain": "la qualité … sera-t-elle ? (-t-는 모음 충돌 방지).",
+   "star": true,
+   "src": "semaine 7-2 p.27"
+  },
+  {
+   "id": "u3-07-c-meilleure-qualite",
+   "t": "choice",
+   "skill": "comparatif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "La qualité de la vie sera-t-elle ___ ?",
+   "ko": "삶의 질이 더 나아질까?",
+   "a": "meilleure",
+   "wrong": [
+    "plus bonne",
+    "meilleur",
+    "mieux"
+   ],
+   "hint": "qualité는 여성 + bon의 우등 비교.",
+   "explain": "bonne의 우등 = meilleure.",
+   "src": "semaine 7-2 p.27"
+  },
+  {
+   "id": "u3-07-c-ne-t-inquiete",
+   "t": "choice",
+   "skill": "imperatif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "___ pas.",
+   "ko": "걱정하지 마.",
+   "a": "Ne t'inquiète",
+   "wrong": [
+    "Ne t'inquiètes",
+    "Ne inquiète-toi",
+    "Ne te inquiète"
+   ],
+   "say": "Ne t'inquiète pas.",
+   "hint": "tu 부정 명령: 대명사는 동사 앞, -er 동사 끝 s는?",
+   "explain": "s'inquiéter → Ne t'inquiète pas (-er 명령문은 s 탈락).",
+   "src": "semaine 7-2 p.27"
+  },
+  {
+   "id": "u3-07-c-utilisera",
+   "t": "choice",
+   "skill": "futur",
+   "prompt": "단순미래로",
+   "q": "On ___ des voitures électriques ou hybrides.",
+   "ko": "우리는 전기차나 하이브리드차를 쓸 거야.",
+   "a": "utilisera",
+   "wrong": [
+    "utiliserons",
+    "utiliseront",
+    "utilisa"
+   ],
+   "hint": "on + 원형 + 3인칭 단수 어미.",
+   "explain": "utiliser + a.",
+   "src": "semaine 7-2 p.27"
+  },
+  {
+   "id": "u3-07-c-moins-de-pollution",
+   "t": "choice",
+   "skill": "comparatif",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "Comme ça, il y aura ___ pollution.",
+   "ko": "그러면 오염이 줄어들 거야.",
+   "a": "moins de",
+   "wrong": [
+    "moins",
+    "moins de la",
+    "moins la"
+   ],
+   "hint": "명사 비교 — 관사 없이 연결어만.",
+   "explain": "moins de + 무관사 명사.",
+   "src": "semaine 7-2 p.27"
+  },
+  {
+   "id": "u3-07-c-si",
+   "t": "choice",
+   "skill": "neg",
+   "prompt": "\"그렇게 생각하지 않아?\"에 \"아니, 그렇게 생각해\"라고 하려면?",
+   "q": "Tu ne crois pas ?",
+   "a": "Si, mais…",
+   "wrong": [
+    "Oui, mais…",
+    "Non, mais…",
+    "Moi aussi, mais…"
+   ],
+   "say": "Si, mais",
+   "hint": "부정 의문문에 긍정으로 반박할 때.",
+   "explain": "부정 의문문에 '그렇다'고 할 땐 Oui가 아니라 Si.",
+   "star": true,
+   "src": "semaine 7-2 p.27"
+  },
+  {
+   "id": "u3-07-c-manquer-de",
+   "t": "choice",
+   "skill": "vocab",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "Bientôt, on manquera ___eau dans plusieurs pays.",
+   "ko": "곧 여러 나라에서 물이 부족해질 거야.",
+   "a": "d'",
+   "wrong": [
+    "de l'",
+    "l'",
+    "à l'"
+   ],
+   "say": "Bientôt, on manquera d'eau dans plusieurs pays.",
+   "hint": "manquer + 무관사 명사, 모음 앞 축약.",
+   "explain": "manquer de + 명사 → manquer d'eau.",
+   "src": "semaine 7-2 p.27"
+  },
+  {
+   "id": "u3-07-c-pas-si-rose",
+   "t": "choice",
+   "skill": "vocab",
+   "prompt": "알맞은 해석은?",
+   "q": "Tu vois, l'avenir n'est pas si rose.",
+   "a": "봐, 미래는 그렇게 장밋빛이 아니야.",
+   "wrong": [
+    "봐, 미래는 정말 장밋빛이야.",
+    "봐, 미래엔 장미가 없어.",
+    "봐, 미래는 더 이상 없어."
+   ],
+   "say": "Tu vois, l'avenir n'est pas si rose.",
+   "hint": "부정문 속 si = so.",
+   "explain": "pas si + 형용사 = 그렇게 ~하지 않은.",
+   "src": "semaine 7-2 p.27"
+  },
+  {
+   "id": "u3-07-l-il-y-aura",
+   "t": "listen",
+   "skill": "futur",
+   "say": "Il y aura moins de pollution.",
+   "a": "Il y aura moins de pollution.",
+   "wrong": [
+    "Il y a moins de pollution.",
+    "Il y aura plus de pollution."
+   ],
+   "ko": "오염이 줄어들 것이다.",
+   "pron": "[일 리 오하 무앵 드 폴뤼시옹]",
+   "hint": "il y 뒤에 r 소리가 들렸나요? 더/덜은?",
+   "explain": "il y aura [일리오하] = 미래.",
+   "src": "semaine 7-2 p.27"
+  },
+  {
+   "id": "u3-07-c-cela-ca",
+   "t": "choice",
+   "skill": "vocab",
+   "prompt": "cela peut créer des emplois — cela의 구어형은?",
+   "q": "cela",
+   "a": "ça",
+   "wrong": [
+    "ce",
+    "celle",
+    "sa"
+   ],
+   "say": "",
+   "hint": "c 밑에 꼬리가 달린 짧은 말.",
+   "explain": "ça = cela의 구어형 (Comme ça).",
+   "src": "노션 10/14"
+  },
+  {
+   "id": "u3-07-c-c-est-ce",
+   "t": "choice",
+   "skill": "vocab",
+   "prompt": "C'est의 c'는 원래 무엇?",
+   "q": "C'est …",
+   "a": "ce",
+   "wrong": [
+    "ça",
+    "cela",
+    "se"
+   ],
+   "say": "",
+   "hint": "필기: '엘리지옹 됐다 싶으면 ○○!'",
+   "explain": "ce + est → c'est.",
+   "src": "노션 10/14"
+  },
+  {
+   "id": "u3-07-c-ce-sera",
+   "t": "choice",
+   "skill": "futur",
+   "prompt": "C'est를 미래로",
+   "q": "C'est le 12 octobre. → ___ le 12 octobre 2036.",
+   "ko": "2036년 10월 12일일 것이다.",
+   "a": "Ce sera",
+   "wrong": [
+    "C'sera",
+    "Ce aura",
+    "C'est sera"
+   ],
+   "hint": "être 미래 어간은 자음 s로 시작 — 엘리지옹 할까?",
+   "explain": "ser-는 자음이라 ce 그대로: Ce sera.",
+   "star": true,
+   "src": "노션 10/14 「미래형 10년뒤 나」"
+  },
+  {
+   "id": "u3-07-t-me-reveillerai",
+   "t": "type",
+   "skill": "futur",
+   "prompt": "단순미래로 (10년 뒤 나)",
+   "q": "Je (se réveiller) à neuf heures. → Je ___ à neuf heures.",
+   "a": "me réveillerai",
+   "hint": "재귀대명사 + 원형 + 어미, 악센트도!",
+   "explain": "se réveiller → je me réveillerai.",
+   "src": "노션 10/14 「미래형 10년뒤 나」"
+  },
+  {
+   "id": "u3-07-c-irons",
+   "t": "choice",
+   "skill": "futur",
+   "prompt": "단순미래로 — 빈칸은?",
+   "q": "Ensuite, nous ___ en voiture dans un café avec une belle vue.",
+   "ko": "그다음 우리는 차를 타고 전망 좋은 카페에 갈 것이다.",
+   "a": "irons",
+   "wrong": [
+    "allerons",
+    "irions",
+    "allons"
+   ],
+   "hint": "aller의 미래 어간은 불규칙.",
+   "explain": "aller → ir- + ons.",
+   "src": "노션 10/14 「미래형 10년뒤 나」"
+  },
+  {
+   "id": "u3-07-c-ferons-velo",
+   "t": "choice",
+   "skill": "futur",
+   "prompt": "단순미래로 — 빈칸은?",
+   "q": "Après le repas, nous ___ du vélo ensemble.",
+   "ko": "식사 후 우리는 함께 자전거를 탈 것이다.",
+   "a": "ferons",
+   "wrong": [
+    "fairons",
+    "faisons",
+    "ferrons"
+   ],
+   "hint": "faire의 미래 어간.",
+   "explain": "faire → fer- + ons.",
+   "src": "노션 10/14 「미래형 10년뒤 나」"
+  },
+  {
+   "id": "u3-07-c-boirons",
+   "t": "choice",
+   "skill": "futur",
+   "prompt": "단순미래로 — 빈칸은?",
+   "q": "Ma femme et moi ___ de la bière.",
+   "ko": "아내와 나는 맥주를 마실 것이다.",
+   "a": "boirons",
+   "wrong": [
+    "boivrons",
+    "boirez",
+    "boiront"
+   ],
+   "hint": "X et moi = 어떤 인칭? -re 동사는 e 떼기.",
+   "explain": "ma femme et moi = nous → boir- + ons.",
+   "src": "노션 10/14 「미래형 10년뒤 나」"
+  },
+  {
+   "id": "u3-07-c-coucher",
+   "t": "choice",
+   "skill": "pronominal",
+   "prompt": "빈칸에 알맞은 것은? (딸을 재우다)",
+   "q": "Le soir, je ___ ma fille.",
+   "ko": "저녁에 나는 딸을 재울 것이다.",
+   "a": "coucherai",
+   "wrong": [
+    "me coucherai",
+    "couchrai",
+    "coucherais"
+   ],
+   "hint": "남을 재울 때도 재귀대명사가 필요할까?",
+   "explain": "coucher qqn = ~을 재우다 (se 없음).",
+   "star": true,
+   "src": "노션 10/14 「미래형 10년뒤 나」"
+  },
+  {
+   "id": "u3-07-b-me-coucherai",
+   "t": "build",
+   "skill": "pronominal",
+   "prompt": "문장을 만드세요",
+   "ko": "11시쯤 나는 잘 것이다.",
+   "a": "Vers onze heures, je me coucherai.",
+   "extra": [
+    "à",
+    "se"
+   ],
+   "hint": "'~쯤' + 대명동사 미래.",
+   "explain": "vers + 시각 = ~쯤. se coucher → je me coucherai.",
+   "src": "노션 10/14 「미래형 10년뒤 나」"
+  },
+  {
+   "id": "u3-07-c-au-bord-du",
+   "t": "choice",
+   "skill": "prep-lieu",
+   "prompt": "빈칸에 알맞은 것은?",
+   "q": "À midi, nous irons ___ fleuve Han.",
+   "ko": "점심에 우리는 한강가에 갈 것이다.",
+   "a": "au bord du",
+   "wrong": [
+    "à le bord de le",
+    "au bord de le",
+    "à la bord du"
+   ],
+   "hint": "à + le, de + le는 축약!",
+   "explain": "à + le = au, de + le = du.",
+   "src": "노션 10/14 「미래형 10년뒤 나」"
+  },
+  {
+   "id": "u3-07-w-avenir",
+   "t": "word",
+   "skill": "vocab",
+   "fr": "l'avenir",
+   "ko": "미래",
+   "g": "m",
+   "src": "semaine 7-2 p.26"
+  },
+  {
+   "id": "u3-07-w-chomeur",
+   "t": "word",
+   "skill": "vocab",
+   "fr": "le chômeur / la chômeuse",
+   "ko": "실업자",
+   "say": "le chômeur, la chômeuse",
+   "src": "semaine 7-2 p.26"
+  },
+  {
+   "id": "u3-07-w-loisirs",
+   "t": "word",
+   "skill": "vocab",
+   "fr": "les loisirs",
+   "ko": "여가",
+   "g": "pl",
+   "src": "semaine 7-2 p.26"
+  },
+  {
+   "id": "u3-07-w-pourtant",
+   "t": "word",
+   "skill": "vocab",
+   "fr": "pourtant",
+   "ko": "그래도, 그런데도",
+   "src": "semaine 7-2 p.26"
+  },
+  {
+   "id": "u3-07-w-justement",
+   "t": "word",
+   "skill": "vocab",
+   "fr": "justement",
+   "ko": "바로 그래서, 마침",
+   "src": "semaine 7-2 p.26"
+  },
+  {
+   "id": "u3-07-w-emploi",
+   "t": "word",
+   "skill": "vocab",
+   "fr": "l'emploi",
+   "ko": "일자리",
+   "g": "m",
+   "src": "semaine 7-2 p.26"
+  },
+  {
+   "id": "u3-07-w-qualite",
+   "t": "word",
+   "skill": "vocab",
+   "fr": "la qualité",
+   "ko": "질, 품질",
+   "g": "f",
+   "src": "semaine 7-2 p.27"
+  },
+  {
+   "id": "u3-07-w-sol",
+   "t": "word",
+   "skill": "vocab",
+   "fr": "le sol",
+   "ko": "땅, 토양",
+   "g": "m",
+   "src": "semaine 7-2 p.27"
+  },
+  {
+   "id": "u3-07-w-bientot",
+   "t": "word",
+   "skill": "vocab",
+   "fr": "bientôt",
+   "ko": "곧",
+   "src": "semaine 7-2 p.27"
+  },
+  {
+   "id": "u3-07-w-plusieurs",
+   "t": "word",
+   "skill": "vocab",
+   "fr": "plusieurs",
+   "ko": "여러",
+   "src": "semaine 7-2 p.27"
+  },
+  {
+   "id": "u3-07-w-s-inquieter",
+   "t": "word",
+   "skill": "vocab",
+   "fr": "s'inquiéter",
+   "ko": "걱정하다",
+   "src": "semaine 7-2 p.27"
+  },
+  {
+   "id": "u3-07-w-se-marier",
+   "t": "word",
+   "skill": "vocab",
+   "fr": "se marier",
+   "ko": "결혼하다",
+   "src": "semaine 7-2 p.26"
+  },
+  {
+   "id": "u3-07-w-egalement",
+   "t": "word",
+   "skill": "vocab",
+   "fr": "également",
+   "ko": "또한, 마찬가지로",
+   "src": "semaine 7-2 p.27"
+  }
+ ]
+}

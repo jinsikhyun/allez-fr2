@@ -1,0 +1,322 @@
+{
+ "semaine 7-2": {
+  "p.1": [
+   "skip: 표지 (Semaine 7 · Leçon 11 · 10/14)"
+  ],
+  "p.2": [
+   "skip: 목차 (Révision : le comparatif / Le superlatif / Le texte-dialogue)"
+  ],
+  "p.3": [
+   "skip: PARTIE 1 간지 (Révision : le comparatif)"
+  ],
+  "p.4": [
+   "u3-04-c-degres",
+   "u3-04-c-mots",
+   "note:u3-05#0"
+  ],
+  "p.5": [
+   "u3-04-c-formule-qualite",
+   "u3-04-c-aussi-autant",
+   "note:u3-05#0",
+   "tip:u3-04#0"
+  ],
+  "p.6": [
+   "u3-05-c-qu-elle",
+   "u3-05-c-film-interessant",
+   "u3-05-b-maison-chere",
+   "u3-05-c-tot-invariable",
+   "u3-05-c-aussi-tard",
+   "u3-05-c-oncle-sens",
+   "u3-05-w-oncle",
+   "u3-05-w-tante",
+   "u3-05-w-grands-parents",
+   "note:u3-05#1"
+  ],
+  "p.7": [
+   "u3-04-c-formule-quantite",
+   "u3-05-c-manges-peu",
+   "note:u3-05#0"
+  ],
+  "p.8": [
+   "u3-04-b-plus-de-sacs",
+   "u3-04-c-autant-de-sacs",
+   "u3-04-b-mange-plus",
+   "u3-04-c-autant-verbe",
+   "note:u3-05#2"
+  ],
+  "p.9": [
+   "u3-05-c-peu-moins",
+   "u3-05-c-manges-peu",
+   "note:u3-05#2",
+   "tip:u3-05#0"
+  ],
+  "p.10": [
+   "u3-05-c-peu-sens",
+   "u3-05-c-un-peu-de",
+   "u3-05-err-beaucoup-du",
+   "note:u3-05#2",
+   "tip:u3-05#0"
+  ],
+  "p.11": [
+   "u3-05-c-ex2-5",
+   "note:u3-05#3"
+  ],
+  "p.12": [
+   "u3-05-c-lui-tonique",
+   "u3-05-b-autant-d-amis",
+   "u3-05-c-qu-elles",
+   "u3-05-c-travaillons",
+   "u3-05-c-travaillons-mood",
+   "u3-05-l-plus-qu-hier",
+   "note:u3-05#4"
+  ],
+  "p.13": [
+   "u3-05-c-meilleur",
+   "u3-05-c-meilleure",
+   "u3-05-err-plus-bonne",
+   "note:u3-05#5",
+   "tip:u3-05#1",
+   "u3-05-c-pron-meilleur"
+  ],
+  "p.14": [
+   "u3-05-c-mieux",
+   "u3-05-err-plus-bien",
+   "note:u3-05#5",
+   "tip:u3-05#1",
+   "u3-05-c-pron-mieux"
+  ],
+  "p.15": [
+   "u3-05-c-moins-bon",
+   "u3-05-c-aussi-bonne",
+   "u3-05-c-only-plus",
+   "note:u3-05#5",
+   "tip:u3-05#1"
+  ],
+  "p.16": [
+   "u3-05-c-moins-bien",
+   "u3-05-t-aussi-bien",
+   "note:u3-05#5",
+   "tip:u3-05#1"
+  ],
+  "p.17": [
+   "skip: PARTIE 2 간지 (Le superlatif)"
+  ],
+  "p.18": [
+   "u3-06-c-def",
+   "u3-06-c-former",
+   "note:u3-06#0",
+   "tip:u3-06#0"
+  ],
+  "p.19": [
+   "u3-06-c-le-plus-jeune",
+   "u3-06-b-plus-jeune-classe",
+   "u3-06-c-la-moins-grande",
+   "u3-06-c-range-de",
+   "note:u3-06#1"
+  ],
+  "p.20": [
+   "u3-06-c-il-parle",
+   "u3-06-c-le-moins-vite",
+   "u3-06-c-plus-d-argent",
+   "u3-06-b-moins-de-livres",
+   "u3-06-c-que-de",
+   "u3-06-l-le-plus-vite",
+   "u3-06-err-la-moins-vite",
+   "note:u3-06#2"
+  ],
+  "p.21": [
+   "u3-06-c-valerie",
+   "u3-06-c-russie",
+   "u3-06-c-du-monde",
+   "u3-06-c-plus-d-amis",
+   "u3-06-c-fautes-sens",
+   "u3-06-c-travaille-le-plus",
+   "u3-06-w-faute",
+   "u3-06-w-collegue",
+   "u3-06-w-monde",
+   "note:u3-06#3",
+   "u3-06-c-russie-alt",
+   "tip:u3-06#3"
+  ],
+  "p.22": [
+   "u3-06-c-possible",
+   "u3-06-c-le-meilleur",
+   "u3-06-c-meilleurs-restaurants",
+   "u3-06-c-le-mieux",
+   "u3-06-c-entre",
+   "u3-06-err-plus-bon",
+   "note:u3-06#4"
+  ],
+  "p.23": [
+   "u3-06-t-ex6",
+   "u3-06-t-ex7",
+   "u3-06-t-ex8",
+   "u3-06-err-ma-la",
+   "u3-06-w-paresseux",
+   "u3-06-w-courir",
+   "note:u3-06#5"
+  ],
+  "p.24": [
+   "u3-06-c-song-title",
+   "u3-06-c-song-forms",
+   "note:u3-06#6"
+  ],
+  "p.25": [
+   "skip: PARTIE 3 간지 (Le texte-dialogue)"
+  ],
+  "p.26": [
+   "u3-07-c-avenir-sens",
+   "u3-07-t-trouverai",
+   "u3-07-c-me-marierai",
+   "u3-07-c-aurai",
+   "u3-07-c-peur-pas-de",
+   "u3-07-c-il-y-aura",
+   "u3-07-c-de-plus-en-plus",
+   "u3-07-b-moins-en-moins",
+   "u3-07-c-on-aura",
+   "u3-07-c-sera-plus-facile",
+   "u3-07-c-grace-a",
+   "u3-07-w-avenir",
+   "u3-07-w-chomeur",
+   "u3-07-w-loisirs",
+   "u3-07-w-pourtant",
+   "u3-07-w-justement",
+   "u3-07-w-emploi",
+   "u3-07-w-se-marier",
+   "note:u3-07#1",
+   "note:u3-07#2",
+   "note:u3-07#5"
+  ],
+  "p.27": [
+   "u3-07-c-sera-t-elle",
+   "u3-07-c-meilleure-qualite",
+   "u3-07-c-ne-t-inquiete",
+   "u3-07-c-utilisera",
+   "u3-07-c-moins-de-pollution",
+   "u3-07-c-si",
+   "u3-07-c-manquer-de",
+   "u3-07-c-pas-si-rose",
+   "u3-07-l-il-y-aura",
+   "u3-07-w-qualite",
+   "u3-07-w-sol",
+   "u3-07-w-bientot",
+   "u3-07-w-plusieurs",
+   "u3-07-w-s-inquieter",
+   "u3-07-w-egalement",
+   "note:u3-07#1",
+   "note:u3-07#3",
+   "note:u3-07#5"
+  ],
+  "p.28": [
+   "skip: 마무리 슬라이드 (Questions / À demain !)"
+  ]
+ },
+ "노션 10/14": {
+  "§ 시험 안내 — 학습지 3번처럼 10년 뒤 미래 · 자기 10년 후 하루 · 듣기 4–5문항(4개 듣고 빈칸)": [
+   "u3-07-c-exam",
+   "u3-07-c-exam-listen",
+   "note:u3-07#0",
+   "tip:u3-07#0"
+  ],
+  "§ 하위 「미래형 10년뒤 나」 — 10년 후 하루 작문 + 해설": [
+   "u3-07-c-ce-sera",
+   "u3-07-t-me-reveillerai",
+   "u3-07-c-irons",
+   "u3-07-c-ferons-velo",
+   "u3-07-c-boirons",
+   "u3-07-c-coucher",
+   "u3-07-b-me-coucherai",
+   "u3-07-c-au-bord-du",
+   "note:u3-07#4",
+   "tip:u3-07#3"
+  ],
+  "§ Ce / Ça / Cela — 엘리지옹 됐으면 Ce": [
+   "u3-07-c-cela-ca",
+   "u3-07-c-c-est-ce",
+   "note:u3-07#3",
+   "tip:u3-07#2"
+  ],
+  "§ aussi는 성질 / autant은 양": [
+   "u3-04-c-aussi-autant",
+   "u3-05-c-aussi-tard",
+   "u3-05-c-travaillons",
+   "note:u3-05#0"
+  ],
+  "§ 성질 비교 예문 — elle = pronom tonique · 여성형이면 -e · 만큼 비싸다 · tôt 부사 · 삼촌/숙모": [
+   "u3-05-c-qu-elle",
+   "u3-05-c-film-interessant",
+   "u3-05-b-maison-chere",
+   "u3-05-c-tot-invariable",
+   "u3-05-c-oncle-sens",
+   "note:u3-05#1"
+  ],
+  "§ un peu와 peu 차이 — un을 빼면 거의 부정 · Tu as peu de sacs → moins de": [
+   "u3-05-c-peu-sens",
+   "u3-05-c-un-peu-de",
+   "u3-05-c-peu-moins",
+   "note:u3-05#2"
+  ],
+  "§ Exercice 2 답 — Je fais moins de sport que le matin": [
+   "u3-05-c-ex2-5",
+   "note:u3-05#3"
+  ],
+  "§ 양 비교 예문 — plus qu'hier s 발음 · 지난주만큼 일하자(양)": [
+   "u3-05-l-plus-qu-hier",
+   "u3-05-c-travaillons",
+   "u3-05-b-autant-d-amis",
+   "note:u3-05#4"
+  ],
+  "§ meilleur — l 두 개, 발음 주의": [
+   "u3-05-c-pron-meilleur",
+   "u3-05-c-meilleur",
+   "u3-05-c-meilleure"
+  ],
+  "§ mieux — x 발음 안 함 · bien은 부사라 변화 안 함": [
+   "u3-05-c-pron-mieux",
+   "u3-05-c-mieux",
+   "u3-05-c-moins-bien"
+  ],
+  "§ plus bon/bonne · plus bien일 때만 바뀜": [
+   "u3-05-c-only-plus",
+   "u3-05-err-plus-bonne",
+   "u3-05-err-plus-bien",
+   "note:u3-05#5"
+  ],
+  "§ Le superlatif — 비교급 앞에 정관사(le/la/les)": [
+   "u3-06-c-former",
+   "note:u3-06#0"
+  ],
+  "§ le랑 la 성수일치": [
+   "u3-06-c-la-moins-grande",
+   "u3-06-c-valerie",
+   "note:u3-06#1"
+  ],
+  "§ 형용사일 때만 성 일치": [
+   "u3-06-c-le-moins-vite",
+   "u3-06-err-la-moins-vite",
+   "u3-06-c-plus-d-amis",
+   "note:u3-06#2"
+  ],
+  "§ La Russie … → le plus grand pays du monde": [
+   "u3-06-c-russie",
+   "u3-06-c-russie-alt",
+   "note:u3-06#3"
+  ],
+  "§ Sylvie a fait le moins de fautes — 양에 붙음 · Jean travaille le plus": [
+   "u3-06-c-fautes-sens",
+   "u3-06-c-travaille-le-plus",
+   "note:u3-06#3"
+  ],
+  "§ le plus vite possible · le meilleur · les meilleurs · le mieux entre (밑줄)": [
+   "u3-06-c-possible",
+   "u3-06-c-le-meilleur",
+   "u3-06-c-meilleurs-restaurants",
+   "u3-06-c-le-mieux",
+   "u3-06-c-entre",
+   "note:u3-06#4"
+  ],
+  "§ 하위 「Semaine 7-2 정리」": [
+   "skip: Claude가 만든 정리 페이지 (학생 필기 아님) — 슬라이드 페이지별로 이미 매핑"
+  ]
+ }
+}

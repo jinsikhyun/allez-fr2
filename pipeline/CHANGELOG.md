@@ -182,3 +182,59 @@ PARTIE 1(대화문 복습 + pour aller plus loin)은 간지만 있고 내용 슬
 - **u1-17** Quiz 2 (9/17) 전 문항 (노션 midterm 정리노트) — I 12 · II 5 · III 10(+기존 u1-08 카드 2장) + 어휘 6 + 듣기 1
 - 동사장: dîner · répondre · trouver · se préparer · se raser · se maquiller · s'habiller · se rendre · se servir 추가 (82 → 91)
 - 커버리지 ✅ (content/coverage/u3-a.json), 빌드 경고 0 · 오류 0, version 20261011141129
+
+## 2026-10-12 (채팅) — 10/7 녹음 교차검증
+- Tiro 전사로 10/7 정리(노션 「Semaine 6-2 정리 (녹음 교차검증본)」)를 다시 만듦. GPS 문구·연습 답안·듣기 정답 확정.
+- u2-06-c-je-vous-en-prie: 교수님 발언으로 잘못 적었던 hint/explain 수정 (정답은 그대로 Je vous en prie).
+- 메모: 교차검증본에 새로 들어간 내용(se rendre → Rendez-vous, Excusez-moi vs Pardon, Comment aller…, Après 100 mètres / Tenez la gauche / Prenez l'autoroute, en arrivant, jusqu'à, 듣기 스크립트 2개)은 아직 Allez에 없음 — 학생 요청 시 u2-07로 추가.
+- **추가 반영 (같은 날, 학생 요청 "종합하고 정확한 최종 버전으로 Allez에 업데이트")**
+  - `u2-06` 정정 (id 변경 없음): GPS 노트를 검증된 대사로 교체(Dans 100 mètres, tournez à droite ✗ → Après 100 mètres, tournez à gauche), 오페라 연습에 교수님 답안 전문, 듣기 정답 확정(④ pharmacie · ① mairie), 시험 발언 확정, 낭테르 = 교수님이 다니던 학교, Excusez-moi 뉘앙스, De rien 발언을 녹음대로, 판테옹 세부. 순서어 tip 수정, 카드 2장(order·pantheon-origin) 설명 보정. `fixes` 3건.
+  - **새 레슨** `u2-07` 길 묻기 업그레이드 · se rendre · 시사: 23장 / 노트 5섹션 (se rendre → Rendez-vous, Excusez-moi vs Pardon, Comment aller, s'il vous plaît, toilettes ✗ 표현, mieux, Ah bon · Eh bien · là-bas · C'est à vous, On n'en peut plus · Qu'est-ce qui ne va pas, église·Sainte, à droite의 e, Parle 발음 요령)
+  - **새 레슨** `u2-08` GPS · 길 안내 듣기 실전: 30장 / 노트 5섹션 (GPS 대사, 듣기 지도 1·2 스크립트·정답, en arrivant · jusqu'à · sortez, 듣기 최소대립 4장, 오페라 → 생라자르 교수님 답안, ⭐ 시험 형식)
+  - 대조표 `u2-d.json` 갱신(p.4·7·8·10·11·12·14–19 + 「노션 10/7」을 섹션별로) · coverage ✅ PDF 17개 389쪽 빠진 0 · 참조 오류 0
+  - 빌드 경고 0 · 오류 0 (카드 1538, 레슨 36), version 20261011164819 · 배포 대기 (`pending_deploy: true`, 이 세션에서 Vercel 접속 불가)
+
+## 2026-10-08 (23시 자동 실행) — 중단
+- PDF 추출 명령 실행 허가 요청이 응답 없이 닫혀(AbortError) 아무것도 바꾸지 않고 멈춤.
+
+## 2026-10-14 (채팅 요청: "10/13까지 다 반영") — semaine 7-1 · 노션 10/13
+- 확인: semaine 6-3 · 노션 10/8은 2026-10-11에 이미 반영(u3-02). 노션 10/14는 빈 페이지.
+- **새 레슨** `u3-03` 단순미래 복습 — étudier · 현재→미래 · 부정 미래문 · devenir · serons/saurons: 카드 24장, 노트 4섹션
+- **새 레슨** `u3-04` 비교급 (le comparatif) — 성질(plus/moins/aussi + adj./adv. + que) · 양(plus de/moins de/autant de + 명사, 동사 + plus/moins/autant) · qu' 축약 · plus 발음: 카드 46장, 노트 6섹션, 스킬 `comparatif` 추가
+- 유닛 u3 제목 → 「Leçon 11 · 단순미래 · 비교급」
+- 필기 정정 2건(u3-04 fixes): moins intéressant 해석 '인상적' → '재미있는/흥미로운' · "Tu manges plus beaucoup" → 비교에선 beaucoup 대신 plus
+- 커버리지 ✅ (content/coverage/u3-b.json) PDF 18개 413쪽 빠진 0 · 참조 오류 0 · 빌드 경고 0 오류 0 (카드 1608, 레슨 38)
+- 배포 완료 (10/11·10/12 대기분 u2-06 정정·u2-07·u2-08 포함), version 20261013181155
+
+## 2026-10-14 — 📅 수업별 복습
+- 홈 「📅 수업별」 + 최근 수업 카드의 「▶ ○/○ 수업 섞어 풀기」: 같은 날 수업의 레슨을 묶어 한 판
+- 테마(노트 주제)마다 돌아가며 고르게 출제. 우선순위: 🆕 안 한 테마 → ✗ 자주 틀린 테마(그 안에서 틀린 카드 먼저) → 새 카드 남은 테마 → 숙련도 낮은 테마
+- 한 판 10 / 20 / 30문제 선택. 시트에서 테마별 상태(안 함 · 오답 · 새 카드 · ✓) 확인
+
+## 2026-10-14 — 📅 수업별 복습 취소
+- 학생 의도는 유닛(교프어I 복습 · Leçon 9 · Leçon 10 …) 단위 연습이었음 → 수업별 기능 코드 제거. 유닛 단위 시험형 연습은 flow 논의 후 추가 예정
+
+## 2026-10-14 — 📝 실전 연습 · 🩹 약점 노트
+- 홈 「📝 실전 연습」: 범위 = 유닛(교프어I 복습 · Leçon 9 · 10 · 11, 여러 개 선택), 20/30/40문제
+- 시험지처럼 Partie 1 듣기 30% (받아쓰기 단어·문장, 듣고 빈칸 쓰기, 듣고 뜻 고르기, 소리 구별) → Partie 2 쓰기 30% (빈칸·동사 활용·과거분사·바꿔 쓰기·작문·고쳐 쓰기·단어 쓰기) → Partie 3 객관식 40%. 레슨마다 고르게, 힌트 없음
+- 채점 선택: 끝나고 한꺼번에 / 문제마다 바로. 결과: 점수, 영역별·레슨별 점수, 틀린 이유, 문제별 채점(내 답 vs 정답, 관련 노트, 내 답도 맞아요)
+- 「🩹 약점 노트」: 실전 연습 오답을 이유별로 누적(악센트·엘리지옹·성수일치·어순·듣기·동사 형태·어휘·문법), 많이 틀린 문법·레슨, 약점만 다시 풀기. 다시 맞히면 사라짐. 기기 연동 포함
+
+## 2026-10-15 (자동 실행) — semaine 7-2 · 노션 10/14
+- **새 레슨** `u3-05` 비교급 복습 — 슬라이드 예문 · beaucoup/un peu/peu → plus/moins · Ex.2 #5 · 불규칙 meilleur(e)/mieux: 카드 33장, 노트 6섹션
+- **새 레슨** `u3-06` 최상급 (le superlatif) — 정관사 + 비교급, 범위 de, 형용사만 일치(부사·명사·동사 le), le pays le plus grand, le plus vite possible, le meilleur/le mieux, entre, 연습 6–8, 노래 슬라이드(문법만): 카드 37장, 노트 7섹션, 스킬 `superlatif` 추가
+- **새 레슨** `u3-07` 대화문 「Comment tu vois ton avenir ?」 + ⭐ 시험 안내(10년 뒤 미래 · 듣기 4–5문항) + 「10년 뒤 나」 미래 작문: 카드 45장, 노트 6섹션
+- 유닛 u3 제목 → 「Leçon 11 · 단순미래 · 비교급 · 최상급」
+- 정정(u3-07 fixes): 필기 "Ca" → "Ça" · 작문 해설 페이지의 boire 미래 어간 "불규칙" → -re 규칙형 · mangerons의 e 설명(원형의 e)
+- Ex.2 #5: 슬라이드엔 (+)지만 필기의 수업 정답 **moins**를 따름 (Claude 정리 페이지의 plus는 사용 안 함)
+- 커버리지 ✅ (content/coverage/u3-c.json) PDF 19개 441쪽 빠진 0 · 참조 오류 0 · 빌드 경고 0 오류 0 (카드 1723, 레슨 41)
+- 배포 완료, version 20261015014603 (https://allez-fr2.vercel.app 200 확인)
+
+## 2026-10-15 23시 (자동 실행) — 변경 없음 (새 PDF 없음 · 노션 10/15 페이지 아직 빈 페이지, 10/13·10/14는 last_run 이후 수정 없음 → 다음 실행에서 10/15 필기 확인)
+
+## 2026-10-16 (채팅 요청: "15일 수업까지 반영") — semaine 7-3 · 노션 10/15
+- **새 레슨** `u3-08` Leçon 11 마무리 — 최상급 복습 · de plus en plus/de moins en moins · 의문문 3가지 → sera-t-elle · s'inquiéter/se lever 명령문(Tkt) · si = tellement · 시간 표지(il y a/dans → 시제) · 10년 뒤 작문 교수님 피드백(chez moi · ma femme et moi boirons · en regardant): 카드 54장, 노트 8섹션
+- 7-3의 최상급·대화문 슬라이드는 7-2와 같은 내용이라 기존 u3-06·u3-07 카드에도 연결
+- 동사장: s'inquiéter 추가 (91 → 92)
+- 커버리지 ✅ (content/coverage/u3-d.json) PDF 20개 463쪽 빠진 0 · 참조 오류 0 · 빌드 경고 0 오류 0
+- 배포 완료, version 20261016072107

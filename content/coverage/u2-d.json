@@ -1,28 +1,300 @@
 {
   "semaine 6-2": {
-    "p.1": ["skip: 표지 (Semaine 6 · Leçon 10–11 · 10/7)"],
-    "p.2": ["skip: 목차"],
-    "p.3": ["skip: PARTIE 1 간지 (Révision : l'impératif)"],
-    "p.4": ["u2-05-c-parler", "u2-05-c-manger-nous", "u2-05-c-finir", "u2-05-c-prendre", "note:u2-06#0"],
-    "p.5": ["u2-05-c-avoir-tu", "u2-05-c-etre-nous", "u2-05-c-savoir", "u2-05-c-vouloir", "u2-05-c-aller-tu", "u2-06-c-veuillez", "u2-06-c-veuillez-sens", "u2-06-c-rare", "u2-06-c-patients", "u2-06-c-patientes", "u2-06-c-patients-pron", "note:u2-06#0"],
-    "p.6": ["u2-05-c-neg1", "u2-05-c-cod-moi", "u2-05-c-pron-tu", "u2-05-c-pron-neg", "u2-06-c-neg-pron", "note:u2-06#0"],
-    "p.7": ["u2-06-c-sois", "u2-06-c-taire", "u2-06-c-battre", "u2-06-c-ecoutez-nous", "u2-06-w-lycee", "u2-06-w-lyceen", "u2-06-w-blocus", "u2-06-w-se-taire", "u2-06-w-se-battre", "u2-06-w-avenir", "note:u2-06#1"],
-    "p.8": ["note:u2-06#1", "skip: 파리 낭테르 대학 휴교 공지 이미지 — 배경 설명은 노트 memo"],
-    "p.9": ["skip: PARTIE 2 간지 (Expression : indiquer le chemin)"],
-    "p.10": ["u2-06-c-premiere", "u2-06-c-traverser", "u2-06-c-order", "u2-06-w-d-abord", "note:u2-06#2", "tip:u2-06#3"],
-    "p.11": ["u2-06-c-tout-droit", "u2-06-c-droit-n", "u2-06-c-ligne-droite", "u2-06-c-main-droite", "u2-06-c-tenez", "u2-06-c-sur-votre-droite", "u2-06-c-a-droite-de", "u2-06-c-tournez-a", "u2-06-l-droite", "note:u2-06#3", "tip:u2-06#0"],
-    "p.12": ["u2-06-w-rond-point", "note:u2-06#4"],
-    "p.13": ["skip: PARTIE 3 간지 (Le texte-dialogue)"],
-    "p.14": ["u2-05-c-pour-aller", "u2-05-c-metro", "u2-06-c-facilement", "note:u2-06#5"],
-    "p.15": ["u2-06-c-pantheon-origin", "u2-06-c-pantheon-1885", "note:u2-06#6"],
-    "p.16": ["u2-05-c-fleuve", "u2-05-c-gauche", "u2-05-c-bout", "u2-06-c-se-trouve", "u2-06-c-toilettes", "u2-06-c-je-vous-en-prie", "u2-06-c-madame", "note:u2-06#5"],
-    "p.17": ["u2-06-c-prends", "u2-06-c-tourne", "u2-06-b-expliquez", "note:u2-06#7", "tip:u2-06#2"],
-    "p.18": ["u2-06-c-en-face", "note:u2-06#7", "skip: 듣기 문제(음성 없음) — 풀이는 노트에 재구성"],
-    "p.19": ["note:u2-06#7", "skip: 듣기 문제(음성 없음) — 풀이는 노트에 재구성"],
-    "p.20": ["note:u3-01#0", "skip: PARTIE 4 간지 (Le futur simple)"],
-    "p.21": ["u3-01-c-usage", "u3-01-c-endings", "u3-01-c-stem", "u3-01-c-je-trouver", "u3-01-t-tu-trouver", "u3-01-t-nous-trouver", "u3-01-c-ils-trouver", "u3-01-err-trouvrai", "note:u3-01#1", "tip:u3-01#0", "tip:u3-01#2"],
-    "p.22": ["u3-01-c-elle-parler", "u3-01-t-vous-parler", "u3-01-c-prendre-stem", "u3-01-err-prendrerai", "u3-01-t-nous-prendre", "u3-01-c-vous-prendre", "u3-01-c-ecrire-je", "u3-01-t-ils-ecrire", "u3-01-c-tu-ecrire", "u3-01-b-parlerons", "u3-01-c-pres-vs-fut", "u3-01-c-pron-ras", "u3-01-l-prendrai", "u3-01-l-ecriront", "note:u3-01#2", "note:u3-01#3", "tip:u3-01#1", "tip:u3-01#3"],
-    "p.23": ["u0-01-ademain", "skip: 마무리 슬라이드 (Questions / À demain !)"]
+    "p.1": [
+      "skip: 표지 (Semaine 6 · Leçon 10–11 · 10/7)"
+    ],
+    "p.2": [
+      "skip: 목차"
+    ],
+    "p.3": [
+      "skip: PARTIE 1 간지 (Révision : l'impératif)"
+    ],
+    "p.4": [
+      "u2-05-c-parler",
+      "u2-05-c-manger-nous",
+      "u2-05-c-finir",
+      "u2-05-c-prendre",
+      "note:u2-06#0",
+      "u2-07-c-parle-pron",
+      "note:u2-07#4"
+    ],
+    "p.5": [
+      "u2-05-c-avoir-tu",
+      "u2-05-c-etre-nous",
+      "u2-05-c-savoir",
+      "u2-05-c-vouloir",
+      "u2-05-c-aller-tu",
+      "u2-06-c-veuillez",
+      "u2-06-c-veuillez-sens",
+      "u2-06-c-rare",
+      "u2-06-c-patients",
+      "u2-06-c-patientes",
+      "u2-06-c-patients-pron",
+      "note:u2-06#0"
+    ],
+    "p.6": [
+      "u2-05-c-neg1",
+      "u2-05-c-cod-moi",
+      "u2-05-c-pron-tu",
+      "u2-05-c-pron-neg",
+      "u2-06-c-neg-pron",
+      "note:u2-06#0"
+    ],
+    "p.7": [
+      "u2-06-c-sois",
+      "u2-06-c-taire",
+      "u2-06-c-battre",
+      "u2-06-c-ecoutez-nous",
+      "u2-06-w-lycee",
+      "u2-06-w-lyceen",
+      "u2-06-w-blocus",
+      "u2-06-w-se-taire",
+      "u2-06-w-se-battre",
+      "u2-06-w-avenir",
+      "note:u2-06#1",
+      "u2-07-w-on-n-en-peut-plus",
+      "u2-07-c-qu-est-ce-qui",
+      "u2-07-w-actualite",
+      "note:u2-07#2"
+    ],
+    "p.8": [
+      "note:u2-06#1",
+      "u2-07-w-fermeture",
+      "note:u2-07#2"
+    ],
+    "p.9": [
+      "skip: PARTIE 2 간지 (Expression : indiquer le chemin)"
+    ],
+    "p.10": [
+      "u2-06-c-premiere",
+      "u2-06-c-traverser",
+      "u2-06-c-order",
+      "u2-06-w-d-abord",
+      "note:u2-06#2",
+      "tip:u2-06#3",
+      "u2-08-w-chemin",
+      "u2-08-l-deuxieme"
+    ],
+    "p.11": [
+      "u2-06-c-tout-droit",
+      "u2-06-c-droit-n",
+      "u2-06-c-ligne-droite",
+      "u2-06-c-main-droite",
+      "u2-06-c-tenez",
+      "u2-06-c-sur-votre-droite",
+      "u2-06-c-a-droite-de",
+      "u2-06-c-tournez-a",
+      "u2-06-l-droite",
+      "note:u2-06#3",
+      "tip:u2-06#0",
+      "u2-07-c-droite-e",
+      "note:u2-07#3"
+    ],
+    "p.12": [
+      "u2-06-w-rond-point",
+      "note:u2-06#4",
+      "u2-08-c-apres-100",
+      "u2-08-c-apres-sens",
+      "u2-08-c-tenez-gauche",
+      "u2-08-c-rond-point",
+      "u2-08-c-autoroute",
+      "u2-08-w-autoroute",
+      "u2-08-w-route",
+      "u2-08-l-gauche",
+      "note:u2-08#0",
+      "tip:u2-08#1"
+    ],
+    "p.13": [
+      "skip: PARTIE 3 간지 (Le texte-dialogue)"
+    ],
+    "p.14": [
+      "u2-05-c-pour-aller",
+      "u2-05-c-metro",
+      "u2-06-c-facilement",
+      "note:u2-06#5",
+      "u2-07-c-excusez",
+      "u2-07-c-comment-aller",
+      "u2-07-c-svp",
+      "u2-07-c-mieux",
+      "u2-07-w-la-bas",
+      "u2-07-w-eh-bien",
+      "u2-07-w-ah-bon",
+      "note:u2-07#1"
+    ],
+    "p.15": [
+      "u2-06-c-pantheon-origin",
+      "u2-06-c-pantheon-1885",
+      "note:u2-06#6",
+      "u2-07-c-eglise",
+      "u2-07-c-sainte",
+      "note:u2-07#3"
+    ],
+    "p.16": [
+      "u2-05-c-fleuve",
+      "u2-05-c-gauche",
+      "u2-05-c-bout",
+      "u2-06-c-se-trouve",
+      "u2-06-c-toilettes",
+      "u2-06-c-je-vous-en-prie",
+      "u2-06-c-madame",
+      "note:u2-06#5",
+      "u2-07-err-toilettes",
+      "u2-07-c-pardon-when"
+    ],
+    "p.17": [
+      "u2-06-c-prends",
+      "u2-06-c-tourne",
+      "u2-06-b-expliquez",
+      "note:u2-06#7",
+      "tip:u2-06#2",
+      "u2-08-b-opera1",
+      "u2-08-c-opera-prends",
+      "u2-08-c-opera-rue",
+      "u2-08-c-opera-ta",
+      "u2-08-w-boulevard",
+      "u2-08-w-enfin",
+      "u2-07-w-c-est-a-vous",
+      "note:u2-08#3",
+      "tip:u2-08#3"
+    ],
+    "p.18": [
+      "u2-06-c-en-face",
+      "note:u2-06#7",
+      "u2-08-c-map1-answer",
+      "u2-08-b-map1",
+      "u2-08-l-face",
+      "u2-08-l-sur-droite",
+      "u2-08-w-avenue",
+      "u2-08-c-exam",
+      "note:u2-08#1",
+      "tip:u2-08#0",
+      "tip:u2-08#2"
+    ],
+    "p.19": [
+      "note:u2-06#7",
+      "u2-08-c-map2-answer",
+      "u2-08-b-map2",
+      "u2-08-c-en-arrivant",
+      "u2-08-c-jusqu-a",
+      "u2-08-c-sortez",
+      "u2-08-w-banque",
+      "u2-08-w-station",
+      "u2-08-w-jusqu-a",
+      "note:u2-08#2"
+    ],
+    "p.20": [
+      "note:u3-01#0",
+      "skip: PARTIE 4 간지 (Le futur simple)"
+    ],
+    "p.21": [
+      "u3-01-c-usage",
+      "u3-01-c-endings",
+      "u3-01-c-stem",
+      "u3-01-c-je-trouver",
+      "u3-01-t-tu-trouver",
+      "u3-01-t-nous-trouver",
+      "u3-01-c-ils-trouver",
+      "u3-01-err-trouvrai",
+      "note:u3-01#1",
+      "tip:u3-01#0",
+      "tip:u3-01#2"
+    ],
+    "p.22": [
+      "u3-01-c-elle-parler",
+      "u3-01-t-vous-parler",
+      "u3-01-c-prendre-stem",
+      "u3-01-err-prendrerai",
+      "u3-01-t-nous-prendre",
+      "u3-01-c-vous-prendre",
+      "u3-01-c-ecrire-je",
+      "u3-01-t-ils-ecrire",
+      "u3-01-c-tu-ecrire",
+      "u3-01-b-parlerons",
+      "u3-01-c-pres-vs-fut",
+      "u3-01-c-pron-ras",
+      "u3-01-l-prendrai",
+      "u3-01-l-ecriront",
+      "note:u3-01#2",
+      "note:u3-01#3",
+      "tip:u3-01#1",
+      "tip:u3-01#3"
+    ],
+    "p.23": [
+      "u0-01-ademain",
+      "skip: 마무리 슬라이드 (Questions / À demain !)"
+    ]
   },
-  "노션 10/7": ["skip: 학생 결석 — 날짜 페이지 비어 있음. 녹음 2개 + 슬라이드로 Claude가 하위 「Semaine 6-2 정리 (녹음 기반)」 작성, 내용은 u2-06·u3-01에 반영"]
+  "노션 10/7": {
+    "날짜 페이지 본문": [
+      "skip: 학생 결석 — 본문 없음 (하위 페이지 두 개만 있음)"
+    ],
+    "Tiro 전사·교차검증본 — 명령문 복습 구두 설명": [
+      "note:u2-06#0",
+      "u2-06-c-patientes",
+      "u2-07-c-parle-pron"
+    ],
+    "— se rendre → Rendez-vous (구두)": [
+      "u2-07-c-me-rends",
+      "u2-07-c-vous-rendez",
+      "u2-07-c-rendez-vous-imp",
+      "u2-07-c-rendez-vous-sens",
+      "u2-07-w-rendez-vous",
+      "note:u2-07#0",
+      "tip:u2-07#0"
+    ],
+    "— 시위 영상·배경·낭테르": [
+      "note:u2-06#1",
+      "note:u2-07#2",
+      "u2-07-c-qu-est-ce-qui"
+    ],
+    "— droit · à droite의 e": [
+      "note:u2-06#3",
+      "u2-07-c-droite-e"
+    ],
+    "— GPS 영상 대사": [
+      "note:u2-06#4",
+      "note:u2-08#0",
+      "u2-08-c-tenez-gauche",
+      "u2-08-c-apres-100"
+    ],
+    "— 본문 업그레이드 표현 (Excusez-moi, Comment aller, se trouver, toilettes, mieux, Ah bon, Eh bien)": [
+      "note:u2-07#1",
+      "tip:u2-07#1",
+      "tip:u2-07#2",
+      "u2-07-c-excusez",
+      "u2-07-err-toilettes",
+      "u2-06-c-se-trouve"
+    ],
+    "— De rien · madame": [
+      "note:u2-06#5",
+      "u2-06-c-je-vous-en-prie",
+      "u2-06-c-madame"
+    ],
+    "— 판테옹 역사": [
+      "note:u2-06#6",
+      "u2-06-c-pantheon-origin",
+      "u2-06-c-pantheon-1885",
+      "u2-07-c-eglise",
+      "u2-07-c-sainte"
+    ],
+    "— 오페라 → 생라자르 교수님 답안": [
+      "note:u2-08#3",
+      "u2-08-b-opera1",
+      "u2-08-c-opera-rue"
+    ],
+    "— 듣기 지도 1·2 스크립트·정답": [
+      "note:u2-08#1",
+      "note:u2-08#2",
+      "u2-08-c-map1-answer",
+      "u2-08-c-map2-answer"
+    ],
+    "— 시험 관련 발언": [
+      "u2-08-c-exam",
+      "tip:u2-08#0",
+      "note:u2-06#7"
+    ],
+    "— 단순미래는 이날 미진도": [
+      "note:u3-01#0"
+    ]
+  }
 }

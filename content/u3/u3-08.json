@@ -1,0 +1,287 @@
+{
+  "id": "u3-08",
+  "unit": "u3",
+  "title": "Leçon 11 마무리 — 최상급 복습 · 대화문 · 시간 표현",
+  "emoji": "⏳",
+  "date": "2026-10-15",
+  "sources": [
+    "semaine 7-3",
+    "노션 10/15"
+  ],
+  "tips": [
+    {
+      "h": "점점 더 / 점점 덜",
+      "b": "de plus en plus · de moins en moins\n+ 동사: Il travaille de plus en plus.\n+ de + 명사: de plus en plus de mots\n+ 부사: de plus en plus vite"
+    },
+    {
+      "h": "si = tellement (그렇게, 너무)",
+      "b": "L'avenir n'est pas si rose.\n= pas tellement rose = pas aussi rose que ça\nC'est si bon ! = C'est tellement bon !"
+    },
+    {
+      "h": "시간 표지 → 시제",
+      "rows": [
+        ["hier · la semaine dernière · il y a …", "과거 (복합과거)"],
+        ["aujourd'hui · cette semaine · maintenant", "현재"],
+        ["demain · la semaine prochaine · dans …", "미래"]
+      ]
+    },
+    {
+      "h": "il y a ↔ dans",
+      "b": "il y a + 기간 = ~ 전에 (과거)\ndans + 기간 = ~ 후에 (미래)"
+    },
+    {
+      "h": "Ne t'inquiète pas !",
+      "b": "s'inquiéter: je m'inquiète [è 열림] · nous nous inquiétons [é 닫힘]\n구어: T'inquiète ! · 문자: Tkt"
+    }
+  ],
+  "note": [
+    {
+      "h": "최상급 다시 보기 — 수업 필기",
+      "skill": "superlatif",
+      "src": ["semaine 7-3 p.4–8", "노션 10/15"],
+      "body": [
+        {"p": "Le superlatif exprime le plus haut ou le plus bas degré d'une qualité — **비교급 앞에 정관사 le · la · les**. 범위는 **de** (de la classe, de sa famille, du monde)."},
+        {
+          "ex": [
+            ["Jeanne a fait le moins de fautes.", "잔은 실수를 가장 적게 했다."],
+            ["Valérie n'est pas la plus grande de sa classe.", "발레리는 자기 반에서 가장 큰 사람이 아니다."],
+            ["La Russie est le pays le plus grand du monde.", "러시아는 세계에서 가장 큰 나라다."],
+            ["Est-ce que Paris est la ville la plus intéressante en Europe ?", "파리가 유럽에서 가장 흥미로운 도시일까?"],
+            ["Je travaillerai le moins vite possible.", "나는 가능한 한 가장 느리게 일할 것이다."],
+            ["En maths, Paul est le meilleur de sa classe.", "수학에서 폴이 반에서 최고다."],
+            ["Voici les meilleurs restaurants à Séoul.", "여기 서울 최고의 식당들이 있다."],
+            ["Qui a chanté le mieux ce soir ?", "오늘 저녁 누가 노래를 가장 잘했나?"]
+          ]
+        },
+        {"list": [
+          "✍️ **fautes** = 잘못, 실수, 오타 · le moins **de** + 명사",
+          "✍️ 형용사는 항상 성수일치 — **la**까지도: Valérie … **la** plus grand**e**",
+          "✍️ le pays le plus grand = **le plus grand pays** du monde (grand은 명사 앞에도 옴)",
+          "✍️ la ville **la plus intéressante** — ville가 여성이라 -e. plus‿intéressante [쁠뤼 장떼헤상뜨] — s가 [z]로 연음",
+          "✍️ **Voici** = 여기에 ~이 있다",
+          "부사 최상급은 언제나 **le**: le moins vite, le mieux (여성 주어여도 le)"
+        ]}
+      ]
+    },
+    {
+      "h": "de plus en plus · de moins en moins",
+      "skill": "comparatif",
+      "src": ["semaine 7-3 p.10–11"],
+      "body": [
+        {"p": "대화문의 Il y aura **de moins en moins** de travail et **de plus en plus** de chômeurs. — '점점 덜 / 점점 더'."},
+        {
+          "table": [
+            ["", "de moins en moins", "de plus en plus"],
+            ["+ 동사", "Ma tante travaille de moins en moins.", "Mon oncle travaille de plus en plus."],
+            ["+ de + 명사", "Je ferai de moins en moins de fautes en étudiant le français.", "Je connaîtrai de plus en plus de mots en étudiant le français."],
+            ["+ 부사", "Ils mangent de moins en moins vite.", "Elles mangent de plus en plus vite."]
+          ],
+          "head": true
+        },
+        {"list": [
+          "명사 앞에선 **de**를 한 번 더: de plus en plus **de** mots (관사 없이 de)",
+          "en étudiant = **제롱디프** (en + 현재분사) — 공부하면서",
+          "ferai (faire → fer-) · connaîtrai (connaître → connaîtr-, e 떼기)"
+        ]}
+      ]
+    },
+    {
+      "h": "의문문 3가지 → 미래 도치 (sera-t-elle ?)",
+      "skill": "question",
+      "src": ["semaine 7-3 p.12–14"],
+      "body": [
+        {
+          "table": [
+            ["억양", "Est-ce que", "도치"],
+            ["Le campus est grand ?", "Est-ce que le campus est grand ?", "Le campus est-il grand ?"],
+            ["Alex a dix-neuf ans ?", "Est-ce qu'Alex a dix-neuf ans ?", "Alex a-t-il dix-neuf ans ?"]
+          ],
+          "head": true
+        },
+        {"p": "명사 주어 도치: **명사는 앞에 두고** 동사 뒤에 대명사(il/elle)를 붙인다 (Leçon 2 복습). 동사가 모음으로 끝나고 il/elle이 오면 **-t-**."},
+        {
+          "table": [
+            ["현재", "미래", "미래 도치 의문"],
+            ["Léa est plus libre.", "Léa sera plus libre.", "Léa **sera-t-elle** plus libre ?"],
+            ["La qualité de la vie est meilleure.", "La qualité de la vie sera meilleure.", "La qualité de la vie **sera-t-elle** meilleure ?"]
+          ],
+          "head": true
+        },
+        {"warn": "sera는 a로 끝나니 elle 앞에 **-t-**: sera-t-elle (sera-elle ✗). 미래형 3인칭 단수(-a)는 도치하면 늘 -t-."}
+      ]
+    },
+    {
+      "h": "s'inquiéter · se lever — 명령문",
+      "skill": "imperatif",
+      "src": ["semaine 7-3 p.15–16", "노션 10/15"],
+      "body": [
+        {
+          "table": [
+            ["", "s'inquiéter", "se lever"],
+            ["je", "m'inquiète", "me lève"],
+            ["tu", "t'inquiètes", "te lèves"],
+            ["il / elle", "s'inquiète", "se lève"],
+            ["nous", "nous inquiétons", "nous levons"],
+            ["vous", "vous inquiétez", "vous levez"],
+            ["ils / elles", "s'inquiètent", "se lèvent"]
+          ],
+          "head": true
+        },
+        {"p": "악상: je·tu·il·ils는 **è**, nous·vous는 **é** (se lever는 악상 없음) — acheter·préférer와 같은 패턴."},
+        {"memo": "✍️ 필기: je m'inqui**è**te — 발음을 **열어** 준다 [에↘ 넓게] · nous nous inqui**é**tons — 발음을 **닫아** 준다 [에 좁게]. 악상에 따른 발음 주의."},
+        {
+          "table": [
+            ["긍정 명령", "부정 명령"],
+            ["Lève-toi !", "Ne te lève pas !"],
+            ["(Inquiète-toi !)", "Ne t'inquiète pas ! · Ne vous inquiétez pas !"]
+          ],
+          "head": true
+        },
+        {"list": [
+          "긍정 명령: 대명사는 **뒤**, te → **toi** (Lève-toi)",
+          "부정 명령: 대명사는 **앞** 그대로 (Ne te lève pas / Ne t'inquiète pas)",
+          "구어로 줄여서 **T'inquiète !** — 문자로는 **Tkt** (t'inquiète의 소리)",
+          "-er 동사 tu 명령엔 -s 없음: Lève-toi (Lèves-toi ✗)"
+        ]}
+      ]
+    },
+    {
+      "h": "대화문 다시 읽기 — pollués · si",
+      "skill": "vocab",
+      "src": ["semaine 7-3 p.12", "semaine 7-3 p.17–18", "노션 10/15"],
+      "body": [
+        {"ex": [["Si, mais les eaux et le sol sont également pollués.", "그렇긴 한데, 물과 땅도 마찬가지로 오염돼 있어."]]},
+        {"memo": "✍️ 필기: pollués = 오염된 — 수동태(être + 과거분사)라는 것만 알아두자. 주어 les eaux et le sol(여성+남성) → 남성 복수 -s."},
+        {"p": "부정 질문 Tu ne crois pas ?에 '아니, 그렇게 생각해'라고 반박할 땐 oui가 아니라 **Si**."},
+        {
+          "table": [
+            ["표현", "같은 뜻"],
+            ["L'avenir n'est pas si rose.", "L'avenir n'est pas aussi rose que ça. · L'avenir n'est pas tellement rose."],
+            ["C'est si bon !", "C'est tellement bon !"]
+          ],
+          "head": true
+        },
+        {"p": "**si** + 형용사 = 그렇게, 너무 (= tellement). 슬라이드는 'pas très rose'에 (?)를 붙였다 — 뜻이 비슷해 보여도 '그 정도로(그렇게)'라는 비교 느낌은 si · aussi … que ça · tellement 쪽."},
+        {"memo": "모파상 『여자의 일생(Une vie)』의 마지막 문장: 인생은 생각만큼 그렇게(si) 좋지도, 그렇게 나쁘지도 않다 — si … ni si … 구문."}
+      ]
+    },
+    {
+      "h": "시간 표지 (les indicateurs du temps)",
+      "skill": "time",
+      "src": ["semaine 7-3 p.20", "노션 10/15"],
+      "body": [
+        {
+          "table": [
+            ["과거", "현재", "미래"],
+            ["hier", "aujourd'hui", "demain"],
+            ["hier soir", "ce soir", "demain soir"],
+            ["la semaine dernière", "cette semaine", "la semaine prochaine"],
+            ["le mois dernier", "ce mois-ci", "le mois prochain"],
+            ["l'année dernière", "cette année", "l'année prochaine"],
+            ["avant … · il y a …", "maintenant", "après … · dans …"]
+          ],
+          "head": true
+        },
+        {"memo": "✍️ 필기: après / il y a / dans — 이런 표지에 따라 시제를 바꾼다."},
+        {"list": [
+          "dernier/prochain은 명사 **뒤** (la semaine dernière) · 여성 명사면 -ère / -aine",
+          "ce soir · cette semaine · cette année · **ce mois-ci**",
+          "**il y a** + 기간 = ~ 전에 → 복합과거 · **dans** + 기간 = ~ 후에 → 미래"
+        ]}
+      ]
+    },
+    {
+      "h": "시간 표지 예문",
+      "skill": "time",
+      "src": ["semaine 7-3 p.21"],
+      "body": [
+        {
+          "ex": [
+            ["On doit se laver les mains avant le repas, et se brosser les dents après le repas.", "식사 전엔 손을 씻고, 식사 후엔 이를 닦아야 한다."],
+            ["Je n'ai pas pu finir le devoir avant le cours.", "나는 수업 전에 숙제를 끝내지 못했다."],
+            ["Tu auras du temps libre après le cours.", "너는 수업 후에 자유 시간이 있을 거야."],
+            ["J'ai commencé à apprendre le français il y a un mois.", "나는 한 달 전에 프랑스어를 배우기 시작했다."],
+            ["Tu parleras mieux français dans six mois.", "너는 6개월 후에 프랑스어를 더 잘하게 될 거야."],
+            ["Qu'est-ce que nous allons devenir dans dix ans ?", "10년 후에 우리는 어떻게 될까?"],
+            ["Ils ont voyagé en Europe il y a trois ans.", "그들은 3년 전에 유럽을 여행했다."]
+          ]
+        },
+        {"list": [
+          "avant / après + 명사 = ~ 전에 / 후에 (기준이 되는 일)",
+          "il y a → 복합과거(ai commencé, ont voyagé) · dans → 미래(parleras) 또는 근접미래(allons devenir)",
+          "commencer **à** + 동사원형 · se brosser les dents = 이를 닦다"
+        ]}
+      ]
+    },
+    {
+      "h": "10년 뒤 나의 하루 — 교수님 피드백",
+      "skill": "futur",
+      "src": ["노션 10/15 「시험 대비 — 10년 후 나의 하루」"],
+      "body": [
+        {"p": "학습지 작문(u3-07 노트 「10년 뒤 나」)에 교수님이 남긴 피드백. 시험에 같은 유형(자기 10년 뒤 하루, **단순미래로 최소 7문장**, Où · Avec qui · Que)이 나온다."},
+        {"list": [
+          "② à la maison → **chez moi** — '집에서'는 chez moi가 더 자주 쓰인다. la maison은 '주택(건물)' 느낌",
+          "⑦ **ma femme et moi boirons** — très bien! (X et moi = nous → nous형 동사)",
+          "⑦ **ma femme et moi, nous boirons** — 주어를 nous로 다시 받아도 가능",
+          "⑦ … boirons de la bière **en regardant** un film — 제롱디프로 '보면서'도 가능",
+          "총평: Quelle journée tranquille et parfaite ! (감탄문 Quel + 명사)"
+        ]},
+        {"warn": "chez 뒤에는 강세형 대명사나 사람: chez moi · chez toi · chez Paul (chez ma maison ✗)."}
+      ]
+    }
+  ],
+  "cards": [
+    {"id": "u3-08-c-fautes", "t": "choice", "skill": "superlatif", "prompt": "빈칸에 알맞은 것은?", "q": "Jeanne a fait ___ fautes.", "ko": "잔은 실수를 가장 적게 했다.", "a": "le moins de", "wrong": ["la moins de", "le moins des", "moins de"], "hint": "명사 최상급 — 정관사는 늘 같은 것, 명사 앞엔 de.", "explain": "명사 최상급: le moins de + 명사. fautes = 실수.", "src": "semaine 7-3 p.7"},
+    {"id": "u3-08-c-valerie-neg", "t": "choice", "skill": "superlatif", "prompt": "빈칸에 알맞은 것은?", "q": "Valérie n'est pas ___ de sa classe.", "ko": "발레리는 자기 반에서 가장 큰 사람이 아니다.", "a": "la plus grande", "wrong": ["le plus grand", "la plus grand", "le plus grande"], "hint": "✍️ 필기: 형용사는 항상 성수일치, 관사까지도!", "explain": "Valérie(여성) → la + plus + grande.", "src": "노션 10/15", "star": true},
+    {"id": "u3-08-c-paris", "t": "choice", "skill": "superlatif", "prompt": "빈칸에 알맞은 것은?", "q": "Est-ce que Paris est la ville ___ en Europe ?", "ko": "파리가 유럽에서 가장 흥미로운 도시일까?", "a": "la plus intéressante", "wrong": ["le plus intéressant", "plus intéressante", "la plus intéressant"], "hint": "명사 뒤 최상급 — 관사를 한 번 더, ville의 성은?", "explain": "la ville la plus intéressante — 여성이라 -e.", "src": "semaine 7-3 p.7"},
+    {"id": "u3-08-l-plus-interessante", "t": "listen", "skill": "pron", "say": "la plus intéressante", "a": "la plus intéressante", "wrong": ["la moins intéressante", "plus intéressant"], "ko": "가장 흥미로운", "pron": "[라 쁠뤼 장떼헤상뜨]", "hint": "plus와 다음 모음 사이 연음 소리를 들어봐요.", "explain": "✍️ 필기: plus‿intéressante — s가 [z]로 연음.", "src": "노션 10/15"},
+    {"id": "u3-08-c-moins-vite-possible", "t": "choice", "skill": "superlatif", "prompt": "빈칸에 알맞은 것은?", "q": "Je travaillerai ___ possible.", "ko": "나는 가능한 한 가장 느리게 일할 것이다.", "a": "le moins vite", "wrong": ["la moins vite", "moins vite que", "le moins de vite"], "hint": "부사 최상급 + possible = 가능한 한 ~.", "explain": "le moins vite possible. 부사는 언제나 le.", "src": "semaine 7-3 p.7"},
+    {"id": "u3-08-c-chante-mieux", "t": "choice", "skill": "superlatif", "prompt": "빈칸에 알맞은 것은?", "q": "Qui a chanté ___ ce soir ?", "ko": "오늘 저녁 누가 노래를 가장 잘했나?", "a": "le mieux", "wrong": ["le meilleur", "le plus bien", "la mieux"], "hint": "동사를 꾸미는 '잘'(bien)의 최상급.", "explain": "bien → mieux → le mieux. 형용사 bon이면 le meilleur.", "src": "semaine 7-3 p.8"},
+    {"id": "u3-08-c-voici", "t": "choice", "skill": "vocab", "prompt": "Voici의 뜻은?", "q": "Voici les meilleurs restaurants à Séoul.", "a": "여기에 ~이 있다", "wrong": ["저기에 ~이 없다", "~을 보았다", "~을 찾는다"], "hint": "voir(보다) + ici(여기)가 합쳐진 말.", "explain": "✍️ 필기: Voici = 여기에 있다.", "src": "노션 10/15"},
+    {"id": "u3-08-c-travaille-le-plus", "t": "choice", "skill": "superlatif", "prompt": "최상급으로 바꾸면?", "q": "Sylvie travaille plus que ses collègues. → Elle travaille ___.", "a": "le plus", "wrong": ["la plus", "plus", "le plus de"], "hint": "동사 최상급의 관사는 주어 성과 상관없어요.", "explain": "동사 최상급: travailler le plus.", "src": "semaine 7-3 p.6"},
+    {"id": "u3-08-c-moins-en-moins-v", "t": "choice", "skill": "comparatif", "prompt": "빈칸에 알맞은 것은?", "q": "Ma tante travaille ___.", "ko": "우리 이모는 점점 덜 일한다.", "a": "de moins en moins", "wrong": ["de moins à moins", "le moins en moins", "moins et moins"], "hint": "'점점' = de … en …", "explain": "de moins en moins = 점점 덜.", "src": "semaine 7-3 p.11"},
+    {"id": "u3-08-c-plus-en-plus-de", "t": "choice", "skill": "comparatif", "prompt": "빈칸에 알맞은 것은?", "q": "Je connaîtrai de plus en plus ___ mots en étudiant le français.", "ko": "프랑스어를 공부하면서 나는 점점 더 많은 단어를 알게 될 것이다.", "a": "de", "wrong": ["des", "les", "(없음)"], "hint": "명사 앞 양 표현 뒤엔 관사 없이 하나만.", "explain": "de plus en plus de + 명사.", "src": "semaine 7-3 p.11", "star": true},
+    {"id": "u3-08-b-ferai-fautes", "t": "build", "skill": "comparatif", "prompt": "문장을 만드세요", "ko": "나는 점점 실수를 덜 할 것이다.", "a": "Je ferai de moins en moins de fautes.", "extra": ["des", "fais"], "hint": "faire 미래 어간 + 점점 덜 + de + 명사.", "explain": "ferai (fer-) · de moins en moins de fautes (슬라이드: … en étudiant le français).", "src": "semaine 7-3 p.11"},
+    {"id": "u3-08-c-plus-en-plus-vite", "t": "choice", "skill": "comparatif", "prompt": "빈칸에 알맞은 것은?", "q": "Elles mangent ___ vite.", "ko": "그녀들은 점점 더 빨리 먹는다.", "a": "de plus en plus", "wrong": ["de plus en plus de", "les plus en plus", "plus en plus"], "hint": "부사 앞에는 de를 더 붙이지 않아요.", "explain": "de plus en plus + 부사.", "src": "semaine 7-3 p.11"},
+    {"id": "u3-08-c-connaitrai", "t": "choice", "skill": "futur", "prompt": "connaître의 미래 je 형태는?", "q": "connaître → je ___", "a": "connaîtrai", "wrong": ["connaîtrerai", "connaîsserai", "connais"], "hint": "-re 동사는 끝 e만 떼요.", "explain": "connaîtr- + ai.", "src": "semaine 7-3 p.11"},
+    {"id": "u3-08-c-campus-est-il", "t": "choice", "skill": "question", "prompt": "도치 의문문으로 바꾸면?", "q": "Le campus est grand.", "a": "Le campus est-il grand ?", "wrong": ["Est le campus grand ?", "Le campus est-t-il grand ?", "Est-il le campus grand ?"], "hint": "명사 주어는 앞에 두고 대명사로 다시 받아요.", "explain": "명사 + 동사-대명사: Le campus est-il… (est는 t로 끝나 -t- 불필요).", "src": "semaine 7-3 p.13"},
+    {"id": "u3-08-t-alex-a-t-il", "t": "type", "skill": "question", "prompt": "도치 의문문으로", "q": "Alex a dix-neuf ans. → ___", "a": "Alex a-t-il dix-neuf ans ?", "alts": ["Alex a-t-il dix-neuf ans?", "Alex a-t-il dix-neuf ans"], "hint": "모음 a 뒤에 il이 오면 사이에 한 글자!", "explain": "a + -t- + il.", "src": "semaine 7-3 p.13"},
+    {"id": "u3-08-c-est-ce-qu-alex", "t": "choice", "skill": "elision", "prompt": "Est-ce que로 바꾸면?", "q": "Alex a dix-neuf ans.", "a": "Est-ce qu'Alex a dix-neuf ans ?", "wrong": ["Est-ce que Alex a dix-neuf ans ?", "Est-ce qu'Alex a-t-il dix-neuf ans ?", "Est-ce Alex a dix-neuf ans ?"], "hint": "que 뒤가 모음이면?", "explain": "que + Alex → qu'Alex. Est-ce que를 쓰면 어순은 그대로.", "src": "semaine 7-3 p.13"},
+    {"id": "u3-08-b-lea-sera-t-elle", "t": "build", "skill": "question", "prompt": "미래 도치 의문문을 만드세요", "ko": "레아는 더 자유로워질까?", "a": "Léa sera-t-elle plus libre ?", "extra": ["sera-elle", "est-elle"], "hint": "미래 3인칭은 a로 끝나니 사이에 -t-.", "explain": "Léa sera → Léa sera-t-elle ?", "src": "semaine 7-3 p.14", "star": true},
+    {"id": "u3-08-err-sera-elle", "t": "error", "skill": "question", "s": "La qualité de la vie sera-elle meilleure ?", "wrong": "sera-elle", "right": "sera-t-elle", "ko": "삶의 질은 더 나아질까?", "hint": "모음과 모음이 부딪치면 사이에 무엇을 넣죠?", "explain": "sera + elle → sera-t-elle.", "src": "semaine 7-3 p.14"},
+    {"id": "u3-08-verb-s-inquieter", "t": "verb", "skill": "pronominal", "inf": "s'inquiéter", "ko": "걱정하다", "group": 1, "forms": {"je": "m'inquiète", "tu": "t'inquiètes", "il": "s'inquiète", "nous": "nous inquiétons", "vous": "vous inquiétez", "ils": "s'inquiètent"}, "traps": [{"p": "je", "wrong": "m'inquiéte", "why": "je·tu·il·ils는 è"}, {"p": "nous", "wrong": "nous inquiètons", "why": "nous·vous는 é 그대로"}], "note": "악상: è(열린 소리) ↔ é(닫힌 소리)", "src": "semaine 7-3 p.16"},
+    {"id": "u3-08-c-inquiete-accent", "t": "choice", "skill": "stem-change", "prompt": "올바른 형태는?", "q": "nous (s'inquiéter)", "a": "nous nous inquiétons", "wrong": ["nous nous inquiètons", "nous inquiétons", "nous s'inquiétons"], "hint": "acheter·préférer처럼 nous·vous는 원형의 악상.", "explain": "nous·vous → é. je·tu·il·ils → è.", "src": "semaine 7-3 p.16"},
+    {"id": "u3-08-c-inquiete-pron", "t": "choice", "skill": "pron", "prompt": "je m'inquiète와 nous nous inquiétons의 è / é 소리는?", "q": "inquiète / inquiétons", "a": "è는 입을 열고 [ɛ] · é는 닫고 [e]", "wrong": ["둘 다 같은 소리", "è는 묵음", "é를 더 열어 발음"], "say": "je m'inquiète, nous nous inquiétons", "hint": "✍️ 필기: 하나는 열어 주고, 하나는 닫아 준다.", "explain": "✍️ 필기: m'inquiète — 발음 열어줌 / inquiétons — 발음 닫아줌.", "src": "노션 10/15"},
+    {"id": "u3-08-c-ne-t-inquiete", "t": "choice", "skill": "imperatif", "prompt": "'걱정하지 마!'(tu)를 프랑스어로?", "q": "___ !", "a": "Ne t'inquiète pas", "wrong": ["Ne inquiète-toi pas", "Ne t'inquiètes pas", "Inquiète-toi pas"], "hint": "부정 명령에선 대명사가 동사 앞 그대로, -er 동사 tu엔 -s 없음.", "explain": "Ne t'inquiète pas ! (구어 T'inquiète ! · 문자 Tkt)", "src": "semaine 7-3 p.16", "star": true},
+    {"id": "u3-08-c-leve-toi", "t": "choice", "skill": "imperatif", "prompt": "'일어나!'(tu)를 프랑스어로?", "q": "___ !", "a": "Lève-toi", "wrong": ["Lèves-toi", "Te lève", "Lève-te"], "hint": "긍정 명령: 대명사는 뒤로, te는 강세형으로.", "explain": "Lève-toi ! 부정은 Ne te lève pas !", "src": "semaine 7-3 p.16"},
+    {"id": "u3-08-err-ne-leve-toi", "t": "error", "skill": "imperatif", "s": "Ne lève-toi pas !", "wrong": "lève-toi", "right": "te lève", "ko": "일어나지 마!", "hint": "부정 명령에선 대명사 위치가 달라요.", "explain": "부정 명령: Ne te lève pas ! (대명사는 동사 앞)", "src": "semaine 7-3 p.16"},
+    {"id": "u3-08-c-vous-inquietez", "t": "choice", "skill": "imperatif", "prompt": "'걱정하지 마세요!'(vous)를 프랑스어로?", "q": "___ !", "a": "Ne vous inquiétez pas", "wrong": ["Ne vous inquiètez pas", "Ne inquiétez-vous pas", "Ne vous inquiétez"], "hint": "vous형의 악상은 원형과 같아요.", "explain": "Ne vous inquiétez pas ! — é.", "src": "semaine 7-3 p.16"},
+    {"id": "u3-08-c-tkt", "t": "choice", "skill": "greet", "prompt": "프랑스 친구가 문자로 'Tkt'라고 보냈다. 뜻은?", "q": "Tkt", "a": "걱정 마 (T'inquiète)", "wrong": ["고마워", "잘 자", "곧 봐"], "hint": "소리 나는 대로 줄인 말 — t'inqui-è-te.", "explain": "Tkt = T'inquiète (pas) — 걱정 마.", "src": "semaine 7-3 p.16"},
+    {"id": "u3-08-c-pollues", "t": "choice", "skill": "agreement", "prompt": "빈칸에 알맞은 것은?", "q": "Les eaux et le sol sont également ___.", "ko": "물과 땅도 마찬가지로 오염돼 있다.", "a": "pollués", "wrong": ["polluées", "pollué", "pollue"], "hint": "여성 + 남성이 섞인 주어는 어떤 성·수?", "explain": "être + 과거분사(수동) → 주어에 일치. 남녀 섞이면 남성 복수.", "src": "노션 10/15"},
+    {"id": "u3-08-c-si-sens", "t": "choice", "skill": "vocab", "prompt": "같은 뜻이 아닌 것은?", "q": "L'avenir n'est pas si rose.", "a": "L'avenir n'est pas rose du tout.", "wrong": ["L'avenir n'est pas tellement rose.", "L'avenir n'est pas aussi rose que ça.", "미래가 그렇게 장밋빛은 아니다."], "hint": "si = '그렇게'. '전혀'와는 정도가 달라요.", "explain": "si = tellement = aussi … que ça. pas du tout는 '전혀 ~ 아니다'.", "src": "semaine 7-3 p.18"},
+    {"id": "u3-08-c-si-bon", "t": "choice", "skill": "vocab", "prompt": "C'est si bon !과 같은 뜻은?", "q": "C'est si bon !", "a": "C'est tellement bon !", "wrong": ["C'est si mauvais !", "Ce n'est pas bon !", "C'est bon, si ?"], "hint": "si + 형용사 = 너무, 그렇게.", "explain": "si = tellement.", "src": "semaine 7-3 p.18"},
+    {"id": "u3-08-c-si-answer", "t": "choice", "skill": "neg", "prompt": "부정 질문에 '아니, 그렇게 생각해(긍정)'라고 답할 때는?", "q": "Tu ne crois pas ? — ___, mais les eaux sont également polluées.", "a": "Si", "wrong": ["Oui", "Non", "Ça"], "hint": "부정 질문을 뒤집는 대답은 oui가 아니에요.", "explain": "부정 질문에 대한 긍정 대답 = Si.", "src": "semaine 7-3 p.12"},
+    {"id": "u3-08-c-indic-past", "t": "choice", "skill": "time", "prompt": "과거를 나타내는 표지는?", "q": "___", "a": "la semaine dernière", "wrong": ["la semaine prochaine", "cette semaine", "dans une semaine"], "hint": "dernier/prochain 중 지난 쪽.", "explain": "la semaine dernière = 지난주.", "src": "semaine 7-3 p.20"},
+    {"id": "u3-08-c-ce-mois-ci", "t": "choice", "skill": "time", "prompt": "'이번 달'을 프랑스어로?", "q": "___", "a": "ce mois-ci", "wrong": ["cette mois", "le mois ce", "ce mois prochain"], "hint": "mois는 남성, 뒤에 -ci를 붙여요.", "explain": "ce mois-ci · cette semaine · cette année.", "src": "semaine 7-3 p.20"},
+    {"id": "u3-08-c-hier-soir", "t": "choice", "skill": "time", "prompt": "hier soir · ce soir · ___", "q": "어제 저녁 · 오늘 저녁 · 내일 저녁", "a": "demain soir", "wrong": ["prochain soir", "soir demain", "le soir prochain"], "hint": "hier soir와 같은 틀.", "explain": "demain soir = 내일 저녁.", "src": "semaine 7-3 p.20"},
+    {"id": "u3-08-c-il-y-a-tense", "t": "choice", "skill": "time", "prompt": "빈칸에 알맞은 것은?", "q": "J'___ à apprendre le français il y a un mois.", "ko": "나는 한 달 전에 프랑스어를 배우기 시작했다.", "a": "ai commencé", "wrong": ["commencerai", "commence", "vais commencer"], "hint": "✍️ il y a + 기간은 어느 시제의 표지?", "explain": "il y a = ~ 전에 → 복합과거.", "src": "semaine 7-3 p.21", "star": true},
+    {"id": "u3-08-c-dans-tense", "t": "choice", "skill": "time", "prompt": "빈칸에 알맞은 것은?", "q": "Tu ___ mieux français dans six mois.", "ko": "너는 6개월 후에 프랑스어를 더 잘하게 될 거야.", "a": "parleras", "wrong": ["as parlé", "parles", "parlais"], "hint": "dans + 기간은 어느 쪽 시간?", "explain": "dans = ~ 후에 → 미래.", "src": "semaine 7-3 p.21", "star": true},
+    {"id": "u3-08-c-il-y-a-vs-dans", "t": "choice", "skill": "time", "prompt": "빈칸에 알맞은 것은?", "q": "Ils ont voyagé en Europe ___ trois ans.", "ko": "그들은 3년 전에 유럽을 여행했다.", "a": "il y a", "wrong": ["dans", "après", "pendant"], "hint": "동사가 복합과거예요.", "explain": "과거 + 기간 → il y a trois ans.", "src": "semaine 7-3 p.21"},
+    {"id": "u3-08-t-auras", "t": "type", "skill": "futur", "prompt": "단순미래로", "q": "Tu (avoir) du temps libre après le cours. → Tu ___ du temps libre après le cours.", "a": "auras", "alts": ["Tu auras du temps libre après le cours.", "Tu auras du temps libre après le cours"], "hint": "avoir의 불규칙 어간 + tu 어미.", "explain": "aur- + as.", "src": "semaine 7-3 p.21"},
+    {"id": "u3-08-c-avant-pp", "t": "choice", "skill": "pc-neg-q", "prompt": "빈칸에 알맞은 것은?", "q": "Je ___ finir le devoir avant le cours.", "ko": "나는 수업 전에 숙제를 끝내지 못했다.", "a": "n'ai pas pu", "wrong": ["n'ai pu pas", "ne pas ai pu", "n'ai pas pouvoir"], "hint": "ne…pas는 조동사를 감싸요. pouvoir의 과거분사는?", "explain": "n'ai pas + pu + 동사원형.", "src": "semaine 7-3 p.21"},
+    {"id": "u3-08-b-brosser", "t": "build", "skill": "time", "prompt": "문장을 만드세요", "ko": "식사 후에는 이를 닦아야 한다.", "a": "On doit se brosser les dents après le repas.", "extra": ["avant", "brosse"], "hint": "devoir + 대명동사 원형, '후에'는?", "explain": "après le repas · se brosser les dents.", "src": "semaine 7-3 p.21"},
+    {"id": "u3-08-c-devenir-dans", "t": "choice", "skill": "time", "prompt": "뜻으로 알맞은 것은?", "q": "Qu'est-ce que nous allons devenir dans dix ans ?", "a": "10년 후에 우리는 어떻게 될까?", "wrong": ["10년 전에 우리는 무엇이었나?", "10년 동안 우리는 무엇을 할까?", "우리는 10년째 무엇이 되었나?"], "hint": "dans + 기간 = 지금부터 ~ 후.", "explain": "aller + 원형(근접미래) + dans dix ans.", "src": "semaine 7-3 p.21"},
+    {"id": "u3-08-c-chez-moi", "t": "choice", "skill": "prep-lieu", "prompt": "교수님 피드백: '집에서'로 더 자연스러운 것은?", "q": "Je serai à Séoul, ___, avec ma femme et ma fille.", "a": "chez moi", "wrong": ["à ma maison", "chez ma maison", "dans moi"], "hint": "chez 뒤에는 사람(강세형 대명사)이 와요.", "explain": "교수님: '집에서'는 chez moi가 더 자주 쓰인다. la maison은 주택(건물) 느낌.", "src": "노션 10/15 「10년 후 나의 하루」", "star": true},
+    {"id": "u3-08-c-femme-et-moi", "t": "choice", "skill": "futur", "prompt": "빈칸에 알맞은 것은? (교수님 'très bien')", "q": "Ma femme et moi ___ de la bière.", "a": "boirons", "wrong": ["boiront", "boira", "boirai"], "hint": "X et moi = 어떤 인칭?", "explain": "ma femme et moi = nous → boirons. 'ma femme et moi, nous boirons'도 가능.", "src": "노션 10/15 「10년 후 나의 하루」"},
+    {"id": "u3-08-c-en-regardant", "t": "choice", "skill": "gerondif", "prompt": "'영화를 보면서 맥주를 마실 것이다'로 바꾸면?", "q": "Ma femme et moi boirons de la bière ___ un film.", "a": "en regardant", "wrong": ["en regarder", "regardant en", "et regardons"], "hint": "동시 동작 = en + 현재분사.", "explain": "교수님: en regardant으로도 가능 (제롱디프).", "src": "노션 10/15 「10년 후 나의 하루」"},
+    {"id": "u3-08-c-quelle-journee", "t": "choice", "skill": "exclam", "prompt": "교수님의 총평 — 빈칸에 알맞은 것은?", "q": "___ journée tranquille et parfaite !", "ko": "참 평온하고 완벽한 하루네요!", "a": "Quelle", "wrong": ["Quel", "Comme", "Que"], "hint": "감탄문 + 명사, journée의 성은?", "explain": "Quel(le) + 명사 감탄문. journée는 여성 → Quelle.", "src": "노션 10/15 「10년 후 나의 하루」"},
+    {"id": "u3-08-w-faute", "t": "word", "skill": "vocab", "fr": "la faute", "ko": "잘못, 실수, 오타", "src": "semaine 7-3 p.7"},
+    {"id": "u3-08-w-voici", "t": "word", "skill": "vocab", "fr": "voici", "ko": "여기 ~이 있다", "src": "semaine 7-3 p.8"},
+    {"id": "u3-08-w-pollue", "t": "word", "skill": "vocab", "fr": "pollué", "ko": "오염된", "note": "여성형 polluée", "src": "semaine 7-3 p.12"},
+    {"id": "u3-08-w-tellement", "t": "word", "skill": "vocab", "fr": "tellement", "ko": "그렇게, 너무 (= si)", "src": "semaine 7-3 p.18"},
+    {"id": "u3-08-w-se-brosser", "t": "word", "skill": "vocab", "fr": "se brosser les dents", "ko": "이를 닦다", "src": "semaine 7-3 p.21"},
+    {"id": "u3-08-w-temps-libre", "t": "word", "skill": "vocab", "fr": "le temps libre", "ko": "자유 시간", "src": "semaine 7-3 p.21"},
+    {"id": "u3-08-w-chez-moi", "t": "word", "skill": "vocab", "fr": "chez moi", "ko": "우리 집에(서)", "src": "노션 10/15"},
+    {"id": "u3-08-l-dans-six-mois", "t": "listen", "skill": "pron", "say": "dans six mois", "a": "dans six mois", "wrong": ["dans dix mois", "il y a six mois"], "ko": "6개월 후에", "pron": "[당 씨 무아]", "hint": "six 다음이 자음이면 x는 소리가 나지 않아요.", "explain": "six mois [씨 무아] — 자음 앞 six의 x 묵음.", "src": "semaine 7-3 p.21"}
+  ]
+}

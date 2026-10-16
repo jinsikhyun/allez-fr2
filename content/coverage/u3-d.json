@@ -1,0 +1,38 @@
+{
+  "semaine 7-3": {
+    "p.1": ["skip: 표지 (Semaine 7 · Leçon 11 (fin) · 10/15)"],
+    "p.2": ["skip: 목차"],
+    "p.3": ["skip: PARTIE 1 간지 (Révision : le superlatif)"],
+    "p.4": ["u3-06-c-def", "u3-06-c-former", "note:u3-08#0"],
+    "p.5": ["u3-06-c-le-plus-jeune", "u3-06-b-plus-jeune-classe", "u3-06-c-la-moins-grande", "u3-06-c-range-de", "note:u3-08#0"],
+    "p.6": ["u3-06-c-le-moins-vite", "u3-06-c-plus-d-argent", "u3-08-c-travaille-le-plus", "note:u3-08#0"],
+    "p.7": ["u3-08-c-fautes", "u3-08-c-valerie-neg", "u3-06-c-russie", "u3-06-c-russie-alt", "u3-08-c-paris", "u3-08-c-moins-vite-possible", "u3-08-w-faute", "note:u3-08#0"],
+    "p.8": ["u3-06-c-le-meilleur", "u3-06-c-meilleurs-restaurants", "u3-08-c-chante-mieux", "u3-08-c-voici", "u3-08-w-voici", "note:u3-08#0"],
+    "p.9": ["skip: PARTIE 2 간지 (Le texte-dialogue)"],
+    "p.10": ["u3-07-c-avenir-sens", "u3-07-t-trouverai", "u3-07-c-me-marierai", "u3-07-c-il-y-aura", "u3-07-c-on-aura", "u3-07-c-sera-plus-facile", "note:u3-07#1", "note:u3-08#1"],
+    "p.11": ["u3-08-c-moins-en-moins-v", "u3-08-c-plus-en-plus-de", "u3-08-b-ferai-fautes", "u3-08-c-plus-en-plus-vite", "u3-08-c-connaitrai", "note:u3-08#1", "tip:u3-08#0"],
+    "p.12": ["u3-07-c-sera-t-elle", "u3-07-c-ne-t-inquiete", "u3-07-c-utilisera", "u3-08-c-si-answer", "u3-08-c-pollues", "u3-08-w-pollue", "note:u3-07#1", "note:u3-08#4"],
+    "p.13": ["u3-08-c-campus-est-il", "u3-08-t-alex-a-t-il", "u3-08-c-est-ce-qu-alex", "note:u3-08#2"],
+    "p.14": ["u3-08-b-lea-sera-t-elle", "u3-08-err-sera-elle", "u3-07-c-meilleure-qualite", "note:u3-08#2"],
+    "p.15": ["u3-07-c-ne-t-inquiete", "note:u3-07#1", "note:u3-08#3"],
+    "p.16": ["u3-08-verb-s-inquieter", "u3-08-c-inquiete-accent", "u3-08-c-ne-t-inquiete", "u3-08-c-leve-toi", "u3-08-err-ne-leve-toi", "u3-08-c-vous-inquietez", "u3-08-c-tkt", "note:u3-08#3", "tip:u3-08#4"],
+    "p.17": ["u3-07-c-manquer-de", "u3-07-c-pas-si-rose", "note:u3-08#4"],
+    "p.18": ["u3-08-c-si-sens", "u3-08-c-si-bon", "u3-08-w-tellement", "note:u3-08#4", "tip:u3-08#1"],
+    "p.19": ["skip: PARTIE 3 간지 (Les indicateurs du temps)"],
+    "p.20": ["u3-08-c-indic-past", "u3-08-c-ce-mois-ci", "u3-08-c-hier-soir", "note:u3-08#5", "tip:u3-08#2", "tip:u3-08#3"],
+    "p.21": ["u3-08-b-brosser", "u3-08-c-avant-pp", "u3-08-t-auras", "u3-08-c-il-y-a-tense", "u3-08-c-dans-tense", "u3-08-c-devenir-dans", "u3-08-c-il-y-a-vs-dans", "u3-08-l-dans-six-mois", "u3-08-w-se-brosser", "u3-08-w-temps-libre", "note:u3-08#6"],
+    "p.22": ["u0-01-ademain", "skip: 마무리 슬라이드 (Questions / À la semaine prochaine !)"]
+  },
+  "노션 10/15": {
+    "§ Jeanne a fait le moins de fautes → fautes: 잘못, 실수, 오타": ["u3-08-c-fautes", "u3-08-w-faute", "note:u3-08#0"],
+    "§ Valérie n'est pas la plus grande — 형용사는 항상 성수일치, la까지도": ["u3-08-c-valerie-neg", "note:u3-08#0"],
+    "§ La Russie est le pays le plus grand du monde → le plus grand pays 가능": ["u3-06-c-russie-alt", "note:u3-08#0"],
+    "§ la ville la plus intéressante — 여성 -e, plus 장떼르썽 (z 연음)": ["u3-08-c-paris", "u3-08-l-plus-interessante", "note:u3-08#0"],
+    "§ le moins vite possible · le meilleur · Voici = 여기에 있다 · le mieux": ["u3-08-c-moins-vite-possible", "u3-08-c-voici", "u3-08-c-chante-mieux", "note:u3-08#0"],
+    "§ Je m'inquiète 발음 열어줌 / inquiétons 닫아줌 — 악상 발음 주의": ["u3-08-c-inquiete-pron", "u3-08-c-inquiete-accent", "note:u3-08#3"],
+    "§ les eaux et le sol sont également pollués → 오염된, 수동태": ["u3-08-c-pollues", "note:u3-08#4"],
+    "§ 시간 표지들 — après / il y a / dans에 따라 시제를 바꾼다": ["u3-08-c-il-y-a-tense", "u3-08-c-dans-tense", "note:u3-08#5"],
+    "§ 슬라이드 캡처 이미지": ["note:u3-08#3", "skip: 이미지 파일은 열 수 없음 — 같은 내용의 semaine 7-3 슬라이드로 반영"],
+    "§ 하위 「시험 대비 — 10년 후 나의 하루」 교수님 피드백 (chez moi · ma femme et moi (nous) boirons · en regardant · Quelle journée…)": ["u3-08-c-chez-moi", "u3-08-c-femme-et-moi", "u3-08-c-en-regardant", "u3-08-c-quelle-journee", "u3-08-w-chez-moi", "note:u3-08#7"]
+  }
+}

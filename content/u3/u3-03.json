@@ -1,0 +1,93 @@
+{
+  "id": "u3-03",
+  "unit": "u3",
+  "title": "단순미래 복습 — 현재→미래 · 부정문 · devenir",
+  "emoji": "🔁",
+  "date": "2026-10-13",
+  "sources": ["semaine 7-1", "노션 10/13"],
+  "tips": [
+    { "h": "현재 → 미래 바꾸기", "b": "동사만 미래형으로, 나머지는 그대로\nNous visitons → Nous **visiterons** (demain)" },
+    { "h": "부정 미래문", "b": "ne … pas가 **미래형 동사 하나**를 감싼다\nJe **ne** dînerai **pas** · Ils **ne** m'écriront **pas**" },
+    { "h": "헷갈리는 소리", "rows": [["serons [스홍]", "saurons [쏘홍]"], ["serez [스헤]", "saurez [쏘헤]"], ["écrivent [에크히브]", "écriront [에크히홍]"]] },
+    { "h": "devenir = venir 따라하기", "b": "je deviendrai · tu deviendras · nous deviendrons …" }
+  ],
+  "note": [
+    {
+      "h": "복습: 만드는 법 + étudier",
+      "skill": "futur",
+      "src": ["semaine 7-1 p.4–6", "노션 10/13"],
+      "body": [
+        { "p": "**동사원형 + -ai · -as · -a · -ons · -ez · -ont**. -re로 끝나는 동사(écrire, prendre)는 끝 **e만 빼고** 똑같이." },
+        { "table": [["주어", "étudier"], ["j'", "étudierai"], ["tu", "étudieras"], ["il / elle", "étudiera"], ["nous", "étudierons"], ["vous", "étudierez"], ["ils / elles", "étudieront"]], "head": true },
+        { "warn": "étudier는 원형 전체가 어간 → **étudier-** + ai. i를 빼먹은 étuderai ✗, er를 빼먹은 étudirai ✗. 모음으로 시작하니 je → **j'**étudierai." },
+        { "memo": "이번 복습 슬라이드는 finir·boire 대신 étudier가 들어갔다 (trouver · parler · regarder · étudier · écrire · prendre)." }
+      ]
+    },
+    {
+      "h": "현재 → 미래 바꾸기 (부정문 포함)",
+      "skill": "futur",
+      "src": ["semaine 7-1 p.7", "노션 10/13"],
+      "body": [
+        { "ex": [
+          ["Nous visitons le musée du Louvre. → Nous visiterons le musée du Louvre demain.", "우리는 루브르를 방문한다 → 내일 방문할 것이다."],
+          ["Vous répondez à mes questions. → Vous répondrez à mes questions.", "당신은 내 질문에 대답한다 → 대답할 것이다."],
+          ["Ils ne m'écrivent pas. → Ils ne m'écriront pas.", "그들은 내게 편지를 쓰지 않는다 → 쓰지 않을 것이다."],
+          ["Je ne dîne pas chez moi ce soir. → Je ne dînerai pas chez moi ce soir.", "나는 오늘 저녁 집에서 저녁을 먹지 않는다 → 먹지 않을 것이다."]
+        ] },
+        { "warn": "부정문: **ne + (목적보어 대명사) + 미래형 동사 + pas**. Ils ne m'écriront pas — m'(= me)는 동사 바로 앞에 그대로." },
+        { "memo": "필기: Ils ne m'écrivent pas → Ils ne m'écriront pas — **이런 거 듣기에서 주의**. 현재 écrivent [에크히브]와 미래 écriront [에크히홍]의 끝소리로 구별." }
+      ]
+    },
+    {
+      "h": "불규칙 복습 · devenir · 발음",
+      "skill": "futur",
+      "src": ["semaine 7-1 p.8–10", "노션 10/13"],
+      "body": [
+        { "table": [["원형", "어간", "je"], ["avoir", "aur-", "j'aurai"], ["être", "ser-", "je serai"], ["savoir", "saur-", "je saurai"], ["voir", "verr-", "je verrai"], ["faire", "fer-", "je ferai"], ["aller", "ir-", "j'irai"], ["vouloir", "voudr-", "je voudrai"], ["pouvoir", "pourr-", "je pourrai"], ["venir", "viendr-", "je viendrai"]], "head": true },
+        { "p": "**devenir**(~이 되다)도 venir랑 똑같다: je **deviendrai**, tu deviendras, il deviendra, nous deviendrons, vous deviendrez, ils deviendront." },
+        { "warn": "특히 **serons / saurons**, **serez / saurez** 구별! être는 se [스] — 약한 e, savoir는 sau [쏘] — au = [o]. nous serons [누 스홍] ↔ nous saurons [누 쏘홍]." },
+        { "memo": "필기: -r- / -rr- 발음 다름 — verrai·pourrai처럼 r이 두 개인 어간은 r을 조금 더 또렷하게(길게) 낸다는 설명. 듣기에서는 앞 모음(ve·pou)으로도 구별할 수 있다." }
+      ]
+    },
+    {
+      "h": "예문 — 지금 vs 미래",
+      "skill": "futur",
+      "src": ["semaine 7-1 p.11", "노션 10/13"],
+      "body": [
+        { "ex": [
+          ["J'ai vingt ans. → J'aurai vingt-et-un ans en décembre.", "나는 스무 살이다 → 12월에 스물한 살이 된다."],
+          ["Vous n'êtes pas libre cette année. → Vous serez libre l'année prochaine.", "당신은 올해 한가하지 않다 → 내년에는 한가할 것이다."],
+          ["Elles vont au cinéma ce week-end. → Elles n'iront pas au cinéma la semaine prochaine.", "그녀들은 이번 주말 영화관에 간다 → 다음 주에는 가지 않을 것이다."],
+          ["Il ne sait pas la vérité maintenant. → Il saura la vérité dans deux jours / dans quelques jours.", "그는 지금 진실을 모른다 → 이틀 뒤에 / 며칠 뒤에 알게 될 것이다."]
+        ] },
+        { "list": ["나이는 avoir: J'aurai 21 ans (être ✗)", "dans + 기간 = ~ 뒤에: dans deux jours, dans quelques jours (며칠 뒤에)", "cette année ↔ l'année prochaine, ce week-end ↔ la semaine prochaine"] }
+      ]
+    }
+  ],
+  "cards": [
+    { "id": "u3-03-c-etudier-je", "t": "choice", "skill": "futur", "prompt": "빈칸에 알맞은 것은?", "q": "Ce soir, j'___ le français.", "ko": "오늘 저녁 나는 프랑스어를 공부할 것이다.", "a": "étudierai", "wrong": ["étudirai", "étuderai", "étudie"], "hint": "원형 전체를 어간으로 — 글자를 빼먹지 마세요.", "explain": "étudier + ai = étudierai. 원형 철자가 통째로 남는다.", "src": "semaine 7-1 p.5" },
+    { "id": "u3-03-t-etudier-nous", "t": "type", "skill": "futur", "prompt": "단순미래로", "q": "nous (étudier) → nous ___", "a": "étudierons", "hint": "원형 + nous 어미. 악센트도 챙기기!", "explain": "étudier + ons.", "src": "semaine 7-1 p.5" },
+    { "id": "u3-03-c-etudier-ils", "t": "choice", "skill": "futur", "prompt": "빈칸에 알맞은 것은?", "q": "Ils ___ à Paris l'année prochaine.", "ko": "그들은 내년에 파리에서 공부할 것이다.", "a": "étudieront", "wrong": ["étudient", "étudiront", "étudierons"], "hint": "l'année prochaine = 미래 표지. 주어는 ils.", "explain": "étudier + ont. étudient은 현재형.", "src": "semaine 7-1 p.5" },
+    { "id": "u3-03-l-etudierai", "t": "listen", "skill": "futur", "say": "J'étudierai.", "a": "J'étudierai.", "wrong": ["J'étudie.", "Tu étudieras."], "ko": "나는 공부할 것이다.", "pron": "[제뛰디헤]", "hint": "끝에 r 소리가 들렸나요?", "explain": "미래형엔 언제나 r 소리 — étudie·rai.", "src": "semaine 7-1 p.5" },
+    { "id": "u3-03-b-visiterons", "t": "build", "skill": "futur", "prompt": "미래형으로 바꾸세요 (demain을 붙여서)", "from": "Nous visitons le musée du Louvre.", "a": "Nous visiterons le musée du Louvre demain.", "extra": ["visitons", "visiterez"], "ko": "우리는 내일 루브르 박물관을 방문할 것이다.", "hint": "동사만 미래로, 시간 표지는 문장 끝에.", "explain": "visiter + ons. demain = 미래 표지.", "src": "semaine 7-1 p.7" },
+    { "id": "u3-03-t-repondrez", "t": "type", "skill": "futur", "prompt": "미래형으로 바꾸세요", "q": "Vous répondez à mes questions. → Vous ___ à mes questions.", "a": "répondrez", "hint": "-re 동사는 끝 e만 빼고 vous 어미.", "explain": "répondre → répondr- + ez.", "src": "semaine 7-1 p.7" },
+    { "id": "u3-03-b-neg-ecriront", "t": "build", "skill": "futur", "prompt": "미래형으로 바꾸세요", "from": "Ils ne m'écrivent pas.", "a": "Ils ne m'écriront pas.", "extra": ["écrivent", "écrivront"], "ko": "그들은 내게 편지를 쓰지 않을 것이다.", "hint": "현재형 어간이 아니라 원형에서 출발!", "explain": "écrire → écrir- + ont. ne…pas는 그대로 동사를 감싼다.", "star": true, "src": "semaine 7-1 p.7" },
+    { "id": "u3-03-l-ecriront", "t": "listen", "skill": "futur", "say": "Ils ne m'écriront pas.", "a": "Ils ne m'écriront pas.", "wrong": ["Ils ne m'écrivent pas.", "Il ne m'écrira pas."], "ko": "그들은 내게 편지를 쓰지 않을 것이다.", "pron": "[일 느 메크히홍 빠]", "hint": "끝소리가 [브]인지 [홍]인지 들어봐요.", "explain": "필기: 이런 거 듣기에서 주의! écriront [에크히홍] ↔ écrivent [에크히브].", "star": true, "src": "노션 10/13" },
+    { "id": "u3-03-b-neg-dinerai", "t": "build", "skill": "futur", "prompt": "미래형으로 바꾸세요", "from": "Je ne dîne pas chez moi ce soir.", "a": "Je ne dînerai pas chez moi ce soir.", "extra": ["dîne", "dînerons"], "ko": "나는 오늘 저녁 집에서 저녁을 먹지 않을 것이다.", "hint": "ne…pas 사이에 미래형 동사 하나.", "explain": "dîner + ai. 악센트 î 유지.", "src": "semaine 7-1 p.7" },
+    { "id": "u3-03-c-neg-order", "t": "choice", "skill": "futur", "prompt": "어순이 맞는 부정 미래문은?", "q": "나는 집에서 저녁을 먹지 않을 것이다.", "a": "Je ne dînerai pas chez moi.", "wrong": ["Je ne pas dînerai chez moi.", "Je dînerai ne pas chez moi.", "Je ne dînerai chez moi pas."], "say": "Je ne dînerai pas chez moi.", "hint": "ne…pas는 활용된 동사를 앞뒤로 감싸요.", "explain": "단순미래는 동사가 한 단어 → ne + dînerai + pas.", "src": "semaine 7-1 p.7" },
+    { "id": "u3-03-t-aurai-age", "t": "type", "skill": "futur", "prompt": "미래형으로 (12월에 21살이 된다)", "q": "J'ai vingt ans. → J'___ vingt-et-un ans en décembre.", "a": "aurai", "hint": "나이는 어떤 동사로 말하죠? 그 동사의 불규칙 어간!", "explain": "avoir → aur- + ai. 나이는 avoir.", "src": "semaine 7-1 p.11" },
+    { "id": "u3-03-b-serez-libre", "t": "build", "skill": "futur", "prompt": "'내년엔 한가할 것이다'로 바꾸세요", "from": "Vous n'êtes pas libre cette année.", "a": "Vous serez libre l'année prochaine.", "extra": ["êtes", "saurez"], "ko": "당신은 내년에는 한가할 것이다.", "hint": "être의 미래 어간 — savoir와 헷갈리지 말기.", "explain": "être → ser- + ez. cette année → l'année prochaine.", "src": "semaine 7-1 p.11" },
+    { "id": "u3-03-b-niront", "t": "build", "skill": "futur", "prompt": "'다음 주엔 안 갈 것이다'로 바꾸세요", "from": "Elles vont au cinéma ce week-end.", "a": "Elles n'iront pas au cinéma la semaine prochaine.", "extra": ["vont", "ne"], "ko": "그녀들은 다음 주에는 영화관에 가지 않을 것이다.", "hint": "aller의 미래 어간은 모음으로 시작해요 → ne가 축약!", "explain": "aller → ir- + ont. 모음 앞이라 ne → n'iront.", "star": true, "src": "semaine 7-1 p.11" },
+    { "id": "u3-03-c-saura-dans", "t": "choice", "skill": "futur", "prompt": "빈칸에 알맞은 것은?", "q": "Il ne sait pas la vérité maintenant. Il ___ la vérité dans deux jours.", "ko": "그는 지금 진실을 모른다. 이틀 뒤에 알게 될 것이다.", "a": "saura", "wrong": ["sera", "sait", "savra"], "hint": "savoir의 불규칙 어간 — être와 소리가 비슷해요.", "explain": "savoir → saur- + a. sera는 être.", "src": "semaine 7-1 p.11" },
+    { "id": "u3-03-err-sera-verite", "t": "error", "skill": "futur", "s": "Elle sera la vérité la semaine prochaine.", "wrong": "sera", "right": "saura", "ko": "그녀는 다음 주에 진실을 알게 될 것이다.", "hint": "'알다'인지 '이다'인지 생각해봐요.", "explain": "진실을 '알게 되다' = savoir → saura. sera는 être.", "star": true, "src": "semaine 7-1 p.11" },
+    { "id": "u3-03-w-dans-quelques-jours", "t": "word", "skill": "time", "fr": "dans quelques jours", "ko": "며칠 뒤에", "src": "semaine 7-1 p.11" },
+    { "id": "u3-03-w-cette-annee", "t": "word", "skill": "time", "fr": "cette année", "ko": "올해", "src": "semaine 7-1 p.11" },
+    { "id": "u3-03-l-saurons", "t": "listen", "skill": "pron", "say": "nous saurons", "a": "nous saurons", "wrong": ["nous serons", "nous aurons"], "ko": "우리는 알게 될 것이다", "pron": "[누 쏘홍]", "hint": "첫 모음이 [스]인지 [쏘]인지!", "explain": "saurons [쏘홍] = savoir · serons [스홍] = être · aurons [오홍] = avoir.", "star": true, "src": "노션 10/13" },
+    { "id": "u3-03-l-serez", "t": "listen", "skill": "pron", "say": "vous serez", "a": "vous serez", "wrong": ["vous saurez", "vous aurez"], "ko": "당신은 ~일 것이다", "pron": "[부 스헤]", "hint": "약한 e [스]인가, au [쏘]인가?", "explain": "serez [스헤] = être · saurez [쏘헤] = savoir.", "star": true, "src": "노션 10/13" },
+    { "id": "u3-03-c-serons-pron", "t": "choice", "skill": "pron", "prompt": "nous serons의 se는 어떻게 발음할까?", "q": "nous serons", "a": "[스] — 약한 e", "wrong": ["[쏘] — au 소리", "[세] — é 소리"], "say": "nous serons", "hint": "철자에 악센트도 au도 없어요.", "explain": "serons [스홍]. au가 있는 saurons만 [쏘홍].", "src": "노션 10/13" },
+    { "id": "u3-03-c-devenir-je", "t": "choice", "skill": "futur", "prompt": "devenir의 미래형 je 형태는?", "q": "devenir → je ___", "a": "deviendrai", "wrong": ["devenirai", "devendrai", "deviendrerai"], "hint": "venir와 똑같이 변해요!", "explain": "venir → viendr- 이니 devenir → deviendr- + ai.", "star": true, "src": "노션 10/13" },
+    { "id": "u3-03-t-devenir-tu", "t": "type", "skill": "futur", "prompt": "단순미래로", "q": "tu (devenir) → tu ___", "a": "deviendras", "hint": "venir의 미래 어간 앞에 de-만 붙이기.", "explain": "deviendr- + as.", "src": "노션 10/13" },
+    { "id": "u3-03-w-devenir", "t": "word", "skill": "vocab", "fr": "devenir", "ko": "~이 되다", "src": "노션 10/13" },
+    { "id": "u3-03-c-rr", "t": "choice", "skill": "futur", "prompt": "미래 어간에 r이 두 개(rr) 들어가는 짝은?", "q": "-rr- 어간", "a": "voir · pouvoir", "wrong": ["savoir · avoir", "être · faire", "aller · vouloir"], "say": "", "hint": "je ___rai를 하나씩 써 보고 r을 세어봐요.", "explain": "je verrai · je pourrai. 필기: -r- / -rr- 발음 다름 — rr은 조금 더 또렷하게.", "src": "노션 10/13" }
+  ]
+}

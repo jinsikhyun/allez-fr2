@@ -1,194 +1,206 @@
 [
-  {
-    "id": "greet",
-    "label": "인사·생활 표현",
-    "emoji": "👋",
-    "hint": "상황을 떠올려봐요: 누구에게(tu/vous), 언제(만날 때/헤어질 때) 하는 말?"
-  },
-  {
-    "id": "vocab",
-    "label": "어휘",
-    "emoji": "📚",
-    "hint": "비슷하게 생긴 영어 단어나 수업 예문을 떠올려봐요."
-  },
-  {
-    "id": "gender",
-    "label": "명사의 성 (le/la)",
-    "emoji": "🏷️",
-    "hint": "사람·동물은 실제 성별대로. -tion·-té·-ure로 끝나면 보통 여성, -age·-ment·-eau면 보통 남성!"
-  },
-  {
-    "id": "pron",
-    "label": "발음",
-    "emoji": "🗣️",
-    "hint": "끝 자음은 대부분 묵음! 모음 조합(ou, oi, eu, au)과 비모음(an, on, in, un)을 확인해봐요."
-  },
-  {
-    "id": "spelling",
-    "label": "철자·악센트",
-    "emoji": "✍️",
-    "hint": "악센트 방향(é/è/ê)과 철자 하나하나를 의심해봐요."
-  },
-  {
-    "id": "elision",
-    "label": "엘리지옹 (j' · n' · l')",
-    "emoji": "✂️",
-    "hint": "모음이나 무음 h 앞에서 je · ne · le · la · que 는 어떻게 줄어들까요?"
-  },
-  {
-    "id": "adj",
-    "label": "형용사 형태·위치",
-    "emoji": "🎨",
-    "hint": "형용사는 명사의 성·수에 맞춰요. 모음 앞 남성 단수는 특별한 형태가 있어요 (bel, nouvel, vieil)."
-  },
-  {
-    "id": "neg",
-    "label": "부정문",
-    "emoji": "🚫",
-    "hint": "ne + 동사 + pas. 부정문에서 un·une·des는 어떻게 바뀔까요?"
-  },
-  {
-    "id": "question",
-    "label": "의문문 만들기",
-    "emoji": "❓",
-    "hint": "의문문 3가지: 억양 / Est-ce que + 문장 / 주어-동사 도치(모음이 부딪치면 -t-)."
-  },
-  {
-    "id": "interrog",
-    "label": "의문사·의문대명사",
-    "emoji": "🔎",
-    "hint": "사람이면 qui, 사물이면 que(quoi). 주어 자리인지 목적어 자리인지도 확인!"
-  },
-  {
-    "id": "time",
-    "label": "날짜·시간·빈도",
-    "emoji": "🕐",
-    "hint": "수업 시작할 때 매번 하던 날짜·시간 질문을 떠올려봐요."
-  },
-  {
-    "id": "pres-er",
-    "label": "현재형 -er 동사",
-    "emoji": "✏️",
-    "hint": "-er 동사 어미: -e · -es · -e · -ons · -ez · -ent"
-  },
-  {
-    "id": "pres-ir",
-    "label": "현재형 -ir (2군) 동사",
-    "emoji": "🖊️",
-    "hint": "-ir(2군) 어미: -is · -is · -it · -issons · -issez · -issent"
-  },
-  {
-    "id": "pres-irr",
-    "label": "현재형 불규칙 동사",
-    "emoji": "🌀",
-    "hint": "불규칙 동사는 주어와 세트로! 같은 그룹 동사(partir/sortir/dormir…)와 모양이 비슷해요."
-  },
-  {
-    "id": "stem-change",
-    "label": "동사 철자 변화 (mangeons, achète…)",
-    "emoji": "🔧",
-    "hint": "소리를 지키려고 철자가 바뀌어요: g·c 뒤 nous 형태, 그리고 e/é가 è로 바뀌는 인칭을 확인!"
-  },
-  {
-    "id": "on",
-    "label": "on = 3인칭 단수",
-    "emoji": "👥",
-    "hint": "on은 뜻이 '우리/사람들'이어도 문법은 il과 같아요."
-  },
-  {
-    "id": "inf",
-    "label": "변화형 → 동사원형",
-    "emoji": "🔙",
-    "hint": "어미를 떼고 뿌리를 찾아봐요: -issons/-issent이면 2군 -ir!"
-  },
-  {
-    "id": "pp",
-    "label": "과거분사 형태",
-    "emoji": "🧩",
-    "hint": "-er → -é, -ir → -i, -re → -u … 하지만 불규칙 과거분사는 통째로 외운 것!"
-  },
-  {
-    "id": "aux",
-    "label": "조동사 avoir / être",
-    "emoji": "⚖️",
-    "hint": "이동·상태 변화 동사(aller, venir, arriver, partir, naître, mourir…)와 대명동사는 être, 나머지는 avoir."
-  },
-  {
-    "id": "pc-neg-q",
-    "label": "복합과거 부정·의문",
-    "emoji": "🔄",
-    "hint": "복합과거에선 조동사가 동사 역할: ne…pas도 도치도 조동사에 붙어요."
-  },
-  {
-    "id": "pronominal",
-    "label": "대명동사",
-    "emoji": "🪞",
-    "hint": "재귀대명사 me · te · se · nous · vous · se (모음 앞 m' t' s'), 복합과거 조동사는 항상 être!"
-  },
-  {
-    "id": "agreement",
-    "label": "과거분사 성수일치",
-    "emoji": "🎯",
-    "hint": "être면 주어에 일치. avoir면 앞에 COD(대명사)가 있을 때만 일치!"
-  },
-  {
-    "id": "exclam",
-    "label": "감탄문",
-    "emoji": "😮",
-    "hint": "Comme/Que + 문장 !  ·  Quel(le)(s) + 명사 ! (명사의 성·수에 맞춰)"
-  },
-  {
-    "id": "pron-obj",
-    "label": "목적보어 대명사 (le·la·lui·leur)",
-    "emoji": "🎯",
-    "hint": "'누구를?'이면 COD(le·la·les), '누구에게?'(à)면 COI(lui·leur). 위치는 동사 앞!"
-  },
-  {
-    "id": "pron-tonic",
-    "label": "강세형 대명사 (moi·toi·lui·eux)",
-    "emoji": "💪",
-    "hint": "동사 없이 혼자 서거나 전치사 뒤에 올 때 쓰는 형태예요. je·tu·il은 혼자 못 섭니다!"
-  },
-  {
-    "id": "prep-lieu",
-    "label": "장소 전치사 (à·en·au·aux)",
-    "emoji": "🗺️",
-    "hint": "도시냐 나라냐 지방이냐, 나라면 성·수가 무엇이냐를 먼저 따져보세요."
-  },
-  {
-    "id": "famille",
-    "label": "가족 어휘",
-    "emoji": "🌳",
-    "hint": "세대(조부모–부모–나)와 성별로 자리를 잡아보세요. 위아래로 부르는 이름이 따로 있어요."
-  },
-  {
-    "id": "part-pres",
-    "label": "현재분사 (-ant)",
-    "emoji": "🏃",
-    "hint": "nous 현재형에서 -ons를 떼고 -ant! 예외는 셋, 성수일치는 없어요."
-  },
-  {
-    "id": "gerondif",
-    "label": "제롱디프 (en + -ant)",
-    "emoji": "🎧",
-    "hint": "en + 현재분사! 뜻은 문맥으로(동시·조건·원인·수단), 행동하는 사람은 주절의 주어예요."
-  },
-  {
-    "id": "localisation",
-    "label": "위치 표현 · 동네 어휘",
-    "emoji": "📍",
-    "hint": "de가 붙는 건 en face de · à côté de 둘뿐. de + le는 du로 합쳐져요."
-  },
-  {
-    "id": "imperatif",
-    "label": "명령문 (l'impératif)",
-    "emoji": "📣",
-    "hint": "tu·nous·vous 세 인칭만. -er 동사의 tu는 -s가 빠져요."
-  },
-  {
-    "id": "futur",
-    "label": "단순미래 (futur simple)",
-    "emoji": "🔮",
-    "hint": "동사원형(-re는 e 떼고) + ai·as·a·ons·ez·ont. avoir 현재형을 떠올려요!"
-  }
+ {
+  "id": "greet",
+  "label": "인사·생활 표현",
+  "emoji": "👋",
+  "hint": "상황을 떠올려봐요: 누구에게(tu/vous), 언제(만날 때/헤어질 때) 하는 말?"
+ },
+ {
+  "id": "vocab",
+  "label": "어휘",
+  "emoji": "📚",
+  "hint": "비슷하게 생긴 영어 단어나 수업 예문을 떠올려봐요."
+ },
+ {
+  "id": "gender",
+  "label": "명사의 성 (le/la)",
+  "emoji": "🏷️",
+  "hint": "사람·동물은 실제 성별대로. -tion·-té·-ure로 끝나면 보통 여성, -age·-ment·-eau면 보통 남성!"
+ },
+ {
+  "id": "pron",
+  "label": "발음",
+  "emoji": "🗣️",
+  "hint": "끝 자음은 대부분 묵음! 모음 조합(ou, oi, eu, au)과 비모음(an, on, in, un)을 확인해봐요."
+ },
+ {
+  "id": "spelling",
+  "label": "철자·악센트",
+  "emoji": "✍️",
+  "hint": "악센트 방향(é/è/ê)과 철자 하나하나를 의심해봐요."
+ },
+ {
+  "id": "elision",
+  "label": "엘리지옹 (j' · n' · l')",
+  "emoji": "✂️",
+  "hint": "모음이나 무음 h 앞에서 je · ne · le · la · que 는 어떻게 줄어들까요?"
+ },
+ {
+  "id": "adj",
+  "label": "형용사 형태·위치",
+  "emoji": "🎨",
+  "hint": "형용사는 명사의 성·수에 맞춰요. 모음 앞 남성 단수는 특별한 형태가 있어요 (bel, nouvel, vieil)."
+ },
+ {
+  "id": "neg",
+  "label": "부정문",
+  "emoji": "🚫",
+  "hint": "ne + 동사 + pas. 부정문에서 un·une·des는 어떻게 바뀔까요?"
+ },
+ {
+  "id": "question",
+  "label": "의문문 만들기",
+  "emoji": "❓",
+  "hint": "의문문 3가지: 억양 / Est-ce que + 문장 / 주어-동사 도치(모음이 부딪치면 -t-)."
+ },
+ {
+  "id": "interrog",
+  "label": "의문사·의문대명사",
+  "emoji": "🔎",
+  "hint": "사람이면 qui, 사물이면 que(quoi). 주어 자리인지 목적어 자리인지도 확인!"
+ },
+ {
+  "id": "time",
+  "label": "날짜·시간·빈도",
+  "emoji": "🕐",
+  "hint": "수업 시작할 때 매번 하던 날짜·시간 질문을 떠올려봐요."
+ },
+ {
+  "id": "pres-er",
+  "label": "현재형 -er 동사",
+  "emoji": "✏️",
+  "hint": "-er 동사 어미: -e · -es · -e · -ons · -ez · -ent"
+ },
+ {
+  "id": "pres-ir",
+  "label": "현재형 -ir (2군) 동사",
+  "emoji": "🖊️",
+  "hint": "-ir(2군) 어미: -is · -is · -it · -issons · -issez · -issent"
+ },
+ {
+  "id": "pres-irr",
+  "label": "현재형 불규칙 동사",
+  "emoji": "🌀",
+  "hint": "불규칙 동사는 주어와 세트로! 같은 그룹 동사(partir/sortir/dormir…)와 모양이 비슷해요."
+ },
+ {
+  "id": "stem-change",
+  "label": "동사 철자 변화 (mangeons, achète…)",
+  "emoji": "🔧",
+  "hint": "소리를 지키려고 철자가 바뀌어요: g·c 뒤 nous 형태, 그리고 e/é가 è로 바뀌는 인칭을 확인!"
+ },
+ {
+  "id": "on",
+  "label": "on = 3인칭 단수",
+  "emoji": "👥",
+  "hint": "on은 뜻이 '우리/사람들'이어도 문법은 il과 같아요."
+ },
+ {
+  "id": "inf",
+  "label": "변화형 → 동사원형",
+  "emoji": "🔙",
+  "hint": "어미를 떼고 뿌리를 찾아봐요: -issons/-issent이면 2군 -ir!"
+ },
+ {
+  "id": "pp",
+  "label": "과거분사 형태",
+  "emoji": "🧩",
+  "hint": "-er → -é, -ir → -i, -re → -u … 하지만 불규칙 과거분사는 통째로 외운 것!"
+ },
+ {
+  "id": "aux",
+  "label": "조동사 avoir / être",
+  "emoji": "⚖️",
+  "hint": "이동·상태 변화 동사(aller, venir, arriver, partir, naître, mourir…)와 대명동사는 être, 나머지는 avoir."
+ },
+ {
+  "id": "pc-neg-q",
+  "label": "복합과거 부정·의문",
+  "emoji": "🔄",
+  "hint": "복합과거에선 조동사가 동사 역할: ne…pas도 도치도 조동사에 붙어요."
+ },
+ {
+  "id": "pronominal",
+  "label": "대명동사",
+  "emoji": "🪞",
+  "hint": "재귀대명사 me · te · se · nous · vous · se (모음 앞 m' t' s'), 복합과거 조동사는 항상 être!"
+ },
+ {
+  "id": "agreement",
+  "label": "과거분사 성수일치",
+  "emoji": "🎯",
+  "hint": "être면 주어에 일치. avoir면 앞에 COD(대명사)가 있을 때만 일치!"
+ },
+ {
+  "id": "exclam",
+  "label": "감탄문",
+  "emoji": "😮",
+  "hint": "Comme/Que + 문장 !  ·  Quel(le)(s) + 명사 ! (명사의 성·수에 맞춰)"
+ },
+ {
+  "id": "pron-obj",
+  "label": "목적보어 대명사 (le·la·lui·leur)",
+  "emoji": "🎯",
+  "hint": "'누구를?'이면 COD(le·la·les), '누구에게?'(à)면 COI(lui·leur). 위치는 동사 앞!"
+ },
+ {
+  "id": "pron-tonic",
+  "label": "강세형 대명사 (moi·toi·lui·eux)",
+  "emoji": "💪",
+  "hint": "동사 없이 혼자 서거나 전치사 뒤에 올 때 쓰는 형태예요. je·tu·il은 혼자 못 섭니다!"
+ },
+ {
+  "id": "prep-lieu",
+  "label": "장소 전치사 (à·en·au·aux)",
+  "emoji": "🗺️",
+  "hint": "도시냐 나라냐 지방이냐, 나라면 성·수가 무엇이냐를 먼저 따져보세요."
+ },
+ {
+  "id": "famille",
+  "label": "가족 어휘",
+  "emoji": "🌳",
+  "hint": "세대(조부모–부모–나)와 성별로 자리를 잡아보세요. 위아래로 부르는 이름이 따로 있어요."
+ },
+ {
+  "id": "part-pres",
+  "label": "현재분사 (-ant)",
+  "emoji": "🏃",
+  "hint": "nous 현재형에서 -ons를 떼고 -ant! 예외는 셋, 성수일치는 없어요."
+ },
+ {
+  "id": "gerondif",
+  "label": "제롱디프 (en + -ant)",
+  "emoji": "🎧",
+  "hint": "en + 현재분사! 뜻은 문맥으로(동시·조건·원인·수단), 행동하는 사람은 주절의 주어예요."
+ },
+ {
+  "id": "localisation",
+  "label": "위치 표현 · 동네 어휘",
+  "emoji": "📍",
+  "hint": "de가 붙는 건 en face de · à côté de 둘뿐. de + le는 du로 합쳐져요."
+ },
+ {
+  "id": "imperatif",
+  "label": "명령문 (l'impératif)",
+  "emoji": "📣",
+  "hint": "tu·nous·vous 세 인칭만. -er 동사의 tu는 -s가 빠져요."
+ },
+ {
+  "id": "futur",
+  "label": "단순미래 (futur simple)",
+  "emoji": "🔮",
+  "hint": "동사원형(-re는 e 떼고) + ai·as·a·ons·ez·ont. avoir 현재형을 떠올려요!"
+ },
+ {
+  "id": "comparatif",
+  "label": "비교급 (le comparatif)",
+  "emoji": "⚖️",
+  "hint": "형용사·부사엔 plus/moins/aussi … que, 명사엔 plus de/moins de/autant de … que, 동사 뒤엔 plus/moins/autant que!"
+ },
+ {
+  "id": "superlatif",
+  "label": "최상급 (le superlatif)",
+  "emoji": "🏆",
+  "hint": "비교급 앞에 le/la/les! 형용사만 성·수 일치, 부사·명사·동사는 le. 범위는 de."
+ }
 ]

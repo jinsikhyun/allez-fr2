@@ -1,0 +1,101 @@
+{
+  "id": "u4-01",
+  "unit": "u4",
+  "title": "반과거 만들기 (l'imparfait)",
+  "emoji": "🕰️",
+  "date": "2026-10-28",
+  "sources": ["semaine 9-2", "semaine 9-3", "노션 10/28", "노션 10/29"],
+  "tips": [
+    { "h": "반과거 만드는 법", "b": "nous 현재형 − **-ons** + **-ais · -ais · -ait · -ions · -iez · -aient**\nnous parlons → parl- → je parlais" },
+    { "h": "어간 한눈에", "rows": [["parler (nous parlons)", "parl-"], ["avoir (nous avons)", "av-"], ["faire (nous faisons)", "fais-"], ["prendre (nous prenons)", "pren-"], ["⚠️ être (예외)", "ét-"]] },
+    { "h": "소리는 같고 철자만 다르다", "b": "-ais · -ait · -aient 모두 **[에]**\n→ 철자는 주어로 결정: je·tu -ais / il·elle·on -ait / ils·elles -aient" },
+    { "h": "nous형 철자 그대로", "b": "manger: nous mang**e**ons → il mang**e**ait\ncommencer: nous commen**ç**ons → ils commen**ç**aient" }
+  ],
+  "note": [
+    {
+      "h": "반과거란? — un temps du passé",
+      "skill": "imparfait",
+      "src": ["semaine 9-2 p.6", "semaine 9-3 p.6"],
+      "body": [
+        { "p": "**L'imparfait est un temps du passé.** 반과거는 과거 시제의 하나." },
+        { "p": "On l'utilise pour **décrire une situation dans le passé** ou pour parler de **ses habitudes passées**." },
+        { "list": ["과거의 **상황·배경 묘사** (~였다, ~하고 있었다)", "과거의 **습관** (~하곤 했다)", "+ 수업 예문: **Si + 반과거 ?** = 제안 (~할까?) → 다음 레슨"] },
+        { "warn": "한 번 일어나고 끝난 사건은 **복합과거** (passé composé). 둘의 구분은 「반과거 쓰임」 레슨에서." }
+      ]
+    },
+    {
+      "h": "만드는 법 — nous 현재형 − ons + 어미",
+      "skill": "imparfait",
+      "src": ["semaine 9-2 p.6–7", "semaine 9-3 p.6–7"],
+      "body": [
+        { "p": "On prend le verbe à la première personne du pluriel (**nous**) au présent, on enlève **« -ons »** et on ajoute les terminaisons **« -ais, -ais, -ait, -ions, -iez, -aient »**." },
+        { "p": "Ex. Nous parl**ons** → « parl- »" },
+        { "table": [["주어", "parler", "어미"], ["je", "parlais", "-ais"], ["tu", "parlais", "-ais"], ["il / elle", "parlait", "-ait"], ["nous", "parlions", "-ions"], ["vous", "parliez", "-iez"], ["ils / elles", "parlaient", "-aient"]], "head": true },
+        { "warn": "parlaient ✗ parlent — 3인칭 복수 어미는 **-aient** (parlient ✗)." },
+        { "memo": "🔗 현재분사(Leçon 10)와 출발점이 같다: nous parlons → parl**ant** / parl**ais**." }
+      ]
+    },
+    {
+      "h": "avoir · faire · prendre — 현재형이 불규칙이어도 규칙대로",
+      "skill": "imparfait",
+      "src": ["semaine 9-2 p.8", "semaine 9-3 p.8"],
+      "body": [
+        { "table": [["", "avoir (nous avons)", "faire (nous faisons)", "prendre (nous prenons)"], ["je", "j'avais", "faisais", "prenais"], ["tu", "avais", "faisais", "prenais"], ["il / elle", "avait", "faisait", "prenait"], ["nous", "avions", "faisions", "prenions"], ["vous", "aviez", "faisiez", "preniez"], ["ils / elles", "avaient", "faisaient", "prenaient"]], "head": true },
+        { "ex": [["Tu avais un chien ?", "너 강아지 있었어?"], ["Tu faisais du sport.", "너는 운동을 하곤 했다."], ["Elle prenait le bus tous les matins.", "그녀는 매일 아침 버스를 타곤 했다."]] },
+        { "warn": "prendre의 어간은 **pren-** (nous prenons) — prendait, prendions ✗. avoir는 **av-** (aur- ✗ 그건 미래)." }
+      ]
+    },
+    {
+      "h": "예외: être → ét-",
+      "skill": "imparfait",
+      "src": ["semaine 9-2 p.9", "semaine 9-3 p.9"],
+      "body": [
+        { "p": "**L'imparfait : exception — « être »**. nous sommes에는 -ons가 없어서 어간을 따로 외운다: **ét-** (어미는 같다)." },
+        { "table": [["je", "j'étais"], ["tu", "étais"], ["il / elle", "était"], ["nous", "étions"], ["vous", "étiez"], ["ils / elles", "étaient"]] },
+        { "ex": [["Il était très gentil.", "그는 아주 친절했다."], ["Nous étions à Paris.", "우리는 파리에 있었다."], ["Vous étiez fatigués.", "당신들은 피곤했다."]] },
+        { "warn": "모음으로 시작 → **J'étais** (Je étais ✗). sommait ✗." }
+      ]
+    },
+    {
+      "h": "발음 · 철자 주의 — 필기",
+      "skill": "pron",
+      "src": ["노션 10/29", "semaine 9-2 p.7–8"],
+      "body": [
+        { "list": [
+          "✍️ **parlaient** 발음 주의 — [빠흘레]. -ais · -ait · -aient 모두 [에], -ent는 묵음",
+          "nous parlions [누 빠흘리옹] ↔ nous parlons [누 빠흘롱] — ✍️ **-i-를 넣느냐 안 넣느냐**가 현재/과거를 가른다 (-ions, -iez)",
+          "je faisais [쥬 프제] — fai는 [프] (nous faisons [프종]과 같은 원리)",
+          "j'avais [자베] · j'étais [제떼] · ils étaient [일제떼] (연음)",
+          "✍️ On **mangeait** [망제] — g 뒤 e 유지 (nous mangeons)",
+          "ils **commençaient** — c 뒤 ç 유지 (nous commençons)"
+        ] },
+        { "ex": [["Il mangeait une pomme.", "그는 사과를 먹고 있었다."], ["Elles commençaient à travailler.", "그녀들은 일하기 시작하곤 했다."], ["Ils parlaient français.", "그들은 프랑스어를 하곤 했다."]] }
+      ]
+    }
+  ],
+  "cards": [
+    { "id": "u4-01-c-def", "t": "choice", "skill": "imparfait", "prompt": "반과거(l'imparfait)는 언제 쓸까?", "q": "L'imparfait est un temps du passé.", "a": "과거의 상황 묘사 · 과거의 습관", "wrong": ["앞으로의 계획", "한 번 일어나고 끝난 사건", "지금 진행 중인 일"], "say": "", "hint": "décrire une situation · ses habitudes passées", "explain": "반과거 = 과거의 배경·상태 묘사 + 습관. 끝난 사건은 복합과거.", "src": "semaine 9-2 p.6", "star": true },
+    { "id": "u4-01-c-base", "t": "choice", "skill": "imparfait", "prompt": "반과거 어간은 어디서 만들까?", "q": "parler → parl-", "a": "nous 현재형에서 -ons를 뗀다", "wrong": ["원형에서 -er를 뗀다", "je 현재형을 그대로 쓴다", "과거분사에서 만든다"], "say": "", "hint": "슬라이드: la première personne du pluriel au présent", "explain": "nous parlons − ons → parl-. 그래서 faire는 fais-, prendre는 pren-.", "src": "semaine 9-2 p.6", "star": true },
+    { "id": "u4-01-c-endings", "t": "choice", "skill": "imparfait", "prompt": "반과거 어미 (je · tu · il · nous · vous · ils)는?", "q": "parl + ___", "a": "-ais · -ais · -ait · -ions · -iez · -aient", "wrong": ["-ai · -as · -a · -ons · -ez · -ont", "-e · -es · -e · -ons · -ez · -ent", "-ais · -ait · -ait · -ons · -ez · -aient"], "say": "", "hint": "미래 어미와 헷갈리지 말기 — 반과거는 i가 많아요.", "explain": "-ais, -ais, -ait, -ions, -iez, -aient. 미래 어미는 -ai, -as, -a, -ons, -ez, -ont.", "src": "semaine 9-2 p.6" },
+    { "id": "u4-01-t-parlais", "t": "type", "skill": "imparfait", "prompt": "반과거로 바꾸세요", "q": "Je parle.", "a": "Je parlais.", "hint": "parl- + je의 어미", "explain": "nous parlons → parl- → je parlais.", "src": "semaine 9-2 p.7" },
+    { "id": "u4-01-t-parlions", "t": "type", "skill": "imparfait", "prompt": "반과거로 바꾸세요", "q": "Nous parlons.", "a": "Nous parlions.", "hint": "현재형에 i 하나가 들어가요.", "explain": "nous parlons(현재) → nous parlions(반과거). -i- 하나 차이!", "src": "semaine 9-2 p.7", "star": true },
+    { "id": "u4-01-c-parlaient", "t": "choice", "skill": "imparfait", "prompt": "빈칸에 알맞은 것은?", "q": "Ils ___ français.", "ko": "그들은 프랑스어를 하곤 했다.", "a": "parlaient", "wrong": ["parlait", "parlient", "parlais"], "hint": "ils의 반과거 어미 — 소리는 [에]지만 철자가 길어요.", "explain": "ils/elles → -aient. 발음은 [빠흘레].", "src": "semaine 9-2 p.7" },
+    { "id": "u4-01-c-avais", "t": "choice", "skill": "imparfait", "prompt": "빈칸에 알맞은 것은?", "q": "Tu ___ un chien ?", "ko": "너 강아지 있었어?", "a": "avais", "wrong": ["avait", "aviez", "auras"], "hint": "nous avons → 어간 + tu의 어미", "explain": "avoir: av- + -ais → tu avais.", "src": "semaine 9-2 p.8" },
+    { "id": "u4-01-c-avoir-stem", "t": "choice", "skill": "imparfait", "prompt": "avoir의 반과거 어간은?", "q": "avoir → ___ais", "a": "av-", "wrong": ["aur-", "a-", "ai-"], "say": "", "hint": "nous 현재형을 떠올려 -ons를 떼요.", "explain": "nous avons → av- → j'avais. aur-는 미래 어간.", "src": "semaine 9-2 p.8" },
+    { "id": "u4-01-t-faisais", "t": "type", "skill": "imparfait", "prompt": "반과거로 바꾸세요", "q": "Tu fais du sport.", "a": "Tu faisais du sport.", "hint": "nous형 현재에서 어간을 찾아요.", "explain": "nous faisons → fais- → tu faisais [뛰 프제].", "src": "semaine 9-2 p.8" },
+    { "id": "u4-01-c-faire-stem", "t": "choice", "skill": "imparfait", "prompt": "faire의 반과거 어간은?", "q": "faire → ___ais", "a": "fais-", "wrong": ["fai-", "fer-", "f-"], "say": "", "hint": "nous형 현재를 떠올려 -ons를 떼요.", "explain": "nous faisons → fais- → je faisais. fer-는 미래 어간.", "src": "semaine 9-2 p.8" },
+    { "id": "u4-01-c-prenait", "t": "choice", "skill": "imparfait", "prompt": "빈칸에 알맞은 것은?", "q": "Elle ___ le bus tous les matins.", "ko": "그녀는 매일 아침 버스를 타곤 했다.", "a": "prenait", "wrong": ["prendait", "prenais", "prenaient"], "hint": "nous형 현재에 d가 있나요? 주어는 elle.", "explain": "nous prenons → pren- → elle prenait.", "src": "semaine 9-2 p.8" },
+    { "id": "u4-01-err-prendions", "t": "error", "skill": "imparfait", "s": "Nous prendions le métro.", "wrong": "prendions", "right": "prenions", "ko": "우리는 지하철을 타곤 했다.", "hint": "원형이 아니라 nous 현재형에서 출발!", "explain": "nous prenons → pren- → nous prenions.", "src": "semaine 9-2 p.8", "star": true },
+    { "id": "u4-01-c-etre-exc", "t": "choice", "skill": "imparfait", "prompt": "반과거 어간 규칙의 예외 동사는?", "q": "L'imparfait : exception", "a": "être", "wrong": ["avoir", "faire", "prendre"], "say": "", "hint": "nous형 현재에 -ons가 없는 동사는?", "explain": "nous sommes → 어간을 못 만듦 → ét-.", "src": "semaine 9-2 p.9", "star": true },
+    { "id": "u4-01-c-etait", "t": "choice", "skill": "imparfait", "prompt": "빈칸에 알맞은 것은?", "q": "Il ___ très gentil.", "ko": "그는 아주 친절했다.", "a": "était", "wrong": ["étais", "sommait", "a"], "hint": "예외 어간 + il의 어미", "explain": "être → ét- + -ait → il était.", "src": "semaine 9-2 p.9" },
+    { "id": "u4-01-t-etiez", "t": "type", "skill": "imparfait", "prompt": "반과거로 바꾸세요", "q": "Vous êtes fatigués.", "a": "Vous étiez fatigués.", "hint": "예외 어간 + vous의 어미", "explain": "être → ét- + -iez → vous étiez.", "src": "semaine 9-2 p.9" },
+    { "id": "u4-01-c-etions", "t": "choice", "skill": "imparfait", "prompt": "빈칸에 알맞은 것은?", "q": "Nous ___ à Paris.", "ko": "우리는 파리에 있었다.", "a": "étions", "wrong": ["étaient", "étiez", "sommions"], "hint": "예외 어간 + nous의 어미", "explain": "nous étions. sommions ✗.", "src": "semaine 9-2 p.9" },
+    { "id": "u4-01-err-je-etais", "t": "error", "skill": "elision", "s": "Je étais petit.", "wrong": "Je étais", "right": "J'étais", "ko": "나는 어렸다.", "hint": "모음 앞의 je는?", "explain": "étais가 모음으로 시작 → j'étais.", "src": "semaine 9-2 p.9", "star": true },
+    { "id": "u4-01-c-sound", "t": "choice", "skill": "pron", "prompt": "parlais · parlait · parlaient의 끝소리는?", "q": "je parlais / il parlait / ils parlaient", "a": "모두 [에]로 같다", "wrong": ["parlaient만 [엉]으로 난다", "parlait만 t 소리가 난다", "셋 다 다르다"], "say": "", "hint": "✍️ 필기: parlaient 발음 주의!", "explain": "셋 다 [빠흘레]. 받아쓰기에선 주어를 보고 철자를 고른다.", "src": "노션 10/29", "star": true },
+    { "id": "u4-01-l-parlaient", "t": "listen", "skill": "pron", "say": "Ils parlaient.", "a": "Ils parlaient.", "wrong": ["Ils parlent.", "Ils parleront."], "ko": "그들은 말하고 있었다.", "pron": "[일 빠흘레]", "hint": "끝소리가 [에]인지 [옹]인지, 아예 없는지 들어봐요.", "explain": "parlaient [빠흘레] · parlent [빠흘] · parleront [빠흘르홍].", "src": "노션 10/29" },
+    { "id": "u4-01-l-parlions", "t": "listen", "skill": "pron", "say": "nous parlions", "a": "nous parlions", "wrong": ["nous parlons", "vous parliez"], "ko": "우리는 말하고 있었다", "pron": "[누 빠흘리옹]", "hint": "[이] 소리가 들어갔나요?", "explain": "parlions [빠흘리옹] (반과거) ↔ parlons [빠흘롱] (현재).", "src": "노션 10/29" },
+    { "id": "u4-01-c-ions-iez", "t": "choice", "skill": "imparfait", "prompt": "nous · vous의 반과거를 현재형과 구별해 주는 것은?", "q": "nous parlons ↔ nous parlions", "a": "어미 앞의 i (-ions, -iez)", "wrong": ["끝의 -s", "악센트 é", "t의 발음"], "say": "", "hint": "✍️ 필기: 이걸 넣냐 안 넣느냐가 중요!", "explain": "parlons/parlions, parlez/parliez — i 하나로 현재·과거가 갈린다.", "src": "노션 10/29" },
+    { "id": "u4-01-c-mangeait", "t": "choice", "skill": "stem-change", "prompt": "빈칸에 알맞은 것은?", "q": "Il ___ une pomme.", "ko": "그는 사과를 먹고 있었다.", "a": "mangeait", "wrong": ["mangait", "mangeais", "mangeaient"], "hint": "g 뒤에서 [ʒ] 소리를 지키려면? nous형 철자를 봐요.", "explain": "nous mangeons → mange- → il mangeait [망제].", "src": "semaine 9-2 p.13" },
+    { "id": "u4-01-c-commencaient", "t": "choice", "skill": "stem-change", "prompt": "빈칸에 알맞은 것은?", "q": "Elles ___ à travailler.", "ko": "그녀들은 일하기 시작하곤 했다.", "a": "commençaient", "wrong": ["commencaient", "commençait", "commenceaient"], "hint": "a 앞의 c가 [s]로 나려면? 주어도 확인.", "explain": "nous commençons → commenç- → elles commençaient.", "src": "semaine 9-2 p.14" }
+  ]
+}

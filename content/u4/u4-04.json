@@ -1,0 +1,82 @@
+{
+  "id": "u4-04",
+  "unit": "u4",
+  "title": "한정사 tout (tout · toute · tous · toutes)",
+  "emoji": "🧺",
+  "date": "2026-10-29",
+  "sources": ["semaine 9-3", "노션 10/29"],
+  "tips": [
+    { "h": "tout의 네 가지 형태", "rows": [["남성 단수 tout", "여성 단수 toute"], ["남성 복수 tous", "여성 복수 toutes"]] },
+    { "h": "자리: tout + 정관사 + 명사", "b": "관사는 지우지 않고 **그 앞에**: les jours → **tous les jours**\n성·수는 뒤 명사를 보고 결정" },
+    { "h": "복수 = ~마다 · 단수 = ~ 내내", "rows": [["tous les jours (매일)", "toute la journée (하루 종일)"], ["toutes les semaines (매주)", "toute la semaine (한 주 내내)"], ["tous les ans (매년)", "toute l'année (일 년 내내)"]] },
+    { "h": "소리", "b": "tout = tous **[뚜]** · toute = toutes **[뚜뜨]**\n[뚜뜨]가 들리면 여성!" }
+  ],
+  "note": [
+    {
+      "h": "형태 — 뒤 명사의 성·수에 맞춘다",
+      "skill": "tout",
+      "src": ["semaine 9-3 p.16–17", "노션 10/29"],
+      "body": [
+        { "p": "**Le déterminant « tout »** — 한정사 tout." },
+        { "table": [["", "masculin", "féminin"], ["singulier", "tout", "toute"], ["pluriel", "tous", "toutes"]], "head": true },
+        { "p": "✍️ 필기: **다 정관사가 나오는 게 중요** — les 같은 정관사가 '그것 전부'를 가리킨다. tout는 **관사 앞**에 붙인다." },
+        { "warn": "les tous jours ✗ · tous jours ✗ · tout les matins ✗ → **tous les jours**, **tous les matins**. 여성 복수는 e까지: tous les semaines ✗ → **toutes les semaines**." }
+      ]
+    },
+    {
+      "h": "예시 — 슬라이드 8개",
+      "skill": "tout",
+      "src": ["semaine 9-3 p.16–17", "노션 10/29"],
+      "body": [
+        { "table": [["명사구", "tout + 명사구", "뜻 (필기)"], ["les jours", "tous les jours", "매일 (every day)"], ["les semaines", "toutes les semaines", "매주"], ["les ans", "tous les ans", "매년"], ["le monde", "tout le monde", "모두, 모든 사람"], ["la ville", "toute la ville", "도시 전체"], ["la journée", "toute la journée", "하루 종일 (all day long)"], ["la semaine", "toute la semaine", "그 주 내내"], ["l'année", "toute l'année", "그 한 해 내내"]], "head": true },
+        { "ex": [["Je fais du sport tous les jours.", "나는 매일 운동한다."], ["Tout le monde est là.", "모두 왔다."], ["Il a plu toute la journée.", "하루 종일 비가 왔다."], ["Il fait beau toute l'année.", "일 년 내내 날씨가 좋다."]] },
+        { "memo": "l'année — 관사가 l'로 잘려도 année는 여성 → toute l'année." }
+      ]
+    },
+    {
+      "h": "복수(~마다) vs 단수(~ 내내) · 요일 + 정관사",
+      "skill": "tout",
+      "src": ["semaine 9-3 p.16–17", "노션 10/29", "semaine 9-3 p.11"],
+      "body": [
+        { "p": "✍️ 필기: 매일 ~한다, 언제면 ~한다 — **반복**은 복수(tous / toutes les …), **기간 전체**는 단수(tout / toute le·la …)." },
+        { "list": ["tous les jours ↔ toute la journée", "toutes les semaines ↔ toute la semaine", "tous les ans ↔ toute l'année", "✍️ **Tous les dimanches = Le dimanche** (일요일마다) · **Tous les lundis = le lundi**"] },
+        { "ex": [["Je faisais une promenade tous les matins.", "나는 매일 아침 산책을 하곤 했다. (반과거 습관 + tous les)"], ["Tous les dimanches, nous passions l'après-midi chez ma grand-mère.", "일요일마다 우리는 할머니 댁에서 오후를 보냈다."], ["Le lundi, je vais à la piscine.", "월요일마다 나는 수영장에 간다."]] }
+      ]
+    },
+    {
+      "h": "발음",
+      "skill": "pron",
+      "src": ["semaine 9-3 p.16–17"],
+      "body": [
+        { "list": ["tout [뚜] = tous [뚜] — 자음 앞에서 t·s 모두 묵음: tous les jours [뚜 레 쥬흐] · tout le monde [뚜 르 몽드]", "toute = toutes [뚜뜨] — 여성형은 t 소리가 난다: toute la ville [뚜뜨 라 빌]", "toute la semaine [뚜뜨 라 스멘] ↔ toutes les semaines [뚜뜨 레 스멘] — la / les로 구별", "tous les ans [뚜 레 장] — les ans 연음 z"] }
+      ]
+    }
+  ],
+  "cards": [
+    { "id": "u4-04-c-jours", "t": "choice", "skill": "tout", "prompt": "빈칸에 알맞은 것은?", "q": "Je fais du sport ___ les jours.", "ko": "나는 매일 운동한다.", "a": "tous", "wrong": ["tout", "toutes", "toute"], "hint": "les jours — 남성일까 여성일까, 단수일까 복수일까?", "explain": "les jours = 남성 복수 → tous les jours.", "src": "semaine 9-3 p.16", "star": true },
+    { "id": "u4-04-c-semaines", "t": "choice", "skill": "tout", "prompt": "빈칸에 알맞은 것은?", "q": "Elle téléphone à sa mère ___ les semaines.", "ko": "그녀는 매주 어머니에게 전화한다.", "a": "toutes", "wrong": ["tous", "toute", "tout"], "hint": "semaine의 성은? 복수예요.", "explain": "les semaines = 여성 복수 → toutes les semaines.", "src": "semaine 9-3 p.16", "star": true },
+    { "id": "u4-04-c-monde", "t": "choice", "skill": "tout", "prompt": "빈칸에 알맞은 것은?", "q": "___ le monde est là.", "ko": "모두 왔다.", "a": "Tout", "wrong": ["Tous", "Toute", "Toutes"], "hint": "le monde — 남성 단수", "explain": "le monde → tout le monde (모든 사람). 동사는 3인칭 단수.", "src": "semaine 9-3 p.16" },
+    { "id": "u4-04-c-ville", "t": "choice", "skill": "tout", "prompt": "빈칸에 알맞은 것은?", "q": "___ la ville dort.", "ko": "도시 전체가 잠들어 있다.", "a": "Toute", "wrong": ["Tout", "Tous", "Toutes"], "hint": "la ville — 여성 단수", "explain": "la ville → toute la ville (도시 전체).", "src": "semaine 9-3 p.16" },
+    { "id": "u4-04-c-ans", "t": "choice", "skill": "tout", "prompt": "빈칸에 알맞은 것은?", "q": "On va à Paris ___ les ans.", "ko": "우리는 매년 파리에 간다.", "a": "tous", "wrong": ["tout", "toutes", "toute"], "hint": "les ans — 남성 복수", "explain": "les ans → tous les ans (매년).", "src": "semaine 9-3 p.17" },
+    { "id": "u4-04-c-journee", "t": "choice", "skill": "tout", "prompt": "빈칸에 알맞은 것은?", "q": "Il a plu ___ la journée.", "ko": "하루 종일 비가 왔다.", "a": "toute", "wrong": ["tout", "tous", "toutes"], "hint": "la journée — 여성 단수", "explain": "la journée → toute la journée (하루 종일).", "src": "semaine 9-3 p.17" },
+    { "id": "u4-04-c-semaine", "t": "choice", "skill": "tout", "prompt": "빈칸에 알맞은 것은?", "q": "J'ai travaillé ___ la semaine.", "ko": "나는 한 주 내내 일했다.", "a": "toute", "wrong": ["tout", "toutes", "tous"], "hint": "la semaine — 단수 = 기간 전체", "explain": "la semaine → toute la semaine (한 주 내내).", "src": "semaine 9-3 p.17" },
+    { "id": "u4-04-c-annee", "t": "choice", "skill": "tout", "prompt": "빈칸에 알맞은 것은?", "q": "Il fait beau ___ l'année.", "ko": "일 년 내내 날씨가 좋다.", "a": "toute", "wrong": ["tout", "tous", "toutes"], "hint": "관사가 l'로 잘려도 année의 성은 그대로!", "explain": "l'année(여성 단수) → toute l'année.", "src": "semaine 9-3 p.17", "star": true },
+    { "id": "u4-04-t-jours", "t": "type", "skill": "tout", "prompt": "tout를 알맞게 붙이세요", "q": "les jours", "a": "tous les jours", "hint": "남성 복수형 + 관사 그대로", "explain": "les jours → tous les jours (매일).", "src": "semaine 9-3 p.16" },
+    { "id": "u4-04-t-semaines", "t": "type", "skill": "tout", "prompt": "tout를 알맞게 붙이세요", "q": "les semaines", "a": "toutes les semaines", "hint": "여성 복수형 + 관사 그대로", "explain": "les semaines → toutes les semaines (매주).", "src": "semaine 9-3 p.16" },
+    { "id": "u4-04-t-journee", "t": "type", "skill": "tout", "prompt": "tout를 알맞게 붙이세요", "q": "la journée", "a": "toute la journée", "hint": "여성 단수형 + 관사 그대로", "explain": "la journée → toute la journée (하루 종일).", "src": "semaine 9-3 p.17" },
+    { "id": "u4-04-t-annee", "t": "type", "skill": "tout", "prompt": "tout를 알맞게 붙이세요", "q": "l'année", "a": "toute l'année", "hint": "année의 성은? 관사 l'은 그대로", "explain": "l'année → toute l'année (일 년 내내).", "src": "semaine 9-3 p.17" },
+    { "id": "u4-04-c-all-day", "t": "choice", "skill": "tout", "prompt": "'하루 종일'은?", "q": "Il a dormi ___.", "a": "toute la journée", "wrong": ["tous les jours", "tous la journée", "toute la jour"], "hint": "기간 전체 = 단수", "explain": "toute la journée = 하루 종일 / tous les jours = 매일.", "src": "semaine 9-3 p.17", "star": true },
+    { "id": "u4-04-c-every-week", "t": "choice", "skill": "tout", "prompt": "'매주'는?", "q": "Nous dînions ensemble ___.", "a": "toutes les semaines", "wrong": ["toute la semaine", "tous les semaines", "toutes semaines"], "hint": "반복 = 복수, 관사도 잊지 말기", "explain": "toutes les semaines = 매주 / toute la semaine = 한 주 내내.", "src": "semaine 9-3 p.16" },
+    { "id": "u4-04-c-annee-sens", "t": "choice", "skill": "tout", "prompt": "toute l'année의 뜻은?", "q": "toute l'année", "a": "일 년 내내", "wrong": ["매년", "올해", "작년"], "say": "toute l'année", "hint": "단수 = 그 기간 전체", "explain": "toute l'année = 일 년 내내 / tous les ans = 매년.", "src": "semaine 9-3 p.17" },
+    { "id": "u4-04-err-tout-les", "t": "error", "skill": "tout", "s": "Je faisais une promenade tout les matins.", "wrong": "tout les", "right": "tous les", "ko": "나는 매일 아침 산책을 하곤 했다.", "hint": "les matins — 남성 복수", "explain": "남성 복수 → tous les matins. s를 빠뜨리기 쉽다!", "src": "semaine 9-3 p.11", "star": true },
+    { "id": "u4-04-err-tous-semaines", "t": "error", "skill": "tout", "s": "Nous dînions ensemble tous les semaines.", "wrong": "tous les semaines", "right": "toutes les semaines", "ko": "우리는 매주 함께 저녁을 먹곤 했다.", "hint": "semaine의 성은?", "explain": "les semaines = 여성 복수 → toutes.", "src": "semaine 9-3 p.16" },
+    { "id": "u4-04-err-les-tous", "t": "error", "skill": "tout", "s": "Il lit le journal les tous jours.", "wrong": "les tous jours", "right": "tous les jours", "ko": "그는 매일 신문을 읽는다.", "hint": "tout와 관사, 누가 앞에 올까?", "explain": "tout는 관사 앞: tous les jours.", "src": "semaine 9-3 p.16" },
+    { "id": "u4-04-c-article", "t": "choice", "skill": "tout", "prompt": "한정사 tout 뒤에 오는 것은?", "q": "tout + ___ + 명사", "a": "정관사 (le · la · les · l')", "wrong": ["부정관사 (un · une)", "전치사 de", "아무것도 안 온다"], "say": "", "hint": "✍️ 필기: '다 가리킨다'는 의미 — 이게 나오는 게 중요!", "explain": "tous les jours, toute la ville — 정관사가 꼭 따라온다.", "src": "노션 10/29" },
+    { "id": "u4-04-c-agree-with", "t": "choice", "skill": "tout", "prompt": "tout의 형태는 무엇에 맞출까?", "q": "tout / toute / tous / toutes", "a": "뒤에 오는 명사의 성·수", "wrong": ["주어의 성·수", "동사의 시제", "말하는 사람의 성"], "say": "", "hint": "les semaines, la ville … 무엇을 보고 골랐나요?", "explain": "명사의 성·수 → les semaines(여·복) → toutes.", "src": "semaine 9-3 p.16" },
+    { "id": "u4-04-l-semaine", "t": "listen", "skill": "pron", "say": "toute la semaine", "a": "toute la semaine", "wrong": ["toutes les semaines", "tout le monde"], "ko": "한 주 내내", "pron": "[뚜뜨 라 스멘]", "hint": "관사 [라]와 [레]를 구별해 봐요.", "explain": "toute la semaine [뚜뜨 라] ↔ toutes les semaines [뚜뜨 레].", "src": "semaine 9-3 p.17" },
+    { "id": "u4-04-l-ans", "t": "listen", "skill": "pron", "say": "tous les ans", "a": "tous les ans", "wrong": ["toute l'année", "tous les jours"], "ko": "매년", "pron": "[뚜 레 장]", "hint": "les 뒤에 [z] 연음이 들리나요?", "explain": "tous les ans [뚜 레 장] — s가 z로 연음.", "src": "semaine 9-3 p.17" },
+    { "id": "u4-04-c-pron-tous", "t": "choice", "skill": "pron", "prompt": "tous les jours의 tous 발음은?", "q": "tous les jours", "a": "[뚜] — s 묵음", "wrong": ["[뚜스]", "[뚜뜨]", "[또]"], "say": "tous les jours", "hint": "한정사 tout와 소리가 같아요.", "explain": "tout = tous [뚜] / toute = toutes [뚜뜨].", "src": "semaine 9-3 p.16" },
+    { "id": "u4-04-c-lundi", "t": "choice", "skill": "time", "prompt": "Le lundi의 뜻은?", "q": "Le lundi, je vais à la piscine.", "a": "월요일마다", "wrong": ["지난 월요일에", "이번 월요일에만", "월요일 하루 종일"], "say": "Le lundi, je vais à la piscine.", "hint": "✍️ 필기: 요일 앞 정관사 = 무엇과 같다고 했죠?", "explain": "le lundi = tous les lundis (월요일마다).", "src": "노션 10/29" },
+    { "id": "u4-04-b-dimanches", "t": "build", "skill": "tout", "prompt": "문장을 만드세요", "ko": "일요일마다 우리는 할머니 댁에서 오후를 보냈다.", "a": "Tous les dimanches, nous passions l'après-midi chez ma grand-mère.", "extra": ["toutes", "passons"], "hint": "반복 → 복수 + 반과거 습관", "explain": "Tous les dimanches = Le dimanche. 습관 → 반과거 passions.", "src": "노션 10/29" }
+  ]
+}

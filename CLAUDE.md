@@ -45,4 +45,5 @@
 - 직접 쓰기 채점: `q`와 정답이 같은 주어로 시작하면 주어 뺀 답도 인정(`qType`의 `withoutSubject`). 오답이면 "내 답도 맞아요"로 정답 처리 가능(`overrideAnswer` — 채점 전 상태를 `snapshotAnswer`로 기억했다가 되돌림).
 - 📝 실전 연습 (`mode: 'exam'`, `buildExam`/`EX_GEN`): 유닛(Leçon) 여러 개를 골라 20/30/40문제. 파트 순서 듣기 30% → 쓰기 30% → 객관식 40% (소리 꺼지면 듣기 없이 쓰기 43·객관식 57). 레슨을 돌아가며 1장씩 뽑아 범위 전체에 고르게, 같은 레슨에서 이미 나온 노트 주제(`ns`)는 피함. 힌트·재도전 없음. 채점은 「끝나고 한꺼번에」(결과 화면에서 commit, `examOverride`로 내 답도 맞아요) / 「문제마다 바로」 선택(`EX`, localStorage `allez.exam`). 쓰기 빈칸은 뜻(ko)이나 (원형) 단서가 있는 카드만. 기록 `S.exams`.
 - 🩹 약점 노트 (`S.wk`): 실전 연습 오답을 `classifyMiss`로 분류(악센트·엘리지옹·성수일치·어순·듣기·동사 형태·어휘·문법). 그 카드를 힌트 없이 맞히면 `grade`가 `{done:true}` 표시로 지움(동기화용 tombstone). 「약점만 다시 풀기」는 틀렸던 파트 형식 그대로 다시 출제.
+- 기록 지킴이: 연동 안 된 기기 홈의 `restoreHtml()` 안내 카드(닫으면 `S.restoreOff`) + 부팅 때 `askPersist()`(navigator.storage.persist).
 - 기기 연동: `app/api/sync.js` (Vercel 함수) + Vercel Blob 비공개 저장소 `allez-sync`(icn1). 동기화 코드를 `SYNC_SALT`(환경변수)와 해시한 경로에 기록 JSON 저장. 합치기는 `app.js`의 "기기 연동" 섹션(기기별 장부 ledger). `app/.env.local`에는 비밀 토큰이 있으니 출력·공유 금지(.vercelignore로 배포 제외됨). 로컬 테스트: `cd app && npx vercel dev --listen 5179`.

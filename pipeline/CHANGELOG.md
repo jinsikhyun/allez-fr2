@@ -238,3 +238,22 @@ PARTIE 1(대화문 복습 + pour aller plus loin)은 간지만 있고 내용 슬
 - 동사장: s'inquiéter 추가 (91 → 92)
 - 커버리지 ✅ (content/coverage/u3-d.json) PDF 20개 463쪽 빠진 0 · 참조 오류 0 · 빌드 경고 0 오류 0
 - 배포 완료, version 20261016072107
+
+## 2026-11-01 (자동 실행) — semaine 9-2 · 9-3 · 노션 10/28 · 10/29 (중간고사 후 첫 반영)
+- **새 유닛** `u4` = Leçon 12 · 반과거 · 한정사 tout / 스킬 `imparfait` · `tout` 추가
+- **새 레슨** `u4-01` 반과거 만들기 (nous −ons + 어미, avoir·faire·prendre, 예외 être, 발음 [에]·-i-, mangeait/commençaient): 카드 23장, 노트 5섹션
+- **새 레슨** `u4-02` 반과거 쓰임 (묘사·이어지던 일+복합과거·습관·Si + 반과거 제안) + 연습문제 7문항 + 필기(passer avoir/être, le dimanche = tous les dimanches, devoirs): 카드 30장, 노트 5섹션
+- **새 레슨** `u4-03` 사과 표현 s'excuser + 복합과거 복습 릴스 필기 표현(suivre, perdu, vers/jusqu'à, à votre avis, mis, aimée 일치 …): 카드 36장, 노트 3섹션
+- **새 레슨** `u4-04` 한정사 tout/toute/tous/toutes (tous les jours ↔ toute la journée …): 카드 25장, 노트 4섹션
+- 정정(u4-03 fixes): 필기 "espèrer" → espérer · "Je n'ai pas reve." → Je n'ai pas rêvé.
+- 강의자료의 기존 PDF는 `중간 /` 폴더로 옮겨졌을 뿐(크기 동일) 새 자료 아님. 같은 폴더의 문제모음 docx·중간고사 zip 2개는 수업 슬라이드가 아니라 처리 안 함. 노션 10/27은 "중간고사 review" 한 줄뿐
+- 커버리지 ✅ (content/coverage/u4-a.json) PDF 22개 498쪽 빠진 0 · 참조 오류 0 · 빌드 경고 0 오류 0 (카드 1889, 레슨 46)
+- 배포 완료, version 20261101150636 (https://allez-fr2.vercel.app 200 확인)
+
+## 2026-11-04 (채팅 요청: "어제 수업 update") — semaine 10-1 · 노션 11/3
+- **새 레슨** `u4-05` 복습 — ⭐ 사과 상황극(지하철에서 발 밟기: 사과 + 반응, 필기 "시험각") · souci · n'est/ne 약하게 · il/ils 반과거 소리 구별(연음 [z]) · nous jouions vs nous avons joué · tout 더 나아가기(tous les jours / toute la journée / toutes les journées, p.17 「도깨비」 대사) · 11/5 과제 메모: 카드 29장, 노트 6섹션
+- 10-1의 반과거·tout 복습 슬라이드는 9-2·9-3과 같은 내용이라 기존 u4-01·u4-02·u4-04 카드에 연결
+- 동사장: s'excuser · jouer · demander · exister · se reposer 추가 (92 → 97). pleuvoir·falloir는 il 형태만 있는 비인칭 동사라 동사장 표(6인칭)·동사 테스트와 맞지 않아 넣지 않음
+- 🛟 기록 지킴이: 연동 안 된 기기 홈에 안내 카드(새 기기면 "예전 기록 불러오기 → 코드 입력", 오래 쓴 기기면 "연동 켜 두기"), 닫으면 그 기기에선 다시 안 뜸. 부팅 때 navigator.storage.persist() 요청 (10/18 컴퓨터 Chrome 기록이 사라진 일 대응)
+- 커버리지 ✅ (content/coverage/u4-b.json) PDF 23개 517쪽 빠진 0 · 참조 오류 0 · 빌드 경고 0 오류 0 (카드 1918, 레슨 47)
+- 배포 완료, version 20261104023320

@@ -649,3 +649,10 @@ details.covers summary { font-weight: 800; cursor: pointer; }
 .rv-act .fb-override { margin-top: 4px; }
 .bar-row.wide { grid-template-columns: minmax(0, 1fr) 72px 40px; }
 .bar-row.wide span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* 기록 지킴이 — 연동 안 된 기기 안내 */
+.restore-card { position: relative; border-radius: var(--radius); border: 2px solid var(--blue); background: var(--blue-bg); padding: 14px 14px 12px; }
+.restore-card b { display: block; font-size: 15.5px; padding-right: 28px; }
+.restore-card p { font-size: 13.5px; color: var(--muted); margin: 6px 0 10px; line-height: 1.5; word-break: keep-all; }
+.restore-btns { display: flex; gap: 8px; flex-wrap: wrap; }
+.restore-x { position: absolute; top: 8px; right: 8px; width: 30px; height: 30px; border-radius: 50%; color: var(--muted); font-size: 15px; }

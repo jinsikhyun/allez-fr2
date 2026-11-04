@@ -2447,6 +2447,7 @@
             <button class="btn small ghost" id="go-verbs">📒 동사장 · Mes verbes</button>
           </div>
         </div>
+        ${restoreHtml()}
         ${recentHtml}
         ${paths}
         <div class="muted" style="text-align:center;font-size:12.5px;margin-top:8px">업데이트 ${esc((C.built || '').slice(0, 10))} · 카드 ${allCards.length}장</div>
@@ -2458,6 +2459,7 @@
     $('#go-exam').onclick = openExamSetup;
     $('#go-weaknote').onclick = () => openView('weaknote', renderWeakNote);
     $('#go-verbs').onclick = () => { window.scrollTo(0, 0); openView('verbs', renderVerbs); };
+    bindRestore();
     $$('.node, .recent-row').forEach((b) => b.onclick = () => openLessonSheet(b.dataset.l));
     $$('.unit-note').forEach((b) => b.onclick = () => openView('notes', () => renderUnitNotes(b.dataset.u)));
     $$('.unit-toggle').forEach((b) => b.onclick = () => {
@@ -3097,6 +3099,36 @@
       renderProfile();
     };
   }
+  // 기록 지킴이: 연동 안 된 기기의 홈에 안내 카드.
+  // 브라우저 저장공간이 비면(사이트 데이터 삭제·다른 프로필·다른 주소) 기록이 통째로 사라져 보이므로,
+  // 새로 시작한 기기면 "예전 기록 불러오기", 오래 쓴 기기면 "연동 켜 두기"를 권한다. 닫으면 그 기기에선 다시 안 띄움
+  function restoreHtml() {
+    if ((S.sync && S.sync.code) || S.restoreOff) return '';
+    const isNewish = !S.created || S.created >= addDays(today(), -7);
+    const [title, body] = isNewish
+      ? ['☁️ 예전에 쓰던 기록이 있나요?', '다른 기기(폰·다른 브라우저)에서 쓰던 기록은 <b>동기화 코드</b>로 불러올 수 있어요. 그 기기의 프로필 → 기기 연동에 코드가 있어요.']
+      : ['☁️ 기기 연동을 켜 두세요', '이 브라우저의 사이트 데이터가 지워지면 기록도 사라져요. 연동해 두면 코드만 다시 넣어 되살릴 수 있어요.'];
+    return `<div class="restore-card"><button class="restore-x" id="rs-x" aria-label="닫기">✕</button>
+      <b>${title}</b><p>${body}</p>
+      <div class="restore-btns"><button class="btn small" id="rs-enter">🔑 코드 입력</button>${isNewish ? '' : '<button class="btn small ghost" id="rs-new">새 코드 만들기</button>'}</div></div>`;
+  }
+  function bindRestore() {
+    if (!$('#rs-x')) return;
+    $('#rs-x').onclick = () => { S.restoreOff = true; save(); renderHome(); };
+    $('#rs-enter').onclick = () => {
+      openView('profile', renderProfile);
+      const go = $('#sy-enter');
+      if (go) { go.click(); $('#sync-box').scrollIntoView({ block: 'center' }); setTimeout(() => $('#sy-in') && $('#sy-in').focus(), 300); }
+    };
+    if ($('#rs-new')) $('#rs-new').onclick = async () => { await connectSync(makeSyncCode(), { created: true }); renderHome(); };
+  }
+  // 브라우저가 저장공간을 정리할 때 Allez 기록은 지우지 않도록 요청 (Chrome은 자주 여는 사이트면 허락)
+  function askPersist() {
+    try {
+      if (navigator.storage && navigator.storage.persist) navigator.storage.persisted().then((p) => p || navigator.storage.persist()).catch(() => {});
+    } catch (e) { /* 지원 안 함 */ }
+  }
+
   // 연결 링크(#sync=코드)로 열었을 때
   function handleSyncLink() {
     const m = location.hash.match(/^#sync=([a-z]+-[a-z]+-[a-z]+-\d{4})$/);
@@ -3133,6 +3165,7 @@
     save();
     renderHome();
     handleSyncLink();
+    askPersist();
     if (S.sync && S.sync.code) syncNow().then((ok) => { if (ok && view === 'home') renderHome(); });
     document.addEventListener('visibilitychange', () => {
       if (document.visibilityState !== 'visible' || !S.sync || view === 'player') return;

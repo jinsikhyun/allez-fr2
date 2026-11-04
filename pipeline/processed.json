@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-16T07:21:43Z",
+  "last_run": "2026-11-04T02:34:53Z",
   "notion_parent": "722e4debecb882bda65301cb03f6526f",
   "files": {
     "FRAN141(03).hwp": {
@@ -96,6 +96,21 @@
       "size": 370961,
       "mtime": 1792066135,
       "via": "채팅 요청으로 반영(2026-10-16): u3-08 생성"
+    },
+    "[Francais II]semaine 9-2.pdf": {
+      "size": 323485,
+      "mtime": 1793172780,
+      "via": "2026-11-01 자동 실행: u4-01·u4-02·u4-03 생성 (새 유닛 u4 = Leçon 12)"
+    },
+    "[Francais II]semaine 9-3.pdf": {
+      "size": 319396,
+      "mtime": 1793242879,
+      "via": "2026-11-01 자동 실행: u4-04 생성 + 9-2와 같은 슬라이드는 u4-01~03에 연결"
+    },
+    "[Francais II]semaine 10-1.pdf": {
+      "size": 656210,
+      "mtime": 1793676529,
+      "via": "채팅 요청으로 반영(2026-11-04): u4-05 생성"
     }
   },
   "notion_processed": {
@@ -119,12 +134,23 @@
     "3f6e4debecb8814d8102fc96e38ce764": "midterm 「Leçon 9 정리노트」 (Claude 정리 페이지지만 Quiz 2 (9/17) 문항은 수업 자료 → u1-17. 나머지는 기존 u1 레슨과 중복이라 제외)",
     "3ece4debecb881d9a04eff15e52837bf": "10/13 (학생 필기 글: 미래 복습 예문·듣기 주의·serons/saurons·-r-/-rr-·devenir·비교급 예문·plus 발음표 → u3-03·u3-04. 이미지 미반영. 하위 「Semaine 7-1 정리」는 Claude 페이지라 제외)",
     "3ece4debecb88142a1c0fa9e1edea584": "10/14 (학생 필기 글: 시험 안내(10년 뒤 미래·듣기 4–5문항)·Ce/Ça/Cela·aussi/autant·un peu/peu·Ex.2 답 moins·meilleur/mieux·최상급 일치·Russie 어순 → u3-05·u3-06·u3-07. 하위 「미래형 10년뒤 나」 작문 해설 → u3-07. 하위 「Semaine 7-2 정리」는 Claude 페이지라 제외. 이미지 미반영)",
-    "3ece4debecb881d18ee5d0d8281e4581": "10/15 (학생 필기 글: 최상급 예문 메모·inquiète/inquiétons 발음·pollués·시간 표지 → u3-08. 하위 「Semaine 7-3 정리」는 Claude 페이지라 제외. 하위 「시험 대비 — 10년 후 나의 하루」의 교수님 피드백(chez moi·ma femme et moi boirons·en regardant)만 u3-08에 반영. 이미지는 열 수 없음)"
+    "3ece4debecb881d18ee5d0d8281e4581": "10/15 (학생 필기 글: 최상급 예문 메모·inquiète/inquiétons 발음·pollués·시간 표지 → u3-08. 하위 「Semaine 7-3 정리」는 Claude 페이지라 제외. 하위 「시험 대비 — 10년 후 나의 하루」의 교수님 피드백(chez moi·ma femme et moi boirons·en regardant)만 u3-08에 반영. 이미지는 열 수 없음)",
+    "3ece4debecb881019191e01ac36b8c43": "10/27 (본문 \"중간고사 review\" 한 줄 — 반영할 내용 없음)",
+    "3ece4debecb88131b79bcc35364a1314": "10/28 (학생 필기: suivre·perdre·à/vers/jusqu’à·à votre avis·espérer·rêvé·près d’ici·environ/seulement·mis·un peu dormi·d’alcool·du soju·aimée → u4-03. 하위 「Semaine 9-2 정리」는 Claude 페이지라 참고만)",
+    "3ece4debecb881db9129c57282318ada": "10/29 (학생 필기: 사과 표현·parlaient 발음·반과거 예문·pleuvoir·연습 1–7(passer avoir/être·devoirs·-i-)·tout 용법·Tous les lundis = le lundi → u4-01~04. 이미지 미반영. 하위 「Semaine 9-3 정리」는 Claude 페이지라 참고만)",
+    "408e4debecb88195a603d0dab749ae46": "11/3 (학생 필기 글: souci·n'est/ne 발음·시험각 사과하고 반응하기·Il/Ils 발음·반과거 예문·목요일 과제(쓰기 5점·녹음 5점) → u4-05. 하위 「Semaine 10-1 정리」는 Claude 페이지라 제외. 이미지는 열 수 없음)"
   },
   "notion_empty_at_last_run": {},
   "note": "FRAN141(03).hwp는 교프어I(지난 학기) 강의계획서라 콘텐츠에 사용하지 않음",
   "duplicate_ignored": {
     "[Francais II]semaine 4-1 (1).pdf": "semaine 4-1.pdf와 md5 동일한 중복 다운로드 — 콘텐츠에 사용 안 함"
   },
-  "drafts": {}
+  "drafts": {},
+  "moved_to_midterm_folder": "2026-10-29 무렵 학생이 기존 PDF(1-2~7-3, 교프어I 복습, hwp)를 강의자료/중간 / 폴더로 옮김 — 크기 동일, 새 자료 아님. 같은 폴더의 교양프랑스어II_9-11과_문제모음.docx · 교프어II 중간고사.zip · 교프어II_중간.zip은 중간고사 대비/시험 자료라 수업자료로 처리하지 않음",
+  "notion_months_seen": [
+    "9월",
+    "10월",
+    "midterm",
+    "11월 (11/3~11/26 날짜 페이지 생성됨, 아직 수업 전)"
+  ]
 }

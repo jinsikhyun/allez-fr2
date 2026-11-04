@@ -1,0 +1,99 @@
+{
+  "id": "u4-03",
+  "unit": "u4",
+  "title": "사과하기 s'excuser · 복합과거 복습 표현",
+  "emoji": "🙏",
+  "date": "2026-10-28",
+  "sources": ["semaine 9-2", "semaine 9-3", "노션 10/28", "노션 10/29"],
+  "tips": [
+    { "h": "사과하기", "b": "Excusez-moi (vous) · Excuse-moi (tu, -s 없음!)\nDésolé(e) · Je suis (vraiment) désolé(e) · Je suis navré(e)\nPardon · Je vous / te demande pardon" },
+    { "h": "괜찮아요", "b": "(Il n'y a) pas de souci · (Il n'y a) pas de problème\nCe n'est pas grave · Ça ne fait rien\n(Il n'y a pas de quoi — 주로 고맙다는 말에)" },
+    { "h": "시간: à · vers · jusqu'à", "rows": [["à 6 heures", "6시에 (정확히)"], ["vers 6 heures", "6시쯤"], ["jusqu'à 6 heures", "6시까지"]] }
+  ],
+  "fixes": [
+    { "where": "노션 10/28", "was": "espèrer", "now": "espérer", "why": "원형은 é (닫힌 소리). è는 j'espère처럼 발음 안 나는 어미 앞에서만" },
+    { "where": "노션 10/28", "was": "Je n'ai pas reve.", "now": "Je n'ai pas rêvé.", "why": "rêver의 과거분사 rêvé — ê와 끝 é 악센트 둘 다 필요" }
+  ],
+  "note": [
+    {
+      "h": "사과하기 — Comment s'excuser ?",
+      "skill": "greet",
+      "src": ["semaine 9-2 p.16", "semaine 9-3 p.4", "노션 10/29"],
+      "body": [
+        { "table": [["표현", "느낌"], ["Excusez-moi. / Excuse-moi.", "미안해요·실례해요 (vous / tu)"], ["Désolé(e). / Je suis désolé(e).", "미안해요"], ["Je suis vraiment désolé(e).", "정말 미안해요"], ["Je suis navré(e).", "정말 유감이에요 (격식)"], ["Pardon.", "죄송해요·실례해요"], ["Je vous demande pardon. / Je te demande pardon.", "용서를 구해요 (vous / tu)"]], "head": true },
+        { "list": ["✍️ **vraiment** = adv. 정말로, 진짜로", "✍️ **Je suis navré(e).** → 고급진 표현", "Excuse-moi — excuser는 -er 동사라 tu 명령에 **-s 없음** (Excuses-moi ✗)", "désolé(e) · navré(e)는 **말하는 사람**에 일치: 여자면 Je suis vraiment désolée."] }
+      ]
+    },
+    {
+      "h": "괜찮아요 — 사과에 답하기",
+      "skill": "greet",
+      "src": ["semaine 9-2 p.16", "semaine 9-3 p.4", "노션 10/29"],
+      "body": [
+        { "table": [["Il n'y a pas de souci. / Pas de souci.", "괜찮아요 (✍️ souci = 걱정, 축약형 Pas de souci)"], ["Il n'y a pas de problème. / Pas de problème.", "문제없어요"], ["Ce n'est pas grave.", "별일 아니에요"], ["Ça ne fait rien.", "괜찮아요, 아무것도 아니에요"], ["(Il n'y a pas de quoi.)", "천만에요"]] },
+        { "warn": "✍️ **Il n'y a pas de quoi**는 고맙다고 했을 때 쓰지, 사과할 때는 잘 안 쓴다 — 9-3 슬라이드에서도 괄호." },
+        { "memo": "✍️ grave = 필기엔 '진지한'. 이 표현에서는 '심각한, 중대한' 뜻 → Ce n'est pas grave = 그렇게 큰일 아니에요. 부정문 뒤라 pas **de** problème (un ✗)." },
+        { "ex": [["— Excuse-moi ! — Ce n'est pas grave.", "— 미안해! — 별일 아니야."], ["— Je suis vraiment désolé. — Ça ne fait rien.", "— 정말 미안해. — 괜찮아."]] }
+      ]
+    },
+    {
+      "h": "복습: 복합과거 — Parlez à la française ! (필기 표현)",
+      "skill": "vocab",
+      "src": ["semaine 9-2 p.3–4", "노션 10/28"],
+      "body": [
+        { "p": "슬라이드는 인스타그램 릴스 3개(« Parlez à la française ! »)를 함께 본 것. 수업에서 나온 표현을 필기로 정리했다." },
+        { "list": [
+          "**suivre** ~를 따라가다 · suivant = 따라가는, 다음의 → **Je (ne) vous suis pas.** 말씀을 못 따라가겠어요 (suis = suivre의 je형!)",
+          "**perdre** 잃다, 지다 ↔ gagner → **Je suis perdu(e).** 길을 잃었어요",
+          "**à** (특정 시각) · **vers** (대략) · **jusqu'à** (언제까지)",
+          "**à votre / mon / ton avis** ~의 생각에는",
+          "**espérer** 바라다 → J'espère … (원형 é, je형 è)",
+          "**rêver** 꿈꾸다 → Je n'ai pas rêvé. (꿈이 아니야)",
+          "**près d'ici** 이 근처 · près de ↔ loin de",
+          "**environ** 대략 · **seulement** 오직, 겨우",
+          "**J'ai mis 10 minutes.** (시간이) 10분 걸렸다 — mettre의 과거분사 mis",
+          "J'ai **un peu / assez** dormi. · J'ai bu **beaucoup d'**alcool. · **De la** bière avec **du** soju."
+        ] },
+        { "ex": [["Quelle région est-ce que vous avez aimée le plus ?", "어느 지방이 가장 좋았어요?"]] },
+        { "warn": "aimée — COD **quelle région**(여성)이 avoir **앞**에 있어서 과거분사가 일치." }
+      ]
+    }
+  ],
+  "cards": [
+    { "id": "u4-03-w-excusez", "t": "word", "skill": "greet", "fr": "Excusez-moi.", "ko": "죄송합니다, 실례합니다 (vous)", "src": "semaine 9-2 p.16" },
+    { "id": "u4-03-c-excuse-tu", "t": "choice", "skill": "imperatif", "prompt": "친구에게 사과할 때 빈칸은?", "q": "___, Paul !", "ko": "미안해, 폴!", "a": "Excuse-moi", "wrong": ["Excuses-moi", "Excusez-moi", "Excuse-toi"], "hint": "tu 명령 + -er 동사 → 끝 -s는?", "explain": "excuser는 -er 동사 → tu 명령에 -s 없음.", "src": "semaine 9-2 p.16", "star": true },
+    { "id": "u4-03-err-excuses", "t": "error", "skill": "imperatif", "s": "Excuses-moi, Paul !", "wrong": "Excuses-moi", "right": "Excuse-moi", "ko": "미안해, 폴!", "hint": "-er 동사의 tu 명령문", "explain": "-er 동사 tu 명령은 -s를 뗀다: Excuse-moi.", "src": "semaine 9-2 p.16" },
+    { "id": "u4-03-c-desolee", "t": "choice", "skill": "agreement", "prompt": "(여자가 말할 때) 빈칸은?", "q": "Je suis vraiment ___.", "ko": "정말 미안해요.", "a": "désolée", "wrong": ["désolé", "désolés", "désolées"], "hint": "말하는 사람의 성·수에 맞춰요.", "explain": "désolé(e)는 형용사 → 여자 한 명이면 désolée.", "src": "semaine 9-2 p.16", "star": true },
+    { "id": "u4-03-w-navre", "t": "word", "skill": "greet", "fr": "Je suis navré.", "ko": "정말 유감입니다 (격식 있는 사과)", "note": "여자면 navrée · 필기: 고급진 표현", "src": "노션 10/29" },
+    { "id": "u4-03-w-vraiment", "t": "word", "skill": "vocab", "fr": "vraiment", "ko": "정말로, 진짜로", "src": "노션 10/29" },
+    { "id": "u4-03-w-pardon", "t": "word", "skill": "greet", "fr": "Je vous demande pardon.", "ko": "용서를 구합니다 (정중한 사과)", "src": "semaine 9-2 p.16" },
+    { "id": "u4-03-c-te-demande", "t": "choice", "skill": "pron-obj", "prompt": "친구에게 말할 때 빈칸은?", "q": "Je ___ demande pardon.", "ko": "너에게 용서를 구해.", "a": "te", "wrong": ["vous", "tu", "toi"], "hint": "'너에게' — 동사 앞에 오는 형태", "explain": "Je te demande pardon (tu) / Je vous demande pardon (vous).", "src": "semaine 9-2 p.16" },
+    { "id": "u4-03-w-souci", "t": "word", "skill": "vocab", "fr": "le souci", "ko": "걱정", "g": "m", "src": "노션 10/29" },
+    { "id": "u4-03-w-pas-souci", "t": "word", "skill": "greet", "fr": "Pas de souci.", "ko": "괜찮아요, 걱정 마요", "note": "= Il n'y a pas de souci. (필기: 축약형)", "src": "semaine 9-2 p.16" },
+    { "id": "u4-03-c-pas-de", "t": "choice", "skill": "neg", "prompt": "빈칸에 알맞은 것은?", "q": "Il n'y a pas ___ problème.", "ko": "문제없어요.", "a": "de", "wrong": ["du", "un", "le"], "hint": "부정문에서 un·une·des는 어떻게 바뀌나요?", "explain": "부정문 → pas de problème.", "src": "semaine 9-2 p.16" },
+    { "id": "u4-03-c-quoi-use", "t": "choice", "skill": "greet", "prompt": "Il n'y a pas de quoi.는 주로 언제 쓸까?", "q": "Il n'y a pas de quoi.", "a": "고맙다는 말에 답할 때", "wrong": ["사과할 때", "길을 물을 때", "헤어질 때"], "hint": "✍️ 필기: 사과할 때는 잘 안 씀", "explain": "Il n'y a pas de quoi = 천만에요. 사과 응답은 Ce n'est pas grave 등.", "src": "노션 10/29", "star": true },
+    { "id": "u4-03-c-grave", "t": "choice", "skill": "greet", "prompt": "빈칸에 알맞은 것은?", "q": "— Je suis vraiment désolé. — Ce n'est pas ___.", "ko": "— 정말 미안해. — 별일 아니야.", "a": "grave", "wrong": ["grand", "gros", "problème"], "hint": "'심각한, 중대한'이라는 형용사", "explain": "Ce n'est pas grave = 큰일 아니에요.", "src": "semaine 9-2 p.16" },
+    { "id": "u4-03-c-fait-rien", "t": "choice", "skill": "greet", "prompt": "빈칸에 알맞은 것은?", "q": "Ça ne ___ rien.", "ko": "괜찮아요, 아무것도 아니에요.", "a": "fait", "wrong": ["fais", "est", "va"], "hint": "faire 동사, 주어는 ça (3인칭 단수)", "explain": "Ça ne fait rien. — 사과에 대한 대답.", "src": "semaine 9-2 p.16" },
+    { "id": "u4-03-c-reply", "t": "choice", "skill": "greet", "prompt": "친구가 이렇게 말하면?", "q": "Excuse-moi !", "a": "Ce n'est pas grave.", "wrong": ["Merci beaucoup !", "Bon appétit !", "À bientôt !"], "say": "", "hint": "사과에 '괜찮아'라고 답하는 말", "explain": "사과 응답: Ce n'est pas grave · Ça ne fait rien · Pas de souci.", "src": "semaine 9-2 p.16" },
+    { "id": "u4-03-c-not-apology", "t": "choice", "skill": "greet", "prompt": "사과하는 말이 아닌 것은?", "q": "Comment s'excuser ?", "a": "Pas de problème.", "wrong": ["Pardon.", "Je suis navré.", "Excusez-moi."], "say": "", "hint": "사과하는 쪽 vs 받아 주는 쪽", "explain": "Pas de problème는 사과에 대한 '괜찮아요'.", "src": "semaine 9-2 p.16" },
+    { "id": "u4-03-l-excusez", "t": "listen", "skill": "pron", "say": "Excusez-moi.", "a": "Excusez-moi.", "wrong": ["Excuse-moi."], "ko": "죄송합니다.", "pron": "[엑스뀌제 무아]", "hint": "끝이 [제]인가 [즈]인가?", "explain": "Excusez [엑스뀌제] (vous) ↔ Excuse [엑스뀌즈] (tu).", "src": "semaine 9-2 p.16" },
+    { "id": "u4-03-w-suivre", "t": "word", "skill": "vocab", "fr": "suivre", "ko": "~를 따라가다", "note": "suivant = 따라가는, 다음의 · Je ne vous suis pas.", "src": "노션 10/28" },
+    { "id": "u4-03-c-suis-pas", "t": "choice", "skill": "vocab", "prompt": "이 문장의 뜻은?", "q": "Je ne vous suis pas.", "a": "말씀을 못 따라가겠어요.", "wrong": ["저는 당신이 아니에요.", "저는 학생이 아니에요."], "say": "Je ne vous suis pas.", "hint": "suis는 être만이 아니라 다른 동사의 je형이기도 해요.", "explain": "suivre: je suis → 당신(말)을 못 따라가요 = 이해가 안 돼요.", "src": "노션 10/28", "star": true },
+    { "id": "u4-03-w-perdre", "t": "word", "skill": "vocab", "fr": "perdre", "ko": "잃다, 지다", "note": "↔ gagner (이기다) · Je suis perdu(e). = 길을 잃었어요", "src": "노션 10/28" },
+    { "id": "u4-03-c-perdu", "t": "choice", "skill": "vocab", "prompt": "(남자가 말할 때) 빈칸은?", "q": "Je suis ___.", "ko": "나 길을 잃었어.", "a": "perdu", "wrong": ["perdue", "perdre", "gagné"], "hint": "perdre의 과거분사, 말하는 사람은 남자", "explain": "Je suis perdu(e). — 여자면 perdue.", "src": "노션 10/28" },
+    { "id": "u4-03-c-vers", "t": "choice", "skill": "time", "prompt": "'6시쯤'은?", "q": "J'arrive ___.", "a": "vers 6 heures", "wrong": ["à 6 heures", "jusqu'à 6 heures", "dans 6 heures"], "hint": "✍️ 필기: 특정 시각 vs 대략 vs 언제까지", "explain": "à = 정확히, vers = 쯤, jusqu'à = 까지.", "src": "노션 10/28" },
+    { "id": "u4-03-c-jusqua", "t": "choice", "skill": "time", "prompt": "'6시까지'는?", "q": "Je travaille ___.", "a": "jusqu'à 6 heures", "wrong": ["vers 6 heures", "à 6 heures", "depuis 6 heures"], "hint": "끝나는 시점을 말하는 표현", "explain": "jusqu'à = ~까지.", "src": "노션 10/28" },
+    { "id": "u4-03-c-avis", "t": "choice", "skill": "vocab", "prompt": "빈칸에 알맞은 것은?", "q": "___ avis, c'est une bonne idée ?", "ko": "당신 생각에는 좋은 생각인가요?", "a": "À votre", "wrong": ["Dans votre", "Pour votre", "De votre"], "hint": "'~의 생각에는' — 전치사 하나 + 소유형용사", "explain": "à votre / mon / ton avis = ~의 생각에는.", "src": "노션 10/28" },
+    { "id": "u4-03-c-esperer", "t": "choice", "skill": "spelling", "prompt": "'바라다'의 동사원형 철자는?", "q": "J'espère que oui.", "a": "espérer", "wrong": ["espèrer", "esperer", "éspérer"], "say": "", "hint": "원형에서는 닫힌 소리 악센트!", "explain": "espérer (é) / j'espère (è) — préférer와 같은 변화.", "src": "노션 10/28" },
+    { "id": "u4-03-c-espere", "t": "choice", "skill": "stem-change", "prompt": "빈칸에 알맞은 것은?", "q": "J'___ que tu vas bien.", "ko": "네가 잘 지내길 바라.", "a": "espère", "wrong": ["espére", "espérer", "espères"], "hint": "발음 안 나는 어미 앞에선 열린 소리 악센트", "explain": "j'espère, nous espérons — préférer와 같은 패턴.", "src": "노션 10/28" },
+    { "id": "u4-03-c-reve", "t": "choice", "skill": "pp", "prompt": "빈칸에 알맞은 것은?", "q": "Je n'ai pas ___.", "ko": "내가 꿈꾼 게 아니야.", "a": "rêvé", "wrong": ["reve", "rêver", "révé"], "hint": "-er 동사의 과거분사, 악센트 두 개!", "explain": "rêver → rêvé. 악센트 ê와 é 둘 다.", "src": "노션 10/28" },
+    { "id": "u4-03-c-pres-ici", "t": "choice", "skill": "elision", "prompt": "빈칸에 알맞은 것은?", "q": "Il y a une pharmacie ___ ?", "ko": "이 근처에 약국 있어요?", "a": "près d'ici", "wrong": ["près ici", "près de ici", "proche ici"], "hint": "près 뒤 전치사 + 모음 앞 축약", "explain": "près de + ici → près d'ici.", "src": "노션 10/28" },
+    { "id": "u4-03-c-loin", "t": "choice", "skill": "localisation", "prompt": "près de의 반대는?", "q": "près de ↔ ___", "a": "loin de", "wrong": ["à côté de", "devant", "en face de"], "say": "", "hint": "가깝다 ↔ ?", "explain": "près de (가까이) ↔ loin de (멀리).", "src": "노션 10/28" },
+    { "id": "u4-03-w-environ", "t": "word", "skill": "vocab", "fr": "environ", "ko": "대략, 약", "src": "노션 10/28" },
+    { "id": "u4-03-w-seulement", "t": "word", "skill": "vocab", "fr": "seulement", "ko": "오직, 겨우", "src": "노션 10/28" },
+    { "id": "u4-03-c-mis", "t": "choice", "skill": "pp", "prompt": "빈칸에 알맞은 것은?", "q": "J'ai ___ 10 minutes.", "ko": "(가는 데) 10분 걸렸어.", "a": "mis", "wrong": ["mit", "mise", "mettu"], "hint": "mettre의 과거분사 — 시간이 걸리다", "explain": "mettre + 시간 = (시간이) 걸리다. 과거분사 mis.", "src": "노션 10/28" },
+    { "id": "u4-03-c-un-peu-dormi", "t": "choice", "skill": "vocab", "prompt": "빈칸에 알맞은 것은?", "q": "J'ai ___ dormi.", "ko": "나는 조금 잤다.", "a": "un peu", "wrong": ["peu de", "un peu de", "beaucoup de"], "hint": "동사를 꾸밀 땐 de가 필요 없어요.", "explain": "J'ai un peu / assez dormi. 부사는 조동사와 과거분사 사이.", "src": "노션 10/28" },
+    { "id": "u4-03-c-alcool", "t": "choice", "skill": "elision", "prompt": "빈칸에 알맞은 것은?", "q": "J'ai bu beaucoup ___ alcool.", "ko": "나는 술을 많이 마셨다.", "a": "d'", "wrong": ["de l'", "du", "des"], "hint": "양 표현 뒤 + 모음 앞", "explain": "beaucoup de + alcool → beaucoup d'alcool.", "src": "노션 10/28" },
+    { "id": "u4-03-c-soju", "t": "choice", "skill": "gender", "prompt": "빈칸에 알맞은 것은?", "q": "De la bière avec ___ soju.", "ko": "소주 탄 맥주 (소맥).", "a": "du", "wrong": ["de la", "de", "des"], "hint": "부분관사 — soju는 남성", "explain": "la bière → de la bière / le soju → du soju.", "src": "노션 10/28" },
+    { "id": "u4-03-c-region", "t": "choice", "skill": "agreement", "prompt": "빈칸에 알맞은 것은?", "q": "Quelle région est-ce que vous avez ___ le plus ?", "ko": "어느 지방이 가장 좋았어요?", "a": "aimée", "wrong": ["aimé", "aimés", "aimer"], "hint": "avoir인데 COD가 동사 앞에 있어요 — 그 성은?", "explain": "COD quelle région(여성)이 앞 → aimée.", "src": "노션 10/28", "star": true }
+  ]
+}

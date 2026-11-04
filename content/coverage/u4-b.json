@@ -1,0 +1,33 @@
+{
+  "semaine 10-1": {
+    "p.1": ["skip: 표지 (Semaine 10 · Leçon 12 · 11/3)"],
+    "p.2": ["skip: 목차"],
+    "p.3": ["skip: PARTIE 1 간지 (Révision (I) : s'excuser)"],
+    "p.4": ["u4-03-w-excusez", "u4-03-c-desolee", "u4-03-w-navre", "u4-03-c-te-demande", "u4-03-c-grave", "u4-03-c-fait-rien", "u4-05-c-souci", "u4-05-c-pas-de-souci-short", "u4-05-c-paren-quoi", "u4-05-w-souci", "note:u4-05#0", "tip:u4-05#1"],
+    "p.5": ["u4-05-c-metro-sorry", "u4-05-c-metro-reply", "u4-05-b-metro", "u4-05-c-marcher-sur", "u4-05-w-marcher-sur", "note:u4-05#1", "tip:u4-05#0"],
+    "p.6": ["skip: PARTIE 2 간지 (Révision (II) : l'imparfait)"],
+    "p.7": ["u4-01-c-def", "u4-01-c-base", "u4-01-c-endings", "note:u4-05#2"],
+    "p.8": ["u4-01-t-parlais", "u4-01-t-parlions", "u4-01-c-parlaient", "u4-05-c-il-ils-sound", "note:u4-05#2"],
+    "p.9": ["u4-01-c-avais", "u4-01-c-avoir-stem", "u4-01-t-faisais", "u4-01-c-etre-exc", "u4-01-c-etait", "u4-05-l-ils-avaient", "u4-05-l-il-avait", "u4-05-c-elles-etaient", "note:u4-05#2"],
+    "p.10": ["u4-02-c-valerie", "u4-02-c-lyceenne", "u4-05-c-habitais", "u4-02-c-pleuvait", "u4-05-c-jouions", "u4-05-c-jouions-vs", "u4-05-err-jouons-pc", "u4-05-w-lyceenne", "note:u4-05#3"],
+    "p.11": ["u4-02-c-promenade", "u4-02-c-achetaient", "u4-02-c-ont-achete", "u4-05-c-ont-achete-once", "note:u4-05#3"],
+    "p.12": ["u4-02-c-si-sens", "u4-02-b-sortions", "u4-02-c-reposais", "note:u4-05#3", "skip: 인스타그램 릴스 링크 2개 (영상은 열 수 없음)"],
+    "p.13": ["u4-02-t-ex1", "u4-02-t-ex2", "u4-02-t-ex3", "u4-02-c-ex4", "u4-02-t-ex5", "note:u4-05#3"],
+    "p.14": ["u4-02-t-ex6", "u4-02-t-ex7", "note:u4-05#3"],
+    "p.15": ["u4-04-c-jours", "u4-04-c-semaines", "u4-04-c-ans", "u4-04-c-journee", "u4-04-c-semaine", "u4-04-c-annee", "note:u4-05#4"],
+    "p.16": ["u4-05-c-tous-les-jours-pc", "u4-05-c-toutes-journees", "u4-05-c-jours-vs-journee", "u4-05-err-tous-journees", "u4-05-w-journee", "note:u4-05#4", "tip:u4-05#3"],
+    "p.17": ["u4-05-c-etaient-belles", "u4-05-c-faisait-beau", "u4-05-c-fallait", "note:u4-05#4"],
+    "p.18": ["note:u4-05#5", "skip: PARTIE 3 간지 (Exercice : l'imparfait et le passé composé) — 문제는 슬라이드에 없음"],
+    "p.19": ["u0-01-ademain", "skip: 마무리 슬라이드 (Questions / À demain !)"]
+  },
+  "노션 11/3": {
+    "§ Comment s'excuser et réagir ? — 어떻게 사과하고 반응하는가": ["u4-05-c-metro-sorry", "u4-05-c-metro-reply", "note:u4-05#0"],
+    "§ souci : worry, 걱정 · Il n'y a pas de souci : 걱정 없습니다, 괜찮아요": ["u4-05-c-souci", "u4-05-w-souci", "note:u4-05#0"],
+    "§ Ce n'est pas grave · Ça ne fait rien → n'est / ne 발음 거의 안 함": ["u4-05-l-pas-grave", "u4-05-l-fait-rien", "note:u4-05#0"],
+    "§ → 시험각. 사과하고 반응하기": ["u4-05-c-metro-sorry", "u4-05-c-metro-reply", "u4-05-b-metro", "note:u4-05#1", "tip:u4-05#0"],
+    "§ Il/Elle이랑 Ils/Elles 발음 비슷 — 듣거나 말할 때 유의": ["u4-05-c-il-ils-sound", "u4-05-l-ils-avaient", "u4-05-l-il-avait", "u4-05-c-elles-etaient", "note:u4-05#2", "tip:u4-05#2"],
+    "§ 반과거 예문 4개 + cf. nous avons joué": ["u4-05-c-jouions", "u4-05-c-jouions-vs", "u4-05-c-habitais", "note:u4-05#3"],
+    "§ 목요일까지 과제 — 써오면 5점 녹음 5점": ["note:u4-05#5"],
+    "§ 슬라이드 캡처 이미지": ["note:u4-05#0", "skip: 이미지 파일은 열 수 없음 — 같은 내용의 semaine 10-1 슬라이드로 반영"]
+  }
+}

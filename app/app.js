@@ -1971,7 +1971,7 @@
   }
 
   // ================================================================ 📝 실전 연습 — 유닛(Leçon) 범위 · 시험형
-  // 파트 순서대로 듣기 25% → 쓰기 60% → 객관식 15% (소리 꺼짐이면 듣기 빼고 쓰기 75 · 객관식 25) — 중간고사 구성 기준.
+  // 파트 순서대로 듣기 30% → 쓰기 30% → 객관식 40% (소리 꺼짐이면 듣기 빼고 쓰기 43 · 객관식 57).
   // 레슨을 돌아가며 1장씩 뽑아 범위 전체에 고르게, 같은 레슨에선 이미 나온 노트 주제(ns)는 피한다. 힌트·재도전 없음.
   const EXAM_PARTS = [
     { id: 'listen', fr: 'Compréhension orale', ko: '🎧 듣기', desc: '듣고 고르거나 받아쓰기 · 🔊 🐢로 다시 들을 수 있어요' },
@@ -2075,9 +2075,8 @@
     return null;
   }
   function examCounts(n) {
-    // 비율은 중간고사(10/21) 실제 구성에 맞춤: 듣기 5/23문항, 나머지는 거의 다 직접 쓰기(변환·오류 수정·배열·작문), 객관식 없음
-    if (!(S.settings.sound && TTS.ok)) { const w = Math.round(n * 0.75); return { listen: 0, write: w, mc: n - w }; }
-    const l = Math.round(n * 0.25), w = Math.round(n * 0.6);
+    if (!(S.settings.sound && TTS.ok)) { const w = Math.round(n * 0.43); return { listen: 0, write: w, mc: n - w }; }
+    const l = Math.round(n * 0.3), w = Math.round(n * 0.3);
     return { listen: l, write: w, mc: n - l - w };
   }
   function buildExam(cfg) {

@@ -47,6 +47,8 @@
 
 ## 개발 메모
 
+- **커밋 작성자 주의**: Vercel 배포는 HEAD 커밋 작성자가 팀 멤버여야 한다. 커밋할 땐 `--author="$(git log -1 --format='%an <%ae>' c04e498)"`처럼 기존 커밋(jinsikhyun) 작성자를 그대로 쓴다. 전역 git 이름(Jinsik Hyun)으로 커밋하면 배포가 DEPLOYMENT_BLOCKED.
+
 - 로컬 미리보기: `python3 -m http.server 5178 --directory app` 후 `http://localhost:5178/?debug` (`window.__allez` 디버그 훅).
 - 학습 기록은 기기 localStorage(`allez.state.v1`) + 동기화 코드를 연결하면 클라우드(아래 기기 연동). 카드 id를 바꾸면 기록이 끊긴다.
 - 복습 스케줄 = 졸업 시스템 (`app.js`의 `grade`/`needFor`/`buildSession`): 힌트 없이 다른 날 n번 연속 정답 → 졸업. 감도는 레슨별 `S.sens`. 디버그 훅 `__allez.setDay(n)`로 날짜를 당겨 시뮬레이션할 수 있다.

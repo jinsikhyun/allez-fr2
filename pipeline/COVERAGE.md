@@ -1,6 +1,6 @@
 # 수업자료 커버리지
 
-`node tools/coverage.mjs`가 만든 파일 (2026-11-18 09:21 UTC).
+`node tools/coverage.mjs`가 만든 파일 (2026-11-18 12:16 UTC).
 
 ## PDF (페이지 단위)
 

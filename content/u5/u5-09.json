@@ -1,0 +1,196 @@
+{
+  "id": "u5-09",
+  "unit": "u5",
+  "title": "⭐ 기말 예상 문제 — Leçon 13",
+  "emoji": "📝",
+  "date": "2026-11-18",
+  "sources": ["semaine 10-3", "semaine 11-1", "semaine 11-2", "semaine 11-3", "semaine 12-1", "semaine 12-2", "중간고사 분석"],
+  "tips": [
+    { "h": "Leçon 13 시험 3대 축", "b": "① **조건법**: 미래 어간 + -ais/-ait/-ions… · Si + **반과거**, … 조건법\n② **강조 구문**: 주어 → C'est … **qui** / 나머지 → C'est … **que** (+ COD면 p.p. 일치)\n③ **en · y · le**: 순서 me → le → lui → y → en → (조동사) 동사" },
+    { "h": "중간고사 약점 × 새 문법", "rows": [
+      ["대명동사 부정", "je **ne me** lèverais **pas**"],
+      ["명령 + 대명사", "Achète**s-en** ! · Va**s-y** ! · **N'y** va pas !"],
+      ["조동사 앞 대명사 덩어리", "je **lui en ai** envoyé"],
+      ["강조 + 일치", "C'est ta sœur **que** j'ai **vue**"]
+    ] },
+    { "h": "오류 고치기 = 개수부터", "b": "prompt의 (오류 N개)를 보고 **N개를 다 찾을 때까지** 멈추지 않기.\nsi 뒤 조건법 ✗ · qui/que · p.p. 일치 · en/y · 악센트(lèverais, intéresse)" }
+  ],
+  "note": [
+    {
+      "h": "시험 구성 — Leçon 13에서 각 대문항에 나올 것",
+      "skill": "conditionnel",
+      "src": ["중간고사 분석", "semaine 10-3", "semaine 11-1", "semaine 11-2", "semaine 12-1", "semaine 12-2"],
+      "body": [
+        { "p": "중간고사와 같은 **8개 대문항 · 25점 · 객관식 없음**이라고 보고 준비. 슬라이드 예문·연습문제가 **그대로 또는 한 단어만** 바뀌어 나오는 패턴." },
+        { "table": [
+          ["대문항", "Leçon 13에서 나올 만한 것", "근거"],
+          ["I 듣기 빈칸", "장보기 대화문: n'en ont · prends-en · Achètes-en · tu l'as · d'en · J'y / je lui en ai", "12-2 p.17–21, p.8"],
+          ["II 듣기", "(길 안내 대신) 대화문 듣고 내용 파악 가능성", "12-2 대화문"],
+          ["III 상황 답하기", "공손한 주문 Je voudrais… · 충고 Tu devrais… · Ne t'en fais pas ! · C'est moi qui… · Selon les médias…", "10-3 p.18, 11-1 p.10–13, 12-1 p.8"],
+          ["IV 변환", "조건법(대명동사·부정) · si 비현실 가정 · 명령 + en/y · 강조 구문 · 대명사 두 개 치환", "11-1 p.14, 12-1 p.4–7·16–19"],
+          ["V 오류 모두 고치기", "Si j'aurais ✗ · C'est je qui ✗ · qui/que · vue · il m'a la dit ✗ · je te pense ✗", "11-1, 12-1 p.4, 12-2 p.8"],
+          ["VI 배열", "je lui en ai envoyé beaucoup · il me l'a dite · c'est moi qui vais au marché", "12-2 p.8·18"],
+          ["VII 독해", "조건법 = 사실 아님 / 강조 구문은 누가 누구를? / '~라더라' 정보", "11-1 p.13–14, 11-2 p.21"],
+          ["VIII 작문", "Si j'avais beaucoup d'argent / Si j'étais en France, je … (조건법 6문장+)", "11-1 p.14, 11-2 p.14"]
+        ], "head": true },
+        { "memo": "✍️ 학생 필기: s'intéresser à — \"시험에 나옴!!\" (12-1 p.16) / 12-2 p.8 \"이거 좀 어려움 중요\" (il me l'a dite · je lui en ai envoyé beaucoup)." }
+      ]
+    },
+    {
+      "h": "I 듣기 빈칸 — 대화문의 짧은 덩어리",
+      "skill": "pron-en-y",
+      "src": ["semaine 12-2 p.17–21", "semaine 12-2 p.8", "중간고사 분석"],
+      "body": [
+        { "p": "중간고사에서 놓친 건 **a eu · de** 같은 짧은 소리. 이번엔 **en · y · l'** 이 그 자리다. 들은 것 + **문법상 꼭 있어야 할 자리**를 채운다." },
+        { "table": [
+          ["문장", "빈칸 후보", "소리"],
+          ["Mais nos enfants n'en ont plus besoin !", "n'en ont", "[낭 농]"],
+          ["Des œufs, prends-en une douzaine", "prends-en", "[프항장]"],
+          ["Achètes-en un litre !", "Achètes-en", "[아셰뜨장]"],
+          ["C'est ça, tu l'as deviné !", "tu l'as", "[뛰 라]"],
+          ["n'oublie pas d'en acheter une plaque", "d'en", "[당]"],
+          ["Ne t'en fais pas ! J'y penserai.", "J'y", "[지]"],
+          ["Oui, je lui en ai envoyé beaucoup.", "lui en ai", "[뤼 앙 네]"]
+        ], "head": true },
+        { "warn": "avoir besoin **de** / faire don **de** / acheter + 수량 → en. penser **à** → y. 동사를 보고 en인지 y인지 확정!" }
+      ]
+    },
+    {
+      "h": "IV 변환 — 새 문법 위에 약점 얹기",
+      "skill": "conditionnel",
+      "src": ["semaine 10-3 p.18", "semaine 11-1 p.14", "semaine 12-1 p.16–19", "semaine 12-2 p.19–21", "중간고사 분석"],
+      "body": [
+        { "table": [
+          ["변환", "예", "핵심"],
+          ["조건법 + 부정 (대명동사)", "Je ne me lèverais pas tôt.", "ne + **me lèverais** + pas — 재귀대명사는 동사에 붙은 채"],
+          ["조건법 (대명동사)", "Nous nous reposerions.", "nous **nous** — 재귀대명사 빼먹지 않기"],
+          ["공손하게", "Pourrais-tu m'aider ?", "pouvoir → pourr- + ais, 도치"],
+          ["비현실 가정", "Si j'avais le temps, je ferais du sport.", "si 뒤 **반과거**, 결과 **조건법**"],
+          ["명령 + en", "Achètes-en !", "tu 명령 -s 탈락 → en 앞에서 **s 부활**"],
+          ["명령 + y", "Vas-y ! / N'y va pas !", "긍정: 동사-y / 부정: n'y + 동사 + pas (s 없음)"],
+          ["부정 + en (복합과거)", "Je n'en ai pas acheté.", "en은 조동사 앞, ne…pas가 en+ai를 감쌈"],
+          ["s'occuper de → en", "Je m'en occupe.", "재귀대명사 다음에 en"],
+          ["주어 강조", "C'est nous qui préparons le dîner.", "qui 뒤 동사는 **강조된 주어**에 맞춤"],
+          ["COD 강조", "C'est ta sœur que j'ai vue au marché.", "que = 앞의 COD(여성) → **vue**"],
+          ["대명사 두 개", "Il les lui a données.", "le/les → lui 순서, COD les가 앞 → données"]
+        ], "head": true },
+        { "warn": "중간고사 IV-1: se n'est pas ✗ → ne s'est pas. 조건법에서도 똑같이 **ne + me lèverais + pas**." }
+      ]
+    },
+    {
+      "h": "V 오류 모두 고치기 — 체크리스트",
+      "skill": "conditionnel",
+      "src": ["semaine 11-1 p.14", "semaine 12-1 p.4", "semaine 11-2 p.21", "semaine 12-2 p.8", "semaine 12-1 p.15–16", "중간고사 분석"],
+      "body": [
+        { "list": [
+          "**Si + 조건법 ✗** → Si j'**avais** (반과거). 결과절은 조건법 voyager**ais** (미래 voyagerai ✗)",
+          "**C'est je qui ✗** → C'est **moi** qui + 동사는 moi에 맞춰 **ai** payé",
+          "**qui / que**: 뒤에 주어가 따로 있으면 que (C'est ta sœur **que** j'ai vue)",
+          "**p.p. 일치**: que/대명사로 COD가 앞에 오면 일치 → vue, dite, données",
+          "**순서**: il m'a la dit ✗ → il **me l'a** dite (대명사 둘 다 조동사 앞)",
+          "**penser à + 사람** → à + 강세형: je pense souvent **à eux** (je leur pense ✗)",
+          "**s'intéresser à** → **y** (m'en ✗) · 철자 in-té-res-ser, 악센트 é 하나",
+          "**악센트**: lever → je **lèverais** / acheter → j'**achèterais**",
+          "**en vs y**: acheter **de** … / une plaque **de** chocolat → **en**"
+        ] },
+        { "memo": "중간고사 V-3: 오류 2개 중 하나만 고치고 멈춰서 감점. prompt의 (오류 N개)를 먼저 확인." }
+      ]
+    },
+    {
+      "h": "VI 배열 · VII 독해 — 조립 공식과 읽는 법",
+      "skill": "pron-en-y",
+      "src": ["semaine 12-1 p.18–19", "semaine 12-2 p.8", "semaine 11-2 p.21", "semaine 11-1 p.13"],
+      "body": [
+        { "table": [
+          ["SUJET", "(ne)", "me/te/nous/vous", "le/la/les", "lui/leur", "y", "en", "(조동사) 동사", "(pas)", "p.p."]
+        ] },
+        { "ex": [
+          ["Oui, je lui en ai envoyé beaucoup.", "응, 걔한테 그거 많이 보냈어."],
+          ["Oui, il me l'a dite.", "응, 그가 나한테 그걸(진실을) 말했어."],
+          ["Si j'étais toi, je ne m'en ferais pas.", "내가 너라면 걱정 안 할 텐데."]
+        ] },
+        { "p": "**독해**: ① 조건법·Si + 반과거 = **현실이 아님**(상상) ② Selon les médias, il y **aurait** = **확인 안 된** 소식 ③ C'est Paul **que** j'ai vu = **내가** 폴을 봤다 (폴이 본 게 아님)." }
+      ]
+    },
+    {
+      "h": "VIII 작문 모범문 — Si j'avais beaucoup d'argent…",
+      "skill": "conditionnel",
+      "src": ["semaine 11-1 p.14", "semaine 11-2 p.14", "semaine 12-1 p.7–8·16", "중간고사 분석"],
+      "body": [
+        { "ex": [
+          ["Si j'avais beaucoup d'argent, je voyagerais en France avec ma famille.", "내가 돈이 많다면 가족과 프랑스를 여행할 텐데."],
+          ["Nous habiterions dans un petit appartement à Paris.", "우리는 파리의 작은 아파트에서 살 텐데."],
+          ["Le matin, je ne me lèverais pas tôt.", "아침에 나는 일찍 일어나지 않을 텐데."],
+          ["Je prendrais le petit-déjeuner dans un café.", "카페에서 아침을 먹을 텐데."],
+          ["L'après-midi, nous irions au musée du Louvre.", "오후에는 루브르 박물관에 갈 텐데."],
+          ["Je m'intéresse à l'art, donc j'y resterais longtemps.", "나는 미술에 관심이 있어서 거기에 오래 있을 텐데."],
+          ["Le soir, c'est moi qui choisirais le restaurant.", "저녁엔 내가 식당을 고를 텐데."],
+          ["Ce serait le plus beau voyage de ma vie !", "내 인생 최고의 여행이 될 텐데!"]
+        ] },
+        { "p": "**칸만 바꿔 쓰는 뼈대**: Si j'avais beaucoup d'argent / Si j'étais en France, je **[동사-rais]** … → Le matin, je **ne me [동사-rais] pas** … → L'après-midi, nous **[irions / ferions]** … → Je m'intéresse à …, donc j'**y** [동사-rais] … → Le soir, c'est moi **qui** [동사-rais] … → Ce **serait** …" },
+        { "list": [
+          "첫 문장 si 뒤는 **반과거** (avais / étais), 나머지는 전부 **조건법** -ais/-ait/-ions",
+          "불규칙 어간: être → **ser-**, avoir → **aur-**, aller → **ir-**, faire → **fer-**, pouvoir → **pourr-**, vouloir → **voudr-**",
+          "대명동사: 재귀대명사 **me** 빠뜨리지 않기 (중간고사 VIII 감점 원인)",
+          "시간대는 정관사: **Le** matin, **L'**après-midi, **Le** soir",
+          "y · en · 강조 구문을 한 번씩 넣으면 Leçon 13 문법을 다 보여줄 수 있음",
+          "최소 **6문장** — 8문장 써 두면 안전"
+        ] }
+      ]
+    }
+  ],
+  "cards": [
+    { "id": "u5-09-t-d-nen-ont", "t": "type", "skill": "pron-en-y", "prompt": "[I 듣기 빈칸] 듣고 빈칸을 쓰세요", "q": "Mais nos enfants ___ plus besoin !", "a": "n'en ont", "dictate": "Mais nos enfants n'en ont plus besoin !", "ko": "하지만 애들은 이제 그게 필요 없잖아!", "hint": "avoir besoin de → 대명사 + 부정 ne…plus, 주어는 복수", "explain": "semaine 12-2 p.17 그대로. besoin de → en, ne…plus가 en+ont을 감싸 n'en ont [낭 농].", "src": "semaine 12-2 p.17", "star": true },
+    { "id": "u5-09-t-d-prends-en", "t": "type", "skill": "pron-en-y", "prompt": "[I 듣기 빈칸] 듣고 빈칸을 쓰세요", "q": "Des œufs, ___ une douzaine et du sucre, un kilo.", "a": "prends-en", "dictate": "Des œufs, prends-en une douzaine et du sucre, un kilo.", "ko": "달걀은 한 다스 사고, 설탕은 1킬로.", "hint": "tu에게 하는 긍정 명령 + 수량 대명사, 하이픈!", "explain": "semaine 12-2 p.19 그대로. 긍정 명령: 동사-en, 수량(une douzaine)은 뒤에.", "src": "semaine 12-2 p.19" },
+    { "id": "u5-09-t-d-achetes-en", "t": "type", "skill": "imperatif", "prompt": "[I 듣기 빈칸] 듣고 빈칸을 쓰세요", "q": "J'en ai encore, mais j'ai besoin de lait. ___ un litre !", "a": "Achètes-en", "dictate": "J'en ai encore, mais j'ai besoin de lait. Achètes-en un litre !", "ko": "버터는 아직 있어, 근데 우유가 필요해. 1리터 사 와!", "hint": "-er 동사 tu 명령 + 대명사 — 연음 [z] 소리가 들리죠? 악센트도", "explain": "semaine 12-2 p.19 그대로. achète + en → 연음 위해 s 부활: Achètes-en [아셰뜨장].", "src": "semaine 12-2 p.19", "star": true },
+    { "id": "u5-09-t-d-tu-las", "t": "type", "skill": "le-neutre", "prompt": "[I 듣기 빈칸] 듣고 빈칸을 쓰세요", "q": "C'est ça, ___ deviné !", "a": "tu l'as", "dictate": "C'est ça, tu l'as deviné !", "ko": "맞아, 네가 알아맞혔네!", "hint": "주어 + 중성 대명사 + 조동사 (복합과거) — 세 덩어리", "explain": "semaine 12-2 p.20 그대로. l' = '케이크를 만든다'는 사실 전체(중성 le), avoir 앞에서 엘리지옹.", "src": "semaine 12-2 p.20" },
+    { "id": "u5-09-t-d-den", "t": "type", "skill": "pron-en-y", "prompt": "[I 듣기 빈칸] 듣고 빈칸을 쓰세요", "q": "Ah, du chocolat, n'oublie pas ___ acheter une plaque !", "a": "d'en", "dictate": "Ah, du chocolat, n'oublie pas d'en acheter une plaque !", "ko": "아, 초콜릿 — 한 판 사는 거 잊지 마!", "hint": "oublier + 전치사 + 동사원형, 그 사이에 '초콜릿'을 받는 대명사", "explain": "semaine 12-2 p.21 그대로. oublier de + inf., du chocolat → en이 acheter 앞. de + en → d'en [당].", "src": "semaine 12-2 p.21", "star": true },
+    { "id": "u5-09-t-d-jy", "t": "type", "skill": "pron-en-y", "prompt": "[I 듣기 빈칸] 듣고 빈칸을 쓰세요", "q": "Ne t'en fais pas ! ___ penserai.", "a": "J'y", "dictate": "Ne t'en fais pas ! J'y penserai.", "ko": "걱정 마! 잊지 않을게.", "hint": "penser + 어떤 전치사? 사물이면 어떤 대명사?", "explain": "semaine 12-2 p.21 그대로. penser à + 사물 → y. 미래 penserai 앞에 j'y [지].", "src": "semaine 12-2 p.21", "star": true },
+    { "id": "u5-09-t-d-javais", "t": "type", "skill": "conditionnel", "prompt": "[I 듣기 빈칸] 듣고 빈칸을 쓰세요", "q": "Si ___ le temps, je ferais les courses.", "a": "j'avais", "dictate": "Si j'avais le temps, je ferais les courses.", "ko": "시간이 있으면 내가 장을 볼 텐데.", "hint": "si 뒤 시제는? 조건법이 아니에요", "explain": "semaine 11-1 p.14 · 12-2 p.17 그대로. Si + 반과거, … 조건법.", "src": "semaine 12-2 p.17", "star": true },
+    { "id": "u5-09-t-d-lui-en-ai", "t": "type", "skill": "pron-en-y", "prompt": "[I 듣기 빈칸] 듣고 빈칸을 쓰세요", "q": "As-tu envoyé beaucoup de cadeaux à ton copain ? — Oui, je ___ envoyé beaucoup.", "a": "lui en ai", "dictate": "Oui, je lui en ai envoyé beaucoup.", "ko": "응, 걔한테 그거(선물) 많이 보냈어.", "hint": "à ton copain + de cadeaux → 대명사 두 개 + 조동사", "explain": "semaine 12-2 p.8 ✍️ '이거 좀 어려움 중요'. lui → en 순서, 둘 다 조동사 ai 앞 [뤼 앙 네].", "src": "semaine 12-2 p.8", "star": true },
+
+    { "id": "u5-09-c-s-cafe", "t": "choice", "skill": "conditionnel", "prompt": "[III 상황 답하기] 카페에서 점원에게 공손하게 커피를 주문한다.", "q": "Au café, vous commandez poliment.", "a": "Je voudrais un café, s'il vous plaît.", "wrong": ["Je voudrai un café, s'il vous plaît.", "Je veux un café !", "Je voulais un café, s'il te plaît."], "hint": "공손함 = 조건법. 미래형과 철자 하나 차이!", "explain": "semaine 10-3 p.18 그대로. voudrais(조건법) ≠ voudrai(미래). 점원에겐 s'il vous plaît.", "src": "semaine 10-3 p.18", "star": true },
+    { "id": "u5-09-c-s-reposer", "t": "choice", "skill": "conditionnel", "prompt": "[III 상황 답하기] 친구가 피곤해 보인다. 좀 쉬라고 충고한다.", "q": "Ton ami a l'air fatigué.", "a": "Tu devrais te reposer un peu.", "wrong": ["Tu devrais reposer un peu.", "Tu devras te reposer un peu.", "Tu devrais te reposé un peu."], "hint": "충고 = devoir 조건법 + 동사원형. 대명동사도 확인", "explain": "semaine 11-1 p.16 'Elle devrait se reposer' 주어 바꿈. se reposer → te reposer, 원형이라 -er.", "src": "semaine 11-1 p.16" },
+    { "id": "u5-09-c-s-ten-fais", "t": "choice", "skill": "pron-en-y", "prompt": "[III 상황 답하기] 초콜릿 사는 걸 잊을까 걱정하는 아내를 안심시킨다.", "q": "Ah, du chocolat, n'oublie pas d'en acheter une plaque !", "a": "Ne t'en fais pas ! J'y penserai.", "wrong": ["Ne t'y fais pas ! J'en penserai.", "Ne fais pas t'en ! J'y penserai.", "Ne t'en fais pas ! Je lui penserai."], "hint": "s'en faire = 걱정하다 / penser à + 사물", "explain": "semaine 12-2 p.21 그대로. s'en faire → Ne t'en fais pas, penser à (사물) → y.", "src": "semaine 12-2 p.21", "star": true },
+    { "id": "u5-09-c-s-moi-qui", "t": "choice", "skill": "emphatique", "prompt": "[III 상황 답하기] 친구가 어제 저녁값을 폴이 냈냐고 묻는다. 사실은 내가 냈다.", "q": "C'est Paul qui a payé le dîner hier soir ?", "a": "Non, c'est moi qui ai payé le dîner !", "wrong": ["Non, c'est moi qui a payé le dîner !", "Non, c'est je qui ai payé le dîner !", "Non, c'est moi que j'ai payé le dîner !"], "hint": "강세형 + qui, 동사는 강조된 사람에 맞춰요", "explain": "semaine 12-1 p.8 그대로. C'est moi qui + ai (moi = je).", "src": "semaine 12-1 p.8", "star": true },
+    { "id": "u5-09-c-s-medias", "t": "choice", "skill": "conditionnel", "prompt": "[III 상황 답하기] 뉴스에서 들은 '토요일에 시위가 있을 거라더라'를 확인 안 된 소식으로 전한다.", "q": "Vous avez entendu une information non confirmée.", "a": "Selon les médias, il y aurait une manifestation samedi.", "wrong": ["Selon les médias, il y aura une manifestation samedi.", "Selon les médias, il y avait une manifestation samedi.", "Selon les médias, il y aurais une manifestation samedi."], "hint": "확인 안 된 정보 = 어떤 법? 비인칭 il은 3인칭", "explain": "semaine 11-1 p.13 'il y aurait une manifestation' 출처만 바꿈. 미래 aura = 확실한 사실.", "src": "semaine 11-1 p.13", "star": true },
+
+    { "id": "u5-09-t-neg-leverais", "t": "type", "skill": "pronominal", "prompt": "[IV 변환] 부정문으로 바꾸세요", "q": "Je me lèverais tôt.", "a": "Je ne me lèverais pas tôt.", "alts": ["Je ne me lèverais pas tôt"], "hint": "재귀대명사는 동사에 붙은 한 덩어리 — 그 덩어리를 감싸요", "explain": "중간고사 IV-1(se n'est ✗) 약점 + 조건법. ne + me lèverais + pas, 악센트 è.", "src": "중간고사 분석", "star": true },
+    { "id": "u5-09-t-reposerions", "t": "type", "skill": "pronominal", "prompt": "[IV 변환] 조건법 현재로 바꾸세요", "q": "Nous nous reposons.", "a": "Nous nous reposerions.", "alts": ["Nous nous reposerions"], "hint": "원형 전체 + 반과거 어미, 재귀대명사 유지", "explain": "reposer + -ions. 중간고사 VIII 'me' 누락 약점 — nous nous 둘 다!", "src": "semaine 10-3 p.16" },
+    { "id": "u5-09-t-pourrais-tu", "t": "type", "skill": "conditionnel", "prompt": "[IV 변환] 조건법을 써서 공손한 도치 의문문으로", "q": "Tu peux m'aider ?", "a": "Pourrais-tu m'aider ?", "alts": ["Pourrais-tu m'aider"], "hint": "pouvoir 어간은 r이 두 개, 주어-동사 뒤집고 하이픈", "explain": "semaine 10-3 p.18 'Vous pourriez m'aider ?' tu로 바꿈. pourr- + ais → Pourrais-tu.", "src": "semaine 10-3 p.18" },
+    { "id": "u5-09-b-si-irreel", "t": "build", "skill": "conditionnel", "prompt": "[IV 변환] 현실이 아닌 가정(지금은 시간이 없다)으로 바꾸세요", "from": "Si j'ai le temps, je ferai du sport.", "a": "Si j'avais le temps, je ferais du sport.", "extra": ["aurais", "ferai"], "ko": "시간이 있다면 운동할 텐데.", "hint": "si 뒤 → 반과거 / 결과절 → 조건법", "explain": "semaine 11-2 p.14 si 두 가지. 가능(현재→미래) ↔ 비현실(반과거→조건법).", "src": "semaine 11-2 p.14", "star": true },
+    { "id": "u5-09-t-achetes-en", "t": "type", "skill": "imperatif", "prompt": "[IV 변환] 밑줄 부분(du lait)을 대명사로 바꾸세요", "q": "Achète du lait !", "a": "Achètes-en !", "alts": ["Achètes-en"], "hint": "긍정 명령: 동사 뒤 + 하이픈. 연음 때문에 생기는 글자 하나!", "explain": "semaine 12-2 p.19. du lait → en, achète + en → 연음 위해 s 부활.", "src": "semaine 12-2 p.19", "star": true },
+    { "id": "u5-09-t-ny-va-pas", "t": "type", "skill": "imperatif", "prompt": "[IV 변환] 부정 명령문 + 대명사(à la plage)로 바꾸세요", "q": "Va à la plage !", "a": "N'y va pas !", "alts": ["N'y va pas"], "hint": "부정 명령은 대명사가 다시 동사 앞으로. 모음 앞 엘리지옹", "explain": "부정 명령: ne + 대명사 + 동사 + pas. s 부활은 긍정 명령에서만.", "src": "중간고사 분석" },
+    { "id": "u5-09-t-vas-y", "t": "type", "skill": "imperatif", "prompt": "[IV 변환] 명령문으로 바꾸고 au marché를 대명사로", "q": "Tu vas au marché.", "a": "Vas-y !", "alts": ["Vas-y"], "hint": "aller tu 명령은 -s가 빠지지만, 대명사 앞에선?", "explain": "Va ! + y → Vas-y ! (연음 위해 s 부활). Allons-y와 같은 원리.", "src": "중간고사 분석" },
+    { "id": "u5-09-t-nen-ai-pas", "t": "type", "skill": "pron-en-y", "prompt": "[IV 변환] 부정문으로 바꾸고 des œufs를 대명사로", "q": "J'ai acheté des œufs.", "a": "Je n'en ai pas acheté.", "alts": ["Je n'en ai pas acheté"], "hint": "대명사는 조동사 앞, ne…pas는 '대명사+조동사'를 감싸요", "explain": "des → en. 복합과거 부정: je n'en ai pas + p.p. (en은 일치 유발 ✗).", "src": "semaine 12-1 p.11" },
+    { "id": "u5-09-t-men-occupe", "t": "type", "skill": "pron-en-y", "prompt": "[IV 변환] des boissons를 대명사로 바꾸세요", "q": "Je m'occupe des boissons.", "a": "Je m'en occupe.", "alts": ["Je m'en occupe"], "hint": "s'occuper + 어떤 전치사? 재귀대명사 다음 자리", "explain": "semaine 12-1 p.17. s'occuper de → en, 순서 me → en (m'y en ✗).", "src": "semaine 12-1 p.17" },
+    { "id": "u5-09-b-nous-qui", "t": "build", "skill": "emphatique", "prompt": "[IV 변환] 주어(nous)를 강조하는 문장으로", "from": "Nous préparons le dîner.", "a": "C'est nous qui préparons le dîner.", "extra": ["que", "prépare"], "ko": "저녁을 준비하는 건 바로 우리야.", "hint": "주어 강조 → 강세형 + 관계사. 동사는 누구에게 맞추나?", "explain": "semaine 12-1 p.4 'C'est moi qui vais' 구조. qui 뒤 동사는 nous에 맞춰 préparons.", "src": "semaine 12-1 p.4" },
+    { "id": "u5-09-b-soeur-vue", "t": "build", "skill": "emphatique", "prompt": "[IV 변환] ta sœur를 강조하는 문장으로", "from": "J'ai vu ta sœur au marché.", "a": "C'est ta sœur que j'ai vue au marché.", "extra": ["vu", "qui"], "ko": "내가 시장에서 본 건 바로 네 여동생이야.", "hint": "COD 강조 → 관계사 선택, 그리고 p.p. 일치!", "explain": "semaine 11-2 p.21 'C'est Valérie que François a vue' 인물 바꿈. COD(여성)가 앞 → vue.", "src": "semaine 11-2 p.21", "star": true },
+    { "id": "u5-09-b-les-lui", "t": "build", "skill": "pron-en-y", "prompt": "[IV 변환] les clés와 à Marie를 모두 대명사로", "from": "Il a donné les clés à Marie.", "a": "Il les lui a données.", "extra": ["donné", "leur"], "ko": "그가 그것들을 그녀에게 줬다.", "hint": "순서 le/la/les → lui/leur, 둘 다 조동사 앞. COD가 앞이면?", "explain": "semaine 12-1 p.18–19 순서 + 12-2 p.8 일치. les(clés, 여성 복수)가 앞 → données.", "src": "semaine 12-1 p.19" },
+
+    { "id": "u5-09-t-e-si-aurais", "t": "type", "skill": "conditionnel", "prompt": "[V 오류 모두 고치기] 오류를 모두 고쳐 문장을 다시 쓰세요 (오류 2개)", "q": "Si j'aurais de l'argent, je voyagerai en France.", "a": "Si j'avais de l'argent, je voyagerais en France.", "alts": ["Si j'avais de l'argent, je voyagerais en France"], "hint": "오류 2개: si 뒤 시제 / 결과절 어미", "explain": "semaine 11-1 p.14 그대로에 오류 2개. si 뒤 반과거 avais, 결과 조건법 voyagerais.", "src": "semaine 11-1 p.14", "star": true },
+    { "id": "u5-09-t-e-soeur-qui", "t": "type", "skill": "emphatique", "prompt": "[V 오류 모두 고치기] 오류를 모두 고쳐 문장을 다시 쓰세요 (오류 2개)", "q": "C'est ta sœur qui j'ai vu au marché.", "a": "C'est ta sœur que j'ai vue au marché.", "alts": ["C'est ta sœur que j'ai vue au marché"], "hint": "오류 2개: 관계사 / 과거분사 끝", "explain": "semaine 11-2 p.21 변형. 뒤에 주어 j' → que, COD 여성이 앞 → vue.", "src": "semaine 11-2 p.21", "star": true },
+    { "id": "u5-09-t-e-cest-je", "t": "type", "skill": "emphatique", "prompt": "[V 오류 모두 고치기] 오류를 모두 고쳐 문장을 다시 쓰세요 (오류 2개)", "q": "C'est je qui a payé le dîner !", "a": "C'est moi qui ai payé le dîner !", "alts": ["C'est moi qui ai payé le dîner"], "hint": "오류 2개: c'est 뒤 대명사 형태 / 조동사 인칭", "explain": "semaine 12-1 p.4 (X 표시 문장) + p.8. C'est 뒤는 강세형 moi, 동사는 je형 ai.", "src": "semaine 12-1 p.4", "star": true },
+    { "id": "u5-09-t-e-ma-la-dit", "t": "type", "skill": "pron-en-y", "prompt": "[V 오류 모두 고치기] Est-ce qu'il a dit la vérité à toi ? — 답의 오류를 모두 고치세요 (오류 2개)", "q": "Oui, il m'a la dit.", "a": "Oui, il me l'a dite.", "alts": ["Oui, il me l'a dite", "Il me l'a dite."], "hint": "오류 2개: 대명사 순서·위치 / 과거분사 일치", "explain": "semaine 12-2 p.8 ✍️ '중요' 보기 4번. me → la 순서로 조동사 앞, la vérité(여성)가 앞 → dite.", "src": "semaine 12-2 p.8", "star": true },
+    { "id": "u5-09-t-e-leur-pense", "t": "type", "skill": "pron-tonic", "prompt": "[V 오류 모두 고치기] Tu penses souvent à tes parents ? — 답의 오류를 고치세요 (오류 1개)", "q": "Oui, je leur pense souvent.", "a": "Oui, je pense souvent à eux.", "alts": ["Oui, je pense souvent à eux", "Oui, je pense à eux souvent."], "hint": "penser à + 사람은 예외 동사!", "explain": "semaine 11-3 p.13 그대로. penser à + 사람 → à + 강세형 (lui/leur ✗).", "src": "semaine 11-3 p.13", "star": true },
+    { "id": "u5-09-t-e-men-interesse", "t": "type", "skill": "pron-en-y", "prompt": "[V 오류 모두 고치기] Tu t'intéresses à la culture française ? — 답의 오류를 모두 고치세요 (오류 2개)", "q": "Non, je ne m'en interesse pas.", "a": "Non, je ne m'y intéresse pas.", "alts": ["Non, je ne m'y intéresse pas"], "hint": "오류 2개: 전치사에 맞는 대명사 / 철자(악센트)", "explain": "semaine 12-1 p.16 ✍️ '시험에 나옴!!'. s'intéresser à → y, 철자 in-té-res-ser.", "src": "semaine 12-1 p.16", "star": true },
+    { "id": "u5-09-t-e-leverions", "t": "type", "skill": "conditionnel", "prompt": "[V 오류 모두 고치기] 오류를 모두 고쳐 문장을 다시 쓰세요 (오류 2개)", "q": "Nous nous leverions tôt si nous habiterions près d'ici.", "a": "Nous nous lèverions tôt si nous habitions près d'ici.", "alts": ["Nous nous lèverions tôt si nous habitions près d'ici"], "hint": "오류 2개: lever 어간 악센트 / si 뒤 시제", "explain": "11-1 '…si nous habitions plus près' 변형. lever → lèverions(è), si + 반과거 habitions.", "src": "semaine 11-1 p.16" },
+    { "id": "u5-09-t-e-dy-plaque", "t": "type", "skill": "pron-en-y", "prompt": "[V 오류 모두 고치기] 오류를 모두 고쳐 문장을 다시 쓰세요 (오류 2개)", "q": "Ah, du chocolat, n'oublie pas d'y acheter un plaque !", "a": "Ah, du chocolat, n'oublie pas d'en acheter une plaque !", "alts": ["Ah, du chocolat, n'oublie pas d'en acheter une plaque", "N'oublie pas d'en acheter une plaque !"], "hint": "오류 2개: du chocolat를 받는 대명사 / 명사 성별", "explain": "semaine 12-2 p.21 대화문 그대로에 오류 2개. de + 명사 → en, plaque는 여성 → une.", "src": "semaine 12-2 p.21" },
+
+    { "id": "u5-09-b-lui-en", "t": "build", "skill": "pron-en-y", "prompt": "[VI 배열] As-tu envoyé beaucoup de cadeaux à ton copain ? — 답을 배열하세요", "ko": "응, 걔한테 그거 많이 보냈어.", "a": "Oui, je lui en ai envoyé beaucoup.", "alts": ["Oui, je lui en ai beaucoup envoyé."], "extra": ["y", "les"], "hint": "대명사 두 개 순서 → 조동사 → 과거분사", "explain": "semaine 12-2 p.8 ✍️ '이거 좀 어려움 중요'. lui → en → ai envoyé (y en ✗, les lui ✗).", "src": "semaine 12-2 p.8", "star": true },
+    { "id": "u5-09-b-me-la-dite", "t": "build", "skill": "pron-en-y", "prompt": "[VI 배열] Est-ce qu'il a dit la vérité à toi ? — 답을 배열하세요", "ko": "응, 그가 나한테 그걸 말했어.", "a": "Oui, il me l'a dite.", "extra": ["dit", "m'a"], "hint": "me → la 순서, 둘 다 조동사 앞. 일치도!", "explain": "semaine 12-2 p.8 정답 1번. la vérité(여성 COD)가 앞 → dite.", "src": "semaine 12-2 p.8", "star": true },
+    { "id": "u5-09-b-moi-qui-vais", "t": "build", "skill": "emphatique", "prompt": "[VI 배열] 단어를 바르게 배열하세요", "ko": "좋아, 오늘은 내가 시장 갈게.", "a": "Bon, c'est moi qui vais au marché aujourd'hui.", "extra": ["que", "va"], "hint": "주어 강조 구문, 동사 인칭은 강조된 사람", "explain": "semaine 12-2 p.18 대화문 그대로. C'est moi qui + vais (je형).", "src": "semaine 12-2 p.18", "star": true },
+    { "id": "u5-09-b-courses", "t": "build", "skill": "conditionnel", "prompt": "[VI 배열] 단어를 바르게 배열하세요", "ko": "시간이 있으면 내가 장을 볼 텐데.", "a": "Si j'avais le temps, je ferais les courses.", "extra": ["ferai", "aurais"], "hint": "si 절(반과거) → 쉼표 → 결과절(조건법)", "explain": "semaine 11-1 p.14 · 12-2 p.17 그대로. ferai(미래)·aurais(si 뒤 ✗)는 함정.", "src": "semaine 12-2 p.17", "star": true },
+    { "id": "u5-09-b-men-ferais", "t": "build", "skill": "pronominal", "prompt": "[VI 배열] 단어를 바르게 배열하세요", "ko": "내가 너라면 걱정 안 할 텐데.", "a": "Si j'étais toi, je ne m'en ferais pas.", "extra": ["serais", "fais"], "hint": "Si + 반과거, 결과는 대명동사 부정 (ne + 덩어리 + pas)", "explain": "11-2 p.14 'Si j'étais toi' + 12-2 p.21 's'en faire' 결합. ne m'en ferais pas.", "src": "semaine 11-2 p.14" },
+    { "id": "u5-09-b-ce-sont-parents", "t": "build", "skill": "emphatique", "prompt": "[VI 배열] 단어를 바르게 배열하세요", "ko": "네 월세를 낸 건 바로 네 부모님이야.", "a": "Ce sont tes parents qui ont payé ton loyer.", "extra": ["que", "payés"], "hint": "강조 대상이 복수 → c'est가 바뀌어요. p.p. 일치는?", "explain": "semaine 12-1 p.7 그대로(의문 → 평서). 복수 → Ce sont, avoir + COD 뒤 → payé.", "src": "semaine 12-1 p.7" },
+
+    { "id": "u5-09-c-r-lea", "t": "choice", "skill": "conditionnel", "prompt": "[VII 독해] 읽고 맞는 것을 고르세요", "q": "Léa est étudiante et elle n'a pas beaucoup d'argent. Si elle avait de l'argent, elle achèterait une maison à la campagne. Pour l'instant, elle habite dans un petit studio.", "a": "레아는 지금 작은 원룸에 살고, 시골 집은 상상일 뿐이다.", "wrong": ["레아는 시골에 집을 한 채 샀다.", "레아는 돈이 생겨서 곧 시골 집으로 이사한다.", "레아는 예전에 시골 집에 살았다."], "hint": "Si + 반과거 … 조건법 = 현실인가?", "explain": "11-1 p.14 'Si j'avais de l'argent…' 구조. 조건법 achèterait = 사실이 아닌 상상.", "src": "semaine 11-1 p.14", "say": "" },
+    { "id": "u5-09-c-r-paul", "t": "choice", "skill": "emphatique", "prompt": "[VII 독해] 읽고 맞는 것을 고르세요", "q": "Hier, Sophie est allée au marché avec sa mère. Le soir, elle dit à Julie : « C'est Paul que j'ai vu au marché ! Mais c'est ma mère qui l'a vu la première. »", "a": "소피와 엄마가 폴을 봤고, 먼저 본 사람은 엄마다.", "wrong": ["폴이 시장에서 소피를 먼저 봤다.", "소피가 먼저 폴을 봤고 엄마는 못 봤다.", "줄리가 시장에서 폴을 봤다."], "hint": "que 뒤의 주어가 '보는 사람', qui 앞이 '하는 사람'", "explain": "11-2 p.21 'C'est Valérie que François a vue' 구조. que j'ai vu → 내가 폴을 봤다, ma mère qui → 엄마가.", "src": "semaine 11-2 p.21", "say": "" },
+    { "id": "u5-09-c-r-manif", "t": "choice", "skill": "conditionnel", "prompt": "[VII 독해] 읽고 맞는 것을 고르세요", "q": "Selon les médias, il y aurait une manifestation samedi à Paris. Thomas voulait aller au musée ce jour-là. Sa mère lui dit : « Tu devrais y aller dimanche. »", "a": "시위 소식은 확인되지 않았고, 엄마는 박물관에 일요일에 가라고 충고한다.", "wrong": ["토요일 시위는 확실히 열린다고 발표됐다.", "엄마는 토마에게 토요일에 시위에 가라고 한다.", "토마는 일요일에 시위에 갈 것이다."], "hint": "aurait = 어떤 정보? devrais = 어떤 용법? y = 어디?", "explain": "11-1 p.13 '확인 안 된 정보' + p.12 충고 devoir. y = au musée.", "src": "semaine 11-1 p.13", "say": "" },
+
+    { "id": "u5-09-b-w-argent", "t": "build", "skill": "conditionnel", "prompt": "[VIII 작문] 문장을 만드세요", "ko": "내가 돈이 많다면 프랑스를 여행할 텐데.", "a": "Si j'avais beaucoup d'argent, je voyagerais en France.", "extra": ["aurais", "voyagerai"], "hint": "작문 첫 문장 뼈대: Si + 반과거, 주어 + 조건법", "explain": "작문 모범문 1번. 11-1 p.14 'Si j'avais de l'argent, je voyagerais' + beaucoup d'.", "src": "semaine 11-1 p.14", "star": true },
+    { "id": "u5-09-b-w-matin", "t": "build", "skill": "pronominal", "prompt": "[VIII 작문] 문장을 만드세요", "ko": "아침에 나는 일찍 일어나지 않을 텐데.", "a": "Le matin, je ne me lèverais pas tôt.", "extra": ["lèverai", "se"], "hint": "시간대엔 관사, 대명동사 부정은 덩어리째 감싸기", "explain": "작문 모범문 3번. 중간고사 VIII(me 누락)·IV-1(부정 위치) 약점을 한 문장에.", "src": "중간고사 분석" },
+    { "id": "u5-09-b-w-art", "t": "build", "skill": "pron-en-y", "prompt": "[VIII 작문] 문장을 만드세요 (거기 = 루브르 박물관)", "ko": "나는 미술에 관심이 있어서 거기에 오래 있을 텐데.", "a": "Je m'intéresse à l'art, donc j'y resterais longtemps.", "extra": ["en", "resterai"], "hint": "s'intéresser + 전치사, 장소는 대명사로 동사 앞", "explain": "작문 모범문 6번. 12-1 p.16 ✍️ '시험에 나옴!!' s'intéresser à + 장소 y + 조건법.", "src": "semaine 12-1 p.16" },
+    { "id": "u5-09-b-w-soir", "t": "build", "skill": "emphatique", "prompt": "[VIII 작문] 문장을 만드세요", "ko": "저녁엔 (다른 사람 말고) 내가 식당을 고를 텐데.", "a": "Le soir, c'est moi qui choisirais le restaurant.", "extra": ["choisirait", "que"], "hint": "주어 강조 구문 + 조건법, 동사는 je형", "explain": "작문 모범문 7번. 12-1 p.8 'c'est moi qui ai payé' 구조를 조건법으로: moi qui choisirais.", "src": "semaine 12-1 p.8" }
+  ]
+}

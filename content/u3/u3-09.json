@@ -1,0 +1,703 @@
+{
+  "id": "u3-09",
+  "unit": "u3",
+  "title": "📝 중간고사 리뷰 — 오답 다시 풀기",
+  "emoji": "📝",
+  "date": "2026-10-27",
+  "sources": ["중간고사 (10/21)", "중간고사 분석 (오답노트)"],
+  "tips": [
+    {
+      "h": "① 대명동사 — 재귀대명사는 동사에 붙은 한 덩어리",
+      "b": "부정: ne + **s'est** + pas + p.p. (se n'est ✗)\n시제가 바뀌어도 안 빠짐: je **me** réveillerai\n복합과거 조동사는 항상 **être**: se lave → **s'est** lavé"
+    },
+    {
+      "h": "② 명령형 인칭 — 원문 주어를 먼저 본다",
+      "rows": [
+        ["Vous n'avez pas peur.", "N'**ayez** pas peur !"],
+        ["Tu as peur.", "N'**aie** pas peur !"],
+        ["Tu parles. (평서문)", "-s 유지"],
+        ["Parle ! (-er 명령)", "-s 탈락은 여기뿐"]
+      ]
+    },
+    {
+      "h": "③ 듣기 빈칸 — 문법상 꼭 있어야 할 자리 채우기",
+      "b": "avoir un accident → elle **a eu** un accident ('아 위' 한 덩어리)\nde moins en moins **de** + 명사 (명사 앞 de)"
+    },
+    {
+      "h": "④ 배열 — 조동사+p.p.부터 붙이기",
+      "b": "J'ai **gagné** autant d'argent … (ai와 gagné 사이에 명사 ✗)\nque + 자음(l'année) → **que** 그대로 (qu'l' ✗)\n공식: 주어+조동사+p.p. → 비교 뼈대 → 시간 표현 → 엘리지옹"
+    },
+    {
+      "h": "오류 고치기: 오류가 몇 개인지 먼저 세기",
+      "b": "지시문이 *toutes les erreurs* → 하나 고치고 멈추지 말 것.\n문장마다 **동사 활용 → 분사·p.p. 일치 → 관사·전치사** 순서로 끝까지 다시 보기."
+    }
+  ],
+  "fixes": [
+    { "where": "중간고사 IV-1", "was": "mon père se n'est pas promené", "now": "mon père ne s'est pas promené", "why": "재귀대명사+조동사(s'est)는 한 덩어리 → ne…pas가 바깥을 감쌈" },
+    { "where": "중간고사 IV-2", "was": "N'aie pas peur ! (원문 Vous n'avez pas peur.)", "now": "N'ayez pas peur !", "why": "원문 주어가 vous → vous 명령형 ayez" },
+    { "where": "중간고사 V-3", "was": "tu parle en dormant (dorment만 고침)", "now": "Tu parles en dormant.", "why": "오류 2개: 평서문 tu → -s, 제롱디프 en + -ant" },
+    { "where": "중간고사 VI-2", "was": "J'ai autant d'argent gagné cette année qu'l'année dernière.", "now": "J'ai gagné autant d'argent cette année que l'année dernière.", "why": "조동사+p.p. 붙이기(목적어는 뒤) · que 뒤가 자음 l이라 엘리지옹 ✗" },
+    { "where": "중간고사 VIII 작문", "was": "Je réveillerai à neuf heures.", "now": "Je me réveillerai à neuf heures.", "why": "se réveiller — 미래에서도 재귀대명사 me 필수" },
+    { "where": "중간고사 IV-4 (감점 없음)", "was": "Elle se lavé les mains.", "now": "Elle s'est lavé les mains.", "why": "대명동사 복합과거엔 조동사 être(est)가 꼭 필요. les mains가 뒤라 일치 ✗는 맞았음" },
+    { "where": "중간고사 VIII 작문 (감점 없음)", "was": "Ce sera le 21 octobre, 2036.", "now": "Ce sera le 21 octobre 2036.", "why": "날짜 사이에 쉼표 없음" },
+    { "where": "중간고사 VIII 작문 (감점 없음)", "was": "Après-midi, je coucherai ma fille", "now": "Le soir (또는 L'après-midi), je coucherai ma fille", "why": "시간대엔 정관사. 딸을 재우는 건 저녁이 자연스러움" },
+    { "where": "중간고사 VIII 작문 (감점 없음)", "was": "je coucherai ma fille et boirons de la bière avec ma femme", "now": "je coucherai ma fille et boirai de la bière avec ma femme / puis ma femme et moi boirons de la bière", "why": "주어 je 하나에 nous형 boirons — 주어·동사 불일치" },
+    { "where": "중간고사 VIII 작문 (감점 없음)", "was": "nous mangerons le petit-déjeuner", "now": "nous prendrons le petit-déjeuner", "why": "수업(과제 Sophie) 표현은 prendre le/un petit-déjeuner" }
+  ],
+  "note": [
+    {
+      "h": "점수 구조 — 어디서 3.3점이 빠졌나",
+      "skill": "pronominal",
+      "src": ["중간고사 (10/21)", "중간고사 분석 §1"],
+      "body": [
+        { "p": "**21.7 / 25 + 보너스 0.5 = 22.2.** 범위 Leçon 9–11 (semaine 3–7). 10/27 수업에서 채점 시험지를 돌려받아 리뷰." },
+        { "table": [
+          ["대문항", "감점", "원인"],
+          ["I-2 듣기", "−0.5", "**a eu** 못 들음 (빈칸 비움)"],
+          ["I-4 듣기", "−0.3", "de moins en moins 뒤 **de** 누락"],
+          ["IV-1 변환", "−0.5", "se n'est pas → **ne s'est pas**"],
+          ["IV-2 변환", "−0.5", "vous 명령인데 aie → **ayez**"],
+          ["V-3 오류", "−0.5", "dormant만 고치고 **parles** 놓침"],
+          ["VI-2 배열", "−0.5", "**gagné**를 ai에서 뗌 + qu'l'année"],
+          ["VIII 작문", "−0.5", "je **me** réveillerai의 me 누락"],
+          ["합계", "−3.3", "21.7 → +0.5 → 22.2"]
+        ], "head": true },
+        { "memo": "감점 합(0.3 + 0.5×6)이 정확히 3.3 → **틀린 문항 하나당 −0.5, 철자 일부 −0.3**이 기본 단위로 보임. 작문은 보너스 +0.5도 받음(사유 표시 없음)." }
+      ]
+    },
+    {
+      "h": "오답 ① 대명동사 — 가장 큰 약점 (3문항)",
+      "skill": "pronominal",
+      "src": ["중간고사 IV-1 · IV-4 · VIII", "Quiz 2 II · III-8", "semaine 6-1"],
+      "body": [
+        { "table": [
+          ["문항", "내 답 ❌", "정답 ✅"],
+          ["IV-1 부정", "mon père se n'est pas promené", "mon père **ne s'est pas** promené"],
+          ["VIII 작문", "Je réveillerai à neuf heures", "Je **me** réveillerai à neuf heures"],
+          ["IV-4 복합과거 ⚠️", "Elle se lavé les mains", "Elle **s'est lavé** les mains"]
+        ], "head": true },
+        { "list": [
+          "재귀대명사(me/te/se)는 **동사(조동사)에 붙은 한 덩어리**",
+          "부정: ne + **s'est** + pas + p.p. — '네·스·빠' 순서. Ils **ne se sont pas** promenés.",
+          "시제가 바뀌어도 절대 안 빠짐: je **me** réveillerai · nous **nous** marierons · elle **se** lèvera",
+          "복합과거 조동사는 항상 **être**: se lave → s'**est** lavé · nous **nous sommes** lavé les mains",
+          "일치: les mains(COD)가 뒤 → lavé (-e ✗) / se가 직접목적어면 주어에 일치 → elle s'est **réveillée**, Marie et Sophie se sont **promenées**"
+        ] },
+        { "warn": "IV-4는 감점 표시가 없었지만 **틀린 답**(조동사 est 없음). 기말에선 깎일 수 있음." },
+        { "memo": "출처: Quiz 2 II(대명동사 부정 3번), 6-1 Vous vous lavez les mains, Quiz 2 III-8 Sophie s'est lavé les cheveux." }
+      ]
+    },
+    {
+      "h": "오답 ② 명령형 ↔ 현재형 인칭 (2문항)",
+      "skill": "imperatif",
+      "src": ["중간고사 IV-2 · V-3", "semaine 6-1 연습문제 4번", "semaine 5-3"],
+      "body": [
+        { "table": [
+          ["문항", "내 답 ❌", "정답 ✅", "핵심"],
+          ["IV-2 명령", "N'aie pas peur !", "N'**ayez** pas peur !", "원문 Vous n'avez pas peur → vous형"],
+          ["V-3 오류", "tu parle en dormant", "tu **parles** en dormant", "주어 tu가 보이면 -s"]
+        ], "head": true },
+        { "table": [
+          ["원문", "명령문"],
+          ["Vous n'avez pas peur.", "N'ayez pas peur !"],
+          ["Tu as peur. (부정 명령)", "N'aie pas peur !"],
+          ["Vous êtes patients.", "Soyez patients !"],
+          ["Tu te lèves.", "Lève-toi !"]
+        ], "head": true },
+        { "warn": "-s 탈락은 **주어 없는 -er 명령문만**: Parle ! ↔ Tu parles. / Tu vas (aller도 평서문은 -s)." },
+        { "memo": "IV-2는 **6-1 슬라이드 연습문제 4번이 그대로** 나옴. V-3은 오류 2개(parle → parles, dorment → dormant) 중 하나만 고치고 멈춰서 감점." }
+      ]
+    },
+    {
+      "h": "오답 ③ 듣기 빈칸의 짧은 기능어 (2문항)",
+      "skill": "pp",
+      "src": ["중간고사 I-2 · I-4", "Leçon 9 본문", "Leçon 11 본문", "semaine 7-3"],
+      "body": [
+        { "ex": [
+          ["Jeanne et moi, nous avons dû rester à Paris, parce qu'elle a eu un accident de voiture.", "잔과 나는 파리에 머물러야 했다, 그녀가 교통사고를 당해서."],
+          ["En utilisant des voitures électriques ou hybrides, on aura de moins en moins de pollution à l'avenir.", "전기차나 하이브리드차를 쓰면 앞으로 오염이 점점 줄 것이다."]
+        ] },
+        { "list": [
+          "I-2 **a eu** [a y] '아 위' — 자음이 없어 한 덩어리로 들림. avoir un accident → 복합과거 a **eu** un accident",
+          "I-4 de moins en moins **de** + 명사 (명사 앞 de). 동사 뒤엔 없음: Elle travaille de plus en plus.",
+          "들은 것만 쓰지 말고 **문법상 꼭 있어야 하는 자리**를 채운다"
+        ] },
+        { "memo": "두 문장 모두 교과서 본문에서: Leçon 9 Jean a eu un accident de voiture / Leçon 11 voitures électriques ou hybrides, de moins en moins de travail." }
+      ]
+    },
+    {
+      "h": "오답 ④ 배열 — 조동사+p.p. · 엘리지옹 (1문항)",
+      "skill": "elision",
+      "src": ["중간고사 VI-2", "Quiz 4 III", "semaine 7-1 · 7-3"],
+      "body": [
+        { "p": "문제 블록: ai / autant / année / année / la / cette / dernière / de / argent / Je / gagné / que" },
+        { "table": [
+          ["", "문장"],
+          ["내 답 ❌", "J'ai autant d'argent gagné cette année qu'l'année dernière."],
+          ["정답 ✅", "**J'ai gagné autant d'argent cette année que l'année dernière.**"]
+        ], "head": true },
+        { "list": [
+          "**조동사와 과거분사는 붙인다**: j'ai **gagné**. autant d'argent은 gagner의 목적어라 그 뒤",
+          "que 뒤가 **l'année**(자음 l) → que 그대로 (qu'l' ✗)",
+          "같은 단어 두 번(année) = 비교되는 두 시점: cette année ↔ l'année dernière",
+          "예외처럼 보이는 것: 짧은 부사 moins·plus·bien은 조동사와 p.p. 사이에 들어감 — nous avons **moins voyagé**"
+        ] },
+        { "p": "**조립 공식**: ① 주어 + 조동사 + p.p. → ② 비교 뼈대 autant/plus/moins **de** + 명사 + que → ③ 시간 표현 → ④ 엘리지옹 (j'ai, d'argent, l'année)." }
+      ]
+    },
+    {
+      "h": "시험지 구성 — 4쪽 · 25점 · 8개 대문항 (객관식 없음)",
+      "skill": "vocab",
+      "src": ["중간고사 (10/21)", "중간고사 분석 §3-1"],
+      "body": [
+        { "table": [
+          ["대문항", "지시문", "형식", "문항", "내 결과"],
+          ["I", "Écoutez et complétez les phrases.", "듣기 빈칸", "4", "2/4"],
+          ["II", "Écoutez et indiquez où vous arriverez …", "길 안내 듣기 → Ainsi, j'arriverai à ___.", "1", "✓"],
+          ["III", "Répondez à la question selon la situation de l'image.", "그림 상황 답하기", "3", "3/3"],
+          ["IV", "Transformez les phrases comme indiqué.", "변환 (부정/명령/미래/복합과거)", "4", "2/4 (+IV-4 ⚠️)"],
+          ["V", "Trouvez et corrigez toutes les erreurs …", "오류 **모두** 고치기 (문장당 1–2개)", "5", "4/5"],
+          ["VI", "Remettez les mots dans le bon ordre …", "배열 (엘리지옹 전 형태로 쪼갬)", "4", "3/4"],
+          ["VII", "Lisez le texte suivant et répondez …", "독해 (비교·최상급 순위)", "1", "✓"],
+          ["VIII", "Imaginez une journée de votre vie dans dix ans …", "작문 (단순미래, 최소 6문장, 3점)", "1", "−0.5 / +0.5"]
+        ], "head": true },
+        { "memo": "단순미래는 지시문에도 숨어 있음: Que répondra-t-elle ? · où vous arriverez · Ainsi, j'arriverai à … — 미래형이 자동으로 읽혀야 문제를 읽을 수 있다." }
+      ]
+    },
+    {
+      "h": "출제 패턴 — 거의 전부 슬라이드·교과서·퀴즈",
+      "skill": "vocab",
+      "src": ["중간고사 분석 §3-2 · §3-3"],
+      "body": [
+        { "table": [
+          ["문항", "시험 문장 (요지)", "출처 · 바꾼 방식"],
+          ["I-1", "Qu'est-ce que vous avez fait pendant les vacances ?", "Leçon 9 · 새 문장"],
+          ["I-2", "… parce qu'elle a eu un accident", "Leçon 9 본문 · 주어 교체 + devoir"],
+          ["I-3", "Pour aller au Mont-Saint-Michel ?", "Leçon 10 Pour aller au Panthéon ? · 장소만"],
+          ["I-4", "En utilisant … de moins en moins de pollution", "Leçon 11 + 7-3 + 5-3 · 두 단원 결합"],
+          ["III-1", "Merci pour l'information. → Il n'y a pas de quoi.", "3-1·3-2 · 그대로"],
+          ["III-2", "Qu'est-ce qu'il fait beau ! → Comme il fait beau !", "3-3 감탄문 · 그대로"],
+          ["III-3", "les toilettes se trouvent à côté du café", "5-2·5-3 위치 표현"],
+          ["IV-1", "s'est promené → ne s'est pas promené", "Quiz 2 II + Leçon 9 본문"],
+          ["IV-2", "Vous n'avez pas peur. → N'ayez pas peur !", "6-1 연습문제 4번 · 그대로"],
+          ["IV-3", "Mes amis m'écrivent → m'écriront", "7-1 · 주어만 교체"],
+          ["IV-4", "Elle se lave les mains → s'est lavé", "6-1 + Quiz 2 III-8 · 일치 함정"],
+          ["V-1", "Léa et Jeanne a trouvé … les ont regardé", "Quiz 2 III-12 · 오류 2개"],
+          ["V-2", "les plus bons restaurants à Normandie", "7-2 + 4-2 · 두 단원 결합, 오류 2개"],
+          ["V-3", "tu parle en dorment", "5-3 · 오류 2개"],
+          ["V-4", "Victor Hugo a né … a mort", "Leçon 9 Jeanne d'Arc · 인물 교체, 오류 2개"],
+          ["V-5", "Les clients n'avons pas de réservation", "5-1 · 그대로 + 오류 1개"],
+          ["VI-1", "Le train arrivant de Paris est en retard.", "5-1 · 그대로"],
+          ["VI-2", "J'ai gagné autant d'argent cette année que l'année dernière.", "Quiz 4 + 7-1 + 7-3 · 결합"],
+          ["VI-3", "Étant malades, mes parents ne sont pas allés au travail.", "5-1 · 복수로 일치 함정"],
+          ["VI-4", "Lève-toi plus tôt demain qu'hier !", "6-1 + 7-1 + 7-3 · 세 단원 결합"],
+          ["VII", "Jean·François·Marie·Louise·Alex 달리기 순위", "7-2·7-3 최상급 인물 · 새 지문"],
+          ["VIII", "10년 후 하루 (단순미래)", "10/8 Production écrite II · 지시문 그대로"]
+        ], "head": true },
+        { "list": [
+          "**슬라이드 예문·연습문제·퀴즈가 그대로 혹은 한 단어만** 바뀌어 나온다 (IV-2, V-5, VI-1, III-1, VIII) → 예문은 문장째 외울 가치",
+          "바꾸는 방식 ① 주어/수를 바꿔 **일치 함정** (VI-3 malades·allés, I-2, IV-3)",
+          "바꾸는 방식 ② **두세 단원 결합** (I-4, V-2, VI-4)",
+          "바꾸는 방식 ③ **오류 2개 심기** (V번: 동사 활용 + 분사/관사/전치사)",
+          "복합과거(Leçon 9) 비중 최대: 23문항 중 8문항, 그중 대명동사 IV-1·IV-4 (+VIII, VI-4)",
+          "현재분사·제롱디프 5문항 (I-4, V-3, V-5, VI-1, VI-3) — 전부 5-1~5-3 예문",
+          "VII 독해 = 비교급 문장 5개로 순위 세우기 → 부등호(>)로 바꿔 적으면 바로 풀림"
+        ] }
+      ]
+    },
+    {
+      "h": "작문에서 고칠 것 (감점 없던 것 포함)",
+      "skill": "futur",
+      "src": ["중간고사 VIII", "중간고사 분석 §2-E"],
+      "body": [
+        { "table": [
+          ["내가 쓴 것", "더 나은 형태", "이유"],
+          ["Je réveillerai à neuf heures.", "Je **me** réveillerai à neuf heures.", "재귀대명사 필수 (−0.5)"],
+          ["Ce sera le 21 octobre, 2036.", "Ce sera le 21 octobre 2036.", "날짜 사이 쉼표 없음"],
+          ["Après-midi, je coucherai ma fille", "**Le soir** / **L'après-midi**, je coucherai ma fille", "시간대엔 정관사, 재우는 건 저녁"],
+          ["je coucherai ma fille et boirons de la bière", "… et **boirai** de la bière / puis **ma femme et moi boirons** …", "주어 je에 nous형 — 불일치"],
+          ["nous mangerons le petit-déjeuner", "nous **prendrons** le petit-déjeuner", "수업 표현 prendre le petit-déjeuner"]
+        ], "head": true },
+        { "warn": "작문 지시문은 **최소 6문장**(au moins six phrases, 3점). 과제 때(7문장)보다 하나 적게 씀." }
+      ]
+    },
+    {
+      "h": "기말 대비 체크리스트 — 같은 형식이 반복된다고 보고",
+      "skill": "vocab",
+      "src": ["중간고사 분석 §3-4 · §5"],
+      "body": [
+        { "table": [
+          ["대문항", "대비 방법"],
+          ["I 듣기 빈칸", "새 Leçon 본문 문장 받아쓰기. 특히 a eu · de · en 같은 단음절"],
+          ["II 듣기", "길 안내가 범위에 없으면 다른 듣기 과제로 바뀔 수 있음 — 수업에서 '시험에 중요'라 한 활동 확인"],
+          ["III 그림", "수업 표현(인사·감사·감탄·위치)을 상황별로 한 문장씩"],
+          ["IV 변환", "새 시제가 나오면 그 시제로 **부정 / 명령 / 대명동사** 바꿔 보기"],
+          ["V 오류", "예문을 2군데 틀리게 바꿔 놓고 찾기 — **고칠 곳이 더 있는지** 끝까지"],
+          ["VI 배열", "조동사+p.p. → 비교 뼈대 → 시간 표현 순서로 조립"],
+          ["VII 독해", "비교·최상급 문장을 부등호로"],
+          ["VIII 작문", "새 문법 작문 과제 = 시험 주제일 가능성 큼. 6문장 뼈대 외우기"]
+        ], "head": true },
+        { "list": [
+          "☐ 대명동사: 부정 위치(ne s'est pas) · 재귀대명사 유지(me réveillerai) · 조동사 être(s'est lavé)",
+          "☐ 명령형 인칭: 원문 주어 확인 (ayez / aie · Soyez) · 평서문 tu는 -s",
+          "☐ 듣기: 문법상 필요한 단음절(eu, de) 채우기",
+          "☐ 배열: 조동사+p.p. 붙이기 · que/qu' 판단",
+          "☐ 오류 고치기: **오류 개수부터 세기**"
+        ] },
+        { "memo": "감점 없던 영역: 감탄문·감사 응답·위치(III), 단순미래 변환(IV-3), 현재분사 배열(VI-1, VI-3), 비교 독해(VII), 길 안내 듣기(II)." }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "u3-09-t-i1-avez-fait", "t": "type", "skill": "aux",
+      "prompt": "[I 듣기 빈칸] 듣고 빈칸을 쓰세요",
+      "q": "Qu'est-ce que vous ___ pendant les vacances ?",
+      "a": "avez fait",
+      "dictate": "Qu'est-ce que vous avez fait pendant les vacances ?",
+      "ko": "방학 동안 뭐 하셨어요?",
+      "hint": "복합과거 — vous의 조동사 + faire의 과거분사",
+      "explain": "중간고사 I-1. avoir(vous) + fait. Leçon 9 방학 이야기(복합과거).",
+      "src": "중간고사 I-1"
+    },
+    {
+      "id": "u3-09-t-i2-a-eu", "t": "type", "skill": "pp",
+      "prompt": "[I 듣기 빈칸] 듣고 빈칸을 쓰세요",
+      "q": "Jeanne et moi, nous avons dû rester à Paris, parce qu'elle ___ un accident de voiture.",
+      "a": "a eu",
+      "dictate": "Jeanne et moi, nous avons dû rester à Paris, parce qu'elle a eu un accident de voiture.",
+      "ko": "잔과 나는 파리에 머물러야 했다, 그녀가 교통사고를 당해서.",
+      "hint": "avoir un accident의 복합과거 — 자음 없이 붙어 들리는 두 음절",
+      "explain": "시험에서 비운 칸(−0.5). [a y] '아 위'. Leçon 9 본문 Jean a eu un accident의 주어 교체.",
+      "pron": "[아 위]",
+      "star": true, "src": "중간고사 I-2"
+    },
+    {
+      "id": "u3-09-t-i3-pour-aller", "t": "type", "skill": "localisation",
+      "prompt": "[I 듣기 빈칸] 듣고 빈칸을 쓰세요",
+      "q": "___ au Mont-Saint-Michel ?",
+      "a": "Pour aller",
+      "dictate": "Pour aller au Mont-Saint-Michel ?",
+      "ko": "몽생미셸에 가려면요?",
+      "hint": "길 묻기: '~에 가려면?' (목적의 전치사 + 동사 원형)",
+      "explain": "중간고사 I-3. Leçon 10 본문 Pour aller au Panthéon ?에서 장소만 바꿈.",
+      "src": "중간고사 I-3"
+    },
+    {
+      "id": "u3-09-t-i4-de", "t": "type", "skill": "comparatif",
+      "prompt": "[I 듣기 빈칸] 듣고 빈칸을 쓰세요",
+      "q": "En utilisant des voitures électriques ou hybrides, on aura de moins en moins ___ pollution à l'avenir.",
+      "a": "de",
+      "dictate": "En utilisant des voitures électriques ou hybrides, on aura de moins en moins de pollution à l'avenir.",
+      "ko": "전기차나 하이브리드차를 쓰면 앞으로 오염이 점점 줄 것이다.",
+      "hint": "뒤에 명사가 온다 — '점점 덜' 다음에 꼭 필요한 한 단어",
+      "explain": "시험에서 빠뜨림(−0.3). 명사 앞이면 de moins en moins de + 명사. Leçon 11 본문 + 5-3 제롱디프 결합.",
+      "star": true, "src": "중간고사 I-4"
+    },
+    {
+      "id": "u3-09-c-iii1-pas-de-quoi", "t": "choice", "skill": "greet",
+      "prompt": "[III 상황] 길을 알려 줬더니 상대가 이렇게 말해요. 알맞은 대답은?",
+      "q": "Merci pour l'information.",
+      "a": "Il n'y a pas de quoi.",
+      "wrong": ["Merci beaucoup !", "Je vous remercie.", "Excusez-moi."],
+      "say": "Il n'y a pas de quoi.",
+      "hint": "고맙다는 말에 '천만에요'로 받는 표현",
+      "explain": "중간고사 III-1 — 3-1·3-2 슬라이드 문장 그대로. De rien / Je vous en prie도 같은 계열.",
+      "src": "중간고사 III-1"
+    },
+    {
+      "id": "u3-09-c-iii2-comme", "t": "choice", "skill": "exclam",
+      "prompt": "[III 상황] 같은 뜻의 다른 감탄문으로 바꾸면?",
+      "q": "Qu'est-ce qu'il fait beau aujourd'hui !",
+      "a": "Comme il fait beau aujourd'hui !",
+      "wrong": ["Combien il fait beau aujourd'hui !", "Comment il fait beau aujourd'hui !", "Quel il fait beau aujourd'hui !"],
+      "say": "Comme il fait beau aujourd'hui !",
+      "hint": "문장 전체를 감탄하는 말 — quel은 명사 앞에만",
+      "explain": "중간고사 III-2 — 3-3 감탄문 표 그대로. Qu'est-ce que / Que / Comme + 문장.",
+      "src": "중간고사 III-2"
+    },
+    {
+      "id": "u3-09-c-iii3-a-cote-du", "t": "choice", "skill": "localisation",
+      "prompt": "[III 상황] 그림: 화장실이 카페 바로 옆에 있어요",
+      "q": "Les toilettes se trouvent à côté ___ café.",
+      "a": "du", "wrong": ["de le", "de la", "au"],
+      "ko": "화장실은 카페 옆에 있다.",
+      "hint": "à côté de + le café → 축약형은?",
+      "explain": "중간고사 III-3. de + le = du (de le ✗). 5-2·5-3 위치 표현.",
+      "src": "중간고사 III-3"
+    },
+    {
+      "id": "u3-09-t-iv1-ne-s-est-pas", "t": "type", "skill": "pronominal",
+      "prompt": "[IV 변환] 부정문으로 바꾸세요",
+      "q": "Mon père s'est promené.",
+      "a": "Mon père ne s'est pas promené.",
+      "alts": ["ne s'est pas promené"],
+      "ko": "아버지는 산책하지 않았다.",
+      "hint": "재귀대명사+조동사는 한 덩어리 — 부정어는 그 바깥에",
+      "explain": "시험 답 se n'est pas(−0.5). ne + s'est + pas + p.p. Quiz 2 II 유형 그대로.",
+      "star": true, "src": "중간고사 IV-1"
+    },
+    {
+      "id": "u3-09-t-iv2-n-ayez", "t": "type", "skill": "imperatif",
+      "prompt": "[IV 변환] 명령문으로 바꾸세요",
+      "q": "Vous n'avez pas peur.",
+      "a": "N'ayez pas peur !",
+      "alts": ["N'ayez pas peur"],
+      "ko": "두려워하지 마세요!",
+      "hint": "원문 주어가 vous — avoir의 vous 명령형(불규칙)",
+      "explain": "시험 답 N'aie(−0.5) = tu형. 6-1 연습문제 4번이 그대로 출제.",
+      "star": true, "src": "중간고사 IV-2"
+    },
+    {
+      "id": "u3-09-t-iv3-ecriront", "t": "type", "skill": "futur",
+      "prompt": "[IV 변환] 단순미래로 바꾸세요",
+      "q": "Mes amis m'écrivent bientôt.",
+      "a": "Mes amis m'écriront bientôt.",
+      "alts": ["m'écriront bientôt"],
+      "ko": "친구들이 곧 나에게 편지할 것이다.",
+      "hint": "écrire 미래 어간 = 원형에서 끝 e 빼기 + ils 어미",
+      "explain": "중간고사 IV-3 (맞힘). 7-1 Ils ne m'écrivent pas → écriront에서 주어만 바꿈.",
+      "src": "중간고사 IV-3"
+    },
+    {
+      "id": "u3-09-t-iv4-s-est-lave", "t": "type", "skill": "pronominal",
+      "prompt": "[IV 변환] 복합과거로 바꾸세요",
+      "q": "Elle se lave les mains.",
+      "a": "Elle s'est lavé les mains.",
+      "alts": ["s'est lavé les mains"],
+      "ko": "그녀는 손을 씻었다.",
+      "hint": "대명동사의 조동사는? 직접목적어(les mains)가 뒤에 있으면 일치는?",
+      "explain": "시험 답 se lavé — 조동사 est가 빠짐(감점 표시는 없었음). les mains가 뒤라 lavé (-e ✗).",
+      "star": true, "src": "중간고사 IV-4"
+    },
+    {
+      "id": "u3-09-t-v1-lea-jeanne", "t": "type", "skill": "agreement",
+      "prompt": "[V 오류] 오류를 모두 고쳐 문장을 다시 쓰세요 (오류 2개)",
+      "q": "Léa et Jeanne a trouvé ces photos. Elles les ont regardé ensemble.",
+      "a": "Léa et Jeanne ont trouvé ces photos. Elles les ont regardées ensemble.",
+      "alts": ["Léa et Jeanne ont trouvé ces photos. Elles les ont regardées ensemble"],
+      "hint": "오류 2개: 주어 수에 맞는 조동사 + 앞에 나온 les와의 일치",
+      "explain": "a → ont, les(=ces photos, 여성 복수) → regardées. 시험지에서 확인된 건 두 오류뿐 — 문장은 Quiz 2 III-12에 맞춰 재구성.",
+      "src": "중간고사 V-1 (재구성)"
+    },
+    {
+      "id": "u3-09-t-v2-meilleurs", "t": "type", "skill": "superlatif",
+      "prompt": "[V 오류] 오류를 모두 고쳐 문장을 다시 쓰세요 (오류 2개)",
+      "q": "Voici les plus bons restaurants à Normandie.",
+      "a": "Voici les meilleurs restaurants en Normandie.",
+      "alts": ["Voici les meilleurs restaurants en Normandie"],
+      "hint": "오류 2개: bon의 최상급(불규칙) + 여성 지역명 앞 전치사",
+      "explain": "plus bons ✗ → meilleurs, la Normandie → en. 7-2 Voici les meilleurs restaurants à Séoul + 4-2 결합 (문장 앞부분은 재구성).",
+      "src": "중간고사 V-2 (재구성)"
+    },
+    {
+      "id": "u3-09-t-v3-parles-dormant", "t": "type", "skill": "gerondif",
+      "prompt": "[V 오류] 오류를 모두 고쳐 문장을 다시 쓰세요 (오류 2개)",
+      "q": "Tu parle en dorment.",
+      "a": "Tu parles en dormant.",
+      "alts": ["Tu parles en dormant"],
+      "ko": "너는 자면서 말한다(잠꼬대한다).",
+      "hint": "오류 2개: 주어 tu의 동사 어미 + 제롱디프 어미",
+      "explain": "시험에선 dormant만 고치고 parles를 놓침(−0.5). 평서문 tu → -s, en + -ant. 5-3 예문 그대로.",
+      "star": true, "src": "중간고사 V-3"
+    },
+    {
+      "id": "u3-09-t-v4-est-ne", "t": "type", "skill": "aux",
+      "prompt": "[V 오류] 오류를 모두 고쳐 문장을 다시 쓰세요 (오류 2개)",
+      "q": "Victor Hugo a né en 1802 et il a mort en 1885.",
+      "a": "Victor Hugo est né en 1802 et il est mort en 1885.",
+      "alts": ["Victor Hugo est né en 1802 et il est mort en 1885"],
+      "ko": "빅토르 위고는 1802년에 태어나 1885년에 죽었다.",
+      "hint": "오류 2개: 태어나다·죽다의 조동사는?",
+      "explain": "naître·mourir는 être 조동사. Leçon 9 Jeanne d'Arc est née … est morte에서 인물만 교체 (연도는 재구성).",
+      "src": "중간고사 V-4 (재구성)"
+    },
+    {
+      "id": "u3-09-t-v5-n-ayant", "t": "type", "skill": "part-pres",
+      "prompt": "[V 오류] 오류를 모두 고쳐 문장을 다시 쓰세요 (오류 1개)",
+      "q": "Les clients n'avons pas de réservation peuvent attendre ici.",
+      "a": "Les clients n'ayant pas de réservation peuvent attendre ici.",
+      "alts": ["Les clients n'ayant pas de réservation peuvent attendre ici"],
+      "ko": "예약이 없는 손님들은 여기서 기다리시면 됩니다.",
+      "hint": "명사(Les clients)를 뒤에서 꾸미는 형태여야 해요",
+      "explain": "5-1 예문 그대로. 주어를 꾸미는 건 현재분사 ayant (= qui n'ont pas).",
+      "src": "중간고사 V-5"
+    },
+    {
+      "id": "u3-09-b-vi1-train", "t": "build", "skill": "part-pres",
+      "prompt": "[VI 배열] 단어를 바른 순서로",
+      "ko": "파리에서 오는 기차가 연착이다.",
+      "a": "Le train arrivant de Paris est en retard.",
+      "extra": ["arrive", "arrivé"],
+      "hint": "명사 뒤에서 꾸미는 -ant 형태",
+      "explain": "중간고사 VI-1 — 5-1 예문 그대로 (맞힘).",
+      "src": "중간고사 VI-1"
+    },
+    {
+      "id": "u3-09-b-vi2-gagne", "t": "build", "skill": "comparatif",
+      "prompt": "[VI 배열] 단어를 바른 순서로",
+      "ko": "나는 올해 작년만큼 돈을 벌었다.",
+      "a": "J'ai gagné autant d'argent cette année que l'année dernière.",
+      "extra": ["qu'", "de"],
+      "hint": "조동사+과거분사를 먼저 붙이고 → autant … que 뼈대",
+      "explain": "시험 답 J'ai autant d'argent gagné … qu'l'année(−0.5). p.p.는 ai에 붙이고, que + 자음 l은 엘리지옹 ✗.",
+      "star": true, "src": "중간고사 VI-2"
+    },
+    {
+      "id": "u3-09-b-vi3-etant", "t": "build", "skill": "part-pres",
+      "prompt": "[VI 배열] 단어를 바른 순서로",
+      "ko": "부모님이 아프셔서 출근하지 않으셨다.",
+      "a": "Étant malades, mes parents ne sont pas allés au travail.",
+      "extra": ["malade", "allé"],
+      "hint": "주어가 복수 — 형용사와 과거분사 일치 확인",
+      "explain": "5-1 Étant malade, il n'est pas allé au travail을 복수로 바꾼 일치 함정 → malades · allés (맞힘).",
+      "src": "중간고사 VI-3"
+    },
+    {
+      "id": "u3-09-b-vi4-leve-toi", "t": "build", "skill": "imperatif",
+      "prompt": "[VI 배열] 단어를 바른 순서로",
+      "ko": "내일은 어제보다 일찍 일어나!",
+      "a": "Lève-toi plus tôt demain qu'hier !",
+      "extra": ["que", "Lève-te"],
+      "hint": "tu 명령 대명동사 + 비교 + 모음(h 묵음) 앞 엘리지옹",
+      "explain": "6-1 Lève-toi + 7-1 비교 + 7-3 시간 표현 결합. hier는 h 묵음 → qu'hier.",
+      "src": "중간고사 VI-4"
+    },
+    {
+      "id": "u3-09-c-vii-premier", "t": "choice", "skill": "comparatif",
+      "prompt": "[VII 독해] 지문을 읽고 답하세요: Qui est arrivé le premier ?",
+      "q": "Jean a couru plus vite que François. François a été plus rapide qu'Alex. Alex a été plus rapide que Marie. Louise est arrivée plus tard qu'Alex. Marie est arrivée la dernière.",
+      "a": "Jean", "wrong": ["François", "Alex", "Louise"],
+      "say": "",
+      "hint": "문장마다 부등호(>)로 바꿔 줄 세우기",
+      "explain": "Jean > François > Alex > Louise > Marie. 지문은 시험 형식(5명 달리기 순위)을 본뜬 재구성.",
+      "src": "중간고사 VII (재구성)"
+    },
+    {
+      "id": "u3-09-c-vii-troisieme", "t": "choice", "skill": "comparatif",
+      "prompt": "[VII 독해] 지문을 읽고 답하세요: Qui est arrivé troisième ?",
+      "q": "Jean a couru plus vite que François. François a été plus rapide qu'Alex. Alex a été plus rapide que Marie. Louise est arrivée plus tard qu'Alex. Marie est arrivée la dernière.",
+      "a": "Alex", "wrong": ["François", "Louise", "Marie"],
+      "say": "",
+      "hint": "plus tard que = 더 늦게 도착 → 순위가 뒤",
+      "explain": "Jean > François > Alex > Louise > Marie → 3등 Alex. 재구성 지문.",
+      "src": "중간고사 VII (재구성)"
+    },
+    {
+      "id": "u3-09-err-viii-me-reveillerai", "t": "error", "skill": "pronominal",
+      "s": "Je réveillerai à neuf heures.",
+      "wrong": "Je réveillerai", "right": "Je me réveillerai",
+      "ko": "나는 9시에 일어날 것이다.",
+      "hint": "'(내가) 깨다'는 대명동사 — 시제가 바뀌어도?",
+      "explain": "작문 3번째 문장(−0.5). se réveiller → je me réveillerai.",
+      "star": true, "src": "중간고사 VIII"
+    },
+    {
+      "id": "u3-09-c-viii-date", "t": "choice", "skill": "time",
+      "prompt": "[VIII 작문] 날짜를 바르게 쓴 것은?",
+      "q": "Ce sera ___.",
+      "a": "le 21 octobre 2036",
+      "wrong": ["le 21 octobre, 2036", "21 octobre, 2036", "le octobre 21 2036"],
+      "ko": "그날은 2036년 10월 21일일 것이다.",
+      "hint": "관사 + 일 + 월 + 연도 — 사이에 구두점이 있을까?",
+      "explain": "작문에서 쉼표를 넣었음(감점 없음). 프랑스어 날짜엔 쉼표 없음.",
+      "src": "중간고사 VIII"
+    },
+    {
+      "id": "u3-09-c-viii-le-soir", "t": "choice", "skill": "time",
+      "prompt": "[VIII 작문] 자연스럽게 고치면?",
+      "q": "___, je coucherai ma fille.",
+      "a": "Le soir", "wrong": ["Soir", "Après-midi", "Au soir"],
+      "ko": "저녁에 나는 딸을 재울 것이다.",
+      "hint": "시간대 앞엔 관사 + 아이를 재우는 시간",
+      "explain": "작문에서 Après-midi(관사 없음). 시간대엔 정관사(le soir, l'après-midi), 재우는 건 저녁이 자연스러움.",
+      "src": "중간고사 VIII"
+    },
+    {
+      "id": "u3-09-err-viii-boirai", "t": "error", "skill": "futur",
+      "s": "Je coucherai ma fille et boirons de la bière avec ma femme.",
+      "wrong": "boirons", "right": "boirai",
+      "ko": "나는 딸을 재우고 아내와 맥주를 마실 것이다.",
+      "hint": "주어는 je 하나뿐 — 두 번째 동사도 같은 주어",
+      "explain": "작문(감점 없음). 주어가 je면 boirai. nous형을 쓰려면 … puis ma femme et moi boirons.",
+      "star": true, "src": "중간고사 VIII"
+    },
+    {
+      "id": "u3-09-c-viii-prendrons", "t": "choice", "skill": "futur",
+      "prompt": "[VIII 작문] 수업 표현으로 '아침을 먹다' (미래)",
+      "q": "Demain, nous ___ le petit-déjeuner ensemble.",
+      "a": "prendrons", "wrong": ["prenons", "prenderons", "prendront"],
+      "ko": "내일 우리는 함께 아침을 먹을 것이다.",
+      "hint": "아침 식사엔 '먹다'보다 '잡다' 동사 — 미래 어간은 원형에서",
+      "explain": "작문에 mangerons le petit-déjeuner라고 씀. 수업 표현은 prendre le petit-déjeuner → nous prendrons.",
+      "src": "중간고사 VIII"
+    },
+    {
+      "id": "u3-09-err-se-n-est", "t": "error", "skill": "pronominal",
+      "s": "Mon père se n'est pas promené.",
+      "wrong": "se n'est pas", "right": "ne s'est pas",
+      "ko": "아버지는 산책하지 않았다.",
+      "hint": "재귀대명사는 조동사에 붙은 한 덩어리",
+      "explain": "내 시험 답(IV-1, −0.5). ne + s'est + pas — '네·스·빠'.",
+      "star": true, "src": "중간고사 IV-1"
+    },
+    {
+      "id": "u3-09-err-aie", "t": "error", "skill": "imperatif",
+      "s": "Les enfants, n'aie pas peur !",
+      "wrong": "aie", "right": "ayez",
+      "ko": "얘들아, 무서워하지 마!",
+      "hint": "부르는 대상이 여럿 — 명령의 인칭은?",
+      "explain": "IV-2에서 vous 자리에 tu형 aie를 씀(−0.5). 여럿·존댓말 → N'ayez pas peur !",
+      "star": true, "src": "중간고사 IV-2"
+    },
+    {
+      "id": "u3-09-err-qu-l", "t": "error", "skill": "elision",
+      "s": "J'ai gagné autant d'argent cette année qu'l'année dernière.",
+      "wrong": "qu'l'année", "right": "que l'année",
+      "ko": "나는 올해 작년만큼 돈을 벌었다.",
+      "hint": "엘리지옹은 모음(또는 묵음 h) 앞에서만",
+      "explain": "내 시험 답(VI-2). l'année는 자음 l로 시작 → que 그대로.",
+      "star": true, "src": "중간고사 VI-2"
+    },
+    {
+      "id": "u3-09-b-r1-ne-se-sont", "t": "build", "skill": "pronominal",
+      "prompt": "[다시 풀기 1 · IV] 부정문으로",
+      "from": "Ils se sont promenés dans le parc.",
+      "a": "Ils ne se sont pas promenés dans le parc.",
+      "extra": ["n'ont"],
+      "ko": "그들은 공원에서 산책하지 않았다.",
+      "hint": "재귀대명사+조동사 덩어리를 부정어로 감싸기",
+      "explain": "ne + se sont + pas + promenés. IV-1 오답 재확인.",
+      "star": true, "src": "중간고사 분석 §4-1"
+    },
+    {
+      "id": "u3-09-t-r2-nous-sommes-lave", "t": "type", "skill": "pronominal",
+      "prompt": "[다시 풀기 2 · IV] 복합과거로",
+      "q": "Nous nous lavons les mains.",
+      "a": "Nous nous sommes lavé les mains.",
+      "alts": ["nous sommes lavé les mains"],
+      "ko": "우리는 손을 씻었다.",
+      "hint": "être 조동사 — 그런데 직접목적어가 뒤에 있으면 일치는?",
+      "explain": "les mains가 뒤 → lavé (lavés ✗). IV-4와 같은 함정.",
+      "src": "중간고사 분석 §4-2"
+    },
+    {
+      "id": "u3-09-t-r2-reveillee", "t": "type", "skill": "pronominal",
+      "prompt": "[다시 풀기 2 · IV] 복합과거로",
+      "q": "Elle se réveille tôt.",
+      "a": "Elle s'est réveillée tôt.",
+      "alts": ["s'est réveillée tôt"],
+      "ko": "그녀는 일찍 깼다.",
+      "hint": "이번엔 se 자신이 직접목적어 — 주어 elle에 일치",
+      "explain": "s'est + réveillée (-e). 뒤에 다른 목적어가 없으니 일치함.",
+      "src": "중간고사 분석 §4-2"
+    },
+    {
+      "id": "u3-09-t-r3-soyez", "t": "type", "skill": "imperatif",
+      "prompt": "[다시 풀기 3 · IV] 명령문으로",
+      "q": "Vous êtes patients.",
+      "a": "Soyez patients !",
+      "alts": ["Soyez patients"],
+      "ko": "참을성 있게 기다려 주세요!",
+      "hint": "être의 vous 명령형은 불규칙",
+      "explain": "être 명령: sois · soyons · soyez.",
+      "src": "중간고사 분석 §4-3"
+    },
+    {
+      "id": "u3-09-t-r3-n-aie", "t": "type", "skill": "imperatif",
+      "prompt": "[다시 풀기 3 · IV] 부정 명령문으로",
+      "q": "Tu as peur.",
+      "a": "N'aie pas peur !",
+      "alts": ["N'aie pas peur"],
+      "ko": "무서워하지 마!",
+      "hint": "이번 주어는 tu — avoir의 tu 명령형(불규칙)",
+      "explain": "avoir 명령: aie · ayons · ayez. tu → aie, vous → ayez.",
+      "src": "중간고사 분석 §4-3"
+    },
+    {
+      "id": "u3-09-t-r4-vas-mangeant", "t": "type", "skill": "gerondif",
+      "prompt": "[다시 풀기 4 · V] 오류를 모두 고쳐 문장을 다시 쓰세요 (오류 2개)",
+      "q": "Tu va au cinéma en mangent du pop-corn.",
+      "a": "Tu vas au cinéma en mangeant du pop-corn.",
+      "alts": ["Tu vas au cinéma en mangeant du pop-corn"],
+      "ko": "너는 팝콘을 먹으면서 영화관에 간다.",
+      "hint": "오류 2개: aller의 tu형 + -ger 동사의 -ant 철자",
+      "explain": "tu vas (-s) · mang**e**ant (g 뒤 e 유지). V-3과 같은 '동사 + 제롱디프' 쌍.",
+      "src": "중간고사 분석 §4-4"
+    },
+    {
+      "id": "u3-09-t-r5-promenees", "t": "type", "skill": "pronominal",
+      "prompt": "[다시 풀기 5 · V] 오류를 모두 고쳐 문장을 다시 쓰세요 (오류 3개)",
+      "q": "Marie et Sophie s'est promenée à Normandie.",
+      "a": "Marie et Sophie se sont promenées en Normandie.",
+      "alts": ["Marie et Sophie se sont promenées en Normandie"],
+      "ko": "마리와 소피는 노르망디에서 산책했다.",
+      "hint": "오류 3개: 조동사의 수 · 과거분사 일치 · 지역 전치사",
+      "explain": "s'est → se sont, promenée → promenées, à → en (la Normandie).",
+      "src": "중간고사 분석 §4-5"
+    },
+    {
+      "id": "u3-09-t-r6-marierons", "t": "type", "skill": "futur",
+      "prompt": "[다시 풀기 6 · IV] 단순미래로",
+      "q": "Nous nous marions.",
+      "a": "Nous nous marierons.",
+      "alts": ["nous marierons"],
+      "ko": "우리는 결혼할 것이다.",
+      "hint": "-er 동사 미래 = 원형 + 어미, 재귀대명사는 그대로",
+      "explain": "marier + -ons. 재귀대명사 nous는 미래에서도 남는다 (je me réveillerai와 같은 원리).",
+      "src": "중간고사 분석 §4-6"
+    },
+    {
+      "id": "u3-09-t-r6-levera", "t": "type", "skill": "futur",
+      "prompt": "[다시 풀기 6 · IV] 단순미래로",
+      "q": "Elle se lève tôt.",
+      "a": "Elle se lèvera tôt.",
+      "alts": ["se lèvera tôt"],
+      "ko": "그녀는 일찍 일어날 것이다.",
+      "hint": "lever의 미래 어간엔 악센트가 들어가요. se도 잊지 말기",
+      "explain": "lèver- + a (악센트 è). se는 그대로.",
+      "src": "중간고사 분석 §4-6"
+    },
+    {
+      "id": "u3-09-c-r7-de-voitures", "t": "choice", "skill": "comparatif",
+      "prompt": "[다시 풀기 7 · I] 빈칸에 알맞은 것은?",
+      "q": "Il y aura de plus en plus ___ voitures électriques.",
+      "a": "de", "wrong": ["des", "du", "(아무것도 안 씀)"],
+      "ko": "전기차가 점점 많아질 것이다.",
+      "hint": "뒤에 명사가 와요 — 양의 표현 뒤 관사는?",
+      "explain": "de plus en plus de + 명사 (des ✗). I-4에서 놓친 바로 그 de.",
+      "star": true, "src": "중간고사 분석 §4-7"
+    },
+    {
+      "id": "u3-09-c-r7-rien", "t": "choice", "skill": "comparatif",
+      "prompt": "[다시 풀기 7 · I] 빈칸에 알맞은 것은?",
+      "q": "Elle travaille de plus en plus ___.",
+      "a": "(아무것도 안 씀)", "wrong": ["de", "des", "du"],
+      "say": "Elle travaille de plus en plus.",
+      "ko": "그녀는 점점 더 많이 일한다.",
+      "hint": "뒤에 명사가 없고 동사를 꾸밀 때는?",
+      "explain": "동사 뒤엔 de 없이 de plus en plus로 끝. 명사가 올 때만 de.",
+      "src": "중간고사 분석 §4-7"
+    },
+    {
+      "id": "u3-09-b-r8-plus-de-livres", "t": "build", "skill": "comparatif",
+      "prompt": "[다시 풀기 8 · VI] 단어를 바른 순서로",
+      "ko": "나는 너보다 책을 더 많이 읽었다.",
+      "a": "J'ai lu plus de livres que toi.",
+      "extra": ["des", "moi"],
+      "hint": "조동사+과거분사 먼저 → 명사 비교 뼈대 → 강세형 대명사",
+      "explain": "ai lu를 붙이고 plus de + 명사 + que toi. 원래 블록은 j' / ai로 쪼개져 나옴.",
+      "src": "중간고사 분석 §4-8"
+    },
+    {
+      "id": "u3-09-b-r9-moins-voyage", "t": "build", "skill": "comparatif",
+      "prompt": "[다시 풀기 9 · VI] 단어를 바른 순서로",
+      "ko": "올해 우리는 작년보다 여행을 덜 했다.",
+      "a": "Cette année, nous avons moins voyagé que l'année dernière.",
+      "extra": ["qu'", "de"],
+      "hint": "짧은 비교 부사는 조동사와 과거분사 사이 · 두 시점 비교",
+      "explain": "명사 없이 동사를 비교 → moins만 (de ✗). 짧은 부사는 avons moins voyagé처럼 사이에 들어감.",
+      "src": "중간고사 분석 §4-9"
+    }
+  ]
+}

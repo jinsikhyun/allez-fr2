@@ -1,0 +1,920 @@
+{
+  "id": "u4-08",
+  "unit": "u4",
+  "title": "⭐ 기말 예상 문제 — Leçon 12",
+  "emoji": "📝",
+  "date": "2026-11-05",
+  "sources": [
+    "semaine 9-2",
+    "semaine 9-3",
+    "semaine 10-1",
+    "semaine 10-2",
+    "semaine 10-3 p.1–13",
+    "중간고사 분석"
+  ],
+  "tips": [
+    {
+      "h": "듣기 빈칸 단골 (대화문)",
+      "b": "au moment **où** · **il y avait** · désolée **d'être** · dit **de** rentrer · n'y avait **plus de** · jamais **eu de** · où **l'on**"
+    },
+    {
+      "h": "대명동사 × 반과거·복합과거",
+      "rows": [
+        [
+          "반과거",
+          "je **me** levais"
+        ],
+        [
+          "반과거 부정",
+          "je **ne me** levais **pas**"
+        ],
+        [
+          "복합과거 부정",
+          "il **ne s'est pas** promené"
+        ],
+        [
+          "명령",
+          "Calme-**toi** · Dépêchons-**nous**"
+        ]
+      ]
+    },
+    {
+      "h": "오류 고치기 체크 순서",
+      "b": "① 동사 어미(주어와) ② 조동사·과거분사 일치 ③ tout 성·수 ④ 엘리지옹·악센트(où) ⑤ 전치사·관사(de) — **오류 개수만큼 찾을 때까지** 멈추지 말기"
+    }
+  ],
+  "note": [
+    {
+      "h": "시험 구성 — Leçon 12에서 나올 만한 것",
+      "skill": "imparfait",
+      "src": [
+        "중간고사 분석",
+        "semaine 9-2",
+        "semaine 9-3",
+        "semaine 10-1",
+        "semaine 10-2",
+        "semaine 10-3 p.1–13"
+      ],
+      "body": [
+        {
+          "p": "기말도 중간고사처럼 **8개 대문항 · 25점 · 객관식 없음**이라고 보고, Leçon 12(반과거 · 사과하기 · tout · où · 발레리 대화문)를 형식별로 정리했다. 카드는 이 순서대로 나온다."
+        },
+        {
+          "table": [
+            [
+              "대문항",
+              "Leçon 12에서 나올 만한 것",
+              "근거"
+            ],
+            [
+              "I 듣기 빈칸",
+              "대화문 기능어: **où · il y avait · d'être · de · plus de · eu de · où l'on · me suis garée**",
+              "10-2 p.14–17, p.11"
+            ],
+            [
+              "II 듣기",
+              "(길 안내 대신) 반과거 vs 미래·복합과거 듣고 고르기 가능",
+              "10-2 p.6"
+            ],
+            [
+              "III 상황",
+              "⭐ 지하철에서 발 밟기 사과·반응, Excuse-moi / Excusez-moi, 늦어서 죄송, Si + 반과거 제안",
+              "10-1 p.4–5, 9-2 p.12·16"
+            ],
+            [
+              "IV 변환",
+              "반과거로 · **대명동사 부정**(ne me levais pas / ne s'est pas garée) · 명령(Calme-toi, Dépêchons-nous) · où로 잇기 · dire à qqn de",
+              "9-2 p.13, 10-2 p.17, 10-3 p.6·9"
+            ],
+            [
+              "V 오류 고치기",
+              "반과거 어미(-ais/-ait) + tout 일치 · où 악센트 · 엘리지옹 · il vaut mieux de ✗ · plus que 20 ans ✗ · s'a garé ✗",
+              "9-2 p.10–11, 10-3 p.8–13"
+            ],
+            [
+              "VI 배열",
+              "슬라이드 예문 그대로: Valérie avait… · Il pleuvait fort quand… · tous les matins · Quand il pleut, il vaut mieux…",
+              "9-2 p.10–11, 10-2 p.15"
+            ],
+            [
+              "VII 독해",
+              "반과거(배경·습관·진행) vs 복합과거(한 번·끼어든 사건) 구분해서 '무슨 일이 있었나' 추론",
+              "10-1 p.10–11"
+            ],
+            [
+              "VIII 작문",
+              "반과거 주제 — 예: Quand j'étais petit(e)… (어린 시절 묘사 + 습관 + 사건 하나)",
+              "9-2 p.6 정의, 10-1 p.7"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "warn": "중간고사 약점을 Leçon 12에 얹으면: ① 대명동사 반과거·부정(je **ne me** levais **pas**, il **ne s'est pas** promené) ② 명령 인칭(Excuse-moi ↔ Excusez-moi, Calme-toi) ③ 듣기 단음절(où, de, eu, il y avait) ④ 오류 고치기에서 **두 번째 오류까지** 찾기."
+        },
+        {
+          "memo": "출제 패턴: 슬라이드 예문이 그대로 또는 한 단어만 바뀌어 나옴 → 9-2 p.10–12, 10-3 p.6·8–13 예문은 문장째 외워 둘 것."
+        }
+      ]
+    },
+    {
+      "h": "반과거 vs 복합과거 — 독해·작문 판단 기준",
+      "skill": "imparfait",
+      "src": [
+        "semaine 9-2 p.10–12",
+        "semaine 10-1 p.10–11"
+      ],
+      "body": [
+        {
+          "table": [
+            [
+              "반과거 (배경)",
+              "복합과거 (사건)"
+            ],
+            [
+              "묘사: Valérie **avait** les cheveux longs",
+              "한 번: L'année dernière, mes parents **m'ont acheté** un cadeau"
+            ],
+            [
+              "진행 중: nous **jouions** …",
+              "끼어든 일: quand le professeur **est entré**"
+            ],
+            [
+              "습관: je **faisais** une promenade tous les matins",
+              "어느 날: Un jour, il **a vu** un dauphin"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "list": [
+            "기능어 신호: **tous les matins · le dimanche · souvent · toujours · quand j'étais enfant** → 반과거",
+            "**un jour · hier · tout à coup · l'année dernière** → 복합과거",
+            "il y a / il y **a eu**(사건) / il y **avait**(배경) — 10-3 p.9"
+          ]
+        }
+      ]
+    },
+    {
+      "h": "VIII 작문 모범문 — Quand j'étais enfant… (어린 시절)",
+      "skill": "imparfait",
+      "src": [
+        "semaine 9-2 p.10–12",
+        "semaine 10-1 p.10–11",
+        "semaine 10-3 p.6",
+        "중간고사 분석 VIII"
+      ],
+      "body": [
+        {
+          "p": "예상 지시문: *Racontez votre enfance. Utilisez l'imparfait.* (최소 6문장) — 묘사 + 습관은 **반과거**, 사건 하나만 **복합과거**, où · tout을 한 번씩 넣으면 Leçon 12 문법이 다 들어간다."
+        },
+        {
+          "ex": [
+            [
+              "1. Quand j'étais enfant, j'habitais à Busan avec mes parents.",
+              "어렸을 때 나는 부모님과 부산에 살았다. (묘사)"
+            ],
+            [
+              "2. Notre maison était petite, mais il y avait un grand jardin.",
+              "우리 집은 작았지만 큰 정원이 있었다. (묘사 · il y avait)"
+            ],
+            [
+              "3. Tous les matins, je me levais à sept heures.",
+              "매일 아침 나는 7시에 일어났다. (습관 · 대명동사)"
+            ],
+            [
+              "4. Le dimanche, nous allions à la plage.",
+              "일요일마다 우리는 해변에 갔다. (습관 · le + 요일)"
+            ],
+            [
+              "5. Le soir, je ne me couchais pas tôt.",
+              "저녁에 나는 일찍 자지 않았다. (대명동사 부정)"
+            ],
+            [
+              "6. Un jour, quand je jouais dans le jardin, mon père est rentré avec un petit chien.",
+              "어느 날 내가 정원에서 놀고 있을 때 아버지가 강아지를 데리고 돌아오셨다. (진행 + 사건)"
+            ],
+            [
+              "7. Toute la famille était très heureuse.",
+              "온 가족이 아주 행복했다. (tout)"
+            ],
+            [
+              "8. C'est la maison où j'ai passé mon enfance.",
+              "그곳이 내가 어린 시절을 보낸 집이다. (où)"
+            ]
+          ]
+        },
+        {
+          "table": [
+            [
+              "뼈대 (칸만 바꿔 쓰기)",
+              "바꿀 칸"
+            ],
+            [
+              "Quand j'étais enfant, j'habitais à ___.",
+              "도시"
+            ],
+            [
+              "Notre maison était ___, mais il y avait ___.",
+              "형용사 / 장소"
+            ],
+            [
+              "Tous les matins, je me levais à ___.",
+              "시각"
+            ],
+            [
+              "Le ___, nous allions ___.",
+              "요일 / 장소"
+            ],
+            [
+              "Le soir, je ne me ___ pas ___.",
+              "대명동사 반과거 부정"
+            ],
+            [
+              "Un jour, quand je ___ (반과거), ___ (복합과거).",
+              "진행 + 사건"
+            ],
+            [
+              "Tout(e) la / Tous les ___ …",
+              "tout 일치"
+            ],
+            [
+              "C'est ___ où j'ai ___.",
+              "장소·시간 + où"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "list": [
+            "☐ 6문장 이상",
+            "☐ 묘사·습관 = 반과거 (-ais, -ais, -ait, -ions, -iez, -aient), être → **ét-**",
+            "☐ 사건은 **딱 하나** 복합과거, 이동 동사는 être (est rentré)",
+            "☐ 대명동사: **me** levais · **ne me** couchais **pas** — 재귀대명사 빠짐 없나?",
+            "☐ tout 성·수 (tous les matins, toute la journée)",
+            "☐ où 악센트, j'habitais · j'étais · mon enfance 엘리지옹/소유사",
+            "☐ 날짜·시간대 관사: le dimanche, le soir"
+          ]
+        },
+        {
+          "memo": "성별: 형용사가 들어가는 Quand j'étais petit(e)는 내 성별대로 petit / petite. 모범문은 성별 상관없는 Quand j'étais enfant (10-1 p.11)로 썼다."
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "u4-08-t-dict-ou",
+      "t": "type",
+      "skill": "relatif-ou",
+      "prompt": "[I 듣기 빈칸] 듣고 빈칸을 쓰세요",
+      "q": "Mais au moment ___ je suis sortie de la maison, il pleuvait très fort.",
+      "a": "où",
+      "dictate": "Mais au moment où je suis sortie de la maison, il pleuvait très fort.",
+      "ko": "그런데 내가 집을 나선 순간, 비가 아주 세차게 오고 있었어요.",
+      "hint": "모음 하나짜리 관계대명사 — 악센트까지 써야 정답",
+      "explain": "10-2 p.14 대화문 그대로. au moment où = quand. 악센트 없는 ou(또는)는 오답!",
+      "src": "semaine 10-2 p.14",
+      "star": true
+    },
+    {
+      "id": "u4-08-t-dict-ilyavait",
+      "t": "type",
+      "skill": "imparfait",
+      "prompt": "[I 듣기 빈칸] 듣고 빈칸을 쓰세요",
+      "q": "Mais ___ des embouteillages partout.",
+      "a": "il y avait",
+      "dictate": "Mais il y avait des embouteillages partout.",
+      "ko": "그런데 곳곳이 막혔어요.",
+      "hint": "'~이 있었다'(배경 묘사) — 세 단어, il y a의 반과거",
+      "explain": "10-2 p.15 대화문 그대로. 10-3 p.9: il y a / il y a eu(사건) / il y avait(배경) 구분.",
+      "src": "semaine 10-2 p.15",
+      "star": true
+    },
+    {
+      "id": "u4-08-t-dict-detre",
+      "t": "type",
+      "skill": "vocab",
+      "prompt": "[I 듣기 빈칸] 듣고 빈칸을 쓰세요",
+      "q": "Je suis vraiment désolée ___ en retard.",
+      "a": "d'être",
+      "dictate": "Je suis vraiment désolée d'être en retard.",
+      "ko": "늦어서 정말 죄송해요.",
+      "hint": "être désolé(e) + 전치사 + 동사원형. 모음 앞 엘리지옹!",
+      "explain": "10-2 p.14 첫 대사 그대로 · 10-3 p.8. de + être → d'être, 들리는 건 [데트흐] 한 덩어리.",
+      "src": "semaine 10-3 p.8",
+      "star": true
+    },
+    {
+      "id": "u4-08-t-dict-dire-de",
+      "t": "type",
+      "skill": "vocab",
+      "prompt": "[I 듣기 빈칸] 듣고 빈칸을 쓰세요",
+      "q": "Je t'ai dit ___ rentrer tôt, non ?",
+      "a": "de",
+      "dictate": "Je t'ai dit de rentrer tôt, non ?",
+      "ko": "일찍 들어오라고 했잖아, 안 그래?",
+      "hint": "dire à qqn ___ + 동사원형. 약하게 들리는 한 음절",
+      "explain": "10-2 p.14 그대로 · 10-3 p.9 dire à qqn de + inf. 중간고사 I-4처럼 짧은 de를 놓치지 말 것.",
+      "src": "semaine 10-3 p.9",
+      "star": true
+    },
+    {
+      "id": "u4-08-t-dict-plusde",
+      "t": "type",
+      "skill": "neg",
+      "prompt": "[I 듣기 빈칸] 듣고 빈칸을 쓰세요",
+      "q": "Si, mais il n'y avait ___ place libre.",
+      "a": "plus de",
+      "dictate": "Si, mais il n'y avait plus de place libre.",
+      "ko": "봤어요, 그런데 빈자리가 더는 없었어요.",
+      "hint": "'더 이상 ~없다' 부정 + 부정문 명사 앞 관사. 두 단어",
+      "explain": "10-2 p.16 그대로 · 10-3 p.12 ne…plus. 부정문이라 de place (des ✗). [쁠뤼 드].",
+      "src": "semaine 10-3 p.12",
+      "star": true
+    },
+    {
+      "id": "u4-08-t-dict-jamais-eu",
+      "t": "type",
+      "skill": "neg",
+      "prompt": "[I 듣기 빈칸] 듣고 빈칸을 쓰세요",
+      "q": "Moi, je conduis depuis plus de 20 ans, mais je n'ai jamais ___ contravention !",
+      "a": "eu de",
+      "dictate": "Moi, je conduis depuis plus de 20 ans, mais je n'ai jamais eu de contravention !",
+      "ko": "나는 20년 넘게 운전했지만, 딱지를 한 번도 뗀 적이 없어!",
+      "hint": "avoir의 과거분사(소리 [위]) + 부정문 명사 앞 관사. 두 단어",
+      "explain": "10-2 p.17 그대로. 중간고사 I-2 'a eu' 감점과 같은 함정 — eu [위]는 자음이 없어 묻혀 들려요.",
+      "src": "semaine 10-2 p.17",
+      "star": true
+    },
+    {
+      "id": "u4-08-t-dict-ou-lon",
+      "t": "type",
+      "skill": "relatif-ou",
+      "prompt": "[I 듣기 빈칸] 듣고 빈칸을 쓰세요",
+      "q": "Voilà l'usine Renault ___ fabrique des automobiles.",
+      "a": "où l'on",
+      "alts": [
+        "où on"
+      ],
+      "dictate": "Voilà l'usine Renault où l'on fabrique des automobiles.",
+      "ko": "저기가 자동차를 만드는 르노 공장이다.",
+      "hint": "관계대명사 + 주어 on. 사이에 소리 하나가 끼어 있어요",
+      "explain": "10-2 p.11 연습문제 1번 정답. ✍️ 필기: on 앞에 l' 삽입(où l'on). il·elle 앞엔 넣지 않음.",
+      "src": "semaine 10-2 p.11"
+    },
+    {
+      "id": "u4-08-t-dict-garee",
+      "t": "type",
+      "skill": "pronominal",
+      "prompt": "[I 듣기 빈칸] 듣고 빈칸을 쓰세요",
+      "q": "Je ___ sous un panneau d'interdiction de stationnement.",
+      "a": "me suis garée",
+      "dictate": "Je me suis garée sous un panneau d'interdiction de stationnement.",
+      "ko": "주차 금지 표지판 아래에 주차했어요.",
+      "hint": "대명동사 se garer의 복합과거, 화자는 Valérie(여성)",
+      "explain": "10-2 p.16 그대로. 재귀대명사 me + être + p.p., 주어 여성 → garée. 소리로는 -e가 안 들리니 문법으로 채우기!",
+      "src": "semaine 10-2 p.16",
+      "star": true
+    },
+    {
+      "id": "u4-08-c-metro-sorry",
+      "t": "choice",
+      "skill": "greet",
+      "prompt": "[III 상황 답하기] 상황에 알맞은 말은?",
+      "q": "지하철에서 당신(여학생)이 옆에 선 모르는 남자의 발을 밟았다. 뭐라고 사과할까?",
+      "a": "Oh, pardon, monsieur ! Je suis vraiment désolée.",
+      "wrong": [
+        "Excuse-toi, monsieur ! Je suis vraiment désolée.",
+        "Il n'y a pas de quoi, monsieur.",
+        "Ce n'est pas grave, monsieur."
+      ],
+      "say": "Oh, pardon, monsieur ! Je suis vraiment désolée.",
+      "hint": "⭐ 필기 '시험각'. 모르는 어른 + 사과하는 쪽의 말",
+      "explain": "10-1 p.5 상황 그대로. Excuse-toi는 '너 사과해'(명령). 모르는 사람에겐 Excusez-moi / Pardon.",
+      "src": "semaine 10-1 p.5",
+      "star": true
+    },
+    {
+      "id": "u4-08-c-metro-reply",
+      "t": "choice",
+      "skill": "greet",
+      "prompt": "[III 상황 답하기] 상황에 알맞은 말은?",
+      "q": "지하철에서 발을 밟힌 남자에게 여학생이 « Pardon, monsieur ! Je suis désolée. » 라고 했다. 남자의 대답은?",
+      "a": "Ce n'est pas grave, mademoiselle.",
+      "wrong": [
+        "De rien, mademoiselle.",
+        "Je vous demande pardon, mademoiselle.",
+        "Excusez-moi, mademoiselle."
+      ],
+      "say": "Ce n'est pas grave, mademoiselle.",
+      "hint": "⭐ 필기 '시험각'. 사과를 '받는' 쪽의 반응",
+      "explain": "10-1 p.4–5. 반응: Ce n'est pas grave · Ça ne fait rien · Pas de souci · Pas de problème. De rien은 감사에 대한 답.",
+      "src": "semaine 10-1 p.5",
+      "star": true
+    },
+    {
+      "id": "u4-08-c-friend-sorry",
+      "t": "choice",
+      "skill": "imperatif",
+      "prompt": "[III 상황 답하기] 상황에 알맞은 말은?",
+      "q": "친구의 발을 실수로 밟았다. 친구에게(tu) 사과하는 말은?",
+      "a": "Excuse-moi ! Je te demande pardon.",
+      "wrong": [
+        "Excuse-toi ! Je te demande pardon.",
+        "Excusez-vous ! Je vous demande pardon.",
+        "Pas de souci ! Ça ne fait rien."
+      ],
+      "say": "Excuse-moi ! Je te demande pardon.",
+      "hint": "명령형 인칭 + 뒤에 붙는 대명사는 '나를' — 중간고사 약점",
+      "explain": "9-2 p.16 표현. tu에게 Excuse-moi(-s 없음) / vous에게 Excusez-moi. Excuse-toi = '네가 사과해'.",
+      "src": "semaine 9-2 p.16",
+      "star": true
+    },
+    {
+      "id": "u4-08-c-late-class",
+      "t": "choice",
+      "skill": "vocab",
+      "prompt": "[III 상황 답하기] 상황에 알맞은 말은?",
+      "q": "수업에 늦게 들어가며 교수님께 늦어서 죄송하다고 말한다. (화자: 여학생)",
+      "a": "Je suis désolée d'être en retard.",
+      "wrong": [
+        "Je suis désolée de être en retard.",
+        "Je suis désolée à être en retard.",
+        "Il n'y a pas de souci, madame."
+      ],
+      "say": "Je suis désolée d'être en retard.",
+      "hint": "être désolé(e) 뒤 전치사 + 모음 앞 엘리지옹",
+      "explain": "10-3 p.8 그대로. d'être / d'arriver en retard, du retard, pour le retard 모두 가능.",
+      "src": "semaine 10-3 p.8",
+      "star": true
+    },
+    {
+      "id": "u4-08-c-si-reposer",
+      "t": "choice",
+      "skill": "imparfait",
+      "prompt": "[III 상황 답하기] 상황에 알맞은 말은?",
+      "q": "친구가 너무 피곤해 보인다. '좀 쉬는 게 어때?' 하고 제안하면?",
+      "a": "Si tu te reposais un peu ?",
+      "wrong": [
+        "Si tu reposais un peu ?",
+        "Si tu te reposes un peu ?",
+        "Si tu te reposeras un peu ?"
+      ],
+      "hint": "제안의 Si + 어떤 시제? 대명동사라는 것도 잊지 말기",
+      "explain": "9-2 p.12 · 10-1 p.12 예문 그대로. Si + 반과거 = 제안. se reposer → te 빠지면 감점!",
+      "src": "semaine 10-1 p.12",
+      "star": true
+    },
+    {
+      "id": "u4-08-t-iv-promenions",
+      "t": "type",
+      "skill": "imparfait",
+      "prompt": "[IV 변환] 반과거로 바꾸세요",
+      "q": "Nous nous promenons dans la forêt.",
+      "a": "Nous nous promenions dans la forêt.",
+      "hint": "nous 현재형 어간 + nous 어미. 재귀대명사는 그대로",
+      "explain": "9-2 p.13 연습문제 3번 정답(10-1 p.13). 반과거에서도 nous nous 둘 다 남는다.",
+      "src": "semaine 10-1 p.13",
+      "star": true
+    },
+    {
+      "id": "u4-08-t-iv-neg-levais",
+      "t": "type",
+      "skill": "pronominal",
+      "prompt": "[IV 변환] 부정문으로 바꾸세요",
+      "q": "Je me levais tôt.",
+      "a": "Je ne me levais pas tôt.",
+      "hint": "ne는 재귀대명사 앞, pas는 동사 뒤 — 대명사+동사는 한 덩어리",
+      "explain": "중간고사 IV-1(se n'est ✗) 약점을 반과거에 얹음. ne + me levais + pas.",
+      "src": "중간고사 분석 IV-1"
+    },
+    {
+      "id": "u4-08-t-iv-neg-garee",
+      "t": "type",
+      "skill": "pronominal",
+      "prompt": "[IV 변환] 부정문으로 바꾸세요",
+      "q": "Elle s'est garée là.",
+      "a": "Elle ne s'est pas garée là.",
+      "hint": "재귀대명사 + 조동사가 한 덩어리 → 그 덩어리를 감싸기",
+      "explain": "10-2 p.16 se garer + 중간고사 IV-1 유형 그대로. 네·스·빠: ne s'est pas garée.",
+      "src": "semaine 10-2 p.16",
+      "star": true
+    },
+    {
+      "id": "u4-08-t-iv-calme-toi",
+      "t": "type",
+      "skill": "imperatif",
+      "prompt": "[IV 변환] 명령문으로 바꾸세요",
+      "q": "Tu te calmes.",
+      "a": "Calme-toi !",
+      "alts": [
+        "Calme-toi"
+      ],
+      "hint": "tu 명령: -er 동사 -s 탈락 + 강세형 대명사를 뒤에 하이픈으로",
+      "explain": "10-2 p.17 Calme-toi, mon chéri ! 그대로. te → toi, Calmes-toi ✗.",
+      "src": "semaine 10-2 p.17",
+      "star": true
+    },
+    {
+      "id": "u4-08-t-iv-depechons",
+      "t": "type",
+      "skill": "imperatif",
+      "prompt": "[IV 변환] 명령문으로 바꾸세요",
+      "q": "Nous nous dépêchons.",
+      "a": "Dépêchons-nous !",
+      "alts": [
+        "Dépêchons-nous"
+      ],
+      "hint": "nous 명령 = '~하자'. 주어 빼고 대명사를 뒤로",
+      "explain": "10-2 p.17 Dépêchons-nous ! 그대로 (10-3 p.13 se dépêcher).",
+      "src": "semaine 10-2 p.17",
+      "star": true
+    },
+    {
+      "id": "u4-08-t-iv-excusez",
+      "t": "type",
+      "skill": "imperatif",
+      "prompt": "[IV 변환] 모르는 어른(vous)에게 하는 말로 바꾸세요",
+      "q": "Excuse-moi.",
+      "a": "Excusez-moi.",
+      "hint": "tu 명령 → vous 명령 (중간고사 aie/ayez 감점 기억!)",
+      "explain": "9-2 p.16 Excusez-moi / Excuse-moi 짝. vous 명령은 현재형 vous형 그대로.",
+      "src": "semaine 9-2 p.16"
+    },
+    {
+      "id": "u4-08-t-iv-si-allait",
+      "t": "type",
+      "skill": "imparfait",
+      "prompt": "[IV 변환] Si + 반과거의 제안문으로 바꾸세요",
+      "q": "On va au cinéma ?",
+      "a": "Si on allait au cinéma ?",
+      "hint": "on = 3인칭 단수 어미. aller의 nous 현재형 어간에서",
+      "explain": "9-2 p.12 · 10-1 p.12 예문 그대로. on allait (allions ✗).",
+      "src": "semaine 10-1 p.12",
+      "star": true
+    },
+    {
+      "id": "u4-08-t-iv-levais-habit",
+      "t": "type",
+      "skill": "pronominal",
+      "prompt": "[IV 변환] ( ) 동사를 반과거로 (습관)",
+      "q": "Quand j'étais enfant, je ___ tous les jours à sept heures. (se lever)",
+      "a": "me levais",
+      "ko": "어렸을 때 나는 매일 7시에 일어났다.",
+      "hint": "재귀대명사를 빠뜨리지 말기 (중간고사 작문 감점 포인트)",
+      "explain": "10-1 p.11 '어렸을 때 + 습관' 구조에 se lever. 시제가 바뀌어도 me는 절대 안 빠짐.",
+      "src": "semaine 10-1 p.11"
+    },
+    {
+      "id": "u4-08-b-iv-ou-maison",
+      "t": "build",
+      "skill": "relatif-ou",
+      "prompt": "[IV 변환] 관계대명사 où로 두 문장을 이으세요",
+      "from": "C'est la maison. J'ai passé mon enfance dans cette maison.",
+      "a": "C'est la maison où j'ai passé mon enfance.",
+      "extra": [
+        "dans",
+        "ou"
+      ],
+      "ko": "여기가 내가 어린 시절을 보낸 집이다.",
+      "hint": "겹치는 장소 보어를 지우고 그 자리를 관계대명사가",
+      "explain": "10-2 p.10 · 10-3 p.6 예문 그대로. dans cette maison → où. ou(또는) 블록 함정 주의.",
+      "src": "semaine 10-3 p.6",
+      "star": true
+    },
+    {
+      "id": "u4-08-b-iv-dire-lever",
+      "t": "build",
+      "skill": "pronominal",
+      "prompt": "[IV 변환] dire à qqn de + inf.로 바꾸세요",
+      "from": "Je lui ai dit : « Lève-toi tôt ! »",
+      "a": "Je lui ai dit de se lever tôt.",
+      "extra": [
+        "te",
+        "à"
+      ],
+      "ko": "나는 그에게 일찍 일어나라고 말했다.",
+      "hint": "명령문 → 전치사 + 동사원형. 대명동사 원형의 재귀대명사는?",
+      "explain": "10-3 p.9 예문 그대로. 원형에서는 재귀대명사가 se (te ✗).",
+      "src": "semaine 10-3 p.9",
+      "star": true
+    },
+    {
+      "id": "u4-08-b-iv-plus-place",
+      "t": "build",
+      "skill": "neg",
+      "prompt": "[IV 변환] 반과거로 바꾸세요",
+      "from": "Il n'y a plus de place libre.",
+      "a": "Il n'y avait plus de place libre.",
+      "extra": [
+        "pas",
+        "des"
+      ],
+      "ko": "빈자리가 더는 없었다.",
+      "hint": "il y a의 반과거. ne…plus 뒤 명사 앞 관사는?",
+      "explain": "10-3 p.12 예문 그대로 (Il n'y avait plus de place libre). 부정문 → de.",
+      "src": "semaine 10-3 p.12"
+    },
+    {
+      "id": "u4-08-t-v-dvd",
+      "t": "type",
+      "skill": "imparfait",
+      "prompt": "[V 오류 고치기] 오류를 모두 고쳐 문장을 다시 쓰세요 (오류 2개)",
+      "q": "Quand ma mère étais petite, le DVD ne existait pas.",
+      "a": "Quand ma mère était petite, le DVD n'existait pas.",
+      "hint": "오류 2개: 3인칭 어미 하나 + 모음 앞 엘리지옹 하나",
+      "explain": "10-1 p.13 연습문제 4번 정답을 틀리게 바꿈. ma mère → -ait, ne + existait → n'existait.",
+      "src": "semaine 10-1 p.13",
+      "star": true
+    },
+    {
+      "id": "u4-08-t-v-valerie-cheveux",
+      "t": "type",
+      "skill": "imparfait",
+      "prompt": "[V 오류 고치기] 오류를 모두 고쳐 문장을 다시 쓰세요 (오류 2개)",
+      "q": "Valérie avais les cheveux longs quand elle étais lycéenne.",
+      "a": "Valérie avait les cheveux longs quand elle était lycéenne.",
+      "hint": "오류 2개: 동사 두 개의 어미를 주어와 맞춰 보기",
+      "explain": "9-2 p.10 예문 그대로에 오류 심음. il/elle 반과거 어미는 -ait (-ais는 je/tu).",
+      "src": "semaine 9-2 p.10",
+      "star": true
+    },
+    {
+      "id": "u4-08-t-v-tous-matins",
+      "t": "type",
+      "skill": "tout",
+      "prompt": "[V 오류 고치기] 오류를 모두 고쳐 문장을 다시 쓰세요 (오류 2개)",
+      "q": "Je faisais une promenade tout les matins quand j'habitait à New York.",
+      "a": "Je faisais une promenade tous les matins quand j'habitais à New York.",
+      "hint": "오류 2개: tout의 성·수 + je의 반과거 어미",
+      "explain": "9-2 p.11 예문 그대로에 오류 심음. les matins(남·복) → tous, je → -ais.",
+      "src": "semaine 9-2 p.11",
+      "star": true
+    },
+    {
+      "id": "u4-08-t-v-si-reposais",
+      "t": "type",
+      "skill": "pronominal",
+      "prompt": "[V 오류 고치기] 오류를 모두 고쳐 문장을 다시 쓰세요 (오류 2개)",
+      "q": "Si tu reposait un peu ?",
+      "a": "Si tu te reposais un peu ?",
+      "hint": "오류 2개: 빠진 단어 하나 + tu의 어미",
+      "explain": "10-1 p.12 예문 그대로에 오류 심음. se reposer → te 필수, tu → -ais.",
+      "src": "semaine 10-1 p.12",
+      "star": true
+    },
+    {
+      "id": "u4-08-t-v-jour-ou",
+      "t": "type",
+      "skill": "relatif-ou",
+      "prompt": "[V 오류 고치기] 오류를 모두 고쳐 문장을 다시 쓰세요 (오류 2개)",
+      "q": "C'est le jour ou je ai rencontré mon ex-copain.",
+      "a": "C'est le jour où j'ai rencontré mon ex-copain.",
+      "hint": "오류 2개: 악센트 하나 + 엘리지옹 하나",
+      "explain": "10-2 p.10 · 10-3 p.6 예문 그대로에 오류 심음. 시간 보어 → où, je ai → j'ai.",
+      "src": "semaine 10-3 p.6",
+      "star": true
+    },
+    {
+      "id": "u4-08-t-v-vaut-mieux",
+      "t": "type",
+      "skill": "vocab",
+      "prompt": "[V 오류 고치기] 오류를 모두 고쳐 문장을 다시 쓰세요 (오류 2개)",
+      "q": "Il vaut mieux de prendre le métro quand il pleuve.",
+      "a": "Il vaut mieux prendre le métro quand il pleut.",
+      "hint": "오류 2개: 원형 앞 불필요한 단어 + pleuvoir 현재형",
+      "explain": "10-2 p.15 대사 그대로에 오류 심음. il vaut mieux + 원형(전치사 없음), pleuvoir → il pleut.",
+      "src": "semaine 10-3 p.10",
+      "star": true
+    },
+    {
+      "id": "u4-08-t-v-plus-de-20",
+      "t": "type",
+      "skill": "neg",
+      "prompt": "[V 오류 고치기] 오류를 모두 고쳐 문장을 다시 쓰세요 (오류 2개)",
+      "q": "Je conduis depuis plus que 20 ans, mais je n'ai jamais eu une contravention.",
+      "a": "Je conduis depuis plus de 20 ans, mais je n'ai jamais eu de contravention.",
+      "alts": [
+        "Je conduis depuis plus de vingt ans, mais je n'ai jamais eu de contravention."
+      ],
+      "hint": "오류 2개: 숫자 앞 '~이상' 표현 + 부정문의 관사",
+      "explain": "10-2 p.17 · 10-3 p.13. 수량 앞 plus de + 숫자, ne…jamais 뒤 une → de.",
+      "src": "semaine 10-3 p.13",
+      "star": true
+    },
+    {
+      "id": "u4-08-t-v-sest-garee",
+      "t": "type",
+      "skill": "pronominal",
+      "prompt": "[V 오류 고치기] 오류를 모두 고쳐 문장을 다시 쓰세요 (오류 2개)",
+      "q": "Valérie s'a garé sous un panneau.",
+      "a": "Valérie s'est garée sous un panneau.",
+      "hint": "오류 2개: 대명동사 복합과거의 조동사 + 주어와 일치",
+      "explain": "10-2 p.16 Je me suis garée를 3인칭으로. 대명동사 → être, 주어 Valérie(여) → garée.",
+      "src": "semaine 10-2 p.16",
+      "star": true
+    },
+    {
+      "id": "u4-08-b-vi-cadeau",
+      "t": "build",
+      "skill": "imparfait",
+      "prompt": "[VI 배열] 단어를 바르게 배열하세요",
+      "a": "Quand j'étais enfant, mes parents m'achetaient un cadeau à Noël.",
+      "extra": [
+        "m'ont"
+      ],
+      "ko": "내가 어렸을 때, 부모님은 크리스마스에 (늘) 선물을 사 주셨다.",
+      "hint": "'어렸을 때 매번' → 습관이니 어떤 시제?",
+      "explain": "9-2 p.11 · 10-1 p.11 예문 그대로. 습관 → 반과거. cf. L'année dernière … m'ont acheté(한 번).",
+      "src": "semaine 10-1 p.11",
+      "star": true
+    },
+    {
+      "id": "u4-08-b-vi-pleuvait",
+      "t": "build",
+      "skill": "imparfait",
+      "prompt": "[VI 배열] 단어를 바르게 배열하세요",
+      "a": "Il pleuvait fort quand je suis sortie de la maison.",
+      "extra": [
+        "a"
+      ],
+      "ko": "내가 집을 나섰을 때 비가 세차게 내리고 있었다.",
+      "hint": "배경(반과거) + 끼어든 사건(복합과거, 조동사는 être)",
+      "explain": "9-2 p.10 · 10-1 p.10 예문 그대로. sortir → être, 화자 여성 → sortie.",
+      "src": "semaine 10-1 p.10",
+      "star": true
+    },
+    {
+      "id": "u4-08-b-vi-promenade",
+      "t": "build",
+      "skill": "tout",
+      "prompt": "[VI 배열] 단어를 바르게 배열하세요",
+      "a": "Je faisais une promenade tous les matins.",
+      "extra": [
+        "tout"
+      ],
+      "ko": "나는 매일 아침 산책을 하곤 했다.",
+      "hint": "les matins(남성 복수)에 맞는 tout의 형태는?",
+      "explain": "9-2 p.11 예문 그대로. 습관 = 반과거 + tous les matins.",
+      "src": "semaine 9-2 p.11",
+      "star": true
+    },
+    {
+      "id": "u4-08-b-vi-lyceenne",
+      "t": "build",
+      "skill": "imparfait",
+      "prompt": "[VI 배열] 단어를 바르게 배열하세요",
+      "a": "Valérie avait les cheveux longs quand elle était lycéenne.",
+      "extra": [
+        "étais"
+      ],
+      "ko": "발레리는 고등학생이었을 때 머리가 길었다.",
+      "hint": "과거의 묘사 두 개 — 둘 다 3인칭 반과거",
+      "explain": "9-2 p.10 · 10-1 p.10 첫 예문 그대로. 묘사 → 반과거 avait / était.",
+      "src": "semaine 10-1 p.10",
+      "star": true
+    },
+    {
+      "id": "u4-08-b-vi-vaut-mieux",
+      "t": "build",
+      "skill": "vocab",
+      "prompt": "[VI 배열] 단어를 바르게 배열하세요",
+      "a": "Quand il pleut, il vaut mieux prendre le métro.",
+      "extra": [
+        "de"
+      ],
+      "ko": "비가 올 때는 지하철을 타는 게 낫다.",
+      "hint": "il vaut mieux 바로 뒤엔 동사원형 (전치사 없이)",
+      "explain": "10-2 p.15 대사 그대로 · 10-3 p.10 Il vaut mieux + inf.",
+      "src": "semaine 10-2 p.15",
+      "star": true
+    },
+    {
+      "id": "u4-08-b-vi-conduis",
+      "t": "build",
+      "skill": "vocab",
+      "prompt": "[VI 배열] 단어를 바르게 배열하세요",
+      "a": "Moi, je conduis depuis plus de 20 ans.",
+      "extra": [
+        "que"
+      ],
+      "ko": "나는 20년 넘게 운전하고 있다.",
+      "hint": "숫자 앞 '~넘게'는 비교의 que가 아닌 다른 단어",
+      "explain": "10-2 p.17 · 10-3 p.13 그대로. plus de + 숫자 = ~이상. depuis + 현재형 = ~전부터 지금까지.",
+      "src": "semaine 10-3 p.13",
+      "star": true
+    },
+    {
+      "id": "u4-08-c-vii-paul",
+      "t": "choice",
+      "skill": "imparfait",
+      "prompt": "[VII 독해] 글을 읽고 답하세요: 딱 한 번 일어난 일은?",
+      "q": "Quand Paul était petit, il habitait à Busan. Tous les dimanches, il allait à la plage avec son père. Un dimanche, il a vu un dauphin. (un dauphin = 돌고래)",
+      "a": "돌고래를 봤다.",
+      "wrong": [
+        "부산에 살았다.",
+        "일요일마다 해변에 갔다.",
+        "아버지와 바닷가에 다녔다."
+      ],
+      "say": "",
+      "hint": "반과거 = 배경·습관, 복합과거 = 한 번의 사건",
+      "explain": "9-2 p.10–11 용법 응용(새 지문). était·habitait·allait = 반과거(배경·습관), a vu = 복합과거(한 번).",
+      "src": "semaine 9-2 p.11"
+    },
+    {
+      "id": "u4-08-c-vii-telephone",
+      "t": "choice",
+      "skill": "imparfait",
+      "prompt": "[VII 독해] 전화가 울렸을 때 '이미 하고 있던' 일이 아닌 것은?",
+      "q": "Hier soir, Marie lisait dans sa chambre et son frère regardait la télévision. Tout à coup, le téléphone a sonné. Marie a répondu. (sonner = 울리다)",
+      "a": "Marie가 전화를 받았다.",
+      "wrong": [
+        "Marie가 방에서 책을 읽었다.",
+        "남자 형제가 TV를 봤다."
+      ],
+      "say": "",
+      "hint": "진행 중이던 일(반과거)과 끼어든 일(복합과거)을 나눠 보기",
+      "explain": "10-1 p.10 '진행 + 끼어듦' 응용(새 지문). lisait·regardait = 진행 중, a sonné → a répondu = 그다음 사건.",
+      "src": "semaine 10-1 p.10"
+    },
+    {
+      "id": "u4-08-c-vii-conseil",
+      "t": "choice",
+      "skill": "vocab",
+      "prompt": "[VII 독해] 교수님의 조언은?",
+      "q": "Hier, Sophie est arrivée en retard au cours. Elle a dit : « Je suis désolée d'être en retard. Au moment où je suis sortie, il y avait des embouteillages partout. » Le professeur a répondu : « Ce n'est pas grave. Mais quand il y a des embouteillages, il vaut mieux prendre le métro. »",
+      "a": "길이 막힐 땐 지하철을 타는 게 낫다.",
+      "wrong": [
+        "늦어도 괜찮으니 차를 타고 와라.",
+        "다음부터는 집에서 일찍 나와라.",
+        "길이 막히면 수업에 오지 마라."
+      ],
+      "say": "",
+      "hint": "il vaut mieux + 동사원형 = '~하는 게 낫다'",
+      "explain": "10-2 대화문을 Sophie 이야기로 바꾼 새 지문. il vaut mieux prendre le métro = 지하철 타는 게 낫다.",
+      "src": "semaine 10-3 p.10"
+    },
+    {
+      "id": "u4-08-b-viii-levais",
+      "t": "build",
+      "skill": "pronominal",
+      "prompt": "[VIII 작문] 모범문 문장을 만드세요",
+      "a": "Tous les matins, je me levais à sept heures.",
+      "extra": [
+        "levé",
+        "tout"
+      ],
+      "ko": "매일 아침 나는 7시에 일어나곤 했다.",
+      "hint": "습관 → 반과거. 대명동사의 재귀대명사 자리 확인",
+      "explain": "작문 모범문 3번. 10-1 p.11 습관 + tous les matins(9-2 p.11). me를 빼먹지 말 것!",
+      "src": "semaine 10-1 p.11"
+    },
+    {
+      "id": "u4-08-b-viii-couchais",
+      "t": "build",
+      "skill": "pronominal",
+      "prompt": "[VIII 작문] 모범문 문장을 만드세요",
+      "a": "Le soir, je ne me couchais pas tôt.",
+      "extra": [
+        "se",
+        "couché"
+      ],
+      "ko": "저녁에 나는 일찍 자지 않았다.",
+      "hint": "대명동사 반과거 부정: ne와 pas 사이에 '대명사+동사'",
+      "explain": "작문 모범문 5번. 중간고사 IV-1 약점(부정 위치)을 반과거로. ne + me couchais + pas.",
+      "src": "중간고사 분석 IV-1"
+    },
+    {
+      "id": "u4-08-b-viii-pere-rentre",
+      "t": "build",
+      "skill": "imparfait",
+      "prompt": "[VIII 작문] 모범문 문장을 만드세요",
+      "a": "Quand je jouais dans le jardin, mon père est rentré.",
+      "extra": [
+        "a",
+        "jouait"
+      ],
+      "ko": "내가 정원에서 놀고 있을 때 아버지가 돌아오셨다.",
+      "hint": "진행 중(반과거) + 끼어든 사건(복합과거, 이동 동사)",
+      "explain": "작문 모범문 6번 뼈대. 10-1 p.10 Quand le professeur est entré, nous jouions 구조. rentrer → être.",
+      "src": "semaine 10-1 p.10"
+    },
+    {
+      "id": "u4-08-b-viii-maison-ou",
+      "t": "build",
+      "skill": "relatif-ou",
+      "prompt": "[VIII 작문] 모범문 문장을 만드세요",
+      "a": "C'est la maison où j'ai passé mon enfance.",
+      "extra": [
+        "ma",
+        "ou"
+      ],
+      "ko": "그곳이 내가 어린 시절을 보낸 집이다.",
+      "hint": "장소 + 관계대명사. enfance는 모음 시작 여성명사",
+      "explain": "작문 모범문 마지막 문장. 10-3 p.6 그대로. ✍️ 모음 앞 → mon enfance.",
+      "src": "semaine 10-3 p.6",
+      "star": true
+    }
+  ]
+}

@@ -113,7 +113,7 @@
   const lessonOf = (c) => cardMeta.get(c.id).lesson;
   const unitOf = (c) => cardMeta.get(c.id).unit;
   const allLessons = () => C.units.flatMap((u) => u.lessons);
-  const usable = (c) => c.t !== 'listen' || S.settings.sound;
+  const usable = (c) => (c.t !== 'listen' && !c.dictate) || S.settings.sound; // 듣기·받아쓰기 카드는 소리 끄면 제외
 
   // ================================================================ 복습 스케줄 (졸업 시스템)
   // 카드 상태: 새 카드 → 학습 중 → 졸업.
@@ -583,6 +583,8 @@
       kind: 'type', ids: [c.id], star: c.star, tag: '쓰기', prompt: c.prompt, main: c.q || c.ko, mainFr: qFr,
       speakMain: qFr && !BLANK.test(c.q) ? c.q : null, sub: c.q ? c.ko : null,
       accept: [...new Set([...answers, ...(qFr ? withoutSubject(c.q, answers) : [])])], reveal: c.a, say: hasHangul(c.a) ? '' : c.a, explain: c.explain, pron: c.pron,
+      // dictate: 시험 I번 '듣기 빈칸' — 문장 전체를 들려주고 q의 빈칸만 쓰게 한다
+      ...(c.dictate ? { listen: c.dictate, speakMain: null, tag: '듣기 빈칸', say: c.dictate, reveal: `${c.a}\n🔊 ${c.dictate}` } : {}),
     };
   }
   function makeQuestion(c) {
@@ -1969,7 +1971,7 @@
   }
 
   // ================================================================ 📝 실전 연습 — 유닛(Leçon) 범위 · 시험형
-  // 파트 순서대로 듣기 30% → 쓰기 30% → 객관식 40% (소리 꺼짐이면 듣기 빼고 쓰기 43 · 객관식 57).
+  // 파트 순서대로 듣기 25% → 쓰기 60% → 객관식 15% (소리 꺼짐이면 듣기 빼고 쓰기 75 · 객관식 25) — 중간고사 구성 기준.
   // 레슨을 돌아가며 1장씩 뽑아 범위 전체에 고르게, 같은 레슨에선 이미 나온 노트 주제(ns)는 피한다. 힌트·재도전 없음.
   const EXAM_PARTS = [
     { id: 'listen', fr: 'Compréhension orale', ko: '🎧 듣기', desc: '듣고 고르거나 받아쓰기 · 🔊 🐢로 다시 들을 수 있어요' },
@@ -2005,6 +2007,7 @@
     listen(c) {
       const g = [];
       if (c.t === 'listen') g.push([2, () => ({ ...qListen(c), tag: '소리 구별' })]);
+      if (c.dictate) g.push([4, () => ({ ...qType(c), tag: '듣기 빈칸' })]); // 시험 I번 형식
       if (plainWord(c)) {
         const say = c.say || c.fr;
         g.push([2, () => ({ kind: 'type', tag: '받아쓰기 · 단어', prompt: '듣고 그대로 쓰세요', listen: say, accept: [c.fr], reveal: `${c.fr} = ${c.ko}`, say, explain: c.note || '' })]);
@@ -2032,7 +2035,7 @@
       }
       if (c.t === 'verb') g.push([2, () => qVerb(c, 2, 'conj-type')]);
       if (c.t === 'pp') g.push([2, () => qPP(c, 2, c.ex ? 'ex-type' : 'pp-type')]);
-      if (c.t === 'type') g.push([3, () => ({ ...qType(c), tag: '쓰기' })]);
+      if (c.t === 'type' && !c.dictate) g.push([3, () => ({ ...qType(c), tag: '쓰기' })]);
       if (c.t === 'build' && wordCount(c.a) <= 10) {
         g.push([3, () => ({ kind: 'type', tag: c.from ? '바꿔 쓰기' : '작문', prompt: c.from ? (c.prompt || '바꿔 쓰세요') : '프랑스어로 쓰세요', main: c.from || c.ko, mainFr: !!c.from, sub: c.from ? c.ko : null, accept: [c.a, ...(c.alts || [])], loose: true, reveal: c.a, say: c.a, explain: c.explain })]);
       }
@@ -2072,8 +2075,9 @@
     return null;
   }
   function examCounts(n) {
-    if (!(S.settings.sound && TTS.ok)) { const w = Math.round(n * 0.43); return { listen: 0, write: w, mc: n - w }; }
-    const l = Math.round(n * 0.3), w = Math.round(n * 0.3);
+    // 비율은 중간고사(10/21) 실제 구성에 맞춤: 듣기 5/23문항, 나머지는 거의 다 직접 쓰기(변환·오류 수정·배열·작문), 객관식 없음
+    if (!(S.settings.sound && TTS.ok)) { const w = Math.round(n * 0.75); return { listen: 0, write: w, mc: n - w }; }
+    const l = Math.round(n * 0.25), w = Math.round(n * 0.6);
     return { listen: l, write: w, mc: n - l - w };
   }
   function buildExam(cfg) {

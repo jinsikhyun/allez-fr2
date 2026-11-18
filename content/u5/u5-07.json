@@ -1,0 +1,140 @@
+{
+  "id": "u5-07",
+  "unit": "u5",
+  "title": "중성 대명사 le · en / y 복습 문제",
+  "emoji": "⚖️",
+  "date": "2026-11-12",
+  "sources": ["semaine 11-3", "semaine 12-2", "노션 11/18"],
+  "tips": [
+    {
+      "h": "중성 le가 받는 것 (✍️ 형광펜)",
+      "rows": [
+        ["attribut du sujet (속사)", "sa sœur **l'est** aussi"],
+        ["toute une proposition (문장 전체)", "Oui, je **le** sais."]
+      ]
+    },
+    {
+      "h": "✍️ '중성' = 절대 안 변함",
+      "b": "받는 말이 여성이든 복수든 **항상 le** (모음 앞 l')\nValérie est gentille → Valérie **l'est** aussi (la ✗)"
+    },
+    {
+      "h": "⭐ 이거 좀 어려움 중요 (✍️)",
+      "b": "Oui, il **me l'a dite**. — l' = la vérité → dite\nOui, je **lui en ai envoyé** beaucoup. — en은 일치 ✗"
+    }
+  ],
+  "note": [
+    {
+      "h": "Le pronom neutre « le » — 속사(attribut)를 받는다",
+      "skill": "le-neutre",
+      "src": ["semaine 11-3 p.14–15", "semaine 12-2 p.12–13", "노션 11/18"],
+      "body": [
+        {"p": "On utilise le pronom neutre « le » pour remplacer **un attribut du sujet** ou **toute une proposition**. (✍️ 형광펜)"},
+        {"ex": [
+          ["Son frère est avocat et sa sœur est avocate aussi. => Son frère est avocat et sa sœur l'est aussi.", "그의 형은 변호사이고 누나도 그렇다(변호사다)."],
+          ["François est gentil et Valérie est gentille aussi. => François est gentil et Valérie l'est aussi.", "프랑수아는 친절하고 발레리도 그렇다."],
+          ["Il est sportif et son fils le sera aussi. (= son fils sera sportif aussi)", "그는 운동을 잘하고 그의 아들도 그럴 것이다."]
+        ]},
+        {"list": [
+          "attribut du sujet = être 뒤에서 주어를 설명하는 말 (avocate, gentille, sportif)",
+          "avocate·gentille은 여성이지만 대명사는 **l'**(= le) — la ✗",
+          "le의 자리는 être 바로 앞: sa sœur **l'est** · son fils **le sera**"
+        ]},
+        {"memo": "✍️ 노션 11/18: 중성이라고 굳이 쓰는 이유 — 원래 le는 le / la / les 관사 세트였지만, 정관사 le인지 COD le인지 지금 배우는 중성 le인지 모름. 그래서 le pronom neutre <le>라 한다. 중성 = **뭐가 오더라도 변화하지 않는 것, 항상 le**. 대명사로 받는 게 여성형이든 복수형이든 변하지 않고 그 자체로 있음."}
+      ]
+    },
+    {
+      "h": "중성 le — 문장 전체(proposition)를 받는다",
+      "skill": "le-neutre",
+      "src": ["semaine 11-3 p.14–15", "semaine 12-2 p.12–13"],
+      "body": [
+        {"ex": [
+          ["Tu sais que Sylvie se marie ? — Oui, je le sais. / Non, je ne le sais pas.", "실비가 결혼하는 거 알아? — 응, 알아. / 아니, 몰라."],
+          ["Ils ont divorcé ! Tu ne le savais pas ? (= Tu ne savais pas qu'ils ont divorcé ?)", "그 사람들 이혼했어! 몰랐어?"]
+        ]},
+        {"p": "le = **que Sylvie se marie** / **qu'ils ont divorcé** — que 이하 문장 통째로. 성·수가 없으니 늘 le."}
+      ]
+    },
+    {
+      "h": "복습 — en / y 고르기 (12-2 p.5–8)",
+      "skill": "pron-en-y",
+      "src": ["semaine 12-2 p.3–8"],
+      "body": [
+        {"table": [
+          ["질문", "정답", "이유"],
+          ["Voulez-vous du thé ?", "Oui, j'en veux.", "du thé = de + 명사 → en (le ✗)"],
+          ["A-t-elle des sœurs ?", "Non, elle n'en a pas.", "des sœurs → en"],
+          ["Pourrais-tu me rendre de l'argent ?", "Oui, je vais t'en rendre.", "de l'argent → en, me → te"],
+          ["Va-t-il souvent à la bibliothèque ?", "Oui, il y va souvent.", "à + 장소 → y"],
+          ["Voulez-vous parler au directeur ?", "Non, je ne veux pas lui parler.", "à + 사람 → lui, 동사원형 parler 앞"],
+          ["Quand arriveras-tu en France ?", "J'y arriverai demain matin.", "en France(장소) → y ✍️"],
+          ["Tes amis t'attendent devant la salle ?", "Oui, ils m'y attendent.", "me → y 순서 ✍️"],
+          ["Est-ce qu'il a dit la vérité à toi ?", "Oui, il me l'a dite.", "me → la, la vérité(f) → dite ✍️"],
+          ["As-tu envoyé beaucoup de cadeaux à ton copain ?", "Oui, je lui en ai envoyé beaucoup.", "lui → en, 조동사 ai 앞 ✍️"]
+        ], "head": true},
+        {"warn": "Voulez-vous parler au directeur ? — 조동사(vouloir) + 동사원형이면 대명사는 **동사원형 앞**: je ne veux pas **lui parler**. (n'y veux pas parler ✗ — 사람은 lui, 자리도 틀림)"},
+        {"warn": "en France의 **en**은 전치사! 대명사로는 장소니까 **y**: J'y arriverai. (J'arriverai en demain ✗, J'en arriverai ✗)"},
+        {"memo": "✍️ p.7 형광펜: Oui, ils m'y attendent. · J'y arriverai demain matin.  ✍️ p.8 형광펜: Oui, il me l'a dite. · Oui, je lui en ai envoyé beaucoup. — '이거 좀 어려움 중요'. p.6은 슬라이드 전체가 형광펜으로 잡혀 정답 표시를 구별할 수 없음 (정답은 위 표)."}
+      ]
+    },
+    {
+      "h": "⭐ 복합과거 + 대명사 두 개",
+      "skill": "agreement",
+      "src": ["semaine 12-2 p.8"],
+      "body": [
+        {"ex": [
+          ["Est-ce qu'il a dit la vérité à toi ? — Oui, il me l'a dite.", "그가 너한테 진실을 말했어? — 응, 나한테 말했어."],
+          ["As-tu envoyé beaucoup de cadeaux à ton copain ? — Oui, je lui en ai envoyé beaucoup.", "남자친구한테 선물 많이 보냈어? — 응, 많이 보냈어."]
+        ]},
+        {"list": [
+          "대명사는 **조동사(avoir) 앞**: il **me l'a** dite (il a me la ✗, il m'a la ✗)",
+          "l' = la vérité(여성 단수 COD)가 avoir 앞 → **dite** (dit ✗)",
+          "à ton copain → lui, de cadeaux → en: **lui en** ai envoyé",
+          "en은 과거분사 일치를 일으키지 않는다 → envoyé 그대로 · beaucoup(수량)은 뒤에"
+        ]},
+        {"memo": "✍️ 필기: 이거 좀 어려움 중요 · 밑줄 'lui en'. (질문 'a dit la vérité à toi'는 연습용 문장 — 보통은 Est-ce qu'il t'a dit la vérité ?)"}
+      ]
+    },
+    {
+      "h": "교재 연습 p.95 — en · y · le (직접 풀이)",
+      "skill": "le-neutre",
+      "src": ["semaine 11-3 p.16", "semaine 12-2 p.14–15"],
+      "body": [
+        {"ex": [
+          ["1. Tu as besoin de mon dictionnaire ? — Oui, j'en ai besoin.", "내 사전 필요해? — 응, 필요해."],
+          ["2. Tu parles de tes enfants ? — Non, je ne parle pas d'eux.", "네 아이들 얘기야? — 아니, 그 애들 얘기 아니야."],
+          ["3. Aujourd'hui, tu ne vas pas à l'école ? — Si, j'y vais.", "오늘 학교 안 가? — 아니, 가."],
+          ["4. Vous allez souvent chez le dentiste ? — Oui, j'y vais souvent.", "치과 자주 가요? — 네, 자주 가요."],
+          ["5. Vous êtes étudiante ? — Non, je ne le suis pas.", "학생이세요? — 아니요, 아니에요."]
+        ]},
+        {"memo": "슬라이드에 답이 없어 **직접 풀이**. 2번은 수업 규칙(특정 인물 → de + 강세형)을 따름. 3번은 부정 질문에 긍정으로 답하니 **Si**. 5번 étudiante(여성)도 중성 **le**."}
+      ]
+    }
+  ],
+  "cards": [
+    {"id": "u5-07-c-replace", "t": "choice", "skill": "le-neutre", "prompt": "중성 대명사 le가 대신하는 것은?", "q": "On utilise le pronom neutre « le » pour remplacer …", "a": "주어의 속사(attribut) 또는 문장 전체", "wrong": ["직접목적어 명사만", "à + 장소", "de + 명사"], "hint": "✍️ 형광펜 친 부분 — 두 가지", "explain": "un attribut du sujet ou toute une proposition.", "say": "", "src": "semaine 12-2 p.12"},
+    {"id": "u5-07-c-why-neutre", "t": "choice", "skill": "le-neutre", "prompt": "왜 '중성' 대명사라고 부를까?", "q": "le pronom neutre « le »", "a": "받는 말이 여성·복수여도 항상 le로 안 변해서", "wrong": ["남성 명사만 받아서", "사람만 받아서", "모음 앞에서도 l'로 줄지 않아서"], "hint": "✍️ 노션 11/18: '뭐가 오더라도…'", "explain": "✍️ 중성 = 뭐가 오더라도 변화하지 않는 것, 항상 le.", "say": "", "star": true, "src": "노션 11/18"},
+    {"id": "u5-07-c-avocate", "t": "choice", "skill": "le-neutre", "prompt": "빈칸에 알맞은 것은?", "q": "Son frère est avocat et sa sœur ___ est aussi.", "ko": "그의 형은 변호사이고 누나도 그렇다.", "a": "l'", "wrong": ["la", "les", "en"], "hint": "속사(avocate) 자리 — 성별과 상관없는 대명사", "explain": "속사 → 중성 le, 모음 앞이라 l'est. 여성이어도 la ✗.", "star": true, "src": "semaine 11-3 p.14"},
+    {"id": "u5-07-c-gentille", "t": "choice", "skill": "le-neutre", "prompt": "빈칸에 알맞은 것은?", "q": "François est gentil et Valérie ___ aussi.", "ko": "프랑수아는 친절하고 발레리도 그렇다.", "a": "l'est", "wrong": ["la est", "l'est gentille", "est la"], "hint": "gentille을 중성 대명사로 — 위치는 être 앞", "explain": "Valérie l'est aussi. 중성 le는 변하지 않는다.", "src": "semaine 11-3 p.14"},
+    {"id": "u5-07-err-la-est", "t": "error", "skill": "le-neutre", "s": "François est gentil et Valérie la est aussi.", "wrong": "la est", "right": "l'est", "ko": "프랑수아는 친절하고 발레리도 그렇다.", "hint": "✍️ 중성은 여성형이어도 변하지 않아요", "explain": "속사 gentille → 중성 le → l'est.", "star": true, "src": "노션 11/18"},
+    {"id": "u5-07-c-sportif", "t": "choice", "skill": "le-neutre", "prompt": "빈칸에 알맞은 것은?", "q": "Il est sportif et son fils ___ sera aussi.", "ko": "그는 운동을 잘하고 그의 아들도 그럴 것이다.", "a": "le", "wrong": ["la", "lui", "y"], "hint": "= son fils sera sportif aussi", "explain": "속사 sportif → le. 미래형 sera 앞.", "src": "semaine 12-2 p.13"},
+    {"id": "u5-07-c-sais", "t": "choice", "skill": "le-neutre", "prompt": "빈칸에 알맞은 것은?", "q": "Tu sais que Sylvie se marie ? — Oui, je ___ sais.", "ko": "실비가 결혼하는 거 알아? — 응, 알아.", "a": "le", "wrong": ["la", "en", "lui"], "hint": "que 이하 문장 전체를 받아요 (Sylvie에 끌리지 말기)", "explain": "proposition 전체(que Sylvie se marie) → 중성 le.", "src": "semaine 11-3 p.14"},
+    {"id": "u5-07-c-sais-neg", "t": "choice", "skill": "le-neutre", "prompt": "부정으로 답하세요", "q": "Tu sais que Sylvie se marie ? — Non, ___", "ko": "실비가 결혼하는 거 알아? — 아니, 몰라.", "a": "je ne le sais pas.", "wrong": ["je ne la sais pas.", "je ne sais pas le.", "je n'en sais pas."], "hint": "ne + 대명사 + 동사 + pas", "explain": "Non, je ne le sais pas.", "src": "semaine 12-2 p.12"},
+    {"id": "u5-07-c-divorce", "t": "choice", "skill": "le-neutre", "prompt": "빈칸에 알맞은 것은?", "q": "Ils ont divorcé ! Tu ne ___ savais pas ?", "ko": "그 사람들 이혼했어! 몰랐어?", "a": "le", "wrong": ["les", "y", "en"], "hint": "ils(복수)가 아니라 '이혼했다는 사실' 전체", "explain": "= Tu ne savais pas qu'ils ont divorcé ? → 중성 le.", "src": "semaine 12-2 p.13"},
+    {"id": "u5-07-c-rev-the", "t": "choice", "skill": "pron-en-y", "prompt": "맞는 답을 고르세요", "q": "Voulez-vous du thé ?", "a": "Oui, j'en veux.", "wrong": ["Oui, je le veux.", "Oui, j'y veux."], "hint": "du thé — 부분관사 = de로 시작", "explain": "du thé → en.", "src": "semaine 12-2 p.5"},
+    {"id": "u5-07-c-rev-soeurs", "t": "choice", "skill": "pron-en-y", "prompt": "맞는 답을 고르세요", "q": "A-t-elle des sœurs ?", "a": "Non, elle n'en a pas.", "wrong": ["Non, elle ne les a pas.", "Non, elle n'y a pas."], "hint": "des sœurs의 des는 어디서 왔을까?", "explain": "des + 명사 → en.", "src": "semaine 12-2 p.5"},
+    {"id": "u5-07-c-rev-argent", "t": "choice", "skill": "pron-en-y", "prompt": "맞는 답을 고르세요", "q": "Pourrais-tu me rendre de l'argent ?", "a": "Oui, je vais t'en rendre.", "wrong": ["Oui, je vais te la rendre.", "Oui, je t'en vais rendre."], "hint": "de l'argent + 대명사 자리(동사원형 앞)", "explain": "de l'argent → en, 동사원형 rendre 앞: je vais t'en rendre.", "src": "semaine 12-2 p.5"},
+    {"id": "u5-07-c-rev-biblio", "t": "choice", "skill": "pron-en-y", "prompt": "맞는 답을 고르세요", "q": "Va-t-il souvent à la bibliothèque ?", "a": "Oui, il y va souvent.", "wrong": ["Oui, il en va souvent.", "Oui, il la va souvent."], "hint": "à + 장소", "explain": "à la bibliothèque → y.", "src": "semaine 12-2 p.6"},
+    {"id": "u5-07-c-rev-directeur", "t": "choice", "skill": "pron-obj", "prompt": "맞는 답을 고르세요", "q": "Voulez-vous parler au directeur ?", "a": "Non, je ne veux pas lui parler.", "wrong": ["Non, je n'y veux pas parler.", "Non, je ne veux pas le parler.", "Non, je ne veux lui parler pas."], "hint": "directeur = 사람 + 대명사는 동사원형 앞", "explain": "à + 사람 → lui, 위치는 parler 앞. ne…pas는 veux를 감싼다.", "star": true, "src": "semaine 12-2 p.6"},
+    {"id": "u5-07-c-rev-france", "t": "choice", "skill": "pron-en-y", "prompt": "맞는 답을 고르세요", "q": "Quand arriveras-tu en France ?", "a": "J'y arriverai demain matin.", "wrong": ["J'arriverai en demain matin.", "J'en arriverai demain matin."], "hint": "en France = 장소! 여기 en은 전치사", "explain": "✍️ 형광펜: 장소 → y. J'y arriverai demain matin.", "star": true, "src": "semaine 12-2 p.7"},
+    {"id": "u5-07-c-rev-salle", "t": "choice", "skill": "pron-en-y", "prompt": "맞는 답을 고르세요", "q": "Tes amis t'attendent devant la salle ?", "a": "Oui, ils m'y attendent.", "wrong": ["Oui, ils y m'attendent.", "Oui, ils m'en attendent."], "hint": "devant la salle = 장소 · me가 먼저", "explain": "✍️ 형광펜: me → y 순서. Oui, ils m'y attendent.", "src": "semaine 12-2 p.7"},
+    {"id": "u5-07-c-rev-verite", "t": "choice", "skill": "pron-obj", "prompt": "맞는 답을 고르세요", "q": "Est-ce qu'il a dit la vérité à toi ?", "a": "Oui, il me l'a dite.", "wrong": ["Oui, il a me la dit.", "Oui, il a me la dite.", "Oui, il m'a la dit."], "hint": "✍️ 어려움 중요 — 대명사는 조동사 앞, 일치도!", "explain": "me → la(l') → a, la vérité(f)가 앞 → dite.", "star": true, "src": "semaine 12-2 p.8"},
+    {"id": "u5-07-c-dite", "t": "choice", "skill": "agreement", "prompt": "빈칸에 알맞은 과거분사는?", "q": "Oui, il me l'a ___.", "ko": "응, 그가 나한테 (진실을) 말했어.", "a": "dite", "wrong": ["dit", "dites", "dits"], "hint": "l' = la vérité가 avoir 앞에 있어요", "explain": "COD la vérité(여성 단수)가 앞 → dite.", "star": true, "src": "semaine 12-2 p.8"},
+    {"id": "u5-07-c-rev-cadeaux", "t": "choice", "skill": "pron-obj", "prompt": "맞는 답을 고르세요", "q": "As-tu envoyé beaucoup de cadeaux à ton copain ?", "a": "Oui, je lui en ai envoyé beaucoup.", "wrong": ["Oui, j'ai les lui envoyé beaucoup.", "Oui, j'y en ai beaucoup envoyé.", "Oui, je leur en ai envoyé beaucoup."], "hint": "✍️ 어려움 중요 — à ton copain(한 명) + de cadeaux", "explain": "✍️ 밑줄 lui en: à ton copain → lui, de cadeaux → en, 조동사 ai 앞.", "star": true, "src": "semaine 12-2 p.8"},
+    {"id": "u5-07-b-lui-en", "t": "build", "skill": "pron-obj", "prompt": "대명사 두 개로 답하세요", "from": "As-tu envoyé beaucoup de cadeaux à ton copain ?", "a": "Oui, je lui en ai envoyé beaucoup.", "extra": ["leur", "y"], "ko": "응, 그에게 많이 보냈어.", "hint": "3번 칸(사람) → 5번 칸 → 조동사", "explain": "lui → en → ai envoyé. en은 일치 안 함 → envoyé.", "star": true, "src": "semaine 12-2 p.8"},
+    {"id": "u5-07-c-ex1-dico", "t": "choice", "skill": "pron-en-y", "prompt": "교재 p.95 — 1번", "q": "Tu as besoin de mon dictionnaire ? — Oui, ___", "ko": "내 사전 필요해? — 응, 필요해.", "a": "j'en ai besoin.", "wrong": ["je l'ai besoin.", "j'ai besoin de lui.", "j'y ai besoin."], "hint": "avoir besoin de + 사물", "explain": "직접 풀이: de + 사물 → en.", "src": "semaine 12-2 p.14"},
+    {"id": "u5-07-c-ex2-enfants", "t": "choice", "skill": "pron-tonic", "prompt": "교재 p.95 — 2번", "q": "Tu parles de tes enfants ? — Non, ___", "ko": "네 아이들 얘기야? — 아니, 그 애들 얘기 아니야.", "a": "je ne parle pas d'eux.", "wrong": ["je ne leur parle pas.", "je ne parle pas d'ils.", "je ne les parle pas."], "hint": "✍️ 그려지는 사람 + parler de → 강세형", "explain": "직접 풀이: de + 사람(복수) → d'eux.", "src": "semaine 12-2 p.14"},
+    {"id": "u5-07-c-ex3-ecole", "t": "choice", "skill": "pron-en-y", "prompt": "교재 p.95 — 3번", "q": "Aujourd'hui, tu ne vas pas à l'école ? — Si, ___", "ko": "오늘 학교 안 가? — 아니, 가.", "a": "j'y vais.", "wrong": ["j'en vais.", "je la vais.", "je n'y vais pas."], "hint": "Si = 부정 질문에 '아니, 가!' + 장소", "explain": "직접 풀이: à l'école → y. Si 뒤는 긍정.", "src": "semaine 12-2 p.14"},
+    {"id": "u5-07-c-ex4-dentiste", "t": "choice", "skill": "pron-en-y", "prompt": "교재 p.95 — 4번", "q": "Vous allez souvent chez le dentiste ? — Oui, ___", "ko": "치과 자주 가요? — 네, 자주 가요.", "a": "j'y vais souvent.", "wrong": ["je lui vais souvent.", "j'en vais souvent.", "je vais souvent y."], "hint": "chez + 사람 = 장소예요", "explain": "직접 풀이: chez le dentiste(장소) → y.", "src": "semaine 12-2 p.15"},
+    {"id": "u5-07-b-ex5-etudiante", "t": "build", "skill": "le-neutre", "prompt": "교재 p.95 — 5번 (중성 대명사로)", "from": "Vous êtes étudiante ?", "a": "Non, je ne le suis pas.", "extra": ["la", "en"], "ko": "아니요, 저는 (학생이) 아니에요.", "hint": "étudiante = 속사 → 여성이어도?", "explain": "직접 풀이: 속사 étudiante → 중성 le. Non, je ne le suis pas.", "star": true, "src": "semaine 12-2 p.15"}
+  ]
+}

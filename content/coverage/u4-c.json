@@ -1,0 +1,59 @@
+{
+  "semaine 10-2": {
+    "p.1": ["skip: 표지 (Semaine 10 · Leçon 12 · 11/4)"],
+    "p.2": ["skip: 목차"],
+    "p.3": ["skip: PARTIE 1 간지 (Révision : l'imparfait)"],
+    "p.4": ["u4-01-c-def", "u4-01-c-base", "u4-01-c-endings", "u4-01-c-avais", "u4-01-c-avoir-stem", "u4-06-c-why-imp", "note:u4-06#0"],
+    "p.5": ["u4-06-c-q1-etais", "u4-06-c-q2-avais", "u4-06-c-q3-faisait", "u4-06-c-q4-parlions", "u4-06-c-q5-preniez", "u4-06-c-q6-partaient", "u4-06-c-q7-savais", "u4-06-c-q8-finissaient", "u4-06-c-q9-venaient", "u4-06-c-q10-mangions", "u4-06-c-q11-ecriviez", "u4-06-c-q12-voyaient", "u4-06-c-q13-voulaient", "u4-06-c-q14-mettais", "u4-06-c-q15-disaient", "u4-06-c-q16-etudiions", "u4-06-err-etudions", "note:u4-06#1", "tip:u4-06#3"],
+    "p.6": ["u4-06-l-sortais", "u4-06-l-levais", "u4-06-l-promenait", "u4-06-l-reposaient", "u4-06-l-partions", "u4-06-c-promenee-tense", "note:u4-06#2"],
+    "p.7": ["skip: PARTIE 2 간지 (Le pronom relatif « où »)"],
+    "p.8": ["u4-06-c-ou-role", "u4-06-b-france", "note:u4-06#3", "tip:u4-06#0"],
+    "p.9": ["u4-06-b-heure", "note:u4-06#3", "tip:u4-06#1"],
+    "p.10": ["u4-06-c-maison", "u4-06-w-enfance", "u4-06-c-au-moment", "u4-06-c-ville", "u4-06-err-jour-que", "u4-06-w-ex-copain", "note:u4-06#4"],
+    "p.11": ["u4-06-b-ex1", "u4-06-c-ex1-lon", "u4-06-c-ex2", "u4-06-w-chateau", "u4-06-w-usine", "u4-06-c-ex3-le", "u4-06-c-ex3-fix", "note:u4-06#5", "tip:u4-06#2"],
+    "p.12": ["u4-06-c-song-jour", "u4-06-c-song-fete", "note:u4-06#6"],
+    "p.13": ["skip: PARTIE 3 간지 (Le texte-dialogue)"],
+    "p.14": ["u4-07-c-desolee-de", "u4-07-b-desolee", "u4-07-c-doit", "u4-07-c-dit-de", "u4-02-c-pleuvait", "u4-07-w-en-retard", "note:u4-07#0"],
+    "p.15": ["u4-07-c-il-y-avait", "u4-07-c-vaut-mieux", "u4-07-c-besoin", "u4-07-err-besoin-de-une", "u4-07-w-imprimante", "u4-07-c-raccompagnee", "note:u4-07#0"],
+    "p.16": ["u4-07-c-encore", "u4-07-w-contravention", "u4-07-w-panneau", "u4-07-c-garee", "u4-07-c-si", "note:u4-07#0"],
+    "p.17": ["u4-07-c-jamais", "u4-07-err-jamais-une", "u4-07-c-incroyable", "u4-07-c-calme-toi", "u4-07-c-depechons", "note:u4-07#0"],
+    "p.18": ["u0-01-ademain", "skip: 마무리 슬라이드 (Questions / À demain !)"]
+  },
+  "semaine 10-3": {
+    "p.1": ["skip: 표지 (Semaine 10 · Leçon 12-13 · 11/5)"],
+    "p.2": ["skip: 목차"],
+    "p.3": ["skip: PARTIE 1 간지 (Révision : le pronom relatif « où »)"],
+    "p.4": ["u4-06-c-ou-role", "u4-06-b-france", "note:u4-06#3"],
+    "p.5": ["u4-06-b-heure", "note:u4-06#3"],
+    "p.6": ["u4-06-c-au-moment-eq", "u4-06-t-jour-ou", "u4-06-c-ville", "u4-06-c-maison", "note:u4-06#4"],
+    "p.7": ["skip: PARTIE 2 간지 (Le texte-dialogue, leçon 12)"],
+    "p.8": ["u4-07-c-desole-du", "u4-07-c-desole-pour", "u4-07-c-desolee-de", "u4-07-c-il-faut", "u4-07-c-doit", "note:u4-07#1", "note:u4-07#2", "tip:u4-07#0"],
+    "p.9": ["u4-07-c-dit-de", "u4-07-c-lui-ai-dit", "u4-07-b-revisions", "u4-07-w-embouteillage", "u4-07-c-ilya-nuance", "note:u4-07#3", "note:u4-07#4", "tip:u4-07#1"],
+    "p.10": ["u4-07-c-vaut-mieux-sens", "u4-07-b-ne-pas-courir", "u4-07-c-envie", "u4-07-c-besoin", "note:u4-07#5", "note:u4-07#6"],
+    "p.11": ["u4-07-c-raccompagner", "u4-07-c-raccompagnee", "u4-07-w-se-garer", "u4-07-c-garee", "note:u4-07#7"],
+    "p.12": ["u4-07-c-ne-plus", "u4-07-c-sais-plus", "u4-07-c-incroyable", "u4-07-c-croire", "note:u4-07#8", "tip:u4-07#2"],
+    "p.13": ["u4-07-c-conduis", "u4-07-c-plus-de-temps", "u4-07-l-plus-de-15", "u4-07-c-jamais", "u4-07-c-calme-toi", "u4-07-c-depechons", "u4-07-w-se-calmer", "u4-07-w-se-depecher", "note:u4-07#9", "note:u4-07#10"]
+  },
+  "노션 11/4": {
+    "§ L'imparfait 반과거 ㅈㄴ 중요 — 과거·조건절·간접화법에 필요": ["u4-06-c-why-imp", "note:u4-06#0"],
+    "§ 어미 « -ais, -ais, -ait, -ions, -iez, -aient »": ["u4-01-c-endings", "u4-06-c-q4-parlions", "note:u4-06#0", "note:u4-06#1"],
+    "§ 이미지 (슬라이드 캡처)": ["note:u4-06#3", "skip: 노션 이미지는 열 수 없음 — 같은 내용의 semaine 10-2 슬라이드로 반영"],
+    "§ où: 장소의 보어 또는 시간의 보어를 대체 — 관계대명사와 같다": ["u4-06-c-ou-role", "note:u4-06#3", "tip:u4-06#0"],
+    "§ C'est la maison où j'ai passé mon enfance — enfance 여성명사": ["u4-06-c-maison", "u4-06-c-mon-enfance", "u4-06-w-enfance", "note:u4-06#4"],
+    "§ au moment où je suis sortie … = Au moment où …, il pleuvait": ["u4-06-c-au-moment", "u4-06-c-au-moment-eq", "note:u4-06#4"],
+    "§ Voici la ville où je suis né(e) · C'est le jour où j'ai rencontré mon ex-copain": ["u4-06-c-ville", "u4-06-err-jour-que", "note:u4-06#4"],
+    "§ Voilà l'usine Renault où l'on fabrique — l 삽입은 on만": ["u4-06-b-ex1", "u4-06-c-ex1-lon", "u4-06-c-l-insert", "note:u4-06#5", "tip:u4-06#2"],
+    "§ Je suis allée à Londres le jour où il faisait très froid → le로 바뀜": ["u4-06-c-ex3-le", "u4-06-c-ex3-fix", "note:u4-06#5"],
+    "§ 본문에서는 주요 문법 요소가 반영된 문장만 구사 — 쓰고 듣고 읽고": ["note:u4-07#0"]
+  },
+  "노션 11/5": {
+    "§ 장소·시간 보어 대체 — J'habite en France où j'ai un studio": ["u4-06-b-france", "note:u4-06#3"],
+    "§ être désolé(e) de … (n/inf.) : ~에 대해 미안하다": ["u4-07-c-desolee-de", "u4-07-c-desole-du", "u4-07-c-desole-pour", "note:u4-07#1"],
+    "§ devoir + inf. (= Il faut + inf.) — Il faut은 비인칭 it": ["u4-07-c-il-faut", "u4-07-c-il-faut-sens", "note:u4-07#2"],
+    "§ 맥락에 따라 바뀐다 — 늦은 이유 = 도로 상황 묘사 → 반과거 (il y avait)": ["u4-07-c-il-y-avait", "u4-07-c-ilya-nuance", "note:u4-07#4", "tip:u4-07#1", "skip: 이미지는 같은 내용의 semaine 10-3 p.9 슬라이드로 반영"],
+    "§ inf. 부정은 ne pas를 앞에 (Il vaut mieux ne pas courir)": ["u4-07-err-ne-courir-pas", "u4-07-b-ne-pas-courir", "note:u4-07#5", "tip:u4-07#3"],
+    "§ 초록색은 다 알아야함": ["note:u4-07#0", "tip:u4-07#0"],
+    "§ passé composé랑 뉘앙스 차이 이해해보기": ["u4-07-c-choix-nuance", "u4-07-c-ilya-nuance", "note:u4-07#4", "skip: 이미지는 열 수 없음 — semaine 10-3 p.12 슬라이드로 추정 반영"],
+    "§ plus de + 숫자 → s 발음 안 함 (plus de 20 ans [쁠뤼 드])": ["u4-07-c-plus-de-pron", "u4-07-l-plus-de-15", "note:u4-07#9", "tip:u4-07#3"]
+  }
+}

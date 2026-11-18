@@ -1,0 +1,155 @@
+{
+  "id": "u5-01",
+  "unit": "u5",
+  "title": "조건법 현재 만들기 — 미래 어간 + 반과거 어미",
+  "emoji": "💭",
+  "date": "2026-11-05",
+  "sources": [
+    "semaine 10-3",
+    "노션 11/5"
+  ],
+  "tips": [
+    {
+      "h": "만드는 법 한 줄",
+      "b": "**미래 어간**(보통 동사원형) + **반과거 어미**\n-ais · -ais · -ait · -ions · -iez · -aient\nparler → je parlerais, nous parlerions"
+    },
+    {
+      "h": "미래 · 반과거 · 조건법 세 쌍둥이",
+      "rows": [
+        ["j'aurai (미래)", "j'avais (반과거) · j'aurais (조건법)"],
+        ["je ferai (미래)", "je faisais (반과거) · je ferais (조건법)"],
+        ["je serai (미래)", "j'étais (반과거) · je serais (조건법)"]
+      ]
+    },
+    {
+      "h": "언제 쓰나 (10-3 기준 3가지)",
+      "rows": [
+        ["공손한 부탁", "Je voudrais un café. · Pourriez-vous m'aider ?"],
+        ["소원 · 꿈", "J'aimerais voyager en France."],
+        ["충고", "Tu devrais boire de l'eau."]
+      ]
+    },
+    {
+      "h": "je voudrai ≠ je voudrais",
+      "b": "u3-02에서 본 것: -s 하나 차이\nje voudrai = 미래 · **je voudrais** = 조건법(공손) ☕"
+    }
+  ],
+  "note": [
+    {
+      "h": "조건법이란? 언제 쓰나",
+      "skill": "conditionnel",
+      "src": ["semaine 10-3 p.14–15", "노션 11/5"],
+      "body": [
+        {"p": "Le conditionnel est un **mode verbal** — 시제(temps)가 아니라 **법(mode)** 이다. 두 시제를 가진다: **le présent**(조건법 현재)와 **le passé**(조건법 과거). 지금 배우는 건 현재."},
+        {"memo": "✍️ 노션 11/5: 「조건법 현재 / 언제 쓰냐.」 — 슬라이드의 세 가지 용법을 정리한 필기."},
+        {"table": [
+          ["용법", "느낌"],
+          ["demander avec **politesse**", "공손하게 부탁하기 — '~해 주실 수 있을까요?'"],
+          ["exprimer un **souhait** ou un **rêve**", "소원·꿈 말하기 — '~하고 싶은데'"],
+          ["donner un **conseil**", "충고하기 — '~하는 게 좋겠어'"]
+        ], "head": true},
+        {"p": "다음 수업(11/10)에서 용법이 다섯 가지로 늘어난다: + 확인 안 된 정보 전하기, + 가정의 결과(Si + 반과거) → u5-02."}
+      ]
+    },
+    {
+      "h": "만드는 법 — 미래 어간 + 반과거 어미 (parler)",
+      "skill": "conditionnel",
+      "src": ["semaine 10-3 p.15–16"],
+      "body": [
+        {"p": "On utilise le **radical du futur simple** (souvent l'infinitif du verbe) et on ajoute des **terminaisons de l'imparfait** : -ais, -ais, -ait, -ions, -iez, -aient."},
+        {"table": [
+          ["주어", "parler", "어미"],
+          ["je", "parlerais", "-ais"],
+          ["tu", "parlerais", "-ais"],
+          ["il / elle", "parlerait", "-ait"],
+          ["nous", "parlerions", "-ions"],
+          ["vous", "parleriez", "-iez"],
+          ["ils / elles", "parleraient", "-aient"]
+        ], "head": true},
+        {"warn": "미래 어미(-ai, -as, -a, -ons, -ez, -ont)와 헷갈리지 말 것: nous parlerons(미래) ≠ nous **parlerions**(조건법) · vous parlerez ≠ vous **parleriez**. je parlerait ✗ → je **parlerais**."},
+        {"memo": "어간은 미래형과 100% 같다 → 미래형 불규칙(u3-02: ir-, fer-, ser-, aur-, voudr-, pourr- …)을 알면 조건법은 공짜."}
+      ]
+    },
+    {
+      "h": "avoir · faire · être — 미래 / 반과거와 비교",
+      "skill": "conditionnel",
+      "src": ["semaine 10-3 p.17"],
+      "body": [
+        {"table": [
+          ["", "avoir", "faire", "être"],
+          ["je", "aurais", "ferais", "serais"],
+          ["tu", "aurais", "ferais", "serais"],
+          ["il / elle", "aurait", "ferait", "serait"],
+          ["nous", "aurions", "ferions", "serions"],
+          ["vous", "auriez", "feriez", "seriez"],
+          ["ils / elles", "auraient", "feraient", "seraient"]
+        ], "head": true},
+        {"p": "슬라이드의 별표 상자 = 헷갈리는 짝: ***J'aurai / J'avais*** · ***Je ferai / Je faisais*** · ***Je serai / J'étais***. 조건법은 **미래의 어간 + 반과거의 어미**를 합친 모양이다."},
+        {"table": [
+          ["미래", "반과거", "조건법"],
+          ["j'aurai", "j'avais", "j'**aurais**"],
+          ["je ferai", "je faisais", "je **ferais**"],
+          ["je serai", "j'étais", "je **serais**"]
+        ], "head": true},
+        {"warn": "j'aurai(미래)와 j'aurais(조건법)는 소리가 거의 같다 — 철자 -s로 구별. 반과거는 어간이 다르다(av-, fais-, ét-)."}
+      ]
+    },
+    {
+      "h": "용례 — voudrais · pourriez · aimerais · devrais",
+      "skill": "conditionnel",
+      "src": ["semaine 10-3 p.18"],
+      "body": [
+        {"ex": [
+          ["Je voudrais un café, s'il vous plaît.", "커피 한 잔 주세요. (공손한 부탁)"],
+          ["Vous pourriez m'aider ? = Pourriez-vous m'aider ?", "저 좀 도와주실 수 있을까요? (공손한 부탁)"],
+          ["J'aimerais voyager en France.", "프랑스를 여행하고 싶어요. (소원)"],
+          ["J'aimerais être riche.", "부자가 되고 싶어요. (꿈)"],
+          ["Tu devrais boire de l'eau.", "너 물 좀 마시는 게 좋겠어. (충고)"],
+          ["Vous devriez étudier un peu plus.", "공부를 좀 더 하시는 게 좋겠어요. (충고)"]
+        ]},
+        {"list": [
+          "vouloir → **voudr**- : je voudrais",
+          "pouvoir → **pourr**- : vous pourriez — 도치하면 Pourriez-vous ?",
+          "aimer → aimer- : j'aimerais (+ 동사원형 = ~하고 싶다)",
+          "devoir → **devr**- : tu devrais, vous devriez (+ 동사원형 = ~하는 게 좋겠다)"
+        ]},
+        {"warn": "u3-02 복습: **Je voudrai un café ✗** (미래 = '원하게 될 것이다') → **Je voudrais** un café. 주문할 땐 늘 -s!"}
+      ]
+    }
+  ],
+  "cards": [
+    {"id": "u5-01-c-mode", "t": "choice", "skill": "conditionnel", "prompt": "빈칸에 알맞은 것은?", "q": "Le conditionnel est un ___ verbal.", "ko": "조건법은 동사의 법(mode)이다.", "a": "mode", "wrong": ["temps", "radical", "sujet"], "hint": "시제(temps)보다 큰 범주예요", "explain": "조건법은 '법(mode)'이고, 그 안에 présent과 passé 두 시제가 있다.", "src": "semaine 10-3 p.15"},
+    {"id": "u5-01-c-two-tenses", "t": "choice", "skill": "conditionnel", "prompt": "조건법의 두 시제는?", "q": "Le conditionnel possède deux temps principaux : …", "a": "le présent et le passé", "wrong": ["le présent et le futur", "l'imparfait et le passé composé", "le futur et le passé"], "hint": "지금 배우는 건 그중 '현재'", "explain": "조건법 현재(présent)와 조건법 과거(passé). 수업에선 현재만.", "say": "", "src": "semaine 10-3 p.15"},
+    {"id": "u5-01-c-formation", "t": "choice", "skill": "conditionnel", "prompt": "조건법 현재 만드는 법은?", "q": "Comment le former ?", "a": "미래 어간 + 반과거 어미", "wrong": ["반과거 어간 + 미래 어미", "현재 nous 어간 + 반과거 어미", "동사원형 + 미래 어미"], "hint": "어간은 미래, 어미는 다른 시제에서 빌려 와요", "explain": "radical du futur simple + terminaisons de l'imparfait (-ais, -ais, -ait, -ions, -iez, -aient).", "say": "", "star": true, "src": "semaine 10-3 p.15"},
+    {"id": "u5-01-c-endings", "t": "choice", "skill": "conditionnel", "prompt": "조건법 현재의 어미는?", "q": "je / tu / il / nous / vous / ils", "a": "-ais, -ais, -ait, -ions, -iez, -aient", "wrong": ["-ai, -as, -a, -ons, -ez, -ont", "-e, -es, -e, -ons, -ez, -ent", "-ais, -as, -ait, -ons, -iez, -ont"], "hint": "반과거 어미와 똑같아요", "explain": "반과거 어미 그대로. -ai, -as, -a…는 미래 어미.", "say": "", "src": "semaine 10-3 p.15"},
+    {"id": "u5-01-t-parlerais", "t": "type", "skill": "conditionnel", "prompt": "parler를 조건법 현재로", "q": "Je ___ (parler)", "a": "parlerais", "alts": ["je parlerais"], "hint": "parler- 뒤에 반과거 je 어미", "explain": "je parlerais — 어간 parler- + -ais.", "src": "semaine 10-3 p.16"},
+    {"id": "u5-01-t-parlerions", "t": "type", "skill": "conditionnel", "prompt": "parler를 조건법 현재로", "q": "Nous ___ (parler)", "a": "parlerions", "alts": ["nous parlerions"], "hint": "nous 어미는 반과거처럼 -i-가 들어가요", "explain": "nous parlerions. 미래 nous parlerons와 -i- 하나 차이!", "star": true, "src": "semaine 10-3 p.16"},
+    {"id": "u5-01-c-parleraient", "t": "choice", "skill": "conditionnel", "prompt": "빈칸에 알맞은 조건법 현재는?", "q": "Elles ___ (parler)", "a": "parleraient", "wrong": ["parleront", "parlaient", "parlerait"], "hint": "복수 3인칭 + 반과거 어미", "explain": "elles parleraient. parleront는 미래, parlaient는 반과거.", "say": "Elles parleraient", "src": "semaine 10-3 p.16"},
+    {"id": "u5-01-c-parleriez", "t": "choice", "skill": "conditionnel", "prompt": "조건법 현재는 어느 것?", "q": "Vous ___ (parler)", "a": "parleriez", "wrong": ["parlerez", "parliez", "parlez"], "hint": "미래 어간 + 반과거 vous 어미", "explain": "vous parleriez = parler- + -iez. parlerez(미래), parliez(반과거).", "say": "Vous parleriez", "src": "semaine 10-3 p.16"},
+    {"id": "u5-01-err-parlerait", "t": "error", "skill": "conditionnel", "s": "Je parlerait français avec toi.", "wrong": "parlerait", "right": "parlerais", "ko": "나는 너랑 프랑스어로 이야기할 텐데.", "hint": "주어가 je예요 — 어미를 확인!", "explain": "je·tu는 -ais, il·elle만 -ait.", "src": "semaine 10-3 p.16"},
+    {"id": "u5-01-l-parlerions", "t": "listen", "skill": "conditionnel", "say": "nous parlerions", "a": "nous parlerions", "wrong": ["nous parlerons", "nous parlions"], "ko": "우리는 말할 텐데", "pron": "[누 빠흘르히옹]", "hint": "끝에 [히옹]이 들리나요?", "explain": "조건법 -rions [히옹] / 미래 -rons [홍] / 반과거 -lions [리옹].", "src": "semaine 10-3 p.16"},
+    {"id": "u5-01-t-aurais", "t": "type", "skill": "conditionnel", "prompt": "avoir를 조건법 현재로", "q": "J'___ (avoir)", "a": "aurais", "alts": ["j'aurais"], "hint": "avoir의 미래 어간은 aur-", "explain": "j'aurais = aur- + -ais.", "src": "semaine 10-3 p.17"},
+    {"id": "u5-01-c-aurions", "t": "choice", "skill": "conditionnel", "prompt": "avoir의 조건법 현재는?", "q": "Nous ___ (avoir)", "a": "aurions", "wrong": ["aurons", "avions", "avrions"], "hint": "미래 어간 + -ions", "explain": "nous aurions. aurons(미래), avions(반과거), avrions는 없는 형태.", "say": "Nous aurions", "src": "semaine 10-3 p.17"},
+    {"id": "u5-01-c-aurai-avais", "t": "choice", "skill": "conditionnel", "prompt": "조건법 현재는 어느 것?", "q": "j'aurai / j'avais / j'aurais", "a": "j'aurais", "wrong": ["j'aurai", "j'avais"], "hint": "미래 어간 + 반과거 어미를 합친 모양", "explain": "j'aurai(미래) + j'avais(반과거) → j'aurais(조건법).", "say": "", "star": true, "src": "semaine 10-3 p.17"},
+    {"id": "u5-01-t-ferais", "t": "type", "skill": "conditionnel", "prompt": "faire를 조건법 현재로", "q": "Je ___ (faire)", "a": "ferais", "alts": ["je ferais"], "hint": "faire의 미래 어간은 fer-", "explain": "je ferais = fer- + -ais.", "src": "semaine 10-3 p.17"},
+    {"id": "u5-01-c-feraient", "t": "choice", "skill": "conditionnel", "prompt": "faire의 조건법 현재는?", "q": "Ils ___ (faire)", "a": "feraient", "wrong": ["feront", "faisaient", "ferait"], "hint": "fer- + 3인칭 복수 반과거 어미", "explain": "ils feraient. feront(미래), faisaient(반과거).", "say": "Ils feraient", "src": "semaine 10-3 p.17"},
+    {"id": "u5-01-c-ferai-faisais", "t": "choice", "skill": "conditionnel", "prompt": "je ferai / je faisais / je ferais 중 짝이 맞는 것은?", "q": "je ferai · je faisais · je ferais", "a": "미래 · 반과거 · 조건법", "wrong": ["조건법 · 반과거 · 미래", "미래 · 조건법 · 반과거", "반과거 · 미래 · 조건법"], "hint": "fais- 어간은 nous faisons에서 온 것", "explain": "ferai(미래) · faisais(반과거, fais- 어간) · ferais(조건법 = fer- + -ais).", "say": "", "src": "semaine 10-3 p.17"},
+    {"id": "u5-01-l-feriez", "t": "listen", "skill": "conditionnel", "say": "vous feriez", "a": "vous feriez", "wrong": ["vous ferez", "vous faisiez"], "ko": "당신은 할 텐데", "pron": "[부 프히에]", "hint": "fer- 뒤에 [이에]가 붙었나요?", "explain": "feriez [프히에] 조건법 · ferez [프헤] 미래 · faisiez [프지에] 반과거.", "src": "semaine 10-3 p.17"},
+    {"id": "u5-01-t-serais", "t": "type", "skill": "conditionnel", "prompt": "être를 조건법 현재로", "q": "Je ___ (être)", "a": "serais", "alts": ["je serais"], "hint": "être의 미래 어간은 ser-", "explain": "je serais = ser- + -ais.", "src": "semaine 10-3 p.17"},
+    {"id": "u5-01-c-serions", "t": "choice", "skill": "conditionnel", "prompt": "être의 조건법 현재는?", "q": "Nous ___ (être)", "a": "serions", "wrong": ["serons", "étions", "étrions"], "hint": "ser- + -ions", "explain": "nous serions. serons(미래), étions(반과거).", "say": "Nous serions", "src": "semaine 10-3 p.17"},
+    {"id": "u5-01-err-serai-etais", "t": "error", "skill": "conditionnel", "s": "Avec toi, j'étrais heureux.", "wrong": "j'étrais", "right": "je serais", "ko": "너와 함께라면 나는 행복할 텐데.", "hint": "être의 미래 어간을 떠올려요", "explain": "조건법은 미래 어간 ser- → je serais. ét-은 반과거 어간(j'étais).", "src": "semaine 10-3 p.17"},
+    {"id": "u5-01-c-voudrais-cafe", "t": "choice", "skill": "conditionnel", "prompt": "카페에서 공손하게 주문하기", "q": "Je ___ un café, s'il vous plaît.", "ko": "커피 한 잔 주세요.", "a": "voudrais", "wrong": ["voudrai", "veux", "voulais"], "hint": "u3-02 기억나요? -s 하나 차이", "explain": "Je voudrais = 공손한 조건법. Je voudrai는 미래('원하게 될 것이다').", "star": true, "src": "semaine 10-3 p.18"},
+    {"id": "u5-01-err-voudrai", "t": "error", "skill": "conditionnel", "s": "Je voudrai un café, s'il vous plaît.", "wrong": "voudrai", "right": "voudrais", "ko": "커피 한 잔 주세요.", "hint": "주문은 미래가 아니라 공손한 법으로!", "explain": "voudrai(미래) ✗ → voudrais(조건법). 소리는 거의 같고 철자만 다르다.", "star": true, "src": "semaine 10-3 p.18"},
+    {"id": "u5-01-b-pourriez-vous", "t": "build", "skill": "conditionnel", "prompt": "도치 의문문으로 바꾸세요", "from": "Vous pourriez m'aider ?", "a": "Pourriez-vous m'aider ?", "extra": ["Pourrez-vous", "vous"], "ko": "저 좀 도와주실 수 있을까요?", "hint": "주어와 동사를 뒤집고 하이픈으로", "explain": "Vous pourriez m'aider ? = Pourriez-vous m'aider ? 둘 다 공손한 부탁.", "src": "semaine 10-3 p.18"},
+    {"id": "u5-01-c-pourriez", "t": "choice", "skill": "conditionnel", "prompt": "공손하게 부탁하려면?", "q": "Vous ___ m'aider ?", "ko": "도와주실 수 있을까요?", "a": "pourriez", "wrong": ["pourrez", "pouvez", "pourriiez"], "hint": "pouvoir의 미래 어간 + 반과거 어미", "explain": "pouvoir → pourr- + -iez = pourriez. pouvez(현재)보다 훨씬 공손.", "src": "semaine 10-3 p.18"},
+    {"id": "u5-01-c-aimerais-voyager", "t": "choice", "skill": "conditionnel", "prompt": "이 문장의 조건법 용법은?", "q": "J'aimerais voyager en France.", "ko": "프랑스를 여행하고 싶어요.", "a": "소원·꿈 말하기", "wrong": ["충고하기", "공손한 부탁", "과거의 습관"], "hint": "'~하고 싶은데'라는 바람", "explain": "aimer의 조건법 + 동사원형 = ~하고 싶다 (souhait / rêve).", "say": "J'aimerais voyager en France.", "src": "semaine 10-3 p.18"},
+    {"id": "u5-01-t-aimerais-riche", "t": "type", "skill": "conditionnel", "prompt": "aimer를 조건법 현재로", "q": "J'___ être riche. (aimer)", "ko": "부자가 되고 싶어요.", "a": "aimerais", "alts": ["j'aimerais"], "hint": "aimer- 뒤에 je 어미", "explain": "j'aimerais être riche — 꿈을 말하는 조건법.", "src": "semaine 10-3 p.18"},
+    {"id": "u5-01-c-devrais-eau", "t": "choice", "skill": "conditionnel", "prompt": "빈칸에 알맞은 것은? (충고)", "q": "Tu ___ boire de l'eau.", "ko": "너 물 좀 마시는 게 좋겠어.", "a": "devrais", "wrong": ["devras", "devrait", "doivais"], "hint": "devoir의 미래 어간은 devr-", "explain": "tu devrais + 동사원형 = ~하는 게 좋겠어 (conseil).", "src": "semaine 10-3 p.18"},
+    {"id": "u5-01-t-devriez", "t": "type", "skill": "conditionnel", "prompt": "devoir를 조건법 현재로 (충고)", "q": "Vous ___ étudier un peu plus.", "ko": "공부를 좀 더 하시는 게 좋겠어요.", "a": "devriez", "alts": ["vous devriez"], "hint": "devr- + vous 어미", "explain": "vous devriez = devr- + -iez.", "src": "semaine 10-3 p.18"},
+    {"id": "u5-01-c-usage-devriez", "t": "choice", "skill": "conditionnel", "prompt": "이 문장의 조건법 용법은?", "q": "Vous devriez étudier un peu plus.", "a": "충고하기", "wrong": ["소원·꿈 말하기", "공손한 주문", "미래 계획"], "hint": "devoir = ~해야 한다 → 조건법이면 부드럽게", "explain": "devoir의 조건법 = '~하는 게 좋겠다' (donner un conseil).", "say": "Vous devriez étudier un peu plus.", "src": "semaine 10-3 p.18"},
+    {"id": "u5-01-w-conseil", "t": "word", "skill": "vocab", "fr": "un conseil", "ko": "충고, 조언", "g": "m", "src": "semaine 10-3 p.15"},
+    {"id": "u5-01-w-souhait", "t": "word", "skill": "vocab", "fr": "un souhait", "ko": "소원, 바람", "g": "m", "src": "semaine 10-3 p.15"},
+    {"id": "u5-01-w-reve", "t": "word", "skill": "vocab", "fr": "un rêve", "ko": "꿈", "g": "m", "src": "semaine 10-3 p.15"},
+    {"id": "u5-01-w-politesse", "t": "word", "skill": "vocab", "fr": "la politesse", "ko": "공손함, 예의", "g": "f", "src": "semaine 10-3 p.15"}
+  ]
+}

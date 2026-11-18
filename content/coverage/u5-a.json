@@ -1,0 +1,57 @@
+{
+  "semaine 10-3": {
+    "p.14": ["note:u5-01#0", "skip: PARTIE 3 간지 (Le conditionnel (présent))"],
+    "p.15": ["u5-01-c-mode", "u5-01-c-two-tenses", "u5-01-c-formation", "u5-01-c-endings", "u5-01-w-conseil", "u5-01-w-souhait", "u5-01-w-reve", "u5-01-w-politesse", "note:u5-01#0", "note:u5-01#1", "tip:u5-01#0", "tip:u5-01#2"],
+    "p.16": ["u5-01-t-parlerais", "u5-01-t-parlerions", "u5-01-c-parleraient", "u5-01-c-parleriez", "u5-01-err-parlerait", "u5-01-l-parlerions", "note:u5-01#1", "tip:u5-01#0"],
+    "p.17": ["u5-01-t-aurais", "u5-01-c-aurions", "u5-01-c-aurai-avais", "u5-01-t-ferais", "u5-01-c-feraient", "u5-01-c-ferai-faisais", "u5-01-l-feriez", "u5-01-t-serais", "u5-01-c-serions", "u5-01-err-serai-etais", "note:u5-01#2", "tip:u5-01#1"],
+    "p.18": ["u5-01-c-voudrais-cafe", "u5-01-err-voudrai", "u3-02-c-voudrais", "u5-01-b-pourriez-vous", "u5-01-c-pourriez", "u5-01-c-aimerais-voyager", "u5-01-t-aimerais-riche", "u5-01-c-devrais-eau", "u5-01-t-devriez", "u5-01-c-usage-devriez", "note:u5-01#3", "tip:u5-01#2", "tip:u5-01#3"],
+    "p.19": ["u0-01-ademain", "skip: 마무리 슬라이드 (Questions / À la semaine prochaine !)"]
+  },
+  "semaine 11-1": {
+    "p.1": ["skip: 표지 (Semaine 11 · Leçon 13 · 11/10)"],
+    "p.2": ["skip: 목차"],
+    "p.3": ["note:u5-02#0", "skip: PARTIE 1 간지 (Correction des productions écrites) — 슬라이드에 내용 없음, 수업 중 개별 첨삭"],
+    "p.4": ["skip: PARTIE 2 간지 (Le conditionnel (présent))"],
+    "p.5": ["u5-02-c-usage-count", "u5-02-c-usage-serviette", "u5-02-c-usage-president", "u5-02-c-usage-sport", "u5-02-c-usage-avocat", "note:u5-02#0", "tip:u5-02#0"],
+    "p.6": ["u5-01-t-parlerais", "u5-01-t-parlerions", "u5-01-c-parleraient", "u5-01-c-formation", "note:u5-02#1", "note:u5-01#1"],
+    "p.7": ["u5-01-c-aurai-avais", "u5-01-c-ferai-faisais", "u5-01-t-serais", "note:u5-01#2", "note:u5-02#1"],
+    "p.8": ["u5-02-c-aimeraient", "u5-02-t-acheterais", "u5-02-err-achetions", "u5-02-c-prendrais", "note:u5-02#1"],
+    "p.9": ["u5-02-t-f1-je-mangerais", "u5-02-t-f1-tu-mangerais", "u5-02-t-f2-je-voudrais", "u5-02-t-f2-nous-voudrions", "u5-02-t-f3-je-pourrais", "u5-02-t-f3-vous-pourriez", "u5-02-t-f4-je-viendrais", "u5-02-t-f4-ils-viendraient", "u5-02-t-f5-je-verrais", "u5-02-t-f5-elles-verraient", "u5-02-t-f6-je-devrais", "u5-02-t-f6-tu-devrais", "u5-02-t-f7-je-saurais", "u5-02-t-f7-il-saurait", "note:u5-02#2", "tip:u5-02#2"],
+    "p.10": ["u5-01-c-voudrais-cafe", "u5-01-b-pourriez-vous", "u5-02-b-pourrais-je", "u5-02-c-usage-serviette", "note:u5-02#3"],
+    "p.11": ["u5-02-c-usage-avocat", "u5-02-c-souhaiterions", "u5-02-w-couramment", "u5-02-c-couramment-origin", "u5-01-c-aimerais-voyager", "u5-01-t-aimerais-riche", "note:u5-02#4", "tip:u5-02#3"],
+    "p.12": ["u5-01-c-devrais-eau", "u5-01-t-devriez", "u5-02-t-devrions", "u5-02-c-faudrait", "u5-02-w-a-lavance", "note:u5-02#5", "tip:u5-02#3"],
+    "p.13": ["u5-02-c-usage-president", "u5-02-t-serait-malade", "u5-02-c-aurait-manif", "u5-02-w-selon", "u5-02-w-manifestation", "note:u5-02#6"],
+    "p.14": ["u5-02-c-si-formula", "u5-02-c-ferais-courses", "u5-02-c-voyagerai-cf", "u5-02-err-si-aurais", "u5-02-c-nuance-argent", "u5-02-b-garderais", "note:u5-02#7", "tip:u5-02#1"],
+    "p.15": ["u5-02-t-ex1-accepterais", "u5-02-t-ex2-acheterait", "u5-02-c-ex3-irais", "u5-02-t-ex4-aimerais", "u5-02-c-ex4-pourriez", "note:u5-02#8"],
+    "p.16": ["u5-02-c-sup1-devrait", "u5-02-t-sup2-viendrions", "u5-02-t-sup3-pourriez", "u5-02-c-sup4-feraient", "u5-02-t-sup5-voudrions", "u5-02-c-sup6-partirons", "note:u5-02#8"],
+    "p.17": ["u0-01-ademain", "skip: 마무리 슬라이드 (Questions / À demain !)"]
+  },
+  "semaine 11-2": {
+    "p.1": ["skip: 표지 (Semaine 11 · Leçon 13 · 11/11)"],
+    "p.2": ["skip: 목차"],
+    "p.3": ["skip: PARTIE 1 간지 (Le conditionnel (présent))"],
+    "p.4": ["u5-02-c-usage-count", "u5-01-c-two-tenses", "note:u5-02#0", "note:u5-03#0", "tip:u5-02#0"],
+    "p.5": ["u5-01-c-formation", "u5-01-c-endings", "u5-01-t-parlerions", "note:u5-01#1", "note:u5-03#0"],
+    "p.6": ["u5-01-c-aurai-avais", "u5-01-c-ferai-faisais", "u5-01-c-serions", "note:u5-01#2", "note:u5-03#0"],
+    "p.7": ["u5-02-c-aimeraient", "u5-02-t-acheterais", "u5-02-c-prendrais", "note:u5-02#1", "note:u5-03#0"],
+    "p.8": ["u5-03-c-polie-cafe", "u5-02-b-pourrais-je", "u5-01-c-voudrais-cafe", "note:u5-03#0"],
+    "p.9": ["u5-03-c-souhait-voyager", "u5-02-c-usage-avocat", "u5-02-c-souhaiterions", "note:u5-03#0"],
+    "p.10": ["u5-03-c-faudrait-sens", "u5-03-b-faudrait", "u5-03-err-faudrait-pp", "u5-03-c-devrions", "u5-02-w-a-lavance", "note:u5-03#1", "tip:u5-03#3"],
+    "p.11": ["u5-03-c-neigerait-sens", "u5-03-c-neigera-vs", "u5-03-t-aurait-manif", "note:u5-03#2", "tip:u5-03#2"],
+    "p.12": ["u5-03-c-hypo-reel", "u5-03-c-donnerais", "u5-03-t-ferais-won", "u5-03-err-si-etrais", "u5-03-w-boite", "note:u5-03#3", "tip:u5-03#0"],
+    "p.13": ["u5-03-c-si-possible", "u5-03-c-verrez", "u5-03-w-partout", "note:u5-03#4", "tip:u5-03#0"],
+    "p.14": ["u5-03-c-revisions-irreel", "u5-03-c-revisions-possible", "u5-03-b-si-avais", "note:u5-03#4", "tip:u5-03#0"],
+    "p.15": ["u5-03-c-viendrai-viendrais", "u5-03-c-viendrai-demain", "u5-03-c-partira", "u5-03-c-dinerais", "u5-03-c-nuance-filtre", "u5-03-l-partira", "u5-03-w-a-lheure", "note:u5-03#5", "tip:u5-03#1"],
+    "p.16": ["u5-02-t-ex1-accepterais", "u5-02-t-ex2-acheterait", "u5-02-c-ex3-irais", "u5-02-t-ex4-aimerais", "u5-02-c-ex4-pourriez", "note:u5-03#6"],
+    "p.17": ["u5-03-c-mix1-jouais", "u5-03-c-mix2-partirions", "u5-03-t-mix3-preparerai", "u5-03-c-mix4-bois", "u5-03-c-mix5-pourriez", "u5-03-c-mix6-allions", "u5-03-c-mix7-serons", "u5-03-c-mix8-aimerait", "note:u5-03#6", "skip: PARTIE 2 간지 (Exercice des verbes) — 문항은 슬라이드에 없음, 카드는 직접 만든 4시제 연습"]
+  },
+  "노션 11/5": {
+    "§ [image] 조건법 현재 / 언제 쓰냐.": ["u5-01-c-formation", "u5-01-c-aimerais-voyager", "u5-01-c-usage-devriez", "note:u5-01#0", "tip:u5-01#2", "skip: 이미지는 열 수 없음 — 같은 내용의 semaine 10-3 슬라이드로 반영"]
+  },
+  "노션 11/10": {
+    "§ (본문 비어 있음 — 필기는 PDF 주석으로)": ["skip: 날짜 페이지 본문 비어 있음 — 학생 필기는 semaine 11-1 PDF 주석으로 반영"]
+  },
+  "노션 11/11": {
+    "§ 슬라이드 캡처 이미지": ["note:u5-03#6", "skip: 이미지는 열 수 없음 — 같은 내용의 semaine 11-2 슬라이드로 반영"]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "u5-08",
+  "unit": "u5",
+  "title": "텍스트-대화문 — 장보기 심부름",
+  "emoji": "🛒",
+  "date": "2026-11-18",
+  "sources": ["semaine 12-2"],
+  "tips": [
+    {
+      "h": "대화 속 en 찾기",
+      "b": "n'**en** ont plus besoin (= des vêtements) · pour **en** faire don\nprends-**en** une douzaine · achètes-**en** un litre · J'**en** ai encore · n'oublie pas d'**en** acheter"
+    },
+    {
+      "h": "긍정 명령 + en",
+      "b": "동사 뒤 + 하이픈: **Prends-en** ! · **Achètes-en** !\n-er 동사 tu 명령형은 s가 빠지지만 en·y 앞에선 **s가 돌아온다** (achète → achètes-en)"
+    },
+    {
+      "h": "분량 표현",
+      "rows": [
+        ["une douzaine de", "12개, 한 다스"],
+        ["un litre de", "1리터"],
+        ["un paquet de", "한 봉지·한 팩"],
+        ["une plaque de", "(초콜릿) 한 판"]
+      ]
+    }
+  ],
+  "note": [
+    {
+      "h": "대화 ① — 부탁하기 · 기부",
+      "skill": "pron-en-y",
+      "src": ["semaine 12-2 p.17–18"],
+      "body": [
+        {"ex": [
+          ["Mme Dubois : Tu peux me rendre un petit service ?", "나 좀 도와줄 수 있어?"],
+          ["M. Dubois : Oui, de quoi s'agit-il ?", "그래, 무슨 일인데?"],
+          ["Mme Dubois : Si j'avais le temps, je ferais les courses. Mais je dois sortir les vieux vêtements de Paul et de Valérie.", "시간이 있으면 내가 장을 볼 텐데. 그런데 폴이랑 발레리 헌 옷을 꺼내 놔야 해."],
+          ["M. Dubois : Mais nos enfants n'en ont plus besoin !", "하지만 애들은 이제 그 옷 필요 없잖아!"],
+          ["M. Dubois : Ils sont grands maintenant !", "애들 이제 다 컸어!"],
+          ["Mme Dubois : C'est pour en faire don aux orphelins !", "그걸 고아들한테 기부하려는 거야!"],
+          ["M. Dubois : Qu'est-ce que tu es généreuse ! Bon, c'est moi qui vais au marché aujourd'hui. Alors, qu'est-ce que je dois acheter ?", "당신 참 너그럽네! 좋아, 오늘은 내가 시장 갈게. 그럼 뭘 사야 해?"]
+        ]},
+        {"list": [
+          "rendre un service à qqn = ~의 부탁을 들어주다 → me rendre un petit service",
+          "Il s'agit de … = ~에 관한 일이다 → De quoi s'agit-il ? 무슨 일이야?",
+          "Si j'avais …, je ferais … = si + 반과거, 조건법 (지금 사실과 반대)",
+          "sortir (나가다) / **sortir qqch** (~을 꺼내다, 내놓다)",
+          "ne … plus = 더 이상 ~ 않다 · avoir besoin **de** → **en** (= des vieux vêtements)",
+          "faire don **de** … = ~을 기부하다 → en faire don (en = les vieux vêtements)",
+          "Qu'est-ce que tu es généreuse ! = 감탄문. généreux → généreuse (여성)",
+          "c'est moi qui **vais** = 강조 구문 (u5-04)"
+        ]}
+      ]
+    },
+    {
+      "h": "대화 ② — 장보기 목록",
+      "skill": "pron-en-y",
+      "src": ["semaine 12-2 p.19–21"],
+      "body": [
+        {"ex": [
+          ["Mme Dubois : Des œufs, prends-en une douzaine et du sucre, un kilo.", "달걀은 한 다스 사고, 설탕은 1킬로."],
+          ["M. Dubois : Et du beurre ?", "버터는?"],
+          ["Mme Dubois : J'en ai encore, mais j'ai besoin de lait. Achètes-en un litre !", "버터는 아직 있어, 근데 우유가 필요해. 1리터 사 와!"],
+          ["M. Dubois : C'est tout ?", "그게 다야?"],
+          ["Mme Dubois : Attends ! Il me faut aussi de la farine. Prends-en un paquet !", "잠깐! 밀가루도 필요해. 한 봉지 사!"],
+          ["M. Dubois : D'accord. Tu vas faire un gâteau au chocolat, n'est-ce pas ?", "알았어. 초콜릿 케이크 만들려는 거지?"],
+          ["Mme Dubois : C'est ça, tu l'as deviné !", "맞아, 눈치챘네!"],
+          ["Mme Dubois : Ah, du chocolat, n'oublie pas d'en acheter une plaque !", "아, 초콜릿 — 한 판 사는 거 잊지 마!"],
+          ["M. Dubois : Ne t'en fais pas ! J'y penserai.", "걱정 마! 잊지 않을게(생각해 둘게)."]
+        ]},
+        {"list": [
+          "**prends-en / achètes-en** — 긍정 명령문에서 en은 동사 뒤 + 하이픈, 수량(une douzaine, un litre, un paquet)은 뒤에",
+          "achète(tu 명령) + en → **achètes-en** [아셰뜨장] — 연음을 위해 s 부활",
+          "J'**en** ai encore = 버터(du beurre)는 아직 있어",
+          "Il me faut … = 나는 ~이 필요하다 (falloir) · **de la** farine (여성) / **du** lait, **du** sucre, **du** beurre (남성)",
+          "tu **l'**as deviné — l' = '내가 초콜릿 케이크를 만든다'는 사실 전체 (중성 le, u5-07)",
+          "n'oublie pas d'**en** acheter — 동사원형 acheter 앞에 en",
+          "**s'en faire** = 걱정하다 → Ne t'en fais pas ! 걱정 마!",
+          "penser **à** + 사물 → **J'y penserai.** (y = 초콜릿 사는 일)"
+        ]}
+      ]
+    },
+    {
+      "h": "마무리",
+      "skill": "pron-en-y",
+      "src": ["semaine 12-2 p.22"],
+      "body": [
+        {"memo": "Questions · À demain !"}
+      ]
+    }
+  ],
+  "cards": [
+    {"id": "u5-08-c-service", "t": "choice", "skill": "vocab", "prompt": "뜻은?", "q": "Tu peux me rendre un petit service ?", "a": "나 좀 도와줄 수 있어?", "wrong": ["나한테 그거 돌려줄 수 있어?", "작은 선물 하나 사 줄래?", "서비스로 좀 줄 수 있어?"], "hint": "rendre un service à qqn — 부탁을 들어주다", "explain": "rendre un service à qqn = ~의 부탁을 들어주다.", "src": "semaine 12-2 p.17"},
+    {"id": "u5-08-w-rendre-service", "t": "word", "skill": "vocab", "fr": "rendre un service à quelqu'un", "ko": "~의 부탁을 들어주다, 도와주다", "src": "semaine 12-2 p.17"},
+    {"id": "u5-08-c-sagit", "t": "choice", "skill": "vocab", "prompt": "뜻은?", "q": "Oui, de quoi s'agit-il ?", "a": "그래, 무슨 일인데?", "wrong": ["그래, 그게 누구야?", "그래, 어디로 가는데?", "그래, 언제 하는데?"], "hint": "Il s'agit de … = ~에 관한 것이다", "explain": "De quoi s'agit-il ? = 무엇에 관한 거야? → 무슨 일이야?", "src": "semaine 12-2 p.17"},
+    {"id": "u5-08-w-il-sagit", "t": "word", "skill": "vocab", "fr": "il s'agit de", "ko": "~에 관한 일이다, ~이 문제다", "src": "semaine 12-2 p.17"},
+    {"id": "u5-08-c-ferais", "t": "choice", "skill": "conditionnel", "prompt": "빈칸에 알맞은 것은?", "q": "Si j'avais le temps, je ___ les courses.", "ko": "시간이 있으면 내가 장을 볼 텐데.", "a": "ferais", "wrong": ["ferai", "faisais", "fais"], "hint": "si + 반과거 → 뒤는 조건법", "explain": "지금 사실과 반대 가정: si + 반과거, 조건법 현재(ferais).", "src": "semaine 12-2 p.17"},
+    {"id": "u5-08-w-courses", "t": "word", "skill": "vocab", "fr": "faire les courses", "ko": "장을 보다", "src": "semaine 12-2 p.17"},
+    {"id": "u5-08-c-sortir-qqch", "t": "choice", "skill": "vocab", "prompt": "여기서 sortir의 뜻은?", "q": "Je dois sortir les vieux vêtements de Paul et de Valérie.", "a": "(물건을) 꺼내다, 내놓다", "wrong": ["외출하다", "~와 사귀다", "떠나다"], "hint": "sortir 뒤에 목적어(qqch)가 있어요", "explain": "sortir = 나가다 / sortir qqch = ~을 꺼내다.", "src": "semaine 12-2 p.17"},
+    {"id": "u5-08-c-nen-ont-plus", "t": "choice", "skill": "pron-en-y", "prompt": "빈칸에 알맞은 것은?", "q": "Mais nos enfants n'___ ont plus besoin !", "ko": "하지만 애들은 이제 그거 필요 없잖아!", "a": "en", "wrong": ["y", "les", "leur"], "hint": "avoir besoin + 전치사? (= des vieux vêtements)", "explain": "avoir besoin de → en. ne … plus = 더 이상 ~ 않다.", "src": "semaine 12-2 p.17"},
+    {"id": "u5-08-c-ne-plus", "t": "choice", "skill": "neg", "prompt": "뜻은?", "q": "Nos enfants n'en ont plus besoin.", "a": "애들은 이제 더 이상 그게 필요 없다.", "wrong": ["애들은 아직도 그게 필요하다.", "애들은 그게 전혀 필요한 적 없다.", "애들은 그게 더 많이 필요하다."], "hint": "ne … plus", "explain": "ne … plus = 더 이상 ~ 않다.", "src": "semaine 12-2 p.17"},
+    {"id": "u5-08-c-en-faire-don", "t": "choice", "skill": "pron-en-y", "prompt": "빈칸에 알맞은 것은?", "q": "C'est pour ___ faire don aux orphelins !", "ko": "그걸 고아들한테 기부하려는 거야!", "a": "en", "wrong": ["y", "le", "leur"], "hint": "faire don + 전치사 ~ (= 헌 옷들)", "explain": "faire don de → en faire don. 동사원형 faire 앞.", "src": "semaine 12-2 p.18"},
+    {"id": "u5-08-w-faire-don", "t": "word", "skill": "vocab", "fr": "faire don de", "ko": "~을 기부하다", "src": "semaine 12-2 p.18"},
+    {"id": "u5-08-w-orphelin", "t": "word", "skill": "vocab", "fr": "un orphelin", "ko": "고아", "g": "m", "src": "semaine 12-2 p.18"},
+    {"id": "u5-08-c-genereuse", "t": "choice", "skill": "adj", "prompt": "빈칸에 알맞은 것은? (남편이 아내에게)", "q": "Qu'est-ce que tu es ___ !", "ko": "당신 참 너그럽네!", "a": "généreuse", "wrong": ["généreux", "généreuses", "généreusse"], "hint": "tu = Mme Dubois (여성 단수) · -eux의 여성형", "explain": "généreux → généreuse.", "src": "semaine 12-2 p.18"},
+    {"id": "u5-08-c-moi-qui-vais", "t": "choice", "skill": "emphatique", "prompt": "빈칸에 알맞은 것은?", "q": "Bon, c'est moi qui ___ au marché aujourd'hui.", "ko": "좋아, 오늘은 내가 시장 갈게.", "a": "vais", "wrong": ["va", "vas", "allons"], "hint": "qui 앞 moi가 진짜 주어", "explain": "c'est moi qui vais (je vais).", "src": "semaine 12-2 p.18"},
+    {"id": "u5-08-c-prends-en", "t": "choice", "skill": "pron-en-y", "prompt": "빈칸에 알맞은 것은?", "q": "Des œufs, ___ une douzaine.", "ko": "달걀은 한 다스 사.", "a": "prends-en", "wrong": ["en prends", "prends-les", "prend-en"], "hint": "긍정 명령 → 대명사는 동사 뒤 + 하이픈", "explain": "Prends-en une douzaine. 수량은 뒤에.", "src": "semaine 12-2 p.19"},
+    {"id": "u5-08-c-achetes-en", "t": "choice", "skill": "imperatif", "prompt": "빈칸에 알맞은 것은?", "q": "J'ai besoin de lait. ___ un litre !", "ko": "우유가 필요해. 1리터 사 와!", "a": "Achètes-en", "wrong": ["Achète-en", "En achète", "Achète-le"], "hint": "-er 명령형 tu 뒤에 모음 대명사가 붙으면?", "explain": "achète → achètes-en: 연음 [아셰뜨장]을 위해 s가 돌아온다.", "star": true, "src": "semaine 12-2 p.19"},
+    {"id": "u5-08-c-jen-ai-encore", "t": "choice", "skill": "pron-en-y", "prompt": "빈칸에 알맞은 것은?", "q": "Et du beurre ? — ___ ai encore.", "ko": "버터는? — 아직 있어.", "a": "J'en", "wrong": ["Je l'", "J'y", "Je les"], "hint": "du beurre = 부분관사", "explain": "du beurre → en. J'en ai encore.", "src": "semaine 12-2 p.19"},
+    {"id": "u5-08-b-prends-paquet", "t": "build", "skill": "pron-en-y", "prompt": "'(밀가루) 한 봉지 사!'", "a": "Prends-en un paquet !", "extra": ["les", "de"], "ko": "그거 한 봉지 사!", "hint": "긍정 명령 + 대명사 + 수량", "explain": "Prends-en un paquet ! (en = de la farine)", "src": "semaine 12-2 p.20"},
+    {"id": "u5-08-c-de-la-farine", "t": "choice", "skill": "gender", "prompt": "빈칸에 알맞은 것은?", "q": "Il me faut aussi ___ farine.", "ko": "밀가루도 필요해.", "a": "de la", "wrong": ["du", "des", "de l'"], "hint": "farine은 여성 명사", "explain": "부분관사: de la farine (f) / du lait, du sucre, du beurre (m).", "src": "semaine 12-2 p.20"},
+    {"id": "u5-08-c-il-me-faut", "t": "choice", "skill": "vocab", "prompt": "뜻은?", "q": "Il me faut aussi de la farine.", "a": "나는 밀가루도 필요해.", "wrong": ["그가 밀가루도 만들어.", "밀가루도 나한테 있어.", "밀가루도 다 떨어졌어."], "hint": "falloir: il faut = ~이 필요하다", "explain": "Il me faut … = 나에게 ~이 필요하다.", "src": "semaine 12-2 p.20"},
+    {"id": "u5-08-c-devine", "t": "choice", "skill": "vocab", "prompt": "뜻은?", "q": "C'est ça, tu l'as deviné !", "a": "맞아, 네가 알아맞혔네!", "wrong": ["맞아, 네가 그걸 샀구나!", "맞아, 네가 잊어버렸네!", "맞아, 네가 만들었구나!"], "hint": "deviner = 짐작하다", "explain": "deviner = 알아맞히다. l' = 케이크를 만든다는 사실 전체(중성 le).", "src": "semaine 12-2 p.20"},
+    {"id": "u5-08-c-l-neutre", "t": "choice", "skill": "le-neutre", "prompt": "tu l'as deviné 의 l'이 받는 것은?", "q": "Tu vas faire un gâteau au chocolat, n'est-ce pas ? — C'est ça, tu l'as deviné !", "a": "'초콜릿 케이크를 만든다'는 사실 전체", "wrong": ["la farine", "Paul et Valérie", "le marché"], "hint": "앞 문장 통째로 받는 대명사 (u5-07)", "explain": "문장 전체(proposition) → 중성 le → l'as deviné.", "say": "", "src": "semaine 12-2 p.20"},
+    {"id": "u5-08-c-nest-ce-pas", "t": "choice", "skill": "question", "prompt": "n'est-ce pas의 뜻은?", "q": "Tu vas faire un gâteau au chocolat, n'est-ce pas ?", "a": "그렇지? (확인)", "wrong": ["아니지?", "왜?", "언제?"], "hint": "문장 끝에 붙여 동의를 구해요", "explain": "n'est-ce pas ? = 그렇지?, 맞지?", "src": "semaine 12-2 p.20"},
+    {"id": "u5-08-c-en-acheter", "t": "choice", "skill": "pron-en-y", "prompt": "빈칸에 알맞은 것은?", "q": "Ah, du chocolat, n'oublie pas d'___ acheter une plaque !", "ko": "아, 초콜릿 — 한 판 사는 거 잊지 마!", "a": "en", "wrong": ["y", "le", "la"], "hint": "du chocolat + 수량(une plaque)", "explain": "du chocolat → en, 동사원형 acheter 앞.", "src": "semaine 12-2 p.21"},
+    {"id": "u5-08-c-ten-fais", "t": "choice", "skill": "vocab", "prompt": "뜻은?", "q": "Ne t'en fais pas !", "a": "걱정 마!", "wrong": ["하지 마!", "잊지 마!", "신경 끄고 무시해!"], "hint": "s'en faire = 걱정하다", "explain": "s'en faire = 걱정하다 → Ne t'en fais pas ! 걱정 마!", "star": true, "src": "semaine 12-2 p.21"},
+    {"id": "u5-08-w-s-en-faire", "t": "word", "skill": "vocab", "fr": "s'en faire", "ko": "걱정하다", "src": "semaine 12-2 p.21"},
+    {"id": "u5-08-c-jy-penserai", "t": "choice", "skill": "pron-en-y", "prompt": "빈칸에 알맞은 것은?", "q": "Ne t'en fais pas ! ___ penserai.", "ko": "걱정 마! 잊지 않을게.", "a": "J'y", "wrong": ["J'en", "Je lui", "Je le"], "hint": "penser + 전치사 + 사물(초콜릿 사기)", "explain": "penser à + 사물 → y. J'y penserai (미래).", "src": "semaine 12-2 p.21"},
+    {"id": "u5-08-w-douzaine", "t": "word", "skill": "vocab", "fr": "une douzaine de", "ko": "~ 12개, 한 다스", "src": "semaine 12-2 p.19"},
+    {"id": "u5-08-w-litre", "t": "word", "skill": "vocab", "fr": "un litre de", "ko": "~ 1리터", "src": "semaine 12-2 p.19"},
+    {"id": "u5-08-w-paquet", "t": "word", "skill": "vocab", "fr": "un paquet de", "ko": "~ 한 봉지, 한 팩", "src": "semaine 12-2 p.20"},
+    {"id": "u5-08-w-plaque", "t": "word", "skill": "vocab", "fr": "une plaque de chocolat", "ko": "판 초콜릿 한 개", "src": "semaine 12-2 p.21"},
+    {"id": "u5-08-w-farine", "t": "word", "skill": "vocab", "fr": "la farine", "ko": "밀가루", "g": "f", "src": "semaine 12-2 p.20"},
+    {"id": "u5-08-w-beurre", "t": "word", "skill": "vocab", "fr": "le beurre", "ko": "버터", "g": "m", "src": "semaine 12-2 p.19"},
+    {"id": "u5-08-w-sucre", "t": "word", "skill": "vocab", "fr": "le sucre", "ko": "설탕", "g": "m", "src": "semaine 12-2 p.19"},
+    {"id": "u5-08-w-oeuf", "t": "word", "skill": "vocab", "fr": "un œuf", "ko": "달걀", "g": "m", "note": "복수 des œufs [데 죄] — f 소리가 사라진다", "src": "semaine 12-2 p.19"},
+    {"id": "u5-08-w-lait", "t": "word", "skill": "vocab", "fr": "le lait", "ko": "우유", "g": "m", "src": "semaine 12-2 p.19"},
+    {"id": "u5-08-w-genereux", "t": "word", "skill": "vocab", "fr": "généreux / généreuse", "ko": "너그러운, 인심 좋은", "say": "généreux, généreuse", "src": "semaine 12-2 p.18"},
+    {"id": "u5-08-w-deviner", "t": "word", "skill": "vocab", "fr": "deviner", "ko": "알아맞히다, 짐작하다", "src": "semaine 12-2 p.20"},
+    {"id": "u5-08-w-tout", "t": "word", "skill": "vocab", "fr": "C'est tout ?", "ko": "그게 다야?", "src": "semaine 12-2 p.20"}
+  ]
+}

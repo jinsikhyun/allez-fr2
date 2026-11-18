@@ -1,0 +1,285 @@
+{
+  "id": "u4-07",
+  "unit": "u4",
+  "title": "텍스트-대화문 — 늦은 발레리와 주차 위반 딱지",
+  "emoji": "🚗",
+  "date": "2026-11-04",
+  "sources": [
+    "semaine 10-2",
+    "semaine 10-3",
+    "노션 11/4",
+    "노션 11/5"
+  ],
+  "tips": [
+    {
+      "h": "대화문 핵심 표현 (초록색 = 다 알기)",
+      "rows": [
+        ["être désolé(e) de + n./inf.", "~해서 미안하다"],
+        ["devoir + inf. = Il faut + inf.", "~해야 한다"],
+        ["dire à qqn de + inf.", "~에게 …하라고 말하다"],
+        ["Il vaut mieux + inf.", "~하는 게 낫다"],
+        ["avoir envie de / avoir besoin de", "~하고 싶다 / ~이 필요하다"]
+      ]
+    },
+    {
+      "h": "il y a · il y a eu · il y avait",
+      "b": "il y a = (지금) 있다\nil y a eu = (그때) 있었다 — 일어난 **사건**\nil y avait = (그때) 있었다 — 그 당시 **상황 묘사** → 늦은 이유 설명"
+    },
+    {
+      "h": "부정 3종",
+      "rows": [
+        ["ne … pas", "~ 않다"],
+        ["ne … plus", "더 이상 ~ 않다"],
+        ["ne … jamais", "결코(한 번도) ~ 않다"]
+      ]
+    },
+    {
+      "h": "작은 규칙",
+      "b": "Il vaut mieux **ne pas** courir. — 원형 부정은 ne pas를 앞에 몰아서\nplus de 20 ans [쁠뤼 드] — 숫자 앞 plus의 s는 묵음\n— Tu n'as pas vu ? — **Si**, … (부정 질문에 '아니, 봤어')"
+    }
+  ],
+  "note": [
+    {
+      "h": "대화문 전문 — Valérie · Mme / M. Dubois",
+      "skill": "vocab",
+      "src": ["semaine 10-2 p.14–17", "노션 11/4"],
+      "body": [
+        {"ex": [
+          ["Valérie : Je suis vraiment désolée d'être en retard.", "늦어서 정말 죄송해요."],
+          ["Mme Dubois : Tu as vu l'heure ? On doit prendre le train de 19 heures. Je t'ai dit de rentrer tôt, non ?", "시간 봤니? 우리 19시 기차 타야 해. 일찍 들어오라고 했잖아, 안 그래?"],
+          ["Valérie : Oui, maman. Mais au moment où je suis sortie de la maison, il pleuvait très fort. Alors, j'ai pris la voiture.", "네, 엄마. 그런데 집을 나서는 순간 비가 엄청 왔어요. 그래서 차를 탔어요."],
+          ["Mais il y avait des embouteillages partout.", "그런데 곳곳이 막혔어요."],
+          ["Mme Dubois : Quand il pleut, il vaut mieux prendre le métro.", "비 올 땐 지하철 타는 게 나아."],
+          ["Valérie : Je sais, mais Sylvie voulait acheter une imprimante. Elle avait besoin d'une voiture.", "알아요, 그런데 실비가 프린터를 사고 싶어 했어요. 차가 필요했거든요."],
+          ["Mme Dubois : Alors, tu l'as raccompagnée chez elle ?", "그래서 걔를 집까지 바래다줬니?"],
+          ["Valérie : Oui, maman. Mais...", "네, 엄마. 그런데…"],
+          ["Mme Dubois : Qu'est-ce que tu as encore ?", "또 무슨 일이야?"],
+          ["Valérie : Euh... J'ai eu une contravention.", "어… 딱지를 뗐어요."],
+          ["M. Dubois : Comment ça ?", "뭐라고? (그게 무슨 말이야?)"],
+          ["Valérie : Je me suis garée sous un panneau d'interdiction de stationnement.", "주차 금지 표지판 아래에 주차했어요."],
+          ["M. Dubois : Tu n'as pas vu le panneau ?", "표지판 못 봤어?"],
+          ["Valérie : Si, mais il n'y avait plus de place libre. Alors, je n'avais pas le choix.", "봤어요, 그런데 빈자리가 더 없었어요. 그래서 어쩔 수 없었어요."],
+          ["M. Dubois : C'est incroyable ! Moi, je conduis depuis plus de 20 ans, mais je n'ai jamais eu de contravention !", "말도 안 돼! 나는 20년 넘게 운전했지만 딱지 한 번 뗀 적 없어!"],
+          ["Mme Dubois : Calme-toi, mon chéri ! Dépêchons-nous ! Nous sommes déjà en retard.", "진정해요, 여보! 서두릅시다! 우리 벌써 늦었어요."]
+        ]},
+        {"memo": "✍️ 필기(11/4): 본문에서는 주요 문법 요소가 반영된 문장만 구사할 수 있으면 됨 — 쓰고 듣고 읽고. 대화문에 반과거(il pleuvait, il y avait, voulait, avait besoin, n'avais pas)와 où(au moment où)가 들어 있다."},
+        {"memo": "10-3 p.10은 'Quand il pleut, il vaut mieux …'를 M. D.의 대사로 적었지만 10-2 p.15 원문은 Mme Dubois."}
+      ]
+    },
+    {
+      "h": "être désolé(e) de … — ~해서 미안하다",
+      "skill": "greet",
+      "src": ["semaine 10-3 p.8", "노션 11/5"],
+      "body": [
+        {"p": "**être désolé(e) de + 명사 / 동사원형** : ~에 대해 미안하다 / 죄송하다"},
+        {"ex": [
+          ["Je suis désolé(e) d'être en retard.", "늦어서 미안해요. (de + inf.)"],
+          ["Je suis désolé(e) d'arriver en retard.", "늦게 도착해서 미안해요."],
+          ["Je suis désolé(e) du retard.", "늦은 것 미안해요. (de + le → du)"],
+          ["Je suis désolé(e) pour le retard.", "늦은 것 미안해요. (pour + n.)"]
+        ]},
+        {"warn": "모음 앞 de → d' : désolée **d'**être · de + le retard → **du** retard. Valérie는 여성 → désolé**e**."}
+      ]
+    },
+    {
+      "h": "devoir + inf. = Il faut + inf.",
+      "skill": "vocab",
+      "src": ["semaine 10-3 p.8", "노션 11/5"],
+      "body": [
+        {"ex": [
+          ["On doit prendre le train de 19 heures.", "우리는 19시 기차를 타야 해."],
+          ["=> Il faut prendre le train de 19 heures.", "19시 기차를 타야 해."],
+          ["Je dois partir. / Il faut partir.", "나는 떠나야 해. / 떠나야 해."]
+        ]},
+        {"memo": "✍️ 필기: Il faut → 영어의 비인칭 it과 같은 역할. **누가 하는지는 빠지지만** '~해야 해'라는 의미를 살릴 수 있음. il faut은 주어가 늘 il (비인칭)."}
+      ]
+    },
+    {
+      "h": "dire à qqn de + inf. — ~에게 …하라고 말하다",
+      "skill": "pron-obj",
+      "src": ["semaine 10-3 p.9", "semaine 10-2 p.14"],
+      "body": [
+        {"ex": [
+          ["Je t'ai dit de rentrer tôt, non ?", "일찍 들어오라고 했잖아, 안 그래?"],
+          ["Je vous dis de faire des révisions.", "여러분에게 복습하라고 말합니다."],
+          ["Je vous ai dit de faire des révisions.", "여러분에게 복습하라고 말했어요."],
+          ["Je lui ai dit de se lever tôt.", "나는 그(녀)에게 일찍 일어나라고 말했다."]
+        ]},
+        {"list": [
+          "슬라이드에서 **de**에 밑줄 — 원형 앞에 꼭 de",
+          "dire **à** qqn → 사람은 간접목적어: me/te/lui/nous/vous/leur (t'ai dit, lui ai dit)"
+        ]}
+      ]
+    },
+    {
+      "h": "un embouteillage · il y a / il y a eu / il y avait",
+      "skill": "imparfait",
+      "src": ["semaine 10-3 p.9", "semaine 10-2 p.15", "노션 11/5"],
+      "body": [
+        {"p": "Mais il y **avait** des embouteillages partout. — 그런데 곳곳이 막혀 있었어요. **un embouteillage** = 교통 체증 (남성)."},
+        {"table": [
+          ["형태", "시제", "느낌"],
+          ["il y a", "현재", "(지금) ~이 있다"],
+          ["il y a eu", "복합과거", "(그때) ~이 있었다 — 일어난 사건"],
+          ["il y avait", "반과거", "(그때) ~이 있었다 — 그 당시 상황 묘사"]
+        ], "head": true},
+        {"memo": "✍️ 필기: 맥락이나 보는 것에 따라 바뀐다. 발레리는 **왜 늦었는지** 설명하는 중 — 그 당시 도로 상황에 대한 묘사라서 반과거 (= il y avait des embouteillages)."},
+        {"p": "같은 원리: il **pleuvait** très fort (날씨 묘사) · Sylvie **voulait** … · Elle **avait besoin** … · je n'**avais** pas le choix (상황) ↔ j'**ai pris** la voiture · j'**ai eu** une contravention (일어난 사건)."},
+        {"memo": "✍️ 필기: '이거 passé composé랑 뉘앙스 차이 이해해 보기!' — je n'avais pas le choix(그때 상황이 그랬다) vs je n'ai pas eu le choix(그 순간 선택권이 없었던 일로 봄). 둘 다 가능한 문장이고 반과거가 '배경 설명'이다. (필기 이미지는 열 수 없어 어느 슬라이드인지는 추정)"}
+      ]
+    },
+    {
+      "h": "Il vaut mieux + inf. — ~하는 게 낫다",
+      "skill": "neg",
+      "src": ["semaine 10-3 p.10", "semaine 10-2 p.15", "노션 11/5"],
+      "body": [
+        {"ex": [
+          ["Quand il pleut, il vaut mieux prendre le métro.", "비가 올 때는 지하철을 타는 게 낫다."],
+          ["Il vaut mieux prendre le petit-déjeuner.", "아침을 먹는 게 낫다."],
+          ["Il vaut mieux ne pas courir.", "뛰지 않는 게 낫다."]
+        ]},
+        {"warn": "✍️ 필기: 동사원형(inf.)을 부정할 때는 **ne pas를 앞에 몰아 버린다** → ne pas courir (ne courir pas ✗)."},
+        {"p": "il vaut mieux도 il faut처럼 비인칭 (valoir '가치가 있다'). 뒤에 de 없이 바로 원형."}
+      ]
+    },
+    {
+      "h": "vouloir = avoir envie de · avoir besoin de",
+      "skill": "vocab",
+      "src": ["semaine 10-3 p.10", "semaine 10-2 p.15"],
+      "body": [
+        {"ex": [
+          ["Sylvie voulait acheter une imprimante.", "실비는 프린터를 사고 싶어 했다."],
+          ["Elle veut acheter une imprimante. = Elle a envie d'acheter une imprimante.", "그녀는 프린터를 사고 싶다."],
+          ["=> Elle avait envie d'acheter une imprimante.", "(반과거로) 그녀는 프린터를 사고 싶어 했다."],
+          ["Elle avait besoin d'une voiture.", "그녀는 차가 필요했다. (besoin de + n.)"],
+          ["Elle avait besoin de prendre une voiture.", "그녀는 차를 탈 필요가 있었다. (besoin de + inf.)"]
+        ]},
+        {"list": [
+          "vouloir + n./inf. = **avoir envie de** + n./inf. (~하고 싶다)",
+          "**avoir besoin de** + n./inf. (~이 필요하다)",
+          "모음 앞 de → d' : envie **d'**acheter · besoin **d'**une voiture",
+          "une imprimante = 프린터 (여성)"
+        ]}
+      ]
+    },
+    {
+      "h": "(r)accompagner · contravention · se garer",
+      "skill": "agreement",
+      "src": ["semaine 10-3 p.11", "semaine 10-2 p.15–16"],
+      "body": [
+        {"table": [
+          ["", "뜻"],
+          ["accompagner qqn", "~와 함께 가다, 동행하다 — Je t'accompagne."],
+          ["raccompagner qqn", "(집·출발점까지) 바래다주다 — Je te raccompagne."],
+          ["une contravention", "(교통) 위반 딱지, 벌금"],
+          ["se garer", "주차하다 (대명동사)"],
+          ["un panneau d'interdiction de stationnement", "주차 금지 표지판"]
+        ], "head": true},
+        {"ex": [
+          ["Alors, tu l'as raccompagnée chez elle ?", "그래서 걔(실비)를 집까지 바래다줬니?"],
+          ["Je me suis garée sous un panneau d'interdiction de stationnement.", "주차 금지 표지판 아래에 주차했어요."]
+        ]},
+        {"warn": "raccompagn**ée**: l'(= Sylvie, 여성)가 avoir 앞의 직접목적어라 과거분사 일치. garé**e**: 대명동사는 être → 주어 Valérie(여성)에 일치."},
+        {"p": "Qu'est-ce que tu as encore ? = 또 무슨 일이야? · Comment ça ? = 그게 무슨 말이야?"}
+      ]
+    },
+    {
+      "h": "ne … pas / ne … plus / ne … jamais · Si · (in)croyable",
+      "skill": "neg",
+      "src": ["semaine 10-3 p.12–13", "semaine 10-2 p.16–17"],
+      "body": [
+        {"ex": [
+          ["Je ne sais pas. / Je ne sais plus.", "모르겠다. / 이제 더는 모르겠다(기억이 안 난다)."],
+          ["Il n'y avait pas de place libre.", "빈자리가 없었다."],
+          ["Il n'y avait plus de place libre.", "빈자리가 더 이상 없었다. (다 찼다)"],
+          ["Je n'ai jamais eu de contravention !", "딱지를 한 번도 뗀 적 없어!"]
+        ]},
+        {"warn": "부정문에서 un/une/des → **de**: jamais eu **de** contravention, plus **de** place."},
+        {"p": "— Tu n'as pas vu le panneau ? — **Si**, mais … : 부정 질문에 '아니, 봤어'라고 긍정할 때는 oui가 아니라 **si**."},
+        {"p": "**croyable / incroyable** (croire 믿다 + -able) = 믿을 수 있는 / 믿을 수 없는. C'est incroyable ! = 말도 안 돼!"}
+      ]
+    },
+    {
+      "h": "conduire · plus de …",
+      "skill": "pron",
+      "src": ["semaine 10-3 p.13", "노션 11/5"],
+      "body": [
+        {"ex": [
+          ["Moi, je conduis depuis plus de 20 ans.", "나는 20년 넘게 운전하고 있다. (depuis + 현재)"],
+          ["Le jeudi, j'ai plus de temps (que les autres jours).", "목요일엔 (다른 날보다) 시간이 더 많다."],
+          ["J'étudie le français depuis plus de 15 ans.", "나는 15년 넘게 프랑스어를 공부하고 있다."],
+          ["cf. Je n'ai plus de temps.", "나는 더 이상 시간이 없다. (ne … plus)"]
+        ]},
+        {"list": [
+          "conduire: je conduis · il conduit · nous conduisons · p.p. conduit",
+          "✍️ 양과 관련해서는 plus de (더 많은 ~) — **숫자가 오면 plus의 s를 발음 안 함**: plus de 20 ans [쁠뤼 드 뱅 땅]",
+          "depuis + 현재형 = (지금까지) ~째 하고 있다"
+        ]}
+      ]
+    },
+    {
+      "h": "se calmer · se dépêcher — Calme-toi ! Dépêchons-nous !",
+      "skill": "imperatif",
+      "src": ["semaine 10-3 p.13", "semaine 10-2 p.17"],
+      "body": [
+        {"table": [
+          ["원형", "tu 명령", "nous 명령"],
+          ["se calmer (진정하다)", "Calme-toi !", "Calmons-nous !"],
+          ["se dépêcher (서두르다)", "Dépêche-toi !", "Dépêchons-nous !"]
+        ], "head": true},
+        {"list": [
+          "대명동사 긍정 명령: 동사-재귀대명사, te → **toi**",
+          "-er 동사 tu 명령은 s 없음: Calme-toi (Calmes-toi ✗)",
+          "mon chéri = 여보, 자기 (남편에게)"
+        ]}
+      ]
+    }
+  ],
+  "cards": [
+    {"id": "u4-07-c-desolee-de", "t": "choice", "skill": "greet", "prompt": "빈칸에 알맞은 것은?", "q": "Je suis vraiment désolée ___ être en retard.", "ko": "늦어서 정말 죄송해요.", "a": "d'", "wrong": ["de", "pour", "à"], "hint": "désolé(e) + 전치사 + 원형, 그런데 뒤가 모음!", "explain": "être désolé(e) de + inf. → 모음 앞 d'être.", "src": "semaine 10-2 p.14", "star": true},
+    {"id": "u4-07-c-desole-du", "t": "choice", "skill": "greet", "prompt": "빈칸에 알맞은 것은?", "q": "Je suis désolé ___ retard.", "ko": "늦은 것 미안해요.", "a": "du", "wrong": ["de le", "de", "au"], "hint": "de + le 는 합쳐져요.", "explain": "désolé de + le retard → du retard. (= pour le retard)", "src": "semaine 10-3 p.8"},
+    {"id": "u4-07-c-desole-pour", "t": "choice", "skill": "greet", "prompt": "빈칸에 알맞은 것은?", "q": "Je suis désolée ___ le retard.", "ko": "늦은 것 미안해요.", "a": "pour", "wrong": ["de", "à", "par"], "hint": "뒤에 le가 그대로 남아 있어요 — 축약되지 않는 전치사.", "explain": "désolé(e) pour + 명사 = désolé(e) de + 명사.", "src": "semaine 10-3 p.8"},
+    {"id": "u4-07-b-desolee", "t": "build", "skill": "greet", "prompt": "문장을 만드세요", "ko": "(여성) 늦어서 정말 죄송해요.", "a": "Je suis vraiment désolée d'être en retard.", "extra": ["désolé", "pour"], "hint": "화자는 여성 + 원형 앞 전치사.", "explain": "Valérie의 첫 대사.", "src": "semaine 10-2 p.14"},
+    {"id": "u4-07-c-doit", "t": "choice", "skill": "vocab", "prompt": "빈칸에 알맞은 것은?", "q": "On ___ prendre le train de 19 heures.", "ko": "우리는 19시 기차를 타야 해.", "a": "doit", "wrong": ["dois", "devons", "faut"], "hint": "on = 3인칭 단수 + devoir.", "explain": "on doit + inf. = ~해야 한다.", "src": "semaine 10-2 p.14"},
+    {"id": "u4-07-c-il-faut", "t": "choice", "skill": "vocab", "prompt": "같은 뜻이 되게 빈칸을 채우세요", "q": "On doit prendre le train. = ___ prendre le train.", "a": "Il faut", "wrong": ["Il fait", "On faut", "Il doit"], "hint": "falloir는 비인칭 — 주어가 정해져 있어요.", "explain": "devoir + inf. = Il faut + inf.", "src": "semaine 10-3 p.8", "star": true},
+    {"id": "u4-07-c-il-faut-sens", "t": "choice", "skill": "vocab", "prompt": "✍️ 필기: Il faut의 il은?", "q": "Il faut partir.", "a": "비인칭(영어 it) — 누가 하는지 빠지고 '~해야 해'만 남음", "wrong": ["'그(남자)'를 가리킨다", "'우리'를 가리킨다", "날씨를 가리킨다"], "say": "Il faut partir.", "hint": "✍️ 영어의 어떤 주어와 같다고 했죠?", "explain": "il faut = 비인칭. 행위자는 문맥으로.", "src": "노션 11/5"},
+    {"id": "u4-07-c-dit-de", "t": "choice", "skill": "vocab", "prompt": "빈칸에 알맞은 것은?", "q": "Je t'ai dit ___ rentrer tôt, non ?", "ko": "일찍 들어오라고 했잖아, 안 그래?", "a": "de", "wrong": ["à", "que", "pour"], "hint": "dire à qqn ___ + inf. — 슬라이드에서 밑줄 친 전치사.", "explain": "dire à qqn de + inf. = ~에게 …하라고 말하다.", "src": "semaine 10-3 p.9", "star": true},
+    {"id": "u4-07-c-lui-ai-dit", "t": "choice", "skill": "pron-obj", "prompt": "빈칸에 알맞은 것은?", "q": "Je ___ ai dit de se lever tôt.", "ko": "나는 그에게 일찍 일어나라고 말했다.", "a": "lui", "wrong": ["le", "l'", "leur"], "hint": "dire à qqn — 사람은 간접목적어, 단수.", "explain": "dire à lui → je lui ai dit.", "src": "semaine 10-3 p.9"},
+    {"id": "u4-07-b-revisions", "t": "build", "skill": "vocab", "prompt": "문장을 만드세요", "ko": "여러분에게 복습하라고 말했어요.", "a": "Je vous ai dit de faire des révisions.", "extra": ["à", "que"], "hint": "dire à qqn de + inf. (복합과거)", "explain": "Je vous ai dit de + inf.", "src": "semaine 10-3 p.9"},
+    {"id": "u4-07-w-embouteillage", "t": "word", "skill": "vocab", "fr": "un embouteillage", "ko": "교통 체증", "g": "m", "src": "semaine 10-3 p.9"},
+    {"id": "u4-07-c-il-y-avait", "t": "choice", "skill": "imparfait", "prompt": "늦은 이유로 그 당시 도로 상황을 묘사할 때 알맞은 것은?", "q": "Mais il y ___ des embouteillages partout.", "ko": "그런데 곳곳이 막혀 있었어요.", "a": "avait", "wrong": ["a", "aura", "aurait"], "hint": "✍️ 필기: 그 당시 상황 묘사 → 어떤 과거 시제?", "explain": "✍️ 상황 묘사 → 반과거 il y avait.", "src": "semaine 10-2 p.15", "star": true},
+    {"id": "u4-07-c-ilya-nuance", "t": "choice", "skill": "imparfait", "prompt": "il y avait의 느낌으로 알맞은 것은?", "q": "Il y avait des embouteillages. / Il y a eu des embouteillages.", "a": "il y avait = 그때의 상황(배경) · il y a eu = 일어난 사건", "wrong": ["il y avait = 사건 · il y a eu = 배경", "둘 다 현재", "il y avait = 미래 · il y a eu = 과거"], "say": "", "hint": "반과거 = 묘사, 복합과거 = 사건.", "explain": "✍️ 맥락이나 보는 것에 따라 바뀐다 — 늦은 이유 설명 = 상황 묘사.", "src": "semaine 10-3 p.9"},
+    {"id": "u4-07-c-choix-nuance", "t": "choice", "skill": "imparfait", "prompt": "Je n'avais pas le choix.에서 반과거를 쓴 이유는?", "q": "Alors, je n'avais pas le choix.", "a": "그때 처한 상황을 설명(묘사)하니까", "wrong": ["한 번 일어난 사건이니까", "미래의 일이니까", "명령하는 말이니까"], "hint": "✍️ passé composé와의 뉘앙스 차이 — 배경이냐 사건이냐.", "explain": "자리가 없던 '상황' 묘사. je n'ai pas eu le choix는 사건처럼 말하는 것.", "src": "노션 11/5"},
+    {"id": "u4-07-c-vaut-mieux", "t": "choice", "skill": "vocab", "prompt": "빈칸에 알맞은 것은?", "q": "Quand il pleut, il vaut mieux ___ le métro.", "ko": "비가 올 때는 지하철을 타는 게 낫다.", "a": "prendre", "wrong": ["de prendre", "prend", "prenons"], "hint": "il vaut mieux + 동사원형 (전치사 없음).", "explain": "Il vaut mieux + inf. = ~하는 게 낫다.", "src": "semaine 10-2 p.15", "star": true},
+    {"id": "u4-07-c-vaut-mieux-sens", "t": "choice", "skill": "vocab", "prompt": "뜻으로 알맞은 것은?", "q": "Il vaut mieux prendre le petit-déjeuner.", "a": "아침을 먹는 게 낫다.", "wrong": ["아침을 먹어야만 한다.", "아침을 먹고 싶다.", "아침이 더 비싸다."], "hint": "mieux = 더 좋게.", "explain": "il vaut mieux = ~하는 편이 낫다 (충고).", "src": "semaine 10-3 p.10"},
+    {"id": "u4-07-err-ne-courir-pas", "t": "error", "skill": "neg", "s": "Il vaut mieux ne courir pas.", "wrong": "ne courir pas", "right": "ne pas courir", "ko": "뛰지 않는 게 낫다.", "hint": "✍️ 원형을 부정할 땐 부정어 위치가 달라요.", "explain": "✍️ inf. 부정 → ne pas를 앞에 몰아서: ne pas courir.", "src": "노션 11/5", "star": true},
+    {"id": "u4-07-b-ne-pas-courir", "t": "build", "skill": "neg", "prompt": "문장을 만드세요", "ko": "뛰지 않는 게 낫다.", "a": "Il vaut mieux ne pas courir.", "extra": ["de", "court"], "hint": "원형 부정 — ne와 pas가 붙어서 원형 앞에.", "explain": "ne pas + inf.", "src": "semaine 10-3 p.10"},
+    {"id": "u4-07-c-envie", "t": "choice", "skill": "vocab", "prompt": "같은 뜻이 되게 빈칸을 채우세요", "q": "Sylvie voulait acheter une imprimante. = Sylvie avait ___ d'acheter une imprimante.", "a": "envie", "wrong": ["besoin", "raison", "peur"], "hint": "vouloir(~하고 싶다)와 같은 avoir 표현.", "explain": "vouloir + inf. = avoir envie de + inf. besoin은 '필요'.", "src": "semaine 10-3 p.10", "star": true},
+    {"id": "u4-07-c-besoin", "t": "choice", "skill": "vocab", "prompt": "빈칸에 알맞은 것은?", "q": "Elle avait ___ d'une voiture.", "ko": "그녀는 차가 필요했다.", "a": "besoin", "wrong": ["faim", "raison", "peur"], "hint": "avoir ___ de = ~이 필요하다.", "explain": "avoir besoin de + n./inf.", "src": "semaine 10-2 p.15"},
+    {"id": "u4-07-err-besoin-de-une", "t": "error", "skill": "elision", "s": "Elle avait besoin de une voiture.", "wrong": "de une", "right": "d'une", "ko": "그녀는 차가 필요했다.", "hint": "모음 앞에서 de는?", "explain": "de + une → d'une.", "src": "semaine 10-2 p.15"},
+    {"id": "u4-07-w-imprimante", "t": "word", "skill": "vocab", "fr": "une imprimante", "ko": "프린터", "g": "f", "src": "semaine 10-2 p.15"},
+    {"id": "u4-07-c-raccompagner", "t": "choice", "skill": "vocab", "prompt": "raccompagner의 뜻은?", "q": "Je te raccompagne.", "a": "(집까지) 바래다줄게.", "wrong": ["같이 갈게.", "다시 전화할게.", "기다릴게."], "hint": "accompagner(동행하다)에 r(e)- 가 붙으면 '다시 데려다 놓다'.", "explain": "accompagner = 동행하다 · raccompagner = 바래다주다.", "src": "semaine 10-3 p.11"},
+    {"id": "u4-07-c-raccompagnee", "t": "choice", "skill": "agreement", "prompt": "빈칸에 알맞은 것은? (l' = Sylvie)", "q": "Alors, tu l'___ chez elle ?", "ko": "그래서 걔를 집까지 바래다줬니?", "a": "as raccompagnée", "wrong": ["as raccompagné", "es raccompagnée", "as raccompagnées"], "hint": "avoir 앞에 직접목적어(여성 단수)가 있어요.", "explain": "COD l'(Sylvie)가 앞 → 과거분사 여성 일치: raccompagnée.", "src": "semaine 10-2 p.15", "star": true},
+    {"id": "u4-07-w-contravention", "t": "word", "skill": "vocab", "fr": "une contravention", "ko": "(교통) 위반 딱지, 벌금", "g": "f", "src": "semaine 10-2 p.16"},
+    {"id": "u4-07-w-panneau", "t": "word", "skill": "vocab", "fr": "un panneau d'interdiction de stationnement", "ko": "주차 금지 표지판", "src": "semaine 10-2 p.16"},
+    {"id": "u4-07-c-garee", "t": "choice", "skill": "pronominal", "prompt": "빈칸에 알맞은 것은? (말하는 사람: Valérie)", "q": "Je me suis ___ sous un panneau d'interdiction de stationnement.", "ko": "나는 주차 금지 표지판 아래에 주차했다.", "a": "garée", "wrong": ["garé", "garer", "garais"], "hint": "대명동사 복합과거 = être → 주어 성에 일치.", "explain": "se garer → je me suis garée (Valérie, 여성).", "src": "semaine 10-2 p.16"},
+    {"id": "u4-07-w-se-garer", "t": "word", "skill": "vocab", "fr": "se garer", "ko": "주차하다", "src": "semaine 10-3 p.11"},
+    {"id": "u4-07-c-encore", "t": "choice", "skill": "vocab", "prompt": "뜻으로 알맞은 것은?", "q": "Qu'est-ce que tu as encore ?", "a": "또 무슨 일이야?", "wrong": ["아직 뭐 갖고 있어?", "뭘 더 사고 싶어?", "어디 아파?"], "hint": "encore = 또. 엄마가 '그런데…' 다음 말을 재촉해요.", "explain": "Qu'est-ce que tu as ? = 무슨 일이야? + encore(또).", "src": "semaine 10-2 p.16"},
+    {"id": "u4-07-c-si", "t": "choice", "skill": "neg", "prompt": "빈칸에 알맞은 것은? (표지판을 봤다)", "q": "— Tu n'as pas vu le panneau ? — ___, mais il n'y avait plus de place libre.", "a": "Si", "wrong": ["Oui", "Non", "Mais"], "hint": "부정 질문에 '아니, 봤어'라고 반박할 때 쓰는 말.", "explain": "부정 의문에 긍정으로 답할 때 = Si.", "src": "semaine 10-2 p.16", "star": true},
+    {"id": "u4-07-c-ne-plus", "t": "choice", "skill": "neg", "prompt": "빈칸에 알맞은 것은?", "q": "Il n'y avait ___ de place libre.", "ko": "빈자리가 더 이상 없었다.", "a": "plus", "wrong": ["pas", "jamais", "rien"], "hint": "'더 이상 ~ 않다'의 부정어.", "explain": "ne … plus = 더 이상 ~ 않다.", "src": "semaine 10-3 p.12"},
+    {"id": "u4-07-c-sais-plus", "t": "choice", "skill": "neg", "prompt": "Je ne sais plus.의 뜻은?", "q": "Je ne sais pas. / Je ne sais plus.", "a": "모르겠다 / 이제 더는 모르겠다(기억이 안 난다)", "wrong": ["모르겠다 / 더 많이 안다", "알고 있다 / 모르겠다", "둘 다 '전혀 모른다'"], "hint": "plus = 더 이상.", "explain": "ne … plus: 전에는 알았는데 이제는 모른다.", "src": "semaine 10-3 p.12"},
+    {"id": "u4-07-c-jamais", "t": "choice", "skill": "neg", "prompt": "빈칸에 알맞은 것은?", "q": "Moi, je n'ai ___ eu de contravention !", "ko": "나는 딱지를 한 번도 뗀 적 없어!", "a": "jamais", "wrong": ["plus", "pas encore", "rien"], "hint": "'한 번도 ~ 않다'.", "explain": "ne … jamais = 결코(한 번도) ~ 않다.", "src": "semaine 10-2 p.17"},
+    {"id": "u4-07-err-jamais-une", "t": "error", "skill": "neg", "s": "Je n'ai jamais eu une contravention !", "wrong": "une", "right": "de", "ko": "나는 딱지를 한 번도 뗀 적 없어!", "hint": "부정문 안의 부정관사는?", "explain": "부정문에서 un/une/des → de: jamais eu de contravention.", "src": "semaine 10-2 p.17", "star": true},
+    {"id": "u4-07-c-incroyable", "t": "choice", "skill": "vocab", "prompt": "빈칸에 알맞은 것은?", "q": "C'est ___ !", "ko": "말도 안 돼! (믿을 수가 없어!)", "a": "incroyable", "wrong": ["croyable", "incroyables", "incroyablement"], "hint": "in- = 부정. 주어 C'(단수).", "explain": "croyable(믿을 수 있는) ↔ incroyable(믿을 수 없는).", "src": "semaine 10-2 p.17"},
+    {"id": "u4-07-c-croire", "t": "choice", "skill": "vocab", "prompt": "croyable / incroyable의 바탕 동사는?", "q": "croyable / incroyable", "a": "croire (믿다)", "wrong": ["crier (외치다)", "croiser (마주치다)", "créer (만들다)"], "say": "", "hint": "'믿을 수 있는'의 '믿다'.", "explain": "croire → nous croyons → croy- + -able.", "src": "semaine 10-3 p.12"},
+    {"id": "u4-07-c-conduis", "t": "choice", "skill": "pres-irr", "prompt": "빈칸에 알맞은 것은?", "q": "Moi, je ___ depuis plus de 20 ans.", "ko": "나는 20년 넘게 운전하고 있다.", "a": "conduis", "wrong": ["conduit", "conduisons", "conduire"], "hint": "depuis + 현재형, 주어 je.", "explain": "conduire: je conduis, il conduit. depuis + 현재 = ~째 하고 있다.", "src": "semaine 10-3 p.13"},
+    {"id": "u4-07-c-plus-de-pron", "t": "choice", "skill": "pron", "prompt": "✍️ plus de 20 ans에서 plus의 발음은?", "q": "plus de 20 ans", "a": "[쁠뤼] — s 발음 안 함", "wrong": ["[쁠뤼스] — s 발음함", "[쁠뤼즈] — 연음", "[쁠루]"], "hint": "✍️ 필기: 숫자가 오는 plus de …", "explain": "✍️ plus de + 숫자 → [쁠뤼 드], s 묵음.", "src": "노션 11/5", "star": true},
+    {"id": "u4-07-l-plus-de-15", "t": "listen", "skill": "pron", "say": "J'étudie le français depuis plus de quinze ans.", "a": "J'étudie le français depuis plus de 15 ans.", "wrong": ["J'étudie le français depuis quinze ans.", "J'étudie le français depuis plus de 50 ans."], "ko": "나는 15년 넘게 프랑스어를 공부하고 있다.", "pron": "[쁠뤼 드 깽 장]", "hint": "plus de가 들리나요? 숫자는 [깽즈]인가요?", "explain": "plus de 15 ans = 15년 넘게. plus의 s는 묵음.", "src": "semaine 10-3 p.13"},
+    {"id": "u4-07-c-plus-de-temps", "t": "choice", "skill": "neg", "prompt": "두 문장의 뜻은?", "q": "Le jeudi, j'ai plus de temps. / Je n'ai plus de temps.", "a": "목요일엔 시간이 더 많다 / 나는 더 이상 시간이 없다", "wrong": ["둘 다 '시간이 더 많다'", "목요일엔 시간이 없다 / 시간이 더 많다", "둘 다 '시간이 없다'"], "hint": "ne가 있는지 확인!", "explain": "plus de = 더 많은 ~ · ne … plus de = 더 이상 ~ 없다.", "src": "semaine 10-3 p.13"},
+    {"id": "u4-07-c-calme-toi", "t": "choice", "skill": "imperatif", "prompt": "빈칸에 알맞은 것은?", "q": "___, mon chéri !", "ko": "진정해, 여보!", "a": "Calme-toi", "wrong": ["Calme-te", "Te calme", "Calmes-toi"], "hint": "대명동사 긍정 명령 — 재귀대명사는 뒤로, 강세형으로. -er 동사 tu 명령은 s 없음.", "explain": "se calmer → Calme-toi !", "src": "semaine 10-2 p.17", "star": true},
+    {"id": "u4-07-c-depechons", "t": "choice", "skill": "imperatif", "prompt": "빈칸에 알맞은 것은?", "q": "___ ! Nous sommes déjà en retard.", "ko": "서두르자! 우리 벌써 늦었어.", "a": "Dépêchons-nous", "wrong": ["Dépêchons-vous", "Nous dépêchons", "Dépêche-nous"], "hint": "nous에게 하는 명령 = '~하자'.", "explain": "se dépêcher → Dépêchons-nous !", "src": "semaine 10-2 p.17"},
+    {"id": "u4-07-w-se-depecher", "t": "word", "skill": "vocab", "fr": "se dépêcher", "ko": "서두르다", "src": "semaine 10-3 p.13"},
+    {"id": "u4-07-w-se-calmer", "t": "word", "skill": "vocab", "fr": "se calmer", "ko": "진정하다", "src": "semaine 10-3 p.13"},
+    {"id": "u4-07-w-en-retard", "t": "word", "skill": "vocab", "fr": "être en retard", "ko": "늦다, 지각하다", "src": "semaine 10-2 p.14"}
+  ]
+}

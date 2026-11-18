@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-04T02:34:53Z",
+  "last_run": "2026-11-18T11:56:16Z",
   "notion_parent": "722e4debecb882bda65301cb03f6526f",
   "files": {
     "FRAN141(03).hwp": {
@@ -110,7 +110,42 @@
     "[Francais II]semaine 10-1.pdf": {
       "size": 656210,
       "mtime": 1793676529,
-      "via": "채팅 요청으로 반영(2026-11-04): u4-05 생성"
+      "via": "2026-11-18 재추출: PDF 필기(밑줄 1개) 확인 — 기존 u4-05에 반영된 내용"
+    },
+    "[Francais II]semaine 10-2.pdf": {
+      "size": 645424,
+      "mtime": 1793780714,
+      "via": "채팅 요청으로 반영(2026-11-18): u4-06 · u4-07 (+ PDF 필기)"
+    },
+    "[Francais II]semaine 10-3.pdf": {
+      "size": 420150,
+      "mtime": 1793847751,
+      "via": "채팅 요청으로 반영(2026-11-18): u4-07 확장 표현 · u5-01 조건법"
+    },
+    "[Francais II]semaine 11-1.pdf": {
+      "size": 481194,
+      "mtime": 1794283941,
+      "via": "채팅 요청으로 반영(2026-11-18): u5-02 (+ PDF 필기)"
+    },
+    "[Francais II]semaine 11-2.pdf": {
+      "size": 693255,
+      "mtime": 1794384972,
+      "via": "채팅 요청으로 반영(2026-11-18): u5-03 · u5-04 (+ PDF 필기)"
+    },
+    "[Francais II]semaine 11-3.pdf": {
+      "size": 569063,
+      "mtime": 1794456556,
+      "via": "채팅 요청으로 반영(2026-11-18): u5-04 · u5-05 · u5-06 · u5-07 (+ PDF 필기)"
+    },
+    "[Francais II]semaine 12-1.pdf": {
+      "size": 821150,
+      "mtime": 1794888374,
+      "via": "채팅 요청으로 반영(2026-11-18): u5-04 · u5-06 (+ PDF 필기)"
+    },
+    "[Francais II]semaine 12-2.pdf": {
+      "size": 722095,
+      "mtime": 1794992062,
+      "via": "채팅 요청으로 반영(2026-11-18): u5-06 · u5-07 · u5-08 (+ PDF 필기)"
     }
   },
   "notion_processed": {
@@ -138,7 +173,14 @@
     "3ece4debecb881019191e01ac36b8c43": "10/27 (본문 \"중간고사 review\" 한 줄 — 반영할 내용 없음)",
     "3ece4debecb88131b79bcc35364a1314": "10/28 (학생 필기: suivre·perdre·à/vers/jusqu’à·à votre avis·espérer·rêvé·près d’ici·environ/seulement·mis·un peu dormi·d’alcool·du soju·aimée → u4-03. 하위 「Semaine 9-2 정리」는 Claude 페이지라 참고만)",
     "3ece4debecb881db9129c57282318ada": "10/29 (학생 필기: 사과 표현·parlaient 발음·반과거 예문·pleuvoir·연습 1–7(passer avoir/être·devoirs·-i-)·tout 용법·Tous les lundis = le lundi → u4-01~04. 이미지 미반영. 하위 「Semaine 9-3 정리」는 Claude 페이지라 참고만)",
-    "408e4debecb88195a603d0dab749ae46": "11/3 (학생 필기 글: souci·n'est/ne 발음·시험각 사과하고 반응하기·Il/Ils 발음·반과거 예문·목요일 과제(쓰기 5점·녹음 5점) → u4-05. 하위 「Semaine 10-1 정리」는 Claude 페이지라 제외. 이미지는 열 수 없음)"
+    "408e4debecb88195a603d0dab749ae46": "11/3 (학생 필기 글: souci·n'est/ne 발음·시험각 사과하고 반응하기·Il/Ils 발음·반과거 예문·목요일 과제(쓰기 5점·녹음 5점) → u4-05. 하위 「Semaine 10-1 정리」는 Claude 페이지라 제외. 이미지는 열 수 없음)",
+    "408e4debecb881cc884cc59cbd6c18fc": "11/4 (학생 필기: 반과거 중요·où 장소/시간 보어·mon enfance·où l'on·le jour où → u4-06. 하위 「Semaine 10-2 정리」는 Claude 페이지라 제외. 이미지 미반영)",
+    "408e4debecb881b09d00cada91932e10": "11/5 (학생 필기: où·être désolé de·il faut·il y avait 묘사·ne pas + inf.·plus de + 숫자 s 묵음 → u4-07, 조건법 → u5-01. 이미지 미반영)",
+    "408e4debecb8813fa537f5e11f090ff8": "11/10 (본문 비어 있음 — 필기는 semaine 11-1 PDF 주석으로 → u5-02)",
+    "408e4debecb8813dbbf6d9f3662372c8": "11/11 (본문 이미지 1개뿐 — 필기는 semaine 11-2 PDF 주석으로 → u5-03 · u5-04)",
+    "408e4debecb881d8ac08dac7008e8ba6": "11/12 (학생 필기: 강조 구문 qui/que·vue 일치·Ce sont·aller inf. → u5-04, en/y/le → u5-05~07)",
+    "408e4debecb881a1be22c274a4264659": "11/17 (학생 필기: C'est…qui/que·loyer/payer 발음·Je vous en prie·장소 y → je te les y donne → u5-04 · u5-06)",
+    "408e4debecb881f0961bce331e8c9b7b": "11/18 (학생 필기: chez nous·se rendre à·⭐ s'intéresser à 시험·중성 le 설명 → u5-06 · u5-07)"
   },
   "notion_empty_at_last_run": {},
   "note": "FRAN141(03).hwp는 교프어I(지난 학기) 강의계획서라 콘텐츠에 사용하지 않음",

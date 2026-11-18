@@ -214,5 +214,35 @@
     "label": "한정사 tout",
     "emoji": "🧺",
     "hint": "뒤에 오는 명사의 성·수를 보세요. 관사는 그대로 두고 그 앞에!"
+  },
+  {
+    "id": "relatif-ou",
+    "label": "관계대명사 où",
+    "emoji": "🔗",
+    "hint": "장소·시간 보어를 대신해 두 문장을 잇는다. 앞 명사가 장소/때인지 확인!"
+  },
+  {
+    "id": "conditionnel",
+    "label": "조건법 현재 (le conditionnel)",
+    "emoji": "💭",
+    "hint": "미래 어간 + 반과거 어미(-ais, -ais, -ait, -ions, -iez, -aient). Si + 반과거 → 조건법!"
+  },
+  {
+    "id": "emphatique",
+    "label": "강조 구문 (C’est … qui/que)",
+    "emoji": "🔦",
+    "hint": "주어를 강조하면 qui, 나머지(목적어·부사구·간접목적어)는 que. 복수 명사면 Ce sont."
+  },
+  {
+    "id": "pron-en-y",
+    "label": "대명사 en · y",
+    "emoji": "🧲",
+    "hint": "de + 명사/수량 → en, à + 사물·장소 → y. 사람이면 lui/leur 또는 de/à + 강세형."
+  },
+  {
+    "id": "le-neutre",
+    "label": "중성 대명사 le",
+    "emoji": "⚪",
+    "hint": "형용사·속사나 문장 전체를 받는 le — 성·수가 바뀌지 않는다."
   }
 ]

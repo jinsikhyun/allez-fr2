@@ -26,6 +26,8 @@
    - `pipeline/processed.json`에 `"pending_deploy": true`가 있으면 새 자료가 없어도 6단계(검증)·7단계(배포)를 진행하고, 배포 성공 후 그 키를 지운다.
    - 새 것도 바뀐 것도 없으면 여기서 끝 (빌드·배포 안 함). CHANGELOG에 "변경 없음" 한 줄만.
 2. **추출**: `tools/.venv/bin/python tools/extract.py "../강의자료/<파일>.pdf"` → `pipeline/extracted/`. 그림 페이지 PNG는 Read로 확인.
+   - **PDF 필기 (2026-11-18부터)**: 학생이 수업자료 PDF에 직접 필기한다(글상자·형광펜·밑줄). 추출 결과의 각 페이지 끝 `--- 학생 PDF 필기 ---` 블록이 그 필기 → 노션 필기와 똑같이 반영(노트에 ✍️, 틀린 건 `fixes`). 형광펜이 문장 덩어리 전체로 잡히면 주석 포함 렌더(`page.get_pixmap(dpi=110, annots=True)`)로 실제 표시한 곳을 확인. 손글씨(Ink)는 `p<N>_annot.png`로 저장됨.
+   - 이미 반영한 PDF라도 **size/mtime이 바뀌면 필기가 추가된 것**일 수 있으니 다시 추출해 새 주석을 기존 레슨에 보강한다.
 3. **어디에 넣을지 결정**: 유닛 = Leçon. 슬라이드/필기에 새 Leçon 번호(예: Leçon 10)가 시작되면 `content/units.json`에 유닛을 추가(`u2`, `u3`… 제목 `Leçon 10 · <주제>`)하고 `content/u2/`를 만든다. 같은 Leçon이면 기존 유닛에 레슨 파일을 추가한다. 기존 레슨 내용이 보강된 경우엔 그 레슨 파일에 카드/노트를 **추가**만 한다 (기존 카드 id 변경·삭제 금지 — 학습 기록이 id에 묶여 있음).
 4. **작성**: CONTENT_GUIDE.md대로 레슨 파일 작성 — 카드 수는 자료 분량만큼 빠짐없이(모든 카드에 `skill`, 문제형 카드엔 `hint`), 수업자료+노션 필기를 대조·종합한 `note`, `tips`, 필기 오류는 고쳐서 `fixes`. 새 문법이면 `content/skills.json`에 스킬 추가. 슬라이드에 정답이 없는 연습문제는 직접 풀어 정답을 만든다. 교수님 자료와 다른 "정정"은 명백한 오류일 때만.
 4-1. **동사장**: 새 레슨에 `verb`·`pp` 카드로 나온 동사가 `content/verbs.json`에 없으면 추가한다 (필드: id(악센트 뺀 slug), inf, ko, pron [한글], group "1"|"2"|"3", pronominal, forms 6칸, pp, aux, ppr, note, lessons, since). 빌드가 빠진 동사를 경고로 알려준다. 기존 동사 id는 바꾸지 않는다.

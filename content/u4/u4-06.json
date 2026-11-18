@@ -1,0 +1,1145 @@
+{
+  "id": "u4-06",
+  "unit": "u4",
+  "title": "반과거 고르기 연습 · 관계대명사 où",
+  "emoji": "📍",
+  "date": "2026-11-04",
+  "sources": [
+    "semaine 10-2",
+    "semaine 10-3",
+    "노션 11/4",
+    "노션 11/5"
+  ],
+  "tips": [
+    {
+      "h": "⭐ 관계대명사 où",
+      "b": "**장소의 보어** 또는 **시간의 보어**를 대신해 두 문장을 잇는다.\nJ'habite en France. J'ai un studio en France.\n→ J'habite en France **où** j'ai un studio."
+    },
+    {
+      "h": "시간의 où",
+      "rows": [
+        [
+          "le jour où …",
+          "~한 날"
+        ],
+        [
+          "au moment où … (= quand)",
+          "~하는 순간에"
+        ],
+        [
+          "à l'heure où …",
+          "~하는 시각에"
+        ]
+      ]
+    },
+    {
+      "h": "où l'on — l 끼워 넣기",
+      "b": "où **on** → où **l'on** (모음 충돌을 피하려고 l'을 넣음, 선택)\n✍️ on 앞에서만! où il · où elle 에는 안 넣는다."
+    },
+    {
+      "h": "반과거 고르기 함정",
+      "rows": [
+        [
+          "nous mangions",
+          "≠ mangeons(현재) — 반과거엔 e 없음"
+        ],
+        [
+          "nous étudiions",
+          "≠ étudions(현재) — i가 두 개"
+        ],
+        [
+          "je serai / tu auras / je saurai",
+          "-rai·-ras = 미래형"
+        ]
+      ]
+    }
+  ],
+  "fixes": [
+    {
+      "where": "semaine 10-2 p.11 글상자 · 노션 11/4",
+      "was": "Je suis allée à Londres le jour où Il faisait très froid",
+      "now": "Je suis allée à Londres le jour où il faisait très froid.",
+      "why": "문장 중간이므로 il은 소문자. 끝에 마침표도 찍기."
+    }
+  ],
+  "note": [
+    {
+      "h": "반과거 다시 보기 — ✍️ ㅈㄴ 중요",
+      "skill": "imparfait",
+      "src": [
+        "semaine 10-2 p.4",
+        "노션 11/4"
+      ],
+      "body": [
+        {
+          "p": "L'imparfait est un temps du passé — 과거의 **상황 묘사 · 습관 · si 제안**. 만드는 법: nous 현재형에서 −ons를 떼고 **-ais, -ais, -ait, -ions, -iez, -aient** (être만 ét-)."
+        },
+        {
+          "warn": "✍️ 필기: 반과거 ㅈㄴ 중요! 왜? 과거를 말할 때뿐만 아니라 **조건절**(si + 반과거)을 말할 때도, **간접화법**을 말할 때도 필요하다."
+        },
+        {
+          "table": [
+            [
+              "avoir (nous avons → av-)",
+              ""
+            ],
+            [
+              "j'avais",
+              "nous avions"
+            ],
+            [
+              "tu avais",
+              "vous aviez"
+            ],
+            [
+              "il / elle avait",
+              "ils / elles avaient"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "memo": "자세한 만들기·쓰임은 u4-01, u4-02, u4-05."
+        }
+      ]
+    },
+    {
+      "h": "연습 — 반과거 형태 고르기 (16문항)",
+      "skill": "imparfait",
+      "src": [
+        "semaine 10-2 p.5"
+      ],
+      "body": [
+        {
+          "p": "Choisissez la forme à l'imparfait. 반과거 어미(-ais · -ait · -ions · -iez · -aient)를 찾으면 끝. 오답은 **미래형(-rai, -ras, -ront)**, **현재형**, **복합과거**."
+        },
+        {
+          "table": [
+            [
+              "",
+              "정답 (반과거)",
+              "오답"
+            ],
+            [
+              "1",
+              "j'étais",
+              "je serai (미래)"
+            ],
+            [
+              "2",
+              "tu avais",
+              "tu auras (미래)"
+            ],
+            [
+              "3",
+              "il faisait",
+              "il fait (현재)"
+            ],
+            [
+              "4",
+              "nous parlions",
+              "nous parlons (현재)"
+            ],
+            [
+              "5",
+              "vous preniez",
+              "vous prenez (현재)"
+            ],
+            [
+              "6",
+              "elles partaient",
+              "elles partent (현재)"
+            ],
+            [
+              "7",
+              "je savais",
+              "je saurai (미래)"
+            ],
+            [
+              "8",
+              "elles finissaient",
+              "elles finissent (현재)"
+            ],
+            [
+              "9",
+              "ils venaient",
+              "ils viennent (현재)"
+            ],
+            [
+              "10",
+              "nous mangions",
+              "nous mangeons (현재)"
+            ],
+            [
+              "11",
+              "vous écriviez",
+              "vous écrivez (현재)"
+            ],
+            [
+              "12",
+              "elles voyaient",
+              "elles voient (현재)"
+            ],
+            [
+              "13",
+              "ils voulaient",
+              "ils ont voulu (복합과거)"
+            ],
+            [
+              "14",
+              "tu mettais",
+              "tu mettras (미래)"
+            ],
+            [
+              "15",
+              "elles disaient",
+              "elles disent (현재)"
+            ],
+            [
+              "16",
+              "nous étudiions",
+              "nous étudions (현재)"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "warn": "함정 둘: **mangions**는 반과거에서 e가 빠진다(mangeons는 현재). **étudiions**는 어간 étudi- + -ions라 i가 두 개."
+        },
+        {
+          "memo": "✍️ 이 페이지에 밑줄·형광펜을 쳤지만 PDF에 위치 정보가 남지 않아 어떤 보기를 표시했는지는 확인 불가 — 정답은 위 표대로."
+        }
+      ]
+    },
+    {
+      "h": "듣고 반과거 고르기 (5문항)",
+      "skill": "imparfait",
+      "src": [
+        "semaine 10-2 p.6"
+      ],
+      "body": [
+        {
+          "p": "Écoutez et choisissez la forme à l'imparfait. 반과거 끝소리 [에]와 미래형 끝소리 [헤]·[홍]을 구별."
+        },
+        {
+          "table": [
+            [
+              "",
+              "반과거",
+              "다른 쪽"
+            ],
+            [
+              "1",
+              "je sortais [쏘흐떼]",
+              "je sortirai (미래)"
+            ],
+            [
+              "2",
+              "tu te levais [르베]",
+              "tu te lèveras (미래)"
+            ],
+            [
+              "3",
+              "elle se promenait",
+              "elle s'est promenée (복합과거)"
+            ],
+            [
+              "4",
+              "ils se reposaient",
+              "ils se reposeront (미래)"
+            ],
+            [
+              "5",
+              "nous partions [빠흐띠옹]",
+              "nous partirons (미래)"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "memo": "슬라이드엔 음성 파일이 없어 앱 카드는 반과거 형태를 들려주는 방식으로 직접 구성."
+        }
+      ]
+    },
+    {
+      "h": "⭐ 관계대명사 où — 장소·시간의 보어를 대신",
+      "skill": "relatif-ou",
+      "src": [
+        "semaine 10-2 p.8–9",
+        "semaine 10-3 p.4–5",
+        "노션 11/4",
+        "노션 11/5"
+      ],
+      "body": [
+        {
+          "p": "On utilise le pronom relatif « **où** » pour relier deux phrases. Il remplace un **complément de lieu** ou **de temps**."
+        },
+        {
+          "memo": "✍️ 필기: 이것은 대체한다 — 장소의 보어 또는 시간의 보어를. 관계대명사(영어 where / when)와 같다고 보면 된다."
+        },
+        {
+          "ex": [
+            [
+              "J'habite en France. J'ai un studio en France.",
+              "나는 프랑스에 산다. 나는 프랑스에 원룸이 있다."
+            ],
+            [
+              "→ J'habite en France où j'ai un studio.",
+              "나는 원룸이 있는 프랑스에 산다. (장소)"
+            ],
+            [
+              "Il arrive à 9 heures. Elle part à 9 heures.",
+              "그는 9시에 도착한다. 그녀는 9시에 떠난다."
+            ],
+            [
+              "→ Il arrive à l'heure où elle part.",
+              "그는 그녀가 떠나는 시각에 도착한다. (시간)"
+            ]
+          ]
+        },
+        {
+          "list": [
+            "두 번째 문장에서 겹치는 **en France / à 9 heures** 를 지우고 그 자리를 où가 맡는다",
+            "où 앞에는 꾸밈을 받는 장소·시간 명사(la France, l'heure …)가 온다"
+          ]
+        },
+        {
+          "warn": "**où**(어디, 관계대명사)는 악센트 필수! **ou**(또는)와 다른 단어."
+        }
+      ]
+    },
+    {
+      "h": "où 예문 — la maison où · le jour où · au moment où",
+      "skill": "relatif-ou",
+      "src": [
+        "semaine 10-2 p.10",
+        "semaine 10-3 p.6",
+        "노션 11/4"
+      ],
+      "body": [
+        {
+          "ex": [
+            [
+              "C'est la maison où j'ai passé mon enfance.",
+              "여기가 내가 어린 시절을 보낸 집이다."
+            ],
+            [
+              "Il pleuvait très fort au moment où je suis sortie de la maison.",
+              "내가 집을 나선 순간에 비가 아주 세차게 내리고 있었다."
+            ],
+            [
+              "= Au moment où je suis sortie de la maison, il pleuvait très fort.",
+              "(순서만 바꿈)"
+            ],
+            [
+              "= Quand je suis sortie de la maison, il pleuvait très fort.",
+              "au moment où = quand (10-3 p.6)"
+            ],
+            [
+              "Voici la ville où je suis né(e).",
+              "여기가 내가 태어난 도시다."
+            ],
+            [
+              "C'est le jour où j'ai rencontré mon ex-copain.",
+              "그날이 내가 전 남자친구를 만난 날이다."
+            ]
+          ]
+        },
+        {
+          "list": [
+            "✍️ **mon enfance** — enfance(유년기)는 **여성명사**지만 모음으로 시작해서 ma 대신 **mon**",
+            "장소: la maison où, la ville où · 시간: le jour où, au moment où",
+            "ex-copain = 전 남자친구 (ex- = 전(前)~)"
+          ]
+        }
+      ]
+    },
+    {
+      "h": "연습 (p.88) — 두 문장을 où로 잇기",
+      "skill": "relatif-ou",
+      "src": [
+        "semaine 10-2 p.11",
+        "노션 11/4"
+      ],
+      "body": [
+        {
+          "table": [
+            [
+              "문제",
+              "정답"
+            ],
+            [
+              "1. Voilà l'usine Renault. On fabrique des automobiles dans cette usine.",
+              "Voilà l'usine Renault où (l')on fabrique des automobiles."
+            ],
+            [
+              "2. J'habite dans le Centre. Dans cette région, il y a beaucoup de châteaux.",
+              "J'habite dans le Centre où il y a beaucoup de châteaux."
+            ],
+            [
+              "3. Je suis allée à Londres un jour. Il faisait très froid ce jour-là.",
+              "Je suis allée à Londres le jour où il faisait très froid."
+            ]
+          ],
+          "head": true
+        },
+        {
+          "memo": "✍️ 글상자(내 답) 세 개 모두 맞음. 3번만 Il → il (문장 중간 소문자) 정정."
+        },
+        {
+          "list": [
+            "✍️ 1번: où **l'on** — 모음 사이에 l을 삽입 (on만 삽입함. 2·3번의 il에는 안 함 주의!). où on도 틀린 건 아님",
+            "✍️ 3번: un jour → **le** jour où — '추웠던 바로 그날'로 특정되니 정관사로 바뀜",
+            "le Centre = 프랑스 중부 지방(Centre-Val de Loire) — 성(château)이 많다 · un château → des château**x**",
+            "usine(여) = 공장 · fabriquer = 만들다, 제조하다"
+          ]
+        }
+      ]
+    },
+    {
+      "h": "노래 가사 속 où — 「L'amour est un cadeau」(겨울왕국)",
+      "skill": "relatif-ou",
+      "src": [
+        "semaine 10-2 p.12"
+      ],
+      "body": [
+        {
+          "p": "겨울왕국(La Reine des neiges) 프랑스어판 「Love Is an Open Door」 가사에서 où 찾기."
+        },
+        {
+          "list": [
+            "**jusqu'au jour où** je suis tombée sur vous — 시간: '당신을 우연히 만난 그날까지'",
+            "**cette grande fête royale où** mon cœur se régale — 장소: '내 마음이 즐거운 이 큰 왕실 파티'",
+            "tomber sur qqn = ~를 우연히 마주치다"
+          ]
+        },
+        {
+          "memo": "가사 전문은 슬라이드 참고 (저작권 때문에 앱엔 짧은 구절만)."
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "u4-06-c-why-imp",
+      "t": "choice",
+      "skill": "imparfait",
+      "prompt": "✍️ 필기: 반과거가 특히 중요한 이유는?",
+      "q": "L'imparfait — ㅈㄴ 중요",
+      "a": "과거뿐 아니라 조건절·간접화법을 말할 때도 필요해서",
+      "wrong": [
+        "미래를 말할 때 쓰여서",
+        "명령문을 만들 때 쓰여서",
+        "현재형과 형태가 같아서"
+      ],
+      "say": "",
+      "hint": "과거 말고도 두 군데 더 쓰인다고 했어요.",
+      "explain": "✍️ 과거 + 조건절(si + 반과거) + 간접화법.",
+      "src": "노션 11/4",
+      "star": true
+    },
+    {
+      "id": "u4-06-c-q1-etais",
+      "t": "choice",
+      "skill": "imparfait",
+      "prompt": "반과거 형태를 고르세요",
+      "q": "1. être (je)",
+      "a": "j'étais",
+      "wrong": [
+        "je serai",
+        "je suis",
+        "j'ai été"
+      ],
+      "hint": "être는 어간이 예외예요. -rai는 미래 어미!",
+      "explain": "être 반과거 = ét- + -ais. je serai는 미래.",
+      "src": "semaine 10-2 p.5"
+    },
+    {
+      "id": "u4-06-c-q2-avais",
+      "t": "choice",
+      "skill": "imparfait",
+      "prompt": "반과거 형태를 고르세요",
+      "q": "2. avoir (tu)",
+      "a": "tu avais",
+      "wrong": [
+        "tu auras",
+        "tu as",
+        "tu avait"
+      ],
+      "hint": "nous avons → 어간 av- + tu 어미.",
+      "explain": "tu avais. tu auras는 미래, tu avait는 il 어미.",
+      "src": "semaine 10-2 p.5"
+    },
+    {
+      "id": "u4-06-c-q3-faisait",
+      "t": "choice",
+      "skill": "imparfait",
+      "prompt": "반과거 형태를 고르세요",
+      "q": "3. faire (il)",
+      "a": "il faisait",
+      "wrong": [
+        "il fait",
+        "il fera",
+        "il faisais"
+      ],
+      "hint": "nous faisons → 어간 fais- + il 어미 -ait.",
+      "explain": "il faisait. il fait는 현재, il fera는 미래.",
+      "src": "semaine 10-2 p.5"
+    },
+    {
+      "id": "u4-06-c-q4-parlions",
+      "t": "choice",
+      "skill": "imparfait",
+      "prompt": "반과거 형태를 고르세요",
+      "q": "4. parler (nous)",
+      "a": "nous parlions",
+      "wrong": [
+        "nous parlons",
+        "nous parlerons",
+        "nous parliez"
+      ],
+      "hint": "nous 반과거 어미는 -ons가 아니라…",
+      "explain": "nous 반과거 = -ions. parlons는 현재.",
+      "src": "semaine 10-2 p.5"
+    },
+    {
+      "id": "u4-06-c-q5-preniez",
+      "t": "choice",
+      "skill": "imparfait",
+      "prompt": "반과거 형태를 고르세요",
+      "q": "5. prendre (vous)",
+      "a": "vous preniez",
+      "wrong": [
+        "vous prenez",
+        "vous prendrez",
+        "vous prendiez"
+      ],
+      "hint": "nous prenons → 어간 pren- (d 없음!) + vous 어미.",
+      "explain": "vous preniez. prenez는 현재, prendrez는 미래.",
+      "src": "semaine 10-2 p.5"
+    },
+    {
+      "id": "u4-06-c-q6-partaient",
+      "t": "choice",
+      "skill": "imparfait",
+      "prompt": "반과거 형태를 고르세요",
+      "q": "6. partir (elles)",
+      "a": "elles partaient",
+      "wrong": [
+        "elles partent",
+        "elles partiront",
+        "elles partait"
+      ],
+      "hint": "nous partons → part- + 3인칭 복수 어미.",
+      "explain": "elles partaient. partent는 현재, partiront는 미래.",
+      "src": "semaine 10-2 p.5"
+    },
+    {
+      "id": "u4-06-c-q7-savais",
+      "t": "choice",
+      "skill": "imparfait",
+      "prompt": "반과거 형태를 고르세요",
+      "q": "7. savoir (je)",
+      "a": "je savais",
+      "wrong": [
+        "je saurai",
+        "je sais",
+        "je sachais"
+      ],
+      "hint": "nous savons → 어간 sav-. -rai는 미래 어미!",
+      "explain": "je savais. je saurai는 미래.",
+      "src": "semaine 10-2 p.5"
+    },
+    {
+      "id": "u4-06-c-q8-finissaient",
+      "t": "choice",
+      "skill": "imparfait",
+      "prompt": "반과거 형태를 고르세요",
+      "q": "8. finir (elles)",
+      "a": "elles finissaient",
+      "wrong": [
+        "elles finissent",
+        "elles finiront",
+        "elles finaient"
+      ],
+      "hint": "nous finissons → 어간이 -iss-까지!",
+      "explain": "2군: finiss- + -aient. finissent는 현재.",
+      "src": "semaine 10-2 p.5"
+    },
+    {
+      "id": "u4-06-c-q9-venaient",
+      "t": "choice",
+      "skill": "imparfait",
+      "prompt": "반과거 형태를 고르세요",
+      "q": "9. venir (ils)",
+      "a": "ils venaient",
+      "wrong": [
+        "ils viennent",
+        "ils viendront",
+        "ils viennaient"
+      ],
+      "hint": "nous venons → 어간 ven- (ie 아님).",
+      "explain": "ils venaient. viennent는 현재.",
+      "src": "semaine 10-2 p.5"
+    },
+    {
+      "id": "u4-06-c-q10-mangions",
+      "t": "choice",
+      "skill": "imparfait",
+      "prompt": "반과거 형태를 고르세요",
+      "q": "10. manger (nous)",
+      "a": "nous mangions",
+      "wrong": [
+        "nous mangeons",
+        "nous mangeions",
+        "nous mangerons"
+      ],
+      "hint": "i 앞의 g는 이미 [ʒ] 소리 — e가 필요할까요?",
+      "explain": "nous mangions (e 없음). mangeons는 현재형.",
+      "src": "semaine 10-2 p.5",
+      "star": true
+    },
+    {
+      "id": "u4-06-c-q11-ecriviez",
+      "t": "choice",
+      "skill": "imparfait",
+      "prompt": "반과거 형태를 고르세요",
+      "q": "11. écrire (vous)",
+      "a": "vous écriviez",
+      "wrong": [
+        "vous écrivez",
+        "vous écrirez",
+        "vous écriez"
+      ],
+      "hint": "nous écrivons → 어간에 v가 있어요.",
+      "explain": "écriv- + -iez. écrivez는 현재, écrirez는 미래.",
+      "src": "semaine 10-2 p.5"
+    },
+    {
+      "id": "u4-06-c-q12-voyaient",
+      "t": "choice",
+      "skill": "imparfait",
+      "prompt": "반과거 형태를 고르세요",
+      "q": "12. voir (elles)",
+      "a": "elles voyaient",
+      "wrong": [
+        "elles voient",
+        "elles verront",
+        "elles voiaient"
+      ],
+      "hint": "nous voyons → 어간에 y가 있어요.",
+      "explain": "voy- + -aient. voient는 현재.",
+      "src": "semaine 10-2 p.5"
+    },
+    {
+      "id": "u4-06-c-q13-voulaient",
+      "t": "choice",
+      "skill": "imparfait",
+      "prompt": "반과거 형태를 고르세요",
+      "q": "13. vouloir (ils)",
+      "a": "ils voulaient",
+      "wrong": [
+        "ils ont voulu",
+        "ils veulent",
+        "ils voudront"
+      ],
+      "hint": "조동사가 붙으면 복합과거예요.",
+      "explain": "nous voulons → voul- + -aient. ont voulu는 복합과거.",
+      "src": "semaine 10-2 p.5"
+    },
+    {
+      "id": "u4-06-c-q14-mettais",
+      "t": "choice",
+      "skill": "imparfait",
+      "prompt": "반과거 형태를 고르세요",
+      "q": "14. mettre (tu)",
+      "a": "tu mettais",
+      "wrong": [
+        "tu mettras",
+        "tu mets",
+        "tu metais"
+      ],
+      "hint": "nous mettons → 어간 mett- (t 두 개).",
+      "explain": "tu mettais. tu mettras는 미래.",
+      "src": "semaine 10-2 p.5"
+    },
+    {
+      "id": "u4-06-c-q15-disaient",
+      "t": "choice",
+      "skill": "imparfait",
+      "prompt": "반과거 형태를 고르세요",
+      "q": "15. dire (elles)",
+      "a": "elles disaient",
+      "wrong": [
+        "elles disent",
+        "elles diront",
+        "elles dissaient"
+      ],
+      "hint": "nous disons → 어간 dis- (s 하나).",
+      "explain": "dis- + -aient. disent는 현재.",
+      "src": "semaine 10-2 p.5"
+    },
+    {
+      "id": "u4-06-c-q16-etudiions",
+      "t": "choice",
+      "skill": "imparfait",
+      "prompt": "반과거 형태를 고르세요",
+      "q": "16. étudier (nous)",
+      "a": "nous étudiions",
+      "wrong": [
+        "nous étudions",
+        "nous étudierons",
+        "nous étudiiions"
+      ],
+      "hint": "어간 étudi- 뒤에 nous 어미 -ions를 그대로 붙여요.",
+      "explain": "étudi + ions → i가 두 개. étudions는 현재.",
+      "src": "semaine 10-2 p.5",
+      "star": true
+    },
+    {
+      "id": "u4-06-err-etudions",
+      "t": "error",
+      "skill": "imparfait",
+      "s": "Quand nous étions jeunes, nous étudions ensemble tous les soirs.",
+      "wrong": "étudions",
+      "right": "étudiions",
+      "ko": "어렸을 때 우리는 매일 저녁 함께 공부하곤 했다.",
+      "hint": "과거의 습관 — 그런데 i가 하나 모자라요.",
+      "explain": "nous étudiions (반과거) ≠ nous étudions (현재).",
+      "src": "semaine 10-2 p.5"
+    },
+    {
+      "id": "u4-06-l-sortais",
+      "t": "listen",
+      "skill": "imparfait",
+      "say": "Je sortais.",
+      "a": "Je sortais.",
+      "wrong": [
+        "Je sortirai.",
+        "Je sors."
+      ],
+      "ko": "나는 나가곤 했다.",
+      "pron": "[쥬 쏘흐떼]",
+      "hint": "끝소리가 [에]인가요, [헤]인가요?",
+      "explain": "sortais [쏘흐떼] vs sortirai [쏘흐띠헤](미래).",
+      "src": "semaine 10-2 p.6"
+    },
+    {
+      "id": "u4-06-l-levais",
+      "t": "listen",
+      "skill": "imparfait",
+      "say": "Tu te levais.",
+      "a": "Tu te levais.",
+      "wrong": [
+        "Tu te lèveras.",
+        "Tu te lèves."
+      ],
+      "ko": "너는 일어나곤 했다.",
+      "pron": "[뛰 뜨 르베]",
+      "hint": "음절 수를 세어 봐요 — 미래형이 더 길어요.",
+      "explain": "levais [르베] vs lèveras [레브하](미래).",
+      "src": "semaine 10-2 p.6"
+    },
+    {
+      "id": "u4-06-l-promenait",
+      "t": "listen",
+      "skill": "imparfait",
+      "say": "Elle se promenait.",
+      "a": "Elle se promenait.",
+      "wrong": [
+        "Elle s'est promenée.",
+        "Elle se promène."
+      ],
+      "ko": "그녀는 산책하고 있었다.",
+      "pron": "[엘 쓰 프호므네]",
+      "hint": "se가 들리나요, s'est가 들리나요?",
+      "explain": "se promenait(반과거) vs s'est promenée(복합과거).",
+      "src": "semaine 10-2 p.6"
+    },
+    {
+      "id": "u4-06-l-reposaient",
+      "t": "listen",
+      "skill": "imparfait",
+      "say": "Ils se reposaient.",
+      "a": "Ils se reposaient.",
+      "wrong": [
+        "Ils se reposeront.",
+        "Ils se reposent."
+      ],
+      "ko": "그들은 쉬고 있었다.",
+      "pron": "[일 쓰 흐뽀제]",
+      "hint": "끝이 [에]면 반과거, [홍]이면 미래.",
+      "explain": "reposaient [흐뽀제] vs reposeront [흐뽀즈홍].",
+      "src": "semaine 10-2 p.6"
+    },
+    {
+      "id": "u4-06-l-partions",
+      "t": "listen",
+      "skill": "imparfait",
+      "say": "Nous partions.",
+      "a": "Nous partions.",
+      "wrong": [
+        "Nous partirons.",
+        "Nous partons."
+      ],
+      "ko": "우리는 떠나곤 했다.",
+      "pron": "[누 빠흐띠옹]",
+      "hint": "[띠옹]인가요, [띠홍]인가요?",
+      "explain": "partions [빠흐띠옹] vs partirons [빠흐띠홍](미래).",
+      "src": "semaine 10-2 p.6"
+    },
+    {
+      "id": "u4-06-c-promenee-tense",
+      "t": "choice",
+      "skill": "imparfait",
+      "prompt": "듣기 3번의 다른 보기 Elle s'est promenée는 무슨 시제?",
+      "q": "Elle se promenait / Elle s'est promenée",
+      "a": "복합과거",
+      "wrong": [
+        "반과거",
+        "단순미래",
+        "현재"
+      ],
+      "say": "Elle s'est promenée.",
+      "hint": "être + 과거분사 꼴이에요.",
+      "explain": "대명동사 복합과거 = se + être + p.p. (promenée: 여성 일치).",
+      "src": "semaine 10-2 p.6"
+    },
+    {
+      "id": "u4-06-c-ou-role",
+      "t": "choice",
+      "skill": "relatif-ou",
+      "prompt": "관계대명사 où가 대신하는 것은?",
+      "q": "Il remplace un complément de ___.",
+      "a": "lieu ou de temps (장소나 시간)",
+      "wrong": [
+        "personne (사람)",
+        "manière (방법)",
+        "quantité (양)"
+      ],
+      "say": "",
+      "hint": "✍️ 필기: ~의 보어 또는 ~의 보어를 대체한다.",
+      "explain": "où = 장소·시간의 보어를 대신해 두 문장을 잇는다.",
+      "src": "semaine 10-2 p.8",
+      "star": true
+    },
+    {
+      "id": "u4-06-b-france",
+      "t": "build",
+      "skill": "relatif-ou",
+      "prompt": "두 문장을 où로 이으세요",
+      "from": "J'habite en France. J'ai un studio en France.",
+      "a": "J'habite en France où j'ai un studio.",
+      "extra": [
+        "que",
+        "dans"
+      ],
+      "ko": "나는 원룸이 있는 프랑스에 산다.",
+      "hint": "겹치는 장소 보어를 지우고 그 자리를 관계대명사로.",
+      "explain": "en France(장소)를 où가 대신.",
+      "src": "semaine 10-2 p.8",
+      "star": true
+    },
+    {
+      "id": "u4-06-b-heure",
+      "t": "build",
+      "skill": "relatif-ou",
+      "prompt": "두 문장을 où로 이으세요",
+      "from": "Il arrive à 9 heures. Elle part à 9 heures.",
+      "a": "Il arrive à l'heure où elle part.",
+      "extra": [
+        "quand",
+        "9"
+      ],
+      "ko": "그는 그녀가 떠나는 시각에 도착한다.",
+      "hint": "시간도 où로! 9 heures → l'heure로 받아요.",
+      "explain": "à 9 heures(시간) → à l'heure où.",
+      "src": "semaine 10-2 p.9"
+    },
+    {
+      "id": "u4-06-c-maison",
+      "t": "choice",
+      "skill": "relatif-ou",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "C'est la maison ___ j'ai passé mon enfance.",
+      "ko": "여기가 내가 어린 시절을 보낸 집이다.",
+      "a": "où",
+      "wrong": [
+        "que",
+        "qui",
+        "ou"
+      ],
+      "hint": "la maison은 '어디에서' 보냈는지 = 장소.",
+      "explain": "장소의 보어(dans cette maison) → où. ou(또는)와 악센트 구별!",
+      "src": "semaine 10-2 p.10"
+    },
+    {
+      "id": "u4-06-c-mon-enfance",
+      "t": "choice",
+      "skill": "gender",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "J'ai passé ___ enfance à Busan.",
+      "ko": "나는 부산에서 어린 시절을 보냈다.",
+      "a": "mon",
+      "wrong": [
+        "ma",
+        "m'",
+        "mes"
+      ],
+      "hint": "✍️ enfance는 여성명사 — 그런데 모음으로 시작해요.",
+      "explain": "모음으로 시작하는 여성 단수 명사 앞에선 ma → mon: mon enfance.",
+      "src": "노션 11/4",
+      "star": true
+    },
+    {
+      "id": "u4-06-w-enfance",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "l'enfance",
+      "ko": "유년기, 어린 시절",
+      "g": "f",
+      "note": "여성명사지만 mon enfance",
+      "src": "semaine 10-2 p.10"
+    },
+    {
+      "id": "u4-06-c-au-moment",
+      "t": "choice",
+      "skill": "relatif-ou",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Il pleuvait très fort au moment ___ je suis sortie de la maison.",
+      "ko": "내가 집을 나선 순간에 비가 아주 세차게 내리고 있었다.",
+      "a": "où",
+      "wrong": [
+        "que",
+        "quand",
+        "qui"
+      ],
+      "hint": "le moment = 시간 명사. 시간의 보어를 받는 관계대명사는?",
+      "explain": "au moment où = ~하는 순간에. (au moment quand ✗)",
+      "src": "semaine 10-2 p.10",
+      "star": true
+    },
+    {
+      "id": "u4-06-c-au-moment-eq",
+      "t": "choice",
+      "skill": "relatif-ou",
+      "prompt": "같은 뜻의 문장은?",
+      "q": "Au moment où je suis sortie de la maison, il pleuvait très fort.",
+      "a": "Quand je suis sortie de la maison, il pleuvait très fort.",
+      "wrong": [
+        "Où je suis sortie de la maison, il pleuvait très fort.",
+        "Au moment je suis sortie de la maison, il pleuvait très fort.",
+        "Quand je sortirai de la maison, il pleuvait très fort."
+      ],
+      "hint": "au moment où를 접속사 하나로 바꾸면?",
+      "explain": "au moment où = quand (semaine 10-3 p.6).",
+      "src": "semaine 10-3 p.6"
+    },
+    {
+      "id": "u4-06-c-ville",
+      "t": "choice",
+      "skill": "relatif-ou",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Voici la ville ___ je suis née.",
+      "ko": "여기가 내가 태어난 도시다.",
+      "a": "où",
+      "wrong": [
+        "que",
+        "qui",
+        "dont"
+      ],
+      "hint": "그 도시'에서' 태어났죠 — 장소.",
+      "explain": "la ville où = ~한 도시 (장소).",
+      "src": "semaine 10-2 p.10"
+    },
+    {
+      "id": "u4-06-err-jour-que",
+      "t": "error",
+      "skill": "relatif-ou",
+      "s": "C'est le jour que j'ai rencontré mon ex-copain.",
+      "wrong": "que",
+      "right": "où",
+      "ko": "그날이 내가 전 남자친구를 만난 날이다.",
+      "hint": "le jour = 시간의 보어예요.",
+      "explain": "시간 명사 뒤 → le jour où.",
+      "src": "semaine 10-2 p.10",
+      "star": true
+    },
+    {
+      "id": "u4-06-t-jour-ou",
+      "t": "type",
+      "skill": "relatif-ou",
+      "prompt": "빈칸을 채우세요 (악센트 주의)",
+      "q": "C'est le jour ___ j'ai rencontré mon ex-copain.",
+      "a": "où",
+      "hint": "'또는'과 철자가 같지만 악센트가 붙어요.",
+      "explain": "où(관계대명사, 어디) ≠ ou(또는).",
+      "src": "semaine 10-3 p.6"
+    },
+    {
+      "id": "u4-06-w-ex-copain",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "l'ex-copain",
+      "ko": "전 남자친구",
+      "g": "m",
+      "src": "semaine 10-2 p.10"
+    },
+    {
+      "id": "u4-06-b-ex1",
+      "t": "build",
+      "skill": "relatif-ou",
+      "prompt": "두 문장을 où로 이으세요",
+      "from": "Voilà l'usine Renault. On fabrique des automobiles dans cette usine.",
+      "a": "Voilà l'usine Renault où l'on fabrique des automobiles.",
+      "extra": [
+        "que",
+        "dans"
+      ],
+      "ko": "저기가 자동차를 만드는 르노 공장이다.",
+      "hint": "dans cette usine = 장소. on 앞에 l'을 넣어도 돼요.",
+      "explain": "où (l')on fabrique … — ✍️ 글상자 답 맞음.",
+      "src": "semaine 10-2 p.11"
+    },
+    {
+      "id": "u4-06-c-ex1-lon",
+      "t": "choice",
+      "skill": "relatif-ou",
+      "prompt": "모음 충돌을 피한 매끄러운 형태는?",
+      "q": "Voilà l'usine Renault ___ fabrique des automobiles.",
+      "ko": "저기가 자동차를 만드는 르노 공장이다.",
+      "a": "où l'on",
+      "wrong": [
+        "où le on",
+        "où l'il",
+        "où d'on"
+      ],
+      "hint": "✍️ 모음 사이에 자음 하나를 삽입 — 대명사 하나에만!",
+      "explain": "où on → où l'on (선택). ✍️ on만 삽입, il·elle 앞엔 안 함.",
+      "src": "노션 11/4",
+      "star": true
+    },
+    {
+      "id": "u4-06-c-l-insert",
+      "t": "choice",
+      "skill": "relatif-ou",
+      "prompt": "✍️ 필기: l을 끼워 넣을 수 있는 경우는?",
+      "q": "où + ___",
+      "a": "on → où l'on fabrique",
+      "wrong": [
+        "il → où l'il y a",
+        "il → où l'il faisait",
+        "elle → où l'elle part"
+      ],
+      "say": "",
+      "hint": "필기: 밑에 두 개(il y a, il faisait)는 안 함 주의!",
+      "explain": "l'on만 가능 — où il y a, où il faisait 그대로.",
+      "src": "노션 11/4"
+    },
+    {
+      "id": "u4-06-c-ex2",
+      "t": "choice",
+      "skill": "relatif-ou",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "J'habite dans le Centre ___ il y a beaucoup de châteaux.",
+      "ko": "나는 성이 많은 중부 지방에 산다.",
+      "a": "où",
+      "wrong": [
+        "que",
+        "qui",
+        "ou"
+      ],
+      "hint": "dans cette région = 장소의 보어.",
+      "explain": "dans cette région → où. ✍️ 글상자 답 맞음.",
+      "src": "semaine 10-2 p.11"
+    },
+    {
+      "id": "u4-06-w-chateau",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "le château",
+      "ko": "성",
+      "g": "m",
+      "note": "복수: les châteaux",
+      "src": "semaine 10-2 p.11"
+    },
+    {
+      "id": "u4-06-w-usine",
+      "t": "word",
+      "skill": "vocab",
+      "fr": "l'usine",
+      "ko": "공장",
+      "g": "f",
+      "src": "semaine 10-2 p.11"
+    },
+    {
+      "id": "u4-06-c-ex3-le",
+      "t": "choice",
+      "skill": "relatif-ou",
+      "prompt": "빈칸에 알맞은 것은?",
+      "q": "Je suis allée à Londres ___ jour où il faisait très froid.",
+      "ko": "나는 아주 추웠던 그날 런던에 갔다.",
+      "a": "le",
+      "wrong": [
+        "un",
+        "ce",
+        "au"
+      ],
+      "hint": "✍️ 필기: 원래 문장의 관사가 바뀌었어요 — '바로 그날'.",
+      "explain": "un jour → le jour où … (특정한 그날). ✍️ 필기와 같음.",
+      "src": "semaine 10-2 p.11",
+      "star": true
+    },
+    {
+      "id": "u4-06-c-ex3-fix",
+      "t": "choice",
+      "skill": "spelling",
+      "prompt": "✍️ 글상자 답에서 고칠 곳은?",
+      "q": "Je suis allée à Londres le jour où Il faisait très froid",
+      "a": "Il → il (문장 중간은 소문자)",
+      "wrong": [
+        "le → un",
+        "où → que",
+        "faisait → a fait"
+      ],
+      "say": "Je suis allée à Londres le jour où il faisait très froid.",
+      "hint": "문법은 다 맞아요 — 글자 모양을 봐요.",
+      "explain": "le jour où(✓) · faisait(✓, 날씨 묘사). 문장 중간 대명사만 소문자로. (필기 정정)",
+      "src": "semaine 10-2 p.11"
+    },
+    {
+      "id": "u4-06-c-song-jour",
+      "t": "choice",
+      "skill": "relatif-ou",
+      "prompt": "노래 가사 빈칸에 알맞은 것은?",
+      "q": "Jusqu'au jour ___ je suis tombée sur vous",
+      "ko": "당신을 우연히 만난 그날까지",
+      "a": "où",
+      "wrong": [
+        "que",
+        "quand",
+        "qui"
+      ],
+      "hint": "le jour = 시간.",
+      "explain": "jusqu'au jour où = ~한 그날까지. tomber sur qqn = 우연히 만나다.",
+      "src": "semaine 10-2 p.12"
+    },
+    {
+      "id": "u4-06-c-song-fete",
+      "t": "choice",
+      "skill": "relatif-ou",
+      "prompt": "가사 속 où가 받는 것은?",
+      "q": "cette grande fête royale où mon cœur se régale",
+      "a": "장소 — 그 파티에서 내 마음이 즐겁다",
+      "wrong": [
+        "시간 — 그 파티가 끝난 뒤",
+        "사람 — 파티의 왕",
+        "이유 — 파티 때문에"
+      ],
+      "say": "",
+      "hint": "fête royale = 일이 벌어지는 곳.",
+      "explain": "la fête(장소) où … = ~하는 파티.",
+      "src": "semaine 10-2 p.12"
+    }
+  ]
+}

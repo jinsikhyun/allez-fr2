@@ -1,0 +1,180 @@
+{
+  "id": "u5-04",
+  "unit": "u5",
+  "title": "강조 구문 — C'est … qui / C'est … que",
+  "emoji": "📣",
+  "date": "2026-11-11",
+  "sources": ["semaine 11-2", "semaine 11-3", "semaine 12-1", "노션 11/12", "노션 11/17"],
+  "tips": [
+    {
+      "h": "공식 한 줄",
+      "rows": [
+        ["주어 강조", "C'est … **qui**"],
+        ["COD · COI · CC 강조", "C'est … **que**"]
+      ]
+    },
+    {
+      "h": "C'est je ✗ → C'est moi",
+      "b": "C'est 뒤 사람은 **강세형**: moi, toi, lui, elle, nous, vous, eux, elles\n동사는 강조된 사람에 맞춘다: C'est moi qui **vais** · C'est toi qui **prépareras**"
+    },
+    {
+      "h": "복수면 Ce sont",
+      "b": "**Ce sont** des gimbaps que … · **Ce sont** tes parents qui …"
+    },
+    {
+      "h": "⭐ que + 복합과거 → 과거분사 일치 확인",
+      "b": "C'est Valérie que François a **vue** hier. (COD가 앞 → 여성 단수 -e)\nC'est ton loyer que tes parents ont **payé**. (loyer = 남성 단수 → 그대로)"
+    }
+  ],
+  "note": [
+    {
+      "h": "강조 구문이란 — 주어 강조 C'est … qui",
+      "skill": "emphatique",
+      "src": ["semaine 11-2 p.19", "semaine 11-3 p.4", "semaine 12-1 p.4", "노션 11/12"],
+      "body": [
+        {"p": "La construction emphatique = 문장의 한 부분을 **C'est … qui / que** 사이에 넣어 '바로 ~가/를'이라고 강조하는 구문."},
+        {"ex": [
+          ["Je vais chercher Paul à la gare.", "나는 역에 폴을 데리러 간다."],
+          ["C'est moi qui vais chercher Paul à la gare.", "역에 폴을 데리러 가는 건 바로 나야."]
+        ]},
+        {"warn": "C'est **je** qui vais … (X) — C'est 뒤에는 주어 인칭대명사(je, tu, il …)가 못 온다. **강세형** moi, toi, lui, elle, nous, vous, eux, elles."},
+        {"p": "qui 뒤 동사는 강조된 사람에 맞춘다: C'est moi qui **vais** (je vais) · C'est toi qui **prépareras** (tu prépareras) · C'est moi qui **ai** payé."},
+        {"memo": "✍️ 노션 11/12: aller + 동사원형 = 근접미래(futur proche) 또는 '~하러 가다' → Je vais chercher Paul = 폴을 데리러 간다(갈 거다)."},
+        {"memo": "✍️ 노션 11/12: 주어 강조 : qui / 직접 목적어 강조(-를) : que"}
+      ]
+    },
+    {
+      "h": "COD · COI · CC 강조 → C'est … que",
+      "skill": "emphatique",
+      "src": ["semaine 11-2 p.19–20", "semaine 11-3 p.4–5", "semaine 12-1 p.5–6", "노션 11/12", "노션 11/17"],
+      "body": [
+        {"table": [
+          ["Fonction", "Structure", "Exemple"],
+          ["Le sujet (주어)", "C'est … qui", "C'est moi qui vais chercher Paul à la gare."],
+          ["Le COD (-를)", "C'est … que", "C'est Paul que je vais chercher à la gare."],
+          ["Le CC (어디에·언제)", "C'est … que", "C'est à la gare que je vais chercher Paul."],
+          ["Le COI (-에게)", "C'est … que", "C'est à Paul que je téléphone avant de partir."]
+        ], "head": true},
+        {"p": "À retenir : **sujet → qui** | **COD / COI / CC → que**"},
+        {"list": [
+          "CC(complément circonstanciel) = 장소·시간 같은 부사구. 전치사째 통째로 옮긴다: **à la gare**, **pour tes amis**",
+          "COI도 전치사째: Je téléphone **à Paul** → C'est **à Paul** que je téléphone.",
+          "que 뒤에는 원래 주어가 그대로 남아 있다 (je vais chercher …)"
+        ]},
+        {"memo": "✍️ 노션 11/17: 주어 강조 말고는 전부 C'est … que / 주어 강조만 C'est … qui"}
+      ]
+    },
+    {
+      "h": "⭐ François a vu Valérie hier — 일치와 Ce sont",
+      "skill": "emphatique",
+      "src": ["semaine 11-2 p.21", "semaine 11-3 p.6", "노션 11/12"],
+      "body": [
+        {"ex": [
+          ["François a vu Valérie hier.", "프랑수아는 어제 발레리를 봤다."],
+          ["C'est François qui a vu Valérie hier.", "어제 발레리를 본 건 바로 프랑수아다."],
+          ["C'est Valérie que François a vue hier.", "프랑수아가 어제 본 건 바로 발레리다."],
+          ["C'est hier que François a vu Valérie.", "프랑수아가 발레리를 본 건 바로 어제다."]
+        ]},
+        {"warn": "✍️ 밑줄: C'est Valérie que François a **vue** hier — COD(que = Valérie)가 avoir 앞으로 갔으니 과거분사가 **여성 단수 일치**. C'est hier que … 에서는 COD가 뒤에 있으니 **vu** 그대로."},
+        {"memo": "✍️ 노션 11/12: hier는 축약도, 관사도 안 붙임 → C'est hier que … (l'hier ✗)"},
+        {"ex": [
+          ["Tu prépareras des gimbaps pour tes amis ?", "친구들을 위해 김밥 준비할 거야?"],
+          ["C'est toi qui prépareras des gimbaps pour tes amis ?", "친구들 김밥은 네가 준비하는 거야?"],
+          ["Ce sont des gimbaps que tu prépareras pour tes amis ?", "친구들한테 준비해 줄 게 김밥이야?"],
+          ["C'est pour tes amis que tu prépareras des gimbaps ?", "김밥을 준비하는 게 친구들을 위해서야?"]
+        ]},
+        {"warn": "✍️ 밑줄 · 노션: 뒤에 오는 명사가 **복수면 Ce sont** → Ce sont des gimbaps que …"},
+        {"memo": "11-2 슬라이드는 les gimbaps, 11-3 슬라이드는 des gimbaps — 같은 예문."}
+      ]
+    },
+    {
+      "h": "예문 더 — Marie · 월세(loyer)",
+      "skill": "emphatique",
+      "src": ["semaine 12-1 p.7", "노션 11/17"],
+      "body": [
+        {"ex": [
+          ["Marie viendra demain soir chez moi.", "마리가 내일 저녁 우리 집에 올 거야."],
+          ["C'est Marie qui viendra demain soir chez moi.", "내일 저녁 우리 집에 오는 건 마리야."],
+          ["C'est demain soir que Marie viendra chez moi.", "마리가 우리 집에 오는 건 내일 저녁이야."],
+          ["C'est chez moi que Marie viendra demain soir.", "마리가 내일 저녁 오는 곳은 우리 집이야."]
+        ]},
+        {"ex": [
+          ["Tes parents ont payé ton loyer la semaine dernière ?", "지난주에 부모님이 네 월세 내 주셨어?"],
+          ["Ce sont tes parents qui ont payé ton loyer la semaine dernière ?", "지난주 네 월세 낸 게 부모님이야?"],
+          ["C'est ton loyer que tes parents ont payé la semaine dernière ?", "지난주 부모님이 내 주신 게 네 월세야?"],
+          ["C'est la semaine dernière que tes parents ont payé ton loyer ?", "부모님이 월세 내 주신 게 지난주야?"]
+        ]},
+        {"warn": "✍️ 노션 11/17: 'C'est ton loyer que tes parents ont payé' — COD가 앞이라 **일치 주의**. 확인해 보면 **loyer는 남성 단수** → 과거분사는 **payé** 그대로 (payée ✗)."},
+        {"list": [
+          "**tes parents**(복수) 강조 → **Ce sont** tes parents qui **ont** payé",
+          "✍️ payer [뻬이예] · loyer [루아이예] — y가 i + i 처럼 소리 난다",
+          "le loyer = 월세, 집세 (남성)"
+        ]}
+      ]
+    },
+    {
+      "h": "상황 속 강조 구문",
+      "skill": "emphatique",
+      "src": ["semaine 12-1 p.8"],
+      "body": [
+        {"p": "Situation 1"},
+        {"ex": [
+          ["A : C'est Paul qui a payé le dîner hier soir ?", "어젯밤 저녁 낸 게 폴이야?"],
+          ["B : Non, c'est moi qui ai payé le dîner !", "아니, 저녁은 내가 냈어!"],
+          ["A : Ah bon ? Je croyais que c'était Paul !", "그래? 난 폴인 줄 알았지!"]
+        ]},
+        {"p": "Situation 2"},
+        {"ex": [
+          ["A : Tu as appris le français à Paris ?", "프랑스어 파리에서 배웠어?"],
+          ["B : Non, c'est à Séoul que j'ai appris le français.", "아니, 프랑스어는 서울에서 배웠어."],
+          ["A : Sérieux ? C'est impressionnant !", "진짜? 대단하다!"]
+        ]},
+        {"list": [
+          "c'est moi qui **ai** payé — moi(je)에 맞춰 ai",
+          "Je croyais que … = ~인 줄 알았다 (croire의 반과거)",
+          "Sérieux ? = 진짜? (구어) · impressionnant = 인상적인, 대단한"
+        ]}
+      ]
+    },
+    {
+      "h": "마무리",
+      "skill": "emphatique",
+      "src": ["semaine 11-2 p.22", "semaine 12-1 p.20"],
+      "body": [
+        {"memo": "Questions · À demain ! — 11-2는 11/11 수업 마지막에 강조 구문을 처음 소개, 11/12(11-3)와 11/17(12-1)에 복습."}
+      ]
+    }
+  ],
+  "cards": [
+    {"id": "u5-04-c-moi-qui", "t": "choice", "skill": "emphatique", "prompt": "'나'를 강조하세요", "q": "___ qui vais chercher Paul à la gare.", "ko": "역에 폴을 데리러 가는 건 바로 나야.", "a": "C'est moi", "wrong": ["C'est je", "C'est me", "Ce sont moi"], "hint": "C'est 뒤 사람은 강세형으로!", "explain": "C'est je qui ✗ → C'est moi qui. 강세형 moi.", "star": true, "src": "semaine 12-1 p.4"},
+    {"id": "u5-04-err-cest-je", "t": "error", "skill": "pron-tonic", "s": "C'est je qui vais chercher Paul à la gare.", "wrong": "je", "right": "moi", "ko": "역에 폴을 데리러 가는 건 바로 나야.", "hint": "C'est 뒤에 주어 인칭대명사가 올 수 있을까?", "explain": "슬라이드도 (X) 표시! C'est 뒤에는 강세형 moi.", "star": true, "src": "semaine 12-1 p.4"},
+    {"id": "u5-04-c-francois-qui", "t": "choice", "skill": "emphatique", "prompt": "빈칸에 알맞은 것은?", "q": "C'est François ___ a vu Valérie hier.", "ko": "어제 발레리를 본 건 바로 프랑수아다.", "a": "qui", "wrong": ["que", "qu'", "dont"], "hint": "강조된 François가 동사 a vu의 주어예요", "explain": "주어 강조 → C'est … qui.", "src": "semaine 11-3 p.6"},
+    {"id": "u5-04-c-paul-que", "t": "choice", "skill": "emphatique", "prompt": "빈칸에 알맞은 것은?", "q": "C'est Paul ___ je vais chercher à la gare.", "ko": "내가 역에 데리러 가는 건 바로 폴이야.", "a": "que", "wrong": ["qui", "où", "dont"], "hint": "뒤에 주어(je)가 따로 있죠? Paul은 '-를'", "explain": "COD 강조 → C'est … que.", "src": "semaine 11-2 p.19"},
+    {"id": "u5-04-c-gare-que", "t": "choice", "skill": "emphatique", "prompt": "빈칸에 알맞은 것은?", "q": "C'est à la gare ___ je vais chercher Paul.", "ko": "내가 폴을 데리러 가는 곳은 바로 역이야.", "a": "que", "wrong": ["qui", "où", "dont"], "hint": "장소 부사구(CC) 강조 — 주어 말고는 전부 같은 것", "explain": "CC 강조도 C'est … que. 장소라고 où를 쓰지 않는다.", "src": "semaine 11-2 p.20"},
+    {"id": "u5-04-c-a-paul", "t": "choice", "skill": "emphatique", "prompt": "COI를 강조하세요", "q": "C'est ___ que je téléphone avant de partir.", "ko": "내가 떠나기 전에 전화하는 건 바로 폴이야.", "a": "à Paul", "wrong": ["Paul", "de Paul", "lui"], "hint": "téléphoner 뒤 전치사까지 통째로 옮겨요", "explain": "Je téléphone à Paul → C'est à Paul que je téléphone. 전치사째 강조.", "src": "semaine 11-2 p.20"},
+    {"id": "u5-04-c-rule", "t": "choice", "skill": "emphatique", "prompt": "COD · COI · CC를 강조할 때 쓰는 틀은?", "q": "À retenir : COD / COI / CC → ?", "a": "C'est … que", "wrong": ["C'est … qui", "Ce sont … qui", "C'est … dont"], "hint": "qui를 쓰는 건 딱 하나(주어)뿐", "explain": "sujet → qui | COD / COI / CC → que.", "say": "", "src": "semaine 12-1 p.6"},
+    {"id": "u5-04-t-a-paul-que", "t": "type", "skill": "emphatique", "prompt": "qui 또는 que를 쓰세요", "q": "C'est à Paul ___ je téléphone avant de partir.", "a": "que", "hint": "à Paul은 주어가 아니라 '-에게'(COI)", "explain": "COI 강조 → que.", "src": "semaine 12-1 p.5"},
+    {"id": "u5-04-c-vue", "t": "choice", "skill": "agreement", "prompt": "빈칸에 알맞은 과거분사는?", "q": "C'est Valérie que François a ___ hier.", "ko": "프랑수아가 어제 본 건 바로 발레리다.", "a": "vue", "wrong": ["vu", "vues", "vus"], "hint": "✍️ COD(que = Valérie)가 avoir 앞에 있어요", "explain": "COD가 앞 → 과거분사 일치. Valérie = 여성 단수 → vue.", "star": true, "src": "semaine 11-3 p.6"},
+    {"id": "u5-04-c-hier-vu", "t": "choice", "skill": "agreement", "prompt": "빈칸에 알맞은 과거분사는?", "q": "C'est hier que François a ___ Valérie.", "ko": "프랑수아가 발레리를 본 건 바로 어제다.", "a": "vu", "wrong": ["vue", "vus", "vues"], "hint": "이번엔 COD Valérie가 동사 뒤에 있어요", "explain": "COD가 뒤 → 일치 없음 → vu. que가 받는 건 hier(시간).", "src": "semaine 11-2 p.21"},
+    {"id": "u5-04-b-valerie", "t": "build", "skill": "emphatique", "prompt": "Valérie를 강조하는 문장을 만드세요", "from": "François a vu Valérie hier.", "a": "C'est Valérie que François a vue hier.", "extra": ["qui", "vu"], "ko": "프랑수아가 어제 본 건 바로 발레리다.", "hint": "COD 강조 + 과거분사 일치까지!", "explain": "C'est + Valérie + que + 나머지. COD가 앞이라 vue.", "star": true, "src": "semaine 11-3 p.6"},
+    {"id": "u5-04-c-hier-article", "t": "choice", "skill": "emphatique", "prompt": "빈칸에 알맞은 것은?", "q": "C'est ___ que François a vu Valérie.", "ko": "프랑수아가 발레리를 본 건 바로 어제다.", "a": "hier", "wrong": ["l'hier", "le hier", "à hier"], "hint": "✍️ 시간 부사는 관사·축약 없이 그대로", "explain": "✍️ 필기: hier는 축약도, 관사도 안 붙임.", "src": "노션 11/12"},
+    {"id": "u5-04-c-ce-sont-gimbaps", "t": "choice", "skill": "emphatique", "prompt": "빈칸에 알맞은 것은?", "q": "___ des gimbaps que tu prépareras pour tes amis ?", "ko": "친구들한테 준비해 줄 게 김밥이야?", "a": "Ce sont", "wrong": ["C'est", "Ce est", "Ils sont"], "hint": "✍️ 뒤에 오는 명사가 복수예요", "explain": "✍️ 필기: 뒤가 복수니까 Ce sont.", "star": true, "src": "semaine 11-3 p.6"},
+    {"id": "u5-04-c-toi-prepareras", "t": "choice", "skill": "emphatique", "prompt": "빈칸에 알맞은 것은?", "q": "C'est toi qui ___ des gimbaps pour tes amis ?", "ko": "친구들 김밥은 네가 준비하는 거야?", "a": "prépareras", "wrong": ["préparera", "préparerai", "préparerons"], "hint": "qui 앞의 강세형이 진짜 주어예요", "explain": "toi = tu → tu prépareras. qui 뒤 동사는 3인칭이 아니라 강조된 사람에 맞춘다.", "src": "semaine 11-3 p.6"},
+    {"id": "u5-04-c-pour-amis", "t": "choice", "skill": "emphatique", "prompt": "'친구들을 위해서'를 강조하세요", "q": "C'est ___ que tu prépareras des gimbaps ?", "ko": "김밥을 준비하는 게 친구들을 위해서야?", "a": "pour tes amis", "wrong": ["tes amis", "à tes amis", "de tes amis"], "hint": "원래 문장의 전치사를 그대로 데려가요", "explain": "… pour tes amis → C'est pour tes amis que … (CC 강조).", "src": "semaine 11-2 p.21"},
+    {"id": "u5-04-c-marie-qui", "t": "choice", "skill": "emphatique", "prompt": "빈칸에 알맞은 것은?", "q": "C'est Marie ___ viendra demain soir chez moi.", "ko": "내일 저녁 우리 집에 오는 건 마리야.", "a": "qui", "wrong": ["que", "qu'", "où"], "hint": "viendra의 주어가 누구일까요?", "explain": "Marie = 주어 → qui.", "src": "semaine 12-1 p.7"},
+    {"id": "u5-04-c-demain-soir", "t": "choice", "skill": "emphatique", "prompt": "빈칸에 알맞은 것은?", "q": "C'est demain soir ___ Marie viendra chez moi.", "ko": "마리가 우리 집에 오는 건 내일 저녁이야.", "a": "que", "wrong": ["qui", "quand", "où"], "hint": "시간 부사구(CC) 강조 — 주어는 Marie가 따로", "explain": "CC 강조 → que. 시간이라고 quand을 쓰지 않는다.", "src": "semaine 12-1 p.7"},
+    {"id": "u5-04-b-chez-moi", "t": "build", "skill": "emphatique", "prompt": "'우리 집'을 강조하세요", "from": "Marie viendra demain soir chez moi.", "a": "C'est chez moi que Marie viendra demain soir.", "extra": ["qui", "où"], "ko": "마리가 내일 저녁 오는 곳은 우리 집이야.", "hint": "장소(CC) 강조는 어떤 틀?", "explain": "C'est chez moi que + 나머지.", "src": "semaine 12-1 p.7"},
+    {"id": "u5-04-c-ce-sont-parents", "t": "choice", "skill": "emphatique", "prompt": "빈칸에 알맞은 것은?", "q": "___ tes parents qui ont payé ton loyer la semaine dernière ?", "ko": "지난주 네 월세 낸 게 부모님이야?", "a": "Ce sont", "wrong": ["C'est", "Ce est", "Ils sont"], "hint": "tes parents — 몇 명?", "explain": "✍️ 뒤에 명사가 복수면 Ce sont.", "src": "semaine 12-1 p.7"},
+    {"id": "u5-04-c-loyer-paye", "t": "choice", "skill": "agreement", "prompt": "빈칸에 알맞은 과거분사는?", "q": "C'est ton loyer que tes parents ont ___ la semaine dernière ?", "ko": "지난주 부모님이 내 주신 게 네 월세야?", "a": "payé", "wrong": ["payée", "payés", "payées"], "hint": "✍️ COD가 앞 → 일치 확인! loyer의 성·수는?", "explain": "COD가 앞이라 일치 규칙 적용 — 그런데 loyer는 남성 단수라 payé 그대로.", "star": true, "src": "노션 11/17"},
+    {"id": "u5-04-err-loyer", "t": "error", "skill": "agreement", "s": "C'est ton loyer que tes parents ont payée la semaine dernière ?", "wrong": "payée", "right": "payé", "ko": "지난주 부모님이 내 주신 게 네 월세야?", "hint": "앞에 나온 COD의 성별을 확인해요", "explain": "le loyer = 남성 단수 → payé (-e 붙이지 않음).", "src": "semaine 12-1 p.7"},
+    {"id": "u5-04-c-loyer-pron", "t": "choice", "skill": "pron", "prompt": "loyer의 발음은?", "q": "le loyer (월세)", "a": "[루아이예]", "wrong": ["[로이예]", "[루아예르]", "[로예]"], "hint": "✍️ oy = oi + i", "explain": "✍️ loyer [루아이예] · payer [뻬이예] — y가 i 두 개처럼.", "say": "le loyer", "src": "노션 11/17"},
+    {"id": "u5-04-w-loyer", "t": "word", "skill": "vocab", "fr": "le loyer", "ko": "월세, 집세", "g": "m", "note": "✍️ 발음 [루아이예]", "src": "semaine 12-1 p.7"},
+    {"id": "u5-04-w-payer", "t": "word", "skill": "vocab", "fr": "payer", "ko": "(돈을) 내다, 지불하다", "note": "✍️ 발음 [뻬이예]", "src": "노션 11/17"},
+    {"id": "u5-04-c-ai-paye", "t": "choice", "skill": "emphatique", "prompt": "B의 대답을 완성하세요", "q": "A : C'est Paul qui a payé le dîner hier soir ?\nB : Non, c'est moi qui ___ le dîner !", "ko": "아니, 저녁은 내가 냈어!", "a": "ai payé", "wrong": ["a payé", "as payé", "avons payé"], "hint": "qui 앞의 moi가 주어예요", "explain": "moi = je → j'ai payé → c'est moi qui ai payé.", "say": "Non, c'est moi qui ai payé le dîner !", "star": true, "src": "semaine 12-1 p.8"},
+    {"id": "u5-04-c-seoul-que", "t": "choice", "skill": "emphatique", "prompt": "B의 대답을 완성하세요", "q": "A : Tu as appris le français à Paris ?\nB : Non, c'est à Séoul ___ j'ai appris le français.", "ko": "아니, 프랑스어는 서울에서 배웠어.", "a": "que", "wrong": ["qui", "où", "dont"], "hint": "장소(CC) 강조", "explain": "C'est à Séoul que … — CC 강조는 que.", "say": "Non, c'est à Séoul que j'ai appris le français.", "src": "semaine 12-1 p.8"},
+    {"id": "u5-04-c-croyais", "t": "choice", "skill": "vocab", "prompt": "뜻은?", "q": "Ah bon ? Je croyais que c'était Paul !", "a": "그래? 난 폴인 줄 알았어!", "wrong": ["그래? 폴이 그럴 줄 알았어!", "그래? 폴을 믿었는데!", "그래? 폴이라고 말했잖아!"], "hint": "croire의 반과거 — 과거에 '~라고 생각했다'", "explain": "Je croyais que … = ~인 줄 알았다.", "src": "semaine 12-1 p.8"},
+    {"id": "u5-04-w-impressionnant", "t": "word", "skill": "vocab", "fr": "C'est impressionnant !", "ko": "대단하다! 인상적이야!", "src": "semaine 12-1 p.8"},
+    {"id": "u5-04-c-aller-inf", "t": "choice", "skill": "futur", "prompt": "Je vais chercher Paul à la gare. 의 vais chercher는?", "q": "Je vais chercher Paul à la gare.", "a": "aller + 동사원형: 근접미래 / ~하러 가다", "wrong": ["복합과거: 찾았다", "반과거: 찾곤 했다", "조건법: 찾을 텐데"], "hint": "✍️ 노션: aller 뒤에 동사원형이 붙었어요", "explain": "✍️ aller + inf = futur proche 또는 '~하러 가다'.", "src": "노션 11/12"},
+    {"id": "u5-04-t-eux", "t": "type", "skill": "pron-tonic", "prompt": "ils를 강조하세요 (강세형 한 단어)", "q": "Ce sont ___ qui ont payé le dîner.", "a": "eux", "hint": "ils의 강세형", "explain": "ils → eux. Ce sont eux qui …", "src": "semaine 12-1 p.6"}
+  ]
+}

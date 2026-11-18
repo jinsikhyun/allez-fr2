@@ -1,0 +1,153 @@
+{
+  "id": "u5-05",
+  "unit": "u5",
+  "title": "대명사 en — de + 명사 · 수량",
+  "emoji": "🍎",
+  "date": "2026-11-12",
+  "sources": ["semaine 11-3", "semaine 12-1", "semaine 12-2", "노션 11/17"],
+  "tips": [
+    {
+      "h": "À retenir : EN = DE",
+      "b": "de + 명사(du, de la, des, de + 장소, 동사 + de)를 **en** 하나로.\nTu veux du café ? → Oui, j'**en** veux."
+    },
+    {
+      "h": "✍️ 수량은 뒤에 남긴다",
+      "rows": [
+        ["Vous avez des frères ?", "Oui, j'en ai **deux**."],
+        ["… un kilo de pommes ?", "Non, j'en veux **deux kilos**."]
+      ]
+    },
+    {
+      "h": "✍️ 얼굴이 그려지는 사람이면 줄이지 않기",
+      "b": "de + 사람 → **de + 강세형**\nJe parle d'**elle**. · J'ai besoin de **lui**. · J'ai besoin de **toi**."
+    },
+    {
+      "h": "부정문 위치",
+      "b": "ne + en + 동사 + pas → Je **n'en** veux **pas**."
+    }
+  ],
+  "note": [
+    {
+      "h": "보어 대명사 — 프랑스어는 반복을 싫어한다",
+      "skill": "pron-obj",
+      "src": ["semaine 11-3 p.8", "semaine 12-1 p.10", "노션 11/17"],
+      "body": [
+        {"p": "Le français n'aime pas la répétition. On utilise des pronoms compléments pour remplacer des compléments — 보어를 대명사로 바꿔 반복을 피한다."},
+        {"table": [
+          ["원래 문장", "대명사로", "종류"],
+          ["Je regarde Jean.", "Je **le** regarde.", "COD"],
+          ["Je parle à Jean.", "Je **lui** parle.", "COI (à + 사람)"],
+          ["Je parle de mon voyage.", "J'**en** parle.", "de + 명사 → en"]
+        ], "head": true},
+        {"memo": "✍️ 노션 11/17: 프랑스어는 반복을 싫어함. 슬라이드의 'Je ? parle.' 빈칸 정답이 바로 **en** → J'en parle."}
+      ]
+    },
+    {
+      "h": "en = de + 명사 (부분관사 · 복수 des)",
+      "skill": "pron-en-y",
+      "src": ["semaine 11-3 p.9", "semaine 12-1 p.11", "semaine 12-2 p.4"],
+      "body": [
+        {"ex": [
+          ["Tu veux du café ? — Oui, j'en veux.", "커피 마실래? — 응, 마실래."],
+          ["Tu veux du chocolat ? — Oui, merci, j'en veux bien. / Non, merci, je n'en veux pas.", "초콜릿 먹을래? — 응, 고마워, 좋지. / 아니, 괜찮아."],
+          ["Vous avez des frères ? — Oui, j'en ai. / Non, je n'en ai pas.", "형제 있어요? — 네, 있어요. / 아니요, 없어요."]
+        ]},
+        {"list": [
+          "du / de la / des + 명사는 전부 **de**에서 왔다 → **en**",
+          "en은 동사 바로 앞: j'**en** veux (모음 앞 je → j')",
+          "부정: je **n'en** veux **pas** — ne + en + 동사 + pas",
+          "j'en veux bien = (권하는 것을) 좋아요, 주세요"
+        ]},
+        {"memo": "✍️ 밑줄: je n'en ai (pas)"}
+      ]
+    },
+    {
+      "h": "✍️ 수량을 나타낼 때 매우 유용",
+      "skill": "pron-en-y",
+      "src": ["semaine 11-3 p.9–10", "semaine 12-1 p.11"],
+      "body": [
+        {"ex": [
+          ["Vous avez des frères ? — Oui, j'en ai deux.", "형제 있어요? — 네, 두 명이요."],
+          ["Vous voulez un kilo de pommes ? — Oui, j'en veux un kilo.", "사과 1킬로 드릴까요? — 네, 1킬로 주세요."],
+          ["— Non, j'en veux deux kilos.", "— 아니요, 2킬로 주세요."]
+        ]},
+        {"p": "en이 명사(frères, pommes)를 받고, **수량(deux, un kilo, deux kilos)은 동사 뒤에 그대로 남는다**."},
+        {"warn": "Oui, j'ai deux. (X) — 수량만 남기면 en이 꼭 있어야 한다. ✍️ 밑줄: Oui, j'en ai deux."}
+      ]
+    },
+    {
+      "h": "de + 장소 · 동사 + de",
+      "skill": "pron-en-y",
+      "src": ["semaine 11-3 p.10–11", "semaine 12-1 p.13–14"],
+      "body": [
+        {"ex": [
+          ["Vous venez de Paris ? — Oui, j'en viens. / Non, je n'en viens pas.", "파리에서 오셨어요? — 네. / 아니요."],
+          ["Tu parles de ton projet ? — Oui, j'en parle. / Non, je n'en parle pas.", "네 계획 얘기하는 거야? — 응. / 아니."],
+          ["J'ai besoin de ton aide. → J'en ai besoin.", "네 도움이 필요해. → 그게 필요해."],
+          ["Tu as besoin de mon aide ? — Oui, j'en ai besoin.", "내 도움 필요해? — 응, 필요해."]
+        ]},
+        {"list": [
+          "venir **de** + 장소 → en",
+          "parler **de** + 사물 → en",
+          "avoir besoin **de** + 사물 → en (J'ai en besoin ✗ → **J'en ai** besoin)"
+        ]}
+      ]
+    },
+    {
+      "h": "✍️ 사람이면? — de + 강세형",
+      "skill": "pron-tonic",
+      "src": ["semaine 11-3 p.11", "semaine 12-1 p.13–14"],
+      "body": [
+        {"memo": "✍️ 필기: 뭔가가 안 그려지면 줄일 수 있음. 근데 **그려지면 줄이면 안 돼**. (12-1: 특정 인물에 대해 이야기하고 있어 그려지면 en이나 y로 뭉뚱그리지 않는다)"},
+        {"table": [
+          ["질문", "사물 → en", "사람 → de + 강세형"],
+          ["parler de …", "Je parle de mon voyage. → J'en parle.", "Tu parles de ton amie Valérie ? → Oui, je parle **d'elle**."],
+          ["parler de …", "Tu parles de ton projet ? → Oui, j'en parle.", "Tu parles de ton copain ? → Oui, je parle **de lui**."],
+          ["avoir besoin de …", "J'ai besoin de ton aide. → J'en ai besoin.", "J'ai besoin de ton frère. → J'ai besoin **de lui**."],
+          ["avoir besoin de …", "Tu as besoin de mon aide ? → Oui, j'en ai besoin.", "Tu as besoin de moi ? → Oui, j'ai besoin **de toi**."]
+        ], "head": true},
+        {"ex": [["Non, je ne parle pas d'elle.", "아니, 그녀 얘기 하는 거 아니야."]]}
+      ]
+    },
+    {
+      "h": "jouer de + 악기 → en",
+      "skill": "pron-en-y",
+      "src": ["semaine 12-1 p.12"],
+      "body": [
+        {"p": "jouer **de** + 악기 / jouer **à** + 스포츠·게임 — 전치사에 따라 en / y가 갈린다 (y 쪽은 u5-06)."},
+        {"ex": [
+          ["Tu joues souvent du piano ? — Oui, j'en joue tous les mardis.", "피아노 자주 쳐? — 응, 매주 화요일마다 쳐."],
+          ["— Non, je n'en joue pas souvent.", "— 아니, 자주는 안 쳐."]
+        ]}
+      ]
+    }
+  ],
+  "cards": [
+    {"id": "u5-05-c-repetition", "t": "choice", "skill": "pron-obj", "prompt": "보어 대명사(le, lui, en …)를 쓰는 이유는?", "q": "Le français n'aime pas la répétition.", "a": "같은 말을 반복하지 않으려고", "wrong": ["문장을 더 공손하게 하려고", "과거 시제를 만들려고", "의문문을 만들려고"], "hint": "✍️ 노션: 프랑스어가 싫어하는 것", "explain": "프랑스어는 반복을 싫어함 → 보어를 대명사로 바꾼다.", "src": "노션 11/17"},
+    {"id": "u5-05-c-voyage", "t": "choice", "skill": "pron-en-y", "prompt": "'Je ? parle.'의 빈칸은?", "q": "Je parle de mon voyage. = ___ parle.", "ko": "나는 내 여행에 대해 이야기한다.", "a": "J'en", "wrong": ["Je le", "Je lui", "J'y"], "hint": "parler de + 사물 — de를 받는 대명사", "explain": "de + 명사 → en. Je en → J'en parle.", "star": true, "src": "semaine 11-3 p.8"},
+    {"id": "u5-05-c-en-de", "t": "choice", "skill": "pron-en-y", "prompt": "À retenir : en이 대신하는 것은?", "q": "EN = ?", "a": "de + 명사", "wrong": ["à + 명사", "직접목적어 le / la / les", "à + 사람"], "hint": "du café, des frères, de Paris의 공통점", "explain": "À retenir : EN = DE.", "say": "", "src": "semaine 12-1 p.11"},
+    {"id": "u5-05-c-cafe", "t": "choice", "skill": "pron-en-y", "prompt": "대명사로 답하세요", "q": "Tu veux du café ? — Oui, ___ veux.", "ko": "커피 마실래? — 응, 마실래.", "a": "j'en", "wrong": ["je le", "j'y", "je la"], "hint": "du = de + le → de로 시작하는 말", "explain": "부분관사 du + 명사 → en.", "src": "semaine 11-3 p.9"},
+    {"id": "u5-05-c-chocolat-neg", "t": "choice", "skill": "pron-en-y", "prompt": "부정으로 답하세요", "q": "Tu veux du chocolat ? — Non, merci, ___ veux pas.", "ko": "초콜릿 먹을래? — 아니, 괜찮아.", "a": "je n'en", "wrong": ["je ne le", "je n'y", "je en ne"], "hint": "ne + 대명사 + 동사 + pas 순서", "explain": "Non, merci, je n'en veux pas.", "src": "semaine 11-3 p.9"},
+    {"id": "u5-05-c-bien", "t": "choice", "skill": "pron-en-y", "prompt": "뜻은?", "q": "Tu veux du chocolat ? — Oui, merci, j'en veux bien.", "a": "응, 고마워, 좋지(줘).", "wrong": ["아니, 고맙지만 괜찮아.", "응, 이미 잘 먹었어.", "응, 초콜릿 잘 만들어."], "hint": "Oui, merci로 시작해요", "explain": "vouloir bien = 기꺼이 원하다 → 권하는 걸 받을 때.", "src": "semaine 11-3 p.9"},
+    {"id": "u5-05-c-freres-deux", "t": "choice", "skill": "pron-en-y", "prompt": "'두 명 있어요'라고 답하세요", "q": "Vous avez des frères ? — Oui, ___", "ko": "형제 있어요? — 네, 두 명이요.", "a": "j'en ai deux.", "wrong": ["j'ai deux.", "je les ai deux.", "j'ai en deux."], "hint": "✍️ 수량은 동사 뒤에 남고, 명사는?", "explain": "✍️ 밑줄: Oui, j'en ai deux. en = des frères, deux는 그대로.", "star": true, "src": "semaine 11-3 p.9"},
+    {"id": "u5-05-c-freres-neg", "t": "choice", "skill": "pron-en-y", "prompt": "부정으로 답하세요", "q": "Vous avez des frères ? — Non, ___", "ko": "형제 있어요? — 아니요, 없어요.", "a": "je n'en ai pas.", "wrong": ["je n'ai pas.", "je ne les ai pas.", "je n'en pas ai."], "hint": "✍️ 밑줄 친 부분 — ne와 pas가 감싸는 덩어리", "explain": "✍️ je n'en ai pas — ne + en + ai + pas.", "src": "semaine 11-3 p.9"},
+    {"id": "u5-05-c-kilo-un", "t": "choice", "skill": "pron-en-y", "prompt": "빈칸에 알맞은 것은?", "q": "Vous voulez un kilo de pommes ? — Oui, j'en veux ___.", "ko": "사과 1킬로 드릴까요? — 네, 1킬로 주세요.", "a": "un kilo", "wrong": ["le kilo", "de kilo", "un kilo d'en"], "hint": "✍️ 수량 표현은 그대로 뒤에", "explain": "en = de pommes, 수량 un kilo는 남는다.", "src": "semaine 11-3 p.10"},
+    {"id": "u5-05-b-kilos", "t": "build", "skill": "pron-en-y", "prompt": "en을 써서 '아니요, 2킬로 주세요'", "from": "Vous voulez un kilo de pommes ?", "a": "Non, j'en veux deux kilos.", "extra": ["les", "pommes"], "ko": "아니요, 2킬로 원해요.", "hint": "✍️ 수량을 나타낼 때 매우 유용!", "explain": "j'en veux + 수량(deux kilos).", "star": true, "src": "semaine 12-1 p.11"},
+    {"id": "u5-05-c-venir-paris", "t": "choice", "skill": "pron-en-y", "prompt": "대명사로 답하세요", "q": "Vous venez de Paris ? — Oui, ___ viens.", "ko": "파리에서 오셨어요? — 네, 거기서 왔어요.", "a": "j'en", "wrong": ["j'y", "je la", "je le"], "hint": "venir 뒤 전치사를 확인해요", "explain": "venir de + 장소 → en.", "src": "semaine 11-3 p.10"},
+    {"id": "u5-05-b-paris-neg", "t": "build", "skill": "pron-en-y", "prompt": "en을 써서 부정으로 답하세요", "from": "Vous venez de Paris ?", "a": "Non, je n'en viens pas.", "extra": ["y", "ne"], "ko": "아니요, 거기서 오지 않았어요.", "hint": "ne + 대명사 + 동사 + pas", "explain": "Non, je n'en viens pas.", "src": "semaine 11-3 p.10"},
+    {"id": "u5-05-c-projet", "t": "choice", "skill": "pron-en-y", "prompt": "대명사로 답하세요", "q": "Tu parles de ton projet ? — Oui, ___ parle.", "ko": "네 계획 얘기하는 거야? — 응.", "a": "j'en", "wrong": ["je lui", "j'y", "je le"], "hint": "projet = 사물, parler de", "explain": "parler de + 사물 → en.", "src": "semaine 12-1 p.13"},
+    {"id": "u5-05-c-valerie-delle", "t": "choice", "skill": "pron-tonic", "prompt": "알맞은 답은?", "q": "Tu parles de ton amie Valérie ? — Oui, ___", "ko": "네 친구 발레리 얘기하는 거야? — 응, 그녀 얘기야.", "a": "je parle d'elle.", "wrong": ["j'en parle.", "je lui parle.", "je la parle."], "hint": "✍️ 얼굴이 그려지는 특정 인물이에요", "explain": "✍️ 그려지면 줄이면 안 돼 → de + 강세형 elle.", "star": true, "src": "semaine 11-3 p.11"},
+    {"id": "u5-05-c-copain-lui", "t": "choice", "skill": "pron-tonic", "prompt": "알맞은 답은?", "q": "Tu parles de ton copain ? — Oui, ___", "ko": "네 남자친구 얘기하는 거야? — 응, 그 사람 얘기야.", "a": "je parle de lui.", "wrong": ["je lui parle.", "j'en parle.", "je le parle."], "hint": "✍️ 특정 인물 + parler de", "explain": "✍️ 특정 인물이면 en으로 뭉뚱그리지 않는다 → de lui. (je lui parle = 그에게 말한다)", "src": "semaine 12-1 p.13"},
+    {"id": "u5-05-c-besoin-aide", "t": "choice", "skill": "pron-en-y", "prompt": "대명사로 바꾸세요", "q": "J'ai besoin de ton aide. → ___", "ko": "네 도움이 필요해.", "a": "J'en ai besoin.", "wrong": ["J'ai en besoin.", "J'y ai besoin.", "Je l'ai besoin."], "hint": "대명사는 조동사·동사(ai) 앞으로", "explain": "avoir besoin de + 사물 → en, 위치는 ai 앞: J'en ai besoin.", "src": "semaine 11-3 p.11"},
+    {"id": "u5-05-err-jai-en", "t": "error", "skill": "pron-en-y", "s": "Tu as besoin de mon aide ? — Oui, j'ai en besoin.", "wrong": "j'ai en", "right": "j'en ai", "ko": "내 도움 필요해? — 응, 필요해.", "hint": "대명사의 자리는 동사 앞", "explain": "Oui, j'en ai besoin.", "src": "semaine 12-1 p.14"},
+    {"id": "u5-05-c-besoin-frere", "t": "choice", "skill": "pron-tonic", "prompt": "대명사로 바꾸세요", "q": "J'ai besoin de ton frère. → ___", "ko": "네 남동생(형)이 필요해.", "a": "J'ai besoin de lui.", "wrong": ["J'en ai besoin.", "Je lui ai besoin.", "J'ai besoin de le."], "hint": "✍️ 사람이 그려지면? 강세형으로", "explain": "de + 사람 → de + 강세형 lui.", "src": "semaine 11-3 p.11"},
+    {"id": "u5-05-c-besoin-toi", "t": "choice", "skill": "pron-tonic", "prompt": "알맞은 답은?", "q": "Tu as besoin de moi ? — Oui, ___", "ko": "내가 필요해? — 응, 네가 필요해.", "a": "j'ai besoin de toi.", "wrong": ["je t'ai besoin.", "j'en ai besoin.", "j'ai besoin de te."], "hint": "moi ↔ 상대방은 강세형 무엇?", "explain": "de + 강세형 toi. (te는 강세형이 아님)", "src": "semaine 12-1 p.14"},
+    {"id": "u5-05-c-piano-neg", "t": "choice", "skill": "pron-en-y", "prompt": "부정으로 답하세요", "q": "Tu joues souvent du piano ? — Non, ___ joue pas souvent.", "ko": "피아노 자주 쳐? — 아니, 자주는 안 쳐.", "a": "je n'en", "wrong": ["je n'y", "je ne le", "je ne lui"], "hint": "jouer + 악기 앞의 전치사는?", "explain": "jouer de + 악기(du piano) → en.", "src": "semaine 12-1 p.12"},
+    {"id": "u5-05-t-piano-oui", "t": "type", "skill": "pron-en-y", "prompt": "대명사 한 단어로", "q": "Tu joues du piano ? — Oui, j'___ joue tous les mardis.", "a": "en", "hint": "jouer de + 악기", "explain": "Oui, j'en joue tous les mardis.", "src": "semaine 12-1 p.12"},
+    {"id": "u5-05-err-ne-pas-order", "t": "error", "skill": "pron-en-y", "s": "Non, merci, je ne pas en veux.", "wrong": "ne pas en veux", "right": "n'en veux pas", "ko": "아니, 고맙지만 됐어.", "hint": "ne와 pas가 '대명사+동사'를 감싸요", "explain": "ne + en + 동사 + pas → je n'en veux pas.", "src": "semaine 11-3 p.9"},
+    {"id": "u5-05-w-besoin", "t": "word", "skill": "vocab", "fr": "avoir besoin de", "ko": "~이 필요하다", "src": "semaine 11-3 p.11"},
+    {"id": "u5-05-w-kilo", "t": "word", "skill": "vocab", "fr": "un kilo de pommes", "ko": "사과 1킬로", "src": "semaine 11-3 p.10"},
+    {"id": "u5-05-w-projet", "t": "word", "skill": "vocab", "fr": "le projet", "ko": "계획, 프로젝트", "g": "m", "src": "semaine 12-1 p.13"},
+    {"id": "u5-05-w-aide", "t": "word", "skill": "vocab", "fr": "l'aide", "ko": "도움", "g": "f", "src": "semaine 11-3 p.11"}
+  ]
+}

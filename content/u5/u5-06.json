@@ -1,0 +1,228 @@
+{
+  "id": "u5-06",
+  "unit": "u5",
+  "title": "대명사 y · 동사별 정리 · 대명사 순서",
+  "emoji": "📍",
+  "date": "2026-11-12",
+  "sources": ["semaine 11-3", "semaine 12-1", "semaine 12-2", "노션 11/17", "노션 11/18"],
+  "tips": [
+    {
+      "h": "À retenir : Y = À (+ 장소 전부)",
+      "b": "à + 사물·장소 → **y** (✍️ '거기에')\n✍️ à la fac / chez moi / devant la porte — 장소면 전치사가 뭐든 다 y"
+    },
+    {
+      "h": "사람이면?",
+      "rows": [
+        ["à + 사람", "lui / leur (je **lui** parle)"],
+        ["⚠️ penser à + 사람", "à + 강세형 (je pense **à eux**)"],
+        ["de + 사람", "de + 강세형 (je m'occupe **de lui**)"]
+      ]
+    },
+    {
+      "h": "대명사 순서",
+      "b": "me/te/se/nous/vous → le/la/les → lui/leur → **y** → **en** → 동사\nOui, je te les y donne. · Il lui en parle. · Il y en a."
+    },
+    {
+      "h": "⭐ 시험 — s'intéresser à",
+      "b": "Je **m'y intéresse**. / Je **ne m'y intéresse pas**.\n✍️ m'y intéresse를 한 동사처럼 보고 앞뒤로 ne … pas\n철자 in/té/res/ser [앙떼헤쎄]"
+    }
+  ],
+  "fixes": [
+    {"where": "semaine 11-3 p.12 (슬라이드)", "was": "Non, je n'y vais.", "now": "Non, je n'y vais pas.", "why": "부정문에 pas가 빠짐 — 학생 필기에도 '+pas'로 표시"},
+    {"where": "semaine 11-3 p.12 (슬라이드)", "was": "Tu joue au tennis ?", "now": "Tu joues au tennis ?", "why": "tu 주어 → -es (12-1 슬라이드에서는 joues로 고쳐져 있음)"},
+    {"where": "semaine 12-2 p.9 (학생 PDF 글상자)", "was": "Oui, je m'y en occupe.", "now": "Oui, je m'en occupe.", "why": "s'occuper **de** → en만. y는 à를 받는 대명사라 여기 들어갈 자리가 없다 (12-1 p.17: je m'en occupe)"},
+    {"where": "semaine 11-3 p.12 (학생 PDF 글상자)", "was": "막연한 사람이면 <y>로 받는다", "now": "막연한 것(사물·장소·생각)이면 y, 그려지는 사람이면 lui / leur", "why": "표준 프랑스어에서 y는 원칙적으로 사람을 받지 않는다 — 슬라이드의 y 예문도 micro, vacances, fac 같은 사물·장소"}
+  ],
+  "note": [
+    {
+      "h": "y = à + 사물 · 장소",
+      "skill": "pron-en-y",
+      "src": ["semaine 11-3 p.12–13", "semaine 12-1 p.11", "semaine 12-2 p.4"],
+      "body": [
+        {"p": "On utilise « y » pour remplacer un nom avec « à » devant. — À retenir : **Y = À**"},
+        {"ex": [
+          ["Vous habitez à Paris ? — Oui, j'y habite.", "파리에 사세요? — 네, 거기 살아요."],
+          ["Tu vas à la fac ? — Oui, j'y vais. / Non, je n'y vais pas.", "학교 가? — 응. / 아니."],
+          ["Tu joues au tennis ? — Oui, j'y joue. / Non, je n'y joue pas.", "테니스 쳐? — 응. / 아니."],
+          ["Tu parles au micro ? — Oui, j'y parle. / Non, je n'y parle pas.", "마이크에 대고 말해? — 응. / 아니."],
+          ["Tu penses déjà aux vacances ? — Oui, j'y pense. / Non, je n'y pense pas.", "벌써 방학 생각해? — 응. / 아니."]
+        ]},
+        {"memo": "✍️ 필기: 슬라이드의 'Non, je n'y vais.'에 **+pas** — je n'y vais pas."},
+        {"memo": "✍️ 12-1 필기: y는 **'거기에'**라고 해석 많이 된다."}
+      ]
+    },
+    {
+      "h": "✍️ 장소면 다 y — chez moi · devant la porte",
+      "skill": "pron-en-y",
+      "src": ["노션 11/17", "노션 11/18", "semaine 12-1 p.16"],
+      "body": [
+        {"p": "y는 à만이 아니라 **장소를 나타내는 말 전체**를 받는다."},
+        {"ex": [
+          ["Tu me donnes les clés à la fac / chez moi / devant la porte ? — Oui, je te les y donne.", "학교에서 / 우리 집에서 / 문 앞에서 열쇠 줄래? — 응, 거기서 줄게."],
+          ["Je rentre chez nous. → J'y rentre.", "나는 우리 집으로 돌아간다. → 거기로 돌아간다."],
+          ["Vous allez souvent chez le dentiste ? — Oui, j'y vais souvent.", "치과 자주 가세요? — 네, 자주 가요."]
+        ]},
+        {"memo": "✍️ 노션 11/17: 장소와 관련된 거면 다 돼 → 다 <y>로 받을 수 있다."},
+        {"memo": "✍️ 노션 11/18: chez nous / Je rentre chez nous — '우리 집(으로)'."},
+        {"p": "**se rendre à** = ~에 가다 (= aller à): Pourquoi est-ce qu'il se rend à la bibliothèque ? — Il **s'y rend** pour chercher des livres."}
+      ]
+    },
+    {
+      "h": "사람이면 lui / leur — ✍️ 그려지면 줄이면 안 돼",
+      "skill": "pron-obj",
+      "src": ["semaine 11-3 p.12–13", "semaine 12-1 p.13–14"],
+      "body": [
+        {"table": [
+          ["질문", "사물·장소 → y", "사람 → lui / leur"],
+          ["écrire à", "—", "Tu écris souvent à tes parents ? → Oui, je **leur** écris souvent."],
+          ["parler à", "Tu parles au micro ? → Oui, j'**y** parle.", "Tu parles à ta copine ? → Oui, je **lui** parle."],
+          ["répondre à", "Pourrais-tu répondre à ma question ? → Oui, bien sûr, je vais **y** répondre.", "Pourrais-tu répondre à mon ami ? → Oui, je vais **lui** répondre."]
+        ], "head": true},
+        {"memo": "✍️ 필기: 너의 부모님 얼굴을 아니까.. 줄이면 안 돼 / 특정 인물에 대해 이야기하고 있어 그려지면 en이나 y로 뭉뚱그리지 않고 lui로 감."},
+        {"warn": "✍️ 필기 '막연한 사람이면 y'는 → '막연한 **것**(사물·장소·생각)이면 y'로 이해하기. 사람은 lui / leur (⚠️ 필기 정정 참고)."},
+        {"ex": [["Non, je ne leur écris pas souvent. · Non, je ne lui parle pas.", "아니, 자주는 안 써. · 아니, 그녀한테 말 안 해."]]}
+      ]
+    },
+    {
+      "h": "⚠️ 예외 — penser à + 사람 = à + 강세형",
+      "skill": "pron-tonic",
+      "src": ["semaine 11-3 p.13", "semaine 12-1 p.15"],
+      "body": [
+        {"ex": [
+          ["Tu penses souvent à tes parents ? — Oui, je pense souvent à eux.", "부모님 생각 자주 해? — 응, 자주 해."],
+          ["— Non, je ne pense pas souvent à eux.", "— 아니, 자주는 안 해."],
+          ["Tu penses à ton avenir ? — Oui, j'y pense. / Non, je n'y pense pas.", "네 미래 생각해? — 응. / 아니."],
+          ["Tu penses à moi ? — Oui, je pense à toi. / Non, je ne pense pas à toi.", "내 생각 해? — 응, 네 생각 해. / 아니."]
+        ]},
+        {"warn": "Oui, je **te pense**. (X) · je **leur** pense (X) — 슬라이드 (X) 표시."},
+        {"memo": "✍️ 11-3 필기: penser는 예외. leur로 안 바꾸고 à eux. 이렇게 써야 함. 얘만 예외 / penser à + 사람은 à + 강세형"},
+        {"memo": "✍️ 12-1 필기: **더 유의해야 함!!!** 사람에 대해 생각한다 할 때는 COI로 바꿀 수 없고 à + 강세형만 된다."}
+      ]
+    },
+    {
+      "h": "대명동사 + y / en — se rendre à · s'intéresser à · s'occuper de",
+      "skill": "pron-en-y",
+      "src": ["semaine 12-1 p.16–17", "semaine 12-2 p.9–10", "노션 11/18"],
+      "body": [
+        {"table": [
+          ["동사", "뜻", "y / en", "부정"],
+          ["se rendre à", "✍️ ~에 가다", "Il **s'y** rend.", "Il ne s'y rend pas."],
+          ["⭐ s'intéresser à", "✍️ ~에 관심을 갖다", "Je **m'y** intéresse.", "Je **ne m'y intéresse pas**."],
+          ["s'occuper de", "✍️ ~를 돌보다, 맡다 (take care of)", "Je **m'en** occupe.", "Je ne m'en occupe pas."]
+        ], "head": true},
+        {"memo": "✍️ 밑줄 m'y intéresse — **이렇게가 동사라고 보면 됨. 앞뒤로 ne pas 붙인다.** (재귀대명사 + y + 동사가 한 덩어리)"},
+        {"memo": "✍️ 노션 11/18: s'intéresser à ⇒ **시험에 나옴!!** conjugaison 어렵다 → je m'intéresse, tu t'intéresses, il s'intéresse, nous nous intéressons, vous vous intéressez, ils s'intéressent."},
+        {"memo": "✍️ 12-2 필기: spelling이 항상 어려움 — intéresser [앙떼헤쎄] in/té/res/ser (r 하나, s 두 개)"},
+        {"ex": [
+          ["Tu t'intéresses à la culture française ? — Oui, je m'y intéresse.", "프랑스 문화에 관심 있어? — 응, 관심 있어."],
+          ["Tu t'occupes des fleurs ? — Oui, je m'en occupe.", "꽃 돌보는 거 너야? — 응, 내가 돌봐."],
+          ["Tu t'occupes de ton petit frère ? — Oui, je m'occupe de lui. / Non, je ne m'occupe pas de lui.", "남동생 돌봐? — 응, 내가 돌봐. / 아니."],
+          ["Tu t'occupes des boissons dans ta classe ? — Oui, je m'en occupe.", "반에서 음료 맡았어? — 응, 내가 맡았어."]
+        ]},
+        {"warn": "✍️ 12-2 필기 'je m'y en occupe'는 틀림 → **je m'en occupe** (s'occuper **de** → en만)."}
+      ]
+    },
+    {
+      "h": "Les verbes à retenir — 동사별 정리",
+      "skill": "pron-en-y",
+      "src": ["semaine 12-1 p.12–17", "semaine 12-2 p.10"],
+      "body": [
+        {"table": [
+          ["동사", "사물·장소", "사람"],
+          ["jouer de (악기) / à (스포츠)", "j'en joue / j'y joue", "—"],
+          ["parler de / à", "j'en parle / j'y parle", "je parle de lui / je lui parle"],
+          ["avoir besoin de", "j'en ai besoin", "j'ai besoin de toi"],
+          ["répondre à", "je vais y répondre", "je vais lui répondre"],
+          ["penser à", "j'y pense", "⚠️ je pense à toi"],
+          ["se rendre à", "il s'y rend", "—"],
+          ["s'intéresser à", "je m'y intéresse", "—"],
+          ["s'occuper de", "je m'en occupe", "je m'occupe de lui"]
+        ], "head": true},
+        {"p": "규칙 두 줄: **de → en / à → y**, 그런데 **사람이면** à → lui·leur, de → de + 강세형, penser à → à + 강세형."}
+      ]
+    },
+    {
+      "h": "L'ordre des pronoms compléments — 순서",
+      "skill": "pron-obj",
+      "src": ["semaine 12-1 p.18–19", "semaine 12-2 p.9", "노션 11/17"],
+      "body": [
+        {"table": [
+          ["SUJET", "1", "2", "3", "4", "5", "VERBE"],
+          ["je, tu, il …", "me te se nous vous", "le la les", "lui leur", "y", "en", "donne …"]
+        ], "head": true},
+        {"ex": [
+          ["Tu me donnes les clés ? = Tu me les donnes ?", "나한테 열쇠 줄래? = 나한테 그거 줄래?"],
+          ["Il parle de son projet à Paul. ⇒ Il parle (en) (lui) ⇒ Il lui en parle.", "그는 폴에게 자기 계획을 말한다. ⇒ 그는 그에게 그것을 말한다."],
+          ["Tu mets des fleurs dans le vase ? ⇒ Tu y en mets ?", "꽃병에 꽃 꽂을래? ⇒ 거기에 그거 꽂을래?"],
+          ["Tu me donnes les clés à la fac ? — Oui, je te les y donne.", "학교에서 열쇠 줄래? — 응, 거기서 너한테 그거 줄게."],
+          ["Y a-t-il beaucoup de pommes ? — Oui, il y en a beaucoup.", "사과 많이 있어? — 응, 많이 있어."]
+        ]},
+        {"list": [
+          "en은 언제나 **맨 끝** (동사 바로 앞): lui **en**, y **en**",
+          "dans le vase(장소) → y · des fleurs → en → **y en**",
+          "Il y a beaucoup de pommes → il y **en** a beaucoup — 수량(beaucoup)만 남으면 en 필수",
+          "✍️ en a [어나] — en과 a를 이어서 [일리 앙나]",
+          "복합과거·조동사도 같은 순서: Oui, il **me l'a** dite. · Oui, je **lui en ai** envoyé beaucoup. (u5-07 복습 문제)"
+        ]}
+      ]
+    },
+    {
+      "h": "이미 알던 y · en — 굳은 표현",
+      "skill": "vocab",
+      "src": ["노션 11/17"],
+      "body": [
+        {"memo": "✍️ 노션 11/17: 이미 아는 것 중에 Il y a ~ / Je vous en prie. → prier de ~"},
+        {"table": [
+          ["표현", "뜻", "숨은 대명사"],
+          ["Il y a …", "~이 있다", "y (거기에)"],
+          ["Je vous en prie.", "천만에요 / (어서) 그러세요", "en = de ~ (prier qqn de ~)"],
+          ["Allons-y !", "가자! / 시작하자!", "y = 거기로"],
+          ["Ne t'en fais pas !", "걱정 마!", "s'en faire (u5-08 대화문)"]
+        ], "head": true}
+      ]
+    }
+  ],
+  "cards": [
+    {"id": "u5-06-c-y-a", "t": "choice", "skill": "pron-en-y", "prompt": "À retenir : y가 대신하는 것은?", "q": "Y = ?", "a": "à + 사물·장소", "wrong": ["de + 명사", "à + 아는 사람", "직접목적어 le / la / les"], "hint": "Vous habitez à Paris, Tu vas à la fac의 공통점", "explain": "À retenir : Y = À. 사람(à + 사람)은 lui / leur.", "say": "", "src": "semaine 12-1 p.11"},
+    {"id": "u5-06-c-habiter", "t": "choice", "skill": "pron-en-y", "prompt": "대명사로 답하세요", "q": "Vous habitez à Paris ? — Oui, ___ habite.", "ko": "파리에 사세요? — 네, 거기 살아요.", "a": "j'y", "wrong": ["j'en", "je l'", "je lui"], "hint": "à + 장소를 받는 대명사", "explain": "à Paris → y. Oui, j'y habite.", "src": "semaine 11-3 p.12"},
+    {"id": "u5-06-c-fac-neg", "t": "choice", "skill": "pron-en-y", "prompt": "부정으로 답하세요", "q": "Tu vas à la fac ? — Non, ___", "ko": "학교 가? — 아니, 안 가.", "a": "je n'y vais pas.", "wrong": ["je n'y vais.", "je ne vais pas y.", "je n'en vais pas."], "hint": "✍️ 슬라이드에 빠진 걸 필기로 채웠죠 (+?)", "explain": "✍️ +pas: Non, je n'y vais pas.", "star": true, "src": "semaine 11-3 p.12"},
+    {"id": "u5-06-c-tennis", "t": "choice", "skill": "pron-en-y", "prompt": "대명사로 답하세요", "q": "Tu joues bien au tennis ? — Oui, ___ joue très bien.", "ko": "테니스 잘 쳐? — 응, 아주 잘 쳐.", "a": "j'y", "wrong": ["j'en", "je le", "je lui"], "hint": "jouer + 스포츠 앞의 전치사는?", "explain": "jouer à + 스포츠(au tennis) → y.", "src": "semaine 12-1 p.12"},
+    {"id": "u5-06-c-jouer-de-a", "t": "choice", "skill": "pron-en-y", "prompt": "빈칸에 알맞은 짝은?", "q": "jouer ___ piano / jouer ___ tennis", "a": "du / au", "wrong": ["au / du", "du / du", "au / au"], "hint": "악기 vs 스포츠", "explain": "jouer de + 악기(→ en) / jouer à + 스포츠·게임(→ y).", "say": "jouer du piano, jouer au tennis", "src": "semaine 12-1 p.12"},
+    {"id": "u5-06-c-parents-leur", "t": "choice", "skill": "pron-obj", "prompt": "알맞은 답은?", "q": "Tu écris souvent à tes parents ? — Oui, ___ écris souvent.", "ko": "부모님께 자주 편지 써? — 응, 자주 써.", "a": "je leur", "wrong": ["j'y", "je les", "j'en"], "hint": "✍️ 부모님 얼굴이 그려지죠? 복수 사람", "explain": "✍️ 줄이면 안 돼 → à + 사람(복수) = leur.", "star": true, "src": "semaine 11-3 p.12"},
+    {"id": "u5-06-c-micro", "t": "choice", "skill": "pron-en-y", "prompt": "알맞은 답은?", "q": "Tu parles au micro ? — Oui, ___ parle.", "ko": "마이크에 대고 말해? — 응.", "a": "j'y", "wrong": ["je lui", "je le", "j'en"], "hint": "micro는 사람이 아니에요", "explain": "à + 사물(au micro) → y.", "src": "semaine 11-3 p.13"},
+    {"id": "u5-06-c-copine-lui", "t": "choice", "skill": "pron-obj", "prompt": "알맞은 답은?", "q": "Tu parles à ta copine ? — Oui, ___ parle.", "ko": "여자친구한테 말해? — 응, 말해.", "a": "je lui", "wrong": ["j'y", "je la", "j'en"], "hint": "à + 특정 인물(단수)", "explain": "parler à + 사람 → lui (여성이어도 lui).", "src": "semaine 11-3 p.13"},
+    {"id": "u5-06-c-vacances", "t": "choice", "skill": "pron-en-y", "prompt": "알맞은 답은?", "q": "Tu penses déjà aux vacances ? — Oui, ___ pense.", "ko": "벌써 방학 생각해? — 응.", "a": "j'y", "wrong": ["je leur", "j'en", "je les"], "hint": "aux vacances = à + 사물(생각의 대상)", "explain": "penser à + 사물 → y.", "src": "semaine 11-3 p.13"},
+    {"id": "u5-06-c-penser-eux", "t": "choice", "skill": "pron-tonic", "prompt": "알맞은 답은?", "q": "Tu penses souvent à tes parents ? — Oui, ___", "ko": "부모님 생각 자주 해? — 응, 자주 해.", "a": "je pense souvent à eux.", "wrong": ["je leur pense souvent.", "j'y pense souvent.", "je les pense souvent."], "hint": "✍️ penser는 예외! 얘만 예외", "explain": "✍️ penser à + 사람 = à + 강세형 → à eux.", "star": true, "src": "semaine 11-3 p.13"},
+    {"id": "u5-06-err-te-pense", "t": "error", "skill": "pron-tonic", "s": "Tu penses à moi ? — Oui, je te pense.", "wrong": "je te pense", "right": "je pense à toi", "ko": "내 생각 해? — 응, 네 생각 해.", "hint": "✍️ 더 유의해야 함!!! 사람 생각은 COI 불가", "explain": "슬라이드 (X): je te pense → je pense à toi.", "star": true, "src": "semaine 12-1 p.15"},
+    {"id": "u5-06-c-moi-neg", "t": "choice", "skill": "pron-tonic", "prompt": "부정으로 답하세요", "q": "Tu penses à moi ? — Non, ___", "ko": "내 생각 해? — 아니, 안 해.", "a": "je ne pense pas à toi.", "wrong": ["je ne te pense pas.", "je n'y pense pas.", "je ne pense pas à moi."], "hint": "사람 생각 → à + 강세형만", "explain": "Non, je ne pense pas à toi.", "src": "semaine 12-1 p.15"},
+    {"id": "u5-06-c-avenir", "t": "choice", "skill": "pron-en-y", "prompt": "알맞은 답은?", "q": "Tu penses à ton avenir ? — Oui, ___", "ko": "네 미래 생각해? — 응.", "a": "j'y pense.", "wrong": ["je pense à lui.", "je lui pense.", "j'en pense."], "hint": "avenir는 사람이 아니에요", "explain": "penser à + 사물 → y. (사람일 때만 à + 강세형)", "src": "semaine 12-1 p.15"},
+    {"id": "u5-06-c-question", "t": "choice", "skill": "pron-en-y", "prompt": "알맞은 대명사는?", "q": "Pourrais-tu répondre à ma question ? — Oui, bien sûr, je vais ___ répondre.", "ko": "내 질문에 답해 줄래? — 응, 물론이지.", "a": "y", "wrong": ["lui", "en", "la"], "hint": "question은 사물, répondre à", "explain": "répondre à + 사물 → y. 조동사 aller 뒤 동사원형 앞에.", "src": "semaine 12-1 p.14"},
+    {"id": "u5-06-c-ami-lui", "t": "choice", "skill": "pron-obj", "prompt": "알맞은 대명사는?", "q": "Pourrais-tu répondre à mon ami ? — Oui, je vais ___ répondre.", "ko": "내 친구한테 답해 줄래? — 응, 답할게.", "a": "lui", "wrong": ["y", "le", "en"], "hint": "répondre à + 사람(단수)", "explain": "à + 사람 → lui.", "src": "semaine 12-1 p.14"},
+    {"id": "u5-06-c-se-rendre", "t": "choice", "skill": "pron-en-y", "prompt": "알맞은 것은?", "q": "Pourquoi est-ce qu'il se rend à la bibliothèque ? — Il ___ rend pour chercher des livres.", "ko": "그는 왜 도서관에 가? — 책을 찾으러 가.", "a": "s'y", "wrong": ["y se", "s'en", "se la"], "hint": "재귀대명사 → 장소 대명사 순서", "explain": "se rendre à (= aller à) → s'y rend.", "src": "semaine 12-1 p.16"},
+    {"id": "u5-06-w-se-rendre", "t": "word", "skill": "vocab", "fr": "se rendre à", "ko": "~에 가다 (= aller à)", "src": "semaine 12-1 p.16"},
+    {"id": "u5-06-c-interesser-oui", "t": "choice", "skill": "pron-en-y", "prompt": "알맞은 것은?", "q": "Tu t'intéresses à la culture française ? — Oui, je ___ intéresse.", "ko": "프랑스 문화에 관심 있어? — 응, 관심 있어.", "a": "m'y", "wrong": ["y m'", "m'en", "me la"], "hint": "⭐ 시험! s'intéresser 뒤 전치사 + 순서", "explain": "s'intéresser à → y. 재귀대명사(me) 다음 y → je m'y intéresse.", "star": true, "src": "semaine 12-1 p.16"},
+    {"id": "u5-06-c-interesser-neg", "t": "choice", "skill": "pron-en-y", "prompt": "부정으로 답하세요", "q": "Tu t'intéresses à la culture française ? — Non, ___", "ko": "프랑스 문화에 관심 있어? — 아니, 없어.", "a": "je ne m'y intéresse pas.", "wrong": ["je m'y ne intéresse pas.", "je ne m'intéresse pas y.", "je ne y m'intéresse pas."], "hint": "✍️ 한 덩어리를 동사로 보고 앞뒤로 ne pas", "explain": "✍️ m'y intéresse = 한 동사 → ne m'y intéresse pas.", "star": true, "src": "semaine 12-1 p.16"},
+    {"id": "u5-06-b-interesser", "t": "build", "skill": "pron-en-y", "prompt": "y를 써서 부정으로 답하세요", "from": "Tu t'intéresses à la culture française ?", "a": "Non, je ne m'y intéresse pas.", "extra": ["en", "lui"], "ko": "아니, 나는 거기에 관심 없어.", "hint": "⭐ 시험 — ne와 pas 사이에 세 단어 덩어리", "explain": "Non, je ne m'y intéresse pas.", "star": true, "src": "노션 11/18"},
+    {"id": "u5-06-t-interesser", "t": "type", "skill": "spelling", "prompt": "'~에 관심을 갖다' — 대명동사 원형을 쓰세요", "q": "s'_____ à", "a": "s'intéresser", "alts": ["intéresser", "s'intéresser à"], "hint": "✍️ in/té/res/ser [앙떼헤쎄] — 악센트 주의", "explain": "✍️ spelling이 항상 어려움: in-té-res-ser (é 하나, r 하나, s 두 개).", "star": true, "src": "semaine 12-2 p.10"},
+    {"id": "u5-06-c-interessons", "t": "choice", "skill": "pronominal", "prompt": "빈칸에 알맞은 것은?", "q": "Nous ___ à la culture française.", "ko": "우리는 프랑스 문화에 관심이 있다.", "a": "nous intéressons", "wrong": ["nous intéresse", "nous intéressez", "s'intéressons"], "hint": "✍️ conjugaison 시험! 재귀대명사도 주어에 맞춰요", "explain": "nous nous intéressons — 재귀대명사 nous + 어미 -ons.", "star": true, "src": "노션 11/18"},
+    {"id": "u5-06-l-interesse", "t": "listen", "skill": "pron", "say": "Je m'y intéresse.", "a": "Je m'y intéresse.", "wrong": ["Je m'en intéresse.", "Je m'intéresse."], "ko": "나는 거기에 관심이 있다.", "pron": "[쥬 미 앙떼헤쓰]", "hint": "m' 다음에 [이] 소리가 들리나요?", "explain": "m'y = [미]. s'intéresser à → y.", "star": true, "src": "semaine 12-1 p.16"},
+    {"id": "u5-06-w-interesser", "t": "word", "skill": "vocab", "fr": "s'intéresser à", "ko": "~에 관심을 갖다", "note": "⭐ 시험 · ✍️ [앙떼헤쎄]", "star": true, "src": "semaine 12-1 p.16"},
+    {"id": "u5-06-c-fleurs", "t": "choice", "skill": "pron-en-y", "prompt": "알맞은 것은?", "q": "Tu t'occupes des fleurs ? — Oui, je ___ occupe.", "ko": "꽃 돌보는 거 너야? — 응, 내가 돌봐.", "a": "m'en", "wrong": ["m'y", "me les", "m'y en"], "hint": "s'occuper 뒤 전치사는? (des = de + les)", "explain": "s'occuper de → en: je m'en occupe.", "src": "semaine 12-1 p.17"},
+    {"id": "u5-06-c-petit-frere", "t": "choice", "skill": "pron-tonic", "prompt": "알맞은 것은?", "q": "Tu t'occupes de ton petit frère ? — Oui, ___", "ko": "남동생 돌봐? — 응, 내가 돌봐.", "a": "je m'occupe de lui.", "wrong": ["je m'en occupe.", "je lui m'occupe.", "je m'y occupe."], "hint": "de + 특정 인물 → 강세형", "explain": "de + 사람 → de lui.", "src": "semaine 12-1 p.17"},
+    {"id": "u5-06-c-boissons", "t": "choice", "skill": "pron-en-y", "prompt": "(en ? y ?) 알맞은 답은?", "q": "Tu t'occupes des boissons dans ta classe ? — Oui, ___", "ko": "반에서 음료 맡았어? — 응, 내가 맡았어.", "a": "je m'en occupe.", "wrong": ["je m'y en occupe.", "je m'y occupe.", "je m'occupe."], "hint": "s'occuper 뒤 전치사 하나만 보면 돼요", "explain": "s'occuper de → en만. 필기 'm'y en'은 틀림 (⚠️ 정정).", "star": true, "src": "semaine 12-2 p.9"},
+    {"id": "u5-06-err-my-en", "t": "error", "skill": "pron-en-y", "s": "Oui, je m'y en occupe.", "wrong": "m'y en", "right": "m'en", "ko": "응, 내가 그거 맡을게.", "hint": "s'occuper de — à가 없는데 y가?", "explain": "✍️ 필기 정정: je m'en occupe. y는 à를 받을 때만.", "star": true, "src": "semaine 12-2 p.9"},
+    {"id": "u5-06-w-occuper", "t": "word", "skill": "vocab", "fr": "s'occuper de", "ko": "~를 돌보다, 맡다 (take care of)", "src": "semaine 12-1 p.17"},
+    {"id": "u5-06-c-me-les", "t": "choice", "skill": "pron-obj", "prompt": "대명사 순서", "q": "Tu me donnes les clés ? = Tu ___ donnes ?", "ko": "나한테 열쇠 줄래?", "a": "me les", "wrong": ["les me", "me leur", "m'en"], "hint": "1번 칸(me te se…) → 2번 칸(le la les)", "explain": "me → les 순서: Tu me les donnes ?", "src": "semaine 12-1 p.18"},
+    {"id": "u5-06-c-lui-en", "t": "choice", "skill": "pron-obj", "prompt": "대명사로 바꾸세요", "q": "Il parle de son projet à Paul. ⇒ Il ___ parle.", "ko": "그는 폴에게 자기 계획을 말한다.", "a": "lui en", "wrong": ["en lui", "y en", "le lui"], "hint": "à Paul(사람) + de son projet — 누가 맨 끝?", "explain": "à Paul → lui, de son projet → en. lui → en 순서.", "star": true, "src": "semaine 12-1 p.18"},
+    {"id": "u5-06-c-y-en", "t": "choice", "skill": "pron-en-y", "prompt": "대명사로 바꾸세요", "q": "Tu mets des fleurs dans le vase ? ⇒ Tu ___ mets ?", "ko": "꽃병에 꽃 꽂을래?", "a": "y en", "wrong": ["en y", "les y", "y les"], "hint": "dans le vase(장소) + des fleurs — 순서는 4번 → 5번", "explain": "장소 → y, des fleurs → en. y 다음 en.", "src": "semaine 12-1 p.18"},
+    {"id": "u5-06-c-y-meaning", "t": "choice", "skill": "pron-en-y", "prompt": "Tu y en mets ? 의 y는 보통 어떻게 해석될까?", "q": "Tu y en mets ?", "a": "거기에", "wrong": ["그것을", "그에게", "그것에 대해"], "hint": "✍️ 필기 — 장소", "explain": "✍️ y는 '거기에'라고 해석 많이 된다.", "src": "semaine 12-1 p.18"},
+    {"id": "u5-06-b-te-les-y", "t": "build", "skill": "pron-obj", "prompt": "대명사 세 개로 답하세요", "from": "Tu me donnes les clés à la fac ?", "a": "Oui, je te les y donne.", "extra": ["en", "me"], "ko": "응, 학교에서(거기서) 너한테 그거 줄게.", "hint": "te → les → (장소) 순서", "explain": "à moi → te, les clés → les, à la fac → y.", "star": true, "src": "semaine 12-1 p.19"},
+    {"id": "u5-06-c-porte-y", "t": "choice", "skill": "pron-en-y", "prompt": "빈칸에 알맞은 것은?", "q": "Tu me donnes les clés devant la porte ? — Oui, je te les ___ donne.", "ko": "문 앞에서 열쇠 줄래? — 응, 거기서 줄게.", "a": "y", "wrong": ["en", "là", "lui"], "hint": "✍️ 장소면 전치사가 뭐든 다 받아요", "explain": "✍️ 노션: à la fac / chez moi / devant la porte → 다 y.", "star": true, "src": "노션 11/17"},
+    {"id": "u5-06-c-order", "t": "choice", "skill": "pron-obj", "prompt": "보어 대명사 순서로 맞는 것은?", "q": "SUJET → 1 → 2 → 3 → 4 → 5 → VERBE", "a": "me·te… → le·la·les → lui·leur → y → en", "wrong": ["le·la·les → me·te… → lui·leur → en → y", "me·te… → lui·leur → le·la·les → y → en", "me·te… → le·la·les → lui·leur → en → y"], "hint": "en이 늘 동사 바로 앞(맨 끝)", "explain": "Il lui en parle · Tu y en mets · je te les y donne.", "say": "", "src": "semaine 12-2 p.9"},
+    {"id": "u5-06-c-il-y-en-a", "t": "choice", "skill": "pron-en-y", "prompt": "(en ?) 알맞은 답은?", "q": "Y a-t-il beaucoup de pommes ? — Oui, ___", "ko": "사과 많이 있어? — 응, 많이 있어.", "a": "il y en a beaucoup.", "wrong": ["il y a beaucoup.", "il en y a beaucoup.", "il y les a beaucoup."], "hint": "✍️ 수량(beaucoup)만 남으면 명사를 받을 대명사가 필요", "explain": "✍️ Oui, il y en a beaucoup. y → en 순서.", "star": true, "src": "semaine 12-2 p.9"},
+    {"id": "u5-06-l-il-y-en-a", "t": "listen", "skill": "pron", "say": "Il y en a beaucoup.", "a": "Il y en a beaucoup.", "wrong": ["Il y a beaucoup.", "Il en a beaucoup."], "ko": "많이 있다.", "pron": "[일리 앙나 보꾸]", "hint": "✍️ [어나]처럼 이어지는 소리가 있나요?", "explain": "✍️ en a [어나] — en과 a가 이어진다.", "src": "semaine 12-2 p.9"},
+    {"id": "u5-06-c-chez-nous", "t": "choice", "skill": "prep-lieu", "prompt": "'나는 우리 집으로 돌아간다'", "q": "Je rentre ___.", "a": "chez nous", "wrong": ["à nous", "chez nos", "dans nous"], "hint": "✍️ 노션: 사람의 집 = chez + 강세형", "explain": "✍️ chez nous = 우리 집(에). 장소라 y로도 받을 수 있다: J'y rentre.", "src": "노션 11/18"},
+    {"id": "u5-06-c-vous-en-prie", "t": "choice", "skill": "vocab", "prompt": "뜻은?", "q": "Merci beaucoup ! — Je vous en prie.", "a": "천만에요.", "wrong": ["죄송합니다.", "부탁 하나 드릴게요.", "기도할게요."], "hint": "✍️ 이미 아는 표현 — 고맙다는 말에 대한 대답", "explain": "✍️ Je vous en prie — 안에 en이 숨어 있다 (prier de ~).", "src": "노션 11/17"},
+    {"id": "u5-06-c-allons-y", "t": "choice", "skill": "vocab", "prompt": "뜻은?", "q": "Allons-y !", "a": "가자! / 시작하자!", "wrong": ["가지 마!", "거기 있어!", "다 왔다!"], "hint": "aller의 nous 명령형 + 장소 대명사", "explain": "Allons-y = 거기로 가자 → '자, 하자!'. y가 숨어 있는 굳은 표현.", "src": "노션 11/17"}
+  ]
+}

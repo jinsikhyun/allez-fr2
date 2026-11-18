@@ -1,0 +1,191 @@
+{
+  "id": "u5-03",
+  "unit": "u5",
+  "title": "가정문 두 가지 · 미래 vs 조건법 · Il faudrait",
+  "emoji": "🎁",
+  "date": "2026-11-11",
+  "sources": [
+    "semaine 11-2",
+    "노션 11/11"
+  ],
+  "tips": [
+    {
+      "h": "⭐ si 구문 두 가지",
+      "rows": [
+        ["Si + 반과거, … 조건법", "현실이 아닌 상황을 상상 (Si j'étais toi …)"],
+        ["Si + 현재, … 미래", "가능한 상황 (Si j'ai le temps …)"]
+      ]
+    },
+    {
+      "h": "미래 vs 조건법 — ✍️ 필기",
+      "b": "명확한 계획 → **미래** (Elle partira le mois prochain.)\n가정이 나오면 → **조건법** (Je viendrais si je pouvais.)\n조건법 = 필터 씌우는 느낌, 한발 물러나 유보하는 느낌"
+    },
+    {
+      "h": "✍️ ~한다더라",
+      "b": "Selon la presse, il y aurait une manifestation.\nIl neigerait ce soir. (일기예보나 누가 알려줬을 때)"
+    },
+    {
+      "h": "✍️ Il faudrait + 동사원형",
+      "b": "~하는 게 필요할 텐데\nIl faudrait réserver une chambre à l'avance(미리)."
+    }
+  ],
+  "note": [
+    {
+      "h": "다섯 가지 용법 복습 — 부탁 · 소원",
+      "skill": "conditionnel",
+      "src": ["semaine 11-2 p.1–9"],
+      "body": [
+        {"p": "11-1(u5-02)과 같은 정의·표(p.4–7: parler, avoir, faire, être, aimer, acheter, prendre). 이번엔 용법을 하나씩 번호 붙여 정리했다."},
+        {"table": [
+          ["(1) faire une demande polie", "(2) exprimer un souhait"],
+          ["Je voudrais un café, s'il vous plaît.", "J'aimerais voyager en France un jour."],
+          ["Vous pourriez m'aider ? = Pourriez-vous m'aider ?", "Il aimerait devenir avocat."],
+          ["Est-ce que je pourrais avoir une serviette ? = Pourrais-je avoir une serviette ?", "Nous souhaiterions parler couramment français."]
+        ], "head": true},
+        {"memo": "PARTIE 3 「La construction emphatique」(p.18–)는 다른 레슨에서 다룬다."}
+      ]
+    },
+    {
+      "h": "(3) 충고 — ✍️ Il faudrait + 동사원형",
+      "skill": "conditionnel",
+      "src": ["semaine 11-2 p.10"],
+      "body": [
+        {"ex": [
+          ["Tu devrais boire de l'eau.", "물 좀 마시는 게 좋겠어."],
+          ["Nous devrions faire du sport.", "우리 운동을 하는 게 좋겠어."],
+          ["Il faudrait réserver une chambre à l'avance.", "방을 미리 예약하는 게 필요할 텐데."]
+        ]},
+        {"memo": "✍️ 필기: **Il faudrait + inf.** : ~하는 게 필요할 텐데 · **à l'avance** = 미리."},
+        {"list": [
+          "il faut (현재) → il faudra (미래) → il **faudrait** (조건법) — 모두 비인칭 il",
+          "il faut보다 부드러운 충고"
+        ]}
+      ]
+    },
+    {
+      "h": "(4) 확인 안 된 정보 — ✍️ '~한다더라'",
+      "skill": "conditionnel",
+      "src": ["semaine 11-2 p.11"],
+      "body": [
+        {"ex": [
+          ["Selon la presse, il y aurait une manifestation ce samedi.", "언론에 따르면 이번 토요일에 시위가 있을 거라 한다."],
+          ["Il neigerait ce soir.", "오늘 저녁에 눈이 올 거라 한다."]
+        ]},
+        {"memo": "✍️ 필기: 「~~ 한다더라」 · 시위는 있을 수도 있고, 없을 수도 있음 · 눈 예문은 일기예보나 누가 알려줬을 때."},
+        {"p": "neiger(눈이 오다, 비인칭) → il neigera(미래) / il **neigerait**(조건법: ~라더라)."}
+      ]
+    },
+    {
+      "h": "(5) 가정 — Si + 반과거, … 조건법",
+      "skill": "conditionnel",
+      "src": ["semaine 11-2 p.12"],
+      "body": [
+        {"p": "On imagine une situation **qui n'est pas réelle**. ✍️ 현실이 아닌 상황을 상상한다."},
+        {"ex": [
+          ["Si j'étais toi, je donnerais une boîte de Pepero à Jean.", "내가 너라면 장에게 빼빼로 한 상자를 줄 텐데. (나는 네가 아니지만, 상상해 보자)"],
+          ["Si tu étais Jang Won-young, qu'est-ce que tu ferais ?", "네가 장원영이라면 뭘 하겠어? (넌 그녀가 아니지만, 상상해 보자)"]
+        ]},
+        {"list": [
+          "Je ne suis pas toi, mais imaginons. — imaginons = 상상해 보자 (nous 명령형)",
+          "Si j'étais toi = Si j'étais à ta place (u5-02 연습 1번)",
+          "11월 11일 = 빼빼로 데이 → une boîte de Pepero"
+        ]}
+      ]
+    },
+    {
+      "h": "si 구문 두 가지 — 비현실 vs 가능",
+      "skill": "conditionnel",
+      "src": ["semaine 11-2 p.13–14"],
+      "body": [
+        {"table": [
+          ["구문", "의미"],
+          ["Si + **imparfait**, … **conditionnel présent**", "On imagine une situation qui n'est pas réelle. (비현실)"],
+          ["Si + **présent**, … **futur simple**", "On parle d'une situation possible. ✍️ 가능한 상황에 대해 상상"]
+        ], "head": true},
+        {"ex": [
+          ["Si vous vous promenez le 11 novembre en Corée, vous verrez des boîtes de Pepero partout.", "11월 11일에 한국에서 산책하면 어디서나 빼빼로 상자를 보게 될 거예요. (가능)"],
+          ["Si j'avais le temps, je ferais des révisions de français.", "시간이 있다면 프랑스어 복습을 할 텐데. (사실 지금은 시간이 없다)"],
+          ["Si j'ai le temps, je ferai des révisions de français.", "시간이 있으면 프랑스어 복습을 할 거다. (시간이 있는 상황이라면, 이게 내 계획)"]
+        ]},
+        {"list": [
+          "vous vous promenez — se promener 현재 / vous **verrez** — voir 미래 (verr-)",
+          "(Mais maintenant, en fait, je n'ai pas le temps.) = 그런데 지금 사실 시간이 없다",
+          "(Dans une situation où j'ai le temps, voici mon projet.) — où = 관계대명사 (상황 où …)"
+        ]}
+      ]
+    },
+    {
+      "h": "미래인가 조건법인가? — ✍️ 필기",
+      "skill": "conditionnel",
+      "src": ["semaine 11-2 p.15"],
+      "body": [
+        {"ex": [
+          ["Je viendrai demain.", "내일 올게. (확정)"],
+          ["Je viendrais si je pouvais.", "올 수 있다면 올 텐데. (가정 → 조건법)"],
+          ["Elle a acheté les billets d'avion pour la France. Elle partira le mois prochain.", "그녀는 프랑스행 비행기표를 샀다. 다음 달에 떠난다."],
+          ["Tu dînerais avec ton père s'il arrivait à l'heure.", "아버지가 제시간에 도착한다면 넌 아버지와 저녁을 먹을 텐데."]
+        ]},
+        {"list": [
+          "✍️ 조건법 = **필터 씌우는 느낌**, 약간 한발 물러나고 / **유보하는** 느낌",
+          "✍️ **가정하는 상황이 나오면 conditionnel** 써야 함 → viendrais si je pouvais · dînerais … s'il arrivait",
+          "✍️ 형광펜 **partira**: 표를 이미 샀다 = **명확한 계획**이 있기 때문에 미래형 쓰는 게 더 자연스러움 (partirait도 문법적으로 불가능하진 않지만 '떠날 거라더라' 같은 유보 느낌)"
+        ]},
+        {"p": "같은 함정: u5-02 추가 연습 6번 Nous **partirons** en Grèce … Nous avons déjà acheté les billets."}
+      ]
+    },
+    {
+      "h": "연습 — p.94 다시 · 4시제 섞어 쓰기",
+      "skill": "conditionnel",
+      "src": ["semaine 11-2 p.16–17", "노션 11/11"],
+      "body": [
+        {"p": "p.16 = 11-1 p.15와 같은 p.94 연습: j'accepterais · il achèterait · j'irais · J'aimerais / Pourriez-vous (카드는 u5-02)."},
+        {"p": "PARTIE 2 「Exercice des verbes : le conditionnel, le futur simple, l'imparfait et le présent」는 슬라이드에 **간지만** 있다 (문항은 교재·판서). 앱 카드는 수업 예문으로 직접 만든 4시제 고르기."},
+        {"table": [
+          ["시제", "단서", "예"],
+          ["présent", "지금 · 습관 (현재)", "Tous les matins, je bois un café."],
+          ["imparfait", "과거 묘사 · 과거 습관 · si + 비현실", "Quand j'étais petit, je jouais au foot."],
+          ["futur simple", "확실한 미래 · si + 현재의 결과", "Si tu viens, je préparerai un gâteau."],
+          ["conditionnel", "부탁 · 소원 · 충고 · ~라더라 · si + 반과거의 결과", "Si nous avions une voiture, nous partirions."]
+        ], "head": true},
+        {"memo": "노션 11/11 본문은 슬라이드 캡처 이미지 1장뿐 — 같은 내용의 semaine 11-2 슬라이드로 반영."}
+      ]
+    }
+  ],
+  "cards": [
+    {"id": "u5-03-c-polie-cafe", "t": "choice", "skill": "conditionnel", "prompt": "(1) 공손한 부탁 — 빈칸은?", "q": "Est-ce que je ___ avoir une serviette ?", "ko": "냅킨 하나 받을 수 있을까요?", "a": "pourrais", "wrong": ["pourrai", "pouvais", "peux-je"], "hint": "pouvoir의 미래 어간 + 반과거 어미", "explain": "je pourrais = Pourrais-je … ? 공손한 부탁.", "src": "semaine 11-2 p.8"},
+    {"id": "u5-03-c-souhait-voyager", "t": "choice", "skill": "conditionnel", "prompt": "(2) 소원 — 빈칸은?", "q": "J'___ voyager en France un jour.", "ko": "언젠가 프랑스를 여행하고 싶어요.", "a": "aimerais", "wrong": ["aimerai", "aimais", "aimerait"], "hint": "u5-01에서 본 voudrai/voudrais 같은 함정", "explain": "j'aimerais (조건법, 소원). j'aimerai는 미래.", "src": "semaine 11-2 p.9"},
+    {"id": "u5-03-c-faudrait-sens", "t": "choice", "skill": "conditionnel", "prompt": "✍️ Il faudrait + 동사원형의 뜻은?", "q": "Il faudrait réserver une chambre à l'avance.", "a": "~하는 게 필요할 텐데 (미리 방을 예약해야 할 텐데)", "wrong": ["~해야 했다 (미리 방을 예약해야 했다)", "~할 것이다 (미리 방을 예약할 것이다)", "~하는 게 금지된다 (방 예약 금지)"], "hint": "✍️ 필기: falloir의 조건법 = 부드러운 충고", "explain": "Il faudrait + inf. = ~하는 게 필요할 텐데. il fallait(반과거), il faudra(미래).", "star": true, "src": "semaine 11-2 p.10"},
+    {"id": "u5-03-b-faudrait", "t": "build", "skill": "conditionnel", "prompt": "문장을 만드세요", "a": "Il faudrait réserver une chambre à l'avance.", "extra": ["faudra", "réservé"], "ko": "방을 미리 예약해야 할 텐데.", "hint": "비인칭 il + falloir의 조건법 + 동사원형", "explain": "Il faudrait + 동사원형. à l'avance = 미리.", "src": "semaine 11-2 p.10"},
+    {"id": "u5-03-err-faudrait-pp", "t": "error", "skill": "conditionnel", "s": "Il faudrait réservé une chambre à l'avance.", "wrong": "réservé", "right": "réserver", "ko": "방을 미리 예약해야 할 텐데.", "hint": "Il faudrait 뒤엔 어떤 형태?", "explain": "Il faudrait + 동사원형 → réserver. réservé는 과거분사.", "src": "semaine 11-2 p.10"},
+    {"id": "u5-03-c-devrions", "t": "choice", "skill": "conditionnel", "prompt": "(3) 충고 — 빈칸은?", "q": "Nous ___ faire du sport.", "ko": "우리 운동을 하는 게 좋겠어.", "a": "devrions", "wrong": ["devrons", "devions", "devriez"], "hint": "devr- + nous의 반과거 어미", "explain": "nous devrions. devrons(미래), devions(반과거).", "src": "semaine 11-2 p.10"},
+    {"id": "u5-03-c-neigerait-sens", "t": "choice", "skill": "conditionnel", "prompt": "✍️ 이 문장의 뜻은?", "q": "Il neigerait ce soir.", "a": "오늘 저녁에 눈이 올 거라고 한다", "wrong": ["오늘 저녁에 반드시 눈이 온다", "어제 저녁에 눈이 왔었다", "오늘 저녁에 눈이 오고 있었다"], "hint": "✍️ 필기: ~~한다더라", "explain": "조건법 = 확인 안 된 정보 (일기예보나 누가 알려줬을 때).", "star": true, "src": "semaine 11-2 p.11"},
+    {"id": "u5-03-c-neigera-vs", "t": "choice", "skill": "conditionnel", "prompt": "'~라더라'(확인 안 된 정보) 느낌을 내려면?", "q": "Selon la météo, il ___ ce soir.", "ko": "일기예보에 따르면 오늘 저녁에 눈이 온다더라.", "a": "neigerait", "wrong": ["neigeait", "a neigé", "neigera"], "hint": "미래 어간 + 반과거 어미", "explain": "il neigerait = 눈이 올 거라 한다. neigeait는 반과거(눈이 오고 있었다).", "src": "semaine 11-2 p.11"},
+    {"id": "u5-03-t-aurait-manif", "t": "type", "skill": "conditionnel", "prompt": "'~라더라'로 (il y a → ?)", "q": "Selon la presse, il y ___ une manifestation ce samedi.", "ko": "언론에 따르면 이번 토요일에 시위가 있을 거라 한다.", "a": "aurait", "hint": "✍️ 있을 수도 있고 없을 수도 있음", "explain": "il y a → il y aurait (확인 안 된 정보).", "src": "semaine 11-2 p.11"},
+    {"id": "u5-03-c-hypo-reel", "t": "choice", "skill": "conditionnel", "prompt": "✍️ Si + 반과거, … 조건법은 어떤 상황?", "q": "Si j'étais toi, je donnerais une boîte de Pepero à Jean.", "a": "현실이 아닌 상황을 상상한다", "wrong": ["실제로 일어날 수 있는 상황", "과거에 실제로 있었던 일", "확정된 미래 계획"], "hint": "Je ne suis pas toi, mais imaginons.", "explain": "On imagine une situation qui n'est pas réelle — 나는 네가 아니다.", "star": true, "src": "semaine 11-2 p.12"},
+    {"id": "u5-03-c-donnerais", "t": "choice", "skill": "conditionnel", "prompt": "빈칸에 알맞은 것은?", "q": "Si j'étais toi, je ___ une boîte de Pepero à Jean.", "ko": "내가 너라면 장에게 빼빼로 한 상자를 줄 텐데.", "a": "donnerais", "wrong": ["donnerai", "donnais", "donne"], "hint": "si절이 반과거 → 결과절은?", "explain": "Si + 반과거 → 조건법 donnerais.", "src": "semaine 11-2 p.12"},
+    {"id": "u5-03-t-ferais-won", "t": "type", "skill": "conditionnel", "prompt": "faire를 알맞게", "q": "Si tu étais Jang Won-young, qu'est-ce que tu ___ ?", "ko": "네가 장원영이라면 뭘 하겠어?", "a": "ferais", "alts": ["tu ferais"], "hint": "si + 반과거 → 결과절, 주어 tu", "explain": "tu ferais (fer- + -ais).", "src": "semaine 11-2 p.12"},
+    {"id": "u5-03-err-si-etrais", "t": "error", "skill": "conditionnel", "s": "Si je serais toi, je donnerais une boîte de Pepero à Jean.", "wrong": "je serais", "right": "j'étais", "ko": "내가 너라면 장에게 빼빼로 한 상자를 줄 텐데.", "hint": "si 바로 뒤에 조건법?", "explain": "si절은 반과거 → Si j'étais toi. 조건법은 결과절에만.", "star": true, "src": "semaine 11-2 p.12"},
+    {"id": "u5-03-c-si-possible", "t": "choice", "skill": "conditionnel", "prompt": "✍️ Si + 현재, … 미래는 어떤 상황?", "q": "Si vous vous promenez le 11 novembre en Corée, vous verrez des boîtes de Pepero partout.", "a": "가능한 상황에 대해 말한다", "wrong": ["현실이 아닌 상황을 상상한다", "과거의 습관을 말한다", "확인 안 된 소문을 전한다"], "hint": "On parle d'une situation …", "explain": "Si + présent, … futur simple = situation possible.", "src": "semaine 11-2 p.13"},
+    {"id": "u5-03-c-verrez", "t": "choice", "skill": "futur", "prompt": "빈칸에 알맞은 것은?", "q": "Si vous vous promenez le 11 novembre en Corée, vous ___ des boîtes de Pepero partout.", "ko": "11월 11일에 한국에서 산책하면 어디서나 빼빼로 상자를 보게 될 거예요.", "a": "verrez", "wrong": ["verriez", "voyiez", "voirez"], "hint": "si절이 현재 → 결과절은 미래", "explain": "Si + 현재 → 미래. voir의 미래 어간 verr- → vous verrez.", "src": "semaine 11-2 p.13"},
+    {"id": "u5-03-c-revisions-irreel", "t": "choice", "skill": "conditionnel", "prompt": "'사실 지금은 시간이 없다'는 뜻이 되려면?", "q": "Si j'avais le temps, je ___ des révisions de français.", "ko": "시간이 있다면 프랑스어 복습을 할 텐데.", "a": "ferais", "wrong": ["ferai", "fais", "faisais"], "hint": "비현실 가정의 공식", "explain": "Si + 반과거 → 조건법 (Mais maintenant, en fait, je n'ai pas le temps.)", "src": "semaine 11-2 p.14"},
+    {"id": "u5-03-c-revisions-possible", "t": "choice", "skill": "futur", "prompt": "'시간이 있는 상황이라면 이게 내 계획'이 되려면?", "q": "Si j'ai le temps, je ___ des révisions de français.", "ko": "시간이 있으면 프랑스어 복습을 할 거다.", "a": "ferai", "wrong": ["ferais", "faisais", "ferions"], "hint": "si절이 현재형이에요", "explain": "Si + 현재 → 미래 ferai (가능한 상황의 계획).", "src": "semaine 11-2 p.14"},
+    {"id": "u5-03-b-si-avais", "t": "build", "skill": "conditionnel", "prompt": "문장을 만드세요 (지금은 시간이 없음)", "a": "Si j'avais le temps, je ferais des révisions.", "extra": ["ai", "ferai"], "ko": "시간이 있다면 복습을 할 텐데.", "hint": "si절은 반과거, 결과절은 조건법", "explain": "비현실 가정: Si j'avais …, je ferais …", "src": "semaine 11-2 p.14"},
+    {"id": "u5-03-c-viendrai-viendrais", "t": "choice", "skill": "conditionnel", "prompt": "빈칸에 알맞은 것은?", "q": "Je ___ si je pouvais.", "ko": "올 수 있다면 올 텐데.", "a": "viendrais", "wrong": ["viendrai", "venais", "viens"], "hint": "✍️ 가정하는 상황이 나오면?", "explain": "si je pouvais(반과거 가정) → 조건법 viendrais. cf. Je viendrai demain(확정).", "src": "semaine 11-2 p.15"},
+    {"id": "u5-03-c-viendrai-demain", "t": "choice", "skill": "futur", "prompt": "가정 없이 확정된 약속이라면?", "q": "Je ___ demain.", "ko": "내일 올게.", "a": "viendrai", "wrong": ["viendrais", "venais", "viendrions"], "hint": "조건 없이 확실한 미래", "explain": "Je viendrai demain. — 미래. 조건법 viendrais는 '올 수 있다면' 같은 가정과 함께.", "src": "semaine 11-2 p.15"},
+    {"id": "u5-03-c-partira", "t": "choice", "skill": "futur", "prompt": "✍️ 형광펜: 더 자연스러운 것은?", "q": "Elle a acheté les billets d'avion pour la France. Elle ___ le mois prochain.", "ko": "그녀는 프랑스행 비행기표를 샀다. 다음 달에 떠난다.", "a": "partira", "wrong": ["partirait", "partait", "partirais"], "hint": "✍️ 표를 이미 샀다 = 명확한 계획", "explain": "명확한 계획이 있으니 미래형이 더 자연스럽다 (✍️ 필기).", "star": true, "src": "semaine 11-2 p.15"},
+    {"id": "u5-03-c-dinerais", "t": "choice", "skill": "conditionnel", "prompt": "빈칸에 알맞은 것은?", "q": "Tu ___ avec ton père s'il arrivait à l'heure.", "ko": "아버지가 제시간에 도착한다면 넌 아버지와 저녁을 먹을 텐데.", "a": "dînerais", "wrong": ["dîneras", "dînais", "dînerait"], "hint": "s'il + 반과거가 뒤에 숨어 있어요", "explain": "s'il arrivait(반과거 가정) → 조건법 dînerais. 순서가 바뀌어도 공식은 같다.", "src": "semaine 11-2 p.15"},
+    {"id": "u5-03-c-nuance-filtre", "t": "choice", "skill": "conditionnel", "prompt": "✍️ 필기: 조건법의 느낌은?", "q": "Elle partira / Elle partirait", "a": "partirait = 필터를 씌운 듯 한발 물러나 유보하는 느낌", "wrong": ["partirait = 더 확실하고 단정적인 느낌", "partira = 과거의 습관", "둘은 뜻이 완전히 같다"], "hint": "✍️ 한발 물러나고 …", "explain": "조건법 = 유보·완곡. 확실한 계획엔 미래 partira.", "say": "", "src": "semaine 11-2 p.15"},
+    {"id": "u5-03-w-boite", "t": "word", "skill": "vocab", "fr": "une boîte", "ko": "상자", "g": "f", "src": "semaine 11-2 p.12"},
+    {"id": "u5-03-w-a-lheure", "t": "word", "skill": "vocab", "fr": "à l'heure", "ko": "제시간에", "src": "semaine 11-2 p.15"},
+    {"id": "u5-03-w-partout", "t": "word", "skill": "vocab", "fr": "partout", "ko": "어디에서나", "src": "semaine 11-2 p.13"},
+    {"id": "u5-03-l-partira", "t": "listen", "skill": "pron", "say": "Elle partira", "a": "Elle partira", "wrong": ["Elle partirait", "Elle partait"], "ko": "그녀는 떠날 것이다", "pron": "[엘 빠르띠하]", "hint": "끝소리가 [아]인가 [에]인가", "explain": "partira [-하] 미래 · partirait [-헤] 조건법 · partait [빠르떼] 반과거.", "src": "semaine 11-2 p.15"},
+    {"id": "u5-03-c-mix1-jouais", "t": "choice", "skill": "imparfait", "prompt": "4시제 연습: 알맞은 형태는?", "q": "Quand j'étais petit, je ___ au foot tous les jours.", "ko": "어렸을 때 나는 매일 축구를 했다.", "a": "jouais", "wrong": ["jouerais", "jouerai", "joue"], "hint": "과거의 습관", "explain": "과거 습관 → 반과거 jouais (직접 만든 문제).", "src": "semaine 11-2 p.17"},
+    {"id": "u5-03-c-mix2-partirions", "t": "choice", "skill": "conditionnel", "prompt": "4시제 연습: 알맞은 형태는?", "q": "Si nous avions une voiture, nous ___ en vacances.", "ko": "차가 있다면 우리는 휴가를 떠날 텐데.", "a": "partirions", "wrong": ["partirons", "partions", "partons"], "hint": "si + 반과거 → 결과절", "explain": "Si + 반과거 → 조건법 partirions (직접 만든 문제).", "src": "semaine 11-2 p.17"},
+    {"id": "u5-03-t-mix3-preparerai", "t": "type", "skill": "futur", "prompt": "4시제 연습: préparer를 알맞게", "q": "Si tu viens ce soir, je ___ un gâteau.", "ko": "오늘 저녁 네가 오면 케이크를 만들게.", "a": "préparerai", "alts": ["je préparerai"], "hint": "si + 현재 → 결과절", "explain": "Si + 현재 → 미래 préparerai (직접 만든 문제).", "src": "semaine 11-2 p.17"},
+    {"id": "u5-03-c-mix4-bois", "t": "choice", "skill": "pres-irr", "prompt": "4시제 연습: 알맞은 형태는?", "q": "Tous les matins, je ___ un café.", "ko": "매일 아침 나는 커피를 마신다.", "a": "bois", "wrong": ["boirais", "boirai", "buvais"], "hint": "지금의 습관 — 가장 기본 시제", "explain": "현재의 습관 → 현재형 je bois (직접 만든 문제).", "src": "semaine 11-2 p.17"},
+    {"id": "u5-03-c-mix5-pourriez", "t": "choice", "skill": "conditionnel", "prompt": "4시제 연습: 공손하게 부탁하려면?", "q": "___-vous fermer la fenêtre, s'il vous plaît ?", "ko": "창문 좀 닫아 주시겠어요?", "a": "Pourriez", "wrong": ["Pourrez", "Pouviez", "Pourriions"], "hint": "부탁 = 조건법", "explain": "Pourriez-vous … ? 공손한 부탁 (직접 만든 문제).", "src": "semaine 11-2 p.17"},
+    {"id": "u5-03-c-mix6-allions", "t": "choice", "skill": "imparfait", "prompt": "4시제 연습: 알맞은 형태는?", "q": "Quand j'étais enfant, nous ___ à la mer chaque été.", "ko": "어렸을 때 우리는 여름마다 바다에 가곤 했다.", "a": "allions", "wrong": ["irions", "irons", "allons"], "hint": "과거에 반복된 일", "explain": "과거 습관 → 반과거 allions (직접 만든 문제).", "src": "semaine 11-2 p.17"},
+    {"id": "u5-03-c-mix7-serons", "t": "choice", "skill": "futur", "prompt": "4시제 연습: 알맞은 형태는?", "q": "L'année prochaine, nous ___ en France. Nous avons déjà nos billets.", "ko": "내년에 우리는 프랑스에 있을 것이다. 이미 표가 있다.", "a": "serons", "wrong": ["serions", "étions", "sommes été"], "hint": "확실한 계획 → ?", "explain": "명확한 계획 → 미래 serons (직접 만든 문제).", "src": "semaine 11-2 p.17"},
+    {"id": "u5-03-c-mix8-aimerait", "t": "choice", "skill": "conditionnel", "prompt": "4시제 연습: 소원을 말하려면?", "q": "Ma sœur ___ apprendre le coréen.", "ko": "내 여동생은 한국어를 배우고 싶어 한다.", "a": "aimerait", "wrong": ["aimera", "aimait", "aimerais"], "hint": "소원 + 3인칭 단수", "explain": "소원 → 조건법 aimerait (직접 만든 문제).", "src": "semaine 11-2 p.17"}
+  ]
+}
